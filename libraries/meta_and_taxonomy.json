@@ -216,6 +216,30 @@
           "total_entries": 326,
           "official_sources_added": 246
         }
+      },
+      {
+        "date": "2026-02-17",
+        "version": "4.1.1",
+        "changes": [
+          "准备阶段35条核心章节逐条去模板化重写answer_short",
+          "逐条补齐项目级官方证据（admission/curriculum/requirements/deadline）",
+          "增强准备到申请出口：加速分支接入申请章并补执行动作"
+        ],
+        "metrics": {
+          "upgraded_prepare_entries": 35
+        }
+      },
+      {
+        "date": "2026-02-17",
+        "version": "4.1.2",
+        "changes": [
+          "准备阶段剩余33条模板短答逐条去模板化改写",
+          "国别代表项目清单章加速分支直连本国申请章",
+          "补充准备章节出章触发语句，强化执行闭环"
+        ],
+        "metrics": {
+          "upgraded_prepare_entries": 33
+        }
       }
     ],
     "library_aliases": {
@@ -237,7 +261,7 @@
       "项目差异",
       "学校特例"
     ],
-    "content_refresh_status": "narrative-v4.8-full-release",
+    "content_refresh_status": "narrative-v4.9.1-prepare-preapply-depth",
     "last_source_refresh_at": "2026-02-17"
   },
   "taxonomy": {
