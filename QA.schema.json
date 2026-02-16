@@ -1,0 +1,1474 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/qa.schema.json",
+  "title": "授课型硕士留学百科全书 QA Schema (Narrative V4)",
+  "type": "object",
+  "required": [
+    "meta",
+    "taxonomy",
+    "reserved_scaffold",
+    "mvp",
+    "country_library",
+    "major_library",
+    "return_to_china_module",
+    "future_backlog"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "project_name",
+        "schema_version",
+        "created_at",
+        "updated_at",
+        "language",
+        "maintainer",
+        "review_cycle",
+        "timezone"
+      ],
+      "properties": {
+        "project_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "schema_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "language": {
+          "type": "string",
+          "minLength": 1
+        },
+        "maintainer": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "review_cycle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "timezone": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string"
+        },
+        "changelog": {
+          "type": "array"
+        },
+        "library_aliases": {
+          "type": "object"
+        },
+        "content_refresh_status": {
+          "type": "string"
+        },
+        "last_source_refresh_at": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "additionalProperties": true
+    },
+    "taxonomy": {
+      "type": "object",
+      "required": [
+        "phase_enum",
+        "status_enum",
+        "priority_enum",
+        "review_cycle_days"
+      ],
+      "properties": {
+        "phase_enum": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "status_enum": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "backlog_status_enum": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "priority_enum": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "review_cycle_days": {
+          "type": "object",
+          "required": [
+            "P0",
+            "P1",
+            "P2"
+          ],
+          "properties": {
+            "P0": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "P1": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "P2": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        "risk_level_enum": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "budget_band_enum": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "persona_enum": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "validation_targets": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "reserved_scaffold": {
+      "type": "object",
+      "required": [
+        "entry_template"
+      ],
+      "properties": {
+        "entry_template": {
+          "$ref": "#/$defs/entry_template"
+        },
+        "global_reserved_slots": {
+          "type": "object"
+        },
+        "production_rules": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": true
+    },
+    "mvp": {
+      "$ref": "#/$defs/library"
+    },
+    "country_library": {
+      "$ref": "#/$defs/library"
+    },
+    "major_library": {
+      "$ref": "#/$defs/library"
+    },
+    "return_to_china_module": {
+      "$ref": "#/$defs/library"
+    },
+    "future_backlog": {
+      "type": "object",
+      "required": [
+        "dynamic_high_priority",
+        "capacity_plan"
+      ],
+      "properties": {
+        "dynamic_high_priority": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/backlog_entry"
+          }
+        },
+        "capacity_plan": {
+          "type": "object",
+          "additionalProperties": {
+            "type": [
+              "number",
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "library": {
+      "type": "object",
+      "required": [
+        "total_entries",
+        "total_volumes",
+        "volumes"
+      ],
+      "properties": {
+        "total_entries": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "total_volumes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "volumes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/volume"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "volume": {
+      "type": "object",
+      "required": [
+        "volume_id",
+        "entries"
+      ],
+      "properties": {
+        "volume_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "entries": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "title",
+        "url",
+        "publisher",
+        "type",
+        "retrieved_at",
+        "note"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "official",
+            "framework",
+            "data",
+            "manual_required",
+            "reference",
+            "other",
+            "exam",
+            "credential",
+            "labour"
+          ]
+        },
+        "retrieved_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "policy_clause": {
+      "type": "object",
+      "required": [
+        "field",
+        "official_clause",
+        "source_url",
+        "effective_date"
+      ],
+      "properties": {
+        "field": {
+          "type": "string",
+          "minLength": 1
+        },
+        "official_clause": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "effective_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "entry": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "phase",
+        "status",
+        "priority",
+        "owner",
+        "updated_at",
+        "tags",
+        "question_canonical",
+        "question_aliases",
+        "answer_short",
+        "answer_long",
+        "outline",
+        "aliases",
+        "keywords",
+        "related_ids",
+        "depends_on",
+        "see_also",
+        "country_tags",
+        "major_tags",
+        "persona_tags",
+        "prerequisites",
+        "risk_level",
+        "budget_band",
+        "policy_sensitive",
+        "sources",
+        "official_links",
+        "jurisdiction",
+        "last_verified_at",
+        "next_review_at",
+        "valid_for",
+        "review_notes",
+        "last_editor",
+        "confidence_score",
+        "evidence_count",
+        "review_log",
+        "publish_blockers",
+        "policy_clause_snapshot",
+        "change_monitor",
+        "scope_type",
+        "publication_state",
+        "publish_ready",
+        "narrative_layer",
+        "micro_case",
+        "chapter_hook",
+        "previous_chapter_id",
+        "next_chapter_id",
+        "branch_condition",
+        "ending_type",
+        "time_anchor",
+        "budget_ledger",
+        "persona_profile",
+        "editorial_notes",
+        "story_version"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "phase": {
+          "type": "string",
+          "enum": [
+            "准备",
+            "申请",
+            "录取",
+            "签证",
+            "行前",
+            "在读",
+            "求职",
+            "综合"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "todo",
+            "draft",
+            "review",
+            "ready",
+            "published",
+            "archived",
+            "reserved",
+            "blocked"
+          ]
+        },
+        "priority": {
+          "type": "string",
+          "enum": [
+            "P0",
+            "P1",
+            "P2"
+          ]
+        },
+        "owner": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "updated_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "question_canonical": {
+          "type": "string",
+          "minLength": 1
+        },
+        "question_aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2
+        },
+        "answer_short": {
+          "type": "string",
+          "minLength": 1
+        },
+        "answer_long": {
+          "type": "string",
+          "minLength": 1
+        },
+        "outline": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 4
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "related_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "depends_on": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "see_also": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "country_tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "major_tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "persona_tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "prerequisites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "risk_level": {
+          "type": "string"
+        },
+        "budget_band": {
+          "type": "string"
+        },
+        "policy_sensitive": {
+          "type": "boolean"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          },
+          "minItems": 1
+        },
+        "official_links": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "jurisdiction": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "last_verified_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_review_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "valid_for": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "review_notes": {
+          "type": "string"
+        },
+        "last_editor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "confidence_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "evidence_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "review_log": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "minItems": 1
+        },
+        "publish_blockers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "policy_clause_snapshot": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/policy_clause"
+          }
+        },
+        "change_monitor": {
+          "type": "object"
+        },
+        "manual_fill_fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "draft_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "needs_human_review": {
+          "type": "boolean"
+        },
+        "scope_type": {
+          "type": "string",
+          "enum": [
+            "global",
+            "country",
+            "major",
+            "return"
+          ]
+        },
+        "publication_state": {
+          "type": "string",
+          "enum": [
+            "drafting",
+            "reviewing",
+            "ready",
+            "published",
+            "blocked"
+          ]
+        },
+        "publish_ready": {
+          "type": "boolean"
+        },
+        "narrative_layer": {
+          "type": "object",
+          "required": [
+            "protagonist",
+            "goal",
+            "conflict",
+            "choice",
+            "result",
+            "foreshadow"
+          ],
+          "properties": {
+            "protagonist": {
+              "type": "string",
+              "minLength": 1
+            },
+            "goal": {
+              "type": "string",
+              "minLength": 1
+            },
+            "conflict": {
+              "type": "string",
+              "minLength": 1
+            },
+            "choice": {
+              "type": "string",
+              "minLength": 1
+            },
+            "result": {
+              "type": "string",
+              "minLength": 1
+            },
+            "foreshadow": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "micro_case": {
+          "type": "object",
+          "required": [
+            "background",
+            "decision",
+            "action",
+            "outcome",
+            "review"
+          ],
+          "properties": {
+            "background": {
+              "type": "string",
+              "minLength": 1
+            },
+            "decision": {
+              "type": "string",
+              "minLength": 1
+            },
+            "action": {
+              "type": "string",
+              "minLength": 1
+            },
+            "outcome": {
+              "type": "string",
+              "minLength": 1
+            },
+            "review": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "chapter_hook": {
+          "type": "object",
+          "required": [
+            "next_action",
+            "failure_warning",
+            "next_chapter_teaser"
+          ],
+          "properties": {
+            "next_action": {
+              "type": "string",
+              "minLength": 1
+            },
+            "failure_warning": {
+              "type": "string",
+              "minLength": 1
+            },
+            "next_chapter_teaser": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "previous_chapter_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_chapter_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "branch_condition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ending_type": {
+          "type": "string",
+          "enum": [
+            "推进分支",
+            "风险节点",
+            "阶段收束"
+          ]
+        },
+        "time_anchor": {
+          "type": "object",
+          "required": [
+            "anchor_label",
+            "urgency_window",
+            "deadline_hint",
+            "failure_cost"
+          ],
+          "properties": {
+            "anchor_label": {
+              "type": "string",
+              "minLength": 1
+            },
+            "urgency_window": {
+              "type": "string",
+              "minLength": 1
+            },
+            "deadline_hint": {
+              "type": "string",
+              "minLength": 1
+            },
+            "failure_cost": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "budget_ledger": {
+          "type": "object",
+          "required": [
+            "currency",
+            "application_cost",
+            "tuition_cost",
+            "living_cost",
+            "contingency_fund",
+            "funding_strategy"
+          ],
+          "properties": {
+            "currency": {
+              "type": "string",
+              "minLength": 1
+            },
+            "application_cost": {
+              "type": "string",
+              "minLength": 1
+            },
+            "tuition_cost": {
+              "type": "string",
+              "minLength": 1
+            },
+            "living_cost": {
+              "type": "string",
+              "minLength": 1
+            },
+            "contingency_fund": {
+              "type": "string",
+              "minLength": 1
+            },
+            "funding_strategy": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "persona_profile": {
+          "type": "object",
+          "required": [
+            "gpa_band",
+            "budget_segment",
+            "work_years",
+            "target_city_tier",
+            "risk_preference"
+          ],
+          "properties": {
+            "gpa_band": {
+              "type": "string",
+              "minLength": 1
+            },
+            "budget_segment": {
+              "type": "string",
+              "minLength": 1
+            },
+            "work_years": {
+              "type": "string",
+              "minLength": 1
+            },
+            "target_city_tier": {
+              "type": "string",
+              "minLength": 1
+            },
+            "risk_preference": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "editorial_notes": {
+          "type": "string",
+          "minLength": 1
+        },
+        "story_version": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "entry_template": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "phase",
+        "status",
+        "priority",
+        "owner",
+        "updated_at",
+        "tags",
+        "question_canonical",
+        "question_aliases",
+        "answer_short",
+        "answer_long",
+        "outline",
+        "aliases",
+        "keywords",
+        "related_ids",
+        "depends_on",
+        "see_also",
+        "country_tags",
+        "major_tags",
+        "persona_tags",
+        "prerequisites",
+        "risk_level",
+        "budget_band",
+        "policy_sensitive",
+        "sources",
+        "official_links",
+        "jurisdiction",
+        "last_verified_at",
+        "next_review_at",
+        "valid_for",
+        "review_notes",
+        "last_editor",
+        "confidence_score",
+        "evidence_count",
+        "review_log",
+        "publish_blockers",
+        "policy_clause_snapshot",
+        "change_monitor",
+        "scope_type",
+        "publication_state",
+        "publish_ready",
+        "narrative_layer",
+        "micro_case",
+        "chapter_hook",
+        "previous_chapter_id",
+        "next_chapter_id",
+        "branch_condition",
+        "ending_type",
+        "time_anchor",
+        "budget_ledger",
+        "persona_profile",
+        "editorial_notes",
+        "story_version"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "phase": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "priority": {
+          "type": "string"
+        },
+        "owner": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "updated_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "question_canonical": {
+          "type": "string"
+        },
+        "question_aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "answer_short": {
+          "type": "string"
+        },
+        "answer_long": {
+          "type": "string"
+        },
+        "outline": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "related_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "depends_on": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "see_also": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "country_tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "major_tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "persona_tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "prerequisites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "risk_level": {
+          "type": "string"
+        },
+        "budget_band": {
+          "type": "string"
+        },
+        "policy_sensitive": {
+          "type": "boolean"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "official_links": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "jurisdiction": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "last_verified_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_review_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "valid_for": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "review_notes": {
+          "type": "string"
+        },
+        "last_editor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "confidence_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "evidence_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "review_log": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "publish_blockers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "policy_clause_snapshot": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/policy_clause"
+          }
+        },
+        "change_monitor": {
+          "type": "object"
+        },
+        "manual_fill_fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "draft_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "needs_human_review": {
+          "type": "boolean"
+        },
+        "scope_type": {
+          "type": "string"
+        },
+        "publication_state": {
+          "type": "string"
+        },
+        "publish_ready": {
+          "type": "boolean"
+        },
+        "narrative_layer": {
+          "type": "object",
+          "required": [
+            "protagonist",
+            "goal",
+            "conflict",
+            "choice",
+            "result",
+            "foreshadow"
+          ],
+          "properties": {
+            "protagonist": {
+              "type": "string",
+              "minLength": 1
+            },
+            "goal": {
+              "type": "string",
+              "minLength": 1
+            },
+            "conflict": {
+              "type": "string",
+              "minLength": 1
+            },
+            "choice": {
+              "type": "string",
+              "minLength": 1
+            },
+            "result": {
+              "type": "string",
+              "minLength": 1
+            },
+            "foreshadow": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "micro_case": {
+          "type": "object",
+          "required": [
+            "background",
+            "decision",
+            "action",
+            "outcome",
+            "review"
+          ],
+          "properties": {
+            "background": {
+              "type": "string",
+              "minLength": 1
+            },
+            "decision": {
+              "type": "string",
+              "minLength": 1
+            },
+            "action": {
+              "type": "string",
+              "minLength": 1
+            },
+            "outcome": {
+              "type": "string",
+              "minLength": 1
+            },
+            "review": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "chapter_hook": {
+          "type": "object",
+          "required": [
+            "next_action",
+            "failure_warning",
+            "next_chapter_teaser"
+          ],
+          "properties": {
+            "next_action": {
+              "type": "string",
+              "minLength": 1
+            },
+            "failure_warning": {
+              "type": "string",
+              "minLength": 1
+            },
+            "next_chapter_teaser": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "previous_chapter_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_chapter_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "branch_condition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ending_type": {
+          "type": "string",
+          "enum": [
+            "推进分支",
+            "风险节点",
+            "阶段收束"
+          ]
+        },
+        "time_anchor": {
+          "type": "object",
+          "required": [
+            "anchor_label",
+            "urgency_window",
+            "deadline_hint",
+            "failure_cost"
+          ],
+          "properties": {
+            "anchor_label": {
+              "type": "string",
+              "minLength": 1
+            },
+            "urgency_window": {
+              "type": "string",
+              "minLength": 1
+            },
+            "deadline_hint": {
+              "type": "string",
+              "minLength": 1
+            },
+            "failure_cost": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "budget_ledger": {
+          "type": "object",
+          "required": [
+            "currency",
+            "application_cost",
+            "tuition_cost",
+            "living_cost",
+            "contingency_fund",
+            "funding_strategy"
+          ],
+          "properties": {
+            "currency": {
+              "type": "string",
+              "minLength": 1
+            },
+            "application_cost": {
+              "type": "string",
+              "minLength": 1
+            },
+            "tuition_cost": {
+              "type": "string",
+              "minLength": 1
+            },
+            "living_cost": {
+              "type": "string",
+              "minLength": 1
+            },
+            "contingency_fund": {
+              "type": "string",
+              "minLength": 1
+            },
+            "funding_strategy": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "persona_profile": {
+          "type": "object",
+          "required": [
+            "gpa_band",
+            "budget_segment",
+            "work_years",
+            "target_city_tier",
+            "risk_preference"
+          ],
+          "properties": {
+            "gpa_band": {
+              "type": "string",
+              "minLength": 1
+            },
+            "budget_segment": {
+              "type": "string",
+              "minLength": 1
+            },
+            "work_years": {
+              "type": "string",
+              "minLength": 1
+            },
+            "target_city_tier": {
+              "type": "string",
+              "minLength": 1
+            },
+            "risk_preference": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "editorial_notes": {
+          "type": "string",
+          "minLength": 1
+        },
+        "story_version": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "backlog_entry": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "status",
+        "priority",
+        "owner",
+        "updated_at"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "priority": {
+          "type": "string",
+          "enum": [
+            "P0",
+            "P1",
+            "P2"
+          ]
+        },
+        "owner": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "updated_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "required_fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

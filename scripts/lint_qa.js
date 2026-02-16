@@ -1,0 +1,551 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+
+const workspace = path.resolve(__dirname, '..');
+const qaPath = path.join(workspace, 'QA.json');
+const schemaPath = path.join(workspace, 'QA.schema.json');
+
+function fail(msg, errors) {
+  errors.push(msg);
+}
+
+function parseDate(value) {
+  if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return null;
+  const d = new Date(`${value}T00:00:00Z`);
+  if (Number.isNaN(d.getTime())) return null;
+  return d;
+}
+
+function dayDiff(from, to) {
+  const a = parseDate(from);
+  const b = parseDate(to);
+  if (!a || !b) return null;
+  const ms = b.getTime() - a.getTime();
+  return Math.round(ms / (24 * 3600 * 1000));
+}
+
+function collectEntries(qa) {
+  const buckets = [
+    qa.mvp?.volumes || [],
+    qa.country_library?.volumes || [],
+    qa.major_library?.volumes || [],
+    qa.return_to_china_module?.volumes || []
+  ];
+  return buckets.flatMap((volumes) => volumes.flatMap((v) => v.entries || []));
+}
+
+function checkTotals(library, name, errors) {
+  if (!library) {
+    fail(`${name}: missing library`, errors);
+    return;
+  }
+  const actualVolumes = (library.volumes || []).length;
+  const actualEntries = (library.volumes || []).reduce((sum, v) => sum + (v.entries || []).length, 0);
+
+  if (library.total_volumes !== actualVolumes) {
+    fail(`${name}.total_volumes=${library.total_volumes} but actual=${actualVolumes}`, errors);
+  }
+  if (library.total_entries !== actualEntries) {
+    fail(`${name}.total_entries=${library.total_entries} but actual=${actualEntries}`, errors);
+  }
+}
+
+function isPlaceholderText(text) {
+  return typeof text === 'string' && /待补|待你补充|TBD|USER_FILL/.test(text);
+}
+
+function isValidSource(src, allowedSourceTypes) {
+  if (!src || typeof src !== 'object') return false;
+  if (typeof src.type !== 'string' || !allowedSourceTypes.has(src.type)) return false;
+  if (src.type === 'manual_required') return false;
+  if (typeof src.url !== 'string' || !/^https?:\/\//.test(src.url)) return false;
+  if (!src.publisher || /^(TBD|USER_FILL)$/i.test(src.publisher)) return false;
+  return true;
+}
+
+function hasFiveSectionNarrative(answerLong) {
+  if (typeof answerLong !== 'string') return false;
+  const req = ['场景开场：', '冲突升级：', '抉择路径：', '结果分歧：', '下一章入口：'];
+  return req.every((token) => answerLong.includes(token));
+}
+
+function main() {
+  const errors = [];
+
+  let qa;
+  let schema;
+
+  try {
+    qa = JSON.parse(fs.readFileSync(qaPath, 'utf8'));
+  } catch (err) {
+    console.error(`Failed to parse QA.json: ${err.message}`);
+    process.exit(1);
+  }
+
+  try {
+    schema = JSON.parse(fs.readFileSync(schemaPath, 'utf8'));
+  } catch (err) {
+    console.error(`Failed to parse QA.schema.json: ${err.message}`);
+    process.exit(1);
+  }
+
+  const requiredTopLevel = [
+    'meta',
+    'taxonomy',
+    'reserved_scaffold',
+    'mvp',
+    'country_library',
+    'major_library',
+    'return_to_china_module',
+    'future_backlog'
+  ];
+
+  for (const key of requiredTopLevel) {
+    if (!(key in qa)) {
+      fail(`Missing top-level key: ${key}`, errors);
+    }
+  }
+
+  const phaseEnum = qa.taxonomy?.phase_enum;
+  const statusEnum = qa.taxonomy?.status_enum;
+  const backlogStatusEnum = qa.taxonomy?.backlog_status_enum;
+  const reviewCycleDays = qa.taxonomy?.review_cycle_days || { P0: 45, P1: 90, P2: 180 };
+  const schemaSourceTypes = new Set(schema?.$defs?.source?.properties?.type?.enum || []);
+
+  if (!Array.isArray(phaseEnum) || phaseEnum.length === 0) fail('taxonomy.phase_enum is missing or empty', errors);
+  if (!Array.isArray(statusEnum) || statusEnum.length === 0) fail('taxonomy.status_enum is missing or empty', errors);
+
+  if (!schemaSourceTypes.size) {
+    fail('schema.$defs.source.properties.type.enum is missing', errors);
+  }
+
+  checkTotals(qa.mvp, 'mvp', errors);
+  checkTotals(qa.country_library, 'country_library', errors);
+  checkTotals(qa.major_library, 'major_library', errors);
+  checkTotals(qa.return_to_china_module, 'return_to_china_module', errors);
+
+  const allEntries = collectEntries(qa);
+  const allBacklog = qa.future_backlog?.dynamic_high_priority || [];
+  const allEntryIds = new Set(allEntries.map((e) => e.id));
+
+  const idSet = new Set();
+  for (const entry of [...allEntries, ...allBacklog]) {
+    if (!entry || typeof entry !== 'object') {
+      fail('Found non-object entry in content or backlog', errors);
+      continue;
+    }
+    if (!entry.id || typeof entry.id !== 'string') {
+      fail('Found entry without valid id', errors);
+      continue;
+    }
+    if (idSet.has(entry.id)) {
+      fail(`Duplicate id detected: ${entry.id}`, errors);
+      continue;
+    }
+    idSet.add(entry.id);
+  }
+
+  const entryRequired = [
+    'id',
+    'title',
+    'phase',
+    'status',
+    'priority',
+    'owner',
+    'updated_at',
+    'question_canonical',
+    'question_aliases',
+    'answer_short',
+    'answer_long',
+    'outline',
+    'related_ids',
+    'depends_on',
+    'see_also',
+    'persona_tags',
+    'risk_level',
+    'budget_band',
+    'sources',
+    'evidence_count',
+    'publish_blockers',
+    'policy_clause_snapshot',
+    'scope_type',
+    'publication_state',
+    'publish_ready',
+    'narrative_layer',
+    'micro_case',
+    'chapter_hook',
+    'previous_chapter_id',
+    'next_chapter_id',
+    'branch_condition',
+    'ending_type',
+    'time_anchor',
+    'budget_ledger',
+    'persona_profile',
+    'editorial_notes',
+    'story_version'
+  ];
+
+  const phaseRank = {
+    '综合': 0,
+    '准备': 1,
+    '申请': 2,
+    '录取': 3,
+    '签证': 4,
+    '行前': 5,
+    '在读': 6,
+    '求职': 7
+  };
+
+  let oldPatternCount = 0;
+  let fiveSectionCount = 0;
+  let routeCompleteCount = 0;
+
+  for (const entry of allEntries) {
+    for (const key of entryRequired) {
+      if (!(key in entry)) {
+        fail(`${entry.id}: missing required field ${key}`, errors);
+      }
+    }
+
+    if (Array.isArray(phaseEnum) && !phaseEnum.includes(entry.phase)) {
+      fail(`${entry.id}: invalid phase ${entry.phase}`, errors);
+    }
+
+    if (Array.isArray(statusEnum) && !statusEnum.includes(entry.status)) {
+      fail(`${entry.id}: status "${entry.status}" not found in taxonomy.status_enum`, errors);
+    }
+
+    if (!parseDate(entry.updated_at)) {
+      fail(`${entry.id}: updated_at must be a valid date`, errors);
+    }
+
+    if (!Array.isArray(entry.outline) || entry.outline.length < 4) {
+      fail(`${entry.id}: outline should contain at least 4 items`, errors);
+    }
+
+    if (!Array.isArray(entry.question_aliases) || entry.question_aliases.length < 2) {
+      fail(`${entry.id}: question_aliases should contain at least 2 variants`, errors);
+    }
+
+    if (typeof entry.question_canonical !== 'string' || entry.question_canonical.trim() === '') {
+      fail(`${entry.id}: question_canonical cannot be empty`, errors);
+    }
+    if (/^.+阶段：.+该怎么做？$/.test(entry.question_canonical)) {
+      oldPatternCount += 1;
+    }
+
+    if (typeof entry.answer_short !== 'string' || entry.answer_short.trim() === '') {
+      fail(`${entry.id}: answer_short cannot be empty`, errors);
+    }
+
+    if (typeof entry.answer_long !== 'string' || entry.answer_long.trim() === '') {
+      fail(`${entry.id}: answer_long cannot be empty`, errors);
+    } else {
+      if (!hasFiveSectionNarrative(entry.answer_long)) {
+        fail(`${entry.id}: answer_long must include five-section narrative markers`, errors);
+      } else {
+        fiveSectionCount += 1;
+      }
+      if (entry.answer_long.length < 220) {
+        fail(`${entry.id}: answer_long is too short for narrative mode`, errors);
+      }
+      if (/发布门槛|证据要求|政策校验：请在发布前补齐/.test(entry.answer_long)) {
+        fail(`${entry.id}: editorial phrases should not remain in answer_long`, errors);
+      }
+    }
+
+    if (typeof entry.story_version !== 'string' || entry.story_version.trim() === '') {
+      fail(`${entry.id}: story_version must be non-empty`, errors);
+    }
+
+    const nl = entry.narrative_layer;
+    if (!nl || typeof nl !== 'object') {
+      fail(`${entry.id}: narrative_layer must be an object`, errors);
+    } else {
+      for (const f of ['protagonist', 'goal', 'conflict', 'choice', 'result', 'foreshadow']) {
+        if (typeof nl[f] !== 'string' || nl[f].trim() === '') {
+          fail(`${entry.id}: narrative_layer.${f} must be non-empty`, errors);
+        }
+      }
+    }
+
+    const mc = entry.micro_case;
+    if (!mc || typeof mc !== 'object') {
+      fail(`${entry.id}: micro_case must be an object`, errors);
+    } else {
+      for (const f of ['background', 'decision', 'action', 'outcome', 'review']) {
+        if (typeof mc[f] !== 'string' || mc[f].trim() === '') {
+          fail(`${entry.id}: micro_case.${f} must be non-empty`, errors);
+        }
+      }
+    }
+
+    const ch = entry.chapter_hook;
+    if (!ch || typeof ch !== 'object') {
+      fail(`${entry.id}: chapter_hook must be an object`, errors);
+    } else {
+      for (const f of ['next_action', 'failure_warning', 'next_chapter_teaser']) {
+        if (typeof ch[f] !== 'string' || ch[f].trim() === '') {
+          fail(`${entry.id}: chapter_hook.${f} must be non-empty`, errors);
+        }
+      }
+    }
+
+    const ta = entry.time_anchor;
+    if (!ta || typeof ta !== 'object') {
+      fail(`${entry.id}: time_anchor must be an object`, errors);
+    } else {
+      for (const f of ['anchor_label', 'urgency_window', 'deadline_hint', 'failure_cost']) {
+        if (typeof ta[f] !== 'string' || ta[f].trim() === '') {
+          fail(`${entry.id}: time_anchor.${f} must be non-empty`, errors);
+        }
+      }
+    }
+
+    const bl = entry.budget_ledger;
+    if (!bl || typeof bl !== 'object') {
+      fail(`${entry.id}: budget_ledger must be an object`, errors);
+    } else {
+      for (const f of ['currency', 'application_cost', 'tuition_cost', 'living_cost', 'contingency_fund', 'funding_strategy']) {
+        if (typeof bl[f] !== 'string' || bl[f].trim() === '') {
+          fail(`${entry.id}: budget_ledger.${f} must be non-empty`, errors);
+        }
+      }
+      if (!/\d/.test(bl.application_cost + bl.tuition_cost + bl.living_cost + bl.contingency_fund)) {
+        fail(`${entry.id}: budget_ledger should contain numeric ranges`, errors);
+      }
+    }
+
+    const pp = entry.persona_profile;
+    if (!pp || typeof pp !== 'object') {
+      fail(`${entry.id}: persona_profile must be an object`, errors);
+    } else {
+      for (const f of ['gpa_band', 'budget_segment', 'work_years', 'target_city_tier', 'risk_preference']) {
+        if (typeof pp[f] !== 'string' || pp[f].trim() === '') {
+          fail(`${entry.id}: persona_profile.${f} must be non-empty`, errors);
+        }
+      }
+    }
+
+    if (!Array.isArray(entry.persona_tags) || entry.persona_tags.length === 0) {
+      fail(`${entry.id}: persona_tags should not be empty`, errors);
+    }
+
+    if (typeof entry.editorial_notes !== 'string' || entry.editorial_notes.trim() === '') {
+      fail(`${entry.id}: editorial_notes must be non-empty`, errors);
+    }
+
+    if (!Array.isArray(entry.related_ids)) {
+      fail(`${entry.id}: related_ids must be an array`, errors);
+    }
+
+    if (!Array.isArray(entry.see_also) || entry.see_also.length === 0) {
+      fail(`${entry.id}: see_also should not be empty`, errors);
+    }
+
+    if (!Array.isArray(entry.depends_on)) {
+      fail(`${entry.id}: depends_on must be an array`, errors);
+    }
+
+    for (const refField of ['related_ids', 'depends_on', 'see_also']) {
+      for (const refId of entry[refField] || []) {
+        if (!allEntryIds.has(refId)) {
+          fail(`${entry.id}: ${refField} contains unknown id ${refId}`, errors);
+        }
+      }
+    }
+
+    if (entry.previous_chapter_id !== null && !allEntryIds.has(entry.previous_chapter_id)) {
+      fail(`${entry.id}: previous_chapter_id is unknown`, errors);
+    }
+    if (entry.next_chapter_id !== null && !allEntryIds.has(entry.next_chapter_id)) {
+      fail(`${entry.id}: next_chapter_id is unknown`, errors);
+    }
+
+    if (typeof entry.branch_condition !== 'string' || entry.branch_condition.trim() === '') {
+      fail(`${entry.id}: branch_condition must be non-empty`, errors);
+    }
+
+    if (!['推进分支', '风险节点', '阶段收束'].includes(entry.ending_type)) {
+      fail(`${entry.id}: ending_type is invalid`, errors);
+    }
+
+    if (entry.next_chapter_id && typeof entry.branch_condition === 'string' && entry.ending_type) {
+      routeCompleteCount += 1;
+    }
+
+    for (const depId of entry.depends_on || []) {
+      const dep = allEntries.find((x) => x.id === depId);
+      if (!dep) continue;
+      const depRank = phaseRank[dep.phase] ?? 99;
+      const curRank = phaseRank[entry.phase] ?? 99;
+      if (depRank > curRank) {
+        fail(`${entry.id}: depends_on time reverse (${dep.id}:${dep.phase} -> ${entry.phase})`, errors);
+      }
+    }
+
+    if (!Array.isArray(entry.sources) || entry.sources.length === 0) {
+      fail(`${entry.id}: sources must be a non-empty array`, errors);
+    } else {
+      for (const [idx, src] of entry.sources.entries()) {
+        if (!src || typeof src !== 'object') {
+          fail(`${entry.id}: sources[${idx}] must be an object`, errors);
+          continue;
+        }
+        if (!schemaSourceTypes.has(src.type)) {
+          fail(`${entry.id}: sources[${idx}].type=${src.type} not in schema source enum`, errors);
+        }
+      }
+    }
+
+    const validEvidenceCount = (entry.sources || []).filter((src) => isValidSource(src, schemaSourceTypes)).length;
+    if (entry.evidence_count !== validEvidenceCount) {
+      fail(`${entry.id}: evidence_count(${entry.evidence_count}) must equal valid source count(${validEvidenceCount})`, errors);
+    }
+
+    if (!Array.isArray(entry.publish_blockers)) {
+      fail(`${entry.id}: publish_blockers must be an array`, errors);
+    }
+
+    if (!['global', 'country', 'major', 'return'].includes(entry.scope_type)) {
+      fail(`${entry.id}: invalid scope_type ${entry.scope_type}`, errors);
+    }
+
+    if (!['drafting', 'reviewing', 'ready', 'published', 'blocked'].includes(entry.publication_state)) {
+      fail(`${entry.id}: invalid publication_state ${entry.publication_state}`, errors);
+    }
+
+    if (entry.publish_ready === true) {
+      if (!['ready', 'published'].includes(entry.status)) {
+        fail(`${entry.id}: publish_ready=true requires status ready/published`, errors);
+      }
+      if (entry.publish_blockers.length > 0) {
+        fail(`${entry.id}: publish_ready=true but publish_blockers is not empty`, errors);
+      }
+      if (entry.needs_human_review !== false) {
+        fail(`${entry.id}: publish_ready=true requires needs_human_review=false`, errors);
+      }
+    }
+
+    if (entry.policy_sensitive === true) {
+      if (!Array.isArray(entry.jurisdiction) || entry.jurisdiction.length === 0) {
+        fail(`${entry.id}: policy_sensitive entry must have jurisdiction`, errors);
+      }
+      if (!Array.isArray(entry.official_links) || entry.official_links.length === 0) {
+        fail(`${entry.id}: policy_sensitive entry must provide official_links`, errors);
+      }
+      if (!Array.isArray(entry.policy_clause_snapshot) || entry.policy_clause_snapshot.length === 0) {
+        fail(`${entry.id}: policy_sensitive entry must provide policy_clause_snapshot`, errors);
+      }
+      for (const [idx, slot] of entry.policy_clause_snapshot.entries()) {
+        if (!slot || typeof slot !== 'object') {
+          fail(`${entry.id}: policy_clause_snapshot[${idx}] must be object`, errors);
+          continue;
+        }
+        for (const f of ['field', 'official_clause', 'source_url', 'effective_date']) {
+          if (typeof slot[f] !== 'string' || slot[f].trim() === '') {
+            fail(`${entry.id}: policy_clause_snapshot[${idx}].${f} must be non-empty string`, errors);
+          }
+        }
+        if (typeof slot.source_url === 'string' && !/^https?:\/\//.test(slot.source_url)) {
+          fail(`${entry.id}: policy_clause_snapshot[${idx}].source_url must be URL`, errors);
+        }
+        if (entry.publish_ready === true || entry.status === 'published') {
+          if (slot.effective_date === 'USER_FILL_EFFECTIVE_DATE' || isPlaceholderText(slot.effective_date)) {
+            fail(`${entry.id}: ready/published policy entry contains placeholder effective_date`, errors);
+          }
+        }
+      }
+    }
+
+    if (!parseDate(entry.last_verified_at) || !parseDate(entry.next_review_at)) {
+      fail(`${entry.id}: last_verified_at/next_review_at must be valid dates`, errors);
+    } else {
+      const expectedDays = reviewCycleDays[entry.priority];
+      if (typeof expectedDays === 'number') {
+        const diff = dayDiff(entry.last_verified_at, entry.next_review_at);
+        if (diff !== expectedDays) {
+          fail(`${entry.id}: review cycle mismatch, expected ${expectedDays} days but got ${diff}`, errors);
+        }
+        const expectedValidFor = `${expectedDays}天`;
+        if (entry.valid_for !== expectedValidFor) {
+          fail(`${entry.id}: valid_for=${entry.valid_for} should be ${expectedValidFor}`, errors);
+        }
+      }
+    }
+  }
+
+  if (oldPatternCount > 0) {
+    fail(`question_canonical still has old pattern count=${oldPatternCount}`, errors);
+  }
+  if (fiveSectionCount !== allEntries.length) {
+    fail(`five-section narrative coverage mismatch: ${fiveSectionCount}/${allEntries.length}`, errors);
+  }
+  if (routeCompleteCount !== allEntries.length) {
+    fail(`route field coverage mismatch: ${routeCompleteCount}/${allEntries.length}`, errors);
+  }
+
+  for (const b of allBacklog) {
+    if (typeof b.owner !== 'string' || b.owner.trim() === '') {
+      fail(`backlog ${b.id}: owner must be a non-empty string`, errors);
+    }
+    if (!parseDate(b.updated_at)) {
+      fail(`backlog ${b.id}: updated_at must be a valid date`, errors);
+    }
+    if (Array.isArray(backlogStatusEnum) && backlogStatusEnum.length > 0 && !backlogStatusEnum.includes(b.status)) {
+      fail(`backlog ${b.id}: status "${b.status}" not found in taxonomy.backlog_status_enum`, errors);
+    }
+  }
+
+  const splitDir = path.join(workspace, 'libraries');
+  const splitFiles = [
+    'mvp.json',
+    'country_library.json',
+    'major_library.json',
+    'return_to_china_module.json',
+    'future_backlog.json',
+    'meta_and_taxonomy.json'
+  ];
+
+  if (!fs.existsSync(splitDir)) {
+    fail('libraries/ directory is missing (run scripts/split_qa.js)', errors);
+  } else {
+    for (const f of splitFiles) {
+      const p = path.join(splitDir, f);
+      if (!fs.existsSync(p)) {
+        fail(`split file missing: libraries/${f}`, errors);
+      } else {
+        try {
+          JSON.parse(fs.readFileSync(p, 'utf8'));
+        } catch (err) {
+          fail(`split file parse error: libraries/${f} (${err.message})`, errors);
+        }
+      }
+    }
+  }
+
+  if (errors.length > 0) {
+    console.error('QA lint failed with the following issues:');
+    for (const e of errors) console.error(`- ${e}`);
+    process.exit(1);
+  }
+
+  const publishReadyCount = allEntries.filter((e) => e.publish_ready).length;
+  const policyPlaceholderCount = allEntries
+    .filter((e) => e.policy_sensitive)
+    .flatMap((e) => e.policy_clause_snapshot || [])
+    .filter((c) => c.effective_date === 'USER_FILL_EFFECTIVE_DATE').length;
+
+  console.log('QA lint passed');
+  console.log(`- total entries: ${allEntries.length}`);
+  console.log(`- backlog entries: ${allBacklog.length}`);
+  console.log(`- unique ids: ${idSet.size}`);
+  console.log(`- five-section narrative entries: ${fiveSectionCount}`);
+  console.log(`- route-ready entries: ${routeCompleteCount}`);
+  console.log(`- publish_ready entries: ${publishReadyCount}`);
+  console.log(`- policy effective_date placeholders: ${policyPlaceholderCount}`);
+}
+
+main();

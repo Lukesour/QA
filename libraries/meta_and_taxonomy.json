@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "project_name": "授课型硕士留学百科全书",
+    "schema_version": "3.0.0",
+    "created_at": "2026-02-16",
+    "language": "zh-CN",
+    "maintainer": "editorial_board",
+    "description": "包含MVP、国别库、专业库与回国场景模块的可扩展问答知识库结构",
+    "updated_at": "2026-02-16",
+    "review_cycle": "P0每45天/P1每90天/P2每180天",
+    "timezone": "Asia/Shanghai",
+    "changelog": [
+      {
+        "date": "2026-02-16",
+        "version": "2.0.0",
+        "changes": [
+          "顶层 key 去规模硬编码：mvp/country_library/major_library",
+          "312 条主条目升级为 QA 单元并统一 phase 枚举",
+          "新增政策时效字段、检索字段、关联字段与画像字段",
+          "新增回国场景模块与自动校验基线"
+        ]
+      },
+      {
+        "date": "2026-02-16",
+        "version": "2.1.0",
+        "changes": [
+          "owner/status 从占位升级为分层协作流",
+          "全量条目答案去模板化并补充发布门槛",
+          "非政策条目补通用参考来源与项目级来源占位",
+          "新增 V10 签证/行前缺口条目 6 条",
+          "重建 see_also 关联以降低中心节点过载"
+        ]
+      },
+      {
+        "date": "2026-02-16",
+        "version": "2.2.0",
+        "changes": [
+          "新增 scope_type/publication_state/publish_ready 字段并重构发布流语义",
+          "evidence_count 改为有效证据计数，不再把 manual_required 计入证据",
+          "统一 P0/P1/P2 审校周期并回填 next_review_at/valid_for",
+          "政策条目补充法域级官方来源并将条款快照升级为可审计占位模板",
+          "修复先先文案错误并按阶段重构 outline 结构"
+        ]
+      },
+      {
+        "date": "2026-02-16",
+        "version": "2.2.1",
+        "changes": [
+          "56 条 policy_sensitive 条目逐条补写 policy_clause_snapshot 的资格/材料/时限说明",
+          "政策快照字段不再使用通用占位文案，统一改为可执行校验说明",
+          "保留 effective_date 为人工补填位，明确填充格式与来源口径",
+          "回国、国别、MVP、专业四个模块的政策条目完成一致化语义修订"
+        ]
+      },
+      {
+        "date": "2026-02-16",
+        "version": "3.0.0",
+        "changes": [
+          "全库切换为章节叙事结构：场景开场-冲突升级-抉择路径-结果分歧-下一章入口",
+          "新增 narrative_layer/micro_case/chapter_hook/time_anchor/budget_ledger/persona_profile 等字段",
+          "重建 previous_chapter_id/next_chapter_id/branch_condition/ending_type 路由字段",
+          "修复 depends_on 时间倒流并按卷重建章节推进顺序",
+          "source.type 枚举与数据同步（新增 exam/credential/labour）",
+          "将发布门槛与证据要求迁移到 editorial_notes，读者正文不再混入编辑语句"
+        ]
+      }
+    ],
+    "library_aliases": {
+      "mvp_80": "mvp",
+      "country_library_11x8": "country_library",
+      "major_library_18x8": "major_library"
+    },
+    "schema_file": "QA.schema.json",
+    "manual_fill_required_fields": [
+      "owner",
+      "answer_short/answer_long",
+      "sources",
+      "official_links",
+      "last_verified_at",
+      "next_review_at",
+      "valid_for",
+      "条款细则摘录",
+      "案例数据",
+      "项目差异",
+      "学校特例"
+    ],
+    "content_refresh_status": "narrative-v4-full-refactor",
+    "last_source_refresh_at": "2026-02-16"
+  },
+  "taxonomy": {
+    "phase_enum": [
+      "准备",
+      "申请",
+      "录取",
+      "签证",
+      "行前",
+      "在读",
+      "求职",
+      "综合"
+    ],
+    "status_enum": [
+      "todo",
+      "draft",
+      "review",
+      "published",
+      "archived",
+      "reserved",
+      "blocked",
+      "ready"
+    ],
+    "priority_enum": [
+      "P0",
+      "P1",
+      "P2"
+    ],
+    "risk_level_enum": [
+      "低",
+      "中",
+      "高",
+      "待评估"
+    ],
+    "budget_band_enum": [
+      "低预算",
+      "中预算",
+      "高预算",
+      "待评估"
+    ],
+    "persona_enum": [
+      "应届生",
+      "转专业申请者",
+      "在职申请者",
+      "低GPA申请者"
+    ],
+    "validation_targets": [
+      "id唯一",
+      "phase合法",
+      "total_entries一致",
+      "必填字段齐全",
+      "章节字段完整",
+      "叙事五段结构完整",
+      "时间依赖不倒流",
+      "路径字段可达",
+      "source.type 与 schema 枚举一致"
+    ],
+    "phase_mapping_legacy": {
+      "准备期": "准备",
+      "申请期": "申请",
+      "录取期": "录取",
+      "签证期": "签证",
+      "行前期": "行前",
+      "在读期": "在读",
+      "求职期": "求职",
+      "跨阶段": "综合",
+      "申请": "申请",
+      "就读": "在读",
+      "就业": "求职",
+      "综合": "综合"
+    },
+    "backlog_status_enum": [
+      "reserved",
+      "todo",
+      "planned",
+      "in_progress",
+      "done",
+      "archived"
+    ],
+    "review_cycle_days": {
+      "P0": 45,
+      "P1": 90,
+      "P2": 180
+    },
+    "confidence_band": [
+      {
+        "min": 0,
+        "max": 0.59,
+        "label": "低可信"
+      },
+      {
+        "min": 0.6,
+        "max": 0.79,
+        "label": "中可信"
+      },
+      {
+        "min": 0.8,
+        "max": 1,
+        "label": "高可信"
+      }
+    ],
+    "source_type_enum": [
+      "official",
+      "framework",
+      "data",
+      "manual_required",
+      "reference",
+      "other",
+      "exam",
+      "credential",
+      "labour"
+    ],
+    "path_ending_enum": [
+      "推进分支",
+      "风险节点",
+      "阶段收束"
+    ]
+  },
+  "reserved_scaffold": {
+    "entry_template": {
+      "id": "",
+      "title": "",
+      "phase": "准备",
+      "status": "todo",
+      "priority": "P1",
+      "owner": null,
+      "updated_at": null,
+      "tags": [],
+      "question_canonical": "",
+      "question_aliases": [],
+      "answer_short": "",
+      "answer_long": "",
+      "outline": [],
+      "aliases": [],
+      "keywords": [],
+      "related_ids": [],
+      "depends_on": [],
+      "see_also": [],
+      "country_tags": [],
+      "major_tags": [],
+      "persona_tags": [],
+      "prerequisites": [],
+      "risk_level": "待评估",
+      "budget_band": "待评估",
+      "policy_sensitive": false,
+      "sources": [],
+      "official_links": [],
+      "jurisdiction": [],
+      "last_verified_at": null,
+      "next_review_at": null,
+      "valid_for": null,
+      "review_notes": "",
+      "last_editor": null,
+      "confidence_score": 0,
+      "evidence_count": 0,
+      "review_log": [],
+      "publish_blockers": [],
+      "policy_clause_snapshot": [],
+      "change_monitor": {},
+      "manual_fill_fields": [],
+      "draft_version": null,
+      "needs_human_review": true,
+      "scope_type": "global",
+      "publication_state": "drafting",
+      "publish_ready": false,
+      "narrative_layer": {
+        "protagonist": "",
+        "goal": "",
+        "conflict": "",
+        "choice": "",
+        "result": "",
+        "foreshadow": ""
+      },
+      "micro_case": {
+        "background": "",
+        "decision": "",
+        "action": "",
+        "outcome": "",
+        "review": ""
+      },
+      "chapter_hook": {
+        "next_action": "",
+        "failure_warning": "",
+        "next_chapter_teaser": ""
+      },
+      "previous_chapter_id": null,
+      "next_chapter_id": null,
+      "branch_condition": "",
+      "ending_type": "推进分支",
+      "time_anchor": {
+        "anchor_label": "",
+        "urgency_window": "",
+        "deadline_hint": "",
+        "failure_cost": ""
+      },
+      "budget_ledger": {
+        "currency": "CNY",
+        "application_cost": "",
+        "tuition_cost": "",
+        "living_cost": "",
+        "contingency_fund": "",
+        "funding_strategy": ""
+      },
+      "persona_profile": {
+        "gpa_band": "",
+        "budget_segment": "",
+        "work_years": "",
+        "target_city_tier": "",
+        "risk_preference": ""
+      },
+      "editorial_notes": "",
+      "story_version": "v4"
+    },
+    "global_reserved_slots": {
+      "extra_mvp_volumes": [],
+      "extra_country_volumes": [],
+      "extra_major_volumes": [],
+      "faq_entries": [],
+      "case_library_entries": [],
+      "policy_update_entries": [],
+      "city_cost_entries": [],
+      "tool_templates": []
+    },
+    "production_rules": {
+      "atomicity": "一条一核心问题",
+      "answer_requirements": [
+        "answer_short必填",
+        "outline>=3条",
+        "政策条目需官方来源"
+      ],
+      "review_sla": {
+        "P0": "30天",
+        "P1": "90天",
+        "P2": "180天"
+      },
+      "minimum_alias_count": 2,
+      "policy_must_have_sources": true,
+      "policy_source_min_count": 1,
+      "non_policy_source_min_count": 1,
+      "required_publish_fields": [
+        "owner",
+        "last_editor",
+        "confidence_score",
+        "evidence_count",
+        "review_log"
+      ]
+    }
+  }
+}

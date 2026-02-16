@@ -1,0 +1,146 @@
+{
+  "dynamic_high_priority": [
+    {
+      "id": "DYN-001",
+      "title": "各国家年度签证与工签政策更新页",
+      "status": "planned",
+      "priority": "P0",
+      "owner": "team_ops_backlog",
+      "updated_at": "2026-02-16",
+      "notes": "待排期",
+      "required_fields": [
+        "sources",
+        "official_links",
+        "last_verified_at",
+        "next_review_at"
+      ]
+    },
+    {
+      "id": "DYN-002",
+      "title": "院校项目近3年录取偏好与生源画像",
+      "status": "planned",
+      "priority": "P0",
+      "owner": "team_ops_backlog",
+      "updated_at": "2026-02-16",
+      "notes": "待排期",
+      "required_fields": [
+        "sources",
+        "official_links",
+        "last_verified_at",
+        "next_review_at"
+      ]
+    },
+    {
+      "id": "DYN-003",
+      "title": "城市生活成本与租房账本（按学期更新）",
+      "status": "planned",
+      "priority": "P0",
+      "owner": "team_ops_backlog",
+      "updated_at": "2026-02-16",
+      "notes": "待排期",
+      "required_fields": [
+        "sources",
+        "official_links",
+        "last_verified_at",
+        "next_review_at"
+      ]
+    },
+    {
+      "id": "DYN-004",
+      "title": "真实就读体验与课程打分（校友访谈）",
+      "status": "planned",
+      "priority": "P0",
+      "owner": "team_ops_backlog",
+      "updated_at": "2026-02-16",
+      "notes": "待排期",
+      "required_fields": [
+        "sources",
+        "official_links",
+        "last_verified_at",
+        "next_review_at"
+      ]
+    },
+    {
+      "id": "DYN-005",
+      "title": "行业招聘窗口与雇主清单（按城市）",
+      "status": "planned",
+      "priority": "P0",
+      "owner": "team_ops_backlog",
+      "updated_at": "2026-02-16",
+      "notes": "待排期",
+      "required_fields": [
+        "sources",
+        "official_links",
+        "last_verified_at",
+        "next_review_at"
+      ]
+    },
+    {
+      "id": "DYN-006",
+      "title": "失败案例专题（拒录/拒签/学术风险）",
+      "status": "planned",
+      "priority": "P0",
+      "owner": "team_ops_backlog",
+      "updated_at": "2026-02-16",
+      "notes": "待排期",
+      "required_fields": [
+        "sources",
+        "official_links",
+        "last_verified_at",
+        "next_review_at"
+      ]
+    },
+    {
+      "id": "DYN-007",
+      "title": "回国认证/落户/社保税务政策年度更新页",
+      "status": "planned",
+      "priority": "P0",
+      "owner": "team_ops_backlog",
+      "updated_at": "2026-02-16",
+      "notes": "待排期",
+      "required_fields": [
+        "sources",
+        "official_links",
+        "last_verified_at",
+        "next_review_at"
+      ]
+    },
+    {
+      "id": "DYN-008",
+      "title": "签证/行前条款级证据补齐专项（按国家）",
+      "status": "planned",
+      "priority": "P0",
+      "owner": "team_country_policy",
+      "updated_at": "2026-02-16",
+      "notes": "针对政策条目补条款级摘录与生效日期",
+      "required_fields": [
+        "policy_clause_snapshot",
+        "effective_date",
+        "official_links",
+        "last_verified_at"
+      ]
+    },
+    {
+      "id": "DYN-009",
+      "title": "非政策条目项目级来源补齐专项（按卷）",
+      "status": "planned",
+      "priority": "P1",
+      "owner": "team_content_ops",
+      "updated_at": "2026-02-16",
+      "notes": "为每条补1-2个项目官网证据",
+      "required_fields": [
+        "sources",
+        "evidence_count",
+        "publish_blockers"
+      ]
+    }
+  ],
+  "capacity_plan": {
+    "mvp_extra_entry_slots": 120,
+    "country_extra_entry_slots_per_volume": 12,
+    "major_extra_entry_slots_per_volume": 12,
+    "faq_target_total": 300,
+    "case_library_target_total": 200,
+    "return_module_target_total": 32
+  }
+}
