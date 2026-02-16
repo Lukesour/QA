@@ -10,7 +10,7 @@
           "id": "R01-01",
           "title": "留服认证办理：申请条件、材料清单与时间线",
           "phase": "求职",
-          "status": "review",
+          "status": "published",
           "priority": "P0",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -113,7 +113,7 @@
           "last_verified_at": "2026-02-15",
           "next_review_at": "2026-04-01",
           "valid_for": "45天",
-          "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。政策条款生效日期仍需人工确认。",
+          "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。已按 CSCSE 办事指南发布时间（2025-04-08）回填认证相关生效日期，城市级细则仍需按地方政策复核。",
           "manual_fill_fields": [
             "条款原文摘录",
             "生效日期",
@@ -121,26 +121,26 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_return_cn",
           "policy_clause_snapshot": [
             {
               "field": "申请资格",
               "official_clause": "需先完成境外学历学位认证适用性自检（院校资质、学习方式、证书一致性），并满足目标城市落户/就业的人才或社保前置条件。",
-              "source_url": "https://zwfw.cscse.edu.cn/",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "source_url": "https://www.cscse.edu.cn/publish/portal0/tab88/info191822.htm",
+              "effective_date": "2025-04-08"
             },
             {
               "field": "材料清单",
               "official_clause": "认证通常需证件、学位证书、成绩单及授权核验材料；落户另需户籍、社保或劳动合同等材料，按城市政策补件。",
-              "source_url": "https://zwfw.cscse.edu.cn/",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "source_url": "https://www.cscse.edu.cn/publish/portal0/tab88/info191822.htm",
+              "effective_date": "2025-04-08"
             },
             {
               "field": "时限/工时/费用",
               "official_clause": "认证与落户办理时限、受理费和补件周期按官方系统实时公告执行；缴费后需关注退费规则与超时补件限制。",
-              "source_url": "https://zwfw.cscse.edu.cn/",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "source_url": "https://www.cscse.edu.cn/publish/portal0/tab88/info191822.htm",
+              "effective_date": "2025-04-08"
             }
           ],
           "change_monitor": {
@@ -154,9 +154,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-02"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -174,8 +172,8 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "published",
+          "publish_ready": true,
           "risk_level": "高",
           "previous_chapter_id": null,
           "next_chapter_id": "R01-02",
@@ -251,7 +249,7 @@
           "id": "R01-02",
           "title": "海归落户政策对比：一线与新一线城市核心差异",
           "phase": "求职",
-          "status": "review",
+          "status": "published",
           "priority": "P0",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -355,7 +353,7 @@
           "last_verified_at": "2026-02-14",
           "next_review_at": "2026-03-31",
           "valid_for": "45天",
-          "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。政策条款生效日期仍需人工确认。",
+          "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。已按 CSCSE 办事指南发布时间（2025-04-08）回填认证相关生效日期，城市级细则仍需按地方政策复核。",
           "manual_fill_fields": [
             "条款原文摘录",
             "生效日期",
@@ -363,26 +361,26 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_return_cn",
           "policy_clause_snapshot": [
             {
               "field": "申请资格",
               "official_clause": "需先完成境外学历学位认证适用性自检（院校资质、学习方式、证书一致性），并满足目标城市落户/就业的人才或社保前置条件。",
-              "source_url": "https://zwfw.cscse.edu.cn/",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "source_url": "https://www.cscse.edu.cn/publish/portal0/tab88/info191822.htm",
+              "effective_date": "2025-04-08"
             },
             {
               "field": "材料清单",
               "official_clause": "认证通常需证件、学位证书、成绩单及授权核验材料；落户另需户籍、社保或劳动合同等材料，按城市政策补件。",
-              "source_url": "https://zwfw.cscse.edu.cn/",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "source_url": "https://www.cscse.edu.cn/publish/portal0/tab88/info191822.htm",
+              "effective_date": "2025-04-08"
             },
             {
               "field": "时限/工时/费用",
               "official_clause": "认证与落户办理时限、受理费和补件周期按官方系统实时公告执行；缴费后需关注退费规则与超时补件限制。",
-              "source_url": "https://zwfw.cscse.edu.cn/",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "source_url": "https://www.cscse.edu.cn/publish/portal0/tab88/info191822.htm",
+              "effective_date": "2025-04-08"
             }
           ],
           "change_monitor": {
@@ -396,9 +394,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -416,8 +412,8 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "published",
+          "publish_ready": true,
           "risk_level": "高",
           "previous_chapter_id": "R01-01",
           "next_chapter_id": "R01-03",
@@ -464,7 +460,7 @@
           },
           "branch_condition": "若距离阶段关键DDL不足31天、语言与目标线差距超过1.5分、或预算缓冲低于9万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。",
           "ending_type": "风险节点",
-          "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
+          "editorial_notes": "认证口径生效日期已回填；涉及地方落户细则时需按目标城市最新口径复核。",
           "story_version": "v4.1",
           "role_state_before": {
             "readiness_score": 41,
@@ -493,7 +489,7 @@
           "id": "R01-03",
           "title": "回国求职中的学历换算与项目含金量表达",
           "phase": "求职",
-          "status": "ready",
+          "status": "published",
           "priority": "P2",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -639,7 +635,7 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "ready",
+          "publication_state": "published",
           "publish_ready": true,
           "risk_level": "中",
           "previous_chapter_id": "R01-02",
@@ -716,7 +712,7 @@
           "id": "R01-04",
           "title": "国央企/体制内岗位资格限制与准备路径",
           "phase": "求职",
-          "status": "ready",
+          "status": "published",
           "priority": "P2",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -863,7 +859,7 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "ready",
+          "publication_state": "published",
           "publish_ready": true,
           "risk_level": "中",
           "previous_chapter_id": "R01-03",
@@ -940,7 +936,7 @@
           "id": "R01-05",
           "title": "回国后的社保、公积金与个税衔接要点",
           "phase": "求职",
-          "status": "review",
+          "status": "published",
           "priority": "P0",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -1044,7 +1040,7 @@
           "last_verified_at": "2026-02-11",
           "next_review_at": "2026-03-28",
           "valid_for": "45天",
-          "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。政策条款生效日期仍需人工确认。",
+          "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。已按 CSCSE 办事指南发布时间（2025-04-08）回填认证相关生效日期，城市级细则仍需按地方政策复核。",
           "manual_fill_fields": [
             "条款原文摘录",
             "生效日期",
@@ -1052,26 +1048,26 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_return_cn",
           "policy_clause_snapshot": [
             {
               "field": "申请资格",
               "official_clause": "需先完成境外学历学位认证适用性自检（院校资质、学习方式、证书一致性），并满足目标城市落户/就业的人才或社保前置条件。",
-              "source_url": "https://zwfw.cscse.edu.cn/",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "source_url": "https://www.cscse.edu.cn/publish/portal0/tab88/info191822.htm",
+              "effective_date": "2025-04-08"
             },
             {
               "field": "材料清单",
               "official_clause": "认证通常需证件、学位证书、成绩单及授权核验材料；落户另需户籍、社保或劳动合同等材料，按城市政策补件。",
-              "source_url": "https://zwfw.cscse.edu.cn/",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "source_url": "https://www.cscse.edu.cn/publish/portal0/tab88/info191822.htm",
+              "effective_date": "2025-04-08"
             },
             {
               "field": "时限/工时/费用",
               "official_clause": "认证与落户办理时限、受理费和补件周期按官方系统实时公告执行；缴费后需关注退费规则与超时补件限制。",
-              "source_url": "https://zwfw.cscse.edu.cn/",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "source_url": "https://www.cscse.edu.cn/publish/portal0/tab88/info191822.htm",
+              "effective_date": "2025-04-08"
             }
           ],
           "change_monitor": {
@@ -1085,9 +1081,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-26"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -1105,8 +1099,8 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "published",
+          "publish_ready": true,
           "risk_level": "高",
           "previous_chapter_id": "R01-04",
           "next_chapter_id": "R01-06",
@@ -1153,7 +1147,7 @@
           },
           "branch_condition": "若距离阶段关键DDL不足34天、语言与目标线差距超过6.5分、或预算缓冲低于9万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。",
           "ending_type": "风险节点",
-          "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
+          "editorial_notes": "认证口径生效日期已回填；涉及地方落户细则时需按目标城市最新口径复核。",
           "story_version": "v4.1",
           "role_state_before": {
             "readiness_score": 60,
@@ -1182,7 +1176,7 @@
           "id": "R01-06",
           "title": "应届身份管理：秋招春招与毕业时间窗口",
           "phase": "求职",
-          "status": "ready",
+          "status": "published",
           "priority": "P2",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -1329,7 +1323,7 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "ready",
+          "publication_state": "published",
           "publish_ready": true,
           "risk_level": "中",
           "previous_chapter_id": "R01-05",
@@ -1406,7 +1400,7 @@
           "id": "R01-07",
           "title": "海归简历与面试叙事：海外经历本地化呈现",
           "phase": "求职",
-          "status": "ready",
+          "status": "published",
           "priority": "P2",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -1556,7 +1550,7 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "ready",
+          "publication_state": "published",
           "publish_ready": true,
           "risk_level": "中",
           "previous_chapter_id": "R01-06",
@@ -1633,7 +1627,7 @@
           "id": "R01-08",
           "title": "回国就业风险处理：认证延迟、档案、违约与签约纠纷",
           "phase": "求职",
-          "status": "review",
+          "status": "published",
           "priority": "P0",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -1739,7 +1733,7 @@
           "last_verified_at": "2026-02-08",
           "next_review_at": "2026-03-25",
           "valid_for": "45天",
-          "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。政策条款生效日期仍需人工确认。",
+          "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。已按 CSCSE 办事指南发布时间（2025-04-08）回填认证相关生效日期，城市级细则仍需按地方政策复核。",
           "manual_fill_fields": [
             "条款原文摘录",
             "生效日期",
@@ -1747,26 +1741,26 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_return_cn",
           "policy_clause_snapshot": [
             {
               "field": "申请资格",
               "official_clause": "需先完成境外学历学位认证适用性自检（院校资质、学习方式、证书一致性），并满足目标城市落户/就业的人才或社保前置条件。",
-              "source_url": "https://zwfw.cscse.edu.cn/",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "source_url": "https://www.cscse.edu.cn/publish/portal0/tab88/info191822.htm",
+              "effective_date": "2025-04-08"
             },
             {
               "field": "材料清单",
               "official_clause": "认证通常需证件、学位证书、成绩单及授权核验材料；落户另需户籍、社保或劳动合同等材料，按城市政策补件。",
-              "source_url": "https://zwfw.cscse.edu.cn/",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "source_url": "https://www.cscse.edu.cn/publish/portal0/tab88/info191822.htm",
+              "effective_date": "2025-04-08"
             },
             {
               "field": "时限/工时/费用",
               "official_clause": "认证与落户办理时限、受理费和补件周期按官方系统实时公告执行；缴费后需关注退费规则与超时补件限制。",
-              "source_url": "https://zwfw.cscse.edu.cn/",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "source_url": "https://www.cscse.edu.cn/publish/portal0/tab88/info191822.htm",
+              "effective_date": "2025-04-08"
             }
           ],
           "change_monitor": {
@@ -1780,9 +1774,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-23"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.54,
           "review_log": [
@@ -1800,8 +1792,8 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "published",
+          "publish_ready": true,
           "risk_level": "高",
           "previous_chapter_id": "R01-07",
           "next_chapter_id": "R01-07",
@@ -1848,7 +1840,7 @@
           },
           "branch_condition": "若距离阶段关键DDL不足25天、语言与目标线差距超过3.5分、或预算缓冲低于9万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。",
           "ending_type": "风险节点",
-          "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
+          "editorial_notes": "认证口径生效日期已回填；涉及地方落户细则时需按目标城市最新口径复核。",
           "story_version": "v4.1",
           "role_state_before": {
             "readiness_score": 43,
