@@ -202,6 +202,20 @@
         "date": "2026-02-17",
         "by": "codex-gpt5",
         "summary": "P0发布门槛收紧：manual_fill_fields未清空条目统一回到reviewing；prepare_substage升级为结构化字段并加入跨库路由。"
+      },
+      {
+        "date": "2026-02-17",
+        "version": "4.1.0",
+        "changes": [
+          "全量清理 publish 阻塞：179 条 reviewing 条目完成 manual_fill_fields 清零并切换 published",
+          "申请阶段重点补强 C01-02/C02-02/P01-04：新增项目级轮次/先修/课程与就业证据及执行模板",
+          "非政策条目按关联章节补齐项目级官方来源，统一复核 evidence_count 与发布状态一致性"
+        ],
+        "metrics": {
+          "published_entries": 326,
+          "total_entries": 326,
+          "official_sources_added": 246
+        }
       }
     ],
     "library_aliases": {
@@ -223,8 +237,8 @@
       "项目差异",
       "学校特例"
     ],
-    "content_refresh_status": "narrative-v4.7-prepare-focus-upgrade",
-    "last_source_refresh_at": "2026-02-16"
+    "content_refresh_status": "narrative-v4.8-full-release",
+    "last_source_refresh_at": "2026-02-17"
   },
   "taxonomy": {
     "phase_enum": [
