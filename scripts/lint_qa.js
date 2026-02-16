@@ -11,6 +11,10 @@ function fail(msg, errors) {
   errors.push(msg);
 }
 
+function warn(msg, warnings) {
+  warnings.push(msg);
+}
+
 function parseDate(value) {
   if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return null;
   const d = new Date(`${value}T00:00:00Z`);
@@ -77,6 +81,7 @@ function numericInText(text) {
 
 function main() {
   const errors = [];
+  const warnings = [];
 
   let qa;
   let schema;
@@ -213,6 +218,9 @@ function main() {
 
   const conflictSet = new Set();
   const branchSet = new Set();
+  const nextActionSet = new Set();
+  const nextActionFreq = new Map();
+  const aliasOpeningFreq = new Map();
 
   for (const entry of allEntries) {
     for (const key of entryRequired) {
@@ -239,6 +247,13 @@ function main() {
 
     if (!Array.isArray(entry.question_aliases) || entry.question_aliases.length < 2) {
       fail(`${entry.id}: question_aliases should contain at least 2 variants`, errors);
+    } else {
+      for (const alias of entry.question_aliases) {
+        if (typeof alias !== 'string') continue;
+        const opening = (alias.split(/[，。？！]/)[0] || alias).trim();
+        if (!opening) continue;
+        aliasOpeningFreq.set(opening, (aliasOpeningFreq.get(opening) || 0) + 1);
+      }
     }
 
     if (typeof entry.question_canonical !== 'string' || entry.question_canonical.trim() === '') {
@@ -306,6 +321,11 @@ function main() {
         if (typeof ch[f] !== 'string' || ch[f].trim() === '') {
           fail(`${entry.id}: chapter_hook.${f} must be non-empty`, errors);
         }
+      }
+      if (typeof ch.next_action === 'string' && ch.next_action.trim()) {
+        const action = ch.next_action.trim();
+        nextActionSet.add(action);
+        nextActionFreq.set(action, (nextActionFreq.get(action) || 0) + 1);
       }
     }
 
@@ -537,12 +557,37 @@ function main() {
   const minConflict = qa.taxonomy?.narrative_quality_targets?.min_conflict_unique ?? 24;
   const minBranch = qa.taxonomy?.narrative_quality_targets?.min_branch_condition_unique ?? 80;
   const minNumericRatio = qa.taxonomy?.narrative_quality_targets?.min_numeric_micro_outcome_ratio ?? 0.95;
+  const minUniqueNextAction = qa.taxonomy?.narrative_quality_targets?.min_unique_next_action ?? 30;
+  const maxTopNextActionRatio = qa.taxonomy?.narrative_quality_targets?.max_top_next_action_ratio ?? 0.35;
+  const maxTopAliasOpeningRatio = qa.taxonomy?.narrative_quality_targets?.max_top_alias_opening_ratio ?? 0.55;
+  const strictNarrativeLint = qa.taxonomy?.narrative_quality_targets?.strict_narrative_lint === true;
 
   if (conflictSet.size < minConflict) fail(`conflict diversity too low: ${conflictSet.size} < ${minConflict}`, errors);
   if (branchSet.size < minBranch) fail(`branch_condition diversity too low: ${branchSet.size} < ${minBranch}`, errors);
 
   const numericRatio = allEntries.length ? numericOutcomeCount / allEntries.length : 0;
   if (numericRatio < minNumericRatio) fail(`micro_case numeric outcome ratio too low: ${numericRatio.toFixed(3)} < ${minNumericRatio}`, errors);
+
+  const topNextActionCount = Math.max(0, ...nextActionFreq.values());
+  const topNextActionRatio = allEntries.length ? topNextActionCount / allEntries.length : 0;
+  const aliasTotalCount = Array.from(aliasOpeningFreq.values()).reduce((sum, n) => sum + n, 0);
+  const topAliasOpeningCount = Math.max(0, ...aliasOpeningFreq.values());
+  const topAliasOpeningRatio = aliasTotalCount ? topAliasOpeningCount / aliasTotalCount : 0;
+
+  const narrativeIssues = [];
+  if (nextActionSet.size < minUniqueNextAction) {
+    narrativeIssues.push(`next_action unique count too low: ${nextActionSet.size} < ${minUniqueNextAction}`);
+  }
+  if (topNextActionRatio > maxTopNextActionRatio) {
+    narrativeIssues.push(`top next_action ratio too high: ${topNextActionRatio.toFixed(3)} > ${maxTopNextActionRatio}`);
+  }
+  if (topAliasOpeningRatio > maxTopAliasOpeningRatio) {
+    narrativeIssues.push(`top alias opening ratio too high: ${topAliasOpeningRatio.toFixed(3)} > ${maxTopAliasOpeningRatio}`);
+  }
+  for (const issue of narrativeIssues) {
+    if (strictNarrativeLint) fail(issue, errors);
+    else warn(issue, warnings);
+  }
 
   for (const b of allBacklog) {
     if (typeof b.owner !== 'string' || b.owner.trim() === '') fail(`backlog ${b.id}: owner must be a non-empty string`, errors);
@@ -601,8 +646,16 @@ function main() {
   console.log(`- unique conflicts: ${conflictSet.size}`);
   console.log(`- unique branch conditions: ${branchSet.size}`);
   console.log(`- micro_case numeric outcome ratio: ${numericRatio.toFixed(3)}`);
+  console.log(`- unique next_action: ${nextActionSet.size}`);
+  console.log(`- top next_action ratio: ${topNextActionRatio.toFixed(3)}`);
+  console.log(`- unique alias openings: ${aliasOpeningFreq.size}`);
+  console.log(`- top alias opening ratio: ${topAliasOpeningRatio.toFixed(3)}`);
   console.log(`- publish_ready entries: ${publishReadyCount}`);
   console.log(`- policy effective_date placeholders: ${policyPlaceholderCount}`);
+  if (warnings.length > 0) {
+    console.log('Narrative lint warnings:');
+    for (const w of warnings) console.log(`- ${w}`);
+  }
 }
 
 main();

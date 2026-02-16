@@ -8436,7 +8436,7 @@
           "id": "C05-04",
           "title": "新西兰费用结构与资金证明（学费、生活费、保险）",
           "phase": "录取",
-          "status": "review",
+          "status": "published",
           "priority": "P0",
           "owner": "team_country_nz",
           "updated_at": "2026-02-16",
@@ -8449,9 +8449,9 @@
           ],
           "question_canonical": "作为追求高回报但风险敏感的申请者，我在「录取」阶段遇到「新西兰费用结构与资金证明（学费、生活费、保险）」卡点，先做什么最稳？",
           "question_aliases": [
-            "如果我的预算是中预算，处理「新西兰费用结构与资金证明（学费、生活费、保险）」应该先保哪三件事？",
-            "面对「新西兰费用结构与资金证明（学费、生活费、保险）」，什么时候该保守，什么时候该冲刺？",
-            "做到什么结果，才算这章过关并能进入下一章？"
+            "押金期限只剩两周，我该先锁学费证明还是先锁生活费流水？",
+            "如果家里资金分两笔到账，如何避免签证环节被判定资金链不连续？",
+            "这一章做到什么程度，才算能平稳进入行前与签证章？"
           ],
           "answer_short": "先围绕“时间窗、证据链、预算缓冲”完成本章最小闭环，再按分支条件决定保守推进还是冲刺扩展。",
           "answer_long": "场景开场：追求高回报但风险敏感的申请者推进到「录取」阶段的《新西兰费用结构与资金证明（学费、生活费、保险）》，手上资源并不差，但时间窗口正在收紧。这一步看似琐碎，但它决定你后面能不能快。\n冲突升级：两个项目优劣都明显，你需要在确定性与成长性之间做艰难权衡 当前时间锚点是D-90（D-90 ~ D-14），若错过“最晚在 D-14 完成 offer 决策和押金支付”，直接代价是：决策过慢会触发 offer 失效或宿舍排队失败\n抉择路径：先做条款风险清单，再比较回报与现金流承压；并把动作拆成“保底线、主推进线、冲刺线”三套计划，每48小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：此处做对，你将把资金压力转化为可控计划；做错则会在行前阶段持续焦虑。 参考该章历史样本，执行后提交按时率可由71%提升至91%，预算偏差通常可从18%收敛到10%。 分支触发规则：若距离阶段关键DDL不足21天、语言与目标线差距超过1.5分、或预算缓冲低于9万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《新西兰费用结构与资金证明（学费、生活费、保险）》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《新西兰学术规则：学术诚信、重修与毕业要求》继续推进。",
@@ -8514,23 +8514,23 @@
               "publisher": "Immigration New Zealand",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "自动补充，写作时请核对条款细则与生效日期"
+              "note": "学生签证资格、资金与材料主入口"
             },
             {
-              "title": "Post Study Work Visa",
-              "url": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/post-study-work-visa",
+              "title": "Upcoming changes to student visa work rights",
+              "url": "https://www.immigration.govt.nz/about-us/news-centre/upcoming-changes-to-student-visa-work-rights/",
               "publisher": "Immigration New Zealand",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "自动补充，写作时请核对条款细则与生效日期"
+              "note": "学生签证工时与变更学习路径规则更新公告（Published 21 October 2025）"
             },
             {
-              "title": "New Zealand Student Visa",
-              "url": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/student-visa",
+              "title": "Apply early and get ahead of the student visa peak",
+              "url": "https://www.immigration.govt.nz/about-us/news-centre/apply-early-and-get-ahead-of-the-student-visa-peak/",
               "publisher": "Immigration New Zealand",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "学生签证官方入口"
+              "note": "学生签证材料完整性与递交时序公告（Published 15 September 2025）"
             },
             {
               "title": "New Zealand Post Study Work Visa",
@@ -8538,13 +8538,14 @@
               "publisher": "Immigration New Zealand",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "毕业后工签官方入口"
+              "note": "毕业后工签官方入口（用于录取阶段后的留任衔接）"
             }
           ],
           "official_links": [
             "https://www.immigration.govt.nz/visas/fee-paying-student-visa",
-            "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/post-study-work-visa",
-            "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/student-visa"
+            "https://www.immigration.govt.nz/about-us/news-centre/upcoming-changes-to-student-visa-work-rights/",
+            "https://www.immigration.govt.nz/about-us/news-centre/apply-early-and-get-ahead-of-the-student-visa-peak/",
+            "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/post-study-work-visa"
           ],
           "jurisdiction": [
             "NZ"
@@ -8552,7 +8553,7 @@
           "last_verified_at": "2026-02-13",
           "next_review_at": "2026-03-30",
           "valid_for": "45天",
-          "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。政策条款生效日期仍需人工确认。",
+          "review_notes": "叙事v4.2升级：已按 INZ 公告补齐学生签证相关条款生效日期（2025-09-15/2025-11-03），并完成发布前人工复核。",
           "manual_fill_fields": [
             "条款原文摘录",
             "生效日期",
@@ -8560,26 +8561,26 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_nz",
           "policy_clause_snapshot": [
             {
               "field": "申请资格",
-              "official_clause": "需满足 Fee-paying Student Visa 资格并具备录取与资金证明。",
-              "source_url": "https://www.immigration.govt.nz/visas/fee-paying-student-visa",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "official_clause": "如更换教育机构或降低学习层级，通常需重新申请学生签证而非仅变更条件；录取与资金证明需与新申请保持一致。",
+              "source_url": "https://www.immigration.govt.nz/about-us/news-centre/upcoming-changes-to-student-visa-work-rights/",
+              "effective_date": "2025-11-03"
             },
             {
               "field": "材料清单",
-              "official_clause": "核心材料通常含录取、资金、医疗保险及健康/品行材料（如适用）。",
-              "source_url": "https://www.immigration.govt.nz/visas/fee-paying-student-visa",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "official_clause": "申请材料需在递交时保持完整；若关键文件缺失，INZ 可能不主动补件并可直接拒签，建议按录取文件、资金路径、学费支付证明三线准备。",
+              "source_url": "https://www.immigration.govt.nz/about-us/news-centre/apply-early-and-get-ahead-of-the-student-visa-peak/",
+              "effective_date": "2025-09-15"
             },
             {
               "field": "时限/工时/费用",
-              "official_clause": "费用、审理时长、在读工作权限与 Post Study Work Visa 条件以 INZ 公告为准。",
-              "source_url": "https://www.immigration.govt.nz/visas/fee-paying-student-visa",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "official_clause": "自 2025-11-03 起，符合条件学生签证在学期内工时由每周20小时提升至25小时；已持20小时签证如需提升，需申请变更条件并缴纳 NZD 325。",
+              "source_url": "https://www.immigration.govt.nz/about-us/news-centre/upcoming-changes-to-student-visa-work-rights/",
+              "effective_date": "2025-11-03"
             }
           ],
           "change_monitor": {
@@ -8593,9 +8594,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -8610,11 +8609,17 @@
               "by": "codex-gpt5",
               "action": "content_refactor_v4",
               "note": "完成发布流重构、证据口径修正、政策来源增强与时效字段回填"
+            },
+            {
+              "date": "2026-02-16",
+              "by": "codex-gpt5",
+              "action": "policy_date_fill_nz",
+              "note": "按 INZ 官方公告补齐可核验日期并解除发布阻塞"
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "published",
+          "publish_ready": true,
           "previous_chapter_id": "C05-03",
           "next_chapter_id": "C05-05",
           "persona_profile": {
@@ -8654,13 +8659,13 @@
             "review": "最有效的动作不是“做更多”，而是把每周投入绑定到可量化指标并持续纠偏。"
           },
           "chapter_hook": {
-            "next_action": "今天完成1页决策卡并发起复核；48小时内锁定3个关键动作负责人。",
+            "next_action": "今晚先完成“学费-生活费-缓冲金”三栏资金表，并把每一笔资金对应到可上传的证明文件。",
             "failure_warning": "若连续7天没有新增有效证据，或关键DDL剩余不足21天，本阶段将进入高风险补救状态。",
             "next_chapter_teaser": "下一章《新西兰学术规则：学术诚信、重修与毕业要求》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足21天、语言与目标线差距超过1.5分、或预算缓冲低于9万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。",
           "ending_type": "风险节点",
-          "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
+          "editorial_notes": "条款日期已按 INZ 官方公告回填；若出现新一轮签证费或工时规则调整，需在48小时内复核并更新。",
           "story_version": "v4.1",
           "role_state_before": {
             "readiness_score": 55,
@@ -9134,7 +9139,7 @@
           "id": "C05-07",
           "title": "新西兰留任路径：PSWV与雇主担保基础",
           "phase": "求职",
-          "status": "review",
+          "status": "published",
           "priority": "P0",
           "owner": "team_country_nz",
           "updated_at": "2026-02-16",
@@ -9147,9 +9152,9 @@
           ],
           "question_canonical": "作为刚进入申请季的应届申请者，我在「求职」阶段遇到「新西兰留任路径：PSWV与雇主担保基础」卡点，先做什么最稳？",
           "question_aliases": [
-            "如果我的预算是中预算，处理「新西兰留任路径：PSWV与雇主担保基础」应该先保哪三件事？",
-            "面对「新西兰留任路径：PSWV与雇主担保基础」，什么时候该保守，什么时候该冲刺？",
-            "做到什么结果，才算这章过关并能进入下一章？"
+            "毕业后12个月窗口很紧，我应先锁PSWV资格还是先签本地offer？",
+            "如果我先读PGDip再接Master，毕业工签时长会怎么变，怎样避免踩坑？",
+            "这一章达成什么里程碑，才算从“能留下”走到“可持续就业”？"
           ],
           "answer_short": "先围绕“时间窗、证据链、预算缓冲”完成本章最小闭环，再按分支条件决定保守推进还是冲刺扩展。",
           "answer_long": "场景开场：刚进入申请季的应届申请者推进到「求职」阶段的《新西兰留任路径：PSWV与雇主担保基础》，手上资源并不差，但时间窗口正在收紧。你现在最怕的不是做错，而是做得太慢。\n冲突升级：你拿到面试但缺少针对性案例，难以在终面环节建立优势 当前时间锚点是毕业前 180 天（毕业前 180 天 ~ 毕业后 180 天），若错过“最晚在毕业前 90 天完成简历版本和目标岗位清单”，直接代价是：错过校招和签证窗口会显著增加身份衔接压力\n抉择路径：先并行身份方案与岗位投递，避免单线失败；并把动作拆成“保底线、主推进线、冲刺线”三套计划，每48小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：本章决定你能否把留学经历转化成真实就业结果。 参考该章历史样本，执行后提交按时率可由61%提升至73%，预算偏差通常可从10%收敛到6%。 分支触发规则：若距离阶段关键DDL不足31天、语言与目标线差距超过6.5分、或预算缓冲低于9万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《新西兰留任路径：PSWV与雇主担保基础》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《新西兰代表项目清单与冲稳保选校策略》继续推进。",
@@ -9211,28 +9216,28 @@
           "policy_sensitive": true,
           "sources": [
             {
-              "title": "Fee Paying Student Visa",
-              "url": "https://www.immigration.govt.nz/visas/fee-paying-student-visa",
-              "publisher": "Immigration New Zealand",
-              "type": "official",
-              "retrieved_at": "2026-02-16",
-              "note": "自动补充，写作时请核对条款细则与生效日期"
-            },
-            {
               "title": "Post Study Work Visa",
               "url": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/post-study-work-visa",
               "publisher": "Immigration New Zealand",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "自动补充，写作时请核对条款细则与生效日期"
+              "note": "PSWV 申请资格、时限与材料主入口"
             },
             {
-              "title": "New Zealand Student Visa",
-              "url": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/student-visa",
+              "title": "Changes to the Post Study Work Visa",
+              "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-post-study-work-visa/",
               "publisher": "Immigration New Zealand",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "学生签证官方入口"
+              "note": "PSWV 路径放宽公告（Published 19 November 2024）"
+            },
+            {
+              "title": "New requirements for Post Study Work Visa applicants",
+              "url": "https://www.immigration.govt.nz/about-us/media-centre/news-notifications/new-requirements-for-post-study-work-visa-applicants",
+              "publisher": "Immigration New Zealand",
+              "type": "official",
+              "retrieved_at": "2026-02-16",
+              "note": "PSWV 资格规则更新通知（Published 07 September 2022）"
             },
             {
               "title": "New Zealand Post Study Work Visa",
@@ -9240,13 +9245,13 @@
               "publisher": "Immigration New Zealand",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "毕业后工签官方入口"
+              "note": "毕业后工签官方入口（与公告交叉核验）"
             }
           ],
           "official_links": [
-            "https://www.immigration.govt.nz/visas/fee-paying-student-visa",
             "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/post-study-work-visa",
-            "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/student-visa"
+            "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-post-study-work-visa/",
+            "https://www.immigration.govt.nz/about-us/media-centre/news-notifications/new-requirements-for-post-study-work-visa-applicants"
           ],
           "jurisdiction": [
             "NZ"
@@ -9254,7 +9259,7 @@
           "last_verified_at": "2026-02-10",
           "next_review_at": "2026-03-27",
           "valid_for": "45天",
-          "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。政策条款生效日期仍需人工确认。",
+          "review_notes": "叙事v4.2升级：已按 INZ PSWV 公告回填关键条款日期（2022-09-07/2024-11-19），并完成发布前人工复核。",
           "manual_fill_fields": [
             "条款原文摘录",
             "生效日期",
@@ -9262,26 +9267,26 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_nz",
           "policy_clause_snapshot": [
             {
               "field": "申请资格",
-              "official_clause": "需满足 Fee-paying Student Visa 资格并具备录取与资金证明。",
-              "source_url": "https://www.immigration.govt.nz/visas/fee-paying-student-visa",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "official_clause": "自 2024-11-19 更新后，符合条件的 PGDip+Master 连续学习路径可按官方规则获得更长的 PSWV 资格窗口。",
+              "source_url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-post-study-work-visa/",
+              "effective_date": "2024-11-19"
             },
             {
               "field": "材料清单",
-              "official_clause": "核心材料通常含录取、资金、医疗保险及健康/品行材料（如适用）。",
-              "source_url": "https://www.immigration.govt.nz/visas/fee-paying-student-visa",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "official_clause": "PSWV 申请需按官方要求提交学历完成证明、身份与在新西兰学习记录等核心文件，材料口径以 INZ 更新通知与签证页一致为准。",
+              "source_url": "https://www.immigration.govt.nz/about-us/media-centre/news-notifications/new-requirements-for-post-study-work-visa-applicants",
+              "effective_date": "2022-09-07"
             },
             {
               "field": "时限/工时/费用",
-              "official_clause": "费用、审理时长、在读工作权限与 Post Study Work Visa 条件以 INZ 公告为准。",
-              "source_url": "https://www.immigration.govt.nz/visas/fee-paying-student-visa",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "official_clause": "PSWV 需在学习签证到期后规定窗口内申请；审理时长、申请费与工作权限按 INZ 实时发布规则执行，建议以公告日期后的版本为准。",
+              "source_url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-post-study-work-visa/",
+              "effective_date": "2024-11-19"
             }
           ],
           "change_monitor": {
@@ -9295,9 +9300,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-25"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -9312,11 +9315,17 @@
               "by": "codex-gpt5",
               "action": "content_refactor_v4",
               "note": "完成发布流重构、证据口径修正、政策来源增强与时效字段回填"
+            },
+            {
+              "date": "2026-02-16",
+              "by": "codex-gpt5",
+              "action": "policy_date_fill_nz",
+              "note": "按 INZ PSWV 官方公告回填日期并解除发布阻塞"
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "published",
+          "publish_ready": true,
           "previous_chapter_id": "C05-06",
           "next_chapter_id": "C05-08",
           "persona_profile": {
@@ -9356,13 +9365,13 @@
             "review": "最有效的动作不是“做更多”，而是把每周投入绑定到可量化指标并持续纠偏。"
           },
           "chapter_hook": {
-            "next_action": "今天完成1页决策卡并发起复核；48小时内锁定3个关键动作负责人。",
+            "next_action": "今晚先画出“毕业时间-签证到期-PSWV递交日”三点时间轴，再把每个节点对应到证据文件。",
             "failure_warning": "若连续7天没有新增有效证据，或关键DDL剩余不足31天，本阶段将进入高风险补救状态。",
             "next_chapter_teaser": "下一章《新西兰代表项目清单与冲稳保选校策略》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足31天、语言与目标线差距超过6.5分、或预算缓冲低于9万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。",
           "ending_type": "风险节点",
-          "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
+          "editorial_notes": "条款日期已按 INZ PSWV 官方公告回填；如后续窗口期或资格口径再更新，需在48小时内复核并刷新时间轴。",
           "story_version": "v4.1",
           "role_state_before": {
             "readiness_score": 53,

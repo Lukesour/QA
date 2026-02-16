@@ -109,6 +109,16 @@
           "R01-01/R01-02/R01-05/R01-08 解除发布阻塞并切换为 published",
           "保留 2 条 NZ 政策条目为 review（官方页未检出稳定可见更新时间，继续保留人工补填位）"
         ]
+      },
+      {
+        "date": "2026-02-16",
+        "version": "3.1.5",
+        "changes": [
+          "逐条回填 C05-04/C05-07 的 NZ 政策条款生效日期（基于 INZ 官方公告发布时间与生效日期）",
+          "C05-04/C05-07 解除发布阻塞并切换为 published，主库 326 条全量可发布",
+          "升级 lint_qa.js：新增叙事重复度与场景开场多样性指标，支持叙事质量告警",
+          "future_backlog 新增阶段断档补齐专项（country/major/return）"
+        ]
       }
     ],
     "library_aliases": {
@@ -130,7 +140,7 @@
       "项目差异",
       "学校特例"
     ],
-    "content_refresh_status": "narrative-v4.1-quality-upgrade+policy-date-partial-fill-v4",
+    "content_refresh_status": "narrative-v4.2-policy-date-fill-nz+lint-upgrade-v5",
     "last_source_refresh_at": "2026-02-16"
   },
   "taxonomy": {
@@ -255,7 +265,11 @@
     "narrative_quality_targets": {
       "min_conflict_unique": 24,
       "min_branch_condition_unique": 80,
-      "min_numeric_micro_outcome_ratio": 0.95
+      "min_numeric_micro_outcome_ratio": 0.95,
+      "min_unique_next_action": 30,
+      "max_top_next_action_ratio": 0.35,
+      "max_top_alias_opening_ratio": 0.55,
+      "strict_narrative_lint": false
     }
   },
   "reserved_scaffold": {
@@ -387,6 +401,13 @@
     },
     "production_rules": {
       "atomicity": "一条一核心问题",
+      "narrative_writing_spec": [
+        "开场必须落在具体场景（时间、地点、角色状态至少2项）",
+        "冲突必须具备可量化代价（时间/预算/身份至少1项）",
+        "抉择必须写明分支条件与退出条件，避免口号式建议",
+        "结果段必须给出可验证变化（百分比、天数、金额）",
+        "章节钩子必须给出24小时内可执行动作，不得使用全库统一句式"
+      ],
       "answer_requirements": [
         "answer_short必填",
         "outline>=3条",

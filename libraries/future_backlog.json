@@ -133,6 +133,115 @@
         "evidence_count",
         "publish_blockers"
       ]
+    },
+    {
+      "id": "DYN-010",
+      "title": "country_library 阶段断档补齐（签证/行前/综合）",
+      "status": "planned",
+      "priority": "P0",
+      "owner": "team_country_ops",
+      "updated_at": "2026-02-16",
+      "notes": "按11个国家卷逐条补齐签证-行前-综合三段，优先闭环可连载主线",
+      "required_fields": [
+        "phase",
+        "previous_chapter_id",
+        "next_chapter_id",
+        "chapter_hook",
+        "sources"
+      ]
+    },
+    {
+      "id": "DYN-011",
+      "title": "major_library 阶段断档补齐（准备/录取/签证/行前）",
+      "status": "planned",
+      "priority": "P0",
+      "owner": "team_major_ops",
+      "updated_at": "2026-02-16",
+      "notes": "按18个专业卷补齐缺失阶段，确保专业线可从准备读到行前",
+      "required_fields": [
+        "phase",
+        "depends_on",
+        "previous_chapter_id",
+        "next_chapter_id",
+        "micro_case"
+      ]
+    },
+    {
+      "id": "DYN-012",
+      "title": "回国模块阶段扩展专项（准备-综合）",
+      "status": "planned",
+      "priority": "P0",
+      "owner": "team_return_cn",
+      "updated_at": "2026-02-16",
+      "notes": "将 return 模块从单阶段扩展为全旅程章节，容量对齐32条目标",
+      "required_fields": [
+        "phase",
+        "question_canonical",
+        "answer_long",
+        "policy_clause_snapshot",
+        "action_card"
+      ]
+    },
+    {
+      "id": "DYN-013",
+      "title": "章节钩子去模板化重写专项（next_action）",
+      "status": "planned",
+      "priority": "P1",
+      "owner": "team_story_edit",
+      "updated_at": "2026-02-16",
+      "notes": "逐条重写 chapter_hook.next_action，避免全库同一句式",
+      "required_fields": [
+        "chapter_hook.next_action",
+        "action_card.today",
+        "time_anchor",
+        "branch_condition"
+      ]
+    },
+    {
+      "id": "DYN-014",
+      "title": "问法开场场景化重写专项（question_aliases）",
+      "status": "planned",
+      "priority": "P1",
+      "owner": "team_story_edit",
+      "updated_at": "2026-02-16",
+      "notes": "逐条替换“如果预算/做到什么结果”模板，改为情境触发问法",
+      "required_fields": [
+        "question_aliases",
+        "persona_profile",
+        "time_anchor",
+        "risk_level"
+      ]
+    },
+    {
+      "id": "DYN-015",
+      "title": "失败线剧情包（拒录/拒签/延期/违约）",
+      "status": "planned",
+      "priority": "P1",
+      "owner": "team_case_ops",
+      "updated_at": "2026-02-16",
+      "notes": "在申请、签证、在读、求职四阶段新增可跳转失败线章节",
+      "required_fields": [
+        "narrative_layer.conflict",
+        "consequence_matrix",
+        "chapter_hook.failure_warning",
+        "next_chapter_id"
+      ]
+    },
+    {
+      "id": "DYN-016",
+      "title": "persona 精细分线专项（GPA/预算/工龄/目标城市）",
+      "status": "planned",
+      "priority": "P1",
+      "owner": "team_persona_ops",
+      "updated_at": "2026-02-16",
+      "notes": "将高频组合拆分为更细颗粒路径，提升“这是在讲我”的代入感",
+      "required_fields": [
+        "persona_tags",
+        "persona_profile.gpa_band",
+        "persona_profile.work_years",
+        "persona_profile.target_city_tier",
+        "branch_condition"
+      ]
     }
   ],
   "capacity_plan": {
