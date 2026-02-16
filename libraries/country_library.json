@@ -55,7 +55,9 @@
             "C06-01",
             "C08-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V02-01"
+          ],
           "see_also": [
             "C01-02",
             "C04-01",
@@ -344,14 +346,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "用于参考院校级截止日与轮次窗口设置。"
-            },
-            {
-              "title": "目标英国项目官方截止日与录取偏好说明（你补）",
-              "url": null,
-              "publisher": "你补充的目标院校官方页面",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补你目标项目页面的轮次、截止日和录取偏好原文。"
             }
           ],
           "official_links": [
@@ -1811,7 +1805,9 @@
             "C02-08",
             "C03-08"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "C01-01"
+          ],
           "see_also": [
             "C01-07",
             "C01-01",
@@ -2074,7 +2070,9 @@
             "C02-08",
             "C03-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V02-01"
+          ],
           "see_also": [
             "C02-02",
             "C01-01",
@@ -2359,14 +2357,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "用于参考美国常见申请平台的流程和字段逻辑。"
-            },
-            {
-              "title": "目标美国项目先修课与综合评估偏好原文（你补）",
-              "url": null,
-              "publisher": "你补充的目标院校官方页面",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补你目标项目页面的先修要求、综合评估标准和轮次截止日。"
             }
           ],
           "official_links": [
@@ -2596,14 +2586,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：美国语言与标化要求（TOEFL/IELTS/GRE/GMAT）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -4092,7 +4074,9 @@
             "C02-01",
             "C03-08"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V02-01"
+          ],
           "see_also": [
             "C03-02",
             "C01-01",
@@ -4384,14 +4368,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：加拿大申请季与录取偏好（均分、先修、工作经验）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -4620,14 +4596,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：加拿大语言与标化要求（IELTS/TOEFL/部分项目GRE）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -6108,7 +6076,9 @@
             "C06-01",
             "C08-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V02-01"
+          ],
           "see_also": [
             "C04-02",
             "C01-01",
@@ -6397,14 +6367,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：澳大利亚申请季与录取偏好（均分、院校背景）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -6631,14 +6593,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：澳大利亚语言与标化要求（IELTS/PTE/豁免）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -8062,7 +8016,9 @@
             "C02-01",
             "C03-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V02-01"
+          ],
           "see_also": [
             "C05-02",
             "C01-01",
@@ -8352,14 +8308,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：新西兰申请季与录取偏好（均分、先修与背景）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -8586,14 +8534,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：新西兰语言与标化要求（IELTS/PTE等）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -10010,7 +9950,9 @@
             "C04-01",
             "C08-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V02-01"
+          ],
           "see_also": [
             "C06-02",
             "C01-01",
@@ -10300,14 +10242,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：中国香港申请轮次与录取偏好（均分、语言、实习）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -10537,14 +10471,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：中国香港语言与标化要求（IELTS/TOEFL/GMAT-GRE）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -11947,7 +11873,9 @@
             "C02-01",
             "C03-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V02-01"
+          ],
           "see_also": [
             "C07-02",
             "C01-01",
@@ -12240,14 +12168,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：新加坡申请季与录取偏好（院校背景、实习、面试）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -12477,14 +12397,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：新加坡语言与标化要求（IELTS/TOEFL/GRE/GMAT）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -13936,7 +13848,9 @@
             "C04-01",
             "C06-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V02-01"
+          ],
           "see_also": [
             "C08-02",
             "C01-01",
@@ -14227,14 +14141,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：爱尔兰申请季与录取偏好（均分、先修、背景）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -14462,14 +14368,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：爱尔兰语言与标化要求（IELTS/TOEFL/PTE）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -15894,7 +15792,9 @@
             "C05-01",
             "C09-03"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V02-01"
+          ],
           "see_also": [
             "C09-02",
             "C09-08",
@@ -16199,14 +16099,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：荷兰/比利时申请季与录取偏好（均分、先修、动机）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -16439,14 +16331,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：荷兰/比利时语言与标化要求（IELTS/TOEFL/GRE少量）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -17945,7 +17829,9 @@
             "C01-01",
             "C02-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V02-01"
+          ],
           "see_also": [
             "C10-02",
             "C10-08",
@@ -18253,14 +18139,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：德法北欧申请季与录取偏好（均分、语言、先修）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -18489,14 +18367,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：德法北欧语言与标化要求（英语/本地语言双轨）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -18806,14 +18676,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "长期居留签证官方说明"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：德法北欧费用结构与资金证明（低学费与高生活费场景）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -20142,7 +20004,9 @@
             "C11-03",
             "C11-04"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V02-01"
+          ],
           "see_also": [
             "C11-02",
             "C11-08",
@@ -20437,14 +20301,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：日本/韩国申请季与录取偏好（出身校、成绩、研究计划）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -20671,14 +20527,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：日本/韩国语言与标化要求（英语成绩+日/韩语附加值）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -20924,14 +20772,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "官方签证办理入口（含D-2等签证类别）"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：日本/韩国费用结构与资金证明（学费、奖学金、生活费）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [

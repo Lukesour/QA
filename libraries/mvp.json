@@ -1435,7 +1435,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "MVP-V01-05",
-          "next_chapter_id": null,
+          "next_chapter_id": "MVP-V02-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -1478,7 +1478,7 @@
             "next_chapter_teaser": "下一章《留学目标拆解：学历、就业、移民、行业转轨优先级》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足22天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -1505,9 +1505,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从68%提升到74%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "MVP-V02-01",
+          "next_if_accelerate": "MVP-V02-01",
+          "next_if_risk": "MVP-V01-05"
         }
       ],
       "appendix_reserved": [],
@@ -1565,7 +1565,9 @@
             "C01-01",
             "C02-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V01-06"
+          ],
           "see_also": [
             "MVP-V02-02",
             "MVP-V01-01",
@@ -1688,7 +1690,7 @@
           "scope_type": "global",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "MVP-V01-06",
           "next_chapter_id": "MVP-V02-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -1761,7 +1763,7 @@
           },
           "next_if_stable": "MVP-V02-02",
           "next_if_accelerate": "MVP-V02-02",
-          "next_if_risk": "MVP-V02-02"
+          "next_if_risk": "MVP-V01-06"
         },
         {
           "id": "MVP-V02-02",
@@ -3001,7 +3003,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "MVP-V02-05",
-          "next_chapter_id": null,
+          "next_chapter_id": "MVP-V03-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -3044,7 +3046,7 @@
             "next_chapter_teaser": "下一章《签证与毕业工签路径基础对比》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足36天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -3071,9 +3073,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从54%提升到60%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "MVP-V03-01",
+          "next_if_accelerate": "MVP-V03-01",
+          "next_if_risk": "MVP-V02-05"
         }
       ],
       "appendix_reserved": [],
@@ -3130,7 +3132,9 @@
             "MVP-V03-04",
             "MVP-V03-05"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V02-06"
+          ],
           "see_also": [
             "MVP-V03-02",
             "MVP-V03-03",
@@ -3253,7 +3257,7 @@
           "scope_type": "global",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "MVP-V02-06",
           "next_chapter_id": "MVP-V03-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -3326,7 +3330,7 @@
           },
           "next_if_stable": "MVP-V03-02",
           "next_if_accelerate": "MVP-V03-02",
-          "next_if_risk": "MVP-V03-02"
+          "next_if_risk": "MVP-V02-06"
         },
         {
           "id": "MVP-V03-02",
@@ -4503,7 +4507,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "MVP-V03-05",
-          "next_chapter_id": null,
+          "next_chapter_id": "MVP-V04-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -4546,7 +4550,7 @@
             "next_chapter_teaser": "下一章《课程结构解读：Core/Elective/Capstone/Dissertation》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足31天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -4573,9 +4577,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从69%提升到75%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "MVP-V04-01",
+          "next_if_accelerate": "MVP-V04-01",
+          "next_if_risk": "MVP-V03-05"
         }
       ],
       "appendix_reserved": [],
@@ -4634,7 +4638,9 @@
             "MVP-V04-04",
             "MVP-V04-05"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-06"
+          ],
           "see_also": [
             "MVP-V04-02",
             "MVP-V04-03",
@@ -4757,7 +4763,7 @@
           "scope_type": "global",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "MVP-V03-06",
           "next_chapter_id": "MVP-V04-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -4830,7 +4836,7 @@
           },
           "next_if_stable": "MVP-V04-02",
           "next_if_accelerate": "MVP-V04-02",
-          "next_if_risk": "MVP-V04-02"
+          "next_if_risk": "MVP-V03-06"
         },
         {
           "id": "MVP-V04-02",
@@ -6008,7 +6014,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "MVP-V04-05",
-          "next_chapter_id": null,
+          "next_chapter_id": "MVP-V05-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -6051,7 +6057,7 @@
             "next_chapter_teaser": "下一章《项目录取偏好拆解：均分、院校、实习、科研》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足25天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -6078,9 +6084,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从63%提升到69%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "MVP-V05-01",
+          "next_if_accelerate": "MVP-V05-01",
+          "next_if_risk": "MVP-V04-05"
         }
       ],
       "appendix_reserved": [],
@@ -6141,7 +6147,9 @@
             "MVP-V05-04",
             "MVP-V06-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V04-06"
+          ],
           "see_also": [
             "MVP-V05-02",
             "MVP-V05-03",
@@ -6264,7 +6272,7 @@
           "scope_type": "global",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "MVP-V04-06",
           "next_chapter_id": "MVP-V05-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -6337,7 +6345,7 @@
           },
           "next_if_stable": "MVP-V05-02",
           "next_if_accelerate": "MVP-V05-02",
-          "next_if_risk": "MVP-V05-02"
+          "next_if_risk": "MVP-V04-06"
         },
         {
           "id": "MVP-V05-02",
@@ -7776,18 +7784,28 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：分轮次投递策略：早申、常规轮、补录",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "title": "Oxford Decision Timeline",
+              "url": "https://www.ox.ac.uk/admissions/graduate/after-you-apply/scholarships-and-college-place",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "申请结果发布时间与后续节点。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "MIT Graduate Admissions FAQ",
+              "url": "https://oge.mit.edu/graduate-admissions/frequently-asked-questions/",
+              "publisher": "MIT Office of Graduate Education",
+              "type": "official",
+              "note": "申请状态、推荐信与时间节点常见问题。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.ets.org/gre.html"
+            "https://www.ets.org/gre.html",
+            "https://www.ox.ac.uk/admissions/graduate/after-you-apply/scholarships-and-college-place",
+            "https://oge.mit.edu/graduate-admissions/frequently-asked-questions/"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-01-20",
@@ -7814,7 +7832,7 @@
             "next_watch_at": "2026-02-19"
           },
           "publish_blockers": [],
-          "evidence_count": 3,
+          "evidence_count": 5,
           "confidence_score": 0.65,
           "review_log": [
             {
@@ -9963,7 +9981,7 @@
         {
           "id": "MVP-V06-08",
           "title": "成果证据化：可量化、可验证、可复述材料包",
-          "phase": "申请",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_application",
@@ -9973,16 +9991,18 @@
             "scope:global",
             "volume:V06",
             "scope_type:global",
-            "phase:申请"
+            "phase:准备",
+            "focus:专业前准备",
+            "prepare_substage:证据工程"
           ],
-          "question_canonical": "作为追求高回报但风险敏感的申请者，我在「申请」阶段遇到「成果证据化：可量化、可验证、可复述材料包」卡点，先做什么最稳？",
+          "question_canonical": "作为追求高回报但风险敏感的申请者，我在「准备」阶段遇到「成果证据化：可量化、可验证、可复述材料包」卡点，先做什么最稳？",
           "question_aliases": [
             "在申请材料连夜迭代、DDL逼近的时候，处理「成果证据化：可量化、可验证、可复述材料包」我该先锁哪三项证据，避免后面被动补救？",
             "面对「成果证据化：可量化、可验证、可复述材料包」，什么时候该保守，什么时候该冲刺？",
             "在「成果证据化：可量化、可验证、可复述材料包」这一章，哪些可验证结果达成后再进入下一章最稳？"
           ],
           "answer_short": "先把“完成《成果证据化：可量化、可验证、可复述材料包》的一页决策卡，明确“继续/暂停/回滚”条件”落地，再依据分支阈值在稳态推进与冲刺扩展之间做选择。",
-          "answer_long": "场景开场：追求高回报但风险敏感的申请者推进到「申请」阶段的《成果证据化：可量化、可验证、可复述材料包》，手上资源并不差，但时间窗口正在收紧。当你犹豫时，机会成本正在悄悄累积。\n冲突升级：你在主申与保底之间摇摆，导致关键项目迟迟无法定稿 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先校准文书叙事主线，再逐校替换证据段落；并把动作拆成“保底线、主线、冲刺线”三套计划，每72小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：执行到位会显著提高按时提交率与材料一致性，否则将进入持续补件循环。 参考该章历史样本，执行后提交按时率可由68%提升至87%，预算偏差通常可从17%收敛到12%。 分支触发规则：若距离阶段关键DDL不足26天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《成果证据化：可量化、可验证、可复述材料包》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《无效努力识别：看起来努力但不增录取率的行为》继续推进。",
+          "answer_long": "场景开场：追求高回报但风险敏感的申请者推进到「准备」阶段的《成果证据化：可量化、可验证、可复述材料包》，手上资源并不差，但时间窗口正在收紧。当你犹豫时，机会成本正在悄悄累积。\n冲突升级：你在主申与保底之间摇摆，导致关键项目迟迟无法定稿 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先校准文书叙事主线，再逐校替换证据段落；并把动作拆成“保底线、主线、冲刺线”三套计划，每72小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：执行到位会显著提高按时提交率与材料一致性，否则将进入持续补件循环。 参考该章历史样本，执行后提交按时率可由68%提升至87%，预算偏差通常可从17%收敛到12%。 分支触发规则：若距离阶段关键DDL不足26天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《成果证据化：可量化、可验证、可复述材料包》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《无效努力识别：看起来努力但不增录取率的行为》继续推进。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -9998,7 +10018,9 @@
             "可验证",
             "可复述材料包",
             "申请",
-            "标化考试与背景提升"
+            "标化考试与背景提升",
+            "申请前准备",
+            "证据工程"
           ],
           "related_ids": [
             "MVP-V06-07",
@@ -10053,18 +10075,28 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：成果证据化：可量化、可验证、可复述材料包",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "title": "Oxford Graduate Application Guide",
+              "url": "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "官方申请流程与材料要求。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "MIT Graduate Application Procedures",
+              "url": "https://oge.mit.edu/graduate-admissions/applications/procedures/",
+              "publisher": "MIT Office of Graduate Education",
+              "type": "official",
+              "note": "研究生申请流程与材料规范。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.ets.org/gre.html"
+            "https://www.ets.org/gre.html",
+            "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+            "https://oge.mit.edu/graduate-admissions/applications/procedures/"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-01-28",
@@ -10091,7 +10123,7 @@
             "next_watch_at": "2026-02-27"
           },
           "publish_blockers": [],
-          "evidence_count": 3,
+          "evidence_count": 5,
           "confidence_score": 0.65,
           "review_log": [
             {
@@ -10111,7 +10143,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "MVP-V06-07",
-          "next_chapter_id": null,
+          "next_chapter_id": "MVP-V07-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -10154,7 +10186,7 @@
             "next_chapter_teaser": "下一章《无效努力识别：看起来努力但不增录取率的行为》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足26天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -10179,9 +10211,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从68%提升到74%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "MVP-V07-01",
+          "next_if_accelerate": "MVP-V07-01",
+          "next_if_risk": "MVP-V06-07"
         }
       ],
       "appendix_reserved": [],
@@ -10194,7 +10226,7 @@
         {
           "id": "MVP-V07-01",
           "title": "CV学术版与求职版双模板",
-          "phase": "申请",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_application",
@@ -10204,16 +10236,18 @@
             "scope:global",
             "volume:V07",
             "scope_type:global",
-            "phase:申请"
+            "phase:准备",
+            "focus:专业前准备",
+            "prepare_substage:证据工程"
           ],
-          "question_canonical": "作为GPA偏低但项目经历扎实的申请者，我在「申请」阶段遇到「CV学术版与求职版双模板」卡点，先做什么最稳？",
+          "question_canonical": "作为GPA偏低但项目经历扎实的申请者，我在「准备」阶段遇到「CV学术版与求职版双模板」卡点，先做什么最稳？",
           "question_aliases": [
             "在申请材料连夜迭代、DDL逼近的时候，处理「CV学术版与求职版双模板」我该先锁哪三项证据，避免后面被动补救？",
             "面对「CV学术版与求职版双模板」，什么时候该保守，什么时候该冲刺？",
             "在「CV学术版与求职版双模板」这一章，哪些可验证结果达成后再进入下一章最稳？"
           ],
           "answer_short": "先把“完成《CV学术版与求职版双模板》的一页决策卡，明确“继续/暂停/回滚”条件”落地，再依据分支阈值在稳态推进与冲刺扩展之间做选择。",
-          "answer_long": "场景开场：GPA偏低但项目经历扎实的申请者推进到「申请」阶段的《CV学术版与求职版双模板》，手上资源并不差，但时间窗口正在收紧。这一步看似琐碎，但它决定你后面能不能快。\n冲突升级：截止日、材料一致性和项目匹配度三线同时施压，一处失误会触发连锁补件 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先做批次化提交，把高风险项目提前一轮完成；并把动作拆成“保底线、主线、冲刺线”三套计划，每72小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：要么形成高质量批次提交，要么在截止日前陷入低质量赶工。 参考该章历史样本，执行后提交按时率可由63%提升至82%，预算偏差通常可从18%收敛到12%。 分支触发规则：若距离阶段关键DDL不足21天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《CV学术版与求职版双模板》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《PS/SOP结构：动机-匹配-目标的叙事逻辑》继续推进。",
+          "answer_long": "场景开场：GPA偏低但项目经历扎实的申请者推进到「准备」阶段的《CV学术版与求职版双模板》，手上资源并不差，但时间窗口正在收紧。这一步看似琐碎，但它决定你后面能不能快。\n冲突升级：截止日、材料一致性和项目匹配度三线同时施压，一处失误会触发连锁补件 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先做批次化提交，把高风险项目提前一轮完成；并把动作拆成“保底线、主线、冲刺线”三套计划，每72小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：要么形成高质量批次提交，要么在截止日前陷入低质量赶工。 参考该章历史样本，执行后提交按时率可由63%提升至82%，预算偏差通常可从18%收敛到12%。 分支触发规则：若距离阶段关键DDL不足21天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《CV学术版与求职版双模板》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《PS/SOP结构：动机-匹配-目标的叙事逻辑》继续推进。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -10229,7 +10263,9 @@
             "CV学术版与求职版双模板",
             "申请",
             "材料写作体系",
-            "CV"
+            "CV",
+            "申请前准备",
+            "证据工程"
           ],
           "related_ids": [
             "MVP-V07-02",
@@ -10238,7 +10274,9 @@
             "MVP-V07-06",
             "MVP-V07-04"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V06-08"
+          ],
           "see_also": [
             "MVP-V07-02",
             "MVP-V07-03",
@@ -10286,18 +10324,37 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：CV学术版与求职版双模板",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "title": "Oxford Graduate Application Guide",
+              "url": "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "官方申请流程与材料要求。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "Cambridge Postgraduate Apply Guide",
+              "url": "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply",
+              "publisher": "University of Cambridge",
+              "type": "official",
+              "note": "申请材料、时间线与提交要求。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "MIT Graduate Application Procedures",
+              "url": "https://oge.mit.edu/graduate-admissions/applications/procedures/",
+              "publisher": "MIT Office of Graduate Education",
+              "type": "official",
+              "note": "研究生申请流程与材料规范。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.ets.org/gre.html"
+            "https://www.ets.org/gre.html",
+            "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+            "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply",
+            "https://oge.mit.edu/graduate-admissions/applications/procedures/"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-01-19",
@@ -10324,7 +10381,7 @@
             "next_watch_at": "2026-02-18"
           },
           "publish_blockers": [],
-          "evidence_count": 3,
+          "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
             {
@@ -10343,7 +10400,7 @@
           "scope_type": "global",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "MVP-V06-08",
           "next_chapter_id": "MVP-V07-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -10414,12 +10471,12 @@
           },
           "next_if_stable": "MVP-V07-02",
           "next_if_accelerate": "MVP-V07-02",
-          "next_if_risk": "MVP-V07-02"
+          "next_if_risk": "MVP-V06-08"
         },
         {
           "id": "MVP-V07-02",
           "title": "PS/SOP结构：动机-匹配-目标的叙事逻辑",
-          "phase": "申请",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_application",
@@ -10429,16 +10486,18 @@
             "scope:global",
             "volume:V07",
             "scope_type:global",
-            "phase:申请"
+            "phase:准备",
+            "focus:专业前准备",
+            "prepare_substage:证据工程"
           ],
-          "question_canonical": "作为准备跨专业重构履历的申请者，我在「申请」阶段遇到「PS/SOP结构：动机-匹配-目标的叙事逻辑」卡点，先做什么最稳？",
+          "question_canonical": "作为准备跨专业重构履历的申请者，我在「准备」阶段遇到「PS/SOP结构：动机-匹配-目标的叙事逻辑」卡点，先做什么最稳？",
           "question_aliases": [
             "在申请材料连夜迭代、DDL逼近的时候，处理「PS/SOP结构：动机-匹配-目标的叙事逻辑」我该先锁哪三项证据，避免后面被动补救？",
             "面对「PS/SOP结构：动机-匹配-目标的叙事逻辑」，什么时候该保守，什么时候该冲刺？",
             "在「PS/SOP结构：动机-匹配-目标的叙事逻辑」这一章，哪些可验证结果达成后再进入下一章最稳？"
           ],
           "answer_short": "先把“完成《PS/SOP结构：动机-匹配-目标的叙事逻辑》的一页决策卡，明确“继续/暂停/回滚”条件”落地，再依据分支阈值在稳态推进与冲刺扩展之间做选择。",
-          "answer_long": "场景开场：准备跨专业重构履历的申请者推进到「申请」阶段的《PS/SOP结构：动机-匹配-目标的叙事逻辑》，手上资源并不差，但时间窗口正在收紧。当你犹豫时，机会成本正在悄悄累积。\n冲突升级：你在主申与保底之间摇摆，导致关键项目迟迟无法定稿 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先校准文书叙事主线，再逐校替换证据段落；并把动作拆成“稳态线、主推进线、冲刺线”三套计划，每48小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：执行到位会显著提高按时提交率与材料一致性，否则将进入持续补件循环。 参考该章历史样本，执行后提交按时率可由56%提升至75%，预算偏差通常可从23%收敛到18%。 分支触发规则：若距离阶段关键DDL不足30天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《PS/SOP结构：动机-匹配-目标的叙事逻辑》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《PS常见逻辑错误与修正清单》继续推进。",
+          "answer_long": "场景开场：准备跨专业重构履历的申请者推进到「准备」阶段的《PS/SOP结构：动机-匹配-目标的叙事逻辑》，手上资源并不差，但时间窗口正在收紧。当你犹豫时，机会成本正在悄悄累积。\n冲突升级：你在主申与保底之间摇摆，导致关键项目迟迟无法定稿 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先校准文书叙事主线，再逐校替换证据段落；并把动作拆成“稳态线、主推进线、冲刺线”三套计划，每48小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：执行到位会显著提高按时提交率与材料一致性，否则将进入持续补件循环。 参考该章历史样本，执行后提交按时率可由56%提升至75%，预算偏差通常可从23%收敛到18%。 分支触发规则：若距离阶段关键DDL不足30天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《PS/SOP结构：动机-匹配-目标的叙事逻辑》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《PS常见逻辑错误与修正清单》继续推进。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -10461,7 +10520,9 @@
             "申请",
             "材料写作体系",
             "SOP",
-            "文书写作"
+            "文书写作",
+            "申请前准备",
+            "证据工程"
           ],
           "related_ids": [
             "MVP-V07-01",
@@ -10520,18 +10581,37 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：PS/SOP结构：动机-匹配-目标的叙事逻辑",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "title": "Oxford Graduate Application Guide",
+              "url": "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "官方申请流程与材料要求。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "Cambridge Postgraduate Apply Guide",
+              "url": "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply",
+              "publisher": "University of Cambridge",
+              "type": "official",
+              "note": "申请材料、时间线与提交要求。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "MIT Graduate Application Procedures",
+              "url": "https://oge.mit.edu/graduate-admissions/applications/procedures/",
+              "publisher": "MIT Office of Graduate Education",
+              "type": "official",
+              "note": "研究生申请流程与材料规范。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.ets.org/gre.html"
+            "https://www.ets.org/gre.html",
+            "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+            "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply",
+            "https://oge.mit.edu/graduate-admissions/applications/procedures/"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-02-12",
@@ -10558,7 +10638,7 @@
             "next_watch_at": "2026-03-14"
           },
           "publish_blockers": [],
-          "evidence_count": 3,
+          "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
             {
@@ -10653,7 +10733,7 @@
         {
           "id": "MVP-V07-03",
           "title": "PS常见逻辑错误与修正清单",
-          "phase": "申请",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_application",
@@ -10663,16 +10743,18 @@
             "scope:global",
             "volume:V07",
             "scope_type:global",
-            "phase:申请"
+            "phase:准备",
+            "focus:专业前准备",
+            "prepare_substage:证据工程"
           ],
-          "question_canonical": "作为追求高回报但风险敏感的申请者，我在「申请」阶段遇到「PS常见逻辑错误与修正清单」卡点，先做什么最稳？",
+          "question_canonical": "作为追求高回报但风险敏感的申请者，我在「准备」阶段遇到「PS常见逻辑错误与修正清单」卡点，先做什么最稳？",
           "question_aliases": [
             "在申请材料连夜迭代、DDL逼近的时候，处理「PS常见逻辑错误与修正清单」我该先锁哪三项证据，避免后面被动补救？",
             "面对「PS常见逻辑错误与修正清单」，什么时候该保守，什么时候该冲刺？",
             "在「PS常见逻辑错误与修正清单」这一章，哪些可验证结果达成后再进入下一章最稳？"
           ],
           "answer_short": "先把“完成《PS常见逻辑错误与修正清单》的一页决策卡，明确“继续/暂停/回滚”条件”落地，再依据分支阈值在稳态推进与冲刺扩展之间做选择。",
-          "answer_long": "场景开场：追求高回报但风险敏感的申请者推进到「申请」阶段的《PS常见逻辑错误与修正清单》，手上资源并不差，但时间窗口正在收紧。真正的风险不是信息不够，而是节奏失控。\n冲突升级：你想冲刺高位项目，但当前证据链不足以支撑高风险投递 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先把推荐信、成绩、语言三条证据链对齐后再投递；并把动作拆成“基线、推进线、冲刺线”三套计划，每周按里程碑复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：本阶段的质量决定录取端是否拥有真实选择权。 参考该章历史样本，执行后提交按时率可由70%提升至87%，预算偏差通常可从18%收敛到11%。 分支触发规则：若距离阶段关键DDL不足32天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《PS常见逻辑错误与修正清单》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《推荐人选择：学术/职业组合策略》继续推进。",
+          "answer_long": "场景开场：追求高回报但风险敏感的申请者推进到「准备」阶段的《PS常见逻辑错误与修正清单》，手上资源并不差，但时间窗口正在收紧。真正的风险不是信息不够，而是节奏失控。\n冲突升级：你想冲刺高位项目，但当前证据链不足以支撑高风险投递 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先把推荐信、成绩、语言三条证据链对齐后再投递；并把动作拆成“基线、推进线、冲刺线”三套计划，每周按里程碑复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：本阶段的质量决定录取端是否拥有真实选择权。 参考该章历史样本，执行后提交按时率可由70%提升至87%，预算偏差通常可从18%收敛到11%。 分支触发规则：若距离阶段关键DDL不足32天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《PS常见逻辑错误与修正清单》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《推荐人选择：学术/职业组合策略》继续推进。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -10690,7 +10772,9 @@
             "申请",
             "材料写作体系",
             "PS",
-            "文书写作"
+            "文书写作",
+            "申请前准备",
+            "证据工程"
           ],
           "related_ids": [
             "MVP-V07-02",
@@ -10749,18 +10833,37 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：PS常见逻辑错误与修正清单",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "title": "Oxford Graduate Application Guide",
+              "url": "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "官方申请流程与材料要求。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "Cambridge Postgraduate Apply Guide",
+              "url": "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply",
+              "publisher": "University of Cambridge",
+              "type": "official",
+              "note": "申请材料、时间线与提交要求。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "MIT Graduate Application Procedures",
+              "url": "https://oge.mit.edu/graduate-admissions/applications/procedures/",
+              "publisher": "MIT Office of Graduate Education",
+              "type": "official",
+              "note": "研究生申请流程与材料规范。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.ets.org/gre.html"
+            "https://www.ets.org/gre.html",
+            "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+            "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply",
+            "https://oge.mit.edu/graduate-admissions/applications/procedures/"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-02-11",
@@ -10787,7 +10890,7 @@
             "next_watch_at": "2026-03-13"
           },
           "publish_blockers": [],
-          "evidence_count": 3,
+          "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
             {
@@ -10882,7 +10985,7 @@
         {
           "id": "MVP-V07-04",
           "title": "推荐人选择：学术/职业组合策略",
-          "phase": "申请",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_application",
@@ -10892,16 +10995,19 @@
             "scope:global",
             "volume:V07",
             "scope_type:global",
-            "phase:申请"
+            "phase:准备",
+            "focus:专业前准备",
+            "prepare_substage:证据工程",
+            "topic:recommendation"
           ],
-          "question_canonical": "作为GPA偏低但项目经历扎实的申请者，我在「申请」阶段遇到「推荐人选择：学术/职业组合策略」卡点，先做什么最稳？",
+          "question_canonical": "作为GPA偏低但项目经历扎实的申请者，我在「准备」阶段遇到「推荐人选择：学术/职业组合策略」卡点，先做什么最稳？",
           "question_aliases": [
             "在申请材料连夜迭代、DDL逼近的时候，处理「推荐人选择：学术/职业组合策略」我该先锁哪三项证据，避免后面被动补救？",
             "面对「推荐人选择：学术/职业组合策略」，什么时候该保守，什么时候该冲刺？",
             "在「推荐人选择：学术/职业组合策略」这一章，哪些可验证结果达成后再进入下一章最稳？"
           ],
           "answer_short": "先把“完成《推荐人选择：学术/职业组合策略》的一页决策卡，明确“继续/暂停/回滚”条件”落地，再依据分支阈值在稳态推进与冲刺扩展之间做选择。",
-          "answer_long": "场景开场：GPA偏低但项目经历扎实的申请者推进到「申请」阶段的《推荐人选择：学术/职业组合策略》，手上资源并不差，但时间窗口正在收紧。这一步看似琐碎，但它决定你后面能不能快。\n冲突升级：截止日、材料一致性和项目匹配度三线同时施压，一处失误会触发连锁补件 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先做批次化提交，把高风险项目提前一轮完成；并把动作拆成“防守线、推进线、上限线”三套计划，每3天做一次复盘。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：要么形成高质量批次提交，要么在截止日前陷入低质量赶工。 参考该章历史样本，执行后提交按时率可由51%提升至70%，预算偏差通常可从8%收敛到3%。 分支触发规则：若距离阶段关键DDL不足33天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《推荐人选择：学术/职业组合策略》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《推荐信沟通包：素材包、时间表、提醒模板》继续推进。",
+          "answer_long": "场景开场：GPA偏低但项目经历扎实的申请者推进到「准备」阶段的《推荐人选择：学术/职业组合策略》，手上资源并不差，但时间窗口正在收紧。这一步看似琐碎，但它决定你后面能不能快。\n冲突升级：截止日、材料一致性和项目匹配度三线同时施压，一处失误会触发连锁补件 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先做批次化提交，把高风险项目提前一轮完成；并把动作拆成“防守线、推进线、上限线”三套计划，每3天做一次复盘。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：要么形成高质量批次提交，要么在截止日前陷入低质量赶工。 参考该章历史样本，执行后提交按时率可由51%提升至70%，预算偏差通常可从8%收敛到3%。 分支触发规则：若距离阶段关键DDL不足33天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《推荐人选择：学术/职业组合策略》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《推荐信沟通包：素材包、时间表、提醒模板》继续推进。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -10916,7 +11022,11 @@
             "学术",
             "职业组合策略",
             "申请",
-            "材料写作体系"
+            "材料写作体系",
+            "申请前准备",
+            "证据工程",
+            "推荐信",
+            "推荐人"
           ],
           "related_ids": [
             "MVP-V07-03",
@@ -10975,18 +11085,37 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：推荐人选择：学术/职业组合策略",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "title": "Oxford Registering Referees",
+              "url": "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide/references/registering-referees",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "推荐信提交规则与推荐人要求。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "MIT Letters of Recommendation",
+              "url": "https://oge.mit.edu/graduate-admissions/applications/letters-of-recommendation/",
+              "publisher": "MIT Office of Graduate Education",
+              "type": "official",
+              "note": "推荐信提交、时点与限制规则。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "Cambridge Postgraduate Apply Guide",
+              "url": "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply",
+              "publisher": "University of Cambridge",
+              "type": "official",
+              "note": "申请材料、时间线与提交要求。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.ets.org/gre.html"
+            "https://www.ets.org/gre.html",
+            "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide/references/registering-referees",
+            "https://oge.mit.edu/graduate-admissions/applications/letters-of-recommendation/",
+            "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-02-10",
@@ -11013,7 +11142,7 @@
             "next_watch_at": "2026-03-12"
           },
           "publish_blockers": [],
-          "evidence_count": 3,
+          "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
             {
@@ -11108,7 +11237,7 @@
         {
           "id": "MVP-V07-05",
           "title": "推荐信沟通包：素材包、时间表、提醒模板",
-          "phase": "申请",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_application",
@@ -11118,9 +11247,12 @@
             "scope:global",
             "volume:V07",
             "scope_type:global",
-            "phase:申请"
+            "phase:准备",
+            "focus:专业前准备",
+            "prepare_substage:证据工程",
+            "topic:recommendation"
           ],
-          "question_canonical": "作为准备冲刺主轮次的申请者，我在「申请」阶段卡在「推荐信沟通包：素材包、时间表、提醒模板」，怎么推进最稳？",
+          "question_canonical": "作为准备冲刺主轮次的申请者，我在「准备」阶段卡在「推荐信沟通包：素材包、时间表、提醒模板」，怎么推进最稳？",
           "question_aliases": [
             "推荐人答应了但一直没提交，我该怎么催不伤关系又不耽误DDL？",
             "推荐信素材包要给到什么粒度，推荐人才愿意高质量写？",
@@ -11141,7 +11273,10 @@
             "推荐信",
             "素材包",
             "提交追踪",
-            "备选推荐人"
+            "备选推荐人",
+            "申请前准备",
+            "证据工程",
+            "推荐人"
           ],
           "related_ids": [
             "MVP-V07-04",
@@ -11192,17 +11327,36 @@
               "note": "用于参考研究生申请中的推荐信要求与提交边界。"
             },
             {
-              "title": "目标项目推荐信要求与系统路径（你补）",
-              "url": null,
-              "publisher": "你补充的目标院校官方页面",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补每个目标项目官网的推荐信数量、提交方式与截止日。"
+              "title": "Oxford Registering Referees",
+              "url": "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide/references/registering-referees",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "推荐信提交规则与推荐人要求。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "MIT Letters of Recommendation",
+              "url": "https://oge.mit.edu/graduate-admissions/applications/letters-of-recommendation/",
+              "publisher": "MIT Office of Graduate Education",
+              "type": "official",
+              "note": "推荐信提交、时点与限制规则。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "Cambridge Postgraduate Apply Guide",
+              "url": "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply",
+              "publisher": "University of Cambridge",
+              "type": "official",
+              "note": "申请材料、时间线与提交要求。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://help.liaisonedu.com/GradCAS_Applicant_Help_Center/Submitting_and_Monitoring_Your_GradCAS_Application/6_Submitting_and_Monitoring_Recommendations",
-            "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide/references"
+            "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide/references",
+            "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide/references/registering-referees",
+            "https://oge.mit.edu/graduate-admissions/applications/letters-of-recommendation/",
+            "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-02-09",
@@ -11229,7 +11383,7 @@
             "next_watch_at": "2026-03-11"
           },
           "publish_blockers": [],
-          "evidence_count": 2,
+          "evidence_count": 5,
           "confidence_score": 0.65,
           "review_log": [
             {
@@ -11324,7 +11478,7 @@
         {
           "id": "MVP-V07-06",
           "title": "Writing Sample/Research Proposal基础写法",
-          "phase": "申请",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_application",
@@ -11334,16 +11488,18 @@
             "scope:global",
             "volume:V07",
             "scope_type:global",
-            "phase:申请"
+            "phase:准备",
+            "focus:专业前准备",
+            "prepare_substage:证据工程"
           ],
-          "question_canonical": "作为预算受限但目标清晰的申请者，我在「申请」阶段遇到「Writing Sample/Research Proposal基础写法」卡点，先做什么最稳？",
+          "question_canonical": "作为预算受限但目标清晰的申请者，我在「准备」阶段遇到「Writing Sample/Research Proposal基础写法」卡点，先做什么最稳？",
           "question_aliases": [
             "在申请材料连夜迭代、DDL逼近的时候，处理「Writing Sample/Research Proposal基础写法」我该先锁哪三项证据，避免后面被动补救？",
             "面对「Writing Sample/Research Proposal基础写法」，什么时候该保守，什么时候该冲刺？",
             "在「Writing Sample/Research Proposal基础写法」这一章，哪些可验证结果达成后再进入下一章最稳？"
           ],
           "answer_short": "先把“完成《Writing Sample/Research Proposal基础写法》的一页决策卡，明确“继续/暂停/回滚”条件”落地，再依据分支阈值在稳态推进与冲刺扩展之间做选择。",
-          "answer_long": "场景开场：预算受限但目标清晰的申请者推进到「申请」阶段的《Writing Sample/Research Proposal基础写法》，手上资源并不差，但时间窗口正在收紧。真正的风险不是信息不够，而是节奏失控。\n冲突升级：你想冲刺高位项目，但当前证据链不足以支撑高风险投递 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先把推荐信、成绩、语言三条证据链对齐后再投递；并把动作拆成“保守线、推进线、冲刺线”三套计划，每周复盘两次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：本阶段的质量决定录取端是否拥有真实选择权。 参考该章历史样本，执行后提交按时率可由70%提升至88%，预算偏差通常可从9%收敛到3%。 分支触发规则：若距离阶段关键DDL不足24天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《Writing Sample/Research Proposal基础写法》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《作品集框架：设计/建筑/艺术项目展示逻辑》继续推进。",
+          "answer_long": "场景开场：预算受限但目标清晰的申请者推进到「准备」阶段的《Writing Sample/Research Proposal基础写法》，手上资源并不差，但时间窗口正在收紧。真正的风险不是信息不够，而是节奏失控。\n冲突升级：你想冲刺高位项目，但当前证据链不足以支撑高风险投递 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先把推荐信、成绩、语言三条证据链对齐后再投递；并把动作拆成“保守线、推进线、冲刺线”三套计划，每周复盘两次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：本阶段的质量决定录取端是否拥有真实选择权。 参考该章历史样本，执行后提交按时率可由70%提升至88%，预算偏差通常可从9%收敛到3%。 分支触发规则：若距离阶段关键DDL不足24天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《Writing Sample/Research Proposal基础写法》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《作品集框架：设计/建筑/艺术项目展示逻辑》继续推进。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -11359,7 +11515,9 @@
             "Research",
             "Proposal基础写法",
             "申请",
-            "材料写作体系"
+            "材料写作体系",
+            "申请前准备",
+            "证据工程"
           ],
           "related_ids": [
             "MVP-V07-05",
@@ -11418,18 +11576,37 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：Writing Sample/Research Proposal基础写法",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "title": "Oxford Graduate Application Guide",
+              "url": "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "官方申请流程与材料要求。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "Cambridge Postgraduate Apply Guide",
+              "url": "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply",
+              "publisher": "University of Cambridge",
+              "type": "official",
+              "note": "申请材料、时间线与提交要求。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "MIT Graduate Application Procedures",
+              "url": "https://oge.mit.edu/graduate-admissions/applications/procedures/",
+              "publisher": "MIT Office of Graduate Education",
+              "type": "official",
+              "note": "研究生申请流程与材料规范。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.ets.org/gre.html"
+            "https://www.ets.org/gre.html",
+            "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+            "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply",
+            "https://oge.mit.edu/graduate-admissions/applications/procedures/"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-02-08",
@@ -11456,7 +11633,7 @@
             "next_watch_at": "2026-03-10"
           },
           "publish_blockers": [],
-          "evidence_count": 3,
+          "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
             {
@@ -11551,7 +11728,7 @@
         {
           "id": "MVP-V07-07",
           "title": "作品集框架：设计/建筑/艺术项目展示逻辑",
-          "phase": "申请",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_application",
@@ -11561,16 +11738,18 @@
             "scope:global",
             "volume:V07",
             "scope_type:global",
-            "phase:申请"
+            "phase:准备",
+            "focus:专业前准备",
+            "prepare_substage:证据工程"
           ],
-          "question_canonical": "作为追求高回报但风险敏感的申请者，我在「申请」阶段遇到「作品集框架：设计/建筑/艺术项目展示逻辑」卡点，先做什么最稳？",
+          "question_canonical": "作为追求高回报但风险敏感的申请者，我在「准备」阶段遇到「作品集框架：设计/建筑/艺术项目展示逻辑」卡点，先做什么最稳？",
           "question_aliases": [
             "在申请材料连夜迭代、DDL逼近的时候，处理「作品集框架：设计/建筑/艺术项目展示逻辑」我该先锁哪三项证据，避免后面被动补救？",
             "面对「作品集框架：设计/建筑/艺术项目展示逻辑」，什么时候该保守，什么时候该冲刺？",
             "在「作品集框架：设计/建筑/艺术项目展示逻辑」这一章，哪些可验证结果达成后再进入下一章最稳？"
           ],
           "answer_short": "先把“完成《作品集框架：设计/建筑/艺术项目展示逻辑》的一页决策卡，明确“继续/暂停/回滚”条件”落地，再依据分支阈值在稳态推进与冲刺扩展之间做选择。",
-          "answer_long": "场景开场：追求高回报但风险敏感的申请者推进到「申请」阶段的《作品集框架：设计/建筑/艺术项目展示逻辑》，手上资源并不差，但时间窗口正在收紧。这一步看似琐碎，但它决定你后面能不能快。\n冲突升级：申请组合过宽导致每个项目都只做了60分版本，转化率被显著拉低 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先做批次化提交，把高风险项目提前一轮完成；并把动作拆成“保底线、主线、冲刺线”三套计划，每72小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：执行到位会显著提高按时提交率与材料一致性，否则将进入持续补件循环。 参考该章历史样本，执行后提交按时率可由59%提升至77%，预算偏差通常可从20%收敛到12%。 分支触发规则：若距离阶段关键DDL不足33天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《作品集框架：设计/建筑/艺术项目展示逻辑》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《材料一致性校验：CV-文书-推荐信对齐检查》继续推进。",
+          "answer_long": "场景开场：追求高回报但风险敏感的申请者推进到「准备」阶段的《作品集框架：设计/建筑/艺术项目展示逻辑》，手上资源并不差，但时间窗口正在收紧。这一步看似琐碎，但它决定你后面能不能快。\n冲突升级：申请组合过宽导致每个项目都只做了60分版本，转化率被显著拉低 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先做批次化提交，把高风险项目提前一轮完成；并把动作拆成“保底线、主线、冲刺线”三套计划，每72小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：执行到位会显著提高按时提交率与材料一致性，否则将进入持续补件循环。 参考该章历史样本，执行后提交按时率可由59%提升至77%，预算偏差通常可从20%收敛到12%。 分支触发规则：若距离阶段关键DDL不足33天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《作品集框架：设计/建筑/艺术项目展示逻辑》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《材料一致性校验：CV-文书-推荐信对齐检查》继续推进。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -11586,7 +11765,9 @@
             "建筑",
             "艺术项目展示逻辑",
             "申请",
-            "材料写作体系"
+            "材料写作体系",
+            "申请前准备",
+            "证据工程"
           ],
           "related_ids": [
             "MVP-V07-06",
@@ -11645,18 +11826,37 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：作品集框架：设计/建筑/艺术项目展示逻辑",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "title": "Oxford Graduate Application Guide",
+              "url": "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "官方申请流程与材料要求。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "Cambridge Postgraduate Apply Guide",
+              "url": "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply",
+              "publisher": "University of Cambridge",
+              "type": "official",
+              "note": "申请材料、时间线与提交要求。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "MIT Graduate Application Procedures",
+              "url": "https://oge.mit.edu/graduate-admissions/applications/procedures/",
+              "publisher": "MIT Office of Graduate Education",
+              "type": "official",
+              "note": "研究生申请流程与材料规范。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.ets.org/gre.html"
+            "https://www.ets.org/gre.html",
+            "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+            "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply",
+            "https://oge.mit.edu/graduate-admissions/applications/procedures/"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-02-07",
@@ -11683,7 +11883,7 @@
             "next_watch_at": "2026-03-09"
           },
           "publish_blockers": [],
-          "evidence_count": 3,
+          "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
             {
@@ -11778,7 +11978,7 @@
         {
           "id": "MVP-V07-08",
           "title": "材料一致性校验：CV-文书-推荐信对齐检查",
-          "phase": "申请",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_application",
@@ -11788,16 +11988,19 @@
             "scope:global",
             "volume:V07",
             "scope_type:global",
-            "phase:申请"
+            "phase:准备",
+            "focus:专业前准备",
+            "prepare_substage:证据工程",
+            "topic:recommendation"
           ],
-          "question_canonical": "作为希望转轨升级的在职申请者，我在「申请」阶段遇到「材料一致性校验：CV-文书-推荐信对齐检查」卡点，先做什么最稳？",
+          "question_canonical": "作为希望转轨升级的在职申请者，我在「准备」阶段遇到「材料一致性校验：CV-文书-推荐信对齐检查」卡点，先做什么最稳？",
           "question_aliases": [
             "在申请材料连夜迭代、DDL逼近的时候，处理「材料一致性校验：CV-文书-推荐信对齐检查」我该先锁哪三项证据，避免后面被动补救？",
             "面对「材料一致性校验：CV-文书-推荐信对齐检查」，什么时候该保守，什么时候该冲刺？",
             "在「材料一致性校验：CV-文书-推荐信对齐检查」这一章，哪些可验证结果达成后再进入下一章最稳？"
           ],
           "answer_short": "先把“完成《材料一致性校验：CV-文书-推荐信对齐检查》的一页决策卡，明确“继续/暂停/回滚”条件”落地，再依据分支阈值在稳态推进与冲刺扩展之间做选择。",
-          "answer_long": "场景开场：希望转轨升级的在职申请者推进到「申请」阶段的《材料一致性校验：CV-文书-推荐信对齐检查》，手上资源并不差，但时间窗口正在收紧。当你犹豫时，机会成本正在悄悄累积。\n冲突升级：语言成绩、文书叙事与推荐信口径尚未统一，招生官会直接看到断层 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先校准文书叙事主线，再逐校替换证据段落；并把动作拆成“稳态线、主推进线、冲刺线”三套计划，每48小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：要么形成高质量批次提交，要么在截止日前陷入低质量赶工。 参考该章历史样本，执行后提交按时率可由48%提升至69%，预算偏差通常可从9%收敛到6%。 分支触发规则：若距离阶段关键DDL不足34天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《材料一致性校验：CV-文书-推荐信对齐检查》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《作品集框架：设计/建筑/艺术项目展示逻辑》继续推进。",
+          "answer_long": "场景开场：希望转轨升级的在职申请者推进到「准备」阶段的《材料一致性校验：CV-文书-推荐信对齐检查》，手上资源并不差，但时间窗口正在收紧。当你犹豫时，机会成本正在悄悄累积。\n冲突升级：语言成绩、文书叙事与推荐信口径尚未统一，招生官会直接看到断层 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先校准文书叙事主线，再逐校替换证据段落；并把动作拆成“稳态线、主推进线、冲刺线”三套计划，每48小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：要么形成高质量批次提交，要么在截止日前陷入低质量赶工。 参考该章历史样本，执行后提交按时率可由48%提升至69%，预算偏差通常可从9%收敛到6%。 分支触发规则：若距离阶段关键DDL不足34天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《材料一致性校验：CV-文书-推荐信对齐检查》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《作品集框架：设计/建筑/艺术项目展示逻辑》继续推进。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -11818,7 +12021,11 @@
             "申请",
             "材料写作体系",
             "CV-",
-            "文书写作"
+            "文书写作",
+            "申请前准备",
+            "证据工程",
+            "推荐信",
+            "推荐人"
           ],
           "related_ids": [
             "MVP-V07-07",
@@ -11877,18 +12084,37 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：材料一致性校验：CV-文书-推荐信对齐检查",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "title": "Oxford Registering Referees",
+              "url": "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide/references/registering-referees",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "推荐信提交规则与推荐人要求。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "MIT Letters of Recommendation",
+              "url": "https://oge.mit.edu/graduate-admissions/applications/letters-of-recommendation/",
+              "publisher": "MIT Office of Graduate Education",
+              "type": "official",
+              "note": "推荐信提交、时点与限制规则。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "Cambridge Postgraduate Apply Guide",
+              "url": "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply",
+              "publisher": "University of Cambridge",
+              "type": "official",
+              "note": "申请材料、时间线与提交要求。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.ets.org/gre.html"
+            "https://www.ets.org/gre.html",
+            "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide/references/registering-referees",
+            "https://oge.mit.edu/graduate-admissions/applications/letters-of-recommendation/",
+            "https://www.postgraduate.study.cam.ac.uk/applying/how-do-i-apply"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-02-06",
@@ -11915,7 +12141,7 @@
             "next_watch_at": "2026-03-08"
           },
           "publish_blockers": [],
-          "evidence_count": 3,
+          "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
             {
@@ -11935,7 +12161,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "MVP-V07-07",
-          "next_chapter_id": null,
+          "next_chapter_id": "MVP-V08-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -11978,7 +12204,7 @@
             "next_chapter_teaser": "下一章《作品集框架：设计/建筑/艺术项目展示逻辑》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足34天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -12003,9 +12229,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从48%提升到54%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "MVP-V08-01",
+          "next_if_accelerate": "MVP-V08-01",
+          "next_if_risk": "MVP-V07-07"
         }
       ],
       "appendix_reserved": [],
@@ -12066,7 +12292,9 @@
             "MVP-V08-05",
             "MVP-V08-06"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V07-08"
+          ],
           "see_also": [
             "MVP-V08-02",
             "MVP-V08-03",
@@ -12208,7 +12436,7 @@
           "scope_type": "global",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "MVP-V07-08",
           "next_chapter_id": "MVP-V08-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -12281,7 +12509,7 @@
           },
           "next_if_stable": "MVP-V08-02",
           "next_if_accelerate": "MVP-V08-02",
-          "next_if_risk": "MVP-V08-02"
+          "next_if_risk": "MVP-V07-08"
         },
         {
           "id": "MVP-V08-02",
@@ -13516,18 +13744,28 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：补件、催审、申诉与拒信复盘流程",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "title": "Oxford Your Offer and Contract",
+              "url": "https://www.ox.ac.uk/admissions/graduate/after-you-apply/your-offer-and-contract",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "Offer条件、接受与合同条款。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "Oxford Decision Timeline",
+              "url": "https://www.ox.ac.uk/admissions/graduate/after-you-apply/scholarships-and-college-place",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "申请结果发布时间与后续节点。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.ets.org/gre.html"
+            "https://www.ets.org/gre.html",
+            "https://www.ox.ac.uk/admissions/graduate/after-you-apply/your-offer-and-contract",
+            "https://www.ox.ac.uk/admissions/graduate/after-you-apply/scholarships-and-college-place"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-01-23",
@@ -13554,7 +13792,7 @@
             "next_watch_at": "2026-02-22"
           },
           "publish_blockers": [],
-          "evidence_count": 3,
+          "evidence_count": 5,
           "confidence_score": 0.65,
           "review_log": [
             {
@@ -13574,7 +13812,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "MVP-V08-05",
-          "next_chapter_id": null,
+          "next_chapter_id": "MVP-V09-01",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -13617,7 +13855,7 @@
             "next_chapter_teaser": "下一章《高频面试题与STAR答题结构》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足23天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -13642,9 +13880,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从49%提升到55%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "MVP-V09-01",
+          "next_if_accelerate": "MVP-V09-01",
+          "next_if_risk": "MVP-V08-05"
         }
       ],
       "appendix_reserved": [],
@@ -13749,18 +13987,28 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：Offer类型与条件解读：Con/Uncon/Waitlist",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "title": "Oxford Your Offer and Contract",
+              "url": "https://www.ox.ac.uk/admissions/graduate/after-you-apply/your-offer-and-contract",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "Offer条件、接受与合同条款。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "Oxford Decision Timeline",
+              "url": "https://www.ox.ac.uk/admissions/graduate/after-you-apply/scholarships-and-college-place",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "申请结果发布时间与后续节点。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.enic-naric.net/"
+            "https://www.enic-naric.net/",
+            "https://www.ox.ac.uk/admissions/graduate/after-you-apply/your-offer-and-contract",
+            "https://www.ox.ac.uk/admissions/graduate/after-you-apply/scholarships-and-college-place"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-02-06",
@@ -13787,7 +14035,7 @@
             "next_watch_at": "2026-03-08"
           },
           "publish_blockers": [],
-          "evidence_count": 3,
+          "evidence_count": 5,
           "confidence_score": 0.65,
           "review_log": [
             {
@@ -13806,7 +14054,7 @@
           "scope_type": "global",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "MVP-V08-06",
           "next_chapter_id": "MVP-V09-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -13877,7 +14125,7 @@
           },
           "next_if_stable": "MVP-V09-02",
           "next_if_accelerate": "MVP-V09-02",
-          "next_if_risk": "MVP-V09-02"
+          "next_if_risk": "MVP-V08-06"
         },
         {
           "id": "MVP-V09-02",
@@ -13975,18 +14223,37 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：押金、退款、延期条款风险清单",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "title": "Oxford Graduate Deposits",
+              "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/fees-and-other-charges/deposits",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "押金、退款与特殊情形规则。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "University of Leeds Tuition Fee Deposits",
+              "url": "https://www.leeds.ac.uk/masters-fees/doc/tuition-fee-deposits",
+              "publisher": "University of Leeds",
+              "type": "official",
+              "note": "押金、退款与不可退情形的官方说明。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "Oxford Your Offer and Contract",
+              "url": "https://www.ox.ac.uk/admissions/graduate/after-you-apply/your-offer-and-contract",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "Offer条件、接受与合同条款。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.enic-naric.net/"
+            "https://www.enic-naric.net/",
+            "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/fees-and-other-charges/deposits",
+            "https://www.ucl.ac.uk/prospective-students/graduate/fee-deposits-frequently-asked-questions",
+            "https://www.ox.ac.uk/admissions/graduate/after-you-apply/your-offer-and-contract"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-02-05",
@@ -14013,7 +14280,7 @@
             "next_watch_at": "2026-03-07"
           },
           "publish_blockers": [],
-          "evidence_count": 3,
+          "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
             {
@@ -14203,18 +14470,28 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：多Offer决策模型：ROI+风险+匹配度",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "title": "Oxford Your Offer and Contract",
+              "url": "https://www.ox.ac.uk/admissions/graduate/after-you-apply/your-offer-and-contract",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "Offer条件、接受与合同条款。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "Oxford Decision Timeline",
+              "url": "https://www.ox.ac.uk/admissions/graduate/after-you-apply/scholarships-and-college-place",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "申请结果发布时间与后续节点。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.enic-naric.net/"
+            "https://www.enic-naric.net/",
+            "https://www.ox.ac.uk/admissions/graduate/after-you-apply/your-offer-and-contract",
+            "https://www.ox.ac.uk/admissions/graduate/after-you-apply/scholarships-and-college-place"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-02-04",
@@ -14241,7 +14518,7 @@
             "next_watch_at": "2026-03-06"
           },
           "publish_blockers": [],
-          "evidence_count": 3,
+          "evidence_count": 5,
           "confidence_score": 0.65,
           "review_log": [
             {
@@ -14336,7 +14613,7 @@
         {
           "id": "MVP-V09-04",
           "title": "留学总成本模型：学费+生活费+隐性成本",
-          "phase": "准备",
+          "phase": "申请",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_transition",
@@ -14346,18 +14623,18 @@
             "scope:global",
             "volume:V09",
             "scope_type:global",
-            "phase:准备",
             "focus:专业前准备",
-            "prepare_substage:先修补齐"
+            "prepare_substage:先修补齐",
+            "phase:申请"
           ],
-          "question_canonical": "作为GPA偏低但项目经历扎实的申请者，我在「准备」阶段遇到「留学总成本模型：学费+生活费+隐性成本」卡点，先做什么最稳？",
+          "question_canonical": "作为GPA偏低但项目经历扎实的申请者，我在「申请」阶段遇到「留学总成本模型：学费+生活费+隐性成本」卡点，先做什么最稳？",
           "question_aliases": [
             "在offer与押金窗口同时倒计时时，处理「留学总成本模型：学费+生活费+隐性成本」我该先锁哪三项证据，避免后面被动补救？",
             "面对「留学总成本模型：学费+生活费+隐性成本」，什么时候该保守，什么时候该冲刺？",
             "在「留学总成本模型：学费+生活费+隐性成本」这一章，哪些可验证结果达成后再进入下一章最稳？"
           ],
           "answer_short": "先把“完成《留学总成本模型：学费+生活费+隐性成本》的一页决策卡，明确“继续/暂停/回滚”条件”落地，再依据分支阈值在稳态推进与冲刺扩展之间做选择。",
-          "answer_long": "场景开场：GPA偏低但项目经历扎实的申请者推进到「准备」阶段的《留学总成本模型：学费+生活费+隐性成本》，手上资源并不差，但时间窗口正在收紧。当你犹豫时，机会成本正在悄悄累积。\n冲突升级：家长偏好成本更低方案，但你的职业转轨目标需要更高平台支持 当前时间锚点是D-90（D-90 ~ D-14），若错过“最晚在 D-14 完成 offer 决策和押金支付”，直接代价是：决策过慢会触发 offer 失效或宿舍排队失败\n抉择路径：先锁定不可逆成本，再评估可逆选择价值；并把动作拆成“保守线、推进线、冲刺线”三套计划，每周复盘两次。 预算账本（CNY）建议为：申请15000-40000，学费250000-450000/年，生活费150000-280000/年，缓冲金40000-80000。\n结果分歧：录取决策不是选“最好看”的项目，而是选“最可执行”的未来。 参考该章历史样本，执行后提交按时率可由48%提升至67%，预算偏差通常可从14%收敛到11%。 分支触发规则：若距离阶段关键DDL不足34天、语言与目标线差距超过1.0分、或预算缓冲低于12万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《留学总成本模型：学费+生活费+隐性成本》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《家庭资金证明：存款时点、流水与口径》继续推进。",
+          "answer_long": "场景开场：GPA偏低但项目经历扎实的申请者推进到「申请」阶段的《留学总成本模型：学费+生活费+隐性成本》，手上资源并不差，但时间窗口正在收紧。当你犹豫时，机会成本正在悄悄累积。\n冲突升级：家长偏好成本更低方案，但你的职业转轨目标需要更高平台支持 当前时间锚点是D-90（D-90 ~ D-14），若错过“最晚在 D-14 完成 offer 决策和押金支付”，直接代价是：决策过慢会触发 offer 失效或宿舍排队失败\n抉择路径：先锁定不可逆成本，再评估可逆选择价值；并把动作拆成“保守线、推进线、冲刺线”三套计划，每周复盘两次。 预算账本（CNY）建议为：申请15000-40000，学费250000-450000/年，生活费150000-280000/年，缓冲金40000-80000。\n结果分歧：录取决策不是选“最好看”的项目，而是选“最可执行”的未来。 参考该章历史样本，执行后提交按时率可由48%提升至67%，预算偏差通常可从14%收敛到11%。 分支触发规则：若距离阶段关键DDL不足34天、语言与目标线差距超过1.0分、或预算缓冲低于12万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《留学总成本模型：学费+生活费+隐性成本》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《家庭资金证明：存款时点、流水与口径》继续推进。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -14584,7 +14861,7 @@
         {
           "id": "MVP-V09-05",
           "title": "家庭资金证明：存款时点、流水与口径",
-          "phase": "准备",
+          "phase": "申请",
           "status": "published",
           "priority": "P0",
           "owner": "team_mvp_transition",
@@ -14594,18 +14871,18 @@
             "scope:global",
             "volume:V09",
             "scope_type:global",
-            "phase:准备",
             "focus:专业前准备",
-            "prepare_substage:先修补齐"
+            "prepare_substage:先修补齐",
+            "phase:申请"
           ],
-          "question_canonical": "作为刚进入申请季的应届申请者，我在「准备」阶段遇到「家庭资金证明：存款时点、流水与口径」卡点，先做什么最稳？",
+          "question_canonical": "作为刚进入申请季的应届申请者，我在「申请」阶段遇到「家庭资金证明：存款时点、流水与口径」卡点，先做什么最稳？",
           "question_aliases": [
             "在offer与押金窗口同时倒计时时，处理「家庭资金证明：存款时点、流水与口径」我该先锁哪三项证据，避免后面被动补救？",
             "面对「家庭资金证明：存款时点、流水与口径」，什么时候该保守，什么时候该冲刺？",
             "在「家庭资金证明：存款时点、流水与口径」这一章，哪些可验证结果达成后再进入下一章最稳？"
           ],
           "answer_short": "先把“完成《家庭资金证明：存款时点、流水与口径》的一页决策卡，明确“继续/暂停/回滚”条件”落地，再依据分支阈值在稳态推进与冲刺扩展之间做选择。",
-          "answer_long": "场景开场：刚进入申请季的应届申请者推进到「准备」阶段的《家庭资金证明：存款时点、流水与口径》，手上资源并不差，但时间窗口正在收紧。你现在最怕的不是做错，而是做得太慢。\n冲突升级：你拿到多个录取但缺少统一评估口径，比较过程耗时且结论摇摆 当前时间锚点是D-90（D-90 ~ D-14），若错过“最晚在 D-14 完成 offer 决策和押金支付”，直接代价是：决策过慢会触发 offer 失效或宿舍排队失败\n抉择路径：先确定最终职业目标，再回看项目匹配程度；并把动作拆成“保底线、主线、冲刺线”三套计划，每72小时复盘一次。 预算账本（CNY）建议为：申请15000-40000，学费250000-450000/年，生活费150000-280000/年，缓冲金40000-80000。\n结果分歧：本章决定你是主动进入下一阶段，还是被条款和期限拖着走。 参考该章历史样本，执行后提交按时率可由61%提升至75%，预算偏差通常可从9%收敛到5%。 分支触发规则：若距离阶段关键DDL不足27天、语言与目标线差距超过1.0分、或预算缓冲低于12万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《家庭资金证明：存款时点、流水与口径》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《奖学金类型、窗口与命中策略》继续推进。",
+          "answer_long": "场景开场：刚进入申请季的应届申请者推进到「申请」阶段的《家庭资金证明：存款时点、流水与口径》，手上资源并不差，但时间窗口正在收紧。你现在最怕的不是做错，而是做得太慢。\n冲突升级：你拿到多个录取但缺少统一评估口径，比较过程耗时且结论摇摆 当前时间锚点是D-90（D-90 ~ D-14），若错过“最晚在 D-14 完成 offer 决策和押金支付”，直接代价是：决策过慢会触发 offer 失效或宿舍排队失败\n抉择路径：先确定最终职业目标，再回看项目匹配程度；并把动作拆成“保底线、主线、冲刺线”三套计划，每72小时复盘一次。 预算账本（CNY）建议为：申请15000-40000，学费250000-450000/年，生活费150000-280000/年，缓冲金40000-80000。\n结果分歧：本章决定你是主动进入下一阶段，还是被条款和期限拖着走。 参考该章历史样本，执行后提交按时率可由61%提升至75%，预算偏差通常可从9%收敛到5%。 分支触发规则：若距离阶段关键DDL不足27天、语言与目标线差距超过1.0分、或预算缓冲低于12万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《家庭资金证明：存款时点、流水与口径》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《奖学金类型、窗口与命中策略》继续推进。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -14783,7 +15060,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "MVP-V09-04",
-          "next_chapter_id": "MVP-V09-06",
+          "next_chapter_id": "MVP-V09-07",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "高预算",
@@ -14853,8 +15130,8 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从61%提升到67%。"
           },
-          "next_if_stable": "MVP-V09-06",
-          "next_if_accelerate": "MVP-V09-06",
+          "next_if_stable": "MVP-V09-07",
+          "next_if_accelerate": "MVP-V09-07",
           "next_if_risk": "MVP-V09-04"
         },
         {
@@ -15050,7 +15327,7 @@
           "scope_type": "global",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": "MVP-V09-05",
+          "previous_chapter_id": null,
           "next_chapter_id": "MVP-V09-07",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -15123,12 +15400,12 @@
           },
           "next_if_stable": "MVP-V09-07",
           "next_if_accelerate": "MVP-V09-07",
-          "next_if_risk": "MVP-V09-05"
+          "next_if_risk": "MVP-V09-07"
         },
         {
           "id": "MVP-V09-07",
           "title": "教育贷款、汇率风险与支付路径",
-          "phase": "准备",
+          "phase": "申请",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_transition",
@@ -15138,18 +15415,18 @@
             "scope:global",
             "volume:V09",
             "scope_type:global",
-            "phase:准备",
             "focus:专业前准备",
-            "prepare_substage:风险闸门"
+            "prepare_substage:风险闸门",
+            "phase:申请"
           ],
-          "question_canonical": "作为GPA偏低但项目经历扎实的申请者，我在「准备」阶段遇到「教育贷款、汇率风险与支付路径」卡点，先做什么最稳？",
+          "question_canonical": "作为GPA偏低但项目经历扎实的申请者，我在「申请」阶段遇到「教育贷款、汇率风险与支付路径」卡点，先做什么最稳？",
           "question_aliases": [
             "在offer与押金窗口同时倒计时时，处理「教育贷款、汇率风险与支付路径」我该先锁哪三项证据，避免后面被动补救？",
             "面对「教育贷款、汇率风险与支付路径」，什么时候该保守，什么时候该冲刺？",
             "在「教育贷款、汇率风险与支付路径」这一章，哪些可验证结果达成后再进入下一章最稳？"
           ],
           "answer_short": "先把“完成《教育贷款、汇率风险与支付路径》的一页决策卡，明确“继续/暂停/回滚”条件”落地，再依据分支阈值在稳态推进与冲刺扩展之间做选择。",
-          "answer_long": "场景开场：GPA偏低但项目经历扎实的申请者推进到「准备」阶段的《教育贷款、汇率风险与支付路径》，手上资源并不差，但时间窗口正在收紧。真正的风险不是信息不够，而是节奏失控。\n冲突升级：家长偏好成本更低方案，但你的职业转轨目标需要更高平台支持 当前时间锚点是D-90（D-90 ~ D-14），若错过“最晚在 D-14 完成 offer 决策和押金支付”，直接代价是：决策过慢会触发 offer 失效或宿舍排队失败\n抉择路径：先按“可执行性”排序，而不是仅按名气排序；并把动作拆成“基线、推进线、冲刺线”三套计划，每周按里程碑复盘一次。 预算账本（CNY）建议为：申请15000-40000，学费250000-450000/年，生活费150000-280000/年，缓冲金40000-80000。\n结果分歧：录取决策不是选“最好看”的项目，而是选“最可执行”的未来。 参考该章历史样本，执行后提交按时率可由54%提升至71%，预算偏差通常可从18%收敛到15%。 分支触发规则：若距离阶段关键DDL不足20天、语言与目标线差距超过1.0分、或预算缓冲低于12万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《教育贷款、汇率风险与支付路径》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《家庭预算沟通模板：冲突场景与协商流程》继续推进。",
+          "answer_long": "场景开场：GPA偏低但项目经历扎实的申请者推进到「申请」阶段的《教育贷款、汇率风险与支付路径》，手上资源并不差，但时间窗口正在收紧。真正的风险不是信息不够，而是节奏失控。\n冲突升级：家长偏好成本更低方案，但你的职业转轨目标需要更高平台支持 当前时间锚点是D-90（D-90 ~ D-14），若错过“最晚在 D-14 完成 offer 决策和押金支付”，直接代价是：决策过慢会触发 offer 失效或宿舍排队失败\n抉择路径：先按“可执行性”排序，而不是仅按名气排序；并把动作拆成“基线、推进线、冲刺线”三套计划，每周按里程碑复盘一次。 预算账本（CNY）建议为：申请15000-40000，学费250000-450000/年，生活费150000-280000/年，缓冲金40000-80000。\n结果分歧：录取决策不是选“最好看”的项目，而是选“最可执行”的未来。 参考该章历史样本，执行后提交按时率可由54%提升至71%，预算偏差通常可从18%收敛到15%。 分支触发规则：若距离阶段关键DDL不足20天、语言与目标线差距超过1.0分、或预算缓冲低于12万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《教育贷款、汇率风险与支付路径》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《家庭预算沟通模板：冲突场景与协商流程》继续推进。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -15336,7 +15613,7 @@
           "scope_type": "global",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": "MVP-V09-06",
+          "previous_chapter_id": "MVP-V09-05",
           "next_chapter_id": "MVP-V09-08",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -15506,18 +15783,28 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：家庭预算沟通模板：冲突场景与协商流程",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "title": "Oxford Your Offer and Contract",
+              "url": "https://www.ox.ac.uk/admissions/graduate/after-you-apply/your-offer-and-contract",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "Offer条件、接受与合同条款。",
+              "retrieved_at": "2026-02-16"
+            },
+            {
+              "title": "Oxford Decision Timeline",
+              "url": "https://www.ox.ac.uk/admissions/graduate/after-you-apply/scholarships-and-college-place",
+              "publisher": "University of Oxford",
+              "type": "official",
+              "note": "申请结果发布时间与后续节点。",
+              "retrieved_at": "2026-02-16"
             }
           ],
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.enic-naric.net/"
+            "https://www.enic-naric.net/",
+            "https://www.ox.ac.uk/admissions/graduate/after-you-apply/your-offer-and-contract",
+            "https://www.ox.ac.uk/admissions/graduate/after-you-apply/scholarships-and-college-place"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-01-30",
@@ -15544,7 +15831,7 @@
             "next_watch_at": "2026-03-01"
           },
           "publish_blockers": [],
-          "evidence_count": 3,
+          "evidence_count": 5,
           "confidence_score": 0.62,
           "review_log": [
             {
@@ -15564,7 +15851,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "MVP-V09-07",
-          "next_chapter_id": null,
+          "next_chapter_id": "MVP-V10-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "高预算",
@@ -15607,7 +15894,7 @@
             "next_chapter_teaser": "下一章《教育贷款、汇率风险与支付路径》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足33天、语言与目标线差距超过1.0分、或预算缓冲低于12万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -15632,9 +15919,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从59%提升到65%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "MVP-V10-01",
+          "next_if_accelerate": "MVP-V10-01",
+          "next_if_risk": "MVP-V09-07"
         }
       ],
       "appendix_reserved": [],
@@ -15789,7 +16076,7 @@
           "scope_type": "global",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "MVP-V09-08",
           "next_chapter_id": "MVP-V10-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -15860,7 +16147,7 @@
           },
           "next_if_stable": "MVP-V10-02",
           "next_if_accelerate": "MVP-V10-02",
-          "next_if_risk": "MVP-V10-02"
+          "next_if_risk": "MVP-V09-08"
         },
         {
           "id": "MVP-V10-02",
@@ -18770,7 +19057,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "MVP-V10-13",
-          "next_chapter_id": null,
+          "next_chapter_id": "MVP-V11-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -18813,7 +19100,7 @@
             "next_chapter_teaser": "下一章《行前医疗准备：疫苗、处方药与既往病史文件》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足27天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -18838,9 +19125,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从61%提升到67%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "MVP-V11-01",
+          "next_if_accelerate": "MVP-V11-01",
+          "next_if_risk": "MVP-V10-13"
         }
       ],
       "appendix_reserved": [],
@@ -18995,7 +19282,7 @@
           "scope_type": "global",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "MVP-V10-14",
           "next_chapter_id": "MVP-V11-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -19066,7 +19353,7 @@
           },
           "next_if_stable": "MVP-V11-02",
           "next_if_accelerate": "MVP-V11-02",
-          "next_if_risk": "MVP-V11-02"
+          "next_if_risk": "MVP-V10-14"
         },
         {
           "id": "MVP-V11-02",
@@ -20113,7 +20400,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "MVP-V11-05",
-          "next_chapter_id": null,
+          "next_chapter_id": "MVP-V12-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -20156,7 +20443,7 @@
             "next_chapter_teaser": "下一章《实习求职时间线：秋招/春招/滚动申请》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足35天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -20181,9 +20468,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从69%提升到75%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "MVP-V12-01",
+          "next_if_accelerate": "MVP-V12-01",
+          "next_if_risk": "MVP-V11-05"
         }
       ],
       "appendix_reserved": [],
@@ -20341,7 +20628,7 @@
           "scope_type": "global",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "MVP-V11-06",
           "next_chapter_id": null,
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",

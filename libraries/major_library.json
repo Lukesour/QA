@@ -62,7 +62,9 @@
             "P01-03",
             "P01-04"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P01-02",
             "P01-08",
@@ -868,14 +870,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "用于补充跨国家教育体系与产出对比框架。"
-            },
-            {
-              "title": "目标项目课程结构与就业报告（你补）",
-              "url": null,
-              "publisher": "你补充的目标院校官方页面",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补你目标项目官网课程结构和就业报告页面。"
             }
           ],
           "official_links": [
@@ -1996,7 +1990,9 @@
             "P01-01",
             "P01-08"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P02-02",
             "P02-08",
@@ -2802,14 +2798,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：金融与金工选校分层：量化导向与就业导向模型",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -3919,7 +3907,9 @@
             "P03-08",
             "P01-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P03-02",
             "P03-08",
@@ -4729,14 +4719,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：品牌营销、数字营销、BA导向项目对比",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -5865,7 +5847,9 @@
             "P04-08",
             "P01-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P04-02",
             "P04-08",
@@ -6669,14 +6653,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：执业资格认可度与就业城市导向",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -7847,7 +7823,9 @@
             "P05-08",
             "P01-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P05-02",
             "P05-08",
@@ -8655,14 +8633,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：学术导向、就业导向与读博导向对比",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -9844,7 +9814,9 @@
             "P01-01",
             "P01-08"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P06-02",
             "P02-08",
@@ -10656,14 +10628,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：学术型、工程型、商业型DS项目对比",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -11794,7 +11758,9 @@
             "P01-08",
             "P02-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P07-02",
             "P01-01",
@@ -12601,14 +12567,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：转码友好型与科班强化型项目对比",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -13770,7 +13728,9 @@
             "P01-08",
             "P02-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P08-02",
             "P01-01",
@@ -14578,14 +14538,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：研究导向、工程导向与产业导向项目对比",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -15704,7 +15656,9 @@
             "P09-08",
             "P01-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P09-02",
             "P09-08",
@@ -16512,14 +16466,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：课程型、实验型与行业合作型项目对比",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -17636,7 +17582,9 @@
             "P10-08",
             "P01-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P10-02",
             "P10-08",
@@ -18443,14 +18391,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：执照导向、设计导向与工程导向对比",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -19577,7 +19517,9 @@
             "P01-08",
             "P02-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P11-02",
             "P01-01",
@@ -20388,14 +20330,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "自动补充，写作时请核对条款细则与生效日期"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：教学实践型、政策研究型、技术融合型对比",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -21562,7 +21496,9 @@
             "P12-08",
             "P01-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P12-02",
             "P12-08",
@@ -22444,14 +22380,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "自动补充，写作时请核对条款细则与生效日期"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：政策分析型、国际事务型、发展研究型对比",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -23648,7 +23576,9 @@
             "P13-08",
             "P01-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P13-02",
             "P13-08",
@@ -24454,14 +24384,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：理论研究型与实践制作型项目对比",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -25584,7 +25506,9 @@
             "P01-08",
             "P02-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P14-02",
             "P01-01",
@@ -26390,14 +26314,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：研究型、实践型与全球健康导向对比",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -27546,7 +27462,9 @@
             "P15-08",
             "P06-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P15-02",
             "P15-08",
@@ -28352,14 +28270,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：执照导向与非执照导向项目对比",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -29481,7 +29391,9 @@
             "P01-01",
             "P01-08"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P16-02",
             "P16-08",
@@ -30289,14 +30201,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：法域导向、律所导向与学术导向对比",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -31419,7 +31323,9 @@
             "P01-08",
             "P02-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P17-02",
             "P01-01",
@@ -32226,14 +32132,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：艺术院校与综合大学项目差异",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -33354,7 +33252,9 @@
             "P18-08",
             "P01-01"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "MVP-V03-01"
+          ],
           "see_also": [
             "P18-02",
             "P18-08",
@@ -34160,14 +34060,6 @@
               "type": "exam",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：选校分层：制造导向、零售导向与数据导向项目对比",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [

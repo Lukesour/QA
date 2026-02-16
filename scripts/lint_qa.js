@@ -234,8 +234,10 @@ function main() {
     writing: 0,
     app_system: 0,
     interview: 0,
-    scholarship: 0
+    scholarship: 0,
+    recommendation: 0
   };
+  let prepareDependsEmptyCount = 0;
 
   const conflictSet = new Set();
   const branchSet = new Set();
@@ -631,12 +633,16 @@ function main() {
       if ((entry.sources || []).some((s) => s && s.type === 'manual_required')) {
         prepareManualRequiredCount += 1;
       }
+      if (!Array.isArray(entry.depends_on) || entry.depends_on.length === 0) {
+        prepareDependsEmptyCount += 1;
+      }
       const title = `${entry.title || ''} ${(entry.keywords || []).join(' ')}`.toLowerCase();
       if (/先修|数学|编程|写作|能力补足|门槛|体检|prerequisite/.test(title)) prepareTopicCounter.prereq += 1;
       if (/文书|ps|sop|cv|简历|推荐信|writing sample/.test(title)) prepareTopicCounter.writing += 1;
       if (/网申|申请系统|portal|gradcas|ucas|预填/.test(title)) prepareTopicCounter.app_system += 1;
       if (/面试|kira|zoom|interview|star/.test(title)) prepareTopicCounter.interview += 1;
       if (/奖学金|scholarship|资金/.test(title)) prepareTopicCounter.scholarship += 1;
+      if (/推荐信|推荐人|recommendation|referee/.test(title)) prepareTopicCounter.recommendation += 1;
     }
   }
 
@@ -663,6 +669,8 @@ function main() {
   const minPrepareTopicAppSystem = qa.taxonomy?.narrative_quality_targets?.min_prepare_topic_app_system ?? 1;
   const minPrepareTopicInterview = qa.taxonomy?.narrative_quality_targets?.min_prepare_topic_interview ?? 1;
   const minPrepareTopicScholarship = qa.taxonomy?.narrative_quality_targets?.min_prepare_topic_scholarship ?? 1;
+  const minPrepareTopicRecommendation = qa.taxonomy?.narrative_quality_targets?.min_prepare_topic_recommendation ?? 1;
+  const maxPrepareDependsEmpty = qa.taxonomy?.narrative_quality_targets?.max_prepare_depends_empty ?? 80;
   const routeReverseWhitelist = new Set(qa.taxonomy?.route_reverse_edge_whitelist || []);
 
   if (conflictSet.size < minConflict) fail(`conflict diversity too low: ${conflictSet.size} < ${minConflict}`, errors);
@@ -703,7 +711,9 @@ function main() {
 
   const preApplyManualRatio = preApplyCount ? preApplyManualRequiredCount / preApplyCount : 0;
   if (preApplyManualRatio > maxPreApplyManualRequiredRatio) {
-    warn(`pre-apply manual_required ratio high: ${preApplyManualRatio.toFixed(3)} > ${maxPreApplyManualRequiredRatio}`, warnings);
+    const msg = `pre-apply manual_required ratio high: ${preApplyManualRatio.toFixed(3)} > ${maxPreApplyManualRequiredRatio}`;
+    if (strictNarrativeLint) fail(msg, errors);
+    else warn(msg, warnings);
   }
   const prepareManualRatio = prepareCount ? prepareManualRequiredCount / prepareCount : 0;
   if (prepareManualRatio > maxPrepareManualRequiredRatio) {
@@ -729,6 +739,12 @@ function main() {
   }
   if (prepareTopicCounter.scholarship < minPrepareTopicScholarship) {
     fail(`prepare scholarship coverage is thin: ${prepareTopicCounter.scholarship} < ${minPrepareTopicScholarship}`, errors);
+  }
+  if (prepareTopicCounter.recommendation < minPrepareTopicRecommendation) {
+    fail(`prepare recommendation coverage is thin: ${prepareTopicCounter.recommendation} < ${minPrepareTopicRecommendation}`, errors);
+  }
+  if (prepareDependsEmptyCount > maxPrepareDependsEmpty) {
+    fail(`prepare depends_on empty too high: ${prepareDependsEmptyCount} > ${maxPrepareDependsEmpty}`, errors);
   }
 
   for (const volume of qa.major_library?.volumes || []) {

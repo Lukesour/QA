@@ -348,7 +348,7 @@
       "max_top_next_action_ratio": 0.35,
       "max_top_alias_opening_ratio": 0.55,
       "strict_narrative_lint": true,
-      "max_pre_apply_manual_required_ratio": 0.85,
+      "max_pre_apply_manual_required_ratio": 0.2,
       "max_prepare_manual_required_ratio": 0.6,
       "min_major_prepare_per_volume": 4,
       "min_prepare_topic_app_system": 3,
@@ -361,7 +361,9 @@
         "保底线、主推进线、冲刺线": 120,
         "每48小时复盘": 120,
         "1.0分分": 0
-      }
+      },
+      "min_prepare_topic_recommendation": 4,
+      "max_prepare_depends_empty": 35
     }
   },
   "reserved_scaffold": {
