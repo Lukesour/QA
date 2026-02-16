@@ -1,7 +1,7 @@
 {
   "meta": {
     "project_name": "授课型硕士留学百科全书",
-    "schema_version": "3.1.2",
+    "schema_version": "4.0.0",
     "created_at": "2026-02-16",
     "language": "zh-CN",
     "maintainer": "editorial_board",
@@ -184,6 +184,19 @@
           },
           "prepare_ratio": 0.362
         }
+      },
+      {
+        "date": "2026-02-16",
+        "version": "4.0.0",
+        "changes": [
+          "P0修复：统一分支阈值文本与branch_condition，清理1.0分分错误",
+          "路由重构：按卷内单向推进并设置阶段收束终点，移除循环跳转",
+          "新增可执行分支字段：next_if_risk/next_if_stable/next_if_accelerate",
+          "准备阶段新增prepare_substage标签与专业前准备检索标签",
+          "准备阶段补充项目级官方来源并显著降低manual_required占位比例",
+          "专业卷升级为4幕准备前传（含证据工程章）",
+          "升级lint：新增逆时序、循环路由、重复短语与准备期覆盖硬约束"
+        ]
       }
     ],
     "library_aliases": {
@@ -334,7 +347,21 @@
       "min_unique_next_action": 30,
       "max_top_next_action_ratio": 0.35,
       "max_top_alias_opening_ratio": 0.55,
-      "strict_narrative_lint": false
+      "strict_narrative_lint": true,
+      "max_pre_apply_manual_required_ratio": 0.85,
+      "max_prepare_manual_required_ratio": 0.6,
+      "min_major_prepare_per_volume": 4,
+      "min_prepare_topic_app_system": 3,
+      "min_prepare_topic_interview": 2,
+      "min_prepare_topic_scholarship": 2,
+      "min_route_terminal_entries": 30,
+      "max_route_reverse_edges": 0,
+      "max_route_cycles": 0,
+      "phrase_repeat_limits": {
+        "保底线、主推进线、冲刺线": 120,
+        "每48小时复盘": 120,
+        "1.0分分": 0
+      }
     }
   },
   "reserved_scaffold": {
@@ -452,7 +479,10 @@
         "today": "",
         "within_72h": "",
         "this_week": ""
-      }
+      },
+      "next_if_risk": null,
+      "next_if_stable": null,
+      "next_if_accelerate": null
     },
     "global_reserved_slots": {
       "extra_mvp_volumes": [],

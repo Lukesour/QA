@@ -411,6 +411,9 @@
         "chapter_hook",
         "previous_chapter_id",
         "next_chapter_id",
+        "next_if_risk",
+        "next_if_stable",
+        "next_if_accelerate",
         "branch_condition",
         "ending_type",
         "time_anchor",
@@ -794,6 +797,24 @@
             "null"
           ]
         },
+        "next_if_risk": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_if_stable": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_if_accelerate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
         "branch_condition": {
           "type": "string",
           "minLength": 1
@@ -1072,6 +1093,9 @@
         "chapter_hook",
         "previous_chapter_id",
         "next_chapter_id",
+        "next_if_risk",
+        "next_if_stable",
+        "next_if_accelerate",
         "branch_condition",
         "ending_type",
         "time_anchor",
@@ -1402,6 +1426,24 @@
           ]
         },
         "next_chapter_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_if_risk": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_if_stable": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "next_if_accelerate": {
           "type": [
             "string",
             "null"

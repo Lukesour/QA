@@ -187,6 +187,9 @@ function main() {
     'chapter_hook',
     'previous_chapter_id',
     'next_chapter_id',
+    'next_if_risk',
+    'next_if_stable',
+    'next_if_accelerate',
     'branch_condition',
     'ending_type',
     'time_anchor',
@@ -200,16 +203,10 @@ function main() {
     'action_card'
   ];
 
-  const phaseRank = {
-    '综合': 0,
-    '准备': 1,
-    '申请': 2,
-    '录取': 3,
-    '签证': 4,
-    '行前': 5,
-    '在读': 6,
-    '求职': 7
-  };
+  const phaseOrderForRank = Array.isArray(qa.taxonomy?.phase_enum) && qa.taxonomy.phase_enum.length > 0
+    ? qa.taxonomy.phase_enum
+    : ['准备', '申请', '录取', '签证', '行前', '在读', '求职', '综合'];
+  const phaseRank = Object.fromEntries(phaseOrderForRank.map((p, i) => [p, i]));
 
   let oldPatternCount = 0;
   let fiveSectionCount = 0;
@@ -221,6 +218,7 @@ function main() {
   let prepareManualRequiredCount = 0;
   let unrealisticLanguageGapCount = 0;
   let fixedBudgetThresholdCount = 0;
+  let routeTerminalCount = 0;
 
   const preApplyTopicCounter = {
     exam: 0,
@@ -460,6 +458,15 @@ function main() {
     if (entry.next_chapter_id !== null && !allEntryIds.has(entry.next_chapter_id)) {
       fail(`${entry.id}: next_chapter_id is unknown`, errors);
     }
+    if (entry.next_if_risk !== null && !allEntryIds.has(entry.next_if_risk)) {
+      fail(`${entry.id}: next_if_risk is unknown`, errors);
+    }
+    if (entry.next_if_stable !== null && !allEntryIds.has(entry.next_if_stable)) {
+      fail(`${entry.id}: next_if_stable is unknown`, errors);
+    }
+    if (entry.next_if_accelerate !== null && !allEntryIds.has(entry.next_if_accelerate)) {
+      fail(`${entry.id}: next_if_accelerate is unknown`, errors);
+    }
 
     if (typeof entry.branch_condition !== 'string' || entry.branch_condition.trim() === '') {
       fail(`${entry.id}: branch_condition must be non-empty`, errors);
@@ -484,8 +491,25 @@ function main() {
       fail(`${entry.id}: ending_type is invalid`, errors);
     }
 
-    if (entry.next_chapter_id && typeof entry.branch_condition === 'string' && entry.ending_type) {
+    if (typeof entry.branch_condition === 'string' && entry.ending_type && 'next_chapter_id' in entry && 'previous_chapter_id' in entry) {
       routeCompleteCount += 1;
+    }
+
+    if (entry.next_chapter_id === null) {
+      routeTerminalCount += 1;
+      if (entry.next_if_stable !== null || entry.next_if_accelerate !== null) {
+        fail(`${entry.id}: terminal chapter should set next_if_stable/next_if_accelerate to null`, errors);
+      }
+    } else {
+      if (entry.next_if_stable !== entry.next_chapter_id) {
+        fail(`${entry.id}: next_if_stable should equal next_chapter_id`, errors);
+      }
+      if (entry.next_if_accelerate !== entry.next_chapter_id) {
+        fail(`${entry.id}: next_if_accelerate should equal next_chapter_id`, errors);
+      }
+      if (entry.next_if_risk === null) {
+        fail(`${entry.id}: non-terminal chapter should define next_if_risk`, errors);
+      }
     }
 
     for (const depId of entry.depends_on || []) {
@@ -626,12 +650,20 @@ function main() {
   const minUniqueNextAction = qa.taxonomy?.narrative_quality_targets?.min_unique_next_action ?? 30;
   const maxTopNextActionRatio = qa.taxonomy?.narrative_quality_targets?.max_top_next_action_ratio ?? 0.35;
   const maxTopAliasOpeningRatio = qa.taxonomy?.narrative_quality_targets?.max_top_alias_opening_ratio ?? 0.55;
+  const maxRouteReverseEdges = qa.taxonomy?.narrative_quality_targets?.max_route_reverse_edges ?? 0;
+  const maxRouteCycles = qa.taxonomy?.narrative_quality_targets?.max_route_cycles ?? 0;
+  const minRouteTerminalEntries = qa.taxonomy?.narrative_quality_targets?.min_route_terminal_entries ?? 1;
+  const phraseRepeatLimits = qa.taxonomy?.narrative_quality_targets?.phrase_repeat_limits || {};
   const strictNarrativeLint = qa.taxonomy?.narrative_quality_targets?.strict_narrative_lint === true;
   const maxPreApplyManualRequiredRatio = qa.taxonomy?.narrative_quality_targets?.max_pre_apply_manual_required_ratio ?? 0.95;
   const minPreApplyRatio = qa.taxonomy?.narrative_quality_targets?.min_pre_apply_ratio ?? 0.60;
   const minPrepareRatio = qa.taxonomy?.narrative_quality_targets?.min_prepare_ratio ?? 0.30;
   const maxPrepareManualRequiredRatio = qa.taxonomy?.narrative_quality_targets?.max_prepare_manual_required_ratio ?? 0.95;
   const minMajorPreparePerVolume = qa.taxonomy?.narrative_quality_targets?.min_major_prepare_per_volume ?? 3;
+  const minPrepareTopicAppSystem = qa.taxonomy?.narrative_quality_targets?.min_prepare_topic_app_system ?? 1;
+  const minPrepareTopicInterview = qa.taxonomy?.narrative_quality_targets?.min_prepare_topic_interview ?? 1;
+  const minPrepareTopicScholarship = qa.taxonomy?.narrative_quality_targets?.min_prepare_topic_scholarship ?? 1;
+  const routeReverseWhitelist = new Set(qa.taxonomy?.route_reverse_edge_whitelist || []);
 
   if (conflictSet.size < minConflict) fail(`conflict diversity too low: ${conflictSet.size} < ${minConflict}`, errors);
   if (branchSet.size < minBranch) fail(`branch_condition diversity too low: ${branchSet.size} < ${minBranch}`, errors);
@@ -675,7 +707,9 @@ function main() {
   }
   const prepareManualRatio = prepareCount ? prepareManualRequiredCount / prepareCount : 0;
   if (prepareManualRatio > maxPrepareManualRequiredRatio) {
-    warn(`prepare manual_required ratio high: ${prepareManualRatio.toFixed(3)} > ${maxPrepareManualRequiredRatio}`, warnings);
+    const msg = `prepare manual_required ratio high: ${prepareManualRatio.toFixed(3)} > ${maxPrepareManualRequiredRatio}`;
+    if (strictNarrativeLint) fail(msg, errors);
+    else warn(msg, warnings);
   }
 
   if (preApplyTopicCounter.app_system < 3) {
@@ -687,20 +721,78 @@ function main() {
   if (preApplyTopicCounter.scholarship < 3) {
     warn(`pre-apply scholarship coverage is thin: ${preApplyTopicCounter.scholarship}`, warnings);
   }
-  if (prepareTopicCounter.app_system < 1) {
-    warn(`prepare app system coverage is thin: ${prepareTopicCounter.app_system}`, warnings);
+  if (prepareTopicCounter.app_system < minPrepareTopicAppSystem) {
+    fail(`prepare app system coverage is thin: ${prepareTopicCounter.app_system} < ${minPrepareTopicAppSystem}`, errors);
   }
-  if (prepareTopicCounter.interview < 1) {
-    warn(`prepare interview coverage is thin: ${prepareTopicCounter.interview}`, warnings);
+  if (prepareTopicCounter.interview < minPrepareTopicInterview) {
+    fail(`prepare interview coverage is thin: ${prepareTopicCounter.interview} < ${minPrepareTopicInterview}`, errors);
   }
-  if (prepareTopicCounter.scholarship < 1) {
-    warn(`prepare scholarship coverage is thin: ${prepareTopicCounter.scholarship}`, warnings);
+  if (prepareTopicCounter.scholarship < minPrepareTopicScholarship) {
+    fail(`prepare scholarship coverage is thin: ${prepareTopicCounter.scholarship} < ${minPrepareTopicScholarship}`, errors);
   }
 
   for (const volume of qa.major_library?.volumes || []) {
     const c = (volume.entries || []).filter((e) => e.phase === '准备').length;
     if (c < minMajorPreparePerVolume) {
       fail(`major volume ${volume.volume_id} prepare entries too low: ${c} < ${minMajorPreparePerVolume}`, errors);
+    }
+  }
+
+  // Route-level graph checks.
+  const entryById = new Map(allEntries.map((e) => [e.id, e]));
+  let reverseEdgeCount = 0;
+  let cycleCount = 0;
+
+  for (const entry of allEntries) {
+    if (!entry.next_chapter_id) continue;
+    const next = entryById.get(entry.next_chapter_id);
+    if (!next) continue;
+    const edgeKey = `${entry.id}->${next.id}`;
+    const a = phaseRank[entry.phase] ?? 999;
+    const b = phaseRank[next.phase] ?? 999;
+    if (b < a && !routeReverseWhitelist.has(edgeKey)) reverseEdgeCount += 1;
+  }
+
+  const visitState = new Map(); // 0 unseen, 1 visiting, 2 done
+  function dfsCycle(id) {
+    visitState.set(id, 1);
+    const cur = entryById.get(id);
+    const nextId = cur?.next_chapter_id;
+    if (nextId && entryById.has(nextId)) {
+      const st = visitState.get(nextId) || 0;
+      if (st === 1) {
+        cycleCount += 1;
+      } else if (st === 0) {
+        dfsCycle(nextId);
+      }
+    }
+    visitState.set(id, 2);
+  }
+  for (const entry of allEntries) {
+    if ((visitState.get(entry.id) || 0) === 0) dfsCycle(entry.id);
+  }
+
+  if (reverseEdgeCount > maxRouteReverseEdges) {
+    fail(`route reverse edges too high: ${reverseEdgeCount} > ${maxRouteReverseEdges}`, errors);
+  }
+  if (cycleCount > maxRouteCycles) {
+    fail(`route cycle count too high: ${cycleCount} > ${maxRouteCycles}`, errors);
+  }
+  if (routeTerminalCount < minRouteTerminalEntries) {
+    fail(`route terminal entries too low: ${routeTerminalCount} < ${minRouteTerminalEntries}`, errors);
+  }
+
+  // Repeated phrase guardrails for reading quality.
+  for (const [phrase, maxCount] of Object.entries(phraseRepeatLimits)) {
+    const reg = new RegExp(phrase.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&'), 'g');
+    let c = 0;
+    for (const entry of allEntries) {
+      c += (entry.answer_long?.match(reg) || []).length;
+      c += (entry.branch_condition?.match(reg) || []).length;
+      c += (entry.answer_short?.match(reg) || []).length;
+    }
+    if (c > maxCount) {
+      fail(`phrase repeat exceeds limit: "${phrase}" count=${c} > ${maxCount}`, errors);
     }
   }
 
