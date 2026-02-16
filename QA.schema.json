@@ -417,7 +417,11 @@
         "budget_ledger",
         "persona_profile",
         "editorial_notes",
-        "story_version"
+        "story_version",
+        "role_state_before",
+        "role_state_after",
+        "consequence_matrix",
+        "action_card"
       ],
       "properties": {
         "id": {
@@ -908,6 +912,112 @@
         "story_version": {
           "type": "string",
           "minLength": 1
+        },
+        "role_state_before": {
+          "type": "object",
+          "required": [
+            "readiness_score",
+            "timeline_buffer_days",
+            "budget_pressure_index",
+            "stress_level"
+          ],
+          "properties": {
+            "readiness_score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "timeline_buffer_days": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "budget_pressure_index": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "stress_level": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "role_state_after": {
+          "type": "object",
+          "required": [
+            "readiness_score",
+            "timeline_buffer_days",
+            "budget_pressure_index",
+            "stress_level"
+          ],
+          "properties": {
+            "readiness_score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "timeline_buffer_days": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "budget_pressure_index": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "stress_level": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "consequence_matrix": {
+          "type": "object",
+          "required": [
+            "best_case",
+            "base_case",
+            "worst_case"
+          ],
+          "properties": {
+            "best_case": {
+              "type": "string",
+              "minLength": 1
+            },
+            "base_case": {
+              "type": "string",
+              "minLength": 1
+            },
+            "worst_case": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "action_card": {
+          "type": "object",
+          "required": [
+            "today",
+            "within_72h",
+            "this_week"
+          ],
+          "properties": {
+            "today": {
+              "type": "string",
+              "minLength": 1
+            },
+            "within_72h": {
+              "type": "string",
+              "minLength": 1
+            },
+            "this_week": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
         }
       },
       "additionalProperties": true
@@ -968,7 +1078,11 @@
         "budget_ledger",
         "persona_profile",
         "editorial_notes",
-        "story_version"
+        "story_version",
+        "role_state_before",
+        "role_state_after",
+        "consequence_matrix",
+        "action_card"
       ],
       "properties": {
         "id": {
@@ -1411,6 +1525,112 @@
         "story_version": {
           "type": "string",
           "minLength": 1
+        },
+        "role_state_before": {
+          "type": "object",
+          "required": [
+            "readiness_score",
+            "timeline_buffer_days",
+            "budget_pressure_index",
+            "stress_level"
+          ],
+          "properties": {
+            "readiness_score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "timeline_buffer_days": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "budget_pressure_index": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "stress_level": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "role_state_after": {
+          "type": "object",
+          "required": [
+            "readiness_score",
+            "timeline_buffer_days",
+            "budget_pressure_index",
+            "stress_level"
+          ],
+          "properties": {
+            "readiness_score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "timeline_buffer_days": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "budget_pressure_index": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "stress_level": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "consequence_matrix": {
+          "type": "object",
+          "required": [
+            "best_case",
+            "base_case",
+            "worst_case"
+          ],
+          "properties": {
+            "best_case": {
+              "type": "string",
+              "minLength": 1
+            },
+            "base_case": {
+              "type": "string",
+              "minLength": 1
+            },
+            "worst_case": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "action_card": {
+          "type": "object",
+          "required": [
+            "today",
+            "within_72h",
+            "this_week"
+          ],
+          "properties": {
+            "today": {
+              "type": "string",
+              "minLength": 1
+            },
+            "within_72h": {
+              "type": "string",
+              "minLength": 1
+            },
+            "this_week": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
         }
       },
       "additionalProperties": true

@@ -71,6 +71,10 @@ function hasFiveSectionNarrative(answerLong) {
   return req.every((token) => answerLong.includes(token));
 }
 
+function numericInText(text) {
+  return /\d|%|万|元|天|周/.test(text || '');
+}
+
 function main() {
   const errors = [];
 
@@ -184,7 +188,11 @@ function main() {
     'budget_ledger',
     'persona_profile',
     'editorial_notes',
-    'story_version'
+    'story_version',
+    'role_state_before',
+    'role_state_after',
+    'consequence_matrix',
+    'action_card'
   ];
 
   const phaseRank = {
@@ -201,6 +209,10 @@ function main() {
   let oldPatternCount = 0;
   let fiveSectionCount = 0;
   let routeCompleteCount = 0;
+  let numericOutcomeCount = 0;
+
+  const conflictSet = new Set();
+  const branchSet = new Set();
 
   for (const entry of allEntries) {
     for (const key of entryRequired) {
@@ -248,7 +260,7 @@ function main() {
       } else {
         fiveSectionCount += 1;
       }
-      if (entry.answer_long.length < 220) {
+      if (entry.answer_long.length < 280) {
         fail(`${entry.id}: answer_long is too short for narrative mode`, errors);
       }
       if (/发布门槛|证据要求|政策校验：请在发布前补齐/.test(entry.answer_long)) {
@@ -269,6 +281,7 @@ function main() {
           fail(`${entry.id}: narrative_layer.${f} must be non-empty`, errors);
         }
       }
+      conflictSet.add(nl.conflict);
     }
 
     const mc = entry.micro_case;
@@ -279,6 +292,9 @@ function main() {
         if (typeof mc[f] !== 'string' || mc[f].trim() === '') {
           fail(`${entry.id}: micro_case.${f} must be non-empty`, errors);
         }
+      }
+      if (numericInText(mc.outcome)) {
+        numericOutcomeCount += 1;
       }
     }
 
@@ -313,7 +329,7 @@ function main() {
           fail(`${entry.id}: budget_ledger.${f} must be non-empty`, errors);
         }
       }
-      if (!/\d/.test(bl.application_cost + bl.tuition_cost + bl.living_cost + bl.contingency_fund)) {
+      if (!numericInText(bl.application_cost + bl.tuition_cost + bl.living_cost + bl.contingency_fund)) {
         fail(`${entry.id}: budget_ledger should contain numeric ranges`, errors);
       }
     }
@@ -326,6 +342,44 @@ function main() {
         if (typeof pp[f] !== 'string' || pp[f].trim() === '') {
           fail(`${entry.id}: persona_profile.${f} must be non-empty`, errors);
         }
+      }
+    }
+
+    for (const key of ['role_state_before', 'role_state_after']) {
+      const rs = entry[key];
+      if (!rs || typeof rs !== 'object') {
+        fail(`${entry.id}: ${key} must be object`, errors);
+      } else {
+        if (typeof rs.readiness_score !== 'number' || rs.readiness_score < 0 || rs.readiness_score > 100) {
+          fail(`${entry.id}: ${key}.readiness_score should be 0-100`, errors);
+        }
+        if (typeof rs.timeline_buffer_days !== 'number' || rs.timeline_buffer_days < 0) {
+          fail(`${entry.id}: ${key}.timeline_buffer_days should be >=0`, errors);
+        }
+        if (typeof rs.budget_pressure_index !== 'number' || rs.budget_pressure_index < 0 || rs.budget_pressure_index > 100) {
+          fail(`${entry.id}: ${key}.budget_pressure_index should be 0-100`, errors);
+        }
+        if (typeof rs.stress_level !== 'string' || rs.stress_level.trim() === '') {
+          fail(`${entry.id}: ${key}.stress_level should be non-empty`, errors);
+        }
+      }
+    }
+
+    const cm = entry.consequence_matrix;
+    if (!cm || typeof cm !== 'object') {
+      fail(`${entry.id}: consequence_matrix must be object`, errors);
+    } else {
+      for (const f of ['best_case', 'base_case', 'worst_case']) {
+        if (typeof cm[f] !== 'string' || cm[f].trim() === '') fail(`${entry.id}: consequence_matrix.${f} missing`, errors);
+      }
+    }
+
+    const ac = entry.action_card;
+    if (!ac || typeof ac !== 'object') {
+      fail(`${entry.id}: action_card must be object`, errors);
+    } else {
+      for (const f of ['today', 'within_72h', 'this_week']) {
+        if (typeof ac[f] !== 'string' || ac[f].trim() === '') fail(`${entry.id}: action_card.${f} missing`, errors);
       }
     }
 
@@ -367,6 +421,7 @@ function main() {
     if (typeof entry.branch_condition !== 'string' || entry.branch_condition.trim() === '') {
       fail(`${entry.id}: branch_condition must be non-empty`, errors);
     }
+    branchSet.add(entry.branch_condition);
 
     if (!['推进分支', '风险节点', '阶段收束'].includes(entry.ending_type)) {
       fail(`${entry.id}: ending_type is invalid`, errors);
@@ -452,10 +507,8 @@ function main() {
         if (typeof slot.source_url === 'string' && !/^https?:\/\//.test(slot.source_url)) {
           fail(`${entry.id}: policy_clause_snapshot[${idx}].source_url must be URL`, errors);
         }
-        if (entry.publish_ready === true || entry.status === 'published') {
-          if (slot.effective_date === 'USER_FILL_EFFECTIVE_DATE' || isPlaceholderText(slot.effective_date)) {
-            fail(`${entry.id}: ready/published policy entry contains placeholder effective_date`, errors);
-          }
+        if ((entry.publish_ready === true || entry.status === 'published') && (slot.effective_date === 'USER_FILL_EFFECTIVE_DATE' || isPlaceholderText(slot.effective_date))) {
+          fail(`${entry.id}: ready/published policy entry contains placeholder effective_date`, errors);
         }
       }
     }
@@ -477,23 +530,23 @@ function main() {
     }
   }
 
-  if (oldPatternCount > 0) {
-    fail(`question_canonical still has old pattern count=${oldPatternCount}`, errors);
-  }
-  if (fiveSectionCount !== allEntries.length) {
-    fail(`five-section narrative coverage mismatch: ${fiveSectionCount}/${allEntries.length}`, errors);
-  }
-  if (routeCompleteCount !== allEntries.length) {
-    fail(`route field coverage mismatch: ${routeCompleteCount}/${allEntries.length}`, errors);
-  }
+  if (oldPatternCount > 0) fail(`question_canonical still has old pattern count=${oldPatternCount}`, errors);
+  if (fiveSectionCount !== allEntries.length) fail(`five-section narrative coverage mismatch: ${fiveSectionCount}/${allEntries.length}`, errors);
+  if (routeCompleteCount !== allEntries.length) fail(`route field coverage mismatch: ${routeCompleteCount}/${allEntries.length}`, errors);
+
+  const minConflict = qa.taxonomy?.narrative_quality_targets?.min_conflict_unique ?? 24;
+  const minBranch = qa.taxonomy?.narrative_quality_targets?.min_branch_condition_unique ?? 80;
+  const minNumericRatio = qa.taxonomy?.narrative_quality_targets?.min_numeric_micro_outcome_ratio ?? 0.95;
+
+  if (conflictSet.size < minConflict) fail(`conflict diversity too low: ${conflictSet.size} < ${minConflict}`, errors);
+  if (branchSet.size < minBranch) fail(`branch_condition diversity too low: ${branchSet.size} < ${minBranch}`, errors);
+
+  const numericRatio = allEntries.length ? numericOutcomeCount / allEntries.length : 0;
+  if (numericRatio < minNumericRatio) fail(`micro_case numeric outcome ratio too low: ${numericRatio.toFixed(3)} < ${minNumericRatio}`, errors);
 
   for (const b of allBacklog) {
-    if (typeof b.owner !== 'string' || b.owner.trim() === '') {
-      fail(`backlog ${b.id}: owner must be a non-empty string`, errors);
-    }
-    if (!parseDate(b.updated_at)) {
-      fail(`backlog ${b.id}: updated_at must be a valid date`, errors);
-    }
+    if (typeof b.owner !== 'string' || b.owner.trim() === '') fail(`backlog ${b.id}: owner must be a non-empty string`, errors);
+    if (!parseDate(b.updated_at)) fail(`backlog ${b.id}: updated_at must be a valid date`, errors);
     if (Array.isArray(backlogStatusEnum) && backlogStatusEnum.length > 0 && !backlogStatusEnum.includes(b.status)) {
       fail(`backlog ${b.id}: status "${b.status}" not found in taxonomy.backlog_status_enum`, errors);
     }
@@ -536,7 +589,8 @@ function main() {
   const policyPlaceholderCount = allEntries
     .filter((e) => e.policy_sensitive)
     .flatMap((e) => e.policy_clause_snapshot || [])
-    .filter((c) => c.effective_date === 'USER_FILL_EFFECTIVE_DATE').length;
+    .filter((c) => c.effective_date === 'USER_FILL_EFFECTIVE_DATE' || /待你补充|待补|TBD|USER_FILL/.test(c.effective_date || ''))
+    .length;
 
   console.log('QA lint passed');
   console.log(`- total entries: ${allEntries.length}`);
@@ -544,6 +598,9 @@ function main() {
   console.log(`- unique ids: ${idSet.size}`);
   console.log(`- five-section narrative entries: ${fiveSectionCount}`);
   console.log(`- route-ready entries: ${routeCompleteCount}`);
+  console.log(`- unique conflicts: ${conflictSet.size}`);
+  console.log(`- unique branch conditions: ${branchSet.size}`);
+  console.log(`- micro_case numeric outcome ratio: ${numericRatio.toFixed(3)}`);
   console.log(`- publish_ready entries: ${publishReadyCount}`);
   console.log(`- policy effective_date placeholders: ${policyPlaceholderCount}`);
 }

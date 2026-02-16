@@ -1,7 +1,7 @@
 {
   "meta": {
     "project_name": "授课型硕士留学百科全书",
-    "schema_version": "3.0.0",
+    "schema_version": "3.1.0",
     "created_at": "2026-02-16",
     "language": "zh-CN",
     "maintainer": "editorial_board",
@@ -63,6 +63,26 @@
           "source.type 枚举与数据同步（新增 exam/credential/labour）",
           "将发布门槛与证据要求迁移到 editorial_notes，读者正文不再混入编辑语句"
         ]
+      },
+      {
+        "date": "2026-02-16",
+        "version": "3.1.0",
+        "changes": [
+          "全量条目叙事去同质化：冲突/抉择/结果由阶段模板升级为多维剧情表达",
+          "branch_condition 升级为时间、预算、语言、产出多维触发规则",
+          "micro_case 结果全部加入量化指标（按时率/预算偏差/转化率）",
+          "新增 role_state_before/role_state_after/consequence_matrix/action_card 字段，强化角色成长线",
+          "非政策条目开放 ready 发布；政策条目保留生效日期人工补填位"
+        ]
+      },
+      {
+        "date": "2026-02-16",
+        "version": "3.1.1",
+        "changes": [
+          "政策条款effective_date按官方页面可见更新时间进行部分回填（可抓取法域）",
+          "受反爬或无明确更新时间页面保留 USER_FILL_EFFECTIVE_DATE 待人工核实",
+          "条款日期回填动作写入 review_notes 便于审计"
+        ]
       }
     ],
     "library_aliases": {
@@ -84,7 +104,7 @@
       "项目差异",
       "学校特例"
     ],
-    "content_refresh_status": "narrative-v4-full-refactor",
+    "content_refresh_status": "narrative-v4.1-quality-upgrade+policy-date-partial-fill",
     "last_source_refresh_at": "2026-02-16"
   },
   "taxonomy": {
@@ -140,7 +160,11 @@
       "叙事五段结构完整",
       "时间依赖不倒流",
       "路径字段可达",
-      "source.type 与 schema 枚举一致"
+      "source.type 与 schema 枚举一致",
+      "冲突文本多样性达标",
+      "分支条件多维且可执行",
+      "微案例结果含量化指标",
+      "发布状态与阻塞原因一致"
     ],
     "phase_mapping_legacy": {
       "准备期": "准备",
@@ -201,7 +225,12 @@
       "推进分支",
       "风险节点",
       "阶段收束"
-    ]
+    ],
+    "narrative_quality_targets": {
+      "min_conflict_unique": 24,
+      "min_branch_condition_unique": 80,
+      "min_numeric_micro_outcome_ratio": 0.95
+    }
   },
   "reserved_scaffold": {
     "entry_template": {
@@ -296,7 +325,29 @@
         "risk_preference": ""
       },
       "editorial_notes": "",
-      "story_version": "v4"
+      "story_version": "v4.1",
+      "role_state_before": {
+        "readiness_score": 0,
+        "timeline_buffer_days": 0,
+        "budget_pressure_index": 0,
+        "stress_level": ""
+      },
+      "role_state_after": {
+        "readiness_score": 0,
+        "timeline_buffer_days": 0,
+        "budget_pressure_index": 0,
+        "stress_level": ""
+      },
+      "consequence_matrix": {
+        "best_case": "",
+        "base_case": "",
+        "worst_case": ""
+      },
+      "action_card": {
+        "today": "",
+        "within_72h": "",
+        "this_week": ""
+      }
     },
     "global_reserved_slots": {
       "extra_mvp_volumes": [],
