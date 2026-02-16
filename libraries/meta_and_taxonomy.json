@@ -128,6 +128,16 @@
           "逐条改写 question_aliases 的预算开场与过关问法，提升场景开场多样性",
           "保持全库 326 条 published 与政策日期零占位状态"
         ]
+      },
+      {
+        "date": "2026-02-16",
+        "version": "3.1.7",
+        "changes": [
+          "将回国模块 R01 从单一求职阶段重建为准备-申请-录取-签证-行前-在读-求职-综合完整主线",
+          "补齐 country_library 的签证/行前/综合阶段入口（C01 样板卷）",
+          "补齐 major_library 的准备/录取/签证/行前阶段入口（P01 样板卷）",
+          "同步修正阶段标签与章节文案中的阶段称谓，保持阅读连续性"
+        ]
       }
     ],
     "library_aliases": {
@@ -149,7 +159,7 @@
       "项目差异",
       "学校特例"
     ],
-    "content_refresh_status": "narrative-v4.3-hook-and-alias-dehomogenization",
+    "content_refresh_status": "narrative-v4.4-phase-gap-bridging",
     "last_source_refresh_at": "2026-02-16"
   },
   "taxonomy": {
