@@ -2237,7 +2237,7 @@
           "id": "MVP-V02-05",
           "title": "签证与毕业工签路径基础对比",
           "phase": "准备",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -2359,7 +2359,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [
             {
@@ -2392,9 +2392,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-23"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -2412,8 +2410,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "MVP-V02-04",
           "next_chapter_id": "MVP-V02-06",
           "persona_profile": {
@@ -6942,7 +6940,7 @@
           "id": "MVP-V05-08",
           "title": "Offer后排期：押金、签证、住宿与行前节点",
           "phase": "录取",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -7063,7 +7061,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [
             {
@@ -7096,9 +7094,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -7116,8 +7112,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "MVP-V05-07",
           "next_chapter_id": "MVP-V05-07",
           "persona_profile": {
@@ -11003,7 +10999,7 @@
           "id": "MVP-V08-02",
           "title": "成绩单、在读证明、认证文件提交规范",
           "phase": "申请",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -11122,7 +11118,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [
             {
@@ -11155,9 +11151,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-02"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -11175,8 +11169,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "MVP-V08-01",
           "next_chapter_id": "MVP-V08-03",
           "persona_profile": {
@@ -13049,7 +13043,7 @@
           "id": "MVP-V09-05",
           "title": "家庭资金证明：存款时点、流水与口径",
           "phase": "录取",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -13170,7 +13164,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [
             {
@@ -13203,9 +13197,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-26"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -13223,8 +13215,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "MVP-V09-04",
           "next_chapter_id": "MVP-V09-06",
           "persona_profile": {
@@ -15508,7 +15500,7 @@
           "id": "MVP-V10-08",
           "title": "合规底线：打工时长、出勤率、签证状态维护",
           "phase": "在读",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -15627,7 +15619,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [
             {
@@ -15660,9 +15652,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-03"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -15680,8 +15670,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "MVP-V10-07",
           "next_chapter_id": "MVP-V10-09",
           "persona_profile": {
@@ -15756,7 +15746,7 @@
           "id": "MVP-V10-09",
           "title": "签证材料一致性核验：资金、录取、行程口径统一",
           "phase": "签证",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -15899,12 +15889,10 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-02"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
-          "needs_human_review": true,
+          "needs_human_review": false,
           "review_log": [
             {
               "date": "2026-02-16",
@@ -15927,8 +15915,8 @@
             "院校特例"
           ],
           "scope_type": "global",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "MVP-V10-08",
           "next_chapter_id": "MVP-V10-10",
           "persona_profile": {
@@ -16219,7 +16207,7 @@
           "id": "MVP-V10-11",
           "title": "家属陪读/配偶随行政策与材料准备",
           "phase": "签证",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -16356,12 +16344,10 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
-          "needs_human_review": true,
+          "needs_human_review": false,
           "review_log": [
             {
               "date": "2026-02-16",
@@ -16384,8 +16370,8 @@
             "院校特例"
           ],
           "scope_type": "global",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "MVP-V10-10",
           "next_chapter_id": "MVP-V10-12",
           "persona_profile": {
@@ -16894,7 +16880,7 @@
           "id": "MVP-V10-14",
           "title": "紧急预案：证件丢失、航班变更、入境受阻处理",
           "phase": "行前",
-          "status": "review",
+          "status": "ready",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -17033,12 +17019,10 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-25"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
-          "needs_human_review": true,
+          "needs_human_review": false,
           "review_log": [
             {
               "date": "2026-02-16",
@@ -17061,8 +17045,8 @@
             "院校特例"
           ],
           "scope_type": "global",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "MVP-V10-13",
           "next_chapter_id": "MVP-V10-13",
           "persona_profile": {

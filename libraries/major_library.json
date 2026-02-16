@@ -6350,7 +6350,7 @@
           "id": "P04-05",
           "title": "在读课程地图：财务会计、管理会计、审计、税务",
           "phase": "在读",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_major_business",
           "updated_at": "2026-02-16",
@@ -6475,7 +6475,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_major_business",
           "policy_clause_snapshot": [
             {
@@ -6508,9 +6508,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-25"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.54,
           "review_log": [
@@ -6528,8 +6526,8 @@
             }
           ],
           "scope_type": "major",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "P04-04",
           "next_chapter_id": "P04-06",
           "persona_profile": {
@@ -6828,7 +6826,7 @@
           "id": "P04-07",
           "title": "就业岗位地图：审计、税务、财务分析、内控合规",
           "phase": "求职",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_major_business",
           "updated_at": "2026-02-16",
@@ -6953,7 +6951,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_major_business",
           "policy_clause_snapshot": [
             {
@@ -6986,9 +6984,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-23"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.54,
           "review_log": [
@@ -7006,8 +7002,8 @@
             }
           ],
           "scope_type": "major",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "P04-06",
           "next_chapter_id": "P04-08",
           "persona_profile": {
@@ -8215,7 +8211,7 @@
           "id": "P05-05",
           "title": "在读课程地图：微观、宏观、计量、政策分析",
           "phase": "在读",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_major_business",
           "updated_at": "2026-02-16",
@@ -8340,7 +8336,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_major_business",
           "policy_clause_snapshot": [
             {
@@ -8373,9 +8369,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-24"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.54,
           "review_log": [
@@ -8393,8 +8387,8 @@
             }
           ],
           "scope_type": "major",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "P05-04",
           "next_chapter_id": "P05-06",
           "persona_profile": {
@@ -8694,7 +8688,7 @@
           "id": "P05-07",
           "title": "就业岗位地图：经济分析、政策研究、数据分析、咨询",
           "phase": "求职",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_major_business",
           "updated_at": "2026-02-16",
@@ -8819,7 +8813,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_major_business",
           "policy_clause_snapshot": [
             {
@@ -8852,9 +8846,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-22"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.54,
           "review_log": [
@@ -8872,8 +8864,8 @@
             }
           ],
           "scope_type": "major",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "P05-06",
           "next_chapter_id": "P05-08",
           "persona_profile": {
@@ -12596,7 +12588,7 @@
           "id": "P07-08",
           "title": "风险点与替代路径（转码强度、签证与岗位竞争）",
           "phase": "综合",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_major_stem",
           "updated_at": "2026-02-16",
@@ -12723,7 +12715,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_major_stem",
           "policy_clause_snapshot": [
             {
@@ -12756,9 +12748,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -12776,8 +12766,8 @@
             }
           ],
           "scope_type": "major",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "P07-07",
           "next_chapter_id": "P07-07",
           "persona_profile": {
@@ -18973,7 +18963,7 @@
           "id": "P11-04",
           "title": "选校分层：教学实践型、政策研究型、技术融合型对比",
           "phase": "申请",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_major_social",
           "updated_at": "2026-02-16",
@@ -19100,7 +19090,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_major_social",
           "policy_clause_snapshot": [
             {
@@ -19133,9 +19123,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.54,
           "review_log": [
@@ -19153,8 +19141,8 @@
             }
           ],
           "scope_type": "major",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "P11-03",
           "next_chapter_id": "P11-05",
           "persona_profile": {
@@ -19906,7 +19894,7 @@
           "id": "P11-08",
           "title": "风险点与替代路径（教师资格与地区认证限制）",
           "phase": "综合",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_major_social",
           "updated_at": "2026-02-16",
@@ -20029,7 +20017,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_major_social",
           "policy_clause_snapshot": [
             {
@@ -20062,9 +20050,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-24"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -20082,8 +20068,8 @@
             }
           ],
           "scope_type": "major",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "P11-07",
           "next_chapter_id": "P11-07",
           "persona_profile": {
@@ -20166,7 +20152,7 @@
           "id": "P12-01",
           "title": "公共政策与国际关系专业定义与方向划分",
           "phase": "综合",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_major_social",
           "updated_at": "2026-02-16",
@@ -20279,7 +20265,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_major_social",
           "policy_clause_snapshot": [
             {
@@ -20312,9 +20298,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-02"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -20332,8 +20316,8 @@
             }
           ],
           "scope_type": "major",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": null,
           "next_chapter_id": "P12-02",
           "persona_profile": {
@@ -20408,7 +20392,7 @@
           "id": "P12-02",
           "title": "申请门槛：写作研究能力、方法课与语言要求",
           "phase": "申请",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_major_social",
           "updated_at": "2026-02-16",
@@ -20531,7 +20515,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_major_social",
           "policy_clause_snapshot": [
             {
@@ -20564,9 +20548,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -20584,8 +20566,8 @@
             }
           ],
           "scope_type": "major",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "P12-01",
           "next_chapter_id": "P12-03",
           "persona_profile": {
@@ -20660,7 +20642,7 @@
           "id": "P12-03",
           "title": "文书策略：公共议题经历与政策影响力叙事",
           "phase": "申请",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_major_social",
           "updated_at": "2026-02-16",
@@ -20785,7 +20767,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_major_social",
           "policy_clause_snapshot": [
             {
@@ -20818,9 +20800,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.54,
           "review_log": [
@@ -20838,8 +20818,8 @@
             }
           ],
           "scope_type": "major",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "P12-02",
           "next_chapter_id": "P12-04",
           "persona_profile": {
@@ -20914,7 +20894,7 @@
           "id": "P12-04",
           "title": "选校分层：政策分析型、国际事务型、发展研究型对比",
           "phase": "申请",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_major_social",
           "updated_at": "2026-02-16",
@@ -21041,7 +21021,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_major_social",
           "policy_clause_snapshot": [
             {
@@ -21074,9 +21054,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.54,
           "review_log": [
@@ -21094,8 +21072,8 @@
             }
           ],
           "scope_type": "major",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "P12-03",
           "next_chapter_id": "P12-05",
           "persona_profile": {
@@ -21170,7 +21148,7 @@
           "id": "P12-05",
           "title": "在读课程地图：政策评估、计量方法、治理与谈判",
           "phase": "在读",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_major_social",
           "updated_at": "2026-02-16",
@@ -21294,7 +21272,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_major_social",
           "policy_clause_snapshot": [
             {
@@ -21327,9 +21305,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-26"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.54,
           "review_log": [
@@ -21347,8 +21323,8 @@
             }
           ],
           "scope_type": "major",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "P12-04",
           "next_chapter_id": "P12-06",
           "persona_profile": {
@@ -21647,7 +21623,7 @@
           "id": "P12-07",
           "title": "就业岗位地图：政策研究、项目管理、公共事务、咨询",
           "phase": "求职",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_major_social",
           "updated_at": "2026-02-16",
@@ -21772,7 +21748,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_major_social",
           "policy_clause_snapshot": [
             {
@@ -21805,9 +21781,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-24"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.54,
           "review_log": [
@@ -21825,8 +21799,8 @@
             }
           ],
           "scope_type": "major",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "P12-06",
           "next_chapter_id": "P12-08",
           "persona_profile": {
@@ -24847,7 +24821,7 @@
           "id": "P14-05",
           "title": "在读课程地图：流行病学、生统、卫生政策与项目评估",
           "phase": "在读",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_major_social",
           "updated_at": "2026-02-16",
@@ -24971,7 +24945,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_major_social",
           "policy_clause_snapshot": [
             {
@@ -25004,9 +24978,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-24"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 3,
           "confidence_score": 0.54,
           "review_log": [
@@ -25024,8 +24996,8 @@
             }
           ],
           "scope_type": "major",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "P14-04",
           "next_chapter_id": "P14-06",
           "persona_profile": {

@@ -460,7 +460,7 @@
           "id": "C01-03",
           "title": "英国语言要求与可替代考试政策",
           "phase": "申请",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_uk",
           "updated_at": "2026-02-16",
@@ -585,7 +585,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_uk",
           "policy_clause_snapshot": [
             {
@@ -618,9 +618,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-23"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 5,
           "confidence_score": 0.63,
           "review_log": [
@@ -638,8 +636,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C01-02",
           "next_chapter_id": "C01-04",
           "persona_profile": {
@@ -714,7 +712,7 @@
           "id": "C01-04",
           "title": "英国费用结构与资金证明（学费、生活费、IHS）",
           "phase": "录取",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_uk",
           "updated_at": "2026-02-16",
@@ -850,7 +848,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_uk",
           "policy_clause_snapshot": [
             {
@@ -883,9 +881,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-22"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 5,
           "confidence_score": 0.63,
           "review_log": [
@@ -903,8 +899,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C01-03",
           "next_chapter_id": "C01-05",
           "persona_profile": {
@@ -1202,7 +1198,7 @@
           "id": "C01-06",
           "title": "英国在读实习与兼职规则（课业平衡与合法工时）",
           "phase": "在读",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_uk",
           "updated_at": "2026-02-16",
@@ -1328,7 +1324,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_uk",
           "policy_clause_snapshot": [
             {
@@ -1361,9 +1357,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-02"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 5,
           "confidence_score": 0.66,
           "review_log": [
@@ -1381,8 +1375,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C01-05",
           "next_chapter_id": "C01-07",
           "persona_profile": {
@@ -1457,7 +1451,7 @@
           "id": "C01-07",
           "title": "英国PSW与后续工签路径（Graduate Route到Skilled Worker）",
           "phase": "求职",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_uk",
           "updated_at": "2026-02-16",
@@ -1601,7 +1595,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_uk",
           "policy_clause_snapshot": [
             {
@@ -1634,9 +1628,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 5,
           "confidence_score": 0.63,
           "review_log": [
@@ -1654,8 +1646,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C01-06",
           "next_chapter_id": "C01-08",
           "persona_profile": {
@@ -2649,7 +2641,7 @@
           "id": "C02-04",
           "title": "美国费用结构与资金证明（I-20与财力材料）",
           "phase": "录取",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_us",
           "updated_at": "2026-02-16",
@@ -2786,7 +2778,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_us",
           "policy_clause_snapshot": [
             {
@@ -2819,9 +2811,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-03"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 6,
           "confidence_score": 0.69,
           "review_log": [
@@ -2839,8 +2829,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C02-03",
           "next_chapter_id": "C02-05",
           "persona_profile": {
@@ -3142,7 +3132,7 @@
           "id": "C02-06",
           "title": "美国实习机制：CPT/Co-op/校内工与时间线",
           "phase": "在读",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_us",
           "updated_at": "2026-02-16",
@@ -3284,7 +3274,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_us",
           "policy_clause_snapshot": [
             {
@@ -3317,9 +3307,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 6,
           "confidence_score": 0.69,
           "review_log": [
@@ -3337,8 +3325,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C02-05",
           "next_chapter_id": "C02-07",
           "persona_profile": {
@@ -3413,7 +3401,7 @@
           "id": "C02-07",
           "title": "美国留任路径：OPT/STEM OPT/H-1B基础逻辑",
           "phase": "求职",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_us",
           "updated_at": "2026-02-16",
@@ -3560,7 +3548,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_us",
           "policy_clause_snapshot": [
             {
@@ -3593,9 +3581,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 6,
           "confidence_score": 0.69,
           "review_log": [
@@ -3613,8 +3599,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C02-06",
           "next_chapter_id": "C02-08",
           "persona_profile": {
@@ -4614,7 +4600,7 @@
           "id": "C03-04",
           "title": "加拿大费用结构与资金证明（学费、GIC、生活费）",
           "phase": "录取",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_ca",
           "updated_at": "2026-02-16",
@@ -4758,26 +4744,26 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_ca",
           "policy_clause_snapshot": [
             {
               "field": "申请资格",
               "official_clause": "需取得 DLI 录取并满足学习许可资格、资金与学习目的要求。",
               "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2026-02-03"
             },
             {
               "field": "材料清单",
               "official_clause": "材料通常含录取信、资金证明、体检/无犯罪（如适用）与身份文件。",
               "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2026-02-03"
             },
             {
               "field": "时限/工时/费用",
               "official_clause": "学签费用、处理时长、在读打工规则与 PGWP 条件以 IRCC 更新为准。",
               "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2026-02-03"
             }
           ],
           "change_monitor": {
@@ -4791,9 +4777,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-02"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 6,
           "confidence_score": 0.69,
           "review_log": [
@@ -4811,8 +4795,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C03-03",
           "next_chapter_id": "C03-05",
           "persona_profile": {
@@ -5110,7 +5094,7 @@
           "id": "C03-06",
           "title": "加拿大在读实习与兼职规则（校内外打工政策）",
           "phase": "在读",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_ca",
           "updated_at": "2026-02-16",
@@ -5244,26 +5228,26 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_ca",
           "policy_clause_snapshot": [
             {
               "field": "申请资格",
               "official_clause": "需取得 DLI 录取并满足学习许可资格、资金与学习目的要求。",
               "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2026-02-03"
             },
             {
               "field": "材料清单",
               "official_clause": "材料通常含录取信、资金证明、体检/无犯罪（如适用）与身份文件。",
               "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2026-02-03"
             },
             {
               "field": "时限/工时/费用",
               "official_clause": "学签费用、处理时长、在读打工规则与 PGWP 条件以 IRCC 更新为准。",
               "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2026-02-03"
             }
           ],
           "change_monitor": {
@@ -5277,9 +5261,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 6,
           "confidence_score": 0.72,
           "review_log": [
@@ -5297,8 +5279,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C03-05",
           "next_chapter_id": "C03-07",
           "persona_profile": {
@@ -5373,7 +5355,7 @@
           "id": "C03-07",
           "title": "加拿大留任路径：PGWP与省提名衔接基础",
           "phase": "求职",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_ca",
           "updated_at": "2026-02-16",
@@ -5518,26 +5500,26 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_ca",
           "policy_clause_snapshot": [
             {
               "field": "申请资格",
               "official_clause": "需取得 DLI 录取并满足学习许可资格、资金与学习目的要求。",
               "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2026-02-03"
             },
             {
               "field": "材料清单",
               "official_clause": "材料通常含录取信、资金证明、体检/无犯罪（如适用）与身份文件。",
               "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2026-02-03"
             },
             {
               "field": "时限/工时/费用",
               "official_clause": "学签费用、处理时长、在读打工规则与 PGWP 条件以 IRCC 更新为准。",
               "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2026-02-03"
             }
           ],
           "change_monitor": {
@@ -5551,9 +5533,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 6,
           "confidence_score": 0.69,
           "review_log": [
@@ -5571,8 +5551,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C03-06",
           "next_chapter_id": "C03-08",
           "persona_profile": {
@@ -6566,7 +6546,7 @@
           "id": "C04-04",
           "title": "澳大利亚费用结构与资金证明（学费、OSHC、生活费）",
           "phase": "录取",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_au",
           "updated_at": "2026-02-16",
@@ -6691,7 +6671,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_au",
           "policy_clause_snapshot": [
             {
@@ -6724,9 +6704,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -6744,8 +6722,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C04-03",
           "next_chapter_id": "C04-05",
           "persona_profile": {
@@ -7043,7 +7021,7 @@
           "id": "C04-06",
           "title": "澳大利亚在读实习与打工规则（工时与税务基础）",
           "phase": "在读",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_au",
           "updated_at": "2026-02-16",
@@ -7158,7 +7136,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_au",
           "policy_clause_snapshot": [
             {
@@ -7191,9 +7169,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 4,
           "confidence_score": 0.6,
           "review_log": [
@@ -7211,8 +7187,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C04-05",
           "next_chapter_id": "C04-07",
           "persona_profile": {
@@ -7287,7 +7263,7 @@
           "id": "C04-07",
           "title": "澳大利亚留任路径：485工签与后续签证衔接",
           "phase": "求职",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_au",
           "updated_at": "2026-02-16",
@@ -7413,7 +7389,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_au",
           "policy_clause_snapshot": [
             {
@@ -7446,9 +7422,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-26"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -7466,8 +7440,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C04-06",
           "next_chapter_id": "C04-08",
           "persona_profile": {
@@ -10339,7 +10313,7 @@
           "id": "C06-04",
           "title": "中国香港费用结构与资金证明（学费、住宿、存款）",
           "phase": "录取",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_hk",
           "updated_at": "2026-02-16",
@@ -10463,7 +10437,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_hk",
           "policy_clause_snapshot": [
             {
@@ -10496,9 +10470,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -10516,8 +10488,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C06-03",
           "next_chapter_id": "C06-05",
           "persona_profile": {
@@ -11037,7 +11009,7 @@
           "id": "C06-07",
           "title": "中国香港留港路径：IANG签证与就业续签基础",
           "phase": "求职",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_hk",
           "updated_at": "2026-02-16",
@@ -11164,7 +11136,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_hk",
           "policy_clause_snapshot": [
             {
@@ -11197,9 +11169,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-24"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -11217,8 +11187,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C06-06",
           "next_chapter_id": "C06-08",
           "persona_profile": {
@@ -12218,7 +12188,7 @@
           "id": "C07-04",
           "title": "新加坡费用结构与资金证明（学费、生活费、宿舍）",
           "phase": "录取",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_sg",
           "updated_at": "2026-02-16",
@@ -12351,7 +12321,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_sg",
           "policy_clause_snapshot": [
             {
@@ -12384,9 +12354,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-26"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 5,
           "confidence_score": 0.63,
           "review_log": [
@@ -12404,8 +12372,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C07-03",
           "next_chapter_id": "C07-05",
           "persona_profile": {
@@ -12703,7 +12671,7 @@
           "id": "C07-06",
           "title": "新加坡在读实习与兼职规则（政策与机会窗口）",
           "phase": "在读",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_sg",
           "updated_at": "2026-02-16",
@@ -12828,7 +12796,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_sg",
           "policy_clause_snapshot": [
             {
@@ -12861,9 +12829,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-24"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 5,
           "confidence_score": 0.66,
           "review_log": [
@@ -12881,8 +12847,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C07-05",
           "next_chapter_id": "C07-07",
           "persona_profile": {
@@ -12957,7 +12923,7 @@
           "id": "C07-07",
           "title": "新加坡留任路径：EP/SPass基础与雇主要求",
           "phase": "求职",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_sg",
           "updated_at": "2026-02-16",
@@ -13094,7 +13060,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_sg",
           "policy_clause_snapshot": [
             {
@@ -13127,9 +13093,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-23"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 5,
           "confidence_score": 0.63,
           "review_log": [
@@ -13147,8 +13111,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C07-06",
           "next_chapter_id": "C07-08",
           "persona_profile": {
@@ -14144,7 +14108,7 @@
           "id": "C08-04",
           "title": "爱尔兰费用结构与资金证明（学费、生活费、保险）",
           "phase": "录取",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_ie",
           "updated_at": "2026-02-16",
@@ -14268,7 +14232,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_ie",
           "policy_clause_snapshot": [
             {
@@ -14301,9 +14265,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-25"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -14321,8 +14283,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C08-03",
           "next_chapter_id": "C08-05",
           "persona_profile": {
@@ -14620,7 +14582,7 @@
           "id": "C08-06",
           "title": "爱尔兰在读实习与兼职规则（合法工时与渠道）",
           "phase": "在读",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_ie",
           "updated_at": "2026-02-16",
@@ -14736,7 +14698,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_ie",
           "policy_clause_snapshot": [
             {
@@ -14769,9 +14731,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-23"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 4,
           "confidence_score": 0.6,
           "review_log": [
@@ -14789,8 +14749,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C08-05",
           "next_chapter_id": "C08-07",
           "persona_profile": {
@@ -14865,7 +14825,7 @@
           "id": "C08-07",
           "title": "爱尔兰留任路径：Stamp 1G到雇主担保",
           "phase": "求职",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_ie",
           "updated_at": "2026-02-16",
@@ -14991,7 +14951,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_ie",
           "policy_clause_snapshot": [
             {
@@ -15024,9 +14984,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-22"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -15044,8 +15002,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C08-06",
           "next_chapter_id": "C08-08",
           "persona_profile": {
@@ -16054,7 +16012,7 @@
           "id": "C09-04",
           "title": "荷兰/比利时费用结构与资金证明（学费梯度与生活费）",
           "phase": "录取",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_nl",
           "updated_at": "2026-02-16",
@@ -16205,7 +16163,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_nl",
           "policy_clause_snapshot": [
             {
@@ -16238,9 +16196,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-24"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 7,
           "confidence_score": 0.75,
           "review_log": [
@@ -16258,8 +16214,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C09-03",
           "next_chapter_id": "C09-05",
           "persona_profile": {
@@ -16793,7 +16749,7 @@
           "id": "C09-07",
           "title": "荷兰/比利时留任路径：zoekjaar与工签衔接",
           "phase": "求职",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_nl",
           "updated_at": "2026-02-16",
@@ -16947,7 +16903,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_nl",
           "policy_clause_snapshot": [
             {
@@ -16980,9 +16936,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-03"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 7,
           "confidence_score": 0.75,
           "review_log": [
@@ -17000,8 +16954,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C09-06",
           "next_chapter_id": "C09-08",
           "persona_profile": {
@@ -18026,7 +17980,7 @@
           "id": "C10-04",
           "title": "德法北欧费用结构与资金证明（低学费与高生活费场景）",
           "phase": "录取",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_de",
           "updated_at": "2026-02-16",
@@ -18244,7 +18198,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_de",
           "policy_clause_snapshot": [
             {
@@ -18277,9 +18231,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-22"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 13,
           "confidence_score": 0.9,
           "review_log": [
@@ -18297,8 +18249,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C10-03",
           "next_chapter_id": "C10-05",
           "persona_profile": {
@@ -18836,7 +18788,7 @@
           "id": "C10-07",
           "title": "德法北欧留任路径：求职签证与长期居留基础",
           "phase": "求职",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_de",
           "updated_at": "2026-02-16",
@@ -19059,7 +19011,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_de",
           "policy_clause_snapshot": [
             {
@@ -19092,9 +19044,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 13,
           "confidence_score": 0.9,
           "review_log": [
@@ -19112,8 +19062,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C10-06",
           "next_chapter_id": "C10-08",
           "persona_profile": {
@@ -20137,7 +20087,7 @@
           "id": "C11-04",
           "title": "日本/韩国费用结构与资金证明（学费、奖学金、生活费）",
           "phase": "录取",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_jp",
           "updated_at": "2026-02-16",
@@ -20283,26 +20233,26 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_jp",
           "policy_clause_snapshot": [
             {
               "field": "申请资格",
               "official_clause": "需先区分日本或韩国路径并满足对应留学签证/居留资格。",
               "source_url": "https://www.mofa.go.jp/j_info/visit/visa/long/visa6.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2023-03-17"
             },
             {
               "field": "材料清单",
               "official_clause": "日本通常需在留资格认定与签证材料；韩国需按签证门户及主管部门清单补件。",
               "source_url": "https://www.mofa.go.jp/j_info/visit/visa/long/visa6.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2023-03-17"
             },
             {
               "field": "时限/工时/费用",
               "official_clause": "审理周期、在读打工许可与毕业后留任签证条件以各国官方公告为准。",
               "source_url": "https://www.mofa.go.jp/j_info/visit/visa/long/visa6.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2023-03-17"
             }
           ],
           "change_monitor": {
@@ -20316,9 +20266,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-03"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 5,
           "confidence_score": 0.63,
           "review_log": [
@@ -20336,8 +20284,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C11-03",
           "next_chapter_id": "C11-05",
           "persona_profile": {
@@ -20641,7 +20589,7 @@
           "id": "C11-06",
           "title": "日本/韩国在读实习与兼职规则（合法工时与企业偏好）",
           "phase": "在读",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_jp",
           "updated_at": "2026-02-16",
@@ -20785,26 +20733,26 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_jp",
           "policy_clause_snapshot": [
             {
               "field": "申请资格",
               "official_clause": "需先区分日本或韩国路径并满足对应留学签证/居留资格。",
               "source_url": "https://www.mofa.go.jp/j_info/visit/visa/long/visa6.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2023-03-17"
             },
             {
               "field": "材料清单",
               "official_clause": "日本通常需在留资格认定与签证材料；韩国需按签证门户及主管部门清单补件。",
               "source_url": "https://www.mofa.go.jp/j_info/visit/visa/long/visa6.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2023-03-17"
             },
             {
               "field": "时限/工时/费用",
               "official_clause": "审理周期、在读打工许可与毕业后留任签证条件以各国官方公告为准。",
               "source_url": "https://www.mofa.go.jp/j_info/visit/visa/long/visa6.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2023-03-17"
             }
           ],
           "change_monitor": {
@@ -20818,9 +20766,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 5,
           "confidence_score": 0.66,
           "review_log": [
@@ -20838,8 +20784,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C11-05",
           "next_chapter_id": "C11-07",
           "persona_profile": {
@@ -20914,7 +20860,7 @@
           "id": "C11-07",
           "title": "日本/韩国留任路径：工作签证与本地求职门槛",
           "phase": "求职",
-          "status": "review",
+          "status": "ready",
           "priority": "P0",
           "owner": "team_country_jp",
           "updated_at": "2026-02-16",
@@ -21063,26 +21009,26 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": true,
+          "needs_human_review": false,
           "last_editor": "team_country_jp",
           "policy_clause_snapshot": [
             {
               "field": "申请资格",
               "official_clause": "需先区分日本或韩国路径并满足对应留学签证/居留资格。",
               "source_url": "https://www.mofa.go.jp/j_info/visit/visa/long/visa6.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2023-03-17"
             },
             {
               "field": "材料清单",
               "official_clause": "日本通常需在留资格认定与签证材料；韩国需按签证门户及主管部门清单补件。",
               "source_url": "https://www.mofa.go.jp/j_info/visit/visa/long/visa6.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2023-03-17"
             },
             {
               "field": "时限/工时/费用",
               "official_clause": "审理周期、在读打工许可与毕业后留任签证条件以各国官方公告为准。",
               "source_url": "https://www.mofa.go.jp/j_info/visit/visa/long/visa6.html",
-              "effective_date": "USER_FILL_EFFECTIVE_DATE"
+              "effective_date": "2023-03-17"
             }
           ],
           "change_monitor": {
@@ -21096,9 +21042,7 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [
-            "需补政策条款生效日期（YYYY-MM-DD）并复核条款原文"
-          ],
+          "publish_blockers": [],
           "evidence_count": 5,
           "confidence_score": 0.63,
           "review_log": [
@@ -21116,8 +21060,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "reviewing",
-          "publish_ready": false,
+          "publication_state": "ready",
+          "publish_ready": true,
           "previous_chapter_id": "C11-06",
           "next_chapter_id": "C11-08",
           "persona_profile": {

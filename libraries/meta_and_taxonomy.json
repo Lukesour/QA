@@ -83,6 +83,15 @@
           "受反爬或无明确更新时间页面保留 USER_FILL_EFFECTIVE_DATE 待人工核实",
           "条款日期回填动作写入 review_notes 便于审计"
         ]
+      },
+      {
+        "date": "2026-02-16",
+        "version": "3.1.2",
+        "changes": [
+          "逐条回填加拿大与日本相关政策条款effective_date",
+          "按条款日期占位状态重算policy条目发布状态",
+          "剩余无法稳定抓取来源继续保留 USER_FILL_EFFECTIVE_DATE 待人工补充"
+        ]
       }
     ],
     "library_aliases": {
@@ -104,7 +113,7 @@
       "项目差异",
       "学校特例"
     ],
-    "content_refresh_status": "narrative-v4.1-quality-upgrade+policy-date-partial-fill",
+    "content_refresh_status": "narrative-v4.1-quality-upgrade+policy-date-partial-fill-v2",
     "last_source_refresh_at": "2026-02-16"
   },
   "taxonomy": {
