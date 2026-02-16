@@ -9225,7 +9225,7 @@
             },
             {
               "title": "Changes to the Post Study Work Visa",
-              "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-post-study-work-visa/",
+              "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-post-study-work-visa-pswv/",
               "publisher": "Immigration New Zealand",
               "type": "official",
               "retrieved_at": "2026-02-16",
@@ -9233,7 +9233,7 @@
             },
             {
               "title": "New requirements for Post Study Work Visa applicants",
-              "url": "https://www.immigration.govt.nz/about-us/media-centre/news-notifications/new-requirements-for-post-study-work-visa-applicants",
+              "url": "https://www.immigration.govt.nz/about-us/news-centre/new-post-study-work-visa-requirements-announced/",
               "publisher": "Immigration New Zealand",
               "type": "official",
               "retrieved_at": "2026-02-16",
@@ -9250,8 +9250,8 @@
           ],
           "official_links": [
             "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/post-study-work-visa",
-            "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-post-study-work-visa/",
-            "https://www.immigration.govt.nz/about-us/media-centre/news-notifications/new-requirements-for-post-study-work-visa-applicants"
+            "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-post-study-work-visa-pswv/",
+            "https://www.immigration.govt.nz/about-us/news-centre/new-post-study-work-visa-requirements-announced/"
           ],
           "jurisdiction": [
             "NZ"
@@ -9273,19 +9273,19 @@
             {
               "field": "申请资格",
               "official_clause": "自 2024-11-19 更新后，符合条件的 PGDip+Master 连续学习路径可按官方规则获得更长的 PSWV 资格窗口。",
-              "source_url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-post-study-work-visa/",
+              "source_url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-post-study-work-visa-pswv/",
               "effective_date": "2024-11-19"
             },
             {
               "field": "材料清单",
               "official_clause": "PSWV 申请需按官方要求提交学历完成证明、身份与在新西兰学习记录等核心文件，材料口径以 INZ 更新通知与签证页一致为准。",
-              "source_url": "https://www.immigration.govt.nz/about-us/media-centre/news-notifications/new-requirements-for-post-study-work-visa-applicants",
+              "source_url": "https://www.immigration.govt.nz/about-us/news-centre/new-post-study-work-visa-requirements-announced/",
               "effective_date": "2022-09-07"
             },
             {
               "field": "时限/工时/费用",
               "official_clause": "PSWV 需在学习签证到期后规定窗口内申请；审理时长、申请费与工作权限按 INZ 实时发布规则执行，建议以公告日期后的版本为准。",
-              "source_url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-post-study-work-visa/",
+              "source_url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-post-study-work-visa-pswv/",
               "effective_date": "2024-11-19"
             }
           ],
