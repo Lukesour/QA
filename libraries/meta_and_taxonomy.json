@@ -147,6 +147,20 @@
           "逐条重写 C01-05/C01-06/P01-05/P01-06 的标题、问法、剧情与行动卡，使阶段与内容一致",
           "强化申请前关注：提升准备/申请阶段权重并保持全库发布可用"
         ]
+      },
+      {
+        "date": "2026-02-16",
+        "version": "3.1.9",
+        "changes": [
+          "将22个章节重排到申请前主线（准备/申请），提升申请前阅读占比与连贯性",
+          "全库修正分支条件阈值：移除不真实语言差距数值，按预算段重写预算风险阈值",
+          "逐条重写12个高影响申请前章节（语言、标化、网申、推荐信、奖学金、英美申请节奏、商科分层）并补充官方来源与可补填位"
+        ],
+        "metrics": {
+          "pre_apply_entries": 208,
+          "total_entries": 326,
+          "pre_apply_ratio": 0.638
+        }
       }
     ],
     "library_aliases": {
@@ -168,7 +182,7 @@
       "项目差异",
       "学校特例"
     ],
-    "content_refresh_status": "narrative-v4.5-preapply-focus-rebalance",
+    "content_refresh_status": "narrative-v4.6-preapply-depth-upgrade",
     "last_source_refresh_at": "2026-02-16"
   },
   "taxonomy": {

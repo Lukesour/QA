@@ -215,6 +215,20 @@ function main() {
   let fiveSectionCount = 0;
   let routeCompleteCount = 0;
   let numericOutcomeCount = 0;
+  let preApplyCount = 0;
+  let preApplyManualRequiredCount = 0;
+  let unrealisticLanguageGapCount = 0;
+  let fixedBudgetThresholdCount = 0;
+
+  const preApplyTopicCounter = {
+    exam: 0,
+    writing: 0,
+    recommendation: 0,
+    school_list: 0,
+    app_system: 0,
+    interview: 0,
+    scholarship: 0
+  };
 
   const conflictSet = new Set();
   const branchSet = new Set();
@@ -443,6 +457,20 @@ function main() {
     }
     branchSet.add(entry.branch_condition);
 
+    const langGapMatch = entry.branch_condition.match(/差距超过([0-9]+(?:\.[0-9]+)?)分/);
+    if (langGapMatch) {
+      const gap = Number(langGapMatch[1]);
+      if (Number.isFinite(gap) && gap > 1.5) {
+        unrealisticLanguageGapCount += 1;
+        fail(`${entry.id}: branch_condition language gap threshold too high (${gap})`, errors);
+      }
+    }
+
+    if (/预算缓冲低于9万元/.test(entry.branch_condition)) {
+      fixedBudgetThresholdCount += 1;
+      fail(`${entry.id}: branch_condition uses fixed 9万元 threshold; should be persona-aware`, errors);
+    }
+
     if (!['推进分支', '风险节点', '阶段收束'].includes(entry.ending_type)) {
       fail(`${entry.id}: ending_type is invalid`, errors);
     }
@@ -548,6 +576,22 @@ function main() {
         }
       }
     }
+
+    if (entry.phase === '准备' || entry.phase === '申请') {
+      preApplyCount += 1;
+      if ((entry.sources || []).some((s) => s && s.type === 'manual_required')) {
+        preApplyManualRequiredCount += 1;
+      }
+
+      const title = `${entry.title || ''} ${(entry.keywords || []).join(' ')}`.toLowerCase();
+      if (/雅思|托福|ielts|toefl|pte|duolingo|gre|gmat/.test(title)) preApplyTopicCounter.exam += 1;
+      if (/文书|ps|sop|cv|简历|writing sample|作品集/.test(title)) preApplyTopicCounter.writing += 1;
+      if (/推荐信|recommendation/.test(title)) preApplyTopicCounter.recommendation += 1;
+      if (/选校|冲稳保|项目清单|school list/.test(title)) preApplyTopicCounter.school_list += 1;
+      if (/网申|申请系统|portal|gradcas|ucas/.test(title)) preApplyTopicCounter.app_system += 1;
+      if (/面试|kira|zoom|interview/.test(title)) preApplyTopicCounter.interview += 1;
+      if (/奖学金|scholarship/.test(title)) preApplyTopicCounter.scholarship += 1;
+    }
   }
 
   if (oldPatternCount > 0) fail(`question_canonical still has old pattern count=${oldPatternCount}`, errors);
@@ -561,6 +605,8 @@ function main() {
   const maxTopNextActionRatio = qa.taxonomy?.narrative_quality_targets?.max_top_next_action_ratio ?? 0.35;
   const maxTopAliasOpeningRatio = qa.taxonomy?.narrative_quality_targets?.max_top_alias_opening_ratio ?? 0.55;
   const strictNarrativeLint = qa.taxonomy?.narrative_quality_targets?.strict_narrative_lint === true;
+  const maxPreApplyManualRequiredRatio = qa.taxonomy?.narrative_quality_targets?.max_pre_apply_manual_required_ratio ?? 0.95;
+  const minPreApplyRatio = qa.taxonomy?.narrative_quality_targets?.min_pre_apply_ratio ?? 0.60;
 
   if (conflictSet.size < minConflict) fail(`conflict diversity too low: ${conflictSet.size} < ${minConflict}`, errors);
   if (branchSet.size < minBranch) fail(`branch_condition diversity too low: ${branchSet.size} < ${minBranch}`, errors);
@@ -587,6 +633,26 @@ function main() {
   for (const issue of narrativeIssues) {
     if (strictNarrativeLint) fail(issue, errors);
     else warn(issue, warnings);
+  }
+
+  const preApplyRatio = allEntries.length ? preApplyCount / allEntries.length : 0;
+  if (preApplyRatio < minPreApplyRatio) {
+    fail(`pre-apply ratio too low: ${preApplyRatio.toFixed(3)} < ${minPreApplyRatio}`, errors);
+  }
+
+  const preApplyManualRatio = preApplyCount ? preApplyManualRequiredCount / preApplyCount : 0;
+  if (preApplyManualRatio > maxPreApplyManualRequiredRatio) {
+    warn(`pre-apply manual_required ratio high: ${preApplyManualRatio.toFixed(3)} > ${maxPreApplyManualRequiredRatio}`, warnings);
+  }
+
+  if (preApplyTopicCounter.app_system < 3) {
+    warn(`pre-apply app system coverage is thin: ${preApplyTopicCounter.app_system}`, warnings);
+  }
+  if (preApplyTopicCounter.interview < 3) {
+    warn(`pre-apply interview coverage is thin: ${preApplyTopicCounter.interview}`, warnings);
+  }
+  if (preApplyTopicCounter.scholarship < 3) {
+    warn(`pre-apply scholarship coverage is thin: ${preApplyTopicCounter.scholarship}`, warnings);
   }
 
   for (const b of allBacklog) {
@@ -650,6 +716,11 @@ function main() {
   console.log(`- top next_action ratio: ${topNextActionRatio.toFixed(3)}`);
   console.log(`- unique alias openings: ${aliasOpeningFreq.size}`);
   console.log(`- top alias opening ratio: ${topAliasOpeningRatio.toFixed(3)}`);
+  console.log(`- pre-apply entries: ${preApplyCount}`);
+  console.log(`- pre-apply ratio: ${preApplyRatio.toFixed(3)}`);
+  console.log(`- pre-apply manual_required ratio: ${preApplyManualRatio.toFixed(3)}`);
+  console.log(`- branch unrealistic language gaps: ${unrealisticLanguageGapCount}`);
+  console.log(`- branch fixed 9w thresholds: ${fixedBudgetThresholdCount}`);
   console.log(`- publish_ready entries: ${publishReadyCount}`);
   console.log(`- policy effective_date placeholders: ${policyPlaceholderCount}`);
   if (warnings.length > 0) {
