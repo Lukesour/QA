@@ -189,7 +189,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "C11-08",
           "next_chapter_id": "P01-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -261,8 +261,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从62%提升到68%。"
           },
           "next_if_stable": "P01-02",
-          "next_if_accelerate": "P01-02",
-          "next_if_risk": "P01-02"
+          "next_if_accelerate": "P01-03",
+          "next_if_risk": "P01-08"
         },
         {
           "id": "P01-02",
@@ -513,8 +513,8 @@
             "this_week": "启动第一项补强动作并记录结果证据。"
           },
           "next_if_stable": "P01-03",
-          "next_if_accelerate": "P01-03",
-          "next_if_risk": "P01-01"
+          "next_if_accelerate": "P01-04",
+          "next_if_risk": "P01-08"
         },
         {
           "id": "P01-03",
@@ -770,7 +770,7 @@
           },
           "next_if_stable": "P01-04",
           "next_if_accelerate": "P01-04",
-          "next_if_risk": "P01-02"
+          "next_if_risk": "P01-08"
         },
         {
           "id": "P01-04",
@@ -1088,14 +1088,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：商科管理在读课程地图：战略、组织行为、运营、数据分析",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -1314,14 +1306,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：商科管理在读实习与社团竞赛时间线",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -1544,14 +1528,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：商科管理就业岗位地图：咨询、管培、生意分析、运营",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -1604,7 +1580,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P01-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -1647,7 +1623,7 @@
             "next_chapter_teaser": "下一章《商科管理风险点与替代路径（BA/市场/供应链转轨）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足30天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -1672,9 +1648,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从48%提升到54%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P01-06"
         },
         {
           "id": "P01-08",
@@ -1726,7 +1702,9 @@
             "P02-08",
             "P03-08"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "P01-03"
+          ],
           "see_also": [
             "P01-07",
             "P01-01",
@@ -1851,8 +1829,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P01-03",
+          "next_chapter_id": "P02-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -1895,7 +1873,7 @@
             "next_chapter_teaser": "下一章会把闸门结论转换为冲稳保选校清单。"
           },
           "branch_condition": "若距离阶段关键DDL不足45天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -1922,9 +1900,9 @@
             "within_72h": "为每个闸门配置一条替代申请路径。",
             "this_week": "完成首轮闸门复盘并更新路径比例。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P02-01",
+          "next_if_accelerate": "P02-01",
+          "next_if_risk": "P01-01"
         }
       ],
       "appendix_reserved": [],
@@ -2117,7 +2095,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P01-08",
           "next_chapter_id": "P02-02",
           "persona_profile": {
             "gpa_band": "83-90（量化/写作/先修要求更高）",
@@ -2189,8 +2167,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从48%提升到54%。"
           },
           "next_if_stable": "P02-02",
-          "next_if_accelerate": "P02-02",
-          "next_if_risk": "P02-02"
+          "next_if_accelerate": "P02-03",
+          "next_if_risk": "P02-08"
         },
         {
           "id": "P02-02",
@@ -2441,8 +2419,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从52%提升到58%。"
           },
           "next_if_stable": "P02-03",
-          "next_if_accelerate": "P02-03",
-          "next_if_risk": "P02-01"
+          "next_if_accelerate": "P02-04",
+          "next_if_risk": "P02-08"
         },
         {
           "id": "P02-03",
@@ -2698,7 +2676,7 @@
           },
           "next_if_stable": "P02-04",
           "next_if_accelerate": "P02-04",
-          "next_if_risk": "P02-02"
+          "next_if_risk": "P02-08"
         },
         {
           "id": "P02-04",
@@ -3016,14 +2994,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：金融与金工在读课程地图：资产定价、衍生品、风控、计量",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -3239,14 +3209,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：金融与金工在读实习策略：暑期实习与求职前置准备",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -3465,14 +3427,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：金融与金工就业岗位地图：投行、资管、风控、量化研究",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -3525,7 +3479,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P02-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "83-90（量化/写作/先修要求更高）",
             "budget_segment": "高预算",
@@ -3568,7 +3522,7 @@
             "next_chapter_teaser": "下一章《金融与金工风险点与替代路径（BA/DS/会计金融复合）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足36天、岗位能力与目标JD差距超过30%、或预算缓冲低于12万元，则走保守分支；若GPA稳定在83-90（量化/写作/先修要求更高）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -3593,9 +3547,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从54%提升到60%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P02-06"
         },
         {
           "id": "P02-08",
@@ -3777,8 +3731,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P02-03",
+          "next_chapter_id": "P03-01",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "高预算",
@@ -3821,7 +3775,7 @@
             "next_chapter_teaser": "下一章《金融与金工就业岗位地图：投行、资管、风控、量化研究》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足27天、语言与目标线差距超过1.0分、或预算缓冲低于12万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -3848,9 +3802,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从53%提升到59%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P03-01",
+          "next_if_accelerate": "P03-01",
+          "next_if_risk": "P02-01"
         }
       ],
       "appendix_reserved": [],
@@ -4033,7 +3987,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P02-08",
           "next_chapter_id": "P03-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -4105,8 +4059,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从64%提升到70%。"
           },
           "next_if_stable": "P03-02",
-          "next_if_accelerate": "P03-02",
-          "next_if_risk": "P03-02"
+          "next_if_accelerate": "P03-03",
+          "next_if_risk": "P03-08"
         },
         {
           "id": "P03-02",
@@ -4358,8 +4312,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从55%提升到61%。"
           },
           "next_if_stable": "P03-03",
-          "next_if_accelerate": "P03-03",
-          "next_if_risk": "P03-01"
+          "next_if_accelerate": "P03-04",
+          "next_if_risk": "P03-08"
         },
         {
           "id": "P03-03",
@@ -4615,7 +4569,7 @@
           },
           "next_if_stable": "P03-04",
           "next_if_accelerate": "P03-04",
-          "next_if_risk": "P03-02"
+          "next_if_risk": "P03-08"
         },
         {
           "id": "P03-04",
@@ -4939,14 +4893,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：营销研究、数字投放、A/B测试、可视化",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -5166,14 +5112,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：快消、互联网、电商岗位准备时间线",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -5398,14 +5336,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：市场策略、增长运营、商业分析、CRM",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -5458,7 +5388,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P03-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -5501,7 +5431,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（纯营销转BA/产品运营）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足18天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -5526,9 +5456,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从48%提升到54%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P03-06"
         },
         {
           "id": "P03-08",
@@ -5710,8 +5640,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P03-03",
+          "next_chapter_id": "P04-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -5754,7 +5684,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：市场策略、增长运营、商业分析、CRM》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足27天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -5781,9 +5711,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从61%提升到67%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P04-01",
+          "next_if_accelerate": "P04-01",
+          "next_if_risk": "P03-01"
         }
       ],
       "appendix_reserved": [],
@@ -5973,7 +5903,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P03-08",
           "next_chapter_id": "P04-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -6045,8 +5975,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从57%提升到63%。"
           },
           "next_if_stable": "P04-02",
-          "next_if_accelerate": "P04-02",
-          "next_if_risk": "P04-02"
+          "next_if_accelerate": "P04-03",
+          "next_if_risk": "P04-08"
         },
         {
           "id": "P04-02",
@@ -6297,8 +6227,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从66%提升到72%。"
           },
           "next_if_stable": "P04-03",
-          "next_if_accelerate": "P04-03",
-          "next_if_risk": "P04-01"
+          "next_if_accelerate": "P04-04",
+          "next_if_risk": "P04-08"
         },
         {
           "id": "P04-03",
@@ -6553,7 +6483,7 @@
           },
           "next_if_stable": "P04-04",
           "next_if_accelerate": "P04-04",
-          "next_if_risk": "P04-02"
+          "next_if_risk": "P04-08"
         },
         {
           "id": "P04-04",
@@ -6877,14 +6807,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "自动补充，写作时请核对条款细则与生效日期"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：财务会计、管理会计、审计、税务",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -7127,14 +7049,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：四大/事务所/企业财务时间线",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -7359,14 +7273,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "自动补充，写作时请核对条款细则与生效日期"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：审计、税务、财务分析、内控合规",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -7442,7 +7348,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P04-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -7485,7 +7391,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（资格不互认与跨地区执业限制）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足18天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -7510,9 +7416,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从68%提升到74%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P04-06"
         },
         {
           "id": "P04-08",
@@ -7690,8 +7596,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P04-03",
+          "next_chapter_id": "P05-01",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -7734,7 +7640,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：审计、税务、财务分析、内控合规》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足29天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -7761,9 +7667,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从63%提升到69%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P05-01",
+          "next_if_accelerate": "P05-01",
+          "next_if_risk": "P04-01"
         }
       ],
       "appendix_reserved": [],
@@ -7949,7 +7855,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P04-08",
           "next_chapter_id": "P05-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -8021,8 +7927,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从71%提升到77%。"
           },
           "next_if_stable": "P05-02",
-          "next_if_accelerate": "P05-02",
-          "next_if_risk": "P05-02"
+          "next_if_accelerate": "P05-03",
+          "next_if_risk": "P05-08"
         },
         {
           "id": "P05-02",
@@ -8275,8 +8181,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从63%提升到69%。"
           },
           "next_if_stable": "P05-03",
-          "next_if_accelerate": "P05-03",
-          "next_if_risk": "P05-01"
+          "next_if_accelerate": "P05-04",
+          "next_if_risk": "P05-08"
         },
         {
           "id": "P05-03",
@@ -8532,7 +8438,7 @@
           },
           "next_if_stable": "P05-04",
           "next_if_accelerate": "P05-04",
-          "next_if_risk": "P05-02"
+          "next_if_risk": "P05-08"
         },
         {
           "id": "P05-04",
@@ -8857,14 +8763,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "自动补充，写作时请核对条款细则与生效日期"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：微观、宏观、计量、政策分析",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -9108,14 +9006,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读RA与实习策略：研究助理与数据岗位并行",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -9340,14 +9230,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "自动补充，写作时请核对条款细则与生效日期"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：经济分析、政策研究、数据分析、咨询",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -9423,7 +9305,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P05-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -9466,7 +9348,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（数学门槛不足时转BA/公策）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足37天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -9491,9 +9373,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从59%提升到65%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P05-06"
         },
         {
           "id": "P05-08",
@@ -9675,8 +9557,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P05-03",
+          "next_chapter_id": "P06-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -9719,7 +9601,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：经济分析、政策研究、数据分析、咨询》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足27天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -9746,9 +9628,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从53%提升到59%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P06-01",
+          "next_if_accelerate": "P06-01",
+          "next_if_risk": "P05-01"
         }
       ],
       "appendix_reserved": [],
@@ -9941,7 +9823,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P05-08",
           "next_chapter_id": "P06-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -10013,8 +9895,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从61%提升到67%。"
           },
           "next_if_stable": "P06-02",
-          "next_if_accelerate": "P06-02",
-          "next_if_risk": "P06-02"
+          "next_if_accelerate": "P06-03",
+          "next_if_risk": "P06-08"
         },
         {
           "id": "P06-02",
@@ -10267,8 +10149,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从67%提升到73%。"
           },
           "next_if_stable": "P06-03",
-          "next_if_accelerate": "P06-03",
-          "next_if_risk": "P06-01"
+          "next_if_accelerate": "P06-04",
+          "next_if_risk": "P06-08"
         },
         {
           "id": "P06-03",
@@ -10524,7 +10406,7 @@
           },
           "next_if_stable": "P06-04",
           "next_if_accelerate": "P06-04",
-          "next_if_risk": "P06-02"
+          "next_if_risk": "P06-08"
         },
         {
           "id": "P06-04",
@@ -10848,14 +10730,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：机器学习、数据工程、实验设计、可视化",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -11076,14 +10950,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：作品集迭代与面试准备时间线",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -11312,14 +11178,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：DA/DS/MLE/BI与能力差异",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -11372,7 +11230,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P06-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -11415,7 +11273,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（只会建模不懂业务的就业风险）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足29天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -11440,9 +11298,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从59%提升到65%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P06-06"
         },
         {
           "id": "P06-08",
@@ -11620,8 +11478,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P06-03",
+          "next_chapter_id": "P07-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -11664,7 +11522,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：DA/DS/MLE/BI与能力差异》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足34天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -11691,9 +11549,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从60%提升到66%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P07-01",
+          "next_if_accelerate": "P07-01",
+          "next_if_risk": "P06-01"
         }
       ],
       "appendix_reserved": [],
@@ -11885,7 +11743,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P06-08",
           "next_chapter_id": "P07-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -11957,8 +11815,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从55%提升到61%。"
           },
           "next_if_stable": "P07-02",
-          "next_if_accelerate": "P07-02",
-          "next_if_risk": "P07-02"
+          "next_if_accelerate": "P07-03",
+          "next_if_risk": "P07-08"
         },
         {
           "id": "P07-02",
@@ -12211,8 +12069,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从69%提升到75%。"
           },
           "next_if_stable": "P07-03",
-          "next_if_accelerate": "P07-03",
-          "next_if_risk": "P07-01"
+          "next_if_accelerate": "P07-04",
+          "next_if_risk": "P07-08"
         },
         {
           "id": "P07-03",
@@ -12467,7 +12325,7 @@
           },
           "next_if_stable": "P07-04",
           "next_if_accelerate": "P07-04",
-          "next_if_risk": "P07-02"
+          "next_if_risk": "P07-08"
         },
         {
           "id": "P07-04",
@@ -12789,14 +12647,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：系统、数据库、AI、软件工程",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -13016,14 +12866,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：LeetCode、项目、实习并行时间线",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -13249,14 +13091,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：SDE、后端、前端、测试、平台工程",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -13309,7 +13143,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P07-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -13352,7 +13186,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（转码强度、签证与岗位竞争）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足24天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -13377,9 +13211,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从50%提升到56%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P07-06"
         },
         {
           "id": "P07-08",
@@ -13588,8 +13422,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P07-03",
+          "next_chapter_id": "P08-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -13632,7 +13466,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：SDE、后端、前端、测试、平台工程》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足32天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -13659,9 +13493,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从54%提升到60%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P08-01",
+          "next_if_accelerate": "P08-01",
+          "next_if_risk": "P07-01"
         }
       ],
       "appendix_reserved": [],
@@ -13855,7 +13689,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P07-08",
           "next_chapter_id": "P08-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -13927,8 +13761,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从61%提升到67%。"
           },
           "next_if_stable": "P08-02",
-          "next_if_accelerate": "P08-02",
-          "next_if_risk": "P08-02"
+          "next_if_accelerate": "P08-03",
+          "next_if_risk": "P08-08"
         },
         {
           "id": "P08-02",
@@ -14181,8 +14015,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从67%提升到73%。"
           },
           "next_if_stable": "P08-03",
-          "next_if_accelerate": "P08-03",
-          "next_if_risk": "P08-01"
+          "next_if_accelerate": "P08-04",
+          "next_if_risk": "P08-08"
         },
         {
           "id": "P08-03",
@@ -14437,7 +14271,7 @@
           },
           "next_if_stable": "P08-04",
           "next_if_accelerate": "P08-04",
-          "next_if_risk": "P08-02"
+          "next_if_risk": "P08-08"
         },
         {
           "id": "P08-04",
@@ -14757,14 +14591,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：深度学习、模型训练、部署与评估",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -14983,14 +14809,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：科研助理、开源贡献与产业项目",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -15217,14 +15035,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：算法工程师、MLOps、应用AI产品",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -15277,7 +15087,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P08-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "83-90（量化/写作/先修要求更高）",
             "budget_segment": "中预算",
@@ -15320,7 +15130,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（算力、论文门槛与岗位供需波动）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足30天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在83-90（量化/写作/先修要求更高）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -15345,9 +15155,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从52%提升到58%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P08-06"
         },
         {
           "id": "P08-08",
@@ -15526,8 +15336,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P08-03",
+          "next_chapter_id": "P09-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -15570,7 +15380,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：算法工程师、MLOps、应用AI产品》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足23天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -15597,9 +15407,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从53%提升到59%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P09-01",
+          "next_if_accelerate": "P09-01",
+          "next_if_risk": "P08-01"
         }
       ],
       "appendix_reserved": [],
@@ -15782,7 +15592,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P08-08",
           "next_chapter_id": "P09-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -15854,8 +15664,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从61%提升到67%。"
           },
           "next_if_stable": "P09-02",
-          "next_if_accelerate": "P09-02",
-          "next_if_risk": "P09-02"
+          "next_if_accelerate": "P09-03",
+          "next_if_risk": "P09-08"
         },
         {
           "id": "P09-02",
@@ -16108,8 +15918,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从61%提升到67%。"
           },
           "next_if_stable": "P09-03",
-          "next_if_accelerate": "P09-03",
-          "next_if_risk": "P09-01"
+          "next_if_accelerate": "P09-04",
+          "next_if_risk": "P09-08"
         },
         {
           "id": "P09-03",
@@ -16365,7 +16175,7 @@
           },
           "next_if_stable": "P09-04",
           "next_if_accelerate": "P09-04",
-          "next_if_risk": "P09-02"
+          "next_if_risk": "P09-08"
         },
         {
           "id": "P09-04",
@@ -16686,14 +16496,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：控制、嵌入式、制造、仿真与实验",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -16793,7 +16595,7 @@
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
-            "readiness_score": 40,
+            "readiness_score": 82,
             "timeline_buffer_days": 8,
             "budget_pressure_index": 39,
             "stress_level": "偏高"
@@ -16913,14 +16715,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：实验室、企业项目与Co-op时间线",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -17143,14 +16937,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：硬件、自动化、制造、测试与运维",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -17203,7 +16989,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P09-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -17246,7 +17032,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（语言门槛、行业周期与转岗路径）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足19天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -17271,9 +17057,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从53%提升到59%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P09-06"
         },
         {
           "id": "P09-08",
@@ -17452,8 +17238,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P09-03",
+          "next_chapter_id": "P10-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -17496,7 +17282,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：硬件、自动化、制造、测试与运维》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足36天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -17523,9 +17309,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从54%提升到60%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P10-01",
+          "next_if_accelerate": "P10-01",
+          "next_if_risk": "P09-01"
         }
       ],
       "appendix_reserved": [],
@@ -17708,7 +17494,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P09-08",
           "next_chapter_id": "P10-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -17780,8 +17566,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从71%提升到77%。"
           },
           "next_if_stable": "P10-02",
-          "next_if_accelerate": "P10-02",
-          "next_if_risk": "P10-02"
+          "next_if_accelerate": "P10-03",
+          "next_if_risk": "P10-08"
         },
         {
           "id": "P10-02",
@@ -18033,8 +17819,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从67%提升到73%。"
           },
           "next_if_stable": "P10-03",
-          "next_if_accelerate": "P10-03",
-          "next_if_risk": "P10-01"
+          "next_if_accelerate": "P10-04",
+          "next_if_risk": "P10-08"
         },
         {
           "id": "P10-03",
@@ -18290,7 +18076,7 @@
           },
           "next_if_stable": "P10-04",
           "next_if_accelerate": "P10-04",
-          "next_if_risk": "P10-02"
+          "next_if_risk": "P10-08"
         },
         {
           "id": "P10-04",
@@ -18610,14 +18396,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：结构/设计/规划方法与Studio节奏",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -18836,14 +18614,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：事务所、工程公司与规划机构路径",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -19068,14 +18838,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：设计师、工程师、规划师与BIM岗位",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -19128,7 +18890,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P10-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -19171,7 +18933,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（执照限制与跨国执业差异）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足33天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -19196,9 +18958,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从71%提升到77%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P10-06"
         },
         {
           "id": "P10-08",
@@ -19376,8 +19138,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P10-03",
+          "next_chapter_id": "P11-01",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -19420,7 +19182,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：设计师、工程师、规划师与BIM岗位》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足34天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -19447,9 +19209,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从48%提升到54%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P11-01",
+          "next_if_accelerate": "P11-01",
+          "next_if_risk": "P10-01"
         }
       ],
       "appendix_reserved": [],
@@ -19644,7 +19406,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P10-08",
           "next_chapter_id": "P11-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -19716,8 +19478,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从69%提升到75%。"
           },
           "next_if_stable": "P11-02",
-          "next_if_accelerate": "P11-02",
-          "next_if_risk": "P11-02"
+          "next_if_accelerate": "P11-03",
+          "next_if_risk": "P11-08"
         },
         {
           "id": "P11-02",
@@ -19969,8 +19731,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从67%提升到73%。"
           },
           "next_if_stable": "P11-03",
-          "next_if_accelerate": "P11-03",
-          "next_if_risk": "P11-01"
+          "next_if_accelerate": "P11-04",
+          "next_if_risk": "P11-08"
         },
         {
           "id": "P11-03",
@@ -20226,7 +19988,7 @@
           },
           "next_if_stable": "P11-04",
           "next_if_accelerate": "P11-04",
-          "next_if_risk": "P11-02"
+          "next_if_risk": "P11-08"
         },
         {
           "id": "P11-04",
@@ -20572,14 +20334,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：教育心理、课程设计、评估方法",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -20801,14 +20555,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：学校实践、NGO与教育企业路径",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -21031,14 +20777,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：教学、教研、课程产品、教育运营",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -21091,7 +20829,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P11-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -21134,7 +20872,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（教师资格与地区认证限制）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足33天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -21159,9 +20897,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从55%提升到61%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P11-06"
         },
         {
           "id": "P11-08",
@@ -21366,8 +21104,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P11-03",
+          "next_chapter_id": "P12-01",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -21410,7 +21148,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：教学、教研、课程产品、教育运营》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足23天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -21437,9 +21175,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从57%提升到63%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P12-01",
+          "next_if_accelerate": "P12-01",
+          "next_if_risk": "P11-01"
         }
       ],
       "appendix_reserved": [],
@@ -21645,7 +21383,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P11-08",
           "next_chapter_id": "P12-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -21717,8 +21455,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从65%提升到71%。"
           },
           "next_if_stable": "P12-02",
-          "next_if_accelerate": "P12-02",
-          "next_if_risk": "P12-02"
+          "next_if_accelerate": "P12-03",
+          "next_if_risk": "P12-08"
         },
         {
           "id": "P12-02",
@@ -21995,8 +21733,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从63%提升到69%。"
           },
           "next_if_stable": "P12-03",
-          "next_if_accelerate": "P12-03",
-          "next_if_risk": "P12-01"
+          "next_if_accelerate": "P12-04",
+          "next_if_risk": "P12-08"
         },
         {
           "id": "P12-03",
@@ -22276,7 +22014,7 @@
           },
           "next_if_stable": "P12-04",
           "next_if_accelerate": "P12-04",
-          "next_if_risk": "P12-02"
+          "next_if_risk": "P12-08"
         },
         {
           "id": "P12-04",
@@ -22626,14 +22364,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "自动补充，写作时请核对条款细则与生效日期"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：政策评估、计量方法、治理与谈判",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -22876,14 +22606,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：智库、国际组织、政府合作项目路径",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -23108,14 +22830,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "自动补充，写作时请核对条款细则与生效日期"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：政策研究、项目管理、公共事务、咨询",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -23191,7 +22905,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P12-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -23234,7 +22948,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（岗位竞争与本地化门槛）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足27天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -23259,9 +22973,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从57%提升到63%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P12-06"
         },
         {
           "id": "P12-08",
@@ -23439,8 +23153,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P12-03",
+          "next_chapter_id": "P13-01",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -23483,7 +23197,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：政策研究、项目管理、公共事务、咨询》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足24天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -23510,9 +23224,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从66%提升到72%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P13-01",
+          "next_if_accelerate": "P13-01",
+          "next_if_risk": "P12-01"
         }
       ],
       "appendix_reserved": [],
@@ -23702,7 +23416,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P12-08",
           "next_chapter_id": "P13-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -23774,8 +23488,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从58%提升到64%。"
           },
           "next_if_stable": "P13-02",
-          "next_if_accelerate": "P13-02",
-          "next_if_risk": "P13-02"
+          "next_if_accelerate": "P13-03",
+          "next_if_risk": "P13-08"
         },
         {
           "id": "P13-02",
@@ -24027,8 +23741,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从66%提升到72%。"
           },
           "next_if_stable": "P13-03",
-          "next_if_accelerate": "P13-03",
-          "next_if_risk": "P13-01"
+          "next_if_accelerate": "P13-04",
+          "next_if_risk": "P13-08"
         },
         {
           "id": "P13-03",
@@ -24284,7 +23998,7 @@
           },
           "next_if_stable": "P13-04",
           "next_if_accelerate": "P13-04",
-          "next_if_risk": "P13-02"
+          "next_if_risk": "P13-08"
         },
         {
           "id": "P13-04",
@@ -24603,14 +24317,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：传播理论、内容生产、数据传播分析",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -24830,14 +24536,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：媒体机构、品牌内容、平台运营路径",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -25060,14 +24758,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：品牌传播、公关、内容策略、记者编辑",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -25120,7 +24810,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P13-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -25163,7 +24853,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（语言文化壁垒与行业地域集中）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足32天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -25188,9 +24878,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从54%提升到60%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P13-06"
         },
         {
           "id": "P13-08",
@@ -25368,8 +25058,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P13-03",
+          "next_chapter_id": "P14-01",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -25412,7 +25102,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：品牌传播、公关、内容策略、记者编辑》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足30天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -25439,9 +25129,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从68%提升到74%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P14-01",
+          "next_if_accelerate": "P14-01",
+          "next_if_risk": "P13-01"
         }
       ],
       "appendix_reserved": [],
@@ -25633,7 +25323,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P13-08",
           "next_chapter_id": "P14-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -25705,8 +25395,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从67%提升到73%。"
           },
           "next_if_stable": "P14-02",
-          "next_if_accelerate": "P14-02",
-          "next_if_risk": "P14-02"
+          "next_if_accelerate": "P14-03",
+          "next_if_risk": "P14-08"
         },
         {
           "id": "P14-02",
@@ -25957,8 +25647,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从48%提升到54%。"
           },
           "next_if_stable": "P14-03",
-          "next_if_accelerate": "P14-03",
-          "next_if_risk": "P14-01"
+          "next_if_accelerate": "P14-04",
+          "next_if_risk": "P14-08"
         },
         {
           "id": "P14-03",
@@ -26213,7 +25903,7 @@
           },
           "next_if_stable": "P14-04",
           "next_if_accelerate": "P14-04",
-          "next_if_risk": "P14-02"
+          "next_if_risk": "P14-08"
         },
         {
           "id": "P14-04",
@@ -26537,14 +26227,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "自动补充，写作时请核对条款细则与生效日期"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：流行病学、生统、卫生政策与项目评估",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -26789,14 +26471,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：医院、NGO、研究机构与政府项目",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -27019,14 +26693,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：流调、生统、健康项目管理、咨询",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -27079,7 +26745,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P14-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -27122,7 +26788,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（证照门槛与临床岗位误判）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足19天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -27147,9 +26813,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从65%提升到71%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P14-06"
         },
         {
           "id": "P14-08",
@@ -27327,8 +26993,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P14-03",
+          "next_chapter_id": "P15-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -27371,7 +27037,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：流调、生统、健康项目管理、咨询》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足34天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -27398,9 +27064,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从68%提升到74%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P15-01",
+          "next_if_accelerate": "P15-01",
+          "next_if_risk": "P14-01"
         }
       ],
       "appendix_reserved": [],
@@ -27588,7 +27254,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P14-08",
           "next_chapter_id": "P15-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -27660,8 +27326,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从70%提升到76%。"
           },
           "next_if_stable": "P15-02",
-          "next_if_accelerate": "P15-02",
-          "next_if_risk": "P15-02"
+          "next_if_accelerate": "P15-03",
+          "next_if_risk": "P15-08"
         },
         {
           "id": "P15-02",
@@ -27913,8 +27579,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从70%提升到76%。"
           },
           "next_if_stable": "P15-03",
-          "next_if_accelerate": "P15-03",
-          "next_if_risk": "P15-01"
+          "next_if_accelerate": "P15-04",
+          "next_if_risk": "P15-08"
         },
         {
           "id": "P15-03",
@@ -28170,7 +27836,7 @@
           },
           "next_if_stable": "P15-04",
           "next_if_accelerate": "P15-04",
-          "next_if_risk": "P15-02"
+          "next_if_risk": "P15-08"
         },
         {
           "id": "P15-04",
@@ -28489,14 +28155,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：评估方法、干预技术、伦理与督导",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -28715,14 +28373,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：实习时数、督导与机构匹配路径",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -28946,14 +28596,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：心理服务、HR、用户研究与教育支持",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -29006,7 +28648,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P15-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -29049,7 +28691,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（执照限制与跨国执业不可迁移）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足30天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -29074,9 +28716,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从68%提升到74%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P15-06"
         },
         {
           "id": "P15-08",
@@ -29254,8 +28896,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P15-03",
+          "next_chapter_id": "P16-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -29298,7 +28940,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：心理服务、HR、用户研究与教育支持》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足37天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -29325,9 +28967,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从71%提升到77%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P16-01",
+          "next_if_accelerate": "P16-01",
+          "next_if_risk": "P15-01"
         }
       ],
       "appendix_reserved": [],
@@ -29518,7 +29160,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P15-08",
           "next_chapter_id": "P16-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -29590,8 +29232,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从58%提升到64%。"
           },
           "next_if_stable": "P16-02",
-          "next_if_accelerate": "P16-02",
-          "next_if_risk": "P16-02"
+          "next_if_accelerate": "P16-03",
+          "next_if_risk": "P16-08"
         },
         {
           "id": "P16-02",
@@ -29843,8 +29485,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从61%提升到67%。"
           },
           "next_if_stable": "P16-03",
-          "next_if_accelerate": "P16-03",
-          "next_if_risk": "P16-01"
+          "next_if_accelerate": "P16-04",
+          "next_if_risk": "P16-08"
         },
         {
           "id": "P16-03",
@@ -30100,7 +29742,7 @@
           },
           "next_if_stable": "P16-04",
           "next_if_accelerate": "P16-04",
-          "next_if_risk": "P16-02"
+          "next_if_risk": "P16-08"
         },
         {
           "id": "P16-04",
@@ -30419,14 +30061,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：案例研读、法律写作与选修组合",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -30646,14 +30280,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：律所、仲裁机构、企业法务路径",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -30875,14 +30501,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：涉外律所、法务、合规与争议解决",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -30935,7 +30553,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P16-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -30978,7 +30596,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（律考衔接与法域不互认）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足31天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -31003,9 +30621,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从65%提升到71%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P16-06"
         },
         {
           "id": "P16-08",
@@ -31183,8 +30801,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P16-03",
+          "next_chapter_id": "P17-01",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -31227,7 +30845,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：涉外律所、法务、合规与争议解决》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足26天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -31254,9 +30872,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从52%提升到58%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P17-01",
+          "next_if_accelerate": "P17-01",
+          "next_if_risk": "P16-01"
         }
       ],
       "appendix_reserved": [],
@@ -31450,7 +31068,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P16-08",
           "next_chapter_id": "P17-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -31522,8 +31140,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从52%提升到58%。"
           },
           "next_if_stable": "P17-02",
-          "next_if_accelerate": "P17-02",
-          "next_if_risk": "P17-02"
+          "next_if_accelerate": "P17-03",
+          "next_if_risk": "P17-08"
         },
         {
           "id": "P17-02",
@@ -31775,8 +31393,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从53%提升到59%。"
           },
           "next_if_stable": "P17-03",
-          "next_if_accelerate": "P17-03",
-          "next_if_risk": "P17-01"
+          "next_if_accelerate": "P17-04",
+          "next_if_risk": "P17-08"
         },
         {
           "id": "P17-03",
@@ -32032,7 +31650,7 @@
           },
           "next_if_stable": "P17-04",
           "next_if_accelerate": "P17-04",
-          "next_if_risk": "P17-02"
+          "next_if_risk": "P17-08"
         },
         {
           "id": "P17-04",
@@ -32351,14 +31969,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：用户研究、交互原型、系统设计与评估",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -32580,14 +32190,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：作品集迭代、面试演示与行业项目",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -32814,14 +32416,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：UX/UI、产品设计、服务设计、设计研究",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -32874,7 +32468,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P17-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -32917,7 +32511,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（作品集同质化与岗位竞争）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足33天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -32942,9 +32536,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从71%提升到77%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P17-06"
         },
         {
           "id": "P17-08",
@@ -33122,8 +32716,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P17-03",
+          "next_chapter_id": "P18-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -33166,7 +32760,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：UX/UI、产品设计、服务设计、设计研究》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足33天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -33193,9 +32787,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从59%提升到65%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P18-01",
+          "next_if_accelerate": "P18-01",
+          "next_if_risk": "P17-01"
         }
       ],
       "appendix_reserved": [],
@@ -33378,7 +32972,7 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P17-08",
           "next_chapter_id": "P18-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -33450,8 +33044,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从56%提升到62%。"
           },
           "next_if_stable": "P18-02",
-          "next_if_accelerate": "P18-02",
-          "next_if_risk": "P18-02"
+          "next_if_accelerate": "P18-03",
+          "next_if_risk": "P18-08"
         },
         {
           "id": "P18-02",
@@ -33703,8 +33297,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从67%提升到73%。"
           },
           "next_if_stable": "P18-03",
-          "next_if_accelerate": "P18-03",
-          "next_if_risk": "P18-01"
+          "next_if_accelerate": "P18-04",
+          "next_if_risk": "P18-08"
         },
         {
           "id": "P18-03",
@@ -33959,7 +33553,7 @@
           },
           "next_if_stable": "P18-04",
           "next_if_accelerate": "P18-04",
-          "next_if_risk": "P18-02"
+          "next_if_risk": "P18-08"
         },
         {
           "id": "P18-04",
@@ -34280,14 +33874,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读课程地图：运筹优化、采购、物流、计划与质量管理",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -34508,14 +34094,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：在读实习策略：采购、计划、物流、咨询岗位时间线",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -34737,14 +34315,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：就业岗位地图：供应链分析、运营管理、采购与计划",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -34797,7 +34367,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "P18-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -34840,7 +34410,7 @@
             "next_chapter_teaser": "下一章《风险点与替代路径（行业周期、语言门槛与岗位地域性）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足22天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -34865,9 +34435,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从56%提升到62%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "P18-06"
         },
         {
           "id": "P18-08",
@@ -35046,8 +34616,8 @@
           "scope_type": "major",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "P18-03",
+          "next_chapter_id": "R01-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -35090,7 +34660,7 @@
             "next_chapter_teaser": "下一章《就业岗位地图：供应链分析、运营管理、采购与计划》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足36天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "风险节点",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -35117,9 +34687,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从70%提升到76%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-01",
+          "next_if_accelerate": "R01-01",
+          "next_if_risk": "P18-01"
         }
       ],
       "appendix_reserved": [],

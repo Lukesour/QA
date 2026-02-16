@@ -348,13 +348,13 @@
       "max_top_next_action_ratio": 0.35,
       "max_top_alias_opening_ratio": 0.55,
       "strict_narrative_lint": true,
-      "max_pre_apply_manual_required_ratio": 0.2,
-      "max_prepare_manual_required_ratio": 0.6,
+      "max_pre_apply_manual_required_ratio": 0,
+      "max_prepare_manual_required_ratio": 0,
       "min_major_prepare_per_volume": 4,
       "min_prepare_topic_app_system": 3,
       "min_prepare_topic_interview": 2,
-      "min_prepare_topic_scholarship": 2,
-      "min_route_terminal_entries": 30,
+      "min_prepare_topic_scholarship": 6,
+      "min_route_terminal_entries": 3,
       "max_route_reverse_edges": 0,
       "max_route_cycles": 0,
       "phrase_repeat_limits": {
@@ -363,8 +363,18 @@
         "1.0分分": 0
       },
       "min_prepare_topic_recommendation": 4,
-      "max_prepare_depends_empty": 35
-    }
+      "max_prepare_depends_empty": 10,
+      "min_real_branch_entries": 150,
+      "max_role_state_jump": 50,
+      "max_role_state_discontinuity": 0
+    },
+    "prepare_index_entry_id": "MVP-V05-01",
+    "prepare_index_blueprint": [
+      "适配诊断",
+      "先修补齐",
+      "证据工程",
+      "风险闸门"
+    ]
   },
   "reserved_scaffold": {
     "entry_template": {

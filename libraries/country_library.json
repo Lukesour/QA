@@ -175,7 +175,7 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "MVP-V02-06",
           "next_chapter_id": "C01-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -247,8 +247,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从59%提升到65%。"
           },
           "next_if_stable": "C01-02",
-          "next_if_accelerate": "C01-02",
-          "next_if_risk": "C01-02"
+          "next_if_accelerate": "C01-03",
+          "next_if_risk": "C01-08"
         },
         {
           "id": "C01-02",
@@ -1087,14 +1087,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：英国学术规则：成绩等级、补考重修与毕业判定",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -1682,7 +1674,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "C01-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "高预算",
@@ -1725,7 +1717,7 @@
             "next_chapter_teaser": "下一章《英国代表项目清单与冲稳保选校策略（按专业分层）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足33天、岗位能力与目标JD差距超过30%、或预算缓冲低于12万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -1750,9 +1742,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从59%提升到65%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "C01-06"
         },
         {
           "id": "C01-08",
@@ -1856,14 +1848,6 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：英国代表项目清单与冲稳保选校策略（按专业分层）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
-            },
-            {
               "title": "Oxford Graduate Courses A-Z",
               "url": "https://www.ox.ac.uk/admissions/graduate/courses/courses-a-z-listing?authuser=0",
               "publisher": "University of Oxford",
@@ -1933,8 +1917,8 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "C01-01",
+          "next_chapter_id": "C02-01",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "高预算",
@@ -1977,7 +1961,7 @@
             "next_chapter_teaser": "下一章《英国PSW与后续工签路径（Graduate Route到Skilled Worker）》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足23天、语言与目标线差距超过1.0分、或预算缓冲低于12万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -2004,9 +1988,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从65%提升到71%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "C02-01",
+          "next_if_accelerate": "C02-01",
+          "next_if_risk": "C01-01"
         }
       ],
       "appendix_reserved": [],
@@ -2190,7 +2174,7 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "C01-08",
           "next_chapter_id": "C02-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -2262,8 +2246,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从62%提升到68%。"
           },
           "next_if_stable": "C02-02",
-          "next_if_accelerate": "C02-02",
-          "next_if_risk": "C02-02"
+          "next_if_accelerate": "C02-03",
+          "next_if_risk": "C02-08"
         },
         {
           "id": "C02-02",
@@ -3075,14 +3059,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：美国学术规则：GPA、学术警告与毕业要求",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -3686,7 +3662,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "C02-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "高预算",
@@ -3729,7 +3705,7 @@
             "next_chapter_teaser": "下一章《美国代表项目清单与冲稳保选校策略》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足31天、岗位能力与目标JD差距超过30%、或预算缓冲低于12万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -3754,9 +3730,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从49%提升到55%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "C02-06"
         },
         {
           "id": "C02-08",
@@ -3859,14 +3835,6 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：美国代表项目清单与冲稳保选校策略",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
-            },
-            {
               "title": "Harvard GSAS Degree Programs",
               "url": "https://www.gsas.harvard.edu/programs-study/degree-programs",
               "publisher": "Harvard University",
@@ -3936,8 +3904,8 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "C02-01",
+          "next_chapter_id": "C03-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "高预算",
@@ -3980,7 +3948,7 @@
             "next_chapter_teaser": "下一章《美国留任路径：OPT/STEM OPT/H-1B基础逻辑》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足24天、语言与目标线差距超过1.0分、或预算缓冲低于12万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -4007,9 +3975,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从62%提升到68%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "C03-01",
+          "next_if_accelerate": "C03-01",
+          "next_if_risk": "C02-01"
         }
       ],
       "appendix_reserved": [],
@@ -4194,7 +4162,7 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "C02-08",
           "next_chapter_id": "C03-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -4266,8 +4234,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从56%提升到62%。"
           },
           "next_if_stable": "C03-02",
-          "next_if_accelerate": "C03-02",
-          "next_if_risk": "C03-02"
+          "next_if_accelerate": "C03-03",
+          "next_if_risk": "C03-08"
         },
         {
           "id": "C03-02",
@@ -5088,14 +5056,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：加拿大学术规则：学分、学术诚信与毕业条件",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -5689,7 +5649,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "C03-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -5732,7 +5692,7 @@
             "next_chapter_teaser": "下一章《加拿大代表项目清单与冲稳保选校策略》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足29天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -5757,9 +5717,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从71%提升到77%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "C03-06"
         },
         {
           "id": "C03-08",
@@ -5803,7 +5763,11 @@
             "加拿大 CA",
             "选校策略",
             "申请前准备",
-            "证据工程"
+            "证据工程",
+            "奖学金策略",
+            "奖学金窗口",
+            "奖学金截止日",
+            "奖学金材料包"
           ],
           "related_ids": [
             "C03-07",
@@ -5860,14 +5824,6 @@
               "type": "data",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：加拿大代表项目清单与冲稳保选校策略",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             },
             {
               "title": "University of Toronto SGS Programs",
@@ -5939,8 +5895,8 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "C03-01",
+          "next_chapter_id": "C04-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -5978,12 +5934,12 @@
             "review": "最有效的动作不是“做更多”，而是把每周投入绑定到可量化指标并持续纠偏。"
           },
           "chapter_hook": {
-            "next_action": "完成《加拿大代表项目清单与冲稳保选校策略》的一页决策卡，明确“继续/暂停/回滚”条件。",
-            "failure_warning": "若连续7天没有新增有效证据，或关键DDL剩余不足20天，本阶段将进入高风险补救状态。",
+            "next_action": "先完成奖学金窗口总表与材料包v1，再决定是否扩展冲刺申请池。",
+            "failure_warning": "若错过奖学金主窗口或材料包延迟一周以上，将显著抬高整体预算压力。",
             "next_chapter_teaser": "下一章《加拿大留任路径：PGWP与省提名衔接基础》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足20天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -6006,13 +5962,13 @@
             "failure_cost_hint": "若拖到 D-180 后再定方向，冲刺位会明显缩小"
           },
           "action_card": {
-            "today": "完成《加拿大代表项目清单与冲稳保选校策略》的一页决策卡，明确“继续/暂停/回滚”条件。",
-            "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
-            "this_week": "本周完成阶段复盘，目标是把按时率从66%提升到72%。"
+            "today": "完成《加拿大代表项目清单与冲稳保选校策略》奖学金窗口总表（国家/项目/DDL/申请条件）。",
+            "within_72h": "在72小时内提交奖学金材料包v1（个人陈述、推荐信匹配、预算缺口测算）。",
+            "this_week": "本周完成至少2个奖学金项目的资格筛查与时间线倒排，并绑定申请主线。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "C04-01",
+          "next_if_accelerate": "C04-01",
+          "next_if_risk": "C03-01"
         }
       ],
       "appendix_reserved": [],
@@ -6196,7 +6152,7 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "C03-08",
           "next_chapter_id": "C04-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -6268,8 +6224,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从52%提升到58%。"
           },
           "next_if_stable": "C04-02",
-          "next_if_accelerate": "C04-02",
-          "next_if_risk": "C04-02"
+          "next_if_accelerate": "C04-03",
+          "next_if_risk": "C04-08"
         },
         {
           "id": "C04-02",
@@ -7066,14 +7022,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：澳大利亚学术规则：课程考核、补考与进度要求",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -7629,7 +7577,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "C04-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -7672,7 +7620,7 @@
             "next_chapter_teaser": "下一章《澳大利亚代表项目清单与冲稳保选校策略》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足21天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -7697,9 +7645,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从63%提升到69%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "C04-06"
         },
         {
           "id": "C04-08",
@@ -7743,7 +7691,11 @@
             "澳大利亚 AU",
             "选校策略",
             "申请前准备",
-            "证据工程"
+            "证据工程",
+            "奖学金策略",
+            "奖学金窗口",
+            "奖学金截止日",
+            "奖学金材料包"
           ],
           "related_ids": [
             "C04-07",
@@ -7800,14 +7752,6 @@
               "type": "data",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：澳大利亚代表项目清单与冲稳保选校策略",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             },
             {
               "title": "UNSW Postgraduate Study",
@@ -7879,8 +7823,8 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "C04-01",
+          "next_chapter_id": "C05-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -7918,12 +7862,12 @@
             "review": "最有效的动作不是“做更多”，而是把每周投入绑定到可量化指标并持续纠偏。"
           },
           "chapter_hook": {
-            "next_action": "完成《澳大利亚代表项目清单与冲稳保选校策略》的一页决策卡，明确“继续/暂停/回滚”条件。",
-            "failure_warning": "若连续7天没有新增有效证据，或关键DDL剩余不足34天，本阶段将进入高风险补救状态。",
+            "next_action": "先完成奖学金窗口总表与材料包v1，再决定是否扩展冲刺申请池。",
+            "failure_warning": "若错过奖学金主窗口或材料包延迟一周以上，将显著抬高整体预算压力。",
             "next_chapter_teaser": "下一章《澳大利亚留任路径：485工签与后续签证衔接》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足34天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -7946,13 +7890,13 @@
             "failure_cost_hint": "若拖到 D-180 后再定方向，冲刺位会明显缩小"
           },
           "action_card": {
-            "today": "完成《澳大利亚代表项目清单与冲稳保选校策略》的一页决策卡，明确“继续/暂停/回滚”条件。",
-            "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
-            "this_week": "本周完成阶段复盘，目标是把按时率从68%提升到74%。"
+            "today": "完成《澳大利亚代表项目清单与冲稳保选校策略》奖学金窗口总表（国家/项目/DDL/申请条件）。",
+            "within_72h": "在72小时内提交奖学金材料包v1（个人陈述、推荐信匹配、预算缺口测算）。",
+            "this_week": "本周完成至少2个奖学金项目的资格筛查与时间线倒排，并绑定申请主线。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "C05-01",
+          "next_if_accelerate": "C05-01",
+          "next_if_risk": "C04-01"
         }
       ],
       "appendix_reserved": [],
@@ -8136,7 +8080,7 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "C04-08",
           "next_chapter_id": "C05-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -8208,8 +8152,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从64%提升到70%。"
           },
           "next_if_stable": "C05-02",
-          "next_if_accelerate": "C05-02",
-          "next_if_risk": "C05-02"
+          "next_if_accelerate": "C05-03",
+          "next_if_risk": "C05-08"
         },
         {
           "id": "C05-02",
@@ -9013,14 +8957,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：新西兰学术规则：学术诚信、重修与毕业要求",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -9238,14 +9174,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：新西兰在读打工与实习规则（工时与机会分布）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -9564,7 +9492,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "C05-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -9607,7 +9535,7 @@
             "next_chapter_teaser": "下一章《新西兰代表项目清单与冲稳保选校策略》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足31天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "条款日期已按 INZ PSWV 官方公告回填；如后续窗口期或资格口径再更新，需在48小时内复核并刷新时间轴。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -9632,9 +9560,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从61%提升到67%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "C05-06"
         },
         {
           "id": "C05-08",
@@ -9678,7 +9606,11 @@
             "新西兰 NZ",
             "选校策略",
             "申请前准备",
-            "证据工程"
+            "证据工程",
+            "奖学金策略",
+            "奖学金窗口",
+            "奖学金截止日",
+            "奖学金材料包"
           ],
           "related_ids": [
             "C05-07",
@@ -9735,14 +9667,6 @@
               "type": "data",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：新西兰代表项目清单与冲稳保选校策略",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             },
             {
               "title": "University of Auckland Postgraduate Study Options",
@@ -9814,8 +9738,8 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "C05-01",
+          "next_chapter_id": "C06-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -9853,12 +9777,12 @@
             "review": "最有效的动作不是“做更多”，而是把每周投入绑定到可量化指标并持续纠偏。"
           },
           "chapter_hook": {
-            "next_action": "完成《新西兰代表项目清单与冲稳保选校策略》的一页决策卡，明确“继续/暂停/回滚”条件。",
-            "failure_warning": "若连续7天没有新增有效证据，或关键DDL剩余不足37天，本阶段将进入高风险补救状态。",
+            "next_action": "先完成奖学金窗口总表与材料包v1，再决定是否扩展冲刺申请池。",
+            "failure_warning": "若错过奖学金主窗口或材料包延迟一周以上，将显著抬高整体预算压力。",
             "next_chapter_teaser": "下一章《新西兰留任路径：PSWV与雇主担保基础》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足37天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -9881,13 +9805,13 @@
             "failure_cost_hint": "若拖到 D-180 后再定方向，冲刺位会明显缩小"
           },
           "action_card": {
-            "today": "完成《新西兰代表项目清单与冲稳保选校策略》的一页决策卡，明确“继续/暂停/回滚”条件。",
-            "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
-            "this_week": "本周完成阶段复盘，目标是把按时率从59%提升到65%。"
+            "today": "完成《新西兰代表项目清单与冲稳保选校策略》奖学金窗口总表（国家/项目/DDL/申请条件）。",
+            "within_72h": "在72小时内提交奖学金材料包v1（个人陈述、推荐信匹配、预算缺口测算）。",
+            "this_week": "本周完成至少2个奖学金项目的资格筛查与时间线倒排，并绑定申请主线。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "C06-01",
+          "next_if_accelerate": "C06-01",
+          "next_if_risk": "C05-01"
         }
       ],
       "appendix_reserved": [],
@@ -10070,7 +9994,7 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "C05-08",
           "next_chapter_id": "C06-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -10142,8 +10066,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从54%提升到60%。"
           },
           "next_if_stable": "C06-02",
-          "next_if_accelerate": "C06-02",
-          "next_if_risk": "C06-02"
+          "next_if_accelerate": "C06-03",
+          "next_if_risk": "C06-08"
         },
         {
           "id": "C06-02",
@@ -10943,14 +10867,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：中国香港学术规则：课程密度、考核与毕业要求",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -11168,14 +11084,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：中国香港在读实习与兼职规则（校内外就业限制）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -11487,7 +11395,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "C06-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "高预算",
@@ -11530,7 +11438,7 @@
             "next_chapter_teaser": "下一章《中国香港代表项目清单与冲稳保选校策略》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足21天、岗位能力与目标JD差距超过30%、或预算缓冲低于12万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -11555,9 +11463,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从71%提升到77%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "C06-06"
         },
         {
           "id": "C06-08",
@@ -11601,7 +11509,11 @@
             "中国香港 HK",
             "选校策略",
             "申请前准备",
-            "证据工程"
+            "证据工程",
+            "奖学金策略",
+            "奖学金窗口",
+            "奖学金截止日",
+            "奖学金材料包"
           ],
           "related_ids": [
             "C06-07",
@@ -11658,14 +11570,6 @@
               "type": "data",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：中国香港代表项目清单与冲稳保选校策略",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             },
             {
               "title": "HKU Taught Postgraduate Admissions",
@@ -11737,8 +11641,8 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "C06-01",
+          "next_chapter_id": "C07-01",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "高预算",
@@ -11776,12 +11680,12 @@
             "review": "最有效的动作不是“做更多”，而是把每周投入绑定到可量化指标并持续纠偏。"
           },
           "chapter_hook": {
-            "next_action": "完成《中国香港代表项目清单与冲稳保选校策略》的一页决策卡，明确“继续/暂停/回滚”条件。",
-            "failure_warning": "若连续7天没有新增有效证据，或关键DDL剩余不足25天，本阶段将进入高风险补救状态。",
+            "next_action": "先完成奖学金窗口总表与材料包v1，再决定是否扩展冲刺申请池。",
+            "failure_warning": "若错过奖学金主窗口或材料包延迟一周以上，将显著抬高整体预算压力。",
             "next_chapter_teaser": "下一章《中国香港留港路径：IANG签证与就业续签基础》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足25天、语言与目标线差距超过1.0分、或预算缓冲低于12万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -11804,13 +11708,13 @@
             "failure_cost_hint": "若拖到 D-180 后再定方向，冲刺位会明显缩小"
           },
           "action_card": {
-            "today": "完成《中国香港代表项目清单与冲稳保选校策略》的一页决策卡，明确“继续/暂停/回滚”条件。",
-            "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
-            "this_week": "本周完成阶段复盘，目标是把按时率从55%提升到61%。"
+            "today": "完成《中国香港代表项目清单与冲稳保选校策略》奖学金窗口总表（国家/项目/DDL/申请条件）。",
+            "within_72h": "在72小时内提交奖学金材料包v1（个人陈述、推荐信匹配、预算缺口测算）。",
+            "this_week": "本周完成至少2个奖学金项目的资格筛查与时间线倒排，并绑定申请主线。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "C07-01",
+          "next_if_accelerate": "C07-01",
+          "next_if_risk": "C06-01"
         }
       ],
       "appendix_reserved": [],
@@ -11993,7 +11897,7 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "C06-08",
           "next_chapter_id": "C07-02",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
@@ -12065,8 +11969,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从61%提升到67%。"
           },
           "next_if_stable": "C07-02",
-          "next_if_accelerate": "C07-02",
-          "next_if_risk": "C07-02"
+          "next_if_accelerate": "C07-03",
+          "next_if_risk": "C07-08"
         },
         {
           "id": "C07-02",
@@ -12878,14 +12782,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：新加坡学术规则：课程强度、评分与毕业条件",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -13462,7 +13358,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "C07-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "高预算",
@@ -13505,7 +13401,7 @@
             "next_chapter_teaser": "下一章《新加坡代表项目清单与冲稳保选校策略》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足24天、岗位能力与目标JD差距超过30%、或预算缓冲低于12万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -13530,9 +13426,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从50%提升到56%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "C07-06"
         },
         {
           "id": "C07-08",
@@ -13635,14 +13531,6 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：新加坡代表项目清单与冲稳保选校策略",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
-            },
-            {
               "title": "NUS Graduate School Admissions",
               "url": "https://nusgs.nus.edu.sg/admissions/",
               "publisher": "National University of Singapore",
@@ -13712,8 +13600,8 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "C07-01",
+          "next_chapter_id": "C08-01",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "高预算",
@@ -13756,7 +13644,7 @@
             "next_chapter_teaser": "下一章《新加坡留任路径：EP/SPass基础与雇主要求》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足35天、语言与目标线差距超过1.0分、或预算缓冲低于12万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -13783,9 +13671,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从49%提升到55%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "C08-01",
+          "next_if_accelerate": "C08-01",
+          "next_if_risk": "C07-01"
         }
       ],
       "appendix_reserved": [],
@@ -13968,7 +13856,7 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "C07-08",
           "next_chapter_id": "C08-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -14040,8 +13928,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从68%提升到74%。"
           },
           "next_if_stable": "C08-02",
-          "next_if_accelerate": "C08-02",
-          "next_if_risk": "C08-02"
+          "next_if_accelerate": "C08-03",
+          "next_if_risk": "C08-08"
         },
         {
           "id": "C08-02",
@@ -14840,14 +14728,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：爱尔兰学术规则：课程考核、补考与毕业要求",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -15404,7 +15284,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "C08-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -15447,7 +15327,7 @@
             "next_chapter_teaser": "下一章《爱尔兰代表项目清单与冲稳保选校策略》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足37天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -15472,9 +15352,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从51%提升到57%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "C08-06"
         },
         {
           "id": "C08-08",
@@ -15577,14 +15457,6 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：爱尔兰代表项目清单与冲稳保选校策略",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
-            },
-            {
               "title": "Trinity College Dublin Postgraduate Study",
               "url": "https://www.tcd.ie/study/postgraduate/",
               "publisher": "Trinity College Dublin",
@@ -15654,8 +15526,8 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "C08-01",
+          "next_chapter_id": "C09-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -15698,7 +15570,7 @@
             "next_chapter_teaser": "下一章《爱尔兰留任路径：Stamp 1G到雇主担保》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足18天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -15725,9 +15597,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从64%提升到70%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "C09-01",
+          "next_if_accelerate": "C09-01",
+          "next_if_risk": "C08-01"
         }
       ],
       "appendix_reserved": [],
@@ -15923,7 +15795,7 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "C08-08",
           "next_chapter_id": "C09-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -15995,8 +15867,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从58%提升到64%。"
           },
           "next_if_stable": "C09-02",
-          "next_if_accelerate": "C09-02",
-          "next_if_risk": "C09-02"
+          "next_if_accelerate": "C09-03",
+          "next_if_risk": "C09-08"
         },
         {
           "id": "C09-02",
@@ -16838,14 +16710,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：荷兰/比利时学术规则：ECTS、考核与毕业要求",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -17069,14 +16933,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：荷兰/比利时在读实习与兼职规则（语言门槛影响）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -17416,7 +17272,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "C09-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "75-82（需项目经历和证据补强）",
             "budget_segment": "中预算",
@@ -17459,7 +17315,7 @@
             "next_chapter_teaser": "下一章《荷兰/比利时代表项目清单与冲稳保选校策略》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足26天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -17484,9 +17340,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从48%提升到54%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "C09-06"
         },
         {
           "id": "C09-08",
@@ -17592,14 +17448,6 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：荷兰/比利时代表项目清单与冲稳保选校策略",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
-            },
-            {
               "title": "TU Delft Master Programmes",
               "url": "https://www.tudelft.nl/en/education/programmes/masters",
               "publisher": "TU Delft",
@@ -17679,8 +17527,8 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "C09-01",
+          "next_chapter_id": "C10-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -17723,7 +17571,7 @@
             "next_chapter_teaser": "下一章《荷兰/比利时留任路径：zoekjaar与工签衔接》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足29天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -17750,9 +17598,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从67%提升到73%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "C10-01",
+          "next_if_accelerate": "C10-01",
+          "next_if_risk": "C09-01"
         }
       ],
       "appendix_reserved": [],
@@ -17962,7 +17810,7 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "C09-08",
           "next_chapter_id": "C10-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -18034,8 +17882,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从61%提升到67%。"
           },
           "next_if_stable": "C10-02",
-          "next_if_accelerate": "C10-02",
-          "next_if_risk": "C10-02"
+          "next_if_accelerate": "C10-03",
+          "next_if_risk": "C10-08"
         },
         {
           "id": "C10-02",
@@ -18935,14 +18783,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：德法北欧学术规则：ECTS、补考与毕业论文要求",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -19168,14 +19008,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：德法北欧在读实习与兼职规则（本地语言门槛）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -19490,14 +19322,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "长期居留签证官方说明"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：德法北欧留任路径：求职签证与长期居留基础",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -19585,7 +19409,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "C10-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "低预算",
@@ -19628,7 +19452,7 @@
             "next_chapter_teaser": "下一章《德法北欧代表项目清单与冲稳保选校策略》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足19天、岗位能力与目标JD差距超过30%、或预算缓冲低于3万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -19653,9 +19477,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从57%提升到63%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "C10-06"
         },
         {
           "id": "C10-08",
@@ -19762,14 +19586,6 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：德法北欧代表项目清单与冲稳保选校策略",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
-            },
-            {
               "title": "TUM Master Application",
               "url": "https://www.tum.de/en/studies/application/master/",
               "publisher": "Technical University of Munich",
@@ -19850,8 +19666,8 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "C10-01",
+          "next_chapter_id": "C11-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "低预算",
@@ -19894,7 +19710,7 @@
             "next_chapter_teaser": "下一章《德法北欧留任路径：求职签证与长期居留基础》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足36天、语言与目标线差距超过1.0分、或预算缓冲低于3万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -19921,9 +19737,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从54%提升到60%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "C11-01",
+          "next_if_accelerate": "C11-01",
+          "next_if_risk": "C10-01"
         }
       ],
       "appendix_reserved": [],
@@ -20126,7 +19942,7 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
+          "previous_chapter_id": "C10-08",
           "next_chapter_id": "C11-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -20198,8 +20014,8 @@
             "this_week": "本周完成阶段复盘，目标是把按时率从67%提升到73%。"
           },
           "next_if_stable": "C11-02",
-          "next_if_accelerate": "C11-02",
-          "next_if_risk": "C11-02"
+          "next_if_accelerate": "C11-03",
+          "next_if_risk": "C11-08"
         },
         {
           "id": "C11-02",
@@ -21019,14 +20835,6 @@
               "type": "framework",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：日本/韩国学术规则：课程、研究要求与毕业标准",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -21270,14 +21078,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "官方签证办理入口（含D-2等签证类别）"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：日本/韩国在读实习与兼职规则（合法工时与企业偏好）",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -21549,14 +21349,6 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "官方签证办理入口（含D-2等签证类别）"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：日本/韩国留任路径：工作签证与本地求职门槛",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -21635,7 +21427,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "previous_chapter_id": "C11-06",
-          "next_chapter_id": null,
+          "next_chapter_id": "R01-08",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -21678,7 +21470,7 @@
             "next_chapter_teaser": "下一章《日本/韩国代表项目清单与冲稳保选校策略》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足28天、岗位能力与目标JD差距超过30%、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "政策条目需补生效日期（YYYY-MM-DD）并复核条款原文。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -21703,9 +21495,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从62%提升到68%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "R01-08",
+          "next_if_accelerate": "R01-08",
+          "next_if_risk": "C11-06"
         },
         {
           "id": "C11-08",
@@ -21811,14 +21603,6 @@
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
             },
             {
-              "title": "项目级证据链接（人工补全）：日本/韩国代表项目清单与冲稳保选校策略",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
-            },
-            {
               "title": "University of Tokyo Graduate Schools",
               "url": "https://www.u-tokyo.ac.jp/en/academics/graduate_schools.html",
               "publisher": "The University of Tokyo",
@@ -21889,8 +21673,8 @@
           "scope_type": "country",
           "publication_state": "published",
           "publish_ready": true,
-          "previous_chapter_id": null,
-          "next_chapter_id": null,
+          "previous_chapter_id": "C11-01",
+          "next_chapter_id": "P01-01",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
             "budget_segment": "中预算",
@@ -21933,7 +21717,7 @@
             "next_chapter_teaser": "下一章《日本/韩国留任路径：工作签证与本地求职门槛》会把当前判断变成可交付结果。"
           },
           "branch_condition": "若距离阶段关键DDL不足21天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支",
-          "ending_type": "阶段收束",
+          "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
@@ -21960,9 +21744,9 @@
             "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
             "this_week": "本周完成阶段复盘，目标是把按时率从55%提升到61%。"
           },
-          "next_if_stable": null,
-          "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_stable": "P01-01",
+          "next_if_accelerate": "P01-01",
+          "next_if_risk": "C11-01"
         }
       ],
       "appendix_reserved": [],

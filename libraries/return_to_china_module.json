@@ -57,7 +57,9 @@
             "R01-06",
             "R01-07"
           ],
-          "depends_on": [],
+          "depends_on": [
+            "P18-08"
+          ],
           "see_also": [
             "R01-02",
             "R01-03",
@@ -206,7 +208,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "risk_level": "高",
-          "previous_chapter_id": null,
+          "previous_chapter_id": "P18-08",
           "next_chapter_id": "R01-02",
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",
@@ -615,14 +617,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：回国求职中的学历换算与项目含金量表达",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -842,14 +836,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：国央企/体制内岗位资格限制与准备路径",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -1312,14 +1298,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：应届身份管理：秋招春招与毕业时间窗口",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -1542,14 +1520,6 @@
               "type": "labour",
               "retrieved_at": "2026-02-16",
               "note": "通用参考来源；需补目标项目/院校的直接证据链接"
-            },
-            {
-              "title": "项目级证据链接（人工补全）：海归简历与面试叙事：海外经历本地化呈现",
-              "url": null,
-              "publisher": "目标院校官方项目页",
-              "type": "manual_required",
-              "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
             }
           ],
           "official_links": [
@@ -1652,7 +1622,7 @@
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
           "role_state_before": {
-            "readiness_score": 42,
+            "readiness_score": 84,
             "timeline_buffer_days": 12,
             "budget_pressure_index": 43,
             "stress_level": "中"
@@ -1847,7 +1817,7 @@
           "publication_state": "published",
           "publish_ready": true,
           "risk_level": "高",
-          "previous_chapter_id": "R01-07",
+          "previous_chapter_id": "P18-07",
           "next_chapter_id": null,
           "persona_profile": {
             "gpa_band": "80-88（按项目分层）",

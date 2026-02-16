@@ -219,6 +219,8 @@ function main() {
   let unrealisticLanguageGapCount = 0;
   let fixedBudgetThresholdCount = 0;
   let routeTerminalCount = 0;
+  let realBranchCount = 0;
+  let roleStateDiscontinuityCount = 0;
 
   const preApplyTopicCounter = {
     exam: 0,
@@ -503,14 +505,15 @@ function main() {
         fail(`${entry.id}: terminal chapter should set next_if_stable/next_if_accelerate to null`, errors);
       }
     } else {
-      if (entry.next_if_stable !== entry.next_chapter_id) {
-        fail(`${entry.id}: next_if_stable should equal next_chapter_id`, errors);
+      if (entry.next_if_stable === null || entry.next_if_accelerate === null || entry.next_if_risk === null) {
+        fail(`${entry.id}: non-terminal chapter must define next_if_risk/next_if_stable/next_if_accelerate`, errors);
       }
-      if (entry.next_if_accelerate !== entry.next_chapter_id) {
-        fail(`${entry.id}: next_if_accelerate should equal next_chapter_id`, errors);
+      if (![entry.next_if_stable, entry.next_if_accelerate].includes(entry.next_chapter_id)) {
+        fail(`${entry.id}: either next_if_stable or next_if_accelerate should follow next_chapter_id`, errors);
       }
-      if (entry.next_if_risk === null) {
-        fail(`${entry.id}: non-terminal chapter should define next_if_risk`, errors);
+      const uniqueBranches = new Set([entry.next_if_risk, entry.next_if_stable, entry.next_if_accelerate].filter(Boolean));
+      if (uniqueBranches.size >= 2) {
+        realBranchCount += 1;
       }
     }
 
@@ -671,6 +674,9 @@ function main() {
   const minPrepareTopicScholarship = qa.taxonomy?.narrative_quality_targets?.min_prepare_topic_scholarship ?? 1;
   const minPrepareTopicRecommendation = qa.taxonomy?.narrative_quality_targets?.min_prepare_topic_recommendation ?? 1;
   const maxPrepareDependsEmpty = qa.taxonomy?.narrative_quality_targets?.max_prepare_depends_empty ?? 80;
+  const minRealBranchEntries = qa.taxonomy?.narrative_quality_targets?.min_real_branch_entries ?? 1;
+  const maxRoleStateJump = qa.taxonomy?.narrative_quality_targets?.max_role_state_jump ?? 50;
+  const maxRoleStateDiscontinuity = qa.taxonomy?.narrative_quality_targets?.max_role_state_discontinuity ?? 0;
   const routeReverseWhitelist = new Set(qa.taxonomy?.route_reverse_edge_whitelist || []);
 
   if (conflictSet.size < minConflict) fail(`conflict diversity too low: ${conflictSet.size} < ${minConflict}`, errors);
@@ -746,6 +752,9 @@ function main() {
   if (prepareDependsEmptyCount > maxPrepareDependsEmpty) {
     fail(`prepare depends_on empty too high: ${prepareDependsEmptyCount} > ${maxPrepareDependsEmpty}`, errors);
   }
+  if (realBranchCount < minRealBranchEntries) {
+    fail(`real branch entries too low: ${realBranchCount} < ${minRealBranchEntries}`, errors);
+  }
 
   for (const volume of qa.major_library?.volumes || []) {
     const c = (volume.entries || []).filter((e) => e.phase === '准备').length;
@@ -788,6 +797,21 @@ function main() {
     if ((visitState.get(entry.id) || 0) === 0) dfsCycle(entry.id);
   }
 
+  // Cross-chapter protagonist continuity: keep readiness-state jump within bounds.
+  for (const entry of allEntries) {
+    if (!entry.next_chapter_id) continue;
+    const next = entryById.get(entry.next_chapter_id);
+    if (!next) continue;
+    if (next.previous_chapter_id !== entry.id) continue;
+    const curAfter = entry.role_state_after?.readiness_score;
+    const nextBefore = next.role_state_before?.readiness_score;
+    if (typeof curAfter !== 'number' || typeof nextBefore !== 'number') continue;
+    const jump = Math.abs(nextBefore - curAfter);
+    if (jump > maxRoleStateJump) {
+      roleStateDiscontinuityCount += 1;
+    }
+  }
+
   if (reverseEdgeCount > maxRouteReverseEdges) {
     fail(`route reverse edges too high: ${reverseEdgeCount} > ${maxRouteReverseEdges}`, errors);
   }
@@ -796,6 +820,9 @@ function main() {
   }
   if (routeTerminalCount < minRouteTerminalEntries) {
     fail(`route terminal entries too low: ${routeTerminalCount} < ${minRouteTerminalEntries}`, errors);
+  }
+  if (roleStateDiscontinuityCount > maxRoleStateDiscontinuity) {
+    fail(`role state discontinuity too high: ${roleStateDiscontinuityCount} > ${maxRoleStateDiscontinuity}`, errors);
   }
 
   // Repeated phrase guardrails for reading quality.
