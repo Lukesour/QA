@@ -119,6 +119,15 @@
           "升级 lint_qa.js：新增叙事重复度与场景开场多样性指标，支持叙事质量告警",
           "future_backlog 新增阶段断档补齐专项（country/major/return）"
         ]
+      },
+      {
+        "date": "2026-02-16",
+        "version": "3.1.6",
+        "changes": [
+          "逐条改写 chapter_hook.next_action：由统一句式切换为每章 action_card.today 对应动作",
+          "逐条改写 question_aliases 的预算开场与过关问法，提升场景开场多样性",
+          "保持全库 326 条 published 与政策日期零占位状态"
+        ]
       }
     ],
     "library_aliases": {
@@ -140,7 +149,7 @@
       "项目差异",
       "学校特例"
     ],
-    "content_refresh_status": "narrative-v4.2-policy-date-fill-nz+lint-upgrade-v5",
+    "content_refresh_status": "narrative-v4.3-hook-and-alias-dehomogenization",
     "last_source_refresh_at": "2026-02-16"
   },
   "taxonomy": {
