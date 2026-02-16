@@ -217,6 +217,8 @@ function main() {
   let numericOutcomeCount = 0;
   let preApplyCount = 0;
   let preApplyManualRequiredCount = 0;
+  let prepareCount = 0;
+  let prepareManualRequiredCount = 0;
   let unrealisticLanguageGapCount = 0;
   let fixedBudgetThresholdCount = 0;
 
@@ -225,6 +227,13 @@ function main() {
     writing: 0,
     recommendation: 0,
     school_list: 0,
+    app_system: 0,
+    interview: 0,
+    scholarship: 0
+  };
+  const prepareTopicCounter = {
+    prereq: 0,
+    writing: 0,
     app_system: 0,
     interview: 0,
     scholarship: 0
@@ -592,6 +601,19 @@ function main() {
       if (/面试|kira|zoom|interview/.test(title)) preApplyTopicCounter.interview += 1;
       if (/奖学金|scholarship/.test(title)) preApplyTopicCounter.scholarship += 1;
     }
+
+    if (entry.phase === '准备') {
+      prepareCount += 1;
+      if ((entry.sources || []).some((s) => s && s.type === 'manual_required')) {
+        prepareManualRequiredCount += 1;
+      }
+      const title = `${entry.title || ''} ${(entry.keywords || []).join(' ')}`.toLowerCase();
+      if (/先修|数学|编程|写作|能力补足|门槛|体检|prerequisite/.test(title)) prepareTopicCounter.prereq += 1;
+      if (/文书|ps|sop|cv|简历|推荐信|writing sample/.test(title)) prepareTopicCounter.writing += 1;
+      if (/网申|申请系统|portal|gradcas|ucas|预填/.test(title)) prepareTopicCounter.app_system += 1;
+      if (/面试|kira|zoom|interview|star/.test(title)) prepareTopicCounter.interview += 1;
+      if (/奖学金|scholarship|资金/.test(title)) prepareTopicCounter.scholarship += 1;
+    }
   }
 
   if (oldPatternCount > 0) fail(`question_canonical still has old pattern count=${oldPatternCount}`, errors);
@@ -607,6 +629,9 @@ function main() {
   const strictNarrativeLint = qa.taxonomy?.narrative_quality_targets?.strict_narrative_lint === true;
   const maxPreApplyManualRequiredRatio = qa.taxonomy?.narrative_quality_targets?.max_pre_apply_manual_required_ratio ?? 0.95;
   const minPreApplyRatio = qa.taxonomy?.narrative_quality_targets?.min_pre_apply_ratio ?? 0.60;
+  const minPrepareRatio = qa.taxonomy?.narrative_quality_targets?.min_prepare_ratio ?? 0.30;
+  const maxPrepareManualRequiredRatio = qa.taxonomy?.narrative_quality_targets?.max_prepare_manual_required_ratio ?? 0.95;
+  const minMajorPreparePerVolume = qa.taxonomy?.narrative_quality_targets?.min_major_prepare_per_volume ?? 3;
 
   if (conflictSet.size < minConflict) fail(`conflict diversity too low: ${conflictSet.size} < ${minConflict}`, errors);
   if (branchSet.size < minBranch) fail(`branch_condition diversity too low: ${branchSet.size} < ${minBranch}`, errors);
@@ -639,10 +664,18 @@ function main() {
   if (preApplyRatio < minPreApplyRatio) {
     fail(`pre-apply ratio too low: ${preApplyRatio.toFixed(3)} < ${minPreApplyRatio}`, errors);
   }
+  const prepareRatio = allEntries.length ? prepareCount / allEntries.length : 0;
+  if (prepareRatio < minPrepareRatio) {
+    fail(`prepare ratio too low: ${prepareRatio.toFixed(3)} < ${minPrepareRatio}`, errors);
+  }
 
   const preApplyManualRatio = preApplyCount ? preApplyManualRequiredCount / preApplyCount : 0;
   if (preApplyManualRatio > maxPreApplyManualRequiredRatio) {
     warn(`pre-apply manual_required ratio high: ${preApplyManualRatio.toFixed(3)} > ${maxPreApplyManualRequiredRatio}`, warnings);
+  }
+  const prepareManualRatio = prepareCount ? prepareManualRequiredCount / prepareCount : 0;
+  if (prepareManualRatio > maxPrepareManualRequiredRatio) {
+    warn(`prepare manual_required ratio high: ${prepareManualRatio.toFixed(3)} > ${maxPrepareManualRequiredRatio}`, warnings);
   }
 
   if (preApplyTopicCounter.app_system < 3) {
@@ -653,6 +686,22 @@ function main() {
   }
   if (preApplyTopicCounter.scholarship < 3) {
     warn(`pre-apply scholarship coverage is thin: ${preApplyTopicCounter.scholarship}`, warnings);
+  }
+  if (prepareTopicCounter.app_system < 1) {
+    warn(`prepare app system coverage is thin: ${prepareTopicCounter.app_system}`, warnings);
+  }
+  if (prepareTopicCounter.interview < 1) {
+    warn(`prepare interview coverage is thin: ${prepareTopicCounter.interview}`, warnings);
+  }
+  if (prepareTopicCounter.scholarship < 1) {
+    warn(`prepare scholarship coverage is thin: ${prepareTopicCounter.scholarship}`, warnings);
+  }
+
+  for (const volume of qa.major_library?.volumes || []) {
+    const c = (volume.entries || []).filter((e) => e.phase === '准备').length;
+    if (c < minMajorPreparePerVolume) {
+      fail(`major volume ${volume.volume_id} prepare entries too low: ${c} < ${minMajorPreparePerVolume}`, errors);
+    }
   }
 
   for (const b of allBacklog) {
@@ -719,6 +768,9 @@ function main() {
   console.log(`- pre-apply entries: ${preApplyCount}`);
   console.log(`- pre-apply ratio: ${preApplyRatio.toFixed(3)}`);
   console.log(`- pre-apply manual_required ratio: ${preApplyManualRatio.toFixed(3)}`);
+  console.log(`- prepare entries: ${prepareCount}`);
+  console.log(`- prepare ratio: ${prepareRatio.toFixed(3)}`);
+  console.log(`- prepare manual_required ratio: ${prepareManualRatio.toFixed(3)}`);
   console.log(`- branch unrealistic language gaps: ${unrealisticLanguageGapCount}`);
   console.log(`- branch fixed 9w thresholds: ${fixedBudgetThresholdCount}`);
   console.log(`- publish_ready entries: ${publishReadyCount}`);

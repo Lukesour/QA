@@ -161,6 +161,29 @@
           "total_entries": 326,
           "pre_apply_ratio": 0.638
         }
+      },
+      {
+        "date": "2026-02-16",
+        "version": "3.2.0",
+        "changes": [
+          "将专业库P01-P18的门槛章(-02)与风险章(-08)前移至准备阶段，形成“专业前准备”主线",
+          "将MVP中的文书、推荐信、网申、面试、奖学金关键章前移到准备阶段并逐条重写",
+          "补强申请前准备叙事：新增前置闸门、风险切线、网申预填、面试预热和奖学金前置规划"
+        ],
+        "metrics": {
+          "total_entries": 326,
+          "phase_counts": {
+            "准备": 118,
+            "申请": 90,
+            "录取": 2,
+            "签证": 9,
+            "行前": 10,
+            "在读": 61,
+            "求职": 32,
+            "综合": 4
+          },
+          "prepare_ratio": 0.362
+        }
       }
     ],
     "library_aliases": {
@@ -182,7 +205,7 @@
       "项目差异",
       "学校特例"
     ],
-    "content_refresh_status": "narrative-v4.6-preapply-depth-upgrade",
+    "content_refresh_status": "narrative-v4.7-prepare-focus-upgrade",
     "last_source_refresh_at": "2026-02-16"
   },
   "taxonomy": {

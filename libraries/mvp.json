@@ -2049,7 +2049,8 @@
             "生活费",
             "隐性成本与汇率风险",
             "准备",
-            "国家与地区体系"
+            "国家与地区体系",
+            "奖学金预算策略"
           ],
           "related_ids": [
             "MVP-V02-03",
@@ -6291,8 +6292,8 @@
         },
         {
           "id": "MVP-V05-05",
-          "title": "文书写作排期：素材采集-初稿-迭代-定稿",
-          "phase": "申请",
+          "title": "文书前置准备排期：素材采集-证据建模-初稿启动",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_application",
@@ -6300,18 +6301,18 @@
           "tags": [
             "library:mvp",
             "scope:global",
-            "phase:申请",
+            "phase:准备",
             "volume:V05",
             "scope_type:global"
           ],
-          "question_canonical": "作为准备跨专业重构履历的申请者，我在「申请」阶段遇到「文书写作排期：素材采集-初稿-迭代-定稿」卡点，先做什么最稳？",
+          "question_canonical": "作为准备申请授课型硕士的申请者，我在「准备」阶段卡在「文书前置准备排期：素材采集-证据建模-初稿启动」，应该先做什么？",
           "question_aliases": [
-            "在申请材料连夜迭代、DDL逼近的时候，处理「文书写作排期：素材采集-初稿-迭代-定稿」我该先锁哪三项证据，避免后面被动补救？",
-            "面对「文书写作排期：素材采集-初稿-迭代-定稿」，什么时候该保守，什么时候该冲刺？",
-            "在「文书写作排期：素材采集-初稿-迭代-定稿」这一章，哪些可验证结果达成后再进入下一章最稳？"
+            "我还没开始写文书，前期应该先攒哪些素材，才不会写到一半断掉？",
+            "文书准备要提前多久启动，才能不和考试、选校打架？",
+            "怎么把经历先做成“证据库”，后面写PS/SOP才不空泛？"
           ],
-          "answer_short": "先围绕“时间窗、证据链、预算缓冲”完成本章最小闭环，再按分支条件决定保守推进还是冲刺扩展。",
-          "answer_long": "场景开场：准备跨专业重构履历的申请者推进到「申请」阶段的《文书写作排期：素材采集-初稿-迭代-定稿》，手上资源并不差，但时间窗口正在收紧。这一步看似琐碎，但它决定你后面能不能快。\n冲突升级：截止日、材料一致性和项目匹配度三线同时施压，一处失误会触发连锁补件 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先做批次化提交，把高风险项目提前一轮完成；并把动作拆成“保底线、主推进线、冲刺线”三套计划，每48小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：要么形成高质量批次提交，要么在截止日前陷入低质量赶工。 参考该章历史样本，执行后提交按时率可由63%提升至76%，预算偏差通常可从17%收敛到11%。 分支触发规则：若距离阶段关键DDL不足29天、语言与目标线差距超过2.5分、或预算缓冲低于9万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《文书写作排期：素材采集-初稿-迭代-定稿》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《推荐信沟通排期：邀请、跟进、提交追踪》继续推进。",
+          "answer_short": "先建“经历证据库”，再排文书里程碑，确保申请季不是从零开写。",
+          "answer_long": "场景开场：你离正式提交还有几个月，看似时间充足，但文书真正耗时的是“证据整理”而不是“打字”。如果准备期不先做素材结构化，申请期会被反复返工。\n冲突升级：很多人把文书当最后一步，结果只能临时拼接经历，逻辑松散、证据薄弱，写作轮次越多越焦虑。\n抉择路径：保守线是准备期先做“经历-结果-反思”三列证据表，至少沉淀8-12条可复用素材；冲刺线可同步做首版论点框架，但前提是证据库已经成形。\n结果分歧：前置准备后，申请季文书初稿可在1-2周完成并快速迭代；若准备期空白，常在DDL前出现大幅重写。\n下一章入口：下一章《推荐信前置准备排期》会把你的自述证据和第三方背书连接起来。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -6324,14 +6325,12 @@
             "文书写作"
           ],
           "keywords": [
-            "文书写作排期",
+            "文书前置准备",
+            "证据库",
+            "PS",
+            "SOP",
             "素材采集",
-            "初稿",
-            "迭代",
-            "定稿",
-            "申请",
-            "时间线与项目管理",
-            "文书写作"
+            "初稿框架"
           ],
           "related_ids": [
             "MVP-V05-04",
@@ -6366,42 +6365,42 @@
           "policy_sensitive": false,
           "sources": [
             {
-              "title": "OECD Education at a Glance",
-              "url": "https://www.oecd.org/education/education-at-a-glance/",
-              "publisher": "OECD",
-              "type": "framework",
+              "title": "Oxford Graduate Application Guide",
+              "url": "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+              "publisher": "University of Oxford",
+              "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "通用参考来源；需补目标项目/院校的直接证据链接"
+              "note": "用于参考研究生申请材料结构与写作边界。"
             },
             {
-              "title": "UNESCO ISCED",
-              "url": "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-              "publisher": "UNESCO UIS",
-              "type": "framework",
+              "title": "MIT Statement of Objectives Guidance",
+              "url": "https://gradadmissions.mit.edu/applications",
+              "publisher": "MIT Graduate Admissions",
+              "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "通用参考来源；需补目标项目/院校的直接证据链接"
+              "note": "用于参考申请文书与材料口径一致性要求。"
             },
             {
-              "title": "ETS GRE",
-              "url": "https://www.ets.org/gre.html",
-              "publisher": "ETS",
-              "type": "exam",
+              "title": "Harvard GSAS Application Requirements",
+              "url": "https://gsas.harvard.edu/admissions/apply",
+              "publisher": "Harvard GSAS",
+              "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "通用参考来源；需补目标项目/院校的直接证据链接"
+              "note": "用于参考文书和 supporting materials 的组织方式。"
             },
             {
-              "title": "项目级证据链接（人工补全）：文书写作排期：素材采集-初稿-迭代-定稿",
+              "title": "目标项目文书题目与字数限制（你补）",
               "url": null,
-              "publisher": "目标院校官方项目页",
+              "publisher": "你补充的目标项目官方页面",
               "type": "manual_required",
               "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "note": "请补每个目标项目官网文书题目、字数限制和评估重点。"
             }
           ],
           "official_links": [
-            "https://www.oecd.org/education/education-at-a-glance/",
-            "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.ets.org/gre.html"
+            "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+            "https://gradadmissions.mit.edu/applications",
+            "https://gsas.harvard.edu/admissions/apply"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-01-22",
@@ -6409,9 +6408,9 @@
           "valid_for": "90天",
           "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。已满足发布最低门槛。",
           "manual_fill_fields": [
-            "项目官网证据",
-            "案例数据",
-            "可量化结果"
+            "目标项目文书题目",
+            "目标项目字数限制",
+            "个人证据库链接"
           ],
           "draft_version": "v3-auto-2026-02-16",
           "needs_human_review": false,
@@ -6457,10 +6456,10 @@
             "risk_preference": "平衡优先，关键节点冲刺"
           },
           "time_anchor": {
-            "anchor_label": "D-180",
-            "urgency_window": "D-180 ~ D-45",
-            "deadline_hint": "最晚在 D-45 完成主申批次提交",
-            "failure_cost": "错过主轮次会转入补录或延后入学，机会和奖学金下降"
+            "anchor_label": "D-210",
+            "urgency_window": "D-210 ~ D-120",
+            "deadline_hint": "最晚在 D-120 前完成文书证据库和首版论点框架",
+            "failure_cost": "准备期不做证据沉淀会在申请季触发大规模返工"
           },
           "budget_ledger": {
             "currency": "CNY",
@@ -6471,26 +6470,26 @@
             "funding_strategy": "家庭资金+奖学金+分阶段现金流管理"
           },
           "narrative_layer": {
-            "protagonist": "准备跨专业重构履历的申请者",
-            "goal": "在申请阶段完成「文书写作排期：素材采集-初稿-迭代-定稿」，并把时间、预算与风险控制在可承受区间。",
-            "conflict": "截止日、材料一致性和项目匹配度三线同时施压，一处失误会触发连锁补件",
-            "choice": "先做批次化提交，把高风险项目提前一轮完成；并把动作拆成“保底线、主推进线、冲刺线”三套计划，每48小时复盘一次。",
-            "result": "要么形成高质量批次提交，要么在截止日前陷入低质量赶工。 参考该章历史样本，执行后提交按时率可由63%提升至76%，预算偏差通常可从17%收敛到11%。",
-            "foreshadow": "完成本章后将进入「推荐信沟通排期：邀请、跟进、提交追踪」，重点从“判断正确”转向“交付可验证结果”。"
+            "protagonist": "进入申请季前的候选人",
+            "goal": "在准备阶段完成文书证据沉淀并搭建初稿框架",
+            "conflict": "时间看似充裕但证据资产尚未结构化",
+            "choice": "先做证据库再写作，避免边写边找素材",
+            "result": "申请期写作效率和说服力同步提升",
+            "foreshadow": "可衔接推荐信与面试素材的统一口径"
           },
           "micro_case": {
-            "background": "准备跨专业重构履历的申请者在D-180 ~ D-45内推进「文书写作排期：素材采集-初稿-迭代-定稿」，初始按时率63%，预算偏差17%。",
-            "decision": "选择“先保底、再冲刺”的双轨策略：先把高风险节点锁定，再争取上限收益。",
-            "action": "第1周完成第一批次提交并建立补件清单；第2周补齐证据链并做一次压力测试；第3周根据数据决定是否扩展冲刺分支。",
-            "outcome": "三周后按时率提升到76%，预算偏差收敛到11%，面试/转化相关指标由13%提升到22%。",
-            "review": "最有效的动作不是“做更多”，而是把每周投入绑定到可量化指标并持续纠偏。"
+            "background": "案例A在D-180前只完成“经历罗列”，未做证据结构化。",
+            "decision": "改为先建证据库，再启动PS初稿。",
+            "action": "两周内整理11条经历证据，并为每条补齐量化结果。",
+            "outcome": "PS初稿完成时间提前17天，后续迭代从5轮降到3轮。",
+            "review": "文书效率取决于前置证据质量，而不是临场写作速度。"
           },
           "chapter_hook": {
-            "next_action": "完成《文书写作排期：素材采集-初稿-迭代-定稿》的一页决策卡，明确“继续/暂停/回滚”条件。",
-            "failure_warning": "若连续7天没有新增有效证据，或关键DDL剩余不足29天，本阶段将进入高风险补救状态。",
-            "next_chapter_teaser": "下一章《推荐信沟通排期：邀请、跟进、提交追踪》会把当前判断变成可交付结果。"
+            "next_action": "今晚完成“文书证据库”第一版，至少录入8条经历并写出量化结果。",
+            "failure_warning": "若本周仍未建立证据库，申请季文书将高概率进入被动重写。",
+            "next_chapter_teaser": "下一章会把证据库映射到推荐信素材包，形成双证据链。"
           },
-          "branch_condition": "若距离阶段关键DDL不足29天、语言与目标线差距超过1.0分分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。",
+          "branch_condition": "若距离阶段关键DDL不足45天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。",
           "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
@@ -6512,15 +6511,15 @@
             "worst_case": "若跳过本章关键动作，预算偏差可能扩大到25%以上，后续阶段需要至少29天补救。"
           },
           "action_card": {
-            "today": "完成《文书写作排期：素材采集-初稿-迭代-定稿》的一页决策卡，明确“继续/暂停/回滚”条件。",
-            "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
-            "this_week": "本周完成阶段复盘，目标是把按时率从63%提升到69%。"
+            "today": "建立经历证据表（背景-动作-结果-反思四列）。",
+            "within_72h": "为目标项目提炼3条核心论点并绑定证据。",
+            "this_week": "完成首版文书框架并排定两轮迭代日历。"
           }
         },
         {
           "id": "MVP-V05-06",
-          "title": "推荐信沟通排期：邀请、跟进、提交追踪",
-          "phase": "申请",
+          "title": "推荐信前置准备排期：推荐人筛选-素材包-风险备份",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_application",
@@ -6528,18 +6527,18 @@
           "tags": [
             "library:mvp",
             "scope:global",
-            "phase:申请",
+            "phase:准备",
             "volume:V05",
             "scope_type:global"
           ],
-          "question_canonical": "作为准备跨专业重构履历的申请者，我在「申请」阶段遇到「推荐信沟通排期：邀请、跟进、提交追踪」卡点，先做什么最稳？",
+          "question_canonical": "作为准备申请授课型硕士的申请者，我在「准备」阶段卡在「推荐信前置准备排期：推荐人筛选-素材包-风险备份」，怎么排最稳？",
           "question_aliases": [
-            "在申请材料连夜迭代、DDL逼近的时候，处理「推荐信沟通排期：邀请、跟进、提交追踪」我该先锁哪三项证据，避免后面被动补救？",
-            "面对「推荐信沟通排期：邀请、跟进、提交追踪」，什么时候该保守，什么时候该冲刺？",
-            "在「推荐信沟通排期：邀请、跟进、提交追踪」这一章，哪些可验证结果达成后再进入下一章最稳？"
+            "推荐信到底要提前多久联系，才不会在申请季被动催交？",
+            "推荐人素材包要准备到什么程度，才能拿到高质量推荐信？",
+            "如果主推荐人临时掉线，我的备份策略应该怎么做？"
           ],
-          "answer_short": "先围绕“时间窗、证据链、预算缓冲”完成本章最小闭环，再按分支条件决定保守推进还是冲刺扩展。",
-          "answer_long": "场景开场：准备跨专业重构履历的申请者推进到「申请」阶段的《推荐信沟通排期：邀请、跟进、提交追踪》，手上资源并不差，但时间窗口正在收紧。这一步看似琐碎，但它决定你后面能不能快。\n冲突升级：截止日、材料一致性和项目匹配度三线同时施压，一处失误会触发连锁补件 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先做批次化提交，把高风险项目提前一轮完成；并把动作拆成“保底线、主推进线、冲刺线”三套计划，每48小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：要么形成高质量批次提交，要么在截止日前陷入低质量赶工。 参考该章历史样本，执行后提交按时率可由51%提升至72%，预算偏差通常可从21%收敛到15%。 分支触发规则：若距离阶段关键DDL不足33天、语言与目标线差距超过6.5分、或预算缓冲低于9万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《推荐信沟通排期：邀请、跟进、提交追踪》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《分轮次投递策略：早申、常规轮、补录》继续推进。",
+          "answer_short": "准备期先完成推荐人组合和素材包，申请季只做追踪与提交，不再临时找人。",
+          "answer_long": "场景开场：推荐信是你最难完全控制的环节，准备阶段越晚启动，申请季越容易爆雷。\n冲突升级：常见问题不是“没人愿意写”，而是推荐人对你的项目理解不一致，导致内容空泛、提交延迟或系统操作出错。\n抉择路径：保守线是在准备期锁定“主推2人+备份1人”，并提供结构化素材包；冲刺线可争取更强推荐人，但必须在D-45前完成一次提交路径演练。\n结果分歧：前置准备后，推荐信在申请季更多是流程跟进；若准备期忽略，通常在DDL周集中补救。\n下一章入口：下一章《分轮次投递策略》会把推荐信节奏并入主申节奏图。 同时把推荐人沟通记录做成可追溯清单，确保每次跟进都对应明确截止日与责任人。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -6550,12 +6549,11 @@
           ],
           "aliases": [],
           "keywords": [
-            "推荐信沟通排期",
-            "邀请",
-            "跟进",
-            "提交追踪",
-            "申请",
-            "时间线与项目管理"
+            "推荐信前置准备",
+            "推荐人筛选",
+            "素材包",
+            "备份策略",
+            "提交追踪"
           ],
           "related_ids": [
             "MVP-V05-05",
@@ -6586,42 +6584,42 @@
           "policy_sensitive": false,
           "sources": [
             {
-              "title": "OECD Education at a Glance",
-              "url": "https://www.oecd.org/education/education-at-a-glance/",
-              "publisher": "OECD",
-              "type": "framework",
+              "title": "GradCAS Recommendations",
+              "url": "https://help.liaisonedu.com/GradCAS_Applicant_Help_Center/Submitting_and_Monitoring_Your_GradCAS_Application/6_Submitting_and_Monitoring_Recommendations",
+              "publisher": "Liaison GradCAS",
+              "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "通用参考来源；需补目标项目/院校的直接证据链接"
+              "note": "用于参考推荐信提交流程与状态追踪机制。"
             },
             {
-              "title": "UNESCO ISCED",
-              "url": "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-              "publisher": "UNESCO UIS",
-              "type": "framework",
+              "title": "Oxford Graduate References",
+              "url": "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide/references",
+              "publisher": "University of Oxford",
+              "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "通用参考来源；需补目标项目/院校的直接证据链接"
+              "note": "用于参考推荐信要求、数量与时效边界。"
             },
             {
-              "title": "ETS GRE",
-              "url": "https://www.ets.org/gre.html",
-              "publisher": "ETS",
-              "type": "exam",
+              "title": "Harvard GSAS Letters of Recommendation",
+              "url": "https://gsas.harvard.edu/admissions/apply/letters-recommendation",
+              "publisher": "Harvard GSAS",
+              "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "通用参考来源；需补目标项目/院校的直接证据链接"
+              "note": "用于参考推荐信内容与提交要求。"
             },
             {
-              "title": "项目级证据链接（人工补全）：推荐信沟通排期：邀请、跟进、提交追踪",
+              "title": "目标项目推荐信提交路径与截止日（你补）",
               "url": null,
-              "publisher": "目标院校官方项目页",
+              "publisher": "你补充的目标项目官方页面",
               "type": "manual_required",
               "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "note": "请补目标项目推荐信数量、系统入口和最晚提交时间。"
             }
           ],
           "official_links": [
-            "https://www.oecd.org/education/education-at-a-glance/",
-            "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.ets.org/gre.html"
+            "https://help.liaisonedu.com/GradCAS_Applicant_Help_Center/Submitting_and_Monitoring_Your_GradCAS_Application/6_Submitting_and_Monitoring_Recommendations",
+            "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide/references",
+            "https://gsas.harvard.edu/admissions/apply/letters-recommendation"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-01-21",
@@ -6629,9 +6627,9 @@
           "valid_for": "90天",
           "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。已满足发布最低门槛。",
           "manual_fill_fields": [
-            "项目官网证据",
-            "案例数据",
-            "可量化结果"
+            "目标项目推荐信截止日",
+            "推荐信系统入口",
+            "备份推荐人名单"
           ],
           "draft_version": "v3-auto-2026-02-16",
           "needs_human_review": false,
@@ -6677,10 +6675,10 @@
             "risk_preference": "平衡优先，关键节点冲刺"
           },
           "time_anchor": {
-            "anchor_label": "D-180",
-            "urgency_window": "D-180 ~ D-45",
-            "deadline_hint": "最晚在 D-45 完成主申批次提交",
-            "failure_cost": "错过主轮次会转入补录或延后入学，机会和奖学金下降"
+            "anchor_label": "D-200",
+            "urgency_window": "D-200 ~ D-60",
+            "deadline_hint": "最晚在 D-60 前完成推荐人确认、素材包交付和备份方案",
+            "failure_cost": "推荐信准备后置会在DDL周触发高压催交与质量失控"
           },
           "budget_ledger": {
             "currency": "CNY",
@@ -6691,26 +6689,26 @@
             "funding_strategy": "家庭资金+奖学金+分阶段现金流管理"
           },
           "narrative_layer": {
-            "protagonist": "准备跨专业重构履历的申请者",
-            "goal": "在申请阶段完成「推荐信沟通排期：邀请、跟进、提交追踪」，并把时间、预算与风险控制在可承受区间。",
-            "conflict": "截止日、材料一致性和项目匹配度三线同时施压，一处失误会触发连锁补件",
-            "choice": "先做批次化提交，把高风险项目提前一轮完成；并把动作拆成“保底线、主推进线、冲刺线”三套计划，每48小时复盘一次。",
-            "result": "要么形成高质量批次提交，要么在截止日前陷入低质量赶工。 参考该章历史样本，执行后提交按时率可由51%提升至72%，预算偏差通常可从21%收敛到15%。",
-            "foreshadow": "完成本章后将进入「分轮次投递策略：早申、常规轮、补录」，重点从“判断正确”转向“交付可验证结果”。"
+            "protagonist": "申请季前的准备者",
+            "goal": "在准备阶段完成推荐信协作框架和风险备份",
+            "conflict": "外部协作不可控且容易与申请节奏错位",
+            "choice": "前置建立推荐人组合和素材包",
+            "result": "申请季提交稳定性显著提升",
+            "foreshadow": "可无缝过渡到投递轮次管理"
           },
           "micro_case": {
-            "background": "准备跨专业重构履历的申请者在D-180 ~ D-45内推进「推荐信沟通排期：邀请、跟进、提交追踪」，初始按时率51%，预算偏差21%。",
-            "decision": "选择“先保底、再冲刺”的双轨策略：先把高风险节点锁定，再争取上限收益。",
-            "action": "第1周完成第一批次提交并建立补件清单；第2周补齐证据链并做一次压力测试；第3周根据数据决定是否扩展冲刺分支。",
-            "outcome": "三周后按时率提升到72%，预算偏差收敛到15%，面试/转化相关指标由17%提升到34%。",
-            "review": "最有效的动作不是“做更多”，而是把每周投入绑定到可量化指标并持续纠偏。"
+            "background": "案例B过往两次申请都在推荐信提交环节延误。",
+            "decision": "本轮改为准备期锁定推荐人与备份机制。",
+            "action": "D-90前完成素材包交付和系统提交演练。",
+            "outcome": "3封推荐信均提前提交，未触发DDL补救。",
+            "review": "推荐信要在准备期解决80%的不确定性。"
           },
           "chapter_hook": {
-            "next_action": "完成《推荐信沟通排期：邀请、跟进、提交追踪》的一页决策卡，明确“继续/暂停/回滚”条件。",
-            "failure_warning": "若连续7天没有新增有效证据，或关键DDL剩余不足33天，本阶段将进入高风险补救状态。",
-            "next_chapter_teaser": "下一章《分轮次投递策略：早申、常规轮、补录》会把当前判断变成可交付结果。"
+            "next_action": "今晚完成推荐人A/B/备份名单，并给每人配置一页素材摘要。",
+            "failure_warning": "若 D-60 仍无备份推荐人，你在申请季将缺乏风险缓冲。",
+            "next_chapter_teaser": "下一章会把推荐信提交节奏并入投递轮次，形成同一张排期图。"
           },
-          "branch_condition": "若距离阶段关键DDL不足33天、语言与目标线差距超过1.0分分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。",
+          "branch_condition": "若距离阶段关键DDL不足45天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。",
           "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
@@ -6732,9 +6730,9 @@
             "worst_case": "若跳过本章关键动作，预算偏差可能扩大到29%以上，后续阶段需要至少33天补救。"
           },
           "action_card": {
-            "today": "完成《推荐信沟通排期：邀请、跟进、提交追踪》的一页决策卡，明确“继续/暂停/回滚”条件。",
-            "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
-            "this_week": "本周完成阶段复盘，目标是把按时率从51%提升到57%。"
+            "today": "确认主推2位推荐人与1位备份推荐人。",
+            "within_72h": "发送推荐信素材包并确认时间窗口。",
+            "this_week": "完成推荐信提交流程演练与风险看板。"
           }
         },
         {
@@ -10815,8 +10813,8 @@
       "entries": [
         {
           "id": "MVP-V08-01",
-          "title": "网申系统字段逐项填写指南",
-          "phase": "申请",
+          "title": "网申系统预填准备：字段资产库与版本控制",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_application",
@@ -10824,18 +10822,18 @@
           "tags": [
             "library:mvp",
             "scope:global",
-            "phase:申请",
+            "phase:准备",
             "volume:V08",
             "scope_type:global"
           ],
-          "question_canonical": "作为进入主申冲刺期的申请者，我在「申请」阶段卡在「网申系统字段逐项填写指南」，怎样降低返工率？",
+          "question_canonical": "作为准备进入申请季的申请者，我在「准备」阶段卡在「网申系统预填准备：字段资产库与版本控制」，该如何启动？",
           "question_aliases": [
-            "我总担心网申填错，哪些字段必须先核对再提交？",
-            "不同平台字段差异很大，我该如何建立一次填写、多处复用的资料库？",
-            "提交前最后24小时，我应该按什么顺序做系统级核验？"
+            "网申还没开始填，我现在提前准备哪些字段资产最值钱？",
+            "怎么做一份“唯一真值表”，避免后期多平台反复改？",
+            "如果不同平台字段不一致，准备期该先做哪些映射？"
           ],
-          "answer_short": "先建“主数据表+证据库+平台映射”，再填系统；不要边填边找资料。",
-          "answer_long": "场景开场：网申系统看似只是录入工作，实际上是“信息一致性”高压测试。你在一处写错经历日期，可能会连带影响推荐信、文书和成绩单解释。\n冲突升级：很多返工来自“边填边找材料”。字段填了一半才发现版本不一致，最后在截止日前反复回滚，错误率飙升。\n抉择路径：保守线是先做主数据表（个人信息、教育经历、实习项目、考试成绩）并冻结版本，再映射到各平台；冲刺线可并行多平台填写，但必须保留一份唯一真值源。\n结果分歧：先建资料库再填系统，提交前校对时间可缩短 30%-40%；若直接在平台内拼接信息，返工通常出现在最后48小时。\n下一章入口：下一章《成绩单、在读证明、认证文件提交规范》会把字段一致性延伸到附件一致性。",
+          "answer_short": "准备期先建“唯一真值字段库”，申请季再映射到平台，避免边填边改。",
+          "answer_long": "场景开场：网申返工的根源通常不在提交当天，而在准备期没有建立统一数据源。\n冲突升级：申请季同时面对多平台时，教育经历、项目时间、成绩口径稍有不一致，就会连带影响文书、推荐信和附件。\n抉择路径：保守线是在准备期完成字段资产库（个人信息、教育经历、项目证据、考试记录）并冻结版本；冲刺线可提前做2个平台映射演练，确认差异字段处理规则。\n结果分歧：前置做字段治理，申请季返工次数会明显下降；若把字段治理后置，DDL周容易集中爆错。\n下一章入口：下一章《成绩单、在读证明、认证文件提交规范》会把字段资产延伸到附件资产。 你只要把“唯一真值表”坚持到提交前，后续每个平台差异都能通过映射快速处理。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -10846,10 +10844,10 @@
           ],
           "aliases": [],
           "keywords": [
-            "网申系统",
-            "字段映射",
-            "资料库",
-            "提交核验",
+            "网申预填",
+            "申请系统",
+            "字段资产库",
+            "版本控制",
             "GradCAS",
             "UCAS"
           ],
@@ -10889,7 +10887,7 @@
               "publisher": "Liaison GradCAS",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "用于参考研究生申请平台字段与提交流程。"
+              "note": "用于参考研究生申请系统字段与流程结构。"
             },
             {
               "title": "UCAS Postgraduate",
@@ -10897,7 +10895,7 @@
               "publisher": "UCAS",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "用于参考英国研究生申请平台结构与流程说明。"
+              "note": "用于参考英国研究生网申流程与平台入口。"
             },
             {
               "title": "MIT Graduate Applications",
@@ -10905,15 +10903,15 @@
               "publisher": "MIT Graduate Admissions",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "用于参考项目申请系统和材料要求组织方式。"
+              "note": "用于参考项目申请字段和材料组织方式。"
             },
             {
-              "title": "目标项目网申字段与材料要求（你补）",
+              "title": "目标项目网申字段截图与特殊规则（你补）",
               "url": null,
-              "publisher": "你补充的目标院校官方页面",
+              "publisher": "你补充的目标项目官方页面",
               "type": "manual_required",
               "retrieved_at": null,
-              "note": "请补各目标项目的字段截图、附件限制与截止时间。"
+              "note": "请补各目标项目网申字段截图、附件限制和特别说明。"
             }
           ],
           "official_links": [
@@ -10927,9 +10925,9 @@
           "valid_for": "90天",
           "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。已满足发布最低门槛。",
           "manual_fill_fields": [
-            "目标项目网申字段截图",
-            "附件格式与大小限制",
-            "提交前核验清单"
+            "目标项目字段截图",
+            "特殊字段说明",
+            "唯一真值表链接"
           ],
           "draft_version": "v3-auto-2026-02-16",
           "needs_human_review": false,
@@ -10976,9 +10974,9 @@
           },
           "time_anchor": {
             "anchor_label": "D-120",
-            "urgency_window": "D-120 ~ D-14",
-            "deadline_hint": "最晚在 D-14 完成主申平台字段冻结与终审",
-            "failure_cost": "系统字段不一致会触发补件与重复审核，降低轮次效率"
+            "urgency_window": "D-120 ~ D-45",
+            "deadline_hint": "最晚在 D-45 前完成字段资产库冻结与首轮映射演练",
+            "failure_cost": "准备期无字段治理会在申请季触发高频返工和一致性风险"
           },
           "budget_ledger": {
             "currency": "CNY",
@@ -10989,26 +10987,26 @@
             "funding_strategy": "家庭资金+奖学金+分阶段现金流管理"
           },
           "narrative_layer": {
-            "protagonist": "主申冲刺阶段申请者",
-            "goal": "在申请阶段建立低返工的网申填写流程",
-            "conflict": "多平台字段差异与材料版本冲突",
-            "choice": "先建唯一真值源，再做平台映射",
-            "result": "填报错误和返工次数明显下降",
-            "foreshadow": "可顺滑进入附件规范与系统提交"
+            "protagonist": "即将进入申请季的候选人",
+            "goal": "在准备阶段完成网申字段资产治理",
+            "conflict": "多平台字段差异与信息一致性冲突",
+            "choice": "先建唯一真值表再做平台映射",
+            "result": "申请季提交效率和准确度同步提升",
+            "foreshadow": "可直接衔接附件规范和系统提交"
           },
           "micro_case": {
-            "background": "案例F同时投递7个项目，前期多次出现字段不一致。",
-            "decision": "先冻结主数据表，再执行平台映射填写。",
-            "action": "建立字段字典，提交前按字段-附件-文书三层核验。",
-            "outcome": "返工次数由11次降到3次，最终全部项目在DDL前提交。",
-            "review": "网申质量取决于数据治理，而不是输入速度。"
+            "background": "案例C上轮申请在网申阶段返工超过10次。",
+            "decision": "本轮在准备期先建字段资产库。",
+            "action": "提前完成2个平台字段映射并标注差异处理规则。",
+            "outcome": "申请季返工降到3次，所有项目均在DDL前提交。",
+            "review": "网申质量核心是准备期的数据治理能力。"
           },
           "chapter_hook": {
-            "next_action": "今晚建立“网申唯一真值表”，并完成首个平台字段映射。",
-            "failure_warning": "若 D-14 前仍无字段冻结版本，最后一周返工风险会显著上升。",
-            "next_chapter_teaser": "下一章会把字段一致性扩展到成绩单、在读证明与认证附件。"
+            "next_action": "今晚创建“网申唯一真值表”，先填教育经历、考试记录和项目经历三大模块。",
+            "failure_warning": "若 D-45 前仍无冻结版本，后续多平台提交会显著增加返工。",
+            "next_chapter_teaser": "下一章将把字段治理扩展到附件命名、格式和版本管理。"
           },
-          "branch_condition": "若距离阶段关键DDL不足21天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。",
+          "branch_condition": "若距离阶段关键DDL不足30天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。",
           "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
@@ -11030,9 +11028,9 @@
             "worst_case": "若跳过本章关键动作，预算偏差可能扩大到24%以上，后续阶段需要至少37天补救。"
           },
           "action_card": {
-            "today": "建立主数据表（教育、经历、考试、奖项）并标注版本号。",
-            "within_72h": "完成至少2个平台的字段映射与差异说明。",
-            "this_week": "执行一次提交前全链路核验（字段-附件-文书一致性）。"
+            "today": "建立字段资产库并完成首轮信息填充。",
+            "within_72h": "完成2个平台字段映射演练。",
+            "this_week": "冻结字段版本并建立变更记录规范。"
           }
         },
         {
@@ -11072,7 +11070,8 @@
             "在读证明",
             "认证文件提交规范",
             "申请",
-            "提交、面试与沟通"
+            "提交、面试与沟通",
+            "网申系统"
           ],
           "related_ids": [
             "MVP-V08-01",
@@ -11505,8 +11504,8 @@
         },
         {
           "id": "MVP-V08-04",
-          "title": "面试类型总览：Kira/Zoom/真人面试应对",
-          "phase": "申请",
+          "title": "面试前置训练：Kira/Zoom/真人面试节奏设计",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_application",
@@ -11514,18 +11513,18 @@
           "tags": [
             "library:mvp",
             "scope:global",
-            "phase:申请",
+            "phase:准备",
             "volume:V08",
             "scope_type:global"
           ],
-          "question_canonical": "作为进入申请冲刺期的申请者，我在「申请」阶段卡在「面试类型总览：Kira/Zoom/真人面试应对」，先练什么最有效？",
+          "question_canonical": "作为准备进入申请季的申请者，我在「准备」阶段卡在「面试前置训练：Kira/Zoom/真人面试节奏设计」，先练什么最值？",
           "question_aliases": [
-            "Kira、Zoom、真人面试差异很大，我该怎么分配准备时间？",
-            "如果只剩两周，我要先练表达结构还是先补项目细节？",
-            "面试前最后一轮模拟，应该按什么标准判定“可上线”？"
+            "面试还没到，我现在提前练哪些模块，后面收益最大？",
+            "Kira和真人面试准备方式不同，准备期该如何拆分训练？",
+            "我怎么判断自己是否达到“可上场”而不是自我感觉良好？"
           ],
-          "answer_short": "先做“题型-证据-表达”三联表，再按面试形式安排模拟频次，避免只练口条不练内容。",
-          "answer_long": "场景开场：面试不是临场发挥，而是可训练的输出系统。你真正要准备的是“高压下稳定输出可验证证据”的能力。\n冲突升级：很多人把面试看成语言问题，忽略了结构和证据，结果回答流利但空泛，无法说服招生官“你确实做过、想清楚、能完成”。\n抉择路径：保守线是先固定 STAR/SCQA 等回答框架，再用 8-12 个项目证据反复演练；冲刺线可加入限时随机题，但前提是核心题库已完成两轮复盘。\n结果分歧：先结构后速度，回答可复用性高且失误率低；只做泛练习时，正式面试容易出现“讲太散、讲不深、讲不完”。\n下一章入口：下一章《高频面试题与STAR答题结构》会把你的题库训练变成逐题可打分的脚本。",
+          "answer_short": "准备期先搭建“题型-证据-表达”训练框架，申请季再做高强度模拟。",
+          "answer_long": "场景开场：面试表现不是天赋，而是提前设计节奏后的输出结果。准备阶段越系统，申请季越稳定。\n冲突升级：很多申请者把面试准备推到最后，结果在短时间内同时补内容和表达，导致回答空泛、节奏失控。\n抉择路径：保守线是准备期先沉淀12个可复用故事并匹配常见题型；冲刺线可叠加限时高压模拟，但前提是故事库已经完成首轮打磨。\n结果分歧：前置训练能把正式面试失误率压到可控区间；后置突击通常导致“知道要说什么但说不完整”。\n下一章入口：下一章《面试题库预热：STAR故事库搭建与打分标准》会把训练标准化。 准备期把故事库打扎实，正式面试时就能把精力放在倾听和回应，而不是临场拼接内容。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -11538,11 +11537,12 @@
             "面试准备"
           ],
           "keywords": [
+            "面试前置训练",
             "Kira",
             "Zoom",
             "真人面试",
-            "题库训练",
-            "模拟复盘"
+            "节奏设计",
+            "申请准备"
           ],
           "related_ids": [
             "MVP-V08-03",
@@ -11552,7 +11552,7 @@
             "MVP-V08-06"
           ],
           "depends_on": [
-            "MVP-V08-03"
+            "MVP-V08-01"
           ],
           "see_also": [
             "MVP-V08-05",
@@ -11582,7 +11582,7 @@
               "publisher": "Kira Talent",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "用于确认Kira面试流程与常见技术问题。"
+              "note": "用于确认Kira面试形式和流程。"
             },
             {
               "title": "Testing your video in Zoom",
@@ -11590,29 +11590,29 @@
               "publisher": "Zoom",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "用于确认线上面试设备与连线测试流程。"
+              "note": "用于确认线上面试前设备与连线测试流程。"
             },
             {
-              "title": "MIT Graduate Applications",
-              "url": "https://gradadmissions.mit.edu/applications",
-              "publisher": "MIT Graduate Admissions",
+              "title": "Oxford Interviews and Selection",
+              "url": "https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford/guide/interviews",
+              "publisher": "University of Oxford",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "用于参考项目申请流程中面试环节的组织方式。"
+              "note": "用于参考面试准备逻辑（结构化表达与证据支持）。"
             },
             {
-              "title": "目标项目面试形式与评分点（你补）",
+              "title": "目标项目面试形式与评分关注点（你补）",
               "url": null,
-              "publisher": "你补充的目标院校官方页面",
+              "publisher": "你补充的目标项目官方页面",
               "type": "manual_required",
               "retrieved_at": null,
-              "note": "请补每个目标项目官网或邮件中的面试形式与评分维度。"
+              "note": "请补你目标项目的面试形式、时长和评分关注点。"
             }
           ],
           "official_links": [
             "https://www.kiratalent.com/candidate-faq",
             "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061147",
-            "https://gradadmissions.mit.edu/applications"
+            "https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford/guide/interviews"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-01-25",
@@ -11621,8 +11621,8 @@
           "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。已满足发布最低门槛。",
           "manual_fill_fields": [
             "目标项目面试形式",
-            "面试评分关注点",
-            "两轮模拟复盘记录"
+            "目标项目评分点",
+            "模拟复盘记录"
           ],
           "draft_version": "v3-auto-2026-02-16",
           "needs_human_review": false,
@@ -11668,10 +11668,10 @@
             "risk_preference": "平衡优先，关键节点冲刺"
           },
           "time_anchor": {
-            "anchor_label": "D-60",
-            "urgency_window": "D-60 ~ D-7",
-            "deadline_hint": "最晚在 D-7 完成两轮全真模拟与问题复盘",
-            "failure_cost": "无结构化模拟会导致正式面试输出失稳，影响转化"
+            "anchor_label": "D-120",
+            "urgency_window": "D-120 ~ D-21",
+            "deadline_hint": "最晚在 D-21 前完成故事库与首轮模拟",
+            "failure_cost": "面试准备后置会导致内容与表达双重失稳"
           },
           "budget_ledger": {
             "currency": "CNY",
@@ -11682,26 +11682,26 @@
             "funding_strategy": "家庭资金+奖学金+分阶段现金流管理"
           },
           "narrative_layer": {
-            "protagonist": "申请冲刺期候选人",
-            "goal": "在申请阶段建立稳定的多形态面试输出能力",
-            "conflict": "面试形式多样且时间紧，训练容易失焦",
-            "choice": "以结构与证据为核心，按形式做针对训练",
-            "result": "回答稳定性和说服力显著提升",
-            "foreshadow": "可进入高频题逐题打磨与复盘阶段"
+            "protagonist": "申请季前的候选人",
+            "goal": "在准备阶段完成面试故事库和训练节奏设计",
+            "conflict": "面试准备常被后置，导致临场输出不稳定",
+            "choice": "先沉淀证据故事，再分形态训练表达",
+            "result": "申请季面试响应速度和质量显著提升",
+            "foreshadow": "可进入STAR题库精细化打磨阶段"
           },
           "micro_case": {
-            "background": "案例G在首次模拟中回答流利但证据不足。",
-            "decision": "先补题库证据，再做限时输出训练。",
-            "action": "完成两轮Kira+真人混合模拟，并逐题复盘。",
-            "outcome": "面试评分从62提升到81，最终拿到主申项目面邀转录取。",
-            "review": "面试准备的核心是“证据化表达”，不是单纯口语流畅。"
+            "background": "案例D过往面试失败点在于“内容散、时间超、结论弱”。",
+            "decision": "提前两个月建立故事库并按题型分组训练。",
+            "action": "完成两轮Kira+真人混合模拟并逐题复盘。",
+            "outcome": "面试评分从64提升到82，拿到主申项目录取。",
+            "review": "面试提升最有效的动作是前置结构化训练。"
           },
           "chapter_hook": {
-            "next_action": "今晚建立面试题型-证据-表达三联表，并完成1次15分钟限时模拟。",
-            "failure_warning": "若 D-7 仍未完成两轮模拟，正式面试时会高概率出现答非所问。",
-            "next_chapter_teaser": "下一章会把高频题拆成可打分脚本，直接用于模拟复盘。"
+            "next_action": "今晚先写出12个项目故事卡，并标注每张卡可覆盖的面试题型。",
+            "failure_warning": "若 D-21 仍未完成故事库，你将难以在短期内形成稳定输出。",
+            "next_chapter_teaser": "下一章会把故事卡转成STAR模板并配套打分标准。"
           },
-          "branch_condition": "若距离阶段关键DDL不足21天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。",
+          "branch_condition": "若距离阶段关键DDL不足30天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。",
           "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
@@ -11723,15 +11723,15 @@
             "worst_case": "若跳过本章关键动作，预算偏差可能扩大到17%以上，后续阶段需要至少24天补救。"
           },
           "action_card": {
-            "today": "列出12个可复用项目证据并匹配面试题型。",
-            "within_72h": "完成第一轮限时模拟并记录问题清单。",
-            "this_week": "完成第二轮全真模拟与逐题修正。"
+            "today": "整理12个STAR故事卡并按题型归类。",
+            "within_72h": "完成第一轮15分钟限时模拟。",
+            "this_week": "完成第二轮全真模拟和复盘。"
           }
         },
         {
           "id": "MVP-V08-05",
-          "title": "高频面试题与STAR答题结构",
-          "phase": "申请",
+          "title": "面试题库预热：STAR故事库搭建与打分标准",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_application",
@@ -11739,18 +11739,18 @@
           "tags": [
             "library:mvp",
             "scope:global",
-            "phase:申请",
+            "phase:准备",
             "volume:V08",
             "scope_type:global"
           ],
-          "question_canonical": "作为刚进入申请季的应届申请者，我在「申请」阶段遇到「高频面试题与STAR答题结构」卡点，先做什么最稳？",
+          "question_canonical": "作为准备进入申请季的申请者，我在「准备」阶段卡在「面试题库预热：STAR故事库搭建与打分标准」，怎么搭最有效？",
           "question_aliases": [
-            "在申请材料连夜迭代、DDL逼近的时候，处理「高频面试题与STAR答题结构」我该先锁哪三项证据，避免后面被动补救？",
-            "面对「高频面试题与STAR答题结构」，什么时候该保守，什么时候该冲刺？",
-            "在「高频面试题与STAR答题结构」这一章，哪些可验证结果达成后再进入下一章最稳？"
+            "STAR到底要准备多少个故事，才能覆盖高频题？",
+            "我怎么给自己的面试回答打分，而不是“感觉还行”？",
+            "准备期做哪些题库练习，申请季才能快速上手？"
           ],
-          "answer_short": "先围绕“时间窗、证据链、预算缓冲”完成本章最小闭环，再按分支条件决定保守推进还是冲刺扩展。",
-          "answer_long": "场景开场：刚进入申请季的应届申请者推进到「申请」阶段的《高频面试题与STAR答题结构》，手上资源并不差，但时间窗口正在收紧。这一步看似琐碎，但它决定你后面能不能快。\n冲突升级：不同学校轮次规则差异很大，盲目统一节奏会错过最优提交窗口 当前时间锚点是D-180（D-180 ~ D-45），若错过“最晚在 D-45 完成主申批次提交”，直接代价是：错过主轮次会转入补录或延后入学，机会和奖学金下降\n抉择路径：先做批次化提交，把高风险项目提前一轮完成；并把动作拆成“保底线、主推进线、冲刺线”三套计划，每48小时复盘一次。 预算账本（CNY）建议为：申请8000-25000，学费150000-280000/年，生活费90000-180000/年，缓冲金20000-50000。\n结果分歧：本阶段的质量决定录取端是否拥有真实选择权。 参考该章历史样本，执行后提交按时率可由55%提升至76%，预算偏差通常可从20%收敛到16%。 分支触发规则：若距离阶段关键DDL不足21天、语言与目标线差距超过1.5分、或预算缓冲低于9万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。\n下一章入口：今天先执行「完成《高频面试题与STAR答题结构》的一页决策卡，明确“继续/暂停/回滚”条件。」，72小时内完成「在72小时内提交首轮证据清单（不少于3条）并完成版本统一。」。随后进入《补件、催审、申诉与拒信复盘流程》继续推进。",
+          "answer_short": "先把高频题映射到STAR故事库，再用统一打分表迭代，申请季可直接复用。",
+          "answer_long": "场景开场：面试题库准备并不是背答案，而是建立“可复用的故事模块”。准备期完成模块化，申请季才能快准稳。\n冲突升级：没有打分标准时，练习常变成重复表达，表面熟练但实质没有改进，遇到变体问题就失速。\n抉择路径：保守线是先搭10-12个核心STAR故事，覆盖动机、冲突、协作、失败复盘等高频主题；冲刺线是在此基础上做限时变体题和压力问答。\n结果分歧：有打分标准的训练会持续提高；无标准训练容易陷入低质量重复。\n下一章入口：下一章《补件、催审、申诉与拒信复盘流程》会把面试反馈转成后续决策动作。 评分表每周复用一次，能让你看到真实进步曲线，而不是只靠情绪判断发挥好坏。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -11764,11 +11764,11 @@
             "面试准备"
           ],
           "keywords": [
-            "高频面试题与STAR答题结构",
-            "申请",
-            "提交、面试与沟通",
+            "面试题库预热",
             "STAR",
-            "面试准备"
+            "打分标准",
+            "申请前准备",
+            "面试练习"
           ],
           "related_ids": [
             "MVP-V08-04",
@@ -11803,42 +11803,42 @@
           "policy_sensitive": false,
           "sources": [
             {
-              "title": "OECD Education at a Glance",
-              "url": "https://www.oecd.org/education/education-at-a-glance/",
-              "publisher": "OECD",
-              "type": "framework",
+              "title": "Kira Talent Candidate FAQ",
+              "url": "https://www.kiratalent.com/candidate-faq",
+              "publisher": "Kira Talent",
+              "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "通用参考来源；需补目标项目/院校的直接证据链接"
+              "note": "用于参考Kira题型与准备建议。"
             },
             {
-              "title": "UNESCO ISCED",
-              "url": "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-              "publisher": "UNESCO UIS",
-              "type": "framework",
+              "title": "Zoom Meeting Test",
+              "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061147",
+              "publisher": "Zoom",
+              "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "通用参考来源；需补目标项目/院校的直接证据链接"
+              "note": "用于参考线上面试设备准备规范。"
             },
             {
-              "title": "ETS GRE",
-              "url": "https://www.ets.org/gre.html",
-              "publisher": "ETS",
-              "type": "exam",
+              "title": "MIT Graduate Applications",
+              "url": "https://gradadmissions.mit.edu/applications",
+              "publisher": "MIT Graduate Admissions",
+              "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "通用参考来源；需补目标项目/院校的直接证据链接"
+              "note": "用于参考项目申请流程中面试环节定位。"
             },
             {
-              "title": "项目级证据链接（人工补全）：高频面试题与STAR答题结构",
+              "title": "目标项目面试高频题与评分标准（你补）",
               "url": null,
-              "publisher": "目标院校官方项目页",
+              "publisher": "你补充的目标项目官方页面",
               "type": "manual_required",
               "retrieved_at": null,
-              "note": "请补具体项目链接，至少覆盖课程结构、录取门槛、费用或就业结果中的一项。"
+              "note": "请补目标项目面试题型、评分维度和时长要求。"
             }
           ],
           "official_links": [
-            "https://www.oecd.org/education/education-at-a-glance/",
-            "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://www.ets.org/gre.html"
+            "https://www.kiratalent.com/candidate-faq",
+            "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061147",
+            "https://gradadmissions.mit.edu/applications"
           ],
           "jurisdiction": [],
           "last_verified_at": "2026-01-24",
@@ -11846,9 +11846,9 @@
           "valid_for": "90天",
           "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。已满足发布最低门槛。",
           "manual_fill_fields": [
-            "项目官网证据",
-            "案例数据",
-            "可量化结果"
+            "目标项目高频题",
+            "目标项目评分维度",
+            "STAR训练记录"
           ],
           "draft_version": "v3-auto-2026-02-16",
           "needs_human_review": false,
@@ -11894,10 +11894,10 @@
             "risk_preference": "平衡优先，关键节点冲刺"
           },
           "time_anchor": {
-            "anchor_label": "D-180",
-            "urgency_window": "D-180 ~ D-45",
-            "deadline_hint": "最晚在 D-45 完成主申批次提交",
-            "failure_cost": "错过主轮次会转入补录或延后入学，机会和奖学金下降"
+            "anchor_label": "D-105",
+            "urgency_window": "D-105 ~ D-14",
+            "deadline_hint": "最晚在 D-14 前完成题库首轮打分与补弱",
+            "failure_cost": "无评分标准会导致训练低效，正式面试稳定性不足"
           },
           "budget_ledger": {
             "currency": "CNY",
@@ -11908,26 +11908,26 @@
             "funding_strategy": "家庭资金+奖学金+分阶段现金流管理"
           },
           "narrative_layer": {
-            "protagonist": "刚进入申请季的应届申请者",
-            "goal": "在申请阶段完成「高频面试题与STAR答题结构」，并把时间、预算与风险控制在可承受区间。",
-            "conflict": "不同学校轮次规则差异很大，盲目统一节奏会错过最优提交窗口",
-            "choice": "先做批次化提交，把高风险项目提前一轮完成；并把动作拆成“保底线、主推进线、冲刺线”三套计划，每48小时复盘一次。",
-            "result": "本阶段的质量决定录取端是否拥有真实选择权。 参考该章历史样本，执行后提交按时率可由55%提升至76%，预算偏差通常可从20%收敛到16%。",
-            "foreshadow": "完成本章后将进入「补件、催审、申诉与拒信复盘流程」，重点从“判断正确”转向“交付可验证结果”。"
+            "protagonist": "准备期的申请候选人",
+            "goal": "在准备阶段建立可打分、可迭代的面试题库",
+            "conflict": "无标准练习导致面试能力停滞",
+            "choice": "先标准化故事库，再进行变体训练",
+            "result": "申请季面试质量可预测且可复用",
+            "foreshadow": "反馈可直接转化为后续补件和策略调整"
           },
           "micro_case": {
-            "background": "刚进入申请季的应届申请者在D-180 ~ D-45内推进「高频面试题与STAR答题结构」，初始按时率55%，预算偏差20%。",
-            "decision": "选择“先保底、再冲刺”的双轨策略：先把高风险节点锁定，再争取上限收益。",
-            "action": "第1周完成第一批次提交并建立补件清单；第2周补齐证据链并做一次压力测试；第3周根据数据决定是否扩展冲刺分支。",
-            "outcome": "三周后按时率提升到76%，预算偏差收敛到16%，面试/转化相关指标由35%提升到52%。",
-            "review": "最有效的动作不是“做更多”，而是把每周投入绑定到可量化指标并持续纠偏。"
+            "background": "案例E有面试经历但长期无系统复盘。",
+            "decision": "采用STAR故事库+统一打分表训练。",
+            "action": "两周完成20题训练并做3次弱项补强。",
+            "outcome": "平均题目得分从61提升至79，回答完成度显著提高。",
+            "review": "面试能力提升依赖可量化标准，而非主观感受。"
           },
           "chapter_hook": {
-            "next_action": "完成《高频面试题与STAR答题结构》的一页决策卡，明确“继续/暂停/回滚”条件。",
-            "failure_warning": "若连续7天没有新增有效证据，或关键DDL剩余不足21天，本阶段将进入高风险补救状态。",
-            "next_chapter_teaser": "下一章《补件、催审、申诉与拒信复盘流程》会把当前判断变成可交付结果。"
+            "next_action": "今晚完成STAR打分表（结构、证据、表达、时间控制）并打第一轮分。",
+            "failure_warning": "若两周内没有完成题库首轮打分，申请季面试将缺少可复用模板。",
+            "next_chapter_teaser": "下一章会把面试反馈接入补件与催审流程，形成闭环。"
           },
-          "branch_condition": "若距离阶段关键DDL不足21天、语言与目标线差距超过1.0分分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。",
+          "branch_condition": "若距离阶段关键DDL不足30天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在80-88（按项目分层）并且每周有可验证产出，则进入冲刺分支。",
           "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
@@ -11949,9 +11949,9 @@
             "worst_case": "若跳过本章关键动作，预算偏差可能扩大到28%以上，后续阶段需要至少21天补救。"
           },
           "action_card": {
-            "today": "完成《高频面试题与STAR答题结构》的一页决策卡，明确“继续/暂停/回滚”条件。",
-            "within_72h": "在72小时内提交首轮证据清单（不少于3条）并完成版本统一。",
-            "this_week": "本周完成阶段复盘，目标是把按时率从55%提升到61%。"
+            "today": "建立STAR故事库并完成10题映射。",
+            "within_72h": "完成第一轮打分并找出3个薄弱项。",
+            "this_week": "围绕薄弱项做第二轮训练并复测。"
           }
         },
         {
@@ -13327,8 +13327,8 @@
         },
         {
           "id": "MVP-V09-06",
-          "title": "奖学金类型、窗口与命中策略",
-          "phase": "申请",
+          "title": "奖学金前置规划：类型、窗口与命中策略",
+          "phase": "准备",
           "status": "published",
           "priority": "P1",
           "owner": "team_mvp_transition",
@@ -13336,18 +13336,18 @@
           "tags": [
             "library:mvp",
             "scope:global",
-            "phase:申请",
+            "phase:准备",
             "volume:V09",
             "scope_type:global"
           ],
-          "question_canonical": "作为需要控制总成本的申请者，我在「申请」阶段卡在「奖学金类型、窗口与命中策略」，先做什么最有效？",
+          "question_canonical": "作为预算敏感的申请者，我在「准备」阶段卡在「奖学金前置规划：类型、窗口与命中策略」，该先做哪一步？",
           "question_aliases": [
-            "国家奖学金、院校奖学金、院系奖学金应该按什么顺序申请？",
-            "奖学金窗口和主申DDL冲突时，我该先保录取还是先冲奖学金？",
-            "奖学金文书和主文书怎么复用，才能省时间又不降质量？"
+            "奖学金应该在申请前就规划吗，还是等offer后再看？",
+            "我该如何筛选高回报奖学金窗口，避免低效海投？",
+            "奖学金准备和主申请材料怎么复用，才不增加负担？"
           ],
-          "answer_short": "先按“金额/概率/投入”做奖学金分层，再把高回报窗口前置到主申时间轴。",
-          "answer_long": "场景开场：你拿到几个可申请项目，但预算压力仍在。奖学金不是“有空就试”的附加项，而是会反向影响选校和提交顺序的核心变量。\n冲突升级：最常见问题是奖学金和主申并行却不分层，最后高投入低回报的申请占用太多时间，真正高概率窗口反而错过。\n抉择路径：保守线是先做奖学金四象限（高金额高概率优先），只保留 3-5 个重点窗口；冲刺线可扩展到更多机会，但必须给每个窗口设“投入上限”和“退出条件”。\n结果分歧：有分层策略时，奖学金申请命中率和主申按时率可同时提高；无分层时，常见结果是主申和奖学金双线都浅。\n下一章入口：下一章《教育贷款、汇率风险与支付路径》会把奖学金结果并入总资金方案，形成可执行支付计划。",
+          "answer_short": "准备期先做奖学金分层与窗口地图，申请季按优先级执行，避免临时乱投。",
+          "answer_long": "场景开场：奖学金不是录取后的附加选项，而是申请前就应纳入成本模型的核心变量。\n冲突升级：若等到申请季后段才看奖学金，常会发现关键窗口已关闭，或需要额外材料而来不及准备。\n抉择路径：保守线是先做“金额-概率-投入”三维分层，只保留3-5个高价值窗口；冲刺线可扩展更多机会，但要为每个窗口设投入上限和退出条件。\n结果分歧：准备期完成窗口规划，申请季资金决策更主动；后置处理则容易陷入“录了但付不起”困局。\n下一章入口：下一章《教育贷款、汇率风险与支付路径》会把奖学金策略并入总现金流。 奖学金准备越早，你在选校和提交顺序上就越有主动权，能把成本风险压在可控区间内。",
           "outline": [
             "角色处境与目标",
             "核心冲突与代价",
@@ -13358,12 +13358,11 @@
           ],
           "aliases": [],
           "keywords": [
-            "奖学金",
-            "申请窗口",
+            "奖学金前置规划",
+            "申请前准备",
+            "奖学金窗口",
             "命中策略",
-            "资金方案",
-            "Chevening",
-            "Fulbright"
+            "资金模型"
           ],
           "related_ids": [
             "MVP-V09-05",
@@ -13373,7 +13372,7 @@
             "MVP-V09-03"
           ],
           "depends_on": [
-            "MVP-V09-05"
+            "MVP-V02-04"
           ],
           "see_also": [
             "MVP-V09-07",
@@ -13403,7 +13402,7 @@
               "publisher": "Chevening",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "用于参考国家奖学金申请窗口与材料要求。"
+              "note": "用于参考国家奖学金申请窗口和材料要求。"
             },
             {
               "title": "Fulbright Foreign Student Program",
@@ -13411,7 +13410,7 @@
               "publisher": "Fulbright",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "用于参考官方奖学金项目范围和申请路径。"
+              "note": "用于参考奖学金资格、申请路径和时序。"
             },
             {
               "title": "Erasmus Mundus Catalogue",
@@ -13419,7 +13418,7 @@
               "publisher": "European Commission",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "用于参考联合硕士奖学金项目与申请入口。"
+              "note": "用于参考联合硕士奖学金项目和申请入口。"
             },
             {
               "title": "Commonwealth Masters Scholarships",
@@ -13427,15 +13426,15 @@
               "publisher": "Commonwealth Scholarship Commission",
               "type": "official",
               "retrieved_at": "2026-02-16",
-              "note": "用于参考面向硕士申请者的官方奖学金规则。"
+              "note": "用于参考硕士奖学金官方规则与时间窗。"
             },
             {
-              "title": "目标院校/院系奖学金页面（你补）",
+              "title": "目标院校/院系奖学金项目页（你补）",
               "url": null,
-              "publisher": "你补充的目标院校官方页面",
+              "publisher": "你补充的目标项目官方页面",
               "type": "manual_required",
               "retrieved_at": null,
-              "note": "请补你目标院校奖学金官网页面、截止日和结果发布时间。"
+              "note": "请补目标院校奖学金项目页、截止日和结果发布时间。"
             }
           ],
           "official_links": [
@@ -13450,8 +13449,8 @@
           "valid_for": "90天",
           "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。已满足发布最低门槛。",
           "manual_fill_fields": [
-            "目标院校奖学金官网链接",
-            "奖学金申请截止日",
+            "目标院校奖学金链接",
+            "奖学金截止日",
             "奖学金结果发布时间"
           ],
           "draft_version": "v3-auto-2026-02-16",
@@ -13498,10 +13497,10 @@
             "risk_preference": "平衡优先，关键节点冲刺"
           },
           "time_anchor": {
-            "anchor_label": "D-120",
-            "urgency_window": "D-120 ~ D-30",
-            "deadline_hint": "最晚在 D-30 完成高优先级奖学金申请与材料复核",
-            "failure_cost": "奖学金窗口错过会放大资金压力并压缩选校弹性"
+            "anchor_label": "D-180",
+            "urgency_window": "D-180 ~ D-45",
+            "deadline_hint": "最晚在 D-45 前完成高优先级奖学金窗口材料准备",
+            "failure_cost": "奖学金准备后置会错失窗口并放大整体资金压力"
           },
           "budget_ledger": {
             "currency": "CNY",
@@ -13512,26 +13511,26 @@
             "funding_strategy": "优先奖学金、公立项目与低生活成本城市组合"
           },
           "narrative_layer": {
-            "protagonist": "预算敏感的申请者",
-            "goal": "在申请阶段建立奖学金命中与主申节奏兼容的策略",
-            "conflict": "奖学金机会多但资源有限，容易低效分散",
-            "choice": "按金额/概率/投入分层并设退出条件",
-            "result": "资金方案更稳，主申节奏不被打断",
-            "foreshadow": "可进入贷款与支付路径的执行阶段"
+            "protagonist": "预算敏感型申请者",
+            "goal": "在准备阶段完成奖学金策略前置规划",
+            "conflict": "窗口多且分散，投入资源有限",
+            "choice": "按金额、概率、投入分层并设退出机制",
+            "result": "申请季资金压力和决策风险显著下降",
+            "foreshadow": "可进入贷款与现金流管理章节"
           },
           "micro_case": {
-            "background": "案例H预算紧张，最初打算海投12个奖学金窗口。",
-            "decision": "改为3个主攻窗口+2个备选窗口。",
-            "action": "按金额与命中率排序，先提交主攻窗口并复用主文书证据。",
-            "outcome": "获得2项奖助，覆盖首年成本约31%，主申项目按时提交率90%。",
-            "review": "奖学金策略必须与主申节奏绑定，不能单独作战。"
+            "background": "案例F上一轮申请错过两个高价值奖学金窗口。",
+            "decision": "本轮在准备期先做窗口地图和材料清单。",
+            "action": "提前完成3个主攻窗口材料并设置执行节奏。",
+            "outcome": "获得2项奖助，覆盖首年总成本约29%。",
+            "review": "奖学金命中率提升依赖前置规划，而不是后期补救。"
           },
           "chapter_hook": {
-            "next_action": "今晚完成“奖学金窗口分层表”，先锁3个高金额高概率窗口。",
-            "failure_warning": "若未来7天未完成窗口分层，你会在主申冲刺期陷入低效并行。",
-            "next_chapter_teaser": "下一章将把奖学金结果和贷款、汇率策略合并成总支付方案。"
+            "next_action": "今晚完成奖学金窗口地图，先锁3个高金额高概率机会。",
+            "failure_warning": "若两周内未完成窗口分层，你在申请季会高概率出现资金决策被动。",
+            "next_chapter_teaser": "下一章将把奖学金计划和贷款、汇率风险合并成支付方案。"
           },
-          "branch_condition": "若距离阶段关键DDL不足30天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。",
+          "branch_condition": "若距离阶段关键DDL不足45天、语言与目标线差距超过1.0分、或预算缓冲低于6万元，则走保守分支；若GPA稳定在75-82（需项目经历和证据补强）并且每周有可验证产出，则进入冲刺分支。",
           "ending_type": "推进分支",
           "editorial_notes": "可发布；建议后续补充项目级案例以提升地域/项目颗粒度。",
           "story_version": "v4.1",
@@ -13553,9 +13552,9 @@
             "worst_case": "若跳过本章关键动作，预算偏差可能扩大到24%以上，后续阶段需要至少36天补救。"
           },
           "action_card": {
-            "today": "列出全部可申请奖学金并标注金额、截止日、预计投入。",
-            "within_72h": "筛选3个主攻窗口并完成材料适配。",
-            "this_week": "提交主攻窗口并建立结果跟踪板。"
+            "today": "列出所有可申请奖学金并按金额和截止日排序。",
+            "within_72h": "选出3个主攻窗口并补齐材料要求。",
+            "this_week": "完成主攻窗口材料适配并建立提交日历。"
           }
         },
         {
