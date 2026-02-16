@@ -138,6 +138,15 @@
           "补齐 major_library 的准备/录取/签证/行前阶段入口（P01 样板卷）",
           "同步修正阶段标签与章节文案中的阶段称谓，保持阅读连续性"
         ]
+      },
+      {
+        "date": "2026-02-16",
+        "version": "3.1.8",
+        "changes": [
+          "将 major_library 的 P02-P18 专业定义条目前置到准备阶段，风险与替代路径条目前置到申请阶段",
+          "逐条重写 C01-05/C01-06/P01-05/P01-06 的标题、问法、剧情与行动卡，使阶段与内容一致",
+          "强化申请前关注：提升准备/申请阶段权重并保持全库发布可用"
+        ]
       }
     ],
     "library_aliases": {
@@ -159,7 +168,7 @@
       "项目差异",
       "学校特例"
     ],
-    "content_refresh_status": "narrative-v4.4-phase-gap-bridging",
+    "content_refresh_status": "narrative-v4.5-preapply-focus-rebalance",
     "last_source_refresh_at": "2026-02-16"
   },
   "taxonomy": {
