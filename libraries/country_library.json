@@ -11,7 +11,7 @@
           "id": "C01-01",
           "title": "英国授课型硕士体系与1年制学习节奏",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_uk",
           "updated_at": "2026-02-16",
@@ -142,7 +142,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_uk",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -155,7 +155,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-04-01"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -173,8 +175,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V02-06",
           "next_chapter_id": "C01-02",
           "persona_profile": {
@@ -248,13 +250,14 @@
           },
           "next_if_stable": "C01-02",
           "next_if_accelerate": "C01-03",
-          "next_if_risk": "C01-08"
+          "next_if_risk": "C01-08",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "C01-02",
           "title": "英国申请轮次与录取偏好（均分/院校背景）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_uk",
           "updated_at": "2026-02-16",
@@ -366,7 +369,7 @@
             "首批提交项目清单"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_uk",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -379,7 +382,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-25"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -397,8 +402,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C01-01",
           "next_chapter_id": "C01-03",
           "persona_profile": {
@@ -470,13 +475,14 @@
           },
           "next_if_stable": "C01-03",
           "next_if_accelerate": "C01-03",
-          "next_if_risk": "C01-01"
+          "next_if_risk": "C01-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C01-03",
           "title": "英国语言要求与可替代考试政策",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_uk",
           "updated_at": "2026-02-16",
@@ -601,7 +607,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_uk",
           "policy_clause_snapshot": [
             {
@@ -634,7 +640,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-23"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.63,
           "review_log": [
@@ -652,8 +660,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C01-02",
           "next_chapter_id": "C01-04",
           "persona_profile": {
@@ -725,13 +733,14 @@
           },
           "next_if_stable": "C01-04",
           "next_if_accelerate": "C01-04",
-          "next_if_risk": "C01-02"
+          "next_if_risk": "C01-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C01-04",
           "title": "英国费用结构与资金证明（学费、生活费、IHS）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_uk",
           "updated_at": "2026-02-16",
@@ -867,7 +876,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_uk",
           "policy_clause_snapshot": [
             {
@@ -900,7 +909,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-22"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.63,
           "review_log": [
@@ -918,8 +929,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C01-03",
           "next_chapter_id": "C01-05",
           "persona_profile": {
@@ -991,13 +1002,14 @@
           },
           "next_if_stable": "C01-05",
           "next_if_accelerate": "C01-05",
-          "next_if_risk": "C01-03"
+          "next_if_risk": "C01-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C01-05",
           "title": "英国签证办理实操：Student visa材料、时序与拒签风险",
           "phase": "签证",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_uk",
           "updated_at": "2026-02-16",
@@ -1107,7 +1119,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_uk",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -1120,7 +1132,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-28"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -1138,8 +1152,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C01-04",
           "next_chapter_id": "C01-06",
           "persona_profile": {
@@ -1211,13 +1225,14 @@
           },
           "next_if_stable": "C01-06",
           "next_if_accelerate": "C01-06",
-          "next_if_risk": "C01-04"
+          "next_if_risk": "C01-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C01-06",
           "title": "英国行前落地清单：住宿、注册、开户与到校一周安排",
           "phase": "行前",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_uk",
           "updated_at": "2026-02-16",
@@ -1346,7 +1361,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_uk",
           "policy_clause_snapshot": [
             {
@@ -1379,7 +1394,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-02"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.66,
           "review_log": [
@@ -1397,8 +1414,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C01-05",
           "next_chapter_id": "C01-07",
           "persona_profile": {
@@ -1470,13 +1487,14 @@
           },
           "next_if_stable": "C01-07",
           "next_if_accelerate": "C01-07",
-          "next_if_risk": "C01-05"
+          "next_if_risk": "C01-05",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C01-07",
           "title": "英国PSW与后续工签路径（Graduate Route到Skilled Worker）",
           "phase": "求职",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_uk",
           "updated_at": "2026-02-16",
@@ -1620,7 +1638,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_uk",
           "policy_clause_snapshot": [
             {
@@ -1653,7 +1671,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.63,
           "review_log": [
@@ -1671,8 +1691,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C01-06",
           "next_chapter_id": "R01-08",
           "persona_profile": {
@@ -1744,13 +1764,14 @@
           },
           "next_if_stable": "R01-08",
           "next_if_accelerate": "R01-08",
-          "next_if_risk": "C01-06"
+          "next_if_risk": "C01-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C01-08",
           "title": "英国代表项目清单与冲稳保选校策略（按专业分层）",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_uk",
           "updated_at": "2026-02-16",
@@ -1884,7 +1905,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_uk",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -1897,7 +1918,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-25"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -1915,8 +1938,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C01-01",
           "next_chapter_id": "C02-01",
           "persona_profile": {
@@ -1990,7 +2013,8 @@
           },
           "next_if_stable": "C02-01",
           "next_if_accelerate": "C02-01",
-          "next_if_risk": "C01-01"
+          "next_if_risk": "C01-01",
+          "prepare_substage": "证据工程"
         }
       ],
       "appendix_reserved": [],
@@ -2008,7 +2032,7 @@
           "id": "C02-01",
           "title": "美国授课型硕士体系：学分制、时长与项目类型",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_us",
           "updated_at": "2026-02-16",
@@ -2141,7 +2165,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_us",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -2154,7 +2178,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-26"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -2172,8 +2198,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C01-08",
           "next_chapter_id": "C02-02",
           "persona_profile": {
@@ -2247,13 +2273,14 @@
           },
           "next_if_stable": "C02-02",
           "next_if_accelerate": "C02-03",
-          "next_if_risk": "C02-08"
+          "next_if_risk": "C02-08",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "C02-02",
           "title": "美国申请季与录取偏好（先修课、综合评估）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_us",
           "updated_at": "2026-02-16",
@@ -2361,7 +2388,7 @@
             "短板补偿证据清单"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_us",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -2374,7 +2401,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-06"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -2392,8 +2421,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C02-01",
           "next_chapter_id": "C02-03",
           "persona_profile": {
@@ -2465,13 +2494,14 @@
           },
           "next_if_stable": "C02-03",
           "next_if_accelerate": "C02-03",
-          "next_if_risk": "C02-01"
+          "next_if_risk": "C02-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C02-03",
           "title": "美国语言与标化要求（TOEFL/IELTS/GRE/GMAT）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_us",
           "updated_at": "2026-02-16",
@@ -2590,7 +2620,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_us",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -2603,7 +2633,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-05"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -2621,8 +2653,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C02-02",
           "next_chapter_id": "C02-04",
           "persona_profile": {
@@ -2694,13 +2726,14 @@
           },
           "next_if_stable": "C02-04",
           "next_if_accelerate": "C02-04",
-          "next_if_risk": "C02-02"
+          "next_if_risk": "C02-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C02-04",
           "title": "美国费用结构与资金证明（I-20与财力材料）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_us",
           "updated_at": "2026-02-16",
@@ -2837,7 +2870,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_us",
           "policy_clause_snapshot": [
             {
@@ -2870,7 +2903,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-03"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.69,
           "review_log": [
@@ -2888,8 +2923,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C02-03",
           "next_chapter_id": "C02-05",
           "persona_profile": {
@@ -2961,13 +2996,14 @@
           },
           "next_if_stable": "C02-05",
           "next_if_accelerate": "C02-05",
-          "next_if_risk": "C02-03"
+          "next_if_risk": "C02-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C02-05",
           "title": "美国学术规则：GPA、学术警告与毕业要求",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_us",
           "updated_at": "2026-02-16",
@@ -3079,7 +3115,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_us",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -3092,7 +3128,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-22"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -3110,8 +3148,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C02-04",
           "next_chapter_id": "C02-06",
           "persona_profile": {
@@ -3183,13 +3221,14 @@
           },
           "next_if_stable": "C02-06",
           "next_if_accelerate": "C02-06",
-          "next_if_risk": "C02-04"
+          "next_if_risk": "C02-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C02-06",
           "title": "美国实习机制：CPT/Co-op/校内工与时间线",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_us",
           "updated_at": "2026-02-16",
@@ -3331,7 +3370,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_us",
           "policy_clause_snapshot": [
             {
@@ -3364,7 +3403,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.69,
           "review_log": [
@@ -3382,8 +3423,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C02-05",
           "next_chapter_id": "C02-07",
           "persona_profile": {
@@ -3455,13 +3496,14 @@
           },
           "next_if_stable": "C02-07",
           "next_if_accelerate": "C02-07",
-          "next_if_risk": "C02-05"
+          "next_if_risk": "C02-05",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C02-07",
           "title": "美国留任路径：OPT/STEM OPT/H-1B基础逻辑",
           "phase": "求职",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_us",
           "updated_at": "2026-02-16",
@@ -3608,7 +3650,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_us",
           "policy_clause_snapshot": [
             {
@@ -3641,7 +3683,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.69,
           "review_log": [
@@ -3659,8 +3703,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C02-06",
           "next_chapter_id": "R01-08",
           "persona_profile": {
@@ -3732,13 +3776,14 @@
           },
           "next_if_stable": "R01-08",
           "next_if_accelerate": "R01-08",
-          "next_if_risk": "C02-06"
+          "next_if_risk": "C02-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C02-08",
           "title": "美国代表项目清单与冲稳保选校策略",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_us",
           "updated_at": "2026-02-16",
@@ -3871,7 +3916,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_us",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -3884,7 +3929,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-19"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -3902,8 +3949,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C02-01",
           "next_chapter_id": "C03-01",
           "persona_profile": {
@@ -3977,7 +4024,8 @@
           },
           "next_if_stable": "C03-01",
           "next_if_accelerate": "C03-01",
-          "next_if_risk": "C02-01"
+          "next_if_risk": "C02-01",
+          "prepare_substage": "证据工程"
         }
       ],
       "appendix_reserved": [],
@@ -3995,7 +4043,7 @@
           "id": "C03-01",
           "title": "加拿大授课型硕士体系：课程制、论文制与Co-op",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_ca",
           "updated_at": "2026-02-16",
@@ -4129,7 +4177,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ca",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -4142,7 +4190,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-30"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -4160,8 +4210,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C02-08",
           "next_chapter_id": "C03-02",
           "persona_profile": {
@@ -4235,13 +4285,14 @@
           },
           "next_if_stable": "C03-02",
           "next_if_accelerate": "C03-03",
-          "next_if_risk": "C03-08"
+          "next_if_risk": "C03-08",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "C03-02",
           "title": "加拿大申请季与录取偏好（均分、先修、工作经验）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_ca",
           "updated_at": "2026-02-16",
@@ -4356,7 +4407,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ca",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -4369,7 +4420,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-18"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -4387,8 +4440,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C03-01",
           "next_chapter_id": "C03-03",
           "persona_profile": {
@@ -4460,13 +4513,14 @@
           },
           "next_if_stable": "C03-03",
           "next_if_accelerate": "C03-03",
-          "next_if_risk": "C03-01"
+          "next_if_risk": "C03-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C03-03",
           "title": "加拿大语言与标化要求（IELTS/TOEFL/部分项目GRE）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_ca",
           "updated_at": "2026-02-16",
@@ -4584,7 +4638,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ca",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -4597,7 +4651,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-14"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -4615,8 +4671,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C03-02",
           "next_chapter_id": "C03-04",
           "persona_profile": {
@@ -4688,13 +4744,14 @@
           },
           "next_if_stable": "C03-04",
           "next_if_accelerate": "C03-04",
-          "next_if_risk": "C03-02"
+          "next_if_risk": "C03-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C03-04",
           "title": "加拿大费用结构与资金证明（学费、GIC、生活费）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_ca",
           "updated_at": "2026-02-16",
@@ -4838,7 +4895,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ca",
           "policy_clause_snapshot": [
             {
@@ -4871,7 +4928,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-02"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.69,
           "review_log": [
@@ -4889,8 +4948,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C03-03",
           "next_chapter_id": "C03-05",
           "persona_profile": {
@@ -4962,13 +5021,14 @@
           },
           "next_if_stable": "C03-05",
           "next_if_accelerate": "C03-05",
-          "next_if_risk": "C03-03"
+          "next_if_risk": "C03-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C03-05",
           "title": "加拿大学术规则：学分、学术诚信与毕业条件",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_ca",
           "updated_at": "2026-02-16",
@@ -5076,7 +5136,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ca",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -5089,7 +5149,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-26"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -5107,8 +5169,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C03-04",
           "next_chapter_id": "C03-06",
           "persona_profile": {
@@ -5180,13 +5242,14 @@
           },
           "next_if_stable": "C03-06",
           "next_if_accelerate": "C03-06",
-          "next_if_risk": "C03-04"
+          "next_if_risk": "C03-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C03-06",
           "title": "加拿大在读实习与兼职规则（校内外打工政策）",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_ca",
           "updated_at": "2026-02-16",
@@ -5320,7 +5383,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ca",
           "policy_clause_snapshot": [
             {
@@ -5353,7 +5416,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.72,
           "review_log": [
@@ -5371,8 +5436,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C03-05",
           "next_chapter_id": "C03-07",
           "persona_profile": {
@@ -5444,13 +5509,14 @@
           },
           "next_if_stable": "C03-07",
           "next_if_accelerate": "C03-07",
-          "next_if_risk": "C03-05"
+          "next_if_risk": "C03-05",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C03-07",
           "title": "加拿大留任路径：PGWP与省提名衔接基础",
           "phase": "求职",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_ca",
           "updated_at": "2026-02-16",
@@ -5595,7 +5661,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ca",
           "policy_clause_snapshot": [
             {
@@ -5628,7 +5694,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.69,
           "review_log": [
@@ -5646,8 +5714,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C03-06",
           "next_chapter_id": "R01-08",
           "persona_profile": {
@@ -5719,13 +5787,14 @@
           },
           "next_if_stable": "R01-08",
           "next_if_accelerate": "R01-08",
-          "next_if_risk": "C03-06"
+          "next_if_risk": "C03-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C03-08",
           "title": "加拿大代表项目清单与冲稳保选校策略",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_ca",
           "updated_at": "2026-02-16",
@@ -5862,7 +5931,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ca",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -5875,7 +5944,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-23"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -5893,8 +5964,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C03-01",
           "next_chapter_id": "C04-01",
           "persona_profile": {
@@ -5968,7 +6039,8 @@
           },
           "next_if_stable": "C04-01",
           "next_if_accelerate": "C04-01",
-          "next_if_risk": "C03-01"
+          "next_if_risk": "C03-01",
+          "prepare_substage": "证据工程"
         }
       ],
       "appendix_reserved": [],
@@ -5986,7 +6058,7 @@
           "id": "C04-01",
           "title": "澳大利亚授课型硕士体系：1.5/2年制与学分逻辑",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_au",
           "updated_at": "2026-02-16",
@@ -6119,7 +6191,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_au",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -6132,7 +6204,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-24"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -6150,8 +6224,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C03-08",
           "next_chapter_id": "C04-02",
           "persona_profile": {
@@ -6225,13 +6299,14 @@
           },
           "next_if_stable": "C04-02",
           "next_if_accelerate": "C04-03",
-          "next_if_risk": "C04-08"
+          "next_if_risk": "C04-08",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "C04-02",
           "title": "澳大利亚申请季与录取偏好（均分、院校背景）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_au",
           "updated_at": "2026-02-16",
@@ -6343,7 +6418,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_au",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -6356,7 +6431,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -6374,8 +6451,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C04-01",
           "next_chapter_id": "C04-03",
           "persona_profile": {
@@ -6447,13 +6524,14 @@
           },
           "next_if_stable": "C04-03",
           "next_if_accelerate": "C04-03",
-          "next_if_risk": "C04-01"
+          "next_if_risk": "C04-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C04-03",
           "title": "澳大利亚语言与标化要求（IELTS/PTE/豁免）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_au",
           "updated_at": "2026-02-16",
@@ -6569,7 +6647,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_au",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -6582,7 +6660,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-26"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -6600,8 +6680,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C04-02",
           "next_chapter_id": "C04-04",
           "persona_profile": {
@@ -6673,13 +6753,14 @@
           },
           "next_if_stable": "C04-04",
           "next_if_accelerate": "C04-04",
-          "next_if_risk": "C04-02"
+          "next_if_risk": "C04-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C04-04",
           "title": "澳大利亚费用结构与资金证明（学费、OSHC、生活费）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_au",
           "updated_at": "2026-02-16",
@@ -6804,7 +6885,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_au",
           "policy_clause_snapshot": [
             {
@@ -6837,7 +6918,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -6855,8 +6938,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C04-03",
           "next_chapter_id": "C04-05",
           "persona_profile": {
@@ -6928,13 +7011,14 @@
           },
           "next_if_stable": "C04-05",
           "next_if_accelerate": "C04-05",
-          "next_if_risk": "C04-03"
+          "next_if_risk": "C04-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C04-05",
           "title": "澳大利亚学术规则：课程考核、补考与进度要求",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_au",
           "updated_at": "2026-02-16",
@@ -7042,7 +7126,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_au",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -7055,7 +7139,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-20"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -7073,8 +7159,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C04-04",
           "next_chapter_id": "C04-06",
           "persona_profile": {
@@ -7146,13 +7232,14 @@
           },
           "next_if_stable": "C04-06",
           "next_if_accelerate": "C04-06",
-          "next_if_risk": "C04-04"
+          "next_if_risk": "C04-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C04-06",
           "title": "澳大利亚在读实习与打工规则（工时与税务基础）",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_au",
           "updated_at": "2026-02-16",
@@ -7267,7 +7354,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_au",
           "policy_clause_snapshot": [
             {
@@ -7300,7 +7387,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 4,
           "confidence_score": 0.6,
           "review_log": [
@@ -7318,8 +7407,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C04-05",
           "next_chapter_id": "C04-07",
           "persona_profile": {
@@ -7391,13 +7480,14 @@
           },
           "next_if_stable": "C04-07",
           "next_if_accelerate": "C04-07",
-          "next_if_risk": "C04-05"
+          "next_if_risk": "C04-05",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C04-07",
           "title": "澳大利亚留任路径：485工签与后续签证衔接",
           "phase": "求职",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_au",
           "updated_at": "2026-02-16",
@@ -7523,7 +7613,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_au",
           "policy_clause_snapshot": [
             {
@@ -7556,7 +7646,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-26"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -7574,8 +7666,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C04-06",
           "next_chapter_id": "R01-08",
           "persona_profile": {
@@ -7647,13 +7739,14 @@
           },
           "next_if_stable": "R01-08",
           "next_if_accelerate": "R01-08",
-          "next_if_risk": "C04-06"
+          "next_if_risk": "C04-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C04-08",
           "title": "澳大利亚代表项目清单与冲稳保选校策略",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_au",
           "updated_at": "2026-02-16",
@@ -7790,7 +7883,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_au",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -7803,7 +7896,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-17"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -7821,8 +7916,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C04-01",
           "next_chapter_id": "C05-01",
           "persona_profile": {
@@ -7896,7 +7991,8 @@
           },
           "next_if_stable": "C05-01",
           "next_if_accelerate": "C05-01",
-          "next_if_risk": "C04-01"
+          "next_if_risk": "C04-01",
+          "prepare_substage": "证据工程"
         }
       ],
       "appendix_reserved": [],
@@ -7914,7 +8010,7 @@
           "id": "C05-01",
           "title": "新西兰授课型硕士体系：学制、入学季与教学特点",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_nz",
           "updated_at": "2026-02-16",
@@ -8047,7 +8143,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nz",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -8060,7 +8156,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-18"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -8078,8 +8176,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C04-08",
           "next_chapter_id": "C05-02",
           "persona_profile": {
@@ -8153,13 +8251,14 @@
           },
           "next_if_stable": "C05-02",
           "next_if_accelerate": "C05-03",
-          "next_if_risk": "C05-08"
+          "next_if_risk": "C05-08",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "C05-02",
           "title": "新西兰申请季与录取偏好（均分、先修与背景）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_nz",
           "updated_at": "2026-02-16",
@@ -8272,7 +8371,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nz",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -8285,7 +8384,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-08"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -8303,8 +8404,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C05-01",
           "next_chapter_id": "C05-03",
           "persona_profile": {
@@ -8376,13 +8477,14 @@
           },
           "next_if_stable": "C05-03",
           "next_if_accelerate": "C05-03",
-          "next_if_risk": "C05-01"
+          "next_if_risk": "C05-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C05-03",
           "title": "新西兰语言与标化要求（IELTS/PTE等）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_nz",
           "updated_at": "2026-02-16",
@@ -8498,7 +8600,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nz",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -8511,7 +8613,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-07"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -8529,8 +8633,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C05-02",
           "next_chapter_id": "C05-04",
           "persona_profile": {
@@ -8602,13 +8706,14 @@
           },
           "next_if_stable": "C05-04",
           "next_if_accelerate": "C05-04",
-          "next_if_risk": "C05-02"
+          "next_if_risk": "C05-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C05-04",
           "title": "新西兰费用结构与资金证明（学费、生活费、保险）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_nz",
           "updated_at": "2026-02-16",
@@ -8733,7 +8838,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nz",
           "policy_clause_snapshot": [
             {
@@ -8766,7 +8871,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -8790,8 +8897,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C05-03",
           "next_chapter_id": "C05-05",
           "persona_profile": {
@@ -8863,13 +8970,14 @@
           },
           "next_if_stable": "C05-05",
           "next_if_accelerate": "C05-05",
-          "next_if_risk": "C05-03"
+          "next_if_risk": "C05-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C05-05",
           "title": "新西兰学术规则：学术诚信、重修与毕业要求",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_nz",
           "updated_at": "2026-02-16",
@@ -8977,7 +9085,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nz",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -8990,7 +9098,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-14"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -9008,8 +9118,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C05-04",
           "next_chapter_id": "C05-06",
           "persona_profile": {
@@ -9081,13 +9191,14 @@
           },
           "next_if_stable": "C05-06",
           "next_if_accelerate": "C05-06",
-          "next_if_risk": "C05-04"
+          "next_if_risk": "C05-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C05-06",
           "title": "新西兰在读打工与实习规则（工时与机会分布）",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_nz",
           "updated_at": "2026-02-16",
@@ -9194,7 +9305,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nz",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -9207,7 +9318,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-13"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -9225,8 +9338,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C05-05",
           "next_chapter_id": "C05-07",
           "persona_profile": {
@@ -9298,13 +9411,14 @@
           },
           "next_if_stable": "C05-07",
           "next_if_accelerate": "C05-07",
-          "next_if_risk": "C05-05"
+          "next_if_risk": "C05-05",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C05-07",
           "title": "新西兰留任路径：PSWV与雇主担保基础",
           "phase": "求职",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_nz",
           "updated_at": "2026-02-16",
@@ -9432,7 +9546,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nz",
           "policy_clause_snapshot": [
             {
@@ -9465,7 +9579,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-25"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -9489,8 +9605,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C05-06",
           "next_chapter_id": "R01-08",
           "persona_profile": {
@@ -9562,13 +9678,14 @@
           },
           "next_if_stable": "R01-08",
           "next_if_accelerate": "R01-08",
-          "next_if_risk": "C05-06"
+          "next_if_risk": "C05-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C05-08",
           "title": "新西兰代表项目清单与冲稳保选校策略",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_nz",
           "updated_at": "2026-02-16",
@@ -9705,7 +9822,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nz",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -9718,7 +9835,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-11"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -9736,8 +9855,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C05-01",
           "next_chapter_id": "C06-01",
           "persona_profile": {
@@ -9811,7 +9930,8 @@
           },
           "next_if_stable": "C06-01",
           "next_if_accelerate": "C06-01",
-          "next_if_risk": "C05-01"
+          "next_if_risk": "C05-01",
+          "prepare_substage": "证据工程"
         }
       ],
       "appendix_reserved": [],
@@ -9829,7 +9949,7 @@
           "id": "C06-01",
           "title": "中国香港授课型硕士体系：1年制与高强度节奏",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_hk",
           "updated_at": "2026-02-16",
@@ -9961,7 +10081,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_hk",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -9974,7 +10094,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-12"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -9992,8 +10114,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C05-08",
           "next_chapter_id": "C06-02",
           "persona_profile": {
@@ -10067,13 +10189,14 @@
           },
           "next_if_stable": "C06-02",
           "next_if_accelerate": "C06-03",
-          "next_if_risk": "C06-08"
+          "next_if_risk": "C06-08",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "C06-02",
           "title": "中国香港申请轮次与录取偏好（均分、语言、实习）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_hk",
           "updated_at": "2026-02-16",
@@ -10186,7 +10309,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_hk",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -10199,7 +10322,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-20"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -10217,8 +10342,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C06-01",
           "next_chapter_id": "C06-03",
           "persona_profile": {
@@ -10290,13 +10415,14 @@
           },
           "next_if_stable": "C06-03",
           "next_if_accelerate": "C06-03",
-          "next_if_risk": "C06-01"
+          "next_if_risk": "C06-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C06-03",
           "title": "中国香港语言与标化要求（IELTS/TOEFL/GMAT-GRE）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_hk",
           "updated_at": "2026-02-16",
@@ -10415,7 +10541,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_hk",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -10428,7 +10554,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-19"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -10446,8 +10574,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C06-02",
           "next_chapter_id": "C06-04",
           "persona_profile": {
@@ -10519,13 +10647,14 @@
           },
           "next_if_stable": "C06-04",
           "next_if_accelerate": "C06-04",
-          "next_if_risk": "C06-02"
+          "next_if_risk": "C06-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C06-04",
           "title": "中国香港费用结构与资金证明（学费、住宿、存款）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_hk",
           "updated_at": "2026-02-16",
@@ -10649,7 +10778,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_hk",
           "policy_clause_snapshot": [
             {
@@ -10682,7 +10811,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -10700,8 +10831,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C06-03",
           "next_chapter_id": "C06-05",
           "persona_profile": {
@@ -10773,13 +10904,14 @@
           },
           "next_if_stable": "C06-05",
           "next_if_accelerate": "C06-05",
-          "next_if_risk": "C06-03"
+          "next_if_risk": "C06-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C06-05",
           "title": "中国香港学术规则：课程密度、考核与毕业要求",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_hk",
           "updated_at": "2026-02-16",
@@ -10887,7 +11019,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_hk",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -10900,7 +11032,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-08"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -10918,8 +11052,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C06-04",
           "next_chapter_id": "C06-06",
           "persona_profile": {
@@ -10991,13 +11125,14 @@
           },
           "next_if_stable": "C06-06",
           "next_if_accelerate": "C06-06",
-          "next_if_risk": "C06-04"
+          "next_if_risk": "C06-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C06-06",
           "title": "中国香港在读实习与兼职规则（校内外就业限制）",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_hk",
           "updated_at": "2026-02-16",
@@ -11104,7 +11239,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_hk",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -11117,7 +11252,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-07"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -11135,8 +11272,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C06-05",
           "next_chapter_id": "C06-07",
           "persona_profile": {
@@ -11208,13 +11345,14 @@
           },
           "next_if_stable": "C06-07",
           "next_if_accelerate": "C06-07",
-          "next_if_risk": "C06-05"
+          "next_if_risk": "C06-05",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C06-07",
           "title": "中国香港留港路径：IANG签证与就业续签基础",
           "phase": "求职",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_hk",
           "updated_at": "2026-02-16",
@@ -11341,7 +11479,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_hk",
           "policy_clause_snapshot": [
             {
@@ -11374,7 +11512,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-24"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -11392,8 +11532,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C06-06",
           "next_chapter_id": "R01-08",
           "persona_profile": {
@@ -11465,13 +11605,14 @@
           },
           "next_if_stable": "R01-08",
           "next_if_accelerate": "R01-08",
-          "next_if_risk": "C06-06"
+          "next_if_risk": "C06-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C06-08",
           "title": "中国香港代表项目清单与冲稳保选校策略",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_hk",
           "updated_at": "2026-02-16",
@@ -11608,7 +11749,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_hk",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -11621,7 +11762,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-05"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -11639,8 +11782,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C06-01",
           "next_chapter_id": "C07-01",
           "persona_profile": {
@@ -11714,7 +11857,8 @@
           },
           "next_if_stable": "C07-01",
           "next_if_accelerate": "C07-01",
-          "next_if_risk": "C06-01"
+          "next_if_risk": "C06-01",
+          "prepare_substage": "证据工程"
         }
       ],
       "appendix_reserved": [],
@@ -11732,7 +11876,7 @@
           "id": "C07-01",
           "title": "新加坡授课型硕士体系：校企导向与项目节奏",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_sg",
           "updated_at": "2026-02-16",
@@ -11864,7 +12008,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_sg",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -11877,7 +12021,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-16"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -11895,8 +12041,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C06-08",
           "next_chapter_id": "C07-02",
           "persona_profile": {
@@ -11970,13 +12116,14 @@
           },
           "next_if_stable": "C07-02",
           "next_if_accelerate": "C07-03",
-          "next_if_risk": "C07-08"
+          "next_if_risk": "C07-08",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "C07-02",
           "title": "新加坡申请季与录取偏好（院校背景、实习、面试）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_sg",
           "updated_at": "2026-02-16",
@@ -12092,7 +12239,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_sg",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -12105,7 +12252,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -12123,8 +12272,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C07-01",
           "next_chapter_id": "C07-03",
           "persona_profile": {
@@ -12196,13 +12345,14 @@
           },
           "next_if_stable": "C07-03",
           "next_if_accelerate": "C07-03",
-          "next_if_risk": "C07-01"
+          "next_if_risk": "C07-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C07-03",
           "title": "新加坡语言与标化要求（IELTS/TOEFL/GRE/GMAT）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_sg",
           "updated_at": "2026-02-16",
@@ -12321,7 +12471,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_sg",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -12334,7 +12484,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -12352,8 +12504,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C07-02",
           "next_chapter_id": "C07-04",
           "persona_profile": {
@@ -12425,13 +12577,14 @@
           },
           "next_if_stable": "C07-04",
           "next_if_accelerate": "C07-04",
-          "next_if_risk": "C07-02"
+          "next_if_risk": "C07-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C07-04",
           "title": "新加坡费用结构与资金证明（学费、生活费、宿舍）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_sg",
           "updated_at": "2026-02-16",
@@ -12564,7 +12717,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_sg",
           "policy_clause_snapshot": [
             {
@@ -12597,7 +12750,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-26"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.63,
           "review_log": [
@@ -12615,8 +12770,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C07-03",
           "next_chapter_id": "C07-05",
           "persona_profile": {
@@ -12688,13 +12843,14 @@
           },
           "next_if_stable": "C07-05",
           "next_if_accelerate": "C07-05",
-          "next_if_risk": "C07-03"
+          "next_if_risk": "C07-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C07-05",
           "title": "新加坡学术规则：课程强度、评分与毕业条件",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_sg",
           "updated_at": "2026-02-16",
@@ -12802,7 +12958,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_sg",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -12815,7 +12971,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-12"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -12833,8 +12991,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C07-04",
           "next_chapter_id": "C07-06",
           "persona_profile": {
@@ -12906,13 +13064,14 @@
           },
           "next_if_stable": "C07-06",
           "next_if_accelerate": "C07-06",
-          "next_if_risk": "C07-04"
+          "next_if_risk": "C07-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C07-06",
           "title": "新加坡在读实习与兼职规则（政策与机会窗口）",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_sg",
           "updated_at": "2026-02-16",
@@ -13037,7 +13196,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_sg",
           "policy_clause_snapshot": [
             {
@@ -13070,7 +13229,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-24"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.66,
           "review_log": [
@@ -13088,8 +13249,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C07-05",
           "next_chapter_id": "C07-07",
           "persona_profile": {
@@ -13161,13 +13322,14 @@
           },
           "next_if_stable": "C07-07",
           "next_if_accelerate": "C07-07",
-          "next_if_risk": "C07-05"
+          "next_if_risk": "C07-05",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C07-07",
           "title": "新加坡留任路径：EP/SPass基础与雇主要求",
           "phase": "求职",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_sg",
           "updated_at": "2026-02-16",
@@ -13304,7 +13466,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_sg",
           "policy_clause_snapshot": [
             {
@@ -13337,7 +13499,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-23"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.63,
           "review_log": [
@@ -13355,8 +13519,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C07-06",
           "next_chapter_id": "R01-08",
           "persona_profile": {
@@ -13428,13 +13592,14 @@
           },
           "next_if_stable": "R01-08",
           "next_if_accelerate": "R01-08",
-          "next_if_risk": "C07-06"
+          "next_if_risk": "C07-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C07-08",
           "title": "新加坡代表项目清单与冲稳保选校策略",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_sg",
           "updated_at": "2026-02-16",
@@ -13567,7 +13732,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_sg",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -13580,7 +13745,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-09"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -13598,8 +13765,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C07-01",
           "next_chapter_id": "C08-01",
           "persona_profile": {
@@ -13673,7 +13840,8 @@
           },
           "next_if_stable": "C08-01",
           "next_if_accelerate": "C08-01",
-          "next_if_risk": "C07-01"
+          "next_if_risk": "C07-01",
+          "prepare_substage": "证据工程"
         }
       ],
       "appendix_reserved": [],
@@ -13691,7 +13859,7 @@
           "id": "C08-01",
           "title": "爱尔兰授课型硕士体系：1年制与科技行业连接",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_ie",
           "updated_at": "2026-02-16",
@@ -13823,7 +13991,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ie",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -13836,7 +14004,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-10"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -13854,8 +14024,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C07-08",
           "next_chapter_id": "C08-02",
           "persona_profile": {
@@ -13929,13 +14099,14 @@
           },
           "next_if_stable": "C08-02",
           "next_if_accelerate": "C08-03",
-          "next_if_risk": "C08-08"
+          "next_if_risk": "C08-08",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "C08-02",
           "title": "爱尔兰申请季与录取偏好（均分、先修、背景）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_ie",
           "updated_at": "2026-02-16",
@@ -14049,7 +14220,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ie",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -14062,7 +14233,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-10"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -14080,8 +14253,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C08-01",
           "next_chapter_id": "C08-03",
           "persona_profile": {
@@ -14153,13 +14326,14 @@
           },
           "next_if_stable": "C08-03",
           "next_if_accelerate": "C08-03",
-          "next_if_risk": "C08-01"
+          "next_if_risk": "C08-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C08-03",
           "title": "爱尔兰语言与标化要求（IELTS/TOEFL/PTE）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_ie",
           "updated_at": "2026-02-16",
@@ -14276,7 +14450,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ie",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -14289,7 +14463,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-09"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -14307,8 +14483,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C08-02",
           "next_chapter_id": "C08-04",
           "persona_profile": {
@@ -14380,13 +14556,14 @@
           },
           "next_if_stable": "C08-04",
           "next_if_accelerate": "C08-04",
-          "next_if_risk": "C08-02"
+          "next_if_risk": "C08-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C08-04",
           "title": "爱尔兰费用结构与资金证明（学费、生活费、保险）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_ie",
           "updated_at": "2026-02-16",
@@ -14510,7 +14687,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ie",
           "policy_clause_snapshot": [
             {
@@ -14543,7 +14720,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-25"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -14561,8 +14740,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C08-03",
           "next_chapter_id": "C08-05",
           "persona_profile": {
@@ -14634,13 +14813,14 @@
           },
           "next_if_stable": "C08-05",
           "next_if_accelerate": "C08-05",
-          "next_if_risk": "C08-03"
+          "next_if_risk": "C08-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C08-05",
           "title": "爱尔兰学术规则：课程考核、补考与毕业要求",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_ie",
           "updated_at": "2026-02-16",
@@ -14748,7 +14928,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ie",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -14761,7 +14941,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-06"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -14779,8 +14961,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C08-04",
           "next_chapter_id": "C08-06",
           "persona_profile": {
@@ -14852,13 +15034,14 @@
           },
           "next_if_stable": "C08-06",
           "next_if_accelerate": "C08-06",
-          "next_if_risk": "C08-04"
+          "next_if_risk": "C08-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C08-06",
           "title": "爱尔兰在读实习与兼职规则（合法工时与渠道）",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_ie",
           "updated_at": "2026-02-16",
@@ -14974,7 +15157,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ie",
           "policy_clause_snapshot": [
             {
@@ -15007,7 +15190,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-23"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 4,
           "confidence_score": 0.6,
           "review_log": [
@@ -15025,8 +15210,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C08-05",
           "next_chapter_id": "C08-07",
           "persona_profile": {
@@ -15098,13 +15283,14 @@
           },
           "next_if_stable": "C08-07",
           "next_if_accelerate": "C08-07",
-          "next_if_risk": "C08-05"
+          "next_if_risk": "C08-05",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C08-07",
           "title": "爱尔兰留任路径：Stamp 1G到雇主担保",
           "phase": "求职",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_ie",
           "updated_at": "2026-02-16",
@@ -15230,7 +15416,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ie",
           "policy_clause_snapshot": [
             {
@@ -15263,7 +15449,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-22"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 4,
           "confidence_score": 0.57,
           "review_log": [
@@ -15281,8 +15469,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C08-06",
           "next_chapter_id": "R01-08",
           "persona_profile": {
@@ -15354,13 +15542,14 @@
           },
           "next_if_stable": "R01-08",
           "next_if_accelerate": "R01-08",
-          "next_if_risk": "C08-06"
+          "next_if_risk": "C08-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C08-08",
           "title": "爱尔兰代表项目清单与冲稳保选校策略",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_ie",
           "updated_at": "2026-02-16",
@@ -15493,7 +15682,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_ie",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -15506,7 +15695,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-03"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -15524,8 +15715,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C08-01",
           "next_chapter_id": "C09-01",
           "persona_profile": {
@@ -15599,7 +15790,8 @@
           },
           "next_if_stable": "C09-01",
           "next_if_accelerate": "C09-01",
-          "next_if_risk": "C08-01"
+          "next_if_risk": "C08-01",
+          "prepare_substage": "证据工程"
         }
       ],
       "appendix_reserved": [],
@@ -15617,7 +15809,7 @@
           "id": "C09-01",
           "title": "荷兰/比利时英授硕士体系：学制、院校类型与入学季",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_nl",
           "updated_at": "2026-02-16",
@@ -15762,7 +15954,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nl",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -15775,7 +15967,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-04"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.75,
           "review_log": [
@@ -15793,8 +15987,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C08-08",
           "next_chapter_id": "C09-02",
           "persona_profile": {
@@ -15868,13 +16062,14 @@
           },
           "next_if_stable": "C09-02",
           "next_if_accelerate": "C09-03",
-          "next_if_risk": "C09-08"
+          "next_if_risk": "C09-08",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "C09-02",
           "title": "荷兰/比利时申请季与录取偏好（均分、先修、动机）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_nl",
           "updated_at": "2026-02-16",
@@ -15992,7 +16187,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nl",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -16005,7 +16200,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-22"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -16023,8 +16220,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C09-01",
           "next_chapter_id": "C09-03",
           "persona_profile": {
@@ -16096,13 +16293,14 @@
           },
           "next_if_stable": "C09-03",
           "next_if_accelerate": "C09-03",
-          "next_if_risk": "C09-01"
+          "next_if_risk": "C09-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C09-03",
           "title": "荷兰/比利时语言与标化要求（IELTS/TOEFL/GRE少量）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_nl",
           "updated_at": "2026-02-16",
@@ -16224,7 +16422,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nl",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -16237,7 +16435,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-21"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -16255,8 +16455,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C09-02",
           "next_chapter_id": "C09-04",
           "persona_profile": {
@@ -16328,13 +16528,14 @@
           },
           "next_if_stable": "C09-04",
           "next_if_accelerate": "C09-04",
-          "next_if_risk": "C09-02"
+          "next_if_risk": "C09-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C09-04",
           "title": "荷兰/比利时费用结构与资金证明（学费梯度与生活费）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_nl",
           "updated_at": "2026-02-16",
@@ -16485,7 +16686,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nl",
           "policy_clause_snapshot": [
             {
@@ -16518,7 +16719,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-24"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 7,
           "confidence_score": 0.75,
           "review_log": [
@@ -16536,8 +16739,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C09-03",
           "next_chapter_id": "C09-05",
           "persona_profile": {
@@ -16609,13 +16812,14 @@
           },
           "next_if_stable": "C09-05",
           "next_if_accelerate": "C09-05",
-          "next_if_risk": "C09-03"
+          "next_if_risk": "C09-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C09-05",
           "title": "荷兰/比利时学术规则：ECTS、考核与毕业要求",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_nl",
           "updated_at": "2026-02-16",
@@ -16731,7 +16935,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nl",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -16744,7 +16948,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -16762,8 +16968,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C09-04",
           "next_chapter_id": "C09-06",
           "persona_profile": {
@@ -16835,13 +17041,14 @@
           },
           "next_if_stable": "C09-06",
           "next_if_accelerate": "C09-06",
-          "next_if_risk": "C09-04"
+          "next_if_risk": "C09-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C09-06",
           "title": "荷兰/比利时在读实习与兼职规则（语言门槛影响）",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_nl",
           "updated_at": "2026-02-16",
@@ -16954,7 +17161,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nl",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -16967,7 +17174,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -16985,8 +17194,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C09-05",
           "next_chapter_id": "C09-07",
           "persona_profile": {
@@ -17058,13 +17267,14 @@
           },
           "next_if_stable": "C09-07",
           "next_if_accelerate": "C09-07",
-          "next_if_risk": "C09-05"
+          "next_if_risk": "C09-05",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C09-07",
           "title": "荷兰/比利时留任路径：zoekjaar与工签衔接",
           "phase": "求职",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_nl",
           "updated_at": "2026-02-16",
@@ -17218,7 +17428,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nl",
           "policy_clause_snapshot": [
             {
@@ -17251,7 +17461,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-03"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 7,
           "confidence_score": 0.75,
           "review_log": [
@@ -17269,8 +17481,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C09-06",
           "next_chapter_id": "R01-08",
           "persona_profile": {
@@ -17342,13 +17554,14 @@
           },
           "next_if_stable": "R01-08",
           "next_if_accelerate": "R01-08",
-          "next_if_risk": "C09-06"
+          "next_if_risk": "C09-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C09-08",
           "title": "荷兰/比利时代表项目清单与冲稳保选校策略",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_nl",
           "updated_at": "2026-02-16",
@@ -17494,7 +17707,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_nl",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -17507,7 +17720,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-25"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.75,
           "review_log": [
@@ -17525,8 +17740,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C09-01",
           "next_chapter_id": "C10-01",
           "persona_profile": {
@@ -17600,7 +17815,8 @@
           },
           "next_if_stable": "C10-01",
           "next_if_accelerate": "C10-01",
-          "next_if_risk": "C09-01"
+          "next_if_risk": "C09-01",
+          "prepare_substage": "证据工程"
         }
       ],
       "appendix_reserved": [],
@@ -17629,7 +17845,7 @@
           "id": "C10-01",
           "title": "德法北欧授课型硕士体系：公立/私立与英授比例",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_de",
           "updated_at": "2026-02-16",
@@ -17777,7 +17993,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_de",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -17790,7 +18006,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-22"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.75,
           "review_log": [
@@ -17808,8 +18026,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C09-08",
           "next_chapter_id": "C10-02",
           "persona_profile": {
@@ -17883,13 +18101,14 @@
           },
           "next_if_stable": "C10-02",
           "next_if_accelerate": "C10-03",
-          "next_if_risk": "C10-08"
+          "next_if_risk": "C10-08",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "C10-02",
           "title": "德法北欧申请季与录取偏好（均分、语言、先修）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_de",
           "updated_at": "2026-02-16",
@@ -18009,7 +18228,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_de",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -18022,7 +18241,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-20"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -18040,8 +18261,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C10-01",
           "next_chapter_id": "C10-03",
           "persona_profile": {
@@ -18113,13 +18334,14 @@
           },
           "next_if_stable": "C10-03",
           "next_if_accelerate": "C10-03",
-          "next_if_risk": "C10-01"
+          "next_if_risk": "C10-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C10-03",
           "title": "德法北欧语言与标化要求（英语/本地语言双轨）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_de",
           "updated_at": "2026-02-16",
@@ -18237,7 +18459,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_de",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -18250,7 +18472,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-19"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -18268,8 +18492,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C10-02",
           "next_chapter_id": "C10-04",
           "persona_profile": {
@@ -18341,13 +18565,14 @@
           },
           "next_if_stable": "C10-04",
           "next_if_accelerate": "C10-04",
-          "next_if_risk": "C10-02"
+          "next_if_risk": "C10-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C10-04",
           "title": "德法北欧费用结构与资金证明（低学费与高生活费场景）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_de",
           "updated_at": "2026-02-16",
@@ -18557,7 +18782,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_de",
           "policy_clause_snapshot": [
             {
@@ -18590,7 +18815,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-22"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 13,
           "confidence_score": 0.9,
           "review_log": [
@@ -18608,8 +18835,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C10-03",
           "next_chapter_id": "C10-05",
           "persona_profile": {
@@ -18681,13 +18908,14 @@
           },
           "next_if_stable": "C10-05",
           "next_if_accelerate": "C10-05",
-          "next_if_risk": "C10-03"
+          "next_if_risk": "C10-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C10-05",
           "title": "德法北欧学术规则：ECTS、补考与毕业论文要求",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_de",
           "updated_at": "2026-02-16",
@@ -18805,7 +19033,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_de",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -18818,7 +19046,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-18"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -18836,8 +19066,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C10-04",
           "next_chapter_id": "C10-06",
           "persona_profile": {
@@ -18909,13 +19139,14 @@
           },
           "next_if_stable": "C10-06",
           "next_if_accelerate": "C10-06",
-          "next_if_risk": "C10-04"
+          "next_if_risk": "C10-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C10-06",
           "title": "德法北欧在读实习与兼职规则（本地语言门槛）",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_de",
           "updated_at": "2026-02-16",
@@ -19030,7 +19261,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_de",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -19043,7 +19274,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-17"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -19061,8 +19294,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C10-05",
           "next_chapter_id": "C10-07",
           "persona_profile": {
@@ -19134,13 +19367,14 @@
           },
           "next_if_stable": "C10-07",
           "next_if_accelerate": "C10-07",
-          "next_if_risk": "C10-05"
+          "next_if_risk": "C10-05",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C10-07",
           "title": "德法北欧留任路径：求职签证与长期居留基础",
           "phase": "求职",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_de",
           "updated_at": "2026-02-16",
@@ -19355,7 +19589,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_de",
           "policy_clause_snapshot": [
             {
@@ -19388,7 +19622,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 13,
           "confidence_score": 0.9,
           "review_log": [
@@ -19406,8 +19642,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C10-06",
           "next_chapter_id": "R01-08",
           "persona_profile": {
@@ -19479,13 +19715,14 @@
           },
           "next_if_stable": "R01-08",
           "next_if_accelerate": "R01-08",
-          "next_if_risk": "C10-06"
+          "next_if_risk": "C10-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C10-08",
           "title": "德法北欧代表项目清单与冲稳保选校策略",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_de",
           "updated_at": "2026-02-16",
@@ -19633,7 +19870,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_de",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -19646,7 +19883,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-15"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.75,
           "review_log": [
@@ -19664,8 +19903,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C10-01",
           "next_chapter_id": "C11-01",
           "persona_profile": {
@@ -19739,7 +19978,8 @@
           },
           "next_if_stable": "C11-01",
           "next_if_accelerate": "C11-01",
-          "next_if_risk": "C10-01"
+          "next_if_risk": "C10-01",
+          "prepare_substage": "证据工程"
         }
       ],
       "appendix_reserved": [],
@@ -19773,7 +20013,7 @@
           "id": "C11-01",
           "title": "日本/韩国英授硕士体系：项目类型、学制与节奏",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_jp",
           "updated_at": "2026-02-16",
@@ -19909,7 +20149,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_jp",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -19922,7 +20162,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-26"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -19940,8 +20182,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C10-08",
           "next_chapter_id": "C11-02",
           "persona_profile": {
@@ -20015,13 +20257,14 @@
           },
           "next_if_stable": "C11-02",
           "next_if_accelerate": "C11-03",
-          "next_if_risk": "C11-08"
+          "next_if_risk": "C11-08",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "C11-02",
           "title": "日本/韩国申请季与录取偏好（出身校、成绩、研究计划）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_jp",
           "updated_at": "2026-02-16",
@@ -20138,7 +20381,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_jp",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -20151,7 +20394,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -20169,8 +20414,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C11-01",
           "next_chapter_id": "C11-03",
           "persona_profile": {
@@ -20242,13 +20487,14 @@
           },
           "next_if_stable": "C11-03",
           "next_if_accelerate": "C11-03",
-          "next_if_risk": "C11-01"
+          "next_if_risk": "C11-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C11-03",
           "title": "日本/韩国语言与标化要求（英语成绩+日/韩语附加值）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_country_jp",
           "updated_at": "2026-02-16",
@@ -20364,7 +20610,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_jp",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -20377,7 +20623,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -20395,8 +20643,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C11-02",
           "next_chapter_id": "C11-04",
           "persona_profile": {
@@ -20468,13 +20716,14 @@
           },
           "next_if_stable": "C11-04",
           "next_if_accelerate": "C11-04",
-          "next_if_risk": "C11-02"
+          "next_if_risk": "C11-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C11-04",
           "title": "日本/韩国费用结构与资金证明（学费、奖学金、生活费）",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_jp",
           "updated_at": "2026-02-16",
@@ -20612,7 +20861,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_jp",
           "policy_clause_snapshot": [
             {
@@ -20645,7 +20894,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-03"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.63,
           "review_log": [
@@ -20663,8 +20914,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C11-03",
           "next_chapter_id": "C11-05",
           "persona_profile": {
@@ -20736,13 +20987,14 @@
           },
           "next_if_stable": "C11-05",
           "next_if_accelerate": "C11-05",
-          "next_if_risk": "C11-03"
+          "next_if_risk": "C11-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C11-05",
           "title": "日本/韩国学术规则：课程、研究要求与毕业标准",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_jp",
           "updated_at": "2026-02-16",
@@ -20856,7 +21108,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_jp",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -20869,7 +21121,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-22"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -20887,8 +21141,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C11-04",
           "next_chapter_id": "C11-06",
           "persona_profile": {
@@ -20960,13 +21214,14 @@
           },
           "next_if_stable": "C11-06",
           "next_if_accelerate": "C11-06",
-          "next_if_risk": "C11-04"
+          "next_if_risk": "C11-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C11-06",
           "title": "日本/韩国在读实习与兼职规则（合法工时与企业偏好）",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_jp",
           "updated_at": "2026-02-16",
@@ -21102,7 +21357,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_jp",
           "policy_clause_snapshot": [
             {
@@ -21135,7 +21390,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.66,
           "review_log": [
@@ -21153,8 +21410,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C11-05",
           "next_chapter_id": "C11-07",
           "persona_profile": {
@@ -21226,13 +21483,14 @@
           },
           "next_if_stable": "C11-07",
           "next_if_accelerate": "C11-07",
-          "next_if_risk": "C11-05"
+          "next_if_risk": "C11-05",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C11-07",
           "title": "日本/韩国留任路径：工作签证与本地求职门槛",
           "phase": "求职",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_country_jp",
           "updated_at": "2026-02-16",
@@ -21373,7 +21631,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_jp",
           "policy_clause_snapshot": [
             {
@@ -21406,7 +21664,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.63,
           "review_log": [
@@ -21424,8 +21684,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C11-06",
           "next_chapter_id": "R01-08",
           "persona_profile": {
@@ -21497,13 +21757,14 @@
           },
           "next_if_stable": "R01-08",
           "next_if_accelerate": "R01-08",
-          "next_if_risk": "C11-06"
+          "next_if_risk": "C11-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "C11-08",
           "title": "日本/韩国代表项目清单与冲稳保选校策略",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_country_jp",
           "updated_at": "2026-02-16",
@@ -21640,7 +21901,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_country_jp",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -21653,7 +21914,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-19"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.75,
           "review_log": [
@@ -21671,8 +21934,8 @@
             }
           ],
           "scope_type": "country",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "C11-01",
           "next_chapter_id": "P01-01",
           "persona_profile": {
@@ -21746,7 +22009,8 @@
           },
           "next_if_stable": "P01-01",
           "next_if_accelerate": "P01-01",
-          "next_if_risk": "C11-01"
+          "next_if_risk": "C11-01",
+          "prepare_substage": "证据工程"
         }
       ],
       "appendix_reserved": [],

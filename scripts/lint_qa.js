@@ -164,6 +164,7 @@ function main() {
     'priority',
     'owner',
     'updated_at',
+    'prepare_substage',
     'question_canonical',
     'question_aliases',
     'answer_short',
@@ -178,6 +179,7 @@ function main() {
     'sources',
     'evidence_count',
     'publish_blockers',
+    'manual_fill_fields',
     'policy_clause_snapshot',
     'scope_type',
     'publication_state',
@@ -207,6 +209,9 @@ function main() {
     ? qa.taxonomy.phase_enum
     : ['准备', '申请', '录取', '签证', '行前', '在读', '求职', '综合'];
   const phaseRank = Object.fromEntries(phaseOrderForRank.map((p, i) => [p, i]));
+  const prepareSubstageSet = new Set(['适配诊断', '先修补齐', '证据工程', '风险闸门', '不适用']);
+  const minPrepareAnswerLongLen = qa.taxonomy?.narrative_quality_targets?.min_prepare_answer_long_len ?? 800;
+  const strictPrepareAnswerLongLen = qa.taxonomy?.narrative_quality_targets?.strict_prepare_answer_long_len === true;
 
   let oldPatternCount = 0;
   let fiveSectionCount = 0;
@@ -221,6 +226,10 @@ function main() {
   let routeTerminalCount = 0;
   let realBranchCount = 0;
   let roleStateDiscontinuityCount = 0;
+  let prepareAnswerLongBelowCount = 0;
+  let majorPrepareWithCountryCrossLinkCount = 0;
+  let majorPrepareWithMvpCrossLinkCount = 0;
+  let majorPrepareCount = 0;
 
   const preApplyTopicCounter = {
     exam: 0,
@@ -260,6 +269,20 @@ function main() {
 
     if (Array.isArray(statusEnum) && !statusEnum.includes(entry.status)) {
       fail(`${entry.id}: status "${entry.status}" not found in taxonomy.status_enum`, errors);
+    }
+
+    if (!prepareSubstageSet.has(entry.prepare_substage)) {
+      fail(`${entry.id}: invalid prepare_substage ${entry.prepare_substage}`, errors);
+    } else if (entry.phase === '准备') {
+      if (entry.prepare_substage === '不适用') {
+        fail(`${entry.id}: prepare phase cannot use prepare_substage=不适用`, errors);
+      }
+      const expectedTag = `prepare_substage:${entry.prepare_substage}`;
+      if (!Array.isArray(entry.tags) || !entry.tags.includes(expectedTag)) {
+        fail(`${entry.id}: prepare_substage tag mismatch, expected ${expectedTag}`, errors);
+      }
+    } else if (entry.prepare_substage !== '不适用') {
+      fail(`${entry.id}: non-prepare phase should use prepare_substage=不适用`, errors);
     }
 
     if (!parseDate(entry.updated_at)) {
@@ -549,6 +572,9 @@ function main() {
     if (!Array.isArray(entry.publish_blockers)) {
       fail(`${entry.id}: publish_blockers must be an array`, errors);
     }
+    if (!Array.isArray(entry.manual_fill_fields)) {
+      fail(`${entry.id}: manual_fill_fields must be an array`, errors);
+    }
 
     if (!['global', 'country', 'major', 'return'].includes(entry.scope_type)) {
       fail(`${entry.id}: invalid scope_type ${entry.scope_type}`, errors);
@@ -564,6 +590,9 @@ function main() {
       }
       if (entry.publish_blockers.length > 0) {
         fail(`${entry.id}: publish_ready=true but publish_blockers is not empty`, errors);
+      }
+      if (entry.manual_fill_fields.length > 0) {
+        fail(`${entry.id}: publish_ready=true requires manual_fill_fields to be empty`, errors);
       }
       if (entry.needs_human_review !== false) {
         fail(`${entry.id}: publish_ready=true requires needs_human_review=false`, errors);
@@ -633,11 +662,28 @@ function main() {
 
     if (entry.phase === '准备') {
       prepareCount += 1;
+      if (typeof entry.answer_long === 'string' && entry.answer_long.length < minPrepareAnswerLongLen) {
+        prepareAnswerLongBelowCount += 1;
+      }
       if ((entry.sources || []).some((s) => s && s.type === 'manual_required')) {
         prepareManualRequiredCount += 1;
       }
       if (!Array.isArray(entry.depends_on) || entry.depends_on.length === 0) {
         prepareDependsEmptyCount += 1;
+      }
+      if (entry.scope_type === 'major') {
+        majorPrepareCount += 1;
+        const refs = new Set([
+          ...(entry.related_ids || []),
+          ...(entry.see_also || []),
+          ...(entry.depends_on || [])
+        ]);
+        if ([...refs].some((id) => /^C\d{2}-/.test(id))) {
+          majorPrepareWithCountryCrossLinkCount += 1;
+        }
+        if ([...refs].some((id) => /^MVP-/.test(id))) {
+          majorPrepareWithMvpCrossLinkCount += 1;
+        }
       }
       const title = `${entry.title || ''} ${(entry.keywords || []).join(' ')}`.toLowerCase();
       if (/先修|数学|编程|写作|能力补足|门槛|体检|prerequisite/.test(title)) prepareTopicCounter.prereq += 1;
@@ -677,6 +723,8 @@ function main() {
   const minRealBranchEntries = qa.taxonomy?.narrative_quality_targets?.min_real_branch_entries ?? 1;
   const maxRoleStateJump = qa.taxonomy?.narrative_quality_targets?.max_role_state_jump ?? 50;
   const maxRoleStateDiscontinuity = qa.taxonomy?.narrative_quality_targets?.max_role_state_discontinuity ?? 0;
+  const minMajorPrepareCountryCrossLinkRatio = qa.taxonomy?.narrative_quality_targets?.min_major_prepare_country_crosslink_ratio ?? 0.5;
+  const minMajorPrepareMvpCrossLinkRatio = qa.taxonomy?.narrative_quality_targets?.min_major_prepare_mvp_crosslink_ratio ?? 0.5;
   const routeReverseWhitelist = new Set(qa.taxonomy?.route_reverse_edge_whitelist || []);
 
   if (conflictSet.size < minConflict) fail(`conflict diversity too low: ${conflictSet.size} < ${minConflict}`, errors);
@@ -726,6 +774,27 @@ function main() {
     const msg = `prepare manual_required ratio high: ${prepareManualRatio.toFixed(3)} > ${maxPrepareManualRequiredRatio}`;
     if (strictNarrativeLint) fail(msg, errors);
     else warn(msg, warnings);
+  }
+
+  if (prepareAnswerLongBelowCount > 0) {
+    const msg = `prepare answer_long below ${minPrepareAnswerLongLen} chars: ${prepareAnswerLongBelowCount}/${prepareCount}`;
+    if (strictPrepareAnswerLongLen) fail(msg, errors);
+    else warn(msg, warnings);
+  }
+
+  const majorPrepareCountryCrossLinkRatio = majorPrepareCount ? majorPrepareWithCountryCrossLinkCount / majorPrepareCount : 0;
+  const majorPrepareMvpCrossLinkRatio = majorPrepareCount ? majorPrepareWithMvpCrossLinkCount / majorPrepareCount : 0;
+  if (majorPrepareCountryCrossLinkRatio < minMajorPrepareCountryCrossLinkRatio) {
+    fail(
+      `major prepare country cross-link ratio too low: ${majorPrepareCountryCrossLinkRatio.toFixed(3)} < ${minMajorPrepareCountryCrossLinkRatio}`,
+      errors
+    );
+  }
+  if (majorPrepareMvpCrossLinkRatio < minMajorPrepareMvpCrossLinkRatio) {
+    fail(
+      `major prepare MVP cross-link ratio too low: ${majorPrepareMvpCrossLinkRatio.toFixed(3)} < ${minMajorPrepareMvpCrossLinkRatio}`,
+      errors
+    );
   }
 
   if (preApplyTopicCounter.app_system < 3) {
@@ -906,6 +975,9 @@ function main() {
   console.log(`- prepare entries: ${prepareCount}`);
   console.log(`- prepare ratio: ${prepareRatio.toFixed(3)}`);
   console.log(`- prepare manual_required ratio: ${prepareManualRatio.toFixed(3)}`);
+  console.log(`- prepare answer_long below ${minPrepareAnswerLongLen}: ${prepareAnswerLongBelowCount}`);
+  console.log(`- major prepare country cross-link ratio: ${(majorPrepareCount ? majorPrepareWithCountryCrossLinkCount / majorPrepareCount : 0).toFixed(3)}`);
+  console.log(`- major prepare MVP cross-link ratio: ${(majorPrepareCount ? majorPrepareWithMvpCrossLinkCount / majorPrepareCount : 0).toFixed(3)}`);
   console.log(`- branch unrealistic language gaps: ${unrealisticLanguageGapCount}`);
   console.log(`- branch fixed 9w thresholds: ${fixedBudgetThresholdCount}`);
   console.log(`- publish_ready entries: ${publishReadyCount}`);

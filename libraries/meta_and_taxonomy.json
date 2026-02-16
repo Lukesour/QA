@@ -6,7 +6,7 @@
     "language": "zh-CN",
     "maintainer": "editorial_board",
     "description": "包含MVP、国别库、专业库与回国场景模块的可扩展问答知识库结构",
-    "updated_at": "2026-02-16",
+    "updated_at": "2026-02-17",
     "review_cycle": "P0每45天/P1每90天/P2每180天",
     "timezone": "Asia/Shanghai",
     "changelog": [
@@ -197,6 +197,11 @@
           "专业卷升级为4幕准备前传（含证据工程章）",
           "升级lint：新增逆时序、循环路由、重复短语与准备期覆盖硬约束"
         ]
+      },
+      {
+        "date": "2026-02-17",
+        "by": "codex-gpt5",
+        "summary": "P0发布门槛收紧：manual_fill_fields未清空条目统一回到reviewing；prepare_substage升级为结构化字段并加入跨库路由。"
       }
     ],
     "library_aliases": {
@@ -366,7 +371,11 @@
       "max_prepare_depends_empty": 10,
       "min_real_branch_entries": 150,
       "max_role_state_jump": 50,
-      "max_role_state_discontinuity": 0
+      "max_role_state_discontinuity": 0,
+      "min_prepare_answer_long_len": 800,
+      "strict_prepare_answer_long_len": false,
+      "min_major_prepare_country_crosslink_ratio": 1,
+      "min_major_prepare_mvp_crosslink_ratio": 1
     },
     "prepare_index_entry_id": "MVP-V05-01",
     "prepare_index_blueprint": [
@@ -494,7 +503,8 @@
       },
       "next_if_risk": null,
       "next_if_stable": null,
-      "next_if_accelerate": null
+      "next_if_accelerate": null,
+      "prepare_substage": "不适用"
     },
     "global_reserved_slots": {
       "extra_mvp_volumes": [],

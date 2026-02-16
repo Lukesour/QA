@@ -372,6 +372,7 @@
         "owner",
         "updated_at",
         "tags",
+        "prepare_substage",
         "question_canonical",
         "question_aliases",
         "answer_short",
@@ -486,6 +487,16 @@
           "items": {
             "type": "string"
           }
+        },
+        "prepare_substage": {
+          "type": "string",
+          "enum": [
+            "适配诊断",
+            "先修补齐",
+            "证据工程",
+            "风险闸门",
+            "不适用"
+          ]
         },
         "question_canonical": {
           "type": "string",
@@ -1054,6 +1065,7 @@
         "owner",
         "updated_at",
         "tags",
+        "prepare_substage",
         "question_canonical",
         "question_aliases",
         "answer_short",
@@ -1141,6 +1153,16 @@
           "items": {
             "type": "string"
           }
+        },
+        "prepare_substage": {
+          "type": "string",
+          "enum": [
+            "适配诊断",
+            "先修补齐",
+            "证据工程",
+            "风险闸门",
+            "不适用"
+          ]
         },
         "question_canonical": {
           "type": "string"

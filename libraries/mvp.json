@@ -10,7 +10,7 @@
           "id": "MVP-V01-01",
           "title": "授课型硕士定义、边界与常见误区",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -145,7 +145,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -158,7 +158,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-05"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.75,
           "review_log": [
@@ -176,8 +178,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": null,
           "next_chapter_id": "MVP-V01-02",
           "persona_profile": {
@@ -251,13 +253,14 @@
           },
           "next_if_stable": "MVP-V01-02",
           "next_if_accelerate": "MVP-V01-02",
-          "next_if_risk": "MVP-V01-02"
+          "next_if_risk": "MVP-V01-02",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V01-02",
           "title": "授课型 vs 研究型 vs MBA/PGDip：目标与产出比较",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -400,7 +403,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -413,7 +416,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-04"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -431,8 +436,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V01-01",
           "next_chapter_id": "MVP-V01-03",
           "persona_profile": {
@@ -506,13 +511,14 @@
           },
           "next_if_stable": "MVP-V01-03",
           "next_if_accelerate": "MVP-V01-03",
-          "next_if_risk": "MVP-V01-01"
+          "next_if_risk": "MVP-V01-01",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V01-03",
           "title": "适配人群判断：应届、转专业、工作党三类路径",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -651,7 +657,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -664,7 +670,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-03"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -682,8 +690,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V01-02",
           "next_chapter_id": "MVP-V01-04",
           "persona_profile": {
@@ -757,13 +765,14 @@
           },
           "next_if_stable": "MVP-V01-04",
           "next_if_accelerate": "MVP-V01-04",
-          "next_if_risk": "MVP-V01-02"
+          "next_if_risk": "MVP-V01-02",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V01-04",
           "title": "不适配人群与止损信号：什么情况下不建议申请",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -899,7 +908,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -912,7 +921,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-02"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -930,8 +941,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V01-03",
           "next_chapter_id": "MVP-V01-05",
           "persona_profile": {
@@ -1005,13 +1016,14 @@
           },
           "next_if_stable": "MVP-V01-05",
           "next_if_accelerate": "MVP-V01-05",
-          "next_if_risk": "MVP-V01-03"
+          "next_if_risk": "MVP-V01-03",
+          "prepare_substage": "风险闸门"
         },
         {
           "id": "MVP-V01-05",
           "title": "留学目标拆解：学历、就业、移民、行业转轨优先级",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -1150,7 +1162,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -1163,7 +1175,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -1181,8 +1195,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V01-04",
           "next_chapter_id": "MVP-V01-06",
           "persona_profile": {
@@ -1256,13 +1270,14 @@
           },
           "next_if_stable": "MVP-V01-06",
           "next_if_accelerate": "MVP-V01-06",
-          "next_if_risk": "MVP-V01-04"
+          "next_if_risk": "MVP-V01-04",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V01-06",
           "title": "决策模型搭建：兴趣-能力-成本-回报四象限",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -1401,7 +1416,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -1414,7 +1429,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.75,
           "review_log": [
@@ -1432,8 +1449,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V01-05",
           "next_chapter_id": "MVP-V02-01",
           "persona_profile": {
@@ -1507,7 +1524,8 @@
           },
           "next_if_stable": "MVP-V02-01",
           "next_if_accelerate": "MVP-V02-01",
-          "next_if_risk": "MVP-V01-05"
+          "next_if_risk": "MVP-V01-05",
+          "prepare_substage": "先修补齐"
         }
       ],
       "appendix_reserved": [],
@@ -1521,7 +1539,7 @@
           "id": "MVP-V02-01",
           "title": "全球主流地区授课型硕士全景对比框架",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -1657,7 +1675,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -1670,7 +1688,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.75,
           "review_log": [
@@ -1688,8 +1708,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V01-06",
           "next_chapter_id": "MVP-V02-02",
           "persona_profile": {
@@ -1763,13 +1783,14 @@
           },
           "next_if_stable": "MVP-V02-02",
           "next_if_accelerate": "MVP-V02-02",
-          "next_if_risk": "MVP-V01-06"
+          "next_if_risk": "MVP-V01-06",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V02-02",
           "title": "申请季与截止机制：滚动录取、分轮次、硬截止",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -1907,7 +1928,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -1920,7 +1941,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-26"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -1938,8 +1961,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V02-01",
           "next_chapter_id": "MVP-V02-03",
           "persona_profile": {
@@ -2013,13 +2036,14 @@
           },
           "next_if_stable": "MVP-V02-03",
           "next_if_accelerate": "MVP-V02-03",
-          "next_if_risk": "MVP-V02-01"
+          "next_if_risk": "MVP-V02-01",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V02-03",
           "title": "学制与学分体系对比：1年、1.5年、2年如何选",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -2157,7 +2181,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -2170,7 +2194,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-25"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.75,
           "review_log": [
@@ -2188,8 +2214,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V02-02",
           "next_chapter_id": "MVP-V02-04",
           "persona_profile": {
@@ -2263,13 +2289,14 @@
           },
           "next_if_stable": "MVP-V02-04",
           "next_if_accelerate": "MVP-V02-04",
-          "next_if_risk": "MVP-V02-02"
+          "next_if_risk": "MVP-V02-02",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V02-04",
           "title": "总成本对比：学费、生活费、隐性成本与汇率风险",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -2447,7 +2474,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -2460,7 +2487,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-24"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 10,
           "confidence_score": 0.7,
           "review_log": [
@@ -2478,8 +2507,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V02-03",
           "next_chapter_id": "MVP-V02-05",
           "persona_profile": {
@@ -2553,13 +2582,14 @@
           },
           "next_if_stable": "MVP-V02-05",
           "next_if_accelerate": "MVP-V02-05",
-          "next_if_risk": "MVP-V02-03"
+          "next_if_risk": "MVP-V02-03",
+          "prepare_substage": "风险闸门"
         },
         {
           "id": "MVP-V02-05",
           "title": "签证与毕业工签路径基础对比",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -2704,7 +2734,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [
             {
@@ -2737,7 +2767,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-23"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.51,
           "review_log": [
@@ -2755,8 +2787,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V02-04",
           "next_chapter_id": "MVP-V02-06",
           "persona_profile": {
@@ -2830,13 +2862,14 @@
           },
           "next_if_stable": "MVP-V02-06",
           "next_if_accelerate": "MVP-V02-06",
-          "next_if_risk": "MVP-V02-04"
+          "next_if_risk": "MVP-V02-04",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V02-06",
           "title": "地域就业机会对比：行业分布与城市聚集",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -2972,7 +3005,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -2985,7 +3018,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-22"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.75,
           "review_log": [
@@ -3003,8 +3038,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V02-05",
           "next_chapter_id": "MVP-V03-01",
           "persona_profile": {
@@ -3078,7 +3113,8 @@
           },
           "next_if_stable": "MVP-V03-01",
           "next_if_accelerate": "MVP-V03-01",
-          "next_if_risk": "MVP-V02-05"
+          "next_if_risk": "MVP-V02-05",
+          "prepare_substage": "适配诊断"
         }
       ],
       "appendix_reserved": [],
@@ -3092,7 +3128,7 @@
           "id": "MVP-V03-01",
           "title": "专业大类地图与岗位出口总览",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -3227,7 +3263,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -3240,7 +3276,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-21"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.75,
           "review_log": [
@@ -3258,8 +3296,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V02-06",
           "next_chapter_id": "MVP-V03-02",
           "persona_profile": {
@@ -3333,13 +3371,14 @@
           },
           "next_if_stable": "MVP-V03-02",
           "next_if_accelerate": "MVP-V03-02",
-          "next_if_risk": "MVP-V02-06"
+          "next_if_risk": "MVP-V02-06",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V03-02",
           "title": "本科背景到硕士方向映射表（同申/跨申）",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -3476,7 +3515,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -3489,7 +3528,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-20"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -3507,8 +3548,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V03-01",
           "next_chapter_id": "MVP-V03-03",
           "persona_profile": {
@@ -3582,13 +3623,14 @@
           },
           "next_if_stable": "MVP-V03-03",
           "next_if_accelerate": "MVP-V03-03",
-          "next_if_risk": "MVP-V03-01"
+          "next_if_risk": "MVP-V03-01",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V03-03",
           "title": "转专业可行性分级：低中高门槛判断",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -3724,7 +3766,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -3737,7 +3779,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-19"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -3755,8 +3799,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V03-02",
           "next_chapter_id": "MVP-V03-04",
           "persona_profile": {
@@ -3830,13 +3874,14 @@
           },
           "next_if_stable": "MVP-V03-04",
           "next_if_accelerate": "MVP-V03-04",
-          "next_if_risk": "MVP-V03-02"
+          "next_if_risk": "MVP-V03-02",
+          "prepare_substage": "先修补齐"
         },
         {
           "id": "MVP-V03-04",
           "title": "先修课与能力补足：数学/编程/写作三类缺口",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -3974,7 +4019,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -3987,7 +4032,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-18"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -4005,8 +4052,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V03-03",
           "next_chapter_id": "MVP-V03-05",
           "persona_profile": {
@@ -4080,13 +4127,14 @@
           },
           "next_if_stable": "MVP-V03-05",
           "next_if_accelerate": "MVP-V03-05",
-          "next_if_risk": "MVP-V03-03"
+          "next_if_risk": "MVP-V03-03",
+          "prepare_substage": "先修补齐"
         },
         {
           "id": "MVP-V03-05",
           "title": "课程结构解读：Core/Elective/Capstone/Dissertation",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -4226,7 +4274,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -4239,7 +4287,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-17"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -4257,8 +4307,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V03-04",
           "next_chapter_id": "MVP-V03-06",
           "persona_profile": {
@@ -4332,13 +4382,14 @@
           },
           "next_if_stable": "MVP-V03-06",
           "next_if_accelerate": "MVP-V03-06",
-          "next_if_risk": "MVP-V03-04"
+          "next_if_risk": "MVP-V03-04",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V03-06",
           "title": "热门专业陷阱：热度、门槛、就业错配识别",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -4476,7 +4527,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -4489,7 +4540,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-04-02"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -4507,8 +4560,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V03-05",
           "next_chapter_id": "MVP-V04-01",
           "persona_profile": {
@@ -4582,7 +4635,8 @@
           },
           "next_if_stable": "MVP-V04-01",
           "next_if_accelerate": "MVP-V04-01",
-          "next_if_risk": "MVP-V03-05"
+          "next_if_risk": "MVP-V03-05",
+          "prepare_substage": "风险闸门"
         }
       ],
       "appendix_reserved": [],
@@ -4596,7 +4650,7 @@
           "id": "MVP-V04-01",
           "title": "排名的正确用法：综合排名、专排与雇主口碑",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -4733,7 +4787,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -4746,7 +4800,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-04-01"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -4764,8 +4820,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V03-06",
           "next_chapter_id": "MVP-V04-02",
           "persona_profile": {
@@ -4839,13 +4895,14 @@
           },
           "next_if_stable": "MVP-V04-02",
           "next_if_accelerate": "MVP-V04-02",
-          "next_if_risk": "MVP-V03-06"
+          "next_if_risk": "MVP-V03-06",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V04-02",
           "title": "项目质量评估模型：课程、师资、地理、就业",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -4984,7 +5041,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -4997,7 +5054,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-31"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.75,
           "review_log": [
@@ -5015,8 +5074,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V04-01",
           "next_chapter_id": "MVP-V04-03",
           "persona_profile": {
@@ -5090,13 +5149,14 @@
           },
           "next_if_stable": "MVP-V04-03",
           "next_if_accelerate": "MVP-V04-03",
-          "next_if_risk": "MVP-V04-01"
+          "next_if_risk": "MVP-V04-01",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V04-03",
           "title": "冲稳保组合策略：样本比例与风险控制",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -5232,7 +5292,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -5245,7 +5305,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-30"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -5263,8 +5325,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V04-02",
           "next_chapter_id": "MVP-V04-04",
           "persona_profile": {
@@ -5338,13 +5400,14 @@
           },
           "next_if_stable": "MVP-V04-04",
           "next_if_accelerate": "MVP-V04-04",
-          "next_if_risk": "MVP-V04-02"
+          "next_if_risk": "MVP-V04-02",
+          "prepare_substage": "风险闸门"
         },
         {
           "id": "MVP-V04-04",
           "title": "海投 vs 精准投递：效率与命中率平衡",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -5482,7 +5545,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -5495,7 +5558,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-29"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -5513,8 +5578,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V04-03",
           "next_chapter_id": "MVP-V04-05",
           "persona_profile": {
@@ -5588,13 +5653,14 @@
           },
           "next_if_stable": "MVP-V04-05",
           "next_if_accelerate": "MVP-V04-05",
-          "next_if_risk": "MVP-V04-03"
+          "next_if_risk": "MVP-V04-03",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V04-05",
           "title": "项目录取偏好拆解：均分、院校、实习、科研",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -5733,7 +5799,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -5746,7 +5812,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-28"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -5764,8 +5832,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V04-04",
           "next_chapter_id": "MVP-V04-06",
           "persona_profile": {
@@ -5839,13 +5907,14 @@
           },
           "next_if_stable": "MVP-V04-06",
           "next_if_accelerate": "MVP-V04-06",
-          "next_if_risk": "MVP-V04-04"
+          "next_if_risk": "MVP-V04-04",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V04-06",
           "title": "个人选校评分卡搭建与清单收敛",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_strategy",
           "updated_at": "2026-02-16",
@@ -5983,7 +6052,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_strategy",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -5996,7 +6065,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-27"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.75,
           "review_log": [
@@ -6014,8 +6085,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V04-05",
           "next_chapter_id": "MVP-V05-01",
           "persona_profile": {
@@ -6089,7 +6160,8 @@
           },
           "next_if_stable": "MVP-V05-01",
           "next_if_accelerate": "MVP-V05-01",
-          "next_if_risk": "MVP-V04-05"
+          "next_if_risk": "MVP-V04-05",
+          "prepare_substage": "证据工程"
         }
       ],
       "appendix_reserved": [],
@@ -6103,7 +6175,7 @@
           "id": "MVP-V05-01",
           "title": "专业前准备总任务板：T-18到T-0主线里程碑",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -6247,7 +6319,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -6260,7 +6332,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-19"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -6278,8 +6352,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V04-06",
           "next_chapter_id": "MVP-V05-02",
           "persona_profile": {
@@ -6353,13 +6427,14 @@
           },
           "next_if_stable": "MVP-V05-02",
           "next_if_accelerate": "MVP-V05-02",
-          "next_if_risk": "MVP-V04-06"
+          "next_if_risk": "MVP-V04-06",
+          "prepare_substage": "先修补齐"
         },
         {
           "id": "MVP-V05-02",
           "title": "语言考试排期：首考、二刷与送分窗口",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -6541,7 +6616,7 @@
             "个人首考/二刷计划表"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -6554,7 +6629,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-18"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 11,
           "confidence_score": 0.67,
           "review_log": [
@@ -6572,8 +6649,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V05-01",
           "next_chapter_id": "MVP-V05-03",
           "persona_profile": {
@@ -6647,13 +6724,14 @@
           },
           "next_if_stable": "MVP-V05-03",
           "next_if_accelerate": "MVP-V05-03",
-          "next_if_risk": "MVP-V05-01"
+          "next_if_risk": "MVP-V05-01",
+          "prepare_substage": "先修补齐"
         },
         {
           "id": "MVP-V05-03",
           "title": "GRE/GMAT排期与止损策略",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -6830,7 +6908,7 @@
             "重考止损线"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -6843,7 +6921,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-17"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 10,
           "confidence_score": 0.67,
           "review_log": [
@@ -6861,8 +6941,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V05-02",
           "next_chapter_id": "MVP-V05-04",
           "persona_profile": {
@@ -6936,13 +7016,14 @@
           },
           "next_if_stable": "MVP-V05-04",
           "next_if_accelerate": "MVP-V05-04",
-          "next_if_risk": "MVP-V05-02"
+          "next_if_risk": "MVP-V05-02",
+          "prepare_substage": "风险闸门"
         },
         {
           "id": "MVP-V05-04",
           "title": "背景提升排期：实习/科研/项目/竞赛",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -7081,7 +7162,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -7094,7 +7175,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-04-02"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -7112,8 +7195,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V05-03",
           "next_chapter_id": "MVP-V05-05",
           "persona_profile": {
@@ -7187,13 +7270,14 @@
           },
           "next_if_stable": "MVP-V05-05",
           "next_if_accelerate": "MVP-V05-05",
-          "next_if_risk": "MVP-V05-03"
+          "next_if_risk": "MVP-V05-03",
+          "prepare_substage": "先修补齐"
         },
         {
           "id": "MVP-V05-05",
           "title": "文书前置准备排期：素材采集-证据建模-初稿启动",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -7335,7 +7419,7 @@
             "个人证据库链接"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -7348,7 +7432,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-21"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
@@ -7366,8 +7452,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V05-04",
           "next_chapter_id": "MVP-V05-06",
           "persona_profile": {
@@ -7441,13 +7527,14 @@
           },
           "next_if_stable": "MVP-V05-06",
           "next_if_accelerate": "MVP-V05-06",
-          "next_if_risk": "MVP-V05-04"
+          "next_if_risk": "MVP-V05-04",
+          "prepare_substage": "证据工程"
         },
         {
           "id": "MVP-V05-06",
           "title": "推荐信前置准备排期：推荐人筛选-素材包-风险备份",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -7591,7 +7678,7 @@
             "备份推荐人名单"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -7604,7 +7691,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-20"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 7,
           "confidence_score": 0.65,
           "review_log": [
@@ -7622,8 +7711,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V05-05",
           "next_chapter_id": "MVP-V05-07",
           "persona_profile": {
@@ -7697,13 +7786,14 @@
           },
           "next_if_stable": "MVP-V05-07",
           "next_if_accelerate": "MVP-V05-07",
-          "next_if_risk": "MVP-V05-05"
+          "next_if_risk": "MVP-V05-05",
+          "prepare_substage": "风险闸门"
         },
         {
           "id": "MVP-V05-07",
           "title": "分轮次投递策略：早申、常规轮、补录",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -7826,7 +7916,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -7839,7 +7929,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-19"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.65,
           "review_log": [
@@ -7857,8 +7949,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V05-06",
           "next_chapter_id": "MVP-V05-08",
           "persona_profile": {
@@ -7930,13 +8022,14 @@
           },
           "next_if_stable": "MVP-V05-08",
           "next_if_accelerate": "MVP-V05-08",
-          "next_if_risk": "MVP-V05-06"
+          "next_if_risk": "MVP-V05-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V05-08",
           "title": "Offer后排期：押金、签证、住宿与行前节点",
           "phase": "录取",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -8049,7 +8142,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [
             {
@@ -8082,7 +8175,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -8100,8 +8195,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V05-07",
           "next_chapter_id": "MVP-V10-01",
           "persona_profile": {
@@ -8173,7 +8268,8 @@
           },
           "next_if_stable": "MVP-V10-01",
           "next_if_accelerate": "MVP-V10-01",
-          "next_if_risk": "MVP-V05-07"
+          "next_if_risk": "MVP-V05-07",
+          "prepare_substage": "不适用"
         }
       ],
       "appendix_reserved": [],
@@ -8187,7 +8283,7 @@
           "id": "MVP-V06-01",
           "title": "IELTS/TOEFL/PTE/Duolingo适配与选择",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -8372,7 +8468,7 @@
             "换考触发条件"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -8385,7 +8481,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-30"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 11,
           "confidence_score": 0.67,
           "review_log": [
@@ -8403,8 +8501,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": null,
           "next_chapter_id": "MVP-V06-02",
           "persona_profile": {
@@ -8478,13 +8576,14 @@
           },
           "next_if_stable": "MVP-V06-02",
           "next_if_accelerate": "MVP-V06-02",
-          "next_if_risk": "MVP-V06-02"
+          "next_if_risk": "MVP-V06-02",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V06-02",
           "title": "最低分与竞争分：目标分设定方法",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -8620,7 +8719,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -8633,7 +8732,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-29"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.75,
           "review_log": [
@@ -8651,8 +8752,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V06-01",
           "next_chapter_id": "MVP-V06-03",
           "persona_profile": {
@@ -8726,13 +8827,14 @@
           },
           "next_if_stable": "MVP-V06-03",
           "next_if_accelerate": "MVP-V06-03",
-          "next_if_risk": "MVP-V06-01"
+          "next_if_risk": "MVP-V06-01",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V06-03",
           "title": "小分要求与单项短板补救",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -8867,7 +8969,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -8880,7 +8982,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-28"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -8898,8 +9002,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V06-02",
           "next_chapter_id": "MVP-V06-04",
           "persona_profile": {
@@ -8973,13 +9077,14 @@
           },
           "next_if_stable": "MVP-V06-04",
           "next_if_accelerate": "MVP-V06-04",
-          "next_if_risk": "MVP-V06-02"
+          "next_if_risk": "MVP-V06-02",
+          "prepare_substage": "先修补齐"
         },
         {
           "id": "MVP-V06-04",
           "title": "拼分、豁免与有效期规则汇总",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -9124,7 +9229,7 @@
             "项目级成绩有效期截止日"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -9137,7 +9242,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-27"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 7,
           "confidence_score": 0.67,
           "review_log": [
@@ -9155,8 +9262,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V06-03",
           "next_chapter_id": "MVP-V06-05",
           "persona_profile": {
@@ -9230,13 +9337,14 @@
           },
           "next_if_stable": "MVP-V06-05",
           "next_if_accelerate": "MVP-V06-05",
-          "next_if_risk": "MVP-V06-03"
+          "next_if_risk": "MVP-V06-03",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V06-05",
           "title": "背景提升类型价值排序：实习、科研、证书、比赛",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -9375,7 +9483,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -9388,7 +9496,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-26"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -9406,8 +9516,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V06-04",
           "next_chapter_id": "MVP-V06-06",
           "persona_profile": {
@@ -9481,13 +9591,14 @@
           },
           "next_if_stable": "MVP-V06-06",
           "next_if_accelerate": "MVP-V06-06",
-          "next_if_risk": "MVP-V06-04"
+          "next_if_risk": "MVP-V06-04",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V06-06",
           "title": "短期提分与长期积累的组合打法",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -9622,7 +9733,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -9635,7 +9746,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-25"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -9653,8 +9766,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V06-05",
           "next_chapter_id": "MVP-V06-07",
           "persona_profile": {
@@ -9728,13 +9841,14 @@
           },
           "next_if_stable": "MVP-V06-07",
           "next_if_accelerate": "MVP-V06-07",
-          "next_if_risk": "MVP-V06-05"
+          "next_if_risk": "MVP-V06-05",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V06-07",
           "title": "无效努力识别：看起来努力但不增录取率的行为",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -9870,7 +9984,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -9883,7 +9997,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-24"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.67,
           "review_log": [
@@ -9901,8 +10017,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V06-06",
           "next_chapter_id": "MVP-V06-08",
           "persona_profile": {
@@ -9976,13 +10092,14 @@
           },
           "next_if_stable": "MVP-V06-08",
           "next_if_accelerate": "MVP-V06-08",
-          "next_if_risk": "MVP-V06-06"
+          "next_if_risk": "MVP-V06-06",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V06-08",
           "title": "成果证据化：可量化、可验证、可复述材料包",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -10109,7 +10226,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -10122,7 +10239,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.65,
           "review_log": [
@@ -10140,8 +10259,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V06-07",
           "next_chapter_id": "MVP-V07-01",
           "persona_profile": {
@@ -10213,7 +10332,8 @@
           },
           "next_if_stable": "MVP-V07-01",
           "next_if_accelerate": "MVP-V07-01",
-          "next_if_risk": "MVP-V06-07"
+          "next_if_risk": "MVP-V06-07",
+          "prepare_substage": "证据工程"
         }
       ],
       "appendix_reserved": [],
@@ -10227,7 +10347,7 @@
           "id": "MVP-V07-01",
           "title": "CV学术版与求职版双模板",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -10367,7 +10487,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -10380,7 +10500,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-18"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
@@ -10398,8 +10520,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V06-08",
           "next_chapter_id": "MVP-V07-02",
           "persona_profile": {
@@ -10471,13 +10593,14 @@
           },
           "next_if_stable": "MVP-V07-02",
           "next_if_accelerate": "MVP-V07-02",
-          "next_if_risk": "MVP-V06-08"
+          "next_if_risk": "MVP-V06-08",
+          "prepare_substage": "证据工程"
         },
         {
           "id": "MVP-V07-02",
           "title": "PS/SOP结构：动机-匹配-目标的叙事逻辑",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -10624,7 +10747,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -10637,7 +10760,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-14"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
@@ -10655,8 +10780,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V07-01",
           "next_chapter_id": "MVP-V07-03",
           "persona_profile": {
@@ -10728,13 +10853,14 @@
           },
           "next_if_stable": "MVP-V07-03",
           "next_if_accelerate": "MVP-V07-03",
-          "next_if_risk": "MVP-V07-01"
+          "next_if_risk": "MVP-V07-01",
+          "prepare_substage": "证据工程"
         },
         {
           "id": "MVP-V07-03",
           "title": "PS常见逻辑错误与修正清单",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -10876,7 +11002,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -10889,7 +11015,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-13"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
@@ -10907,8 +11035,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V07-02",
           "next_chapter_id": "MVP-V07-04",
           "persona_profile": {
@@ -10980,13 +11108,14 @@
           },
           "next_if_stable": "MVP-V07-04",
           "next_if_accelerate": "MVP-V07-04",
-          "next_if_risk": "MVP-V07-02"
+          "next_if_risk": "MVP-V07-02",
+          "prepare_substage": "证据工程"
         },
         {
           "id": "MVP-V07-04",
           "title": "推荐人选择：学术/职业组合策略",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -11128,7 +11257,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -11141,7 +11270,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-12"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
@@ -11159,8 +11290,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V07-03",
           "next_chapter_id": "MVP-V07-05",
           "persona_profile": {
@@ -11232,13 +11363,14 @@
           },
           "next_if_stable": "MVP-V07-05",
           "next_if_accelerate": "MVP-V07-05",
-          "next_if_risk": "MVP-V07-03"
+          "next_if_risk": "MVP-V07-03",
+          "prepare_substage": "证据工程"
         },
         {
           "id": "MVP-V07-05",
           "title": "推荐信沟通包：素材包、时间表、提醒模板",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -11369,7 +11501,7 @@
             "推荐人备选名单"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -11382,7 +11514,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-11"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.65,
           "review_log": [
@@ -11400,8 +11534,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V07-04",
           "next_chapter_id": "MVP-V07-06",
           "persona_profile": {
@@ -11473,13 +11607,14 @@
           },
           "next_if_stable": "MVP-V07-06",
           "next_if_accelerate": "MVP-V07-06",
-          "next_if_risk": "MVP-V07-04"
+          "next_if_risk": "MVP-V07-04",
+          "prepare_substage": "证据工程"
         },
         {
           "id": "MVP-V07-06",
           "title": "Writing Sample/Research Proposal基础写法",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -11619,7 +11754,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -11632,7 +11767,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-10"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
@@ -11650,8 +11787,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V07-05",
           "next_chapter_id": "MVP-V07-07",
           "persona_profile": {
@@ -11723,13 +11860,14 @@
           },
           "next_if_stable": "MVP-V07-07",
           "next_if_accelerate": "MVP-V07-07",
-          "next_if_risk": "MVP-V07-05"
+          "next_if_risk": "MVP-V07-05",
+          "prepare_substage": "证据工程"
         },
         {
           "id": "MVP-V07-07",
           "title": "作品集框架：设计/建筑/艺术项目展示逻辑",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -11869,7 +12007,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -11882,7 +12020,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-09"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
@@ -11900,8 +12040,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V07-06",
           "next_chapter_id": "MVP-V07-08",
           "persona_profile": {
@@ -11973,13 +12113,14 @@
           },
           "next_if_stable": "MVP-V07-08",
           "next_if_accelerate": "MVP-V07-08",
-          "next_if_risk": "MVP-V07-06"
+          "next_if_risk": "MVP-V07-06",
+          "prepare_substage": "证据工程"
         },
         {
           "id": "MVP-V07-08",
           "title": "材料一致性校验：CV-文书-推荐信对齐检查",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -12127,7 +12268,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -12140,7 +12281,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-08"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
@@ -12158,8 +12301,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V07-07",
           "next_chapter_id": "MVP-V08-01",
           "persona_profile": {
@@ -12231,7 +12374,8 @@
           },
           "next_if_stable": "MVP-V08-01",
           "next_if_accelerate": "MVP-V08-01",
-          "next_if_risk": "MVP-V07-07"
+          "next_if_risk": "MVP-V07-07",
+          "prepare_substage": "证据工程"
         }
       ],
       "appendix_reserved": [],
@@ -12245,7 +12389,7 @@
           "id": "MVP-V08-01",
           "title": "网申系统预填准备：字段资产库与版本控制",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -12403,7 +12547,7 @@
             "唯一真值表链接"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -12416,7 +12560,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 8,
           "confidence_score": 0.65,
           "review_log": [
@@ -12434,8 +12580,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V07-08",
           "next_chapter_id": "MVP-V08-02",
           "persona_profile": {
@@ -12509,13 +12655,14 @@
           },
           "next_if_stable": "MVP-V08-02",
           "next_if_accelerate": "MVP-V08-02",
-          "next_if_risk": "MVP-V07-08"
+          "next_if_risk": "MVP-V07-08",
+          "prepare_substage": "证据工程"
         },
         {
           "id": "MVP-V08-02",
           "title": "网申材料规范：成绩单、在读证明、认证文件提交流程",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -12697,7 +12844,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [
             {
@@ -12730,7 +12877,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-02"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 10,
           "confidence_score": 0.51,
           "review_log": [
@@ -12748,8 +12897,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V08-01",
           "next_chapter_id": "MVP-V08-03",
           "persona_profile": {
@@ -12823,13 +12972,14 @@
           },
           "next_if_stable": "MVP-V08-03",
           "next_if_accelerate": "MVP-V08-03",
-          "next_if_risk": "MVP-V08-01"
+          "next_if_risk": "MVP-V08-01",
+          "prepare_substage": "证据工程"
         },
         {
           "id": "MVP-V08-03",
           "title": "推荐信系统追踪：未提交提醒与应急方案",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -13006,7 +13156,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -13019,7 +13169,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-25"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 10,
           "confidence_score": 0.65,
           "review_log": [
@@ -13037,8 +13189,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V08-02",
           "next_chapter_id": "MVP-V08-04",
           "persona_profile": {
@@ -13112,13 +13264,14 @@
           },
           "next_if_stable": "MVP-V08-04",
           "next_if_accelerate": "MVP-V08-04",
-          "next_if_risk": "MVP-V08-02"
+          "next_if_risk": "MVP-V08-02",
+          "prepare_substage": "证据工程"
         },
         {
           "id": "MVP-V08-04",
           "title": "面试前置训练：Kira/Zoom/真人面试节奏设计",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -13269,7 +13422,7 @@
             "模拟复盘记录"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -13282,7 +13435,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-24"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 7,
           "confidence_score": 0.65,
           "review_log": [
@@ -13300,8 +13455,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V08-03",
           "next_chapter_id": "MVP-V08-05",
           "persona_profile": {
@@ -13375,13 +13530,14 @@
           },
           "next_if_stable": "MVP-V08-05",
           "next_if_accelerate": "MVP-V08-05",
-          "next_if_risk": "MVP-V08-03"
+          "next_if_risk": "MVP-V08-03",
+          "prepare_substage": "证据工程"
         },
         {
           "id": "MVP-V08-05",
           "title": "面试题库预热：STAR故事库搭建与打分标准",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -13540,7 +13696,7 @@
             "STAR训练记录"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -13553,7 +13709,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-23"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 8,
           "confidence_score": 0.65,
           "review_log": [
@@ -13571,8 +13729,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V08-04",
           "next_chapter_id": "MVP-V08-06",
           "persona_profile": {
@@ -13646,13 +13804,14 @@
           },
           "next_if_stable": "MVP-V08-06",
           "next_if_accelerate": "MVP-V08-06",
-          "next_if_risk": "MVP-V08-04"
+          "next_if_risk": "MVP-V08-04",
+          "prepare_substage": "证据工程"
         },
         {
           "id": "MVP-V08-06",
           "title": "补件、催审、申诉与拒信复盘流程",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_application",
           "updated_at": "2026-02-16",
@@ -13778,7 +13937,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_application",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -13791,7 +13950,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-22"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.65,
           "review_log": [
@@ -13809,8 +13970,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V08-05",
           "next_chapter_id": "MVP-V09-01",
           "persona_profile": {
@@ -13882,7 +14043,8 @@
           },
           "next_if_stable": "MVP-V09-01",
           "next_if_accelerate": "MVP-V09-01",
-          "next_if_risk": "MVP-V08-05"
+          "next_if_risk": "MVP-V08-05",
+          "prepare_substage": "不适用"
         }
       ],
       "appendix_reserved": [],
@@ -13896,7 +14058,7 @@
           "id": "MVP-V09-01",
           "title": "Offer类型与条件解读：Con/Uncon/Waitlist",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -14021,7 +14183,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -14034,7 +14196,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-08"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.65,
           "review_log": [
@@ -14052,8 +14216,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V08-06",
           "next_chapter_id": "MVP-V09-02",
           "persona_profile": {
@@ -14125,13 +14289,14 @@
           },
           "next_if_stable": "MVP-V09-02",
           "next_if_accelerate": "MVP-V09-02",
-          "next_if_risk": "MVP-V08-06"
+          "next_if_risk": "MVP-V08-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V09-02",
           "title": "押金、退款、延期条款风险清单",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -14266,7 +14431,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -14279,7 +14444,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-07"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.65,
           "review_log": [
@@ -14297,8 +14464,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V09-01",
           "next_chapter_id": "MVP-V09-03",
           "persona_profile": {
@@ -14370,13 +14537,14 @@
           },
           "next_if_stable": "MVP-V09-03",
           "next_if_accelerate": "MVP-V09-03",
-          "next_if_risk": "MVP-V09-01"
+          "next_if_risk": "MVP-V09-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V09-03",
           "title": "多Offer决策模型：ROI+风险+匹配度",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -14504,7 +14672,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -14517,7 +14685,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-06"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.65,
           "review_log": [
@@ -14535,8 +14705,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V09-02",
           "next_chapter_id": "MVP-V09-04",
           "persona_profile": {
@@ -14608,13 +14778,14 @@
           },
           "next_if_stable": "MVP-V09-04",
           "next_if_accelerate": "MVP-V09-04",
-          "next_if_risk": "MVP-V09-02"
+          "next_if_risk": "MVP-V09-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V09-04",
           "title": "留学总成本模型：学费+生活费+隐性成本",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -14624,7 +14795,6 @@
             "volume:V09",
             "scope_type:global",
             "focus:专业前准备",
-            "prepare_substage:先修补齐",
             "phase:申请"
           ],
           "question_canonical": "作为GPA偏低但项目经历扎实的申请者，我在「申请」阶段遇到「留学总成本模型：学费+生活费+隐性成本」卡点，先做什么最稳？",
@@ -14750,7 +14920,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -14763,7 +14933,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-05"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.62,
           "review_log": [
@@ -14781,8 +14953,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V09-03",
           "next_chapter_id": "MVP-V09-05",
           "persona_profile": {
@@ -14856,13 +15028,14 @@
           },
           "next_if_stable": "MVP-V09-05",
           "next_if_accelerate": "MVP-V09-05",
-          "next_if_risk": "MVP-V09-05"
+          "next_if_risk": "MVP-V09-05",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V09-05",
           "title": "家庭资金证明：存款时点、流水与口径",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -14872,7 +15045,6 @@
             "volume:V09",
             "scope_type:global",
             "focus:专业前准备",
-            "prepare_substage:先修补齐",
             "phase:申请"
           ],
           "question_canonical": "作为刚进入申请季的应届申请者，我在「申请」阶段遇到「家庭资金证明：存款时点、流水与口径」卡点，先做什么最稳？",
@@ -15006,7 +15178,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [
             {
@@ -15039,7 +15211,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-26"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.51,
           "review_log": [
@@ -15057,8 +15231,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V09-04",
           "next_chapter_id": "MVP-V09-07",
           "persona_profile": {
@@ -15132,13 +15306,14 @@
           },
           "next_if_stable": "MVP-V09-07",
           "next_if_accelerate": "MVP-V09-07",
-          "next_if_risk": "MVP-V09-04"
+          "next_if_risk": "MVP-V09-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V09-06",
           "title": "奖学金前置规划：类型、窗口与命中策略",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -15296,7 +15471,7 @@
             "奖学金结果发布时间"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -15309,7 +15484,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-03"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 8,
           "confidence_score": 0.65,
           "review_log": [
@@ -15327,8 +15504,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": null,
           "next_chapter_id": "MVP-V09-07",
           "persona_profile": {
@@ -15402,13 +15579,14 @@
           },
           "next_if_stable": "MVP-V09-07",
           "next_if_accelerate": "MVP-V09-07",
-          "next_if_risk": "MVP-V09-07"
+          "next_if_risk": "MVP-V09-07",
+          "prepare_substage": "适配诊断"
         },
         {
           "id": "MVP-V09-07",
           "title": "教育贷款、汇率风险与支付路径",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -15418,7 +15596,6 @@
             "volume:V09",
             "scope_type:global",
             "focus:专业前准备",
-            "prepare_substage:风险闸门",
             "phase:申请"
           ],
           "question_canonical": "作为GPA偏低但项目经历扎实的申请者，我在「申请」阶段遇到「教育贷款、汇率风险与支付路径」卡点，先做什么最稳？",
@@ -15582,7 +15759,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -15595,7 +15772,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-02"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 10,
           "confidence_score": 0.62,
           "review_log": [
@@ -15613,8 +15792,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V09-05",
           "next_chapter_id": "MVP-V09-08",
           "persona_profile": {
@@ -15688,13 +15867,14 @@
           },
           "next_if_stable": "MVP-V09-08",
           "next_if_accelerate": "MVP-V09-08",
-          "next_if_risk": "MVP-V09-06"
+          "next_if_risk": "MVP-V09-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V09-08",
           "title": "家庭预算沟通模板：冲突场景与协商流程",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -15819,7 +15999,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -15832,7 +16012,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 5,
           "confidence_score": 0.62,
           "review_log": [
@@ -15850,8 +16032,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V09-07",
           "next_chapter_id": "MVP-V10-01",
           "persona_profile": {
@@ -15923,7 +16105,8 @@
           },
           "next_if_stable": "MVP-V10-01",
           "next_if_accelerate": "MVP-V10-01",
-          "next_if_risk": "MVP-V09-07"
+          "next_if_risk": "MVP-V09-07",
+          "prepare_substage": "不适用"
         }
       ],
       "appendix_reserved": [],
@@ -15937,7 +16120,7 @@
           "id": "MVP-V10-01",
           "title": "学签申请全流程与材料总清单",
           "phase": "签证",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -16037,7 +16220,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -16050,7 +16233,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-06"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -16068,8 +16253,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V05-08",
           "next_chapter_id": "MVP-V10-02",
           "persona_profile": {
@@ -16141,13 +16326,14 @@
           },
           "next_if_stable": "MVP-V10-02",
           "next_if_accelerate": "MVP-V10-02",
-          "next_if_risk": "MVP-V09-08"
+          "next_if_risk": "MVP-V09-08",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V10-02",
           "title": "拒签高频原因与补救路径",
           "phase": "签证",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -16249,7 +16435,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -16262,7 +16448,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-05"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -16280,8 +16468,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V10-01",
           "next_chapter_id": "MVP-V10-03",
           "persona_profile": {
@@ -16353,13 +16541,14 @@
           },
           "next_if_stable": "MVP-V10-03",
           "next_if_accelerate": "MVP-V10-03",
-          "next_if_risk": "MVP-V10-01"
+          "next_if_risk": "MVP-V10-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V10-03",
           "title": "体检、保险、无犯罪记录办理逻辑",
           "phase": "签证",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -16463,7 +16652,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -16476,7 +16665,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-04"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -16494,8 +16685,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V10-02",
           "next_chapter_id": "MVP-V10-04",
           "persona_profile": {
@@ -16567,13 +16758,14 @@
           },
           "next_if_stable": "MVP-V10-04",
           "next_if_accelerate": "MVP-V10-04",
-          "next_if_risk": "MVP-V10-02"
+          "next_if_risk": "MVP-V10-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V10-04",
           "title": "住宿选择：校内/校外与合同风险控制",
           "phase": "行前",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -16679,7 +16871,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -16692,7 +16884,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-20"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -16710,8 +16904,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V10-03",
           "next_chapter_id": "MVP-V10-05",
           "persona_profile": {
@@ -16783,13 +16977,14 @@
           },
           "next_if_stable": "MVP-V10-05",
           "next_if_accelerate": "MVP-V10-05",
-          "next_if_risk": "MVP-V10-03"
+          "next_if_risk": "MVP-V10-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V10-05",
           "title": "行李与药品清单：必带、慎带、禁带",
           "phase": "行前",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -16894,7 +17089,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -16907,7 +17102,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-19"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.73,
           "review_log": [
@@ -16925,8 +17122,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V10-04",
           "next_chapter_id": "MVP-V10-06",
           "persona_profile": {
@@ -16998,13 +17195,14 @@
           },
           "next_if_stable": "MVP-V10-06",
           "next_if_accelerate": "MVP-V10-06",
-          "next_if_risk": "MVP-V10-04"
+          "next_if_risk": "MVP-V10-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V10-06",
           "title": "抵达首周任务：开卡、电话卡、交通卡、税号",
           "phase": "行前",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -17110,7 +17308,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -17123,7 +17321,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-18"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -17141,8 +17341,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V10-05",
           "next_chapter_id": "MVP-V10-07",
           "persona_profile": {
@@ -17214,13 +17414,14 @@
           },
           "next_if_stable": "MVP-V10-07",
           "next_if_accelerate": "MVP-V10-07",
-          "next_if_risk": "MVP-V10-05"
+          "next_if_risk": "MVP-V10-05",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V10-07",
           "title": "学校报到与系统激活：注册、选课、校园账号",
           "phase": "行前",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -17327,7 +17528,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -17340,7 +17541,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-17"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -17358,8 +17561,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V10-06",
           "next_chapter_id": "MVP-V10-08",
           "persona_profile": {
@@ -17431,13 +17634,14 @@
           },
           "next_if_stable": "MVP-V10-08",
           "next_if_accelerate": "MVP-V10-08",
-          "next_if_risk": "MVP-V10-06"
+          "next_if_risk": "MVP-V10-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V10-08",
           "title": "合规底线：打工时长、出勤率、签证状态维护",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -17548,7 +17752,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [
             {
@@ -17581,7 +17785,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-03"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -17599,8 +17805,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V10-07",
           "next_chapter_id": "MVP-V11-01",
           "persona_profile": {
@@ -17672,13 +17878,14 @@
           },
           "next_if_stable": "MVP-V11-01",
           "next_if_accelerate": "MVP-V11-01",
-          "next_if_risk": "MVP-V10-07"
+          "next_if_risk": "MVP-V10-07",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V10-09",
           "title": "签证材料一致性核验：资金、录取、行程口径统一",
           "phase": "签证",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -17813,10 +18020,12 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-02"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.51,
-          "needs_human_review": false,
+          "needs_human_review": true,
           "review_log": [
             {
               "date": "2026-02-16",
@@ -17839,8 +18048,8 @@
             "院校特例"
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": null,
           "next_chapter_id": "MVP-V10-10",
           "persona_profile": {
@@ -17912,13 +18121,14 @@
           },
           "next_if_stable": "MVP-V10-10",
           "next_if_accelerate": "MVP-V10-10",
-          "next_if_risk": "MVP-V10-10"
+          "next_if_risk": "MVP-V10-10",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V10-10",
           "title": "生物信息采集与面签/面谈预约排期策略",
           "phase": "签证",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -18025,10 +18235,12 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-28"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
-          "needs_human_review": false,
+          "needs_human_review": true,
           "review_log": [
             {
               "date": "2026-02-16",
@@ -18050,8 +18262,8 @@
             "可量化结果"
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V10-09",
           "next_chapter_id": "MVP-V10-11",
           "persona_profile": {
@@ -18123,13 +18335,14 @@
           },
           "next_if_stable": "MVP-V10-11",
           "next_if_accelerate": "MVP-V10-11",
-          "next_if_risk": "MVP-V10-09"
+          "next_if_risk": "MVP-V10-09",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V10-11",
           "title": "家属陪读/配偶随行政策与材料准备",
           "phase": "签证",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -18258,10 +18471,12 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.51,
-          "needs_human_review": false,
+          "needs_human_review": true,
           "review_log": [
             {
               "date": "2026-02-16",
@@ -18284,8 +18499,8 @@
             "院校特例"
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V10-10",
           "next_chapter_id": "MVP-V10-12",
           "persona_profile": {
@@ -18357,13 +18572,14 @@
           },
           "next_if_stable": "MVP-V10-12",
           "next_if_accelerate": "MVP-V10-12",
-          "next_if_risk": "MVP-V10-10"
+          "next_if_risk": "MVP-V10-10",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V10-12",
           "title": "跨境支付与学费缴纳：手续费、到账时效与风控",
           "phase": "行前",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -18471,10 +18687,12 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-27"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.62,
-          "needs_human_review": false,
+          "needs_human_review": true,
           "review_log": [
             {
               "date": "2026-02-16",
@@ -18496,8 +18714,8 @@
             "可量化结果"
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V10-11",
           "next_chapter_id": "MVP-V10-13",
           "persona_profile": {
@@ -18569,13 +18787,14 @@
           },
           "next_if_stable": "MVP-V10-13",
           "next_if_accelerate": "MVP-V10-13",
-          "next_if_risk": "MVP-V10-11"
+          "next_if_risk": "MVP-V10-11",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V10-13",
           "title": "行前医疗准备：疫苗、处方药与既往病史文件",
           "phase": "行前",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -18683,10 +18902,12 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-26"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
-          "needs_human_review": false,
+          "needs_human_review": true,
           "review_log": [
             {
               "date": "2026-02-16",
@@ -18708,8 +18929,8 @@
             "可量化结果"
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V10-12",
           "next_chapter_id": "MVP-V10-14",
           "persona_profile": {
@@ -18781,13 +19002,14 @@
           },
           "next_if_stable": "MVP-V10-14",
           "next_if_accelerate": "MVP-V10-14",
-          "next_if_risk": "MVP-V10-12"
+          "next_if_risk": "MVP-V10-12",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V10-14",
           "title": "紧急预案：证件丢失、航班变更、入境受阻处理",
           "phase": "行前",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -18918,10 +19140,12 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-25"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.51,
-          "needs_human_review": false,
+          "needs_human_review": true,
           "review_log": [
             {
               "date": "2026-02-16",
@@ -18944,8 +19168,8 @@
             "院校特例"
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V10-13",
           "next_chapter_id": "MVP-V11-01",
           "persona_profile": {
@@ -19017,7 +19241,8 @@
           },
           "next_if_stable": "MVP-V11-01",
           "next_if_accelerate": "MVP-V11-01",
-          "next_if_risk": "MVP-V10-13"
+          "next_if_risk": "MVP-V10-13",
+          "prepare_substage": "不适用"
         }
       ],
       "appendix_reserved": [],
@@ -19031,7 +19256,7 @@
           "id": "MVP-V11-01",
           "title": "选课策略与毕业要求逆向规划",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -19131,7 +19356,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -19144,7 +19369,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-17"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -19162,8 +19389,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V10-08",
           "next_chapter_id": "MVP-V11-02",
           "persona_profile": {
@@ -19235,13 +19462,14 @@
           },
           "next_if_stable": "MVP-V11-02",
           "next_if_accelerate": "MVP-V11-02",
-          "next_if_risk": "MVP-V10-14"
+          "next_if_risk": "MVP-V10-14",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V11-02",
           "title": "学术规范：引用、查重与AI使用边界",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -19350,7 +19578,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -19363,7 +19591,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-04-02"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.73,
           "review_log": [
@@ -19381,8 +19611,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V11-01",
           "next_chapter_id": "MVP-V11-03",
           "persona_profile": {
@@ -19454,13 +19684,14 @@
           },
           "next_if_stable": "MVP-V11-03",
           "next_if_accelerate": "MVP-V11-03",
-          "next_if_risk": "MVP-V11-01"
+          "next_if_risk": "MVP-V11-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V11-03",
           "title": "小组作业协作与冲突管理",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -19562,7 +19793,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -19575,7 +19806,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-04-01"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -19593,8 +19826,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V11-02",
           "next_chapter_id": "MVP-V11-04",
           "persona_profile": {
@@ -19666,13 +19899,14 @@
           },
           "next_if_stable": "MVP-V11-04",
           "next_if_accelerate": "MVP-V11-04",
-          "next_if_risk": "MVP-V11-02"
+          "next_if_risk": "MVP-V11-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V11-04",
           "title": "论文/Capstone项目管理实操",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -19778,7 +20012,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -19791,7 +20025,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-31"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -19809,8 +20045,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V11-03",
           "next_chapter_id": "MVP-V11-05",
           "persona_profile": {
@@ -19882,13 +20118,14 @@
           },
           "next_if_stable": "MVP-V11-05",
           "next_if_accelerate": "MVP-V11-05",
-          "next_if_risk": "MVP-V11-03"
+          "next_if_risk": "MVP-V11-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V11-05",
           "title": "实习求职时间线：秋招/春招/滚动申请",
           "phase": "求职",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -19991,7 +20228,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -20004,7 +20241,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-11"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -20022,8 +20261,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V11-04",
           "next_chapter_id": "MVP-V11-06",
           "persona_profile": {
@@ -20095,13 +20334,14 @@
           },
           "next_if_stable": "MVP-V11-06",
           "next_if_accelerate": "MVP-V11-06",
-          "next_if_risk": "MVP-V11-04"
+          "next_if_risk": "MVP-V11-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V11-06",
           "title": "海外求职本地化：CV、LinkedIn、Networking",
           "phase": "求职",
-          "status": "published",
+          "status": "review",
           "priority": "P1",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -20208,7 +20448,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -20221,7 +20461,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-10"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -20239,8 +20481,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V11-05",
           "next_chapter_id": "MVP-V12-01",
           "persona_profile": {
@@ -20312,7 +20554,8 @@
           },
           "next_if_stable": "MVP-V12-01",
           "next_if_accelerate": "MVP-V12-01",
-          "next_if_risk": "MVP-V11-05"
+          "next_if_risk": "MVP-V11-05",
+          "prepare_substage": "不适用"
         }
       ],
       "appendix_reserved": [],
@@ -20326,7 +20569,7 @@
           "id": "MVP-V12-01",
           "title": "申请失败应对：补申、转申、延期决策",
           "phase": "综合",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -20429,7 +20672,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -20442,7 +20685,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-28"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -20460,8 +20705,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V11-06",
           "next_chapter_id": null,
           "persona_profile": {
@@ -20533,13 +20778,14 @@
           },
           "next_if_stable": null,
           "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_risk": null,
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V12-02",
           "title": "挂科、补考、劝退风险与学术申诉",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -20641,7 +20887,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -20654,7 +20900,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-27"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -20672,8 +20920,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": null,
           "next_chapter_id": "MVP-V12-03",
           "persona_profile": {
@@ -20745,13 +20993,14 @@
           },
           "next_if_stable": "MVP-V12-03",
           "next_if_accelerate": "MVP-V12-03",
-          "next_if_risk": "MVP-V12-03"
+          "next_if_risk": "MVP-V12-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V12-03",
           "title": "特殊人群策略：低GPA、跨专业、工作党",
           "phase": "综合",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -20860,7 +21109,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -20873,7 +21122,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-26"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -20891,8 +21142,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V12-02",
           "next_chapter_id": "MVP-V12-04",
           "persona_profile": {
@@ -20964,13 +21215,14 @@
           },
           "next_if_stable": "MVP-V12-04",
           "next_if_accelerate": "MVP-V12-04",
-          "next_if_risk": "MVP-V12-02"
+          "next_if_risk": "MVP-V12-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "MVP-V12-04",
           "title": "高频误区FAQ：信息差与谣言纠偏",
           "phase": "综合",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_mvp_transition",
           "updated_at": "2026-02-16",
@@ -21076,7 +21328,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_mvp_transition",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -21089,7 +21341,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-25"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -21107,8 +21361,8 @@
             }
           ],
           "scope_type": "global",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "previous_chapter_id": "MVP-V12-03",
           "next_chapter_id": null,
           "persona_profile": {
@@ -21180,7 +21434,8 @@
           },
           "next_if_stable": null,
           "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_risk": null,
+          "prepare_substage": "不适用"
         }
       ],
       "appendix_reserved": [],

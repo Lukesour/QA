@@ -10,7 +10,7 @@
           "id": "R01-01",
           "title": "留服认证办理：申请条件、材料清单与时间线",
           "phase": "准备",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -154,7 +154,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_return_cn",
           "policy_clause_snapshot": [
             {
@@ -187,7 +187,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-02"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 6,
           "confidence_score": 0.51,
           "review_log": [
@@ -205,8 +207,8 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "risk_level": "高",
           "previous_chapter_id": "P18-08",
           "next_chapter_id": "R01-02",
@@ -281,13 +283,14 @@
           },
           "next_if_stable": "R01-02",
           "next_if_accelerate": "R01-02",
-          "next_if_risk": "R01-02"
+          "next_if_risk": "R01-02",
+          "prepare_substage": "证据工程"
         },
         {
           "id": "R01-02",
           "title": "海归落户政策对比：一线与新一线城市核心差异",
           "phase": "申请",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -399,7 +402,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_return_cn",
           "policy_clause_snapshot": [
             {
@@ -432,7 +435,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-01"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -450,8 +455,8 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "risk_level": "高",
           "previous_chapter_id": "R01-01",
           "next_chapter_id": "R01-03",
@@ -524,13 +529,14 @@
           },
           "next_if_stable": "R01-03",
           "next_if_accelerate": "R01-03",
-          "next_if_risk": "R01-01"
+          "next_if_risk": "R01-01",
+          "prepare_substage": "不适用"
         },
         {
           "id": "R01-03",
           "title": "回国求职中的学历换算与项目含金量表达",
           "phase": "录取",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -637,7 +643,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_return_cn",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -650,7 +656,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-20"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -668,8 +676,8 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "risk_level": "中",
           "previous_chapter_id": "R01-02",
           "next_chapter_id": "R01-04",
@@ -742,13 +750,14 @@
           },
           "next_if_stable": "R01-04",
           "next_if_accelerate": "R01-04",
-          "next_if_risk": "R01-02"
+          "next_if_risk": "R01-02",
+          "prepare_substage": "不适用"
         },
         {
           "id": "R01-04",
           "title": "国央企/体制内岗位资格限制与准备路径",
           "phase": "签证",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -856,7 +865,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_return_cn",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -869,7 +878,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-19"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -887,8 +898,8 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "risk_level": "中",
           "previous_chapter_id": "R01-03",
           "next_chapter_id": "R01-05",
@@ -961,13 +972,14 @@
           },
           "next_if_stable": "R01-05",
           "next_if_accelerate": "R01-05",
-          "next_if_risk": "R01-03"
+          "next_if_risk": "R01-03",
+          "prepare_substage": "不适用"
         },
         {
           "id": "R01-05",
           "title": "回国后的社保、公积金与个税衔接要点",
           "phase": "行前",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -1079,7 +1091,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_return_cn",
           "policy_clause_snapshot": [
             {
@@ -1112,7 +1124,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-26"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.51,
           "review_log": [
@@ -1130,8 +1144,8 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "risk_level": "高",
           "previous_chapter_id": "R01-04",
           "next_chapter_id": "R01-06",
@@ -1204,13 +1218,14 @@
           },
           "next_if_stable": "R01-06",
           "next_if_accelerate": "R01-06",
-          "next_if_risk": "R01-04"
+          "next_if_risk": "R01-04",
+          "prepare_substage": "不适用"
         },
         {
           "id": "R01-06",
           "title": "应届身份管理：秋招春招与毕业时间窗口",
           "phase": "在读",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -1318,7 +1333,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_return_cn",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -1331,7 +1346,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-17"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -1349,8 +1366,8 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "risk_level": "中",
           "previous_chapter_id": "R01-05",
           "next_chapter_id": "R01-07",
@@ -1423,13 +1440,14 @@
           },
           "next_if_stable": "R01-07",
           "next_if_accelerate": "R01-07",
-          "next_if_risk": "R01-05"
+          "next_if_risk": "R01-05",
+          "prepare_substage": "不适用"
         },
         {
           "id": "R01-07",
           "title": "海归简历与面试叙事：海外经历本地化呈现",
           "phase": "求职",
-          "status": "published",
+          "status": "review",
           "priority": "P2",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -1540,7 +1558,7 @@
             "可量化结果"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_return_cn",
           "policy_clause_snapshot": [],
           "change_monitor": {
@@ -1553,7 +1571,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-03-16"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.65,
           "review_log": [
@@ -1571,8 +1591,8 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "risk_level": "中",
           "previous_chapter_id": "R01-06",
           "next_chapter_id": "R01-08",
@@ -1645,13 +1665,14 @@
           },
           "next_if_stable": "R01-08",
           "next_if_accelerate": "R01-08",
-          "next_if_risk": "R01-06"
+          "next_if_risk": "R01-06",
+          "prepare_substage": "不适用"
         },
         {
           "id": "R01-08",
           "title": "回国就业风险处理：认证延迟、档案、违约与签约纠纷",
           "phase": "综合",
-          "status": "published",
+          "status": "review",
           "priority": "P0",
           "owner": "team_return_cn",
           "updated_at": "2026-02-16",
@@ -1763,7 +1784,7 @@
             "院校特例"
           ],
           "draft_version": "v3-auto-2026-02-16",
-          "needs_human_review": false,
+          "needs_human_review": true,
           "last_editor": "team_return_cn",
           "policy_clause_snapshot": [
             {
@@ -1796,7 +1817,9 @@
             "last_change_detected_at": null,
             "next_watch_at": "2026-02-23"
           },
-          "publish_blockers": [],
+          "publish_blockers": [
+            "manual_fill_pending"
+          ],
           "evidence_count": 3,
           "confidence_score": 0.54,
           "review_log": [
@@ -1814,8 +1837,8 @@
             }
           ],
           "scope_type": "return",
-          "publication_state": "published",
-          "publish_ready": true,
+          "publication_state": "reviewing",
+          "publish_ready": false,
           "risk_level": "高",
           "previous_chapter_id": "P18-07",
           "next_chapter_id": null,
@@ -1888,7 +1911,8 @@
           },
           "next_if_stable": null,
           "next_if_accelerate": null,
-          "next_if_risk": null
+          "next_if_risk": null,
+          "prepare_substage": "不适用"
         }
       ],
       "appendix_reserved": [],
