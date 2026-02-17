@@ -4479,28 +4479,28 @@
         {"article_id": "A06", "case_id": "CASE-UK-006", "bundle_path": "evidence/case-proofs/bundles/CASE-UK-006/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-02-28"},
         {"article_id": "A07", "case_id": "CASE-UK-007", "bundle_path": "evidence/case-proofs/bundles/CASE-UK-007/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-02-28"},
         {"article_id": "A08", "case_id": "CASE-UK-008", "bundle_path": "evidence/case-proofs/bundles/CASE-UK-008/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-02-28"},
-        {"article_id": "A09", "case_id": "CASE-HK-001", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-001/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
-        {"article_id": "A10", "case_id": "CASE-HK-002", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-002/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
-        {"article_id": "A11", "case_id": "CASE-HK-003", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-003/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
-        {"article_id": "A12", "case_id": "CASE-HK-004", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-004/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
-        {"article_id": "A13", "case_id": "CASE-HK-005", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-005/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
-        {"article_id": "A14", "case_id": "CASE-HK-006", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-006/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
-        {"article_id": "A15", "case_id": "CASE-HK-007", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-007/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
-        {"article_id": "A16", "case_id": "CASE-HK-008", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-008/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
-        {"article_id": "A17", "case_id": "CASE-SG-001", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-001/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-06"},
-        {"article_id": "A18", "case_id": "CASE-SG-002", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-002/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-06"},
-        {"article_id": "A19", "case_id": "CASE-SG-003", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-003/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-06"},
-        {"article_id": "A20", "case_id": "CASE-SG-004", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-004/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-06"},
-        {"article_id": "A21", "case_id": "CASE-SG-005", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-005/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-06"},
-        {"article_id": "A22", "case_id": "CASE-SG-006", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-006/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-06"},
-        {"article_id": "A23", "case_id": "CASE-SG-007", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-007/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-06"},
-        {"article_id": "A24", "case_id": "CASE-AU-001", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-001/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-09"},
-        {"article_id": "A25", "case_id": "CASE-AU-002", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-002/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-09"},
-        {"article_id": "A26", "case_id": "CASE-AU-003", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-003/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-09"},
-        {"article_id": "A27", "case_id": "CASE-AU-004", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-004/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-09"},
-        {"article_id": "A28", "case_id": "CASE-AU-005", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-005/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-09"},
-        {"article_id": "A29", "case_id": "CASE-AU-006", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-006/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-09"},
-        {"article_id": "A30", "case_id": "CASE-AU-007", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-007/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-09"}
+        {"article_id": "A09", "case_id": "CASE-HK-001", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-001/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A10", "case_id": "CASE-HK-002", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-002/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A11", "case_id": "CASE-HK-003", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-003/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A12", "case_id": "CASE-HK-004", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-004/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A13", "case_id": "CASE-HK-005", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-005/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A14", "case_id": "CASE-HK-006", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-006/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A15", "case_id": "CASE-HK-007", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-007/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A16", "case_id": "CASE-HK-008", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-008/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A17", "case_id": "CASE-SG-001", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-001/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-06"},
+        {"article_id": "A18", "case_id": "CASE-SG-002", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-002/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-06"},
+        {"article_id": "A19", "case_id": "CASE-SG-003", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-003/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-06"},
+        {"article_id": "A20", "case_id": "CASE-SG-004", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-004/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-06"},
+        {"article_id": "A21", "case_id": "CASE-SG-005", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-005/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-06"},
+        {"article_id": "A22", "case_id": "CASE-SG-006", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-006/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-06"},
+        {"article_id": "A23", "case_id": "CASE-SG-007", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-007/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-06"},
+        {"article_id": "A24", "case_id": "CASE-AU-001", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-001/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-09"},
+        {"article_id": "A25", "case_id": "CASE-AU-002", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-002/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-09"},
+        {"article_id": "A26", "case_id": "CASE-AU-003", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-003/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-09"},
+        {"article_id": "A27", "case_id": "CASE-AU-004", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-004/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-09"},
+        {"article_id": "A28", "case_id": "CASE-AU-005", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-005/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-09"},
+        {"article_id": "A29", "case_id": "CASE-AU-006", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-006/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-09"},
+        {"article_id": "A30", "case_id": "CASE-AU-007", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-007/", "upload_status": "bundle_template_prepared_waiting_upload", "upload_deadline": "2026-03-09"}
       ]
     },
     "id_sync_guard": {
@@ -4996,6 +4996,22 @@
       "notes": "报告写明截至2024-12-31，IANG累计获批超过160,000。"
     },
     {
+      "source_id": "SRC-HK-IMMD-STUDY-VISA-2026",
+      "title": "Hong Kong Immigration: Entry for Study",
+      "url": "https://www.immd.gov.hk/eng/services/visas/study.html",
+      "publisher": "Hong Kong Immigration Department",
+      "last_verified_date": "2026-02-17",
+      "notes": "页面列明学签申请要件、ID995A/ID995B表格与常规审理时长（资料齐全后约6周）。"
+    },
+    {
+      "source_id": "SRC-HK-IMMD-IANG-2026",
+      "title": "Hong Kong Immigration Arrangements for Non-local Graduates (IANG)",
+      "url": "https://www.immd.gov.hk/eng/services/visas/IANG.html",
+      "publisher": "Hong Kong Immigration Department",
+      "last_verified_date": "2026-02-17",
+      "notes": "页面说明IANG对近期毕业生可先入境求职并通常批24个月逗留，后续可按条件续签。"
+    },
+    {
       "source_id": "SRC-HK-HKU-GES-2024",
       "title": "HKU Graduate Employment Survey 2024 Highlights",
       "url": "https://www.cedars.hku.hk/careers/files/hku_ges_highlights_2024.pdf",
@@ -5009,7 +5025,7 @@
       "url": "https://www.moe.gov.sg/news/parliamentary-replies/20250120-latest-graduate-employment-survey-outcomes",
       "publisher": "Ministry of Education Singapore",
       "last_verified_date": "2026-02-17",
-      "notes": "含2024年全职就业起薪中位数同比变化"
+      "notes": "历史链接用于就业结果口径参考；2026-02-17终端访问返回404，需浏览器检索与截图补证。"
     },
     {
       "source_id": "SRC-SG-MOM-EP-2025",
@@ -5082,6 +5098,14 @@
       "publisher": "Australian Government",
       "last_verified_date": "2026-02-17",
       "notes": "页面说明自2025-07-01起学生签证申请费为AUD 2,000。"
+    },
+    {
+      "source_id": "SRC-AU-STUDENT-500-2026",
+      "title": "Australian Student visa (subclass 500)",
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+      "publisher": "Australian Department of Home Affairs",
+      "last_verified_date": "2026-02-17",
+      "notes": "页面说明课程期间每两周可工作48小时，签证停留时长可至6年（与注册课程匹配）。"
     },
     {
       "source_id": "SRC-ZHIHU-AI-GOVERNANCE-2025",
@@ -5274,6 +5298,30 @@
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-17",
       "notes": "英新澳高波动政策监控清单与复核动作。"
+    },
+    {
+      "source_id": "SRC-ARTICLE-EVIDENCE-MODULE-2026-02-17",
+      "title": "Article Evidence Modules 2026-02-17",
+      "url": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/content/article-evidence-modules-20260217.md",
+      "publisher": "Internal Content Ops",
+      "last_verified_date": "2026-02-17",
+      "notes": "A01-A30逐篇证据模块：as_of、官方来源、不适用人群、owner_fill位。"
+    },
+    {
+      "source_id": "SRC-COOKIE-UPLOAD-GUIDE-2026-02-17",
+      "title": "Cookie Upload Guide 2026-02-17",
+      "url": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/sources/cookie-upload-guide-20260217.md",
+      "publisher": "Internal Content Ops",
+      "last_verified_date": "2026-02-17",
+      "notes": "登录墙/反爬来源的cookie上传路径与本地核验命令。"
+    },
+    {
+      "source_id": "SRC-OWNER-FILL-TASKBOARD-2026-02-17",
+      "title": "Owner Fill Taskboard 2026-02-17",
+      "url": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/content/owner-fill-taskboard-20260217.md",
+      "publisher": "Internal Content Ops",
+      "last_verified_date": "2026-02-17",
+      "notes": "不可自动抓取字段的统一待办（cookie、SEO数值位、集成密钥、案例实证上传）。"
     }
   ],
   "source_freshness_policy": {
@@ -5308,9 +5356,12 @@
           "SRC-SG-MOM-EP-2025",
           "SRC-SG-MOM-EP-ELIGIBILITY-2026",
           "SRC-SG-ICA-STP-2025",
+          "SRC-HK-IMMD-STUDY-VISA-2026",
+          "SRC-HK-IMMD-IANG-2026",
           "SRC-AU-GENUINE-STUDENT-2024",
           "SRC-AU-STUDENT-VISA-FEE-2024",
           "SRC-AU-STUDYAU-STUDENT-VISA-FEE-2025",
+          "SRC-AU-STUDENT-500-2026",
           "SRC-AU-STUDENT-CAPACITY-2024",
           "SRC-ZHIHU-AI-GOVERNANCE-2025"
         ]
@@ -5344,7 +5395,10 @@
           "SRC-CASE-PROOF-INDEX-2026-02-17",
           "SRC-SERIES-MAP-2026-02-17",
           "SRC-HEADLINE-OPS-2026-02-17",
-          "SRC-POLICY-WATCHLIST-2026-02-17"
+          "SRC-POLICY-WATCHLIST-2026-02-17",
+          "SRC-ARTICLE-EVIDENCE-MODULE-2026-02-17",
+          "SRC-COOKIE-UPLOAD-GUIDE-2026-02-17",
+          "SRC-OWNER-FILL-TASKBOARD-2026-02-17"
         ]
       },
       "low_180d": {
@@ -5383,8 +5437,8 @@
           "log_date": "2026-02-17",
           "scope": "A01-A30",
           "trigger": "v1.3.0 structural upgrade",
-          "result": "all_articles_require_case_upload_followup",
-          "owner_action": "按 case_proof_upload_registry 截止日期补齐证据包"
+          "result": "all_articles_bundle_templates_ready_waiting_upload",
+          "owner_action": "按 case_proof_upload_registry 截止日期补齐证据包并逐篇回填 manifest"
         },
         {
           "log_date": "2026-02-17",

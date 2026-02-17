@@ -3,6 +3,7 @@
 as_of: 2026-02-17  
 usage: 每篇可直接转成公众号/知乎/小红书正文；案例截图位请按 `evidence/case-proofs/bundles/*/manifest.md` 补齐。  
 note: 为避免“标题党+空执行”，每篇都含结论、人群、步骤、案例、反例、FAQ、行动清单、下一篇承接。
+evidence_module_reference: `evidence/content/article-evidence-modules-20260217.md`
 
 ## A01 预算30-40万读英硕，先算三笔账再决定
 

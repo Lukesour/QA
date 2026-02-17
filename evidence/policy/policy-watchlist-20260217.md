@@ -27,11 +27,18 @@ This file records high-volatility policy checkpoints that can directly change ar
 
 - Student visa application charge ([studyaustralia.gov.au/.../cost-of-student-visa](https://www.studyaustralia.gov.au/en/plan-your-move/visa-requirements/cost-of-student-visa)):
   - From 2025-07-01: AUD 2,000 (primary applicant)
+- Student visa work/stay conditions ([immi.homeaffairs.gov.au student-500](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500)):
+  - Course session work limit: up to 48 hours per fortnight
+  - Stay duration: up to 6 years aligned with enrolment
 
 ## Hong Kong
 
 - Immigration annual report ([immd.gov.hk ... annual report 2024](https://www.immd.gov.hk/eng/publications/a_report_2024.html)):
   - IANG approvals exceeded 160,000 as at 2024-12-31
+- Student visa arrangement ([immd.gov.hk study](https://www.immd.gov.hk/eng/services/visas/study.html)):
+  - Standard processing timeline: about 6 weeks after receiving all required documents
+- IANG policy ([immd.gov.hk IANG](https://www.immd.gov.hk/eng/services/visas/IANG.html)):
+  - Recent graduates can generally receive 24 months initial stay without prior job offer
 
 ## Action Rules
 

@@ -10,7 +10,10 @@ This log keeps the exact checkpoints verified before content updates.
 | SG | https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility | Current S$5,600/S$6,200; from 2027-01-01 S$6,000/S$6,600 | 2026-02-17 |
 | SG | https://www.ica.gov.sg/reside/STP/collect | Student's Pass issuance S$60; Multiple Journey Visa S$30 (if applicable) | 2026-02-17 |
 | AU | https://www.studyaustralia.gov.au/en/plan-your-move/visa-requirements/cost-of-student-visa | From 2025-07-01 Student visa VAC AUD 2,000 | 2026-02-17 |
+| AU | https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500 | Course session work limit 48 hours per fortnight; stay up to 6 years in line with enrolment | 2026-02-17 |
 | HK | https://www.immd.gov.hk/eng/publications/a_report_2024.html | IANG approvals exceeded 160,000 as at 2024-12-31 | 2026-02-17 |
+| HK | https://www.immd.gov.hk/eng/services/visas/study.html | Study visa normal processing time: about 6 weeks after all required documents received | 2026-02-17 |
+| HK | https://www.immd.gov.hk/eng/services/visas/IANG.html | IANG recent graduates can be granted 24 months stay without prior job offer | 2026-02-17 |
 | AU | https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos) | 2024 domestic undergrad full-time employment 74.0% (79.0% in 2023) | 2026-02-17 |
 
 ## Admission Window Verification Addendum
@@ -24,9 +27,11 @@ This log keeps the exact checkpoints verified before content updates.
 | SG | https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide | AY 2026-27 table lists August/November/January intakes and portal open/close windows by programme | accessible | 2026-02-17 |
 | SG | https://www.nus.edu.sg/oam/apply-to-nus/graduate | Terminal retrieval blocked by Incapsula challenge | blocked_owner_fill | 2026-02-17 |
 | AU | https://study.unimelb.edu.au/how-to-apply/graduate-coursework-study/international-applications/faqs | Terminal retrieval blocked by Cloudflare challenge | blocked_owner_fill | 2026-02-17 |
+| SG | https://www.moe.gov.sg/news/parliamentary-replies/20250120-latest-graduate-employment-survey-outcomes | Historical GES URL may return 404 in terminal and needs browser/manual verification | blocked_owner_fill | 2026-02-17 |
 
 ## Retrieval Notes
 
 - Zhihu/Xiaohongshu result counts could not be reliably captured via unauthenticated requests due anti-bot/login walls.
 - NUS OAM and Unimelb FAQ pages are in anti-bot mode for terminal retrieval; keep these items as manual browser verification tasks with screenshot evidence.
+- MOE historical parliamentary-reply URL for GES is unstable in terminal retrieval; keep as `owner_fill` and verify from MOE website search in browser.
 - These fields remain owner-fill in `evidence/seo/keyword-snapshots-20260217.md`.
