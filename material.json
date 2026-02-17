@@ -4903,7 +4903,8 @@
           "priority_topics": ["申请时间线", "预算", "offer终选", "入学前准备"],
           "source_refs": [
             "SRC-AU-UNIMELB-INTAKE-FAQ-2026",
-            "SRC-SG-NUS-CDE-INTAKE-2026",
+            "SRC-SG-NTU-CW-ADMISSION-GUIDE-2026",
+            "SRC-SG-NUS-SOC-MCOMP-INTAKE-2026",
             "SRC-UK-GLASGOW-JAN-INTAKE-2026"
           ]
         },
@@ -4915,7 +4916,8 @@
             "SRC-UK-EXETER-PGT-DEADLINE-2026",
             "SRC-HK-EDUHK-TAUGHT-PG-INTAKE-2026",
             "SRC-HK-HKBU-TPG-SCHEDULE-2026",
-            "SRC-SG-NUS-GRAD-ADMISSION-2026",
+            "SRC-SG-NTU-CW-ADMISSION-GUIDE-2026",
+            "SRC-SG-NUS-SOC-MCOMP-INTAKE-2026",
             "SRC-AU-UNIMELB-INTAKE-FAQ-2026"
           ]
         },
@@ -5127,15 +5129,15 @@
       "url": "https://www.exeter.ac.uk/study/postgraduate/applying/applicationdeadlines/",
       "publisher": "University of Exeter",
       "last_verified_date": "2026-02-17",
-      "notes": "用于英国授课型硕士申请窗口节奏参考"
+      "notes": "页面（lastReviewed=2026-01-23）给出 2026/27 国际申请截止 2026-09-11 23:59（UK time）、英国本土截止 2026-09-16 23:59，且标注 2027年1月入学申请于 2026-03-02 开放。"
     },
     {
       "source_id": "SRC-UK-GLASGOW-JAN-INTAKE-2026",
-      "title": "University of Glasgow Programmes with January Start",
-      "url": "https://www.gla.ac.uk/postgraduate/taught/availability/",
+      "title": "University of Glasgow Postgraduate Taught Programmes (Entry Months)",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/",
       "publisher": "University of Glasgow",
       "last_verified_date": "2026-02-17",
-      "notes": "用于英国1月入学项目窗口参考"
+      "notes": "原链接 /postgraduate/taught/availability/ 在 2026-02-17 返回 404；当前页面可提取 data-entrymonths 字段，含 January/September（部分项目含 April）作为入学季信号。"
     },
     {
       "source_id": "SRC-HK-EDUHK-TAUGHT-PG-INTAKE-2026",
@@ -5147,11 +5149,11 @@
     },
     {
       "source_id": "SRC-HK-HKBU-TPG-SCHEDULE-2026",
-      "title": "HKBU Graduate School Online Application Timeline",
-      "url": "https://gs.hkbu.edu.hk/admissions/online-application",
+      "title": "HKBU Graduate School Admission Timeline",
+      "url": "https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline",
       "publisher": "Hong Kong Baptist University",
       "last_verified_date": "2026-02-17",
-      "notes": "用于香港秋季申请起始窗口参考"
+      "notes": "页面列明 AY 2026/27 申请时间节点：1st deadline=2025-12-01，2nd deadline=2026-04-15；旧链接 /admissions/online-application 在 2026-02-17 返回 404。"
     },
     {
       "source_id": "SRC-SG-NUS-GRAD-ADMISSION-2026",
@@ -5159,7 +5161,7 @@
       "url": "https://www.nus.edu.sg/oam/apply-to-nus/graduate",
       "publisher": "National University of Singapore",
       "last_verified_date": "2026-02-17",
-      "notes": "用于新加坡研究生申请节奏参考"
+      "notes": "该页面在 2026-02-17 通过终端抓取触发 Incapsula challenge，无法直接提取正文；需在浏览器登录态手工核验并补截图证据。"
     },
     {
       "source_id": "SRC-SG-NUS-CDE-INTAKE-2026",
@@ -5167,7 +5169,23 @@
       "url": "https://cde.nus.edu.sg/gems/prospective-students/application-guide/",
       "publisher": "NUS College of Design and Engineering",
       "last_verified_date": "2026-02-17",
-      "notes": "用于新加坡8月/1月入学窗口参考"
+      "notes": "该链接在 2026-02-17 通过终端抓取触发 Incapsula challenge，无法自动抓取；保留为 owner_fill 手工核验来源。"
+    },
+    {
+      "source_id": "SRC-SG-NUS-SOC-MCOMP-INTAKE-2026",
+      "title": "NUS School of Computing Graduate Application Information",
+      "url": "https://www.comp.nus.edu.sg/programmes/pg/misc/application/",
+      "publisher": "NUS School of Computing",
+      "last_verified_date": "2026-02-17",
+      "notes": "页面给出 August intake 申请窗：Opening Date 2025-10-01，Closing Date 2026-01-31；并注明自 AY2025 起每年仅一个 August intake。"
+    },
+    {
+      "source_id": "SRC-SG-NTU-CW-ADMISSION-GUIDE-2026",
+      "title": "NTU Postgraduate Coursework Admission Guide (AY2026-27)",
+      "url": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide",
+      "publisher": "Nanyang Technological University",
+      "last_verified_date": "2026-02-17",
+      "notes": "页面明确多数项目为 August intake，部分有 November/January intake，并给出 Application Portal 开放/截止窗口（如多项目 1 Nov 至 31 Mar；January intake 常见 1 Jul 至 31 Aug）。"
     },
     {
       "source_id": "SRC-AU-UNIMELB-INTAKE-FAQ-2026",
@@ -5175,7 +5193,7 @@
       "url": "https://study.unimelb.edu.au/how-to-apply/graduate-coursework-study/international-applications/faqs",
       "publisher": "The University of Melbourne",
       "last_verified_date": "2026-02-17",
-      "notes": "用于澳洲2月/7月入学窗口参考"
+      "notes": "该页面在 2026-02-17 通过终端抓取触发 Cloudflare challenge（Enable JavaScript and cookies to continue）；需 owner_fill 手工核验与截图。"
     },
     {
       "source_id": "SRC-HUBSPOT-WEBHOOKS-V3-2026",
@@ -5314,6 +5332,8 @@
           "SRC-HK-HKBU-TPG-SCHEDULE-2026",
           "SRC-SG-NUS-GRAD-ADMISSION-2026",
           "SRC-SG-NUS-CDE-INTAKE-2026",
+          "SRC-SG-NUS-SOC-MCOMP-INTAKE-2026",
+          "SRC-SG-NTU-CW-ADMISSION-GUIDE-2026",
           "SRC-AU-UNIMELB-INTAKE-FAQ-2026",
           "SRC-HUBSPOT-WEBHOOKS-V3-2026",
           "SRC-TYPEFORM-WEBHOOKS-2026",
