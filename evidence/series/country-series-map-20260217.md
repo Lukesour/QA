@@ -33,3 +33,10 @@ Bridge CTA template: 为了避免信息碎片化，建议连看《{{next_article
 - Wednesday: 执行版（时间线/材料/预算）
 - Friday: 失败复盘版（止损动作）
 - Sunday: 答疑与终选版（去向/offer）
+
+## High-Anxiety Add-on Topics (Next Sprint)
+
+- UK: 签证资金证明常见拒签点 / 奖学金信息差 / 入学后租房避坑
+- HK: IANG路径与时间点 / 面试拒信复盘 / 住宿与通勤预算误差
+- SG: EP门槛变化下的岗位策略 / 跨专业失败复盘 / Student Pass费用与时间线
+- AU: 学签成本变化后的预算止损 / 城市切换策略 / 在读实习低反馈复盘

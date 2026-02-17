@@ -5,14 +5,14 @@ Each row keeps a clear upload owner and deadline to avoid indefinite pending sta
 
 | Article | Case ID | Proof Type | Current Status | Upload Deadline | Owner | Proof Bundle Path |
 |---|---|---|---|---|---|---|
-| A01 | CASE-UK-001 | 预算测算截图+执行清单 | waiting_owner_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-001/ |
-| A02 | CASE-UK-002 | 自测结果+补强计划 | waiting_owner_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-002/ |
-| A03 | CASE-UK-003 | 项目打分表前后对比 | waiting_owner_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-003/ |
-| A04 | CASE-UK-004 | 预算模板+现金流表 | waiting_owner_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-004/ |
-| A05 | CASE-UK-005 | 补强周计划+改前改后 | waiting_owner_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-005/ |
-| A06 | CASE-UK-006 | 文书结构图+段落示例 | waiting_owner_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-006/ |
-| A07 | CASE-UK-007 | Offer终选评分表 | waiting_owner_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-007/ |
-| A08 | CASE-UK-008 | 求职时间线+复盘模板 | waiting_owner_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-008/ |
+| A01 | CASE-UK-001 | 预算测算截图+执行清单 | bundle_template_prepared_waiting_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-001/ |
+| A02 | CASE-UK-002 | 自测结果+补强计划 | bundle_template_prepared_waiting_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-002/ |
+| A03 | CASE-UK-003 | 项目打分表前后对比 | bundle_template_prepared_waiting_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-003/ |
+| A04 | CASE-UK-004 | 预算模板+现金流表 | bundle_template_prepared_waiting_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-004/ |
+| A05 | CASE-UK-005 | 补强周计划+改前改后 | bundle_template_prepared_waiting_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-005/ |
+| A06 | CASE-UK-006 | 文书结构图+段落示例 | bundle_template_prepared_waiting_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-006/ |
+| A07 | CASE-UK-007 | Offer终选评分表 | bundle_template_prepared_waiting_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-007/ |
+| A08 | CASE-UK-008 | 求职时间线+复盘模板 | bundle_template_prepared_waiting_upload | 2026-02-28 | suan | evidence/case-proofs/bundles/CASE-UK-008/ |
 | A09 | CASE-HK-001 | 适配度评分+路径图 | waiting_owner_upload | 2026-03-03 | suan | evidence/case-proofs/bundles/CASE-HK-001/ |
 | A10 | CASE-HK-002 | 项目筛选矩阵 | waiting_owner_upload | 2026-03-03 | suan | evidence/case-proofs/bundles/CASE-HK-002/ |
 | A11 | CASE-HK-003 | 倒排甘特图 | waiting_owner_upload | 2026-03-03 | suan | evidence/case-proofs/bundles/CASE-HK-003/ |
@@ -40,4 +40,5 @@ Each row keeps a clear upload owner and deadline to avoid indefinite pending sta
 - Keep all personally identifiable information removed.
 - Keep visible timestamps and context labels for verifiability.
 - Prefer PDF or PNG screenshots with concise captions.
+- Bundle template has been pre-created for A01-A08. Please only drop real proof files into each case directory and update `manifest.md`.
 - If a bundle passes its deadline without upload, set `publish_state=needs_case_upload` before scheduling.

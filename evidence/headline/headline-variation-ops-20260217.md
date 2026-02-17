@@ -12,6 +12,8 @@ Full article-level variants are stored in `v1_2_content_system.headline_variatio
 ## Anti-Template Rules
 
 - Do not use identical opening patterns in consecutive posts.
+- Main title line cannot use the same punctuation template 3 times in a row.
+- Colon pattern (`XX：YY`) must be <= 40% of weekly titles.
 - Avoid pure topic labels such as "X怎么选" without audience or consequence.
 - At least one quantifier in title (weeks, budget, steps, ratio, deadline).
 
@@ -20,6 +22,13 @@ Full article-level variants are stored in `v1_2_content_system.headline_variatio
 1. Scenario conflict + result gap + deadline
 2. Budget constraint + decision action + executable output
 3. Failure cost + stop-loss action + target persona
+
+## Weekly Rotation Rule
+
+- Monday: conflict + timeline (`冲突 + 截止日期 + 结果`)
+- Wednesday: budget + action (`预算区间 + 步骤数 + 可交付`)
+- Friday: failure + stop-loss (`失败成本 + 止损动作 + 人群`)
+- Sunday: comparison + final choice (`双方案 + 终选门槛 + 结果`)
 
 ## Fast Review Checklist
 
