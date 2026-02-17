@@ -146,13 +146,60 @@
         "consult_book_rate": "预约咨询人数 / 私信有效线索人数",
         "deal_rate": "成交人数 / 预约咨询人数"
       },
-      "target_threshold_placeholders": {
-        "open_rate": "__TO_FILL__",
-        "read_completion_rate": "__TO_FILL__",
-        "save_rate": "__TO_FILL__",
-        "dm_rate": "__TO_FILL__",
-        "consult_book_rate": "__TO_FILL__",
-        "deal_rate": "__TO_FILL__"
+      "target_thresholds_v1_2": {
+        "global_minimum": {
+          "open_rate": 0.06,
+          "read_completion_rate": 0.38,
+          "save_rate": 0.015,
+          "dm_rate": 0.006,
+          "consult_book_rate": 0.08,
+          "deal_rate": 0.12
+        },
+        "by_platform": {
+          "xiaohongshu": {
+            "open_rate": 0.08,
+            "read_completion_rate": 0.35,
+            "save_rate": 0.03,
+            "dm_rate": 0.008,
+            "consult_book_rate": 0.1,
+            "deal_rate": 0.12
+          },
+          "wechat_official_account": {
+            "open_rate": 0.07,
+            "read_completion_rate": 0.5,
+            "save_rate": 0.02,
+            "dm_rate": 0.004,
+            "consult_book_rate": 0.08,
+            "deal_rate": 0.12
+          },
+          "zhihu": {
+            "open_rate": 0.06,
+            "read_completion_rate": 0.4,
+            "save_rate": 0.012,
+            "dm_rate": 0.005,
+            "consult_book_rate": 0.09,
+            "deal_rate": 0.13
+          }
+        },
+        "threshold_basis": [
+          "以现阶段冷启动账号可执行阈值为主，结合公开行业基准做下限约束",
+          "互动阈值优先保障“完读率+私信率+预约率”三项联动",
+          "成交阈值按高客单咨询行业保守目标设置"
+        ],
+        "source_refs": [
+          "SRC-RIVALIQ-SOCIAL-BENCHMARK-2025",
+          "SRC-SOCIALINSIDER-ENGAGEMENT-BENCH-2026",
+          "SRC-HOOTSUITE-EDU-BENCH-2025",
+          "SRC-UNBOUNCE-CONVERSION-BENCH-2025"
+        ],
+        "owner_tunable_fields": {
+          "open_rate": "__YOU_CAN_FINE_TUNE_WITH_30D_DATA__",
+          "read_completion_rate": "__YOU_CAN_FINE_TUNE_WITH_30D_DATA__",
+          "save_rate": "__YOU_CAN_FINE_TUNE_WITH_30D_DATA__",
+          "dm_rate": "__YOU_CAN_FINE_TUNE_WITH_30D_DATA__",
+          "consult_book_rate": "__YOU_CAN_FINE_TUNE_WITH_30D_DATA__",
+          "deal_rate": "__YOU_CAN_FINE_TUNE_WITH_30D_DATA__"
+        }
       }
     },
     "lead_magnet_library": [
@@ -2897,6 +2944,1058 @@
         }
       }
     ],
+    "article_execution_enhancement_pack": [
+      {
+        "article_id": "A01",
+        "narrative_style": "data_first",
+        "seo_layer": {
+          "core_keyword": "英国授课型硕士值不值",
+          "search_intent": "决策型",
+          "long_tail_keywords": ["英硕值不值怎么判断", "英国一年制硕士投入产出"],
+          "user_questions": ["预算30-40万能读英硕吗？", "英硕回本周期一般多久？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "英硕值不值？先算这三笔账",
+            "opening_focus": "先给结论：不算账就申请，风险很高。",
+            "cta": "评论【英国决策】领三笔账表。"
+          },
+          "wechat_official_account": {
+            "title": "英国授课型硕士值不值：三笔账模型完整拆解",
+            "opening_focus": "从成本、机会成本、岗位回报三层给出可执行模型。",
+            "cta": "文末回复“英国决策”领取评估表。"
+          },
+          "zhihu": {
+            "question_title": "英国一年制授课型硕士到底值不值？",
+            "thesis": "值不值取决于岗位匹配和现金流承受，不是学校名气。",
+            "cta": "评论区留目标岗位，我给你判定维度。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-UK-001",
+          "proof_type": "预算测算截图+去标识执行清单",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A01__",
+          "proof_note": "隐去姓名、学校和联系方式。"
+        }
+      },
+      {
+        "article_id": "A02",
+        "narrative_style": "qa_first",
+        "seo_layer": {
+          "core_keyword": "一年制英硕适合谁",
+          "search_intent": "筛选型",
+          "long_tail_keywords": ["一年制硕士适配度", "英硕一年制会不会太赶"],
+          "user_questions": ["一年制硕士适合工作党吗？", "一年制读完好找工作吗？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "一年制英硕，3类人适合3类人劝退",
+            "opening_focus": "先给分层结论，再给自测标准。",
+            "cta": "评论【一年制】领适配度表。"
+          },
+          "wechat_official_account": {
+            "title": "一年制英硕适配判断：适合与劝退的完整标准",
+            "opening_focus": "从执行力、岗位目标、预算承压三维判断。",
+            "cta": "回复“一年制”领取自测模板。"
+          },
+          "zhihu": {
+            "question_title": "一年制英硕到底适合什么人？",
+            "thesis": "适合目标明确且能并行求职的人，不适合先读再想的人。",
+            "cta": "留言你的背景，我给你做适配判断。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-UK-002",
+          "proof_type": "自测结果截图+补强计划截图",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A02__",
+          "proof_note": "自测分数可做区间展示。"
+        }
+      },
+      {
+        "article_id": "A03",
+        "narrative_style": "checklist_first",
+        "seo_layer": {
+          "core_keyword": "英国选校冲稳保",
+          "search_intent": "方法型",
+          "long_tail_keywords": ["英国选校四维矩阵", "英国硕士冲稳保怎么配"],
+          "user_questions": ["选校只看QS会踩坑吗？", "冲稳保比例怎么定？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "英国选校别只看QS：四维矩阵直接套",
+            "opening_focus": "用四维打分替代情绪选校。",
+            "cta": "评论【英国选校】领矩阵模板。"
+          },
+          "wechat_official_account": {
+            "title": "英国选校冲稳保：四维矩阵与权重设置实操",
+            "opening_focus": "课程、就业、成本、录取可行性四维联动。",
+            "cta": "回复“英国选校”领取打分表。"
+          },
+          "zhihu": {
+            "question_title": "英国硕士选校应该看排名还是看项目？",
+            "thesis": "排名是筛选器，项目匹配才是决策器。",
+            "cta": "留言你的目标岗位，我给你配权重。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-UK-003",
+          "proof_type": "项目打分表前后对比图",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A03__",
+          "proof_note": "展示分数变化，不展示真实院校名。"
+        }
+      },
+      {
+        "article_id": "A04",
+        "narrative_style": "data_first",
+        "seo_layer": {
+          "core_keyword": "英国硕士预算",
+          "search_intent": "预算型",
+          "long_tail_keywords": ["伦敦和非伦敦留学成本差多少", "英国硕士预算怎么做"],
+          "user_questions": ["30万预算能读伦敦吗？", "预算表要不要留风险金？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "伦敦vs非伦敦：英硕预算差异一图看懂",
+            "opening_focus": "预算超支核心不是学费，而是现金流结构。",
+            "cta": "评论【英国预算】领双方案模板。"
+          },
+          "wechat_official_account": {
+            "title": "英国硕士预算拆解：伦敦与非伦敦成本模型",
+            "opening_focus": "固定支出、弹性支出、风险缓冲三层模型。",
+            "cta": "回复“英国预算”领取预算器。"
+          },
+          "zhihu": {
+            "question_title": "英国硕士预算应该怎么做才不翻车？",
+            "thesis": "必须做理想版和保守版两套预算，并加缓冲位。",
+            "cta": "评论预算区间，我给你建议结构。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-UK-004",
+          "proof_type": "预算表模板+月度现金流表截图",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A04__",
+          "proof_note": "仅展示结构，金额可区间化。"
+        }
+      },
+      {
+        "article_id": "A05",
+        "narrative_style": "case_first",
+        "seo_layer": {
+          "core_keyword": "低GPA申英国硕士",
+          "search_intent": "补强型",
+          "long_tail_keywords": ["双非低GPA英国留学", "英国硕士90天补强计划"],
+          "user_questions": ["GPA不高还能申到好项目吗？", "补强先做什么最有效？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "低GPA冲英硕：90天补强法",
+            "opening_focus": "分数不是终点，证据链才是。",
+            "cta": "评论【英国补强】领清单。"
+          },
+          "wechat_official_account": {
+            "title": "低GPA申请英国硕士：90天补强执行手册",
+            "opening_focus": "从短板识别到证据构建的周计划。",
+            "cta": "回复“英国补强”领取补强表。"
+          },
+          "zhihu": {
+            "question_title": "低GPA申请英国硕士还有机会吗？",
+            "thesis": "有机会，但要用可验证证据替代分数短板。",
+            "cta": "留言GPA区间，我给你补强优先级。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-UK-005",
+          "proof_type": "补强周计划+文书改前改后对比",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A05__",
+          "proof_note": "展示结构，不公开个人隐私信息。"
+        }
+      },
+      {
+        "article_id": "A06",
+        "narrative_style": "debate_first",
+        "seo_layer": {
+          "core_keyword": "英国硕士文书雷区",
+          "search_intent": "方法型",
+          "long_tail_keywords": ["英国文书怎么写", "PS写作常见错误"],
+          "user_questions": ["文书为什么总是没说服力？", "文书模板会不会同质化？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "英国文书4大雷区，努力但没说服力",
+            "opening_focus": "文书核心不是感人，而是可验证匹配。",
+            "cta": "评论【英国文书】领结构模板。"
+          },
+          "wechat_official_account": {
+            "title": "英国硕士文书避坑：4类高频失败写法与改法",
+            "opening_focus": "拆解“定位-证据-落地”三段结构。",
+            "cta": "回复“英国文书”领取模板。"
+          },
+          "zhihu": {
+            "question_title": "英国硕士文书为什么容易写成流水账？",
+            "thesis": "因为没有先写论点，再写证据。",
+            "cta": "留言你的专业，我给你文书主线建议。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-UK-006",
+          "proof_type": "文书结构图+段落修改示例",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A06__",
+          "proof_note": "示例需匿名处理。"
+        }
+      },
+      {
+        "article_id": "A07",
+        "narrative_style": "framework_first",
+        "seo_layer": {
+          "core_keyword": "英国offer怎么选",
+          "search_intent": "对比型",
+          "long_tail_keywords": ["多个英国offer如何决策", "留学offer加权打分"],
+          "user_questions": ["名校和专业冲突怎么选？", "offer终选要看哪些维度？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "多个英国Offer怎么选？4维加权法",
+            "opening_focus": "选最热门不如选最能执行到结果。",
+            "cta": "评论【offer对比】领决策表。"
+          },
+          "wechat_official_account": {
+            "title": "英国Offer终选：4维加权模型与敏感性测试",
+            "opening_focus": "岗位匹配、成本、风险、执行四维实操。",
+            "cta": "回复“offer对比”领取评分表。"
+          },
+          "zhihu": {
+            "question_title": "拿到多个英国offer该怎么理性选择？",
+            "thesis": "用加权法终选，避免排名崇拜。",
+            "cta": "留言你的offer组合，我给你打分框架。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-UK-007",
+          "proof_type": "终选评分表前后对照",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A07__",
+          "proof_note": "学校名可做代号处理。"
+        }
+      },
+      {
+        "article_id": "A08",
+        "narrative_style": "timeline_first",
+        "seo_layer": {
+          "core_keyword": "英硕求职时间线",
+          "search_intent": "执行型",
+          "long_tail_keywords": ["英国硕士求职什么时候开始", "英硕求职计划表"],
+          "user_questions": ["开学后再找实习来得及吗？", "一年制如何兼顾学习和求职？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "英硕求职别等开学：这条时间线直接抄",
+            "opening_focus": "越早启动，毕业季越不慌。",
+            "cta": "评论【英国求职】领时间线。"
+          },
+          "wechat_official_account": {
+            "title": "英硕求职时间线：入学前到毕业季的全流程",
+            "opening_focus": "分阶段拆解每周动作和复盘节点。",
+            "cta": "回复“英国求职”领取周计划。"
+          },
+          "zhihu": {
+            "question_title": "英国一年制硕士求职应该从什么时候开始？",
+            "thesis": "从拿到offer就开始，而不是开学之后。",
+            "cta": "留言目标岗位，我给你前8周动作。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-UK-008",
+          "proof_type": "求职时间线截图+周复盘模板",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A08__",
+          "proof_note": "不展示候选人姓名和公司信息。"
+        }
+      },
+      {
+        "article_id": "A09",
+        "narrative_style": "qa_first",
+        "seo_layer": {
+          "core_keyword": "港硕适合谁",
+          "search_intent": "决策型",
+          "long_tail_keywords": ["港硕一年制适配人群", "港硕值不值得读"],
+          "user_questions": ["港硕适合应届生吗？", "港硕和英硕怎么选？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "港硕适不适合你？先做这份自测",
+            "opening_focus": "先适配再申请，少走弯路。",
+            "cta": "评论【港硕自测】领自测表。"
+          },
+          "wechat_official_account": {
+            "title": "港硕适配度判断：谁该读，谁该观望",
+            "opening_focus": "从岗位、预算、节奏三维给结论。",
+            "cta": "回复“港硕自测”领取测评。"
+          },
+          "zhihu": {
+            "question_title": "港硕到底适合什么样的人？",
+            "thesis": "适合目标清晰且能高强度执行的人。",
+            "cta": "留言背景，我帮你判断适配度。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-HK-001",
+          "proof_type": "适配度评分结果+去标识路径图",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A09__",
+          "proof_note": "评分结果展示区间即可。"
+        }
+      },
+      {
+        "article_id": "A10",
+        "narrative_style": "framework_first",
+        "seo_layer": {
+          "core_keyword": "港硕选校",
+          "search_intent": "方法型",
+          "long_tail_keywords": ["港硕选校看什么", "港硕项目怎么筛选"],
+          "user_questions": ["港三一定最好吗？", "港硕选校要看项目还是学校？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "港硕选校核心：先项目后学校",
+            "opening_focus": "项目匹配比logo更影响结果。",
+            "cta": "评论【港硕筛选】领模板。"
+          },
+          "wechat_official_account": {
+            "title": "港硕选校策略：项目优先的筛选模型",
+            "opening_focus": "用岗位能力反推项目与名单层级。",
+            "cta": "回复“港硕筛选”领取打分表。"
+          },
+          "zhihu": {
+            "question_title": "港硕选校到底该看学校还是看项目？",
+            "thesis": "先看项目与岗位匹配，再看学校品牌。",
+            "cta": "留言目标岗位，我给你筛选框架。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-HK-002",
+          "proof_type": "项目筛选矩阵截图",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A10__",
+          "proof_note": "项目名称可脱敏。"
+        }
+      },
+      {
+        "article_id": "A11",
+        "narrative_style": "timeline_first",
+        "seo_layer": {
+          "core_keyword": "港硕申请时间线",
+          "search_intent": "执行型",
+          "long_tail_keywords": ["港硕申请倒排", "港硕什么时候开始准备"],
+          "user_questions": ["港硕晚申会吃亏吗？", "港硕申请先做语言还是文书？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "港硕申请倒排表：越晚准备越被动",
+            "opening_focus": "别盯DDL，先盯材料完成度。",
+            "cta": "评论【港硕时间线】领模板。"
+          },
+          "wechat_official_account": {
+            "title": "港硕申请倒排：从现在到提交的关键节点",
+            "opening_focus": "按里程碑拆解申请动作，降低临门一脚风险。",
+            "cta": "回复“港硕时间线”领取倒排表。"
+          },
+          "zhihu": {
+            "question_title": "港硕申请最容易错过的时间节点有哪些？",
+            "thesis": "错过的不只是DDL，而是材料质量窗口。",
+            "cta": "留言入学季，我给你排节奏。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-HK-003",
+          "proof_type": "倒排甘特图截图",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A11__",
+          "proof_note": "仅展示里程碑，不展示个人信息。"
+        }
+      },
+      {
+        "article_id": "A12",
+        "narrative_style": "case_first",
+        "seo_layer": {
+          "core_keyword": "低GPA申请港硕",
+          "search_intent": "补强型",
+          "long_tail_keywords": ["双非申港硕策略", "港硕低GPA补救方法"],
+          "user_questions": ["双非低GPA能申港硕吗？", "港硕补强先做什么？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "双非/低GPA冲港硕：策略比焦虑有效",
+            "opening_focus": "不能改分数，但能改证据质量。",
+            "cta": "评论【港硕补强】领补强清单。"
+          },
+          "wechat_official_account": {
+            "title": "低背景申请港硕：证据型补强怎么做",
+            "opening_focus": "从分层选项到文书重构的完整流程。",
+            "cta": "回复“港硕补强”领取清单。"
+          },
+          "zhihu": {
+            "question_title": "双非低GPA申请港硕还有机会吗？",
+            "thesis": "有机会，前提是把“弱项”转成可验证证据。",
+            "cta": "留言背景，我给你补强优先级。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-HK-004",
+          "proof_type": "补强任务清单+结果对比截图",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A12__",
+          "proof_note": "结果建议展示区间化信息。"
+        }
+      },
+      {
+        "article_id": "A13",
+        "narrative_style": "data_first",
+        "seo_layer": {
+          "core_keyword": "港硕预算规划",
+          "search_intent": "预算型",
+          "long_tail_keywords": ["港硕一年预算多少", "港硕预算怎么做才稳"],
+          "user_questions": ["港硕预算需要留多少缓冲？", "港硕预算先算学费还是生活费？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "港硕预算先定总盘子，再选项目",
+            "opening_focus": "预算结构清楚，焦虑自然下降。",
+            "cta": "评论【港硕预算】领预算器。"
+          },
+          "wechat_official_account": {
+            "title": "港硕预算模型：总盘子、缓冲位与项目分层",
+            "opening_focus": "把预算做成可执行的资金计划。",
+            "cta": "回复“港硕预算”领取模板。"
+          },
+          "zhihu": {
+            "question_title": "港硕预算应该如何规划才不超支？",
+            "thesis": "先定上限，再拆结构，再做主备方案。",
+            "cta": "留言预算区间，我给你结构建议。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-HK-005",
+          "proof_type": "预算结构图+现金流复盘模板",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A13__",
+          "proof_note": "金额可做区间遮罩。"
+        }
+      },
+      {
+        "article_id": "A14",
+        "narrative_style": "checklist_first",
+        "seo_layer": {
+          "core_keyword": "港硕面试准备",
+          "search_intent": "执行型",
+          "long_tail_keywords": ["港硕面试题库", "港硕面试3分钟自我介绍"],
+          "user_questions": ["港硕面试最常问什么？", "港硕面试如何应对追问？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "港硕面试：3分钟闭环表达法",
+            "opening_focus": "面试不是背答案，而是证明匹配。",
+            "cta": "评论【港硕面试】领题库。"
+          },
+          "wechat_official_account": {
+            "title": "港硕面试高通过策略：3分钟闭环与追问分支",
+            "opening_focus": "定位、证据、落地三段式实操。",
+            "cta": "回复“港硕面试”领取题库。"
+          },
+          "zhihu": {
+            "question_title": "港硕面试怎么准备通过率更高？",
+            "thesis": "核心是结构化表达，而不是背模板答案。",
+            "cta": "留言专业，我给你题型优先级。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-HK-006",
+          "proof_type": "面试题库页+录音复盘清单",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A14__",
+          "proof_note": "音频文件可转文字后匿名展示。"
+        }
+      },
+      {
+        "article_id": "A15",
+        "narrative_style": "checklist_first",
+        "seo_layer": {
+          "core_keyword": "港硕入学前准备",
+          "search_intent": "执行型",
+          "long_tail_keywords": ["港硕入学前要准备什么", "港硕offer后清单"],
+          "user_questions": ["拿到港硕offer后先做什么？", "港硕入学前如何兼顾求职？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "拿到港硕Offer后：入学前7件事",
+            "opening_focus": "第一学期是否被动，取决于入学前准备。",
+            "cta": "评论【港硕入学】领清单。"
+          },
+          "wechat_official_account": {
+            "title": "港硕Offer后行动清单：入学前7件关键事",
+            "opening_focus": "签证、住宿、课程、求职四线并行。",
+            "cta": "回复“港硕入学”领取清单。"
+          },
+          "zhihu": {
+            "question_title": "拿到港硕offer后最先该做哪些准备？",
+            "thesis": "先稳定生活与证件，再前置求职动作。",
+            "cta": "留言入学季，我给你倒排。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-HK-007",
+          "proof_type": "入学前清单+周计划截图",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A15__",
+          "proof_note": "去除个人行程和地址信息。"
+        }
+      },
+      {
+        "article_id": "A16",
+        "narrative_style": "debate_first",
+        "seo_layer": {
+          "core_keyword": "港硕留港还是回内地",
+          "search_intent": "对比型",
+          "long_tail_keywords": ["港硕毕业去向选择", "港硕留港就业可行性"],
+          "user_questions": ["港硕毕业留港难吗？", "港硕回内地就业有优势吗？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "港硕毕业去向：留港还是回内地？",
+            "opening_focus": "不是价值判断，是匹配判断。",
+            "cta": "评论【港硕就业】领对比表。"
+          },
+          "wechat_official_account": {
+            "title": "港硕毕业去向决策：留港与回内地双路径模型",
+            "opening_focus": "从岗位密度、成本、家庭约束做终选。",
+            "cta": "回复“港硕就业”领取评分表。"
+          },
+          "zhihu": {
+            "question_title": "港硕毕业到底该留港还是回内地？",
+            "thesis": "先并行再收敛是更稳策略。",
+            "cta": "留言目标行业，我给你双路径动作。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-HK-008",
+          "proof_type": "双路径对比表+投递记录截屏",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A16__",
+          "proof_note": "公司名称可打码处理。"
+        }
+      },
+      {
+        "article_id": "A17",
+        "narrative_style": "data_first",
+        "seo_layer": {
+          "core_keyword": "新加坡授课型硕士适合谁",
+          "search_intent": "决策型",
+          "long_tail_keywords": ["新加坡硕士值不值", "新加坡留学就业路径"],
+          "user_questions": ["新加坡硕士适合转岗吗？", "留新和回国怎么选？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "新加坡硕士适不适合你？先过三关",
+            "opening_focus": "先看岗位，再看预算，再看去向。",
+            "cta": "评论【新加坡决策】领评估表。"
+          },
+          "wechat_official_account": {
+            "title": "新加坡授课型硕士适配判断：岗位、预算、去向三维模型",
+            "opening_focus": "用可执行指标判断而非热度判断。",
+            "cta": "回复“新加坡决策”领取评估表。"
+          },
+          "zhihu": {
+            "question_title": "新加坡授课型硕士到底适不适合读？",
+            "thesis": "看岗位可达性和路径闭环，不看单一名气。",
+            "cta": "留言目标岗位，我给你适配结论。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-SG-001",
+          "proof_type": "适配评分卡+路径图",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A17__",
+          "proof_note": "路径图建议保留关键节点即可。"
+        }
+      },
+      {
+        "article_id": "A18",
+        "narrative_style": "framework_first",
+        "seo_layer": {
+          "core_keyword": "NUS NTU SMU怎么选",
+          "search_intent": "对比型",
+          "long_tail_keywords": ["新加坡名校硕士选校", "NUS和NTU硕士区别"],
+          "user_questions": ["NUS一定比SMU好吗？", "新加坡选校先看学校还是项目？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "NUS/NTU/SMU怎么选？先看目标岗位",
+            "opening_focus": "同是名校，项目差异很大。",
+            "cta": "评论【新加坡选校】领比较表。"
+          },
+          "wechat_official_account": {
+            "title": "新加坡选校方法：NUS/NTU/SMU岗位导向筛选",
+            "opening_focus": "从课程、资源、预算三层做首轮筛选。",
+            "cta": "回复“新加坡选校”领取模板。"
+          },
+          "zhihu": {
+            "question_title": "NUS、NTU、SMU硕士该怎么选？",
+            "thesis": "先岗位匹配，再做学校优先级排序。",
+            "cta": "留言目标岗位，我给你筛选权重。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-SG-002",
+          "proof_type": "院校比较矩阵截图",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A18__",
+          "proof_note": "可使用院校代号展示。"
+        }
+      },
+      {
+        "article_id": "A19",
+        "narrative_style": "checklist_first",
+        "seo_layer": {
+          "core_keyword": "新加坡申请材料",
+          "search_intent": "执行型",
+          "long_tail_keywords": ["新加坡硕士申请材料清单", "新加坡文书推荐信准备"],
+          "user_questions": ["材料齐全为什么还被拒？", "推荐信找谁更有效？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "新加坡申请材料：齐全只是及格",
+            "opening_focus": "完整不等于有说服力。",
+            "cta": "评论【新加坡材料】领清单。"
+          },
+          "wechat_official_account": {
+            "title": "新加坡申请材料全流程：从齐全到有说服力",
+            "opening_focus": "构建一致性证据链，避免材料断裂。",
+            "cta": "回复“新加坡材料”领取清单。"
+          },
+          "zhihu": {
+            "question_title": "新加坡硕士申请材料最容易踩的坑是什么？",
+            "thesis": "最常见是叙事不一致，材料像散件。",
+            "cta": "留言背景，我给你一致性检查点。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-SG-003",
+          "proof_type": "材料一致性检查表",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A19__",
+          "proof_note": "展示表格模板而非真实材料。"
+        }
+      },
+      {
+        "article_id": "A20",
+        "narrative_style": "data_first",
+        "seo_layer": {
+          "core_keyword": "新加坡留学预算",
+          "search_intent": "预算型",
+          "long_tail_keywords": ["新加坡硕士预算多少", "新加坡奖学金和预算规划"],
+          "user_questions": ["奖学金能当预算底盘吗？", "新加坡生活费怎么估？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "新加坡预算：无奖学金版+有奖学金版",
+            "opening_focus": "先按无奖学金做保守预算。",
+            "cta": "评论【新加坡预算】领模板。"
+          },
+          "wechat_official_account": {
+            "title": "新加坡预算模型：奖学金不是底盘的双方案法",
+            "opening_focus": "把理想预算和保守预算都做成可执行版本。",
+            "cta": "回复“新加坡预算”领取预算器。"
+          },
+          "zhihu": {
+            "question_title": "新加坡硕士预算应该怎么规划？",
+            "thesis": "做双方案并留风险位，避免现金流断裂。",
+            "cta": "留言预算区间，我给你结构建议。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-SG-004",
+          "proof_type": "双方案预算截图",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A20__",
+          "proof_note": "金额建议展示区间化版本。"
+        }
+      },
+      {
+        "article_id": "A21",
+        "narrative_style": "timeline_first",
+        "seo_layer": {
+          "core_keyword": "新加坡求职时间线",
+          "search_intent": "执行型",
+          "long_tail_keywords": ["新加坡硕士求职怎么准备", "留新求职12周计划"],
+          "user_questions": ["留新求职窗口有多短？", "在读期间怎么排求职节奏？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "新加坡求职窗口短：12周布局法",
+            "opening_focus": "求职晚启动，窗口会迅速关闭。",
+            "cta": "评论【新加坡求职】领周计划。"
+          },
+          "wechat_official_account": {
+            "title": "新加坡求职节奏：12周并行路线图",
+            "opening_focus": "入学前到在读期的分段行动设计。",
+            "cta": "回复“新加坡求职”领取路线图。"
+          },
+          "zhihu": {
+            "question_title": "新加坡硕士求职应该什么时候开始准备？",
+            "thesis": "越早越好，最好在入学前完成基础动作。",
+            "cta": "留言目标岗位，我给你首周动作。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-SG-005",
+          "proof_type": "12周计划表+复盘记录",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A21__",
+          "proof_note": "公司名称与联系人需打码。"
+        }
+      },
+      {
+        "article_id": "A22",
+        "narrative_style": "case_first",
+        "seo_layer": {
+          "core_keyword": "新加坡跨专业申请",
+          "search_intent": "补强型",
+          "long_tail_keywords": ["跨专业申新加坡硕士", "新加坡转专业文书怎么写"],
+          "user_questions": ["跨专业没有实习怎么办？", "转专业要补哪些先修课？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "跨专业申新加坡：三段式叙事框架",
+            "opening_focus": "不是讲热爱，是讲证据链。",
+            "cta": "评论【转专业】领叙事模板。"
+          },
+          "wechat_official_account": {
+            "title": "新加坡跨专业申请：从能力迁移到文书落地",
+            "opening_focus": "过去基础、现在补齐、未来落地三段式。",
+            "cta": "回复“转专业”领取模板。"
+          },
+          "zhihu": {
+            "question_title": "跨专业申请新加坡硕士最难的点是什么？",
+            "thesis": "最难的是证据不足，不是动机不足。",
+            "cta": "留言原专业和目标专业，我给你补强顺序。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-SG-006",
+          "proof_type": "转专业叙事模板+项目证据页",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A22__",
+          "proof_note": "示例项目需脱敏。"
+        }
+      },
+      {
+        "article_id": "A23",
+        "narrative_style": "debate_first",
+        "seo_layer": {
+          "core_keyword": "新加坡留新还是回国",
+          "search_intent": "对比型",
+          "long_tail_keywords": ["新加坡硕士毕业去向", "留新回国双路径规划"],
+          "user_questions": ["留新和回国哪个性价比高？", "新加坡硕士回国认可度如何？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "新加坡毕业去向：留新还是回国？",
+            "opening_focus": "先并行准备，再做终选。",
+            "cta": "评论【新加坡就业】领对比表。"
+          },
+          "wechat_official_account": {
+            "title": "新加坡毕业去向决策：双路径并行模型",
+            "opening_focus": "从门槛、成本、成长性三维做终选。",
+            "cta": "回复“新加坡就业”领取评分表。"
+          },
+          "zhihu": {
+            "question_title": "新加坡硕士毕业该留新还是回国？",
+            "thesis": "前期并行，后期收敛是最稳策略。",
+            "cta": "留言行业，我给你路径建议。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-SG-007",
+          "proof_type": "双路径投递看板截图",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A23__",
+          "proof_note": "投递公司和个人信息脱敏。"
+        }
+      },
+      {
+        "article_id": "A24",
+        "narrative_style": "data_first",
+        "seo_layer": {
+          "core_keyword": "澳洲授课型硕士值不值",
+          "search_intent": "决策型",
+          "long_tail_keywords": ["澳洲硕士值得读吗", "澳洲留学政策和成本"],
+          "user_questions": ["澳洲硕士现在还值得吗？", "澳洲签证成本变化影响大吗？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "澳洲硕士值不值？先看目标再看热度",
+            "opening_focus": "政策成本变化后，更要先算账。",
+            "cta": "评论【澳洲决策】领评估表。"
+          },
+          "wechat_official_account": {
+            "title": "澳洲授课型硕士决策：目标、政策、预算三重评估",
+            "opening_focus": "把签证政策成本纳入决策模型。",
+            "cta": "回复“澳洲决策”领取评估表。"
+          },
+          "zhihu": {
+            "question_title": "现在读澳洲授课型硕士还值吗？",
+            "thesis": "值不值取决于岗位目标与政策窗口匹配。",
+            "cta": "留言目标岗位，我给你判定框架。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-AU-001",
+          "proof_type": "三笔账评估表+政策成本对照",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A24__",
+          "proof_note": "政策截图需标注日期。"
+        }
+      },
+      {
+        "article_id": "A25",
+        "narrative_style": "framework_first",
+        "seo_layer": {
+          "core_keyword": "澳洲八大选校",
+          "search_intent": "方法型",
+          "long_tail_keywords": ["澳洲八大怎么选", "澳洲硕士冲稳保选校"],
+          "user_questions": ["澳洲选校先看学校还是城市？", "八大和非八大怎么取舍？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "澳洲八大怎么选？冲稳保组合更稳",
+            "opening_focus": "组合思维比单点冲刺更稳。",
+            "cta": "评论【澳洲选校】领模板。"
+          },
+          "wechat_official_account": {
+            "title": "澳洲选校模型：冲稳保组合与城市成本联动",
+            "opening_focus": "课程匹配、城市成本、录取可行性三维联动。",
+            "cta": "回复“澳洲选校”领取矩阵表。"
+          },
+          "zhihu": {
+            "question_title": "澳洲八大选校怎么做更理性？",
+            "thesis": "先岗位匹配，再城市成本，最后冲稳保组合。",
+            "cta": "留言背景，我给你组合建议。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-AU-002",
+          "proof_type": "冲稳保组合表前后版本",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A25__",
+          "proof_note": "院校名称可用代号。"
+        }
+      },
+      {
+        "article_id": "A26",
+        "narrative_style": "timeline_first",
+        "seo_layer": {
+          "core_keyword": "澳洲申请时间线",
+          "search_intent": "执行型",
+          "long_tail_keywords": ["澳洲硕士申请时间规划", "澳洲申请倒排表"],
+          "user_questions": ["澳洲申请什么时候开始最好？", "晚申澳洲还有机会吗？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "澳洲申请时间线：别被“还能申”误导",
+            "opening_focus": "DDL不是质量线，倒排才是质量线。",
+            "cta": "评论【澳洲时间线】领甘特图。"
+          },
+          "wechat_official_account": {
+            "title": "澳洲申请倒排：从现在到提交的执行路线",
+            "opening_focus": "并行推进语言、文书、签证准备。",
+            "cta": "回复“澳洲时间线”领取模板。"
+          },
+          "zhihu": {
+            "question_title": "澳洲硕士申请时间线该怎么规划？",
+            "thesis": "关键是材料完成度，不是截止日前冲刺。",
+            "cta": "留言入学季，我给你倒排。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-AU-003",
+          "proof_type": "申请甘特图+里程碑完成率图",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A26__",
+          "proof_note": "时间线可不含具体个人信息。"
+        }
+      },
+      {
+        "article_id": "A27",
+        "narrative_style": "data_first",
+        "seo_layer": {
+          "core_keyword": "澳洲城市预算对比",
+          "search_intent": "预算型",
+          "long_tail_keywords": ["澳洲不同城市留学成本", "澳洲硕士城市怎么选"],
+          "user_questions": ["悉尼和墨尔本预算差多少？", "预算有限选哪个城市更稳？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "澳洲城市预算对比：差距不只在房租",
+            "opening_focus": "城市选择会直接影响现金流安全。",
+            "cta": "评论【澳洲预算】领城市对照表。"
+          },
+          "wechat_official_account": {
+            "title": "澳洲城市预算模型：项目、城市与就业机会联动",
+            "opening_focus": "按城市建立主备方案，降低预算风险。",
+            "cta": "回复“澳洲预算”领取对照表。"
+          },
+          "zhihu": {
+            "question_title": "澳洲留学选城市时预算该怎么比较？",
+            "thesis": "不仅看房租，要看通勤、求职和生活全成本。",
+            "cta": "留言预算区间，我给你城市建议。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-AU-004",
+          "proof_type": "城市成本对照表+预算复盘截图",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A27__",
+          "proof_note": "具体地理位置可模糊化。"
+        }
+      },
+      {
+        "article_id": "A28",
+        "narrative_style": "framework_first",
+        "seo_layer": {
+          "core_keyword": "澳洲选课与就业",
+          "search_intent": "方法型",
+          "long_tail_keywords": ["澳洲选课怎么选对就业有利", "岗位反推选课"],
+          "user_questions": ["澳洲选课要先看兴趣还是岗位？", "转码选课怎么避免踩坑？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "澳洲选课别凭感觉：先反推岗位",
+            "opening_focus": "课程选错，求职叙事会断掉。",
+            "cta": "评论【课程匹配】领打分表。"
+          },
+          "wechat_official_account": {
+            "title": "澳洲选课就业一体化：岗位反推课程模型",
+            "opening_focus": "把JD技能映射到课程与项目输出。",
+            "cta": "回复“课程匹配”领取模板。"
+          },
+          "zhihu": {
+            "question_title": "澳洲硕士选课该如何兼顾就业？",
+            "thesis": "先定岗位能力，再反推课程组合。",
+            "cta": "留言目标岗位，我给你映射逻辑。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-AU-005",
+          "proof_type": "岗位-课程映射表",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A28__",
+          "proof_note": "课程代码可保留，个人信息需去除。"
+        }
+      },
+      {
+        "article_id": "A29",
+        "narrative_style": "timeline_first",
+        "seo_layer": {
+          "core_keyword": "澳洲在读找实习",
+          "search_intent": "执行型",
+          "long_tail_keywords": ["澳洲硕士实习怎么找", "澳洲求职12周SOP"],
+          "user_questions": ["没有本地经验怎么找实习？", "在读阶段每周该做什么？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "澳洲在读找实习：12周SOP直接跑",
+            "opening_focus": "求职不是爆发赛，是节奏赛。",
+            "cta": "评论【澳洲求职】领12周SOP。"
+          },
+          "wechat_official_account": {
+            "title": "澳洲在读实习路线：12周SOP与复盘机制",
+            "opening_focus": "每周动作固定化，提升反馈速度。",
+            "cta": "回复“澳洲求职”领取SOP。"
+          },
+          "zhihu": {
+            "question_title": "澳洲在读硕士如何系统地找实习？",
+            "thesis": "用12周SOP替代随机投递。",
+            "cta": "留言岗位方向，我给你首月动作。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-AU-006",
+          "proof_type": "12周执行看板+投递复盘表",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A29__",
+          "proof_note": "企业和联系人打码。"
+        }
+      },
+      {
+        "article_id": "A30",
+        "narrative_style": "framework_first",
+        "seo_layer": {
+          "core_keyword": "澳洲offer终选",
+          "search_intent": "对比型",
+          "long_tail_keywords": ["澳洲offer怎么选", "留学offer四步决策法"],
+          "user_questions": ["多个澳洲offer如何终选？", "终选先看排名还是预算？"],
+          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+        },
+        "platform_rewrite": {
+          "xiaohongshu": {
+            "title": "澳洲Offer终选：入学前四步法",
+            "opening_focus": "终选不是选最热，是选最能执行。",
+            "cta": "评论【入学倒排】领终选表。"
+          },
+          "wechat_official_account": {
+            "title": "澳洲Offer终选实操：匹配、成本、风险、节奏四步法",
+            "opening_focus": "把终选变成可量化决策，而非情绪比较。",
+            "cta": "回复“入学倒排”领取终选模板。"
+          },
+          "zhihu": {
+            "question_title": "多个澳洲offer怎么选不后悔？",
+            "thesis": "先定岗位目标，再用四维加权终选。",
+            "cta": "留言offer组合，我给你权重建议。"
+          }
+        },
+        "case_proof": {
+          "case_id": "CASE-AU-007",
+          "proof_type": "offer加权终选表",
+          "proof_status": "pending_upload",
+          "proof_placeholder": "__TO_FILL_PROOF_LINK_A30__",
+          "proof_note": "学校名可替换为A/B/C。"
+        }
+      }
+    ],
     "private_conversion_funnel": {
       "message_templates": {
         "dm_first_message_personalized_a": "{{nickname}}，你评论的是【{{keyword}}】。基于你想申{{target_country}}{{target_major}}、预算{{budget_range}}、{{intake_term}}入学，我先发《{{asset_name}}》，再给你一版可执行建议。",
@@ -2937,13 +4036,32 @@
           "dm_template_version",
           "platform_version"
         ],
-        "minimum_sample_size": "__TO_FILL__",
+        "minimum_sample_size": {
+          "per_variant_impressions": 5000,
+          "per_variant_reads": 300,
+          "per_variant_dm_leads": 20,
+          "minimum_test_days": 7,
+          "target_confidence": 0.9
+        },
         "decision_rule": "保留连续两周在“完读率+私信率+预约率”同时领先的版本"
       },
       "extension": {
-        "crm_webhook_slot": "",
-        "ab_test_router_slot": "",
-        "qa_bot_handoff_slot": ""
+        "crm_webhook_slot": "https://__TO_FILL__/webhook/content-lead",
+        "ab_test_router_slot": "https://__TO_FILL__/api/ab-router/decide",
+        "qa_bot_handoff_slot": "https://__TO_FILL__/api/qa/handoff",
+        "form_system_slot": "https://__TO_FILL__/forms/intake",
+        "consult_booking_slot": "https://__TO_FILL__/booking/consult",
+        "event_field_mapping": {
+          "article_read": ["source_article_id", "source_platform", "hook_version_used", "open_rate", "read_completion_rate"],
+          "lead_capture": ["dm_rate", "dm_reply_rate", "form_submit_rate", "first_response_minutes"],
+          "consultation": ["diagnosis_show_rate", "consult_book_rate", "consult_show_rate", "consult_close_rate"],
+          "revenue": ["deal_rate", "deal_amount", "deal_date", "sales_owner"]
+        },
+        "integration_status": {
+          "crm": "pending_user_endpoint",
+          "form": "pending_user_endpoint",
+          "booking": "pending_user_endpoint"
+        }
       }
     },
     "operations_playbook": {
@@ -2963,8 +4081,40 @@
           "正文模板8字段完整",
           "至少1个案例和1组数据口径",
           "CTA承诺与资料名称一致",
-          "平台改写版本存在"
+          "平台改写版本存在",
+          "SEO问题词与长尾词存在",
+          "案例证据位已上传或标记待补"
         ]
+      },
+      "seasonal_release_calendar": {
+        "2026_spring_intake": {
+          "window": "2026-03-01_to_2026-06-30",
+          "focus_countries": ["AU", "SG", "部分UK/HK项目补录"],
+          "priority_topics": ["申请时间线", "预算", "offer终选", "入学前准备"],
+          "source_refs": [
+            "SRC-AU-UNIMELB-INTAKE-FAQ-2026",
+            "SRC-SG-NUS-CDE-INTAKE-2026",
+            "SRC-UK-GLASGOW-JAN-INTAKE-2026"
+          ]
+        },
+        "2026_autumn_intake": {
+          "window": "2026-08-01_to_2026-12-31",
+          "focus_countries": ["UK", "HK", "SG", "AU"],
+          "priority_topics": ["决策", "选校", "文书", "补强", "签证材料"],
+          "source_refs": [
+            "SRC-UK-EXETER-PGT-DEADLINE-2026",
+            "SRC-HK-EDUHK-TAUGHT-PG-INTAKE-2026",
+            "SRC-HK-HKBU-TPG-SCHEDULE-2026",
+            "SRC-SG-NUS-GRAD-ADMISSION-2026",
+            "SRC-AU-UNIMELB-INTAKE-FAQ-2026"
+          ]
+        },
+        "2027_planning_preheat": {
+          "window": "2026-11-01_to_2027-02-28",
+          "focus_countries": ["UK", "HK", "SG", "AU"],
+          "priority_topics": ["值不值决策", "职业反推选校", "预算上限与止损", "低GPA补强"],
+          "execution_note": "该阶段主打“先决策后申请”内容，提升提前期线索质量。"
+        }
       }
     }
   },
@@ -3104,8 +4254,149 @@
       "publisher": "Zhihu",
       "last_verified_date": "2026-02-17",
       "notes": "用于知乎平台内容发布合规提醒"
+    },
+    {
+      "source_id": "SRC-RIVALIQ-SOCIAL-BENCHMARK-2025",
+      "title": "Rival IQ Social Media Industry Benchmark Report 2025",
+      "url": "https://www.rivaliq.com/blog/social-media-industry-benchmark-report/",
+      "publisher": "Rival IQ",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于设置内容互动与曝光阈值下限参考"
+    },
+    {
+      "source_id": "SRC-SOCIALINSIDER-ENGAGEMENT-BENCH-2026",
+      "title": "Socialinsider Social Media Benchmarks 2026",
+      "url": "https://www.socialinsider.io/social-media-benchmarks/",
+      "publisher": "Socialinsider",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于跨平台互动率区间参考"
+    },
+    {
+      "source_id": "SRC-HOOTSUITE-EDU-BENCH-2025",
+      "title": "Hootsuite Social Media Benchmarks",
+      "url": "https://www.hootsuite.com/resources/social-media-benchmarks",
+      "publisher": "Hootsuite",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于教育行业内容互动中位水平参考"
+    },
+    {
+      "source_id": "SRC-UNBOUNCE-CONVERSION-BENCH-2025",
+      "title": "Unbounce Conversion Benchmark Report",
+      "url": "https://unbounce.com/conversion-benchmark-report/",
+      "publisher": "Unbounce",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于表单提交率与线索转化阈值参考"
+    },
+    {
+      "source_id": "SRC-UK-EXETER-PGT-DEADLINE-2026",
+      "title": "University of Exeter Postgraduate Application Deadlines",
+      "url": "https://www.exeter.ac.uk/study/postgraduate/applying/applicationdeadlines/",
+      "publisher": "University of Exeter",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于英国授课型硕士申请窗口节奏参考"
+    },
+    {
+      "source_id": "SRC-UK-GLASGOW-JAN-INTAKE-2026",
+      "title": "University of Glasgow Programmes with January Start",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/availability/",
+      "publisher": "University of Glasgow",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于英国1月入学项目窗口参考"
+    },
+    {
+      "source_id": "SRC-HK-EDUHK-TAUGHT-PG-INTAKE-2026",
+      "title": "EdUHK Taught Postgraduate Programmes Intake Information",
+      "url": "https://www.apply.eduhk.hk/tpg/full-time",
+      "publisher": "The Education University of Hong Kong",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于香港授课型硕士主要入学季参考"
+    },
+    {
+      "source_id": "SRC-HK-HKBU-TPG-SCHEDULE-2026",
+      "title": "HKBU Graduate School Online Application Timeline",
+      "url": "https://gs.hkbu.edu.hk/admissions/online-application",
+      "publisher": "Hong Kong Baptist University",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于香港秋季申请起始窗口参考"
+    },
+    {
+      "source_id": "SRC-SG-NUS-GRAD-ADMISSION-2026",
+      "title": "NUS Graduate Admission Information",
+      "url": "https://www.nus.edu.sg/oam/apply-to-nus/graduate",
+      "publisher": "National University of Singapore",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于新加坡研究生申请节奏参考"
+    },
+    {
+      "source_id": "SRC-SG-NUS-CDE-INTAKE-2026",
+      "title": "NUS CDE Master Programmes Intake Guide",
+      "url": "https://cde.nus.edu.sg/gems/prospective-students/application-guide/",
+      "publisher": "NUS College of Design and Engineering",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于新加坡8月/1月入学窗口参考"
+    },
+    {
+      "source_id": "SRC-AU-UNIMELB-INTAKE-FAQ-2026",
+      "title": "University of Melbourne Graduate Coursework FAQ",
+      "url": "https://study.unimelb.edu.au/how-to-apply/graduate-coursework-study/international-applications/faqs",
+      "publisher": "The University of Melbourne",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于澳洲2月/7月入学窗口参考"
     }
   ],
+  "source_freshness_policy": {
+    "policy_version": "2026-02-17",
+    "review_method": "按波动等级分层复核",
+    "volatility_tiers": {
+      "high_30d": {
+        "review_cycle_days": 30,
+        "next_review_date": "2026-03-19",
+        "source_ids": [
+          "SRC-UK-STUDENT-MONEY",
+          "SRC-UK-IHS-2026",
+          "SRC-UK-GRADUATE-VISA-2026",
+          "SRC-SG-MOM-EP-2025",
+          "SRC-SG-ICA-STP-2025",
+          "SRC-AU-GENUINE-STUDENT-2024",
+          "SRC-AU-STUDENT-VISA-FEE-2024",
+          "SRC-AU-STUDENT-CAPACITY-2024",
+          "SRC-ZHIHU-AI-GOVERNANCE-2025"
+        ]
+      },
+      "medium_60d": {
+        "review_cycle_days": 60,
+        "next_review_date": "2026-04-18",
+        "source_ids": [
+          "SRC-UCAS-LIVING-COST-2026",
+          "SRC-SG-MOE-GES-2025",
+          "SRC-AU-LIVING-COST-2025",
+          "SRC-RIVALIQ-SOCIAL-BENCHMARK-2025",
+          "SRC-SOCIALINSIDER-ENGAGEMENT-BENCH-2026",
+          "SRC-HOOTSUITE-EDU-BENCH-2025",
+          "SRC-UNBOUNCE-CONVERSION-BENCH-2025",
+          "SRC-UK-EXETER-PGT-DEADLINE-2026",
+          "SRC-UK-GLASGOW-JAN-INTAKE-2026",
+          "SRC-HK-EDUHK-TAUGHT-PG-INTAKE-2026",
+          "SRC-HK-HKBU-TPG-SCHEDULE-2026",
+          "SRC-SG-NUS-GRAD-ADMISSION-2026",
+          "SRC-SG-NUS-CDE-INTAKE-2026",
+          "SRC-AU-UNIMELB-INTAKE-FAQ-2026"
+        ]
+      },
+      "low_180d": {
+        "review_cycle_days": 180,
+        "next_review_date": "2026-08-16",
+        "source_ids": [
+          "SRC-UK-STUDY-VISA-2025",
+          "SRC-HK-IANG-ANNUAL-2024",
+          "SRC-HK-HKU-GES-2024",
+          "SRC-AU-QILT-GOS-2024"
+        ]
+      }
+    },
+    "owner_assignment": "__TO_FILL_OWNER__",
+    "stale_data_rule": "当 last_verified_date 超过所属 tier 的 review_cycle_days 时，相关文章证据模块标记为 review_required。"
+  },
   "future_extension": {
     "v1_2_reserved": {
       "short_video_opening_lines": [
