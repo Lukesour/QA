@@ -1,8 +1,8 @@
 {
   "meta": {
     "project_name": "授课型硕士留学内容增长系统",
-    "version": "1.3.0",
-    "based_on": "1.2.2",
+    "version": "1.3.1",
+    "based_on": "1.3.0",
     "update_date": "2026-02-17",
     "data_cutoff_date": "2026-02-17",
     "update_scope": [
@@ -23,7 +23,12 @@
       "case_proof_upload_sla_registry_added",
       "publish_gate_and_id_sync_guard_hardened",
       "cta_asset_consistency_patch_v130",
-      "source_registry_integration_docs_added"
+      "source_registry_integration_docs_added",
+      "persona_segment_playbook_added",
+      "country_series_engine_added",
+      "headline_differentiation_registry_added",
+      "failure_retro_ratio_enforced",
+      "policy_freshness_patch_20260217"
     ]
   },
   "merge_instruction": {
@@ -659,6 +664,51 @@
         "offer_decision": ["A30"]
       }
     },
+    "persona_segment_playbook": {
+      "segment_definition": {
+        "fresh_grad": "本科应届或毕业1年内，缺少正式全职经历。",
+        "work_1_3_years": "工作1-3年，关注职业跃迁与回本周期。",
+        "career_switch": "转专业或转赛道人群，核心问题是证据链重建。"
+      },
+      "content_focus_by_segment": {
+        "fresh_grad": ["岗位入门门槛", "时间线执行", "第一份实习/全职路径"],
+        "work_1_3_years": ["机会成本", "转岗效率", "薪资天花板与回本周期"],
+        "career_switch": ["能力迁移证据", "补强优先级", "叙事一致性"]
+      },
+      "country_priority_by_segment": {
+        "fresh_grad": ["UK", "HK", "SG"],
+        "work_1_3_years": ["SG", "UK", "AU"],
+        "career_switch": ["AU", "SG", "UK"]
+      },
+      "mandatory_data_collection_in_dm": {
+        "fresh_grad": ["target_job", "intake_term", "language_score_band"],
+        "work_1_3_years": ["target_job", "budget_range", "current_stage"],
+        "career_switch": ["target_job", "target_major", "current_stage"]
+      },
+      "low_intent_or_disqualify_signals": [
+        "仅追求名校标签且拒绝提供目标岗位信息",
+        "预算区间长期不明确且拒绝填写基础问卷",
+        "连续两轮沟通无法提供任何执行约束（入学季/岗位/预算）"
+      ]
+    },
+    "headline_differentiation_system": {
+      "required_components": ["场景", "结果", "时限或成本"],
+      "anti_template_rules": [
+        "同一周内避免连续出现“值不值/怎么选”开头",
+        "避免仅国家词+泛动词标题（如“英国怎么选校”）",
+        "至少一个标题维度要包含可量化元素（金额/周数/步骤数）"
+      ],
+      "title_formula_bank": [
+        "场景冲突 + 结果差异 + 时间约束",
+        "预算约束 + 决策动作 + 可执行产出",
+        "失败代价 + 止损动作 + 目标人群"
+      ],
+      "title_review_checklist": [
+        "是否能在3秒内看出适用人群",
+        "是否给出明确收益或风险规避点",
+        "是否与本周已发布标题形成差异"
+      ]
+    },
     "article_library": [
       {
         "article_id": "A01",
@@ -721,11 +771,11 @@
           "career_switch": "重点看课程与目标岗位技能差距能否在12个月补齐。"
         },
         "evidence_module": {
-          "source_date": "2025-09-30",
-          "source_refs": ["SRC-UK-STUDY-VISA-2025", "SRC-UK-STUDENT-MONEY", "SRC-UK-IHS-2026"],
+          "source_date": "2026-02-17",
+          "source_refs": ["SRC-UK-STUDY-VISA-2025", "SRC-UK-STUDENT-MONEY", "SRC-UK-FINANCIAL-EVIDENCE-GUIDANCE-2025-12-31", "SRC-UK-IHS-2026"],
           "data_points": [
             "截至2025年9月止，英国获批受担保学习签证约43.99万（主申请约41.96万，家属约2.04万）。",
-            "财力证明标准为伦敦每月£1,529、非伦敦每月£1,171（最多9个月）。",
+            "截至2026-02-17核验，财力证明口径为伦敦每月£1,483、非伦敦每月£1,136（最多9个月）。",
             "学生签医疗附加费标准为每年£776。"
           ],
           "not_applicable_group": "已在英国连续合法居留12个月以上并在境内续签者，财力证明准备策略不同。"
@@ -1319,7 +1369,8 @@
           "source_date": "2026-02-17",
           "source_refs": ["SRC-UK-GRADUATE-VISA-2026"],
           "data_points": [
-            "毕业后路径窗口存在明确政策时间点，越早做求职动作，越能释放签证窗口价值。"
+            "截至2026-02-17官方说明显示，Graduate visa通常允许本科/硕士毕业生留英2年、博士3年。",
+            "申请费用为£880，另需按规则支付IHS，越早启动求职越能有效利用签证窗口。"
           ],
           "not_applicable_group": "仅计划回国且已有确定工作机会的人群，可弱化留英路径动作。"
         },
@@ -2076,10 +2127,10 @@
         },
         "evidence_module": {
           "source_date": "2025-01-20",
-          "source_refs": ["SRC-SG-MOE-GES-2025", "SRC-SG-MOM-EP-2025", "SRC-SG-ICA-STP-2025"],
+          "source_refs": ["SRC-SG-MOE-GES-2025", "SRC-SG-MOM-EP-2025", "SRC-SG-MOM-EP-ELIGIBILITY-2026", "SRC-SG-ICA-STP-2025"],
           "data_points": [
             "新加坡本地大学毕业生2024年全职就业起薪中位数较上一年增长约4.2%。",
-            "EP薪资门槛政策按行业与年龄梯度执行，需提前评估可达性。",
+            "EP薪资门槛按行业与年龄梯度执行，且页面注明2027-01-01起最低门槛将调整至S$5,600（金融业S$6,200）。",
             "学生准证办理费用和签发流程有明确官方标准。"
           ],
           "not_applicable_group": "明确不考虑海外就业且仅为短期学历提升的人群，可降低留新维度权重。"
@@ -2414,9 +2465,9 @@
         },
         "evidence_module": {
           "source_date": "2025-01-20",
-          "source_refs": ["SRC-SG-MOE-GES-2025", "SRC-SG-MOM-EP-2025"],
+          "source_refs": ["SRC-SG-MOE-GES-2025", "SRC-SG-MOM-EP-2025", "SRC-SG-MOM-EP-ELIGIBILITY-2026"],
           "data_points": [
-            "就业市场存在岗位与薪资门槛，提前做岗位匹配与门槛评估更稳。",
+            "就业市场存在岗位与薪资门槛，且2027-01-01起EP最低薪资门槛将进一步上调。",
             "毕业生薪资中位数变化提示“岗位能力证据”仍是关键。"
           ],
           "not_applicable_group": "已有确定回国工作机会且不考虑留新的人群。"
@@ -2583,9 +2634,9 @@
         },
         "evidence_module": {
           "source_date": "2025-01-20",
-          "source_refs": ["SRC-SG-MOM-EP-2025", "SRC-SG-MOE-GES-2025"],
+          "source_refs": ["SRC-SG-MOM-EP-2025", "SRC-SG-MOM-EP-ELIGIBILITY-2026", "SRC-SG-MOE-GES-2025"],
           "data_points": [
-            "留新路径与岗位薪资门槛相关，决策应建立在岗位可达性而非单点情绪上。",
+            "留新路径与岗位薪资门槛强相关，且2027年EP门槛上调会抬高低起薪岗位难度。",
             "就业数据提示岗位与专业匹配对结果影响显著。"
           ],
           "not_applicable_group": "已拿到明确地区offer人群，可直接进入签约与落地规划。"
@@ -2667,10 +2718,10 @@
           "career_switch": "重点看转型与政策窗口。"
         },
         "evidence_module": {
-          "source_date": "2024-07-01",
-          "source_refs": ["SRC-AU-STUDENT-VISA-FEE-2024", "SRC-AU-STUDENT-CAPACITY-2024", "SRC-AU-GENUINE-STUDENT-2024"],
+          "source_date": "2026-02-17",
+          "source_refs": ["SRC-AU-STUDENT-VISA-FEE-2024", "SRC-AU-STUDYAU-STUDENT-VISA-FEE-2025", "SRC-AU-STUDENT-CAPACITY-2024", "SRC-AU-GENUINE-STUDENT-2024"],
           "data_points": [
-            "澳洲学生签主申请费在2024年7月1日起提高至AUD 1,600。",
+            "澳洲学生签费用在2024年7月1日上调至AUD 1,600后，官方页面显示自2025年7月1日起进一步提高至AUD 2,000。",
             "财力要求在2024年5月上调至AUD 29,710。",
             "2024年3月起学生签引入Genuine Student要求，申请评估更注重真实学习意图。"
           ],
@@ -2922,10 +2973,11 @@
           "career_switch": "重点看转型成本可控性。"
         },
         "evidence_module": {
-          "source_date": "2025-04-17",
-          "source_refs": ["SRC-AU-LIVING-COST-2025", "SRC-AU-STUDENT-CAPACITY-2024"],
+          "source_date": "2026-02-17",
+          "source_refs": ["SRC-AU-LIVING-COST-2025", "SRC-AU-STUDYAU-STUDENT-VISA-FEE-2025", "SRC-AU-STUDENT-CAPACITY-2024"],
           "data_points": [
             "Study Australia官方信息强调地区生活成本差异，需纳入城市决策。",
+            "学生签证申请费提高至AUD 2,000后，预算模型需同步上调固定成本项。",
             "财力要求上调后，预算冗余不足会放大执行风险。"
           ],
           "not_applicable_group": "获得稳定生活补贴或家庭长期支持者，可适度降低预算敏感性。"
@@ -4284,6 +4336,73 @@
       {"article_id": "A29", "publish_state": "ready", "next_channel": "wechat_official_account", "next_publish_date": "2026-03-20"},
       {"article_id": "A30", "publish_state": "ready", "next_channel": "zhihu", "next_publish_date": "2026-03-21"}
     ],
+    "headline_variation_registry": [
+      {"article_id": "A01", "scenario_result_timeline_title": "预算30-40万读英硕，7天算清值不值", "risk_stoploss_title": "英硕别只看QS：先做三笔账止损"},
+      {"article_id": "A02", "scenario_result_timeline_title": "一年制英硕适合谁？3分钟做完适配自测", "risk_stoploss_title": "一年制最怕先读再想：这3类人慎入"},
+      {"article_id": "A03", "scenario_result_timeline_title": "英国选校冲稳保怎么排？15分钟出首版名单", "risk_stoploss_title": "全冲名校最容易翻车：选校先定止损线"},
+      {"article_id": "A04", "scenario_result_timeline_title": "英国硕士预算怎么做？1张表拆出固定与弹性成本", "risk_stoploss_title": "预算表没做这一步，后期现金流最容易断"},
+      {"article_id": "A05", "scenario_result_timeline_title": "低GPA申英硕：4周补强优先级怎么排", "risk_stoploss_title": "低GPA别盲冲：先补证据再投递"},
+      {"article_id": "A06", "scenario_result_timeline_title": "英国文书怎么写？3段结构当天就能搭好", "risk_stoploss_title": "文书最常见翻车点：经历多但主线断"},
+      {"article_id": "A07", "scenario_result_timeline_title": "两个英国Offer怎么选？四维加权30分钟出结论", "risk_stoploss_title": "Offer终选别只看排名：成本和风险才是分水岭"},
+      {"article_id": "A08", "scenario_result_timeline_title": "英硕求职时间线：开学前12周该做什么", "risk_stoploss_title": "等开学再求职太晚：签证窗口会被浪费"},
+      {"article_id": "A09", "scenario_result_timeline_title": "港硕适配度判断：5分钟看你该不该读", "risk_stoploss_title": "港硕不适合所有人：先看岗位再看热度"},
+      {"article_id": "A10", "scenario_result_timeline_title": "港硕选校怎么做？冲稳保名单一晚排完", "risk_stoploss_title": "只看学校名气，港硕申请最容易走偏"},
+      {"article_id": "A11", "scenario_result_timeline_title": "港硕申请时间线：从现在到递交的倒排模板", "risk_stoploss_title": "DDL还早≠来得及：晚启动会压缩材料质量"},
+      {"article_id": "A12", "scenario_result_timeline_title": "低GPA冲港硕：先补哪3项成功率更高", "risk_stoploss_title": "低GPA最怕错配项目：先做风险分层"},
+      {"article_id": "A13", "scenario_result_timeline_title": "港硕预算怎么控？双方案避免开学后超支", "risk_stoploss_title": "预算只做理想版，港硕后期最容易被动"},
+      {"article_id": "A14", "scenario_result_timeline_title": "港硕面试3分钟闭环：当天就能练起来", "risk_stoploss_title": "面试翻车多因话术散：先搭证据闭环"},
+      {"article_id": "A15", "scenario_result_timeline_title": "拿到港硕Offer后，入学前7件事怎么排", "risk_stoploss_title": "只办手续不做求职，第一学期最容易失速"},
+      {"article_id": "A16", "scenario_result_timeline_title": "港硕留港还是回内地？双路径4周并行法", "risk_stoploss_title": "只押单一路径，去向决策风险会被放大"},
+      {"article_id": "A17", "scenario_result_timeline_title": "新加坡授课硕士值不值？先做岗位适配打分", "risk_stoploss_title": "留新可行性不评估，决策最容易后悔"},
+      {"article_id": "A18", "scenario_result_timeline_title": "NUS/NTU/SMU怎么选？岗位导向一表筛完", "risk_stoploss_title": "学校好≠项目合适：别被综排误导"},
+      {"article_id": "A19", "scenario_result_timeline_title": "新加坡申请材料清单：1次做完一致性体检", "risk_stoploss_title": "材料齐全但叙事断裂，最容易被拒"},
+      {"article_id": "A20", "scenario_result_timeline_title": "新加坡预算双方案：无奖学金也能稳住现金流", "risk_stoploss_title": "把奖学金当底盘，预算风险会被低估"},
+      {"article_id": "A21", "scenario_result_timeline_title": "新加坡求职窗口短：12周节奏怎么跑", "risk_stoploss_title": "求职晚启动，岗位窗口会快速关闭"},
+      {"article_id": "A22", "scenario_result_timeline_title": "跨专业申新加坡：三段叙事框架当天可套用", "risk_stoploss_title": "只讲动机不讲证据，转专业最容易翻车"},
+      {"article_id": "A23", "scenario_result_timeline_title": "新加坡留新还是回国？双路径终选表这样用", "risk_stoploss_title": "去向只看情绪不看门槛，决策代价会变高"},
+      {"article_id": "A24", "scenario_result_timeline_title": "澳洲授课硕士值不值？一张表算清政策和成本", "risk_stoploss_title": "跟风申请澳洲，最容易忽略签证成本变化"},
+      {"article_id": "A25", "scenario_result_timeline_title": "澳洲八大选校：冲稳保组合48小时定稿", "risk_stoploss_title": "全冲热门项目，录取波动会过大"},
+      {"article_id": "A26", "scenario_result_timeline_title": "澳洲申请倒排：12-16周关键节点全拆开", "risk_stoploss_title": "只盯截止日，材料和签证会同时吃紧"},
+      {"article_id": "A27", "scenario_result_timeline_title": "澳洲城市预算对比：主备城市一表看差异", "risk_stoploss_title": "城市选错，整体成本会被长期拉高"},
+      {"article_id": "A28", "scenario_result_timeline_title": "澳洲选课怎么连到就业？岗位反推模型实操", "risk_stoploss_title": "只选好过课程，求职叙事最容易断档"},
+      {"article_id": "A29", "scenario_result_timeline_title": "澳洲在读找实习：12周SOP每周做什么", "risk_stoploss_title": "随机投递不复盘，反馈率会持续偏低"},
+      {"article_id": "A30", "scenario_result_timeline_title": "澳洲Offer终选：四步加权法当天给出答案", "risk_stoploss_title": "终选只看名气，不看执行成本会后悔"}
+    ],
+    "series_link_registry": [
+      {"article_id": "A01", "series_track": "uk_track", "prev_article_id": "START", "next_article_id": "A02", "bridge_line": "如果你还在犹豫读不读，下一篇直接看《A02 一年制英硕适合谁》。"},
+      {"article_id": "A02", "series_track": "uk_track", "prev_article_id": "A01", "next_article_id": "A03", "bridge_line": "适配确认后，下一步是《A03 英国选校冲稳保》。"},
+      {"article_id": "A03", "series_track": "uk_track", "prev_article_id": "A02", "next_article_id": "A05", "bridge_line": "名单初版完成后，建议接着看《A05 低GPA申英国硕士》。"},
+      {"article_id": "A05", "series_track": "uk_track", "prev_article_id": "A03", "next_article_id": "A06", "bridge_line": "补强策略定完后，继续看《A06 英国硕士文书雷区》。"},
+      {"article_id": "A06", "series_track": "uk_track", "prev_article_id": "A05", "next_article_id": "A04", "bridge_line": "文书主线搭好后，下一篇做《A04 英国硕士预算》。"},
+      {"article_id": "A04", "series_track": "uk_track", "prev_article_id": "A06", "next_article_id": "A08", "bridge_line": "预算做完后，接《A08 英硕求职时间线》把就业前置。"},
+      {"article_id": "A08", "series_track": "uk_track", "prev_article_id": "A04", "next_article_id": "A07", "bridge_line": "求职节奏明确后，终选看《A07 英国offer怎么选》。"},
+      {"article_id": "A07", "series_track": "uk_track", "prev_article_id": "A08", "next_article_id": "END", "bridge_line": "英硕闭环完成，可切换到港硕或新加坡系列做横向比较。"},
+
+      {"article_id": "A09", "series_track": "hk_track", "prev_article_id": "START", "next_article_id": "A10", "bridge_line": "先判定适配后，下一步看《A10 港硕选校》。"},
+      {"article_id": "A10", "series_track": "hk_track", "prev_article_id": "A09", "next_article_id": "A11", "bridge_line": "名单有了就接《A11 港硕申请时间线》。"},
+      {"article_id": "A11", "series_track": "hk_track", "prev_article_id": "A10", "next_article_id": "A12", "bridge_line": "时间线定好后，补强看《A12 低GPA申请港硕》。"},
+      {"article_id": "A12", "series_track": "hk_track", "prev_article_id": "A11", "next_article_id": "A14", "bridge_line": "补强完成后，下一篇是《A14 港硕面试准备》。"},
+      {"article_id": "A14", "series_track": "hk_track", "prev_article_id": "A12", "next_article_id": "A13", "bridge_line": "面试路径明确后，回到《A13 港硕预算规划》。"},
+      {"article_id": "A13", "series_track": "hk_track", "prev_article_id": "A14", "next_article_id": "A15", "bridge_line": "预算定完后，继续看《A15 港硕入学前准备》。"},
+      {"article_id": "A15", "series_track": "hk_track", "prev_article_id": "A13", "next_article_id": "A16", "bridge_line": "入学动作完成后，终选看《A16 留港还是回内地》。"},
+      {"article_id": "A16", "series_track": "hk_track", "prev_article_id": "A15", "next_article_id": "END", "bridge_line": "港硕闭环完成，可与新加坡去向模型交叉对比。"},
+
+      {"article_id": "A17", "series_track": "sg_track", "prev_article_id": "START", "next_article_id": "A18", "bridge_line": "适配判断后，下一步看《A18 NUS/NTU/SMU怎么选》。"},
+      {"article_id": "A18", "series_track": "sg_track", "prev_article_id": "A17", "next_article_id": "A19", "bridge_line": "选校完成后，马上接《A19 新加坡申请材料》。"},
+      {"article_id": "A19", "series_track": "sg_track", "prev_article_id": "A18", "next_article_id": "A22", "bridge_line": "材料主线定好后，跨专业人群看《A22 新加坡跨专业申请》。"},
+      {"article_id": "A22", "series_track": "sg_track", "prev_article_id": "A19", "next_article_id": "A20", "bridge_line": "叙事补强后，回到《A20 新加坡留学预算》。"},
+      {"article_id": "A20", "series_track": "sg_track", "prev_article_id": "A22", "next_article_id": "A21", "bridge_line": "预算落地后，继续《A21 新加坡求职时间线》。"},
+      {"article_id": "A21", "series_track": "sg_track", "prev_article_id": "A20", "next_article_id": "A23", "bridge_line": "求职节奏跑通后，终选看《A23 留新还是回国》。"},
+      {"article_id": "A23", "series_track": "sg_track", "prev_article_id": "A21", "next_article_id": "END", "bridge_line": "新加坡闭环完成，可回看澳洲系列做成本与去向对比。"},
+
+      {"article_id": "A24", "series_track": "au_track", "prev_article_id": "START", "next_article_id": "A25", "bridge_line": "先做值不值判断，再看《A25 澳洲八大选校》。"},
+      {"article_id": "A25", "series_track": "au_track", "prev_article_id": "A24", "next_article_id": "A26", "bridge_line": "名单确定后，接《A26 澳洲申请时间线》。"},
+      {"article_id": "A26", "series_track": "au_track", "prev_article_id": "A25", "next_article_id": "A27", "bridge_line": "时间线定完后，下一步看《A27 澳洲城市预算对比》。"},
+      {"article_id": "A27", "series_track": "au_track", "prev_article_id": "A26", "next_article_id": "A28", "bridge_line": "预算落地后，继续《A28 澳洲选课与就业》。"},
+      {"article_id": "A28", "series_track": "au_track", "prev_article_id": "A27", "next_article_id": "A29", "bridge_line": "课程路径明确后，执行看《A29 澳洲在读找实习》。"},
+      {"article_id": "A29", "series_track": "au_track", "prev_article_id": "A28", "next_article_id": "A30", "bridge_line": "实习节奏跑通后，终选看《A30 澳洲offer终选》。"},
+      {"article_id": "A30", "series_track": "au_track", "prev_article_id": "A29", "next_article_id": "END", "bridge_line": "澳洲闭环完成，可回看英国/香港系列做横向决策。"}
+    ],
     "seo_signal_registry": {
       "last_snapshot_date": "2026-02-17",
       "refresh_cycle_days": 30,
@@ -4385,6 +4504,8 @@
         "article_library.article_id",
         "article_execution_enhancement_pack.article_id",
         "article_publish_status_registry.article_id",
+        "headline_variation_registry.article_id",
+        "series_link_registry.article_id",
         "seo_signal_registry.signals.article_id",
         "case_proof_upload_registry.entries.article_id"
       ],
@@ -4392,6 +4513,8 @@
         "article_library_count": 30,
         "article_execution_enhancement_pack_count": 30,
         "article_publish_status_registry_count": 30,
+        "headline_variation_registry_count": 30,
+        "series_link_registry_count": 30,
         "seo_signal_registry_count": 30,
         "case_proof_upload_registry_count": 30,
         "missing_ids": [],
@@ -4681,15 +4804,20 @@
       "content_mix_target": {
         "framework_articles_ratio": 0.4,
         "evidence_articles_ratio": 0.4,
-        "qa_articles_ratio": 0.2
+        "qa_articles_ratio": 0.2,
+        "failure_retro_articles_ratio": 0.3,
+        "series_linked_articles_ratio": 0.7,
+        "execution_note": "failure_retro_articles_ratio 与其他比例不是简单相加关系，代表至少30%文章需要包含失败复盘段落。"
       },
       "quality_gate": {
         "must_have_before_publish": [
           "正文模板8字段完整",
           "至少1个案例和1组数据口径",
+          "至少1段失败复盘与止损动作",
           "CTA承诺与资料名称一致",
           "平台改写版本存在",
-          "SEO问题词与长尾词存在",
+          "SEO问题词与长尾词存在且有信号分",
+          "连载链路存在上一篇/下一篇承接语",
           "案例证据位已上传或标记待补"
         ],
         "hard_gate_rules": [
@@ -4707,6 +4835,59 @@
           "抽检3篇文章是否存在CTA与资料名不一致",
           "抽检3篇文章的source_date是否过期"
         ]
+      },
+      "country_series_engine": {
+        "publish_mode": "country_season",
+        "series_design_rule": "每个国家按“决策->选校->申请->预算->就业/终选”串联，结尾引导下一篇。",
+        "series_tracks": {
+          "uk_track": {
+            "season_name": "英硕从决策到落地",
+            "article_chain": ["A01", "A02", "A03", "A05", "A06", "A04", "A08", "A07"],
+            "cross_link_cta_template": "看完这篇，下一步直接看《{{next_article_title}}》。"
+          },
+          "hk_track": {
+            "season_name": "港硕申请与去向双路径",
+            "article_chain": ["A09", "A10", "A11", "A12", "A14", "A13", "A15", "A16"],
+            "cross_link_cta_template": "这一环做完后，继续看《{{next_article_title}}》避免断层。"
+          },
+          "sg_track": {
+            "season_name": "新加坡硕士申请与就业",
+            "article_chain": ["A17", "A18", "A19", "A22", "A20", "A21", "A23"],
+            "cross_link_cta_template": "下一篇是《{{next_article_title}}》，直接承接你当前阶段。"
+          },
+          "au_track": {
+            "season_name": "澳洲硕士预算与就业闭环",
+            "article_chain": ["A24", "A25", "A26", "A27", "A28", "A29", "A30"],
+            "cross_link_cta_template": "为了避免信息碎片化，建议连看《{{next_article_title}}》。"
+          }
+        },
+        "weekly_series_slot": {
+          "monday": "发布新章节",
+          "wednesday": "发布章节执行版",
+          "friday": "发布失败复盘版",
+          "sunday": "发布答疑+终选版"
+        }
+      },
+      "failure_retro_content_spec": {
+        "minimum_per_article": {
+          "must_have_fields": ["失败触发条件", "错误动作", "止损动作", "可复用检查点"],
+          "min_word_count": 120
+        },
+        "weekly_target": {
+          "retro_articles_min": 2,
+          "retro_short_notes_min": 4
+        },
+        "qa_prompt_template": "如果你在{{stage}}阶段出现{{failure_signal}}，先停下做{{stop_loss_action}}。"
+      },
+      "policy_review_calendar": {
+        "high_volatility_policy_review_days": 30,
+        "medium_volatility_policy_review_days": 60,
+        "platform_rule_review_days": 30,
+        "owners": {
+          "visa_and_work_policy": "suan",
+          "platform_publishing_rules": "suan"
+        },
+        "escalation_rule": "任一关键政策超过复核周期未更新，相关国家决策类文章降级为 review_required。"
       },
       "seasonal_release_calendar": {
         "2026_spring_intake": {
@@ -4755,7 +4936,15 @@
       "url": "https://www.gov.uk/student-visa/money",
       "publisher": "UK Government",
       "last_verified_date": "2026-02-17",
-      "notes": "财力证明伦敦/非伦敦标准"
+      "notes": "截至2026-02-17页面显示财力证明标准为伦敦£1,483、非伦敦£1,136（最多9个月）。"
+    },
+    {
+      "source_id": "SRC-UK-FINANCIAL-EVIDENCE-GUIDANCE-2025-12-31",
+      "title": "Financial evidence for Student and Child Student routes",
+      "url": "https://www.gov.uk/government/publications/financial-requirement-caseworker-guidance/financial-requirement-caseworker-guidance-accessible",
+      "publisher": "UK Government",
+      "last_verified_date": "2026-02-17",
+      "notes": "页面更新日志显示2025-12-31更新，伦敦/月£1,483，非伦敦/月£1,136。"
     },
     {
       "source_id": "SRC-UK-IHS-2026",
@@ -4771,7 +4960,7 @@
       "url": "https://www.gov.uk/graduate-visa",
       "publisher": "UK Government",
       "last_verified_date": "2026-02-17",
-      "notes": "含2027-01-01起18个月调整说明"
+      "notes": "截至2026-02-17官方说明：本科/硕士通常2年，博士通常3年；费用£880+IHS。"
     },
     {
       "source_id": "SRC-UCAS-LIVING-COST-2026",
@@ -4822,6 +5011,14 @@
       "notes": "EP薪资门槛与评估逻辑"
     },
     {
+      "source_id": "SRC-SG-MOM-EP-ELIGIBILITY-2026",
+      "title": "MOM Employment Pass eligibility (with 2027 threshold note)",
+      "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+      "publisher": "Ministry of Manpower Singapore",
+      "last_verified_date": "2026-02-17",
+      "notes": "页面注明2027-01-01起新的薪资门槛：最低S$5,600，金融业最低S$6,200。"
+    },
+    {
       "source_id": "SRC-SG-ICA-STP-2025",
       "title": "ICA Student's Pass in Singapore",
       "url": "https://www.ica.gov.sg/reside/STP/apply",
@@ -4868,6 +5065,14 @@
       "publisher": "Australian Government",
       "last_verified_date": "2026-02-17",
       "notes": "澳洲生活成本官方指引"
+    },
+    {
+      "source_id": "SRC-AU-STUDYAU-STUDENT-VISA-FEE-2025",
+      "title": "Study Australia: Cost to apply for Student visa",
+      "url": "https://www.studyaustralia.gov.au/en/plan-your-move/visa-requirements/cost-of-student-visa",
+      "publisher": "Australian Government",
+      "last_verified_date": "2026-02-17",
+      "notes": "页面说明自2025-07-01起学生签证申请费为AUD 2,000。"
     },
     {
       "source_id": "SRC-ZHIHU-AI-GOVERNANCE-2025",
@@ -5020,23 +5225,67 @@
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-17",
       "notes": "30篇文章案例证据上传目录与状态"
+    },
+    {
+      "source_id": "SRC-SERIES-MAP-2026-02-17",
+      "title": "Country Series Map 2026-02-17",
+      "url": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/series/country-series-map-20260217.md",
+      "publisher": "Internal Content Ops",
+      "last_verified_date": "2026-02-17",
+      "notes": "四国连载链路与跨篇承接话术。"
+    },
+    {
+      "source_id": "SRC-HEADLINE-OPS-2026-02-17",
+      "title": "Headline Variation Ops 2026-02-17",
+      "url": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/headline/headline-variation-ops-20260217.md",
+      "publisher": "Internal Content Ops",
+      "last_verified_date": "2026-02-17",
+      "notes": "标题去模板化规则与审稿清单。"
+    },
+    {
+      "source_id": "SRC-POLICY-WATCHLIST-2026-02-17",
+      "title": "Policy Watchlist 2026-02-17",
+      "url": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/policy/policy-watchlist-20260217.md",
+      "publisher": "Internal Content Ops",
+      "last_verified_date": "2026-02-17",
+      "notes": "英新澳高波动政策监控清单与复核动作。"
     }
   ],
   "source_freshness_policy": {
     "policy_version": "2026-02-17",
     "review_method": "按波动等级分层复核",
+    "policy_review_sla": {
+      "study_visa_and_work_policy": {
+        "cycle_days": 30,
+        "owners": ["suan"],
+        "trigger_keywords": ["visa fee", "financial requirement", "work pass", "graduate route"]
+      },
+      "university_intake_and_deadline_policy": {
+        "cycle_days": 60,
+        "owners": ["suan"],
+        "trigger_keywords": ["application deadline", "intake", "admission cycle"]
+      },
+      "platform_content_rule_policy": {
+        "cycle_days": 30,
+        "owners": ["suan"],
+        "trigger_keywords": ["platform rule", "community guideline", "AI content policy"]
+      }
+    },
     "volatility_tiers": {
       "high_30d": {
         "review_cycle_days": 30,
         "next_review_date": "2026-03-19",
         "source_ids": [
           "SRC-UK-STUDENT-MONEY",
+          "SRC-UK-FINANCIAL-EVIDENCE-GUIDANCE-2025-12-31",
           "SRC-UK-IHS-2026",
           "SRC-UK-GRADUATE-VISA-2026",
           "SRC-SG-MOM-EP-2025",
+          "SRC-SG-MOM-EP-ELIGIBILITY-2026",
           "SRC-SG-ICA-STP-2025",
           "SRC-AU-GENUINE-STUDENT-2024",
           "SRC-AU-STUDENT-VISA-FEE-2024",
+          "SRC-AU-STUDYAU-STUDENT-VISA-FEE-2025",
           "SRC-AU-STUDENT-CAPACITY-2024",
           "SRC-ZHIHU-AI-GOVERNANCE-2025"
         ]
@@ -5065,7 +5314,10 @@
           "SRC-SEMRUSH-API-2026",
           "SRC-GOOGLE-TRENDS-HELP-2026",
           "SRC-SEO-SNAPSHOT-2026-02-17",
-          "SRC-CASE-PROOF-INDEX-2026-02-17"
+          "SRC-CASE-PROOF-INDEX-2026-02-17",
+          "SRC-SERIES-MAP-2026-02-17",
+          "SRC-HEADLINE-OPS-2026-02-17",
+          "SRC-POLICY-WATCHLIST-2026-02-17"
         ]
       },
       "low_180d": {
