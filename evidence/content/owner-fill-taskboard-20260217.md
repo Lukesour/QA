@@ -33,3 +33,8 @@ This board tracks fields that cannot be auto-collected in terminal mode and must
 - index: `evidence/case-proofs/index.md`
 - current status: templates prepared for A01-A30, real proof files pending upload
 - required per case: timestamp-visible screenshot + action proof + result proof + PII mask
+
+## E. Publish Priority
+
+- primary publish file: `evidence/content/publish-ready-longform-20260217.md`
+- fallback outline file: `evidence/content/publish-ready-drafts-20260217.md`

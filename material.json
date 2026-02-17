@@ -5322,6 +5322,14 @@
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-17",
       "notes": "不可自动抓取字段的统一待办（cookie、SEO数值位、集成密钥、案例实证上传）。"
+    },
+    {
+      "source_id": "SRC-PUBLISH-READY-LONGFORM-2026-02-17",
+      "title": "Publish Ready Longform Pack 2026-02-17",
+      "url": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/content/publish-ready-longform-20260217.md",
+      "publisher": "Internal Content Ops",
+      "last_verified_date": "2026-02-17",
+      "notes": "A01-A30逐篇长文可发版本，含as_of、官方来源、失败复盘四格和CTA梯度。"
     }
   ],
   "source_freshness_policy": {
@@ -5398,7 +5406,8 @@
           "SRC-POLICY-WATCHLIST-2026-02-17",
           "SRC-ARTICLE-EVIDENCE-MODULE-2026-02-17",
           "SRC-COOKIE-UPLOAD-GUIDE-2026-02-17",
-          "SRC-OWNER-FILL-TASKBOARD-2026-02-17"
+          "SRC-OWNER-FILL-TASKBOARD-2026-02-17",
+          "SRC-PUBLISH-READY-LONGFORM-2026-02-17"
         ]
       },
       "low_180d": {
@@ -5453,6 +5462,13 @@
           "trigger": "执行过期扫描（30天口径）+案例证据一致性校验",
           "result": "24_articles_marked_review_required_6_articles_marked_needs_case_upload",
           "owner_action": "先复核过期政策口径，再补齐案例证据上传后恢复ready"
+        },
+        {
+          "log_date": "2026-02-17",
+          "scope": "A01-A30_longform_publish_pack",
+          "trigger": "按版本1/2/3建议执行正文干货层全量升级",
+          "result": "longform_publish_pack_completed_owner_fill_pending",
+          "owner_action": "优先使用 publish-ready-longform-20260217.md 发布；补齐案例截图、平台SEO数值位与登录墙来源截图后回填状态"
         }
       ],
       "next_execution_checklist": [

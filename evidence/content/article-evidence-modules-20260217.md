@@ -3,6 +3,7 @@
 as_of: `2026-02-17`  
 usage: 发布前为每篇文章补齐 `as_of + 官方来源 + 不适用人群 + 案例证据`。  
 note: 需要登录或反爬的来源已标为 `owner_fill_required`，请按 cookie 指引补采。
+longform_publish_file: `evidence/content/publish-ready-longform-20260217.md`
 
 ## UK (A01-A08)
 
