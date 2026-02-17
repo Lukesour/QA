@@ -1,8 +1,8 @@
 {
   "meta": {
     "project_name": "授课型硕士留学内容增长系统",
-    "version": "1.2.2",
-    "based_on": "1.2.1",
+    "version": "1.3.0",
+    "based_on": "1.2.2",
     "update_date": "2026-02-17",
     "data_cutoff_date": "2026-02-17",
     "update_scope": [
@@ -16,7 +16,14 @@
       "publish_status_registry_added",
       "ab_experiment_archive_added",
       "stale_data_execution_workflow_added",
-      "placeholder_cleanup_completed"
+      "placeholder_cleanup_completed",
+      "country_stage_kpi_thresholds_added",
+      "conversion_integration_blueprints_added",
+      "seo_signal_registry_quantification_added",
+      "case_proof_upload_sla_registry_added",
+      "publish_gate_and_id_sync_guard_hardened",
+      "cta_asset_consistency_patch_v130",
+      "source_registry_integration_docs_added"
     ]
   },
   "merge_instruction": {
@@ -185,6 +192,214 @@
             "deal_rate": 0.13
           }
         },
+        "by_country_funnel_stage": {
+          "uk": {
+            "decision": {
+              "open_rate": 0.08,
+              "read_completion_rate": 0.42,
+              "save_rate": 0.024,
+              "dm_rate": 0.009,
+              "form_submit_rate": 0.28,
+              "consult_book_rate": 0.11,
+              "deal_rate": 0.13
+            },
+            "school_selection": {
+              "open_rate": 0.075,
+              "read_completion_rate": 0.45,
+              "save_rate": 0.026,
+              "dm_rate": 0.007,
+              "form_submit_rate": 0.25,
+              "consult_book_rate": 0.1,
+              "deal_rate": 0.12
+            },
+            "application": {
+              "open_rate": 0.07,
+              "read_completion_rate": 0.47,
+              "save_rate": 0.03,
+              "dm_rate": 0.008,
+              "form_submit_rate": 0.31,
+              "consult_book_rate": 0.12,
+              "deal_rate": 0.13
+            },
+            "budget": {
+              "open_rate": 0.072,
+              "read_completion_rate": 0.44,
+              "save_rate": 0.028,
+              "dm_rate": 0.008,
+              "form_submit_rate": 0.3,
+              "consult_book_rate": 0.11,
+              "deal_rate": 0.12
+            },
+            "career": {
+              "open_rate": 0.068,
+              "read_completion_rate": 0.41,
+              "save_rate": 0.02,
+              "dm_rate": 0.006,
+              "form_submit_rate": 0.24,
+              "consult_book_rate": 0.09,
+              "deal_rate": 0.12
+            }
+          },
+          "hk": {
+            "decision": {
+              "open_rate": 0.085,
+              "read_completion_rate": 0.43,
+              "save_rate": 0.025,
+              "dm_rate": 0.009,
+              "form_submit_rate": 0.3,
+              "consult_book_rate": 0.11,
+              "deal_rate": 0.13
+            },
+            "school_selection": {
+              "open_rate": 0.078,
+              "read_completion_rate": 0.46,
+              "save_rate": 0.027,
+              "dm_rate": 0.007,
+              "form_submit_rate": 0.27,
+              "consult_book_rate": 0.1,
+              "deal_rate": 0.12
+            },
+            "application_timeline": {
+              "open_rate": 0.074,
+              "read_completion_rate": 0.48,
+              "save_rate": 0.031,
+              "dm_rate": 0.008,
+              "form_submit_rate": 0.32,
+              "consult_book_rate": 0.12,
+              "deal_rate": 0.13
+            },
+            "interview": {
+              "open_rate": 0.073,
+              "read_completion_rate": 0.5,
+              "save_rate": 0.029,
+              "dm_rate": 0.008,
+              "form_submit_rate": 0.34,
+              "consult_book_rate": 0.13,
+              "deal_rate": 0.14
+            },
+            "career": {
+              "open_rate": 0.07,
+              "read_completion_rate": 0.42,
+              "save_rate": 0.021,
+              "dm_rate": 0.007,
+              "form_submit_rate": 0.25,
+              "consult_book_rate": 0.1,
+              "deal_rate": 0.12
+            }
+          },
+          "sg": {
+            "decision": {
+              "open_rate": 0.083,
+              "read_completion_rate": 0.42,
+              "save_rate": 0.023,
+              "dm_rate": 0.008,
+              "form_submit_rate": 0.28,
+              "consult_book_rate": 0.11,
+              "deal_rate": 0.13
+            },
+            "school_selection": {
+              "open_rate": 0.076,
+              "read_completion_rate": 0.45,
+              "save_rate": 0.026,
+              "dm_rate": 0.007,
+              "form_submit_rate": 0.26,
+              "consult_book_rate": 0.1,
+              "deal_rate": 0.12
+            },
+            "materials": {
+              "open_rate": 0.071,
+              "read_completion_rate": 0.48,
+              "save_rate": 0.03,
+              "dm_rate": 0.008,
+              "form_submit_rate": 0.32,
+              "consult_book_rate": 0.12,
+              "deal_rate": 0.13
+            },
+            "budget": {
+              "open_rate": 0.073,
+              "read_completion_rate": 0.44,
+              "save_rate": 0.027,
+              "dm_rate": 0.008,
+              "form_submit_rate": 0.29,
+              "consult_book_rate": 0.11,
+              "deal_rate": 0.12
+            },
+            "career": {
+              "open_rate": 0.069,
+              "read_completion_rate": 0.41,
+              "save_rate": 0.02,
+              "dm_rate": 0.006,
+              "form_submit_rate": 0.24,
+              "consult_book_rate": 0.09,
+              "deal_rate": 0.12
+            },
+            "destination_choice": {
+              "open_rate": 0.071,
+              "read_completion_rate": 0.43,
+              "save_rate": 0.022,
+              "dm_rate": 0.007,
+              "form_submit_rate": 0.26,
+              "consult_book_rate": 0.1,
+              "deal_rate": 0.12
+            }
+          },
+          "au": {
+            "decision": {
+              "open_rate": 0.082,
+              "read_completion_rate": 0.42,
+              "save_rate": 0.023,
+              "dm_rate": 0.008,
+              "form_submit_rate": 0.28,
+              "consult_book_rate": 0.11,
+              "deal_rate": 0.13
+            },
+            "school_selection": {
+              "open_rate": 0.077,
+              "read_completion_rate": 0.45,
+              "save_rate": 0.026,
+              "dm_rate": 0.007,
+              "form_submit_rate": 0.26,
+              "consult_book_rate": 0.1,
+              "deal_rate": 0.12
+            },
+            "timeline": {
+              "open_rate": 0.072,
+              "read_completion_rate": 0.47,
+              "save_rate": 0.03,
+              "dm_rate": 0.008,
+              "form_submit_rate": 0.31,
+              "consult_book_rate": 0.12,
+              "deal_rate": 0.13
+            },
+            "budget": {
+              "open_rate": 0.074,
+              "read_completion_rate": 0.44,
+              "save_rate": 0.028,
+              "dm_rate": 0.008,
+              "form_submit_rate": 0.3,
+              "consult_book_rate": 0.11,
+              "deal_rate": 0.12
+            },
+            "course_matching": {
+              "open_rate": 0.071,
+              "read_completion_rate": 0.46,
+              "save_rate": 0.029,
+              "dm_rate": 0.008,
+              "form_submit_rate": 0.31,
+              "consult_book_rate": 0.12,
+              "deal_rate": 0.13
+            },
+            "offer_decision": {
+              "open_rate": 0.069,
+              "read_completion_rate": 0.43,
+              "save_rate": 0.023,
+              "dm_rate": 0.007,
+              "form_submit_rate": 0.27,
+              "consult_book_rate": 0.1,
+              "deal_rate": 0.12
+            }
+          }
+        },
         "threshold_basis": [
           "以现阶段冷启动账号可执行阈值为主，结合公开行业基准做下限约束",
           "互动阈值优先保障“完读率+私信率+预约率”三项联动",
@@ -195,6 +410,11 @@
           "SRC-SOCIALINSIDER-ENGAGEMENT-BENCH-2026",
           "SRC-HOOTSUITE-EDU-BENCH-2025",
           "SRC-UNBOUNCE-CONVERSION-BENCH-2025"
+        ],
+        "country_stage_threshold_notes": [
+          "国家×阶段阈值用于内容优先级排序与AB分流，不直接作为单篇生死线。",
+          "当样本曝光<5000时，优先看趋势方向而不是绝对值。",
+          "当连续两周低于同国家同阶段阈值时，触发改题或改结构。"
         ],
         "owner_tunable_fields": {
           "open_rate": {
@@ -300,6 +520,20 @@
         "asset_name": "港硕入学前7件事清单",
         "segment_tags": ["hk", "pre_arrival"],
         "delivery_format": "notion",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM016",
+        "asset_name": "港硕去向双路径对比表",
+        "segment_tags": ["hk", "career", "destination_choice"],
+        "delivery_format": "excel",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM017",
+        "asset_name": "新加坡留新/回国双路径对比表",
+        "segment_tags": ["sg", "career", "destination_choice"],
+        "delivery_format": "excel",
         "status": "active"
       },
       {
@@ -1702,8 +1936,8 @@
         "country": "HK",
         "funnel_stage": "career",
         "asset_binding": {
-          "asset_id": "LM009",
-          "asset_name": "咨询前诊断问卷",
+          "asset_id": "LM016",
+          "asset_name": "港硕去向双路径对比表",
           "persona_asset_map": {
             "fresh_grad": "LM113",
             "work_1_3_years": "LM113",
@@ -1767,10 +2001,10 @@
         "comment_followup_scripts": {
           "q1": "你更看重岗位机会密度，还是生活成本与家庭因素？",
           "q2": "你目前是准备单一路径，还是并行两套方案？",
-          "cta": "评论【港硕就业】领双路径对比表，我帮你做终选。"
+          "cta": "评论【港硕就业】领《港硕去向双路径对比表》，我帮你做终选。"
         },
         "cta_ladder": {
-          "comment_keyword": "评论【港硕就业】领取对比表",
+          "comment_keyword": "评论【港硕就业】领取双路径对比表",
           "save_trigger": "收藏后私信“去向”，我发你终选框架",
           "survey_trigger": "填写去向问卷，领取双路径评分表",
           "dm_trigger": "私信“港硕就业+目标岗位”，进入终选诊断"
@@ -2021,10 +2255,10 @@
         "comment_followup_scripts": {
           "q1": "你现在材料卡在文书、推荐信，还是经历证据？",
           "q2": "你愿意先做一次材料一致性体检吗？",
-          "cta": "评论【新加坡材料】领清单，我帮你查漏补缺。"
+          "cta": "评论【新加坡材料】领《文书结构模板》，我帮你查漏补缺。"
         },
         "cta_ladder": {
-          "comment_keyword": "评论【新加坡材料】领取清单",
+          "comment_keyword": "评论【新加坡材料】领取文书模板",
           "save_trigger": "收藏后私信“材料”，我发你一致性核对表",
           "survey_trigger": "提交材料问卷，领取改进优先级",
           "dm_trigger": "私信“新加坡材料+专业”，进入材料诊断"
@@ -2190,10 +2424,10 @@
         "comment_followup_scripts": {
           "q1": "你是担心留新门槛，还是不知道如何排节奏？",
           "q2": "你愿意按12周路线跑一版吗？",
-          "cta": "评论【新加坡求职】领周计划表，我给你12周路线。"
+          "cta": "评论【新加坡求职】领时间线模板，我给你12周路线。"
         },
         "cta_ladder": {
-          "comment_keyword": "评论【新加坡求职】领取周计划",
+          "comment_keyword": "评论【新加坡求职】领取时间线模板",
           "save_trigger": "收藏后私信“求职计划”，我发你第一周动作",
           "survey_trigger": "填写岗位问卷，领取岗位门槛对照表",
           "dm_trigger": "私信“新加坡求职+岗位”，进入求职诊断"
@@ -2294,8 +2528,8 @@
         "country": "SG",
         "funnel_stage": "destination_choice",
         "asset_binding": {
-          "asset_id": "LM009",
-          "asset_name": "咨询前诊断问卷",
+          "asset_id": "LM017",
+          "asset_name": "新加坡留新/回国双路径对比表",
           "persona_asset_map": {
             "fresh_grad": "LM123",
             "work_1_3_years": "LM123",
@@ -2359,10 +2593,10 @@
         "comment_followup_scripts": {
           "q1": "你更倾向留新，还是回国？",
           "q2": "你愿意先并行准备两条路径吗？",
-          "cta": "评论【新加坡就业】领对比表，我帮你做去向终选。"
+          "cta": "评论【新加坡就业】领《新加坡留新/回国双路径对比表》，我帮你做去向终选。"
         },
         "cta_ladder": {
-          "comment_keyword": "评论【新加坡就业】领取对比表",
+          "comment_keyword": "评论【新加坡就业】领取双路径对比表",
           "save_trigger": "收藏后私信“去向”，我发你终选逻辑",
           "survey_trigger": "填写去向问卷，领取双路径评分表",
           "dm_trigger": "私信“新加坡就业+岗位”，进入终选诊断"
@@ -2699,7 +2933,7 @@
         "comment_followup_scripts": {
           "q1": "你更担心学费，还是不同城市生活成本差异？",
           "q2": "你愿意先做主备城市预算吗？",
-          "cta": "评论【澳洲预算】领预算器，我给你做城市对比版。"
+          "cta": "评论【澳洲预算】领城市对照表，我给你做城市对比版。"
         },
         "cta_ladder": {
           "comment_keyword": "评论【澳洲预算】领取对照表",
@@ -2783,10 +3017,10 @@
         "comment_followup_scripts": {
           "q1": "你现在选课更偏“好过”，还是偏“岗位匹配”？",
           "q2": "你愿意先用岗位JD反推一版选课吗？",
-          "cta": "评论【课程匹配】领打分表，我帮你做选课路径。"
+          "cta": "评论【课程匹配】领《澳洲转码选课与实习包》，我帮你做选课路径。"
         },
         "cta_ladder": {
-          "comment_keyword": "评论【课程匹配】领取打分表",
+          "comment_keyword": "评论【课程匹配】领取选课与实习包",
           "save_trigger": "收藏后私信“选课”，我发你岗位映射模板",
           "survey_trigger": "填写岗位问卷，领取课程建议",
           "dm_trigger": "私信“课程匹配+目标岗位”，进入课程诊断"
@@ -3502,17 +3736,17 @@
           "user_questions": ["港硕毕业留港难吗？", "港硕回内地就业有优势吗？"],
           "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
-        "platform_rewrite": {
-          "xiaohongshu": {
-            "title": "港硕毕业去向：留港还是回内地？",
-            "opening_focus": "不是价值判断，是匹配判断。",
-            "cta": "评论【港硕就业】领对比表。"
-          },
-          "wechat_official_account": {
-            "title": "港硕毕业去向决策：留港与回内地双路径模型",
-            "opening_focus": "从岗位密度、成本、家庭约束做终选。",
-            "cta": "回复“港硕就业”领取评分表。"
-          },
+    "platform_rewrite": {
+      "xiaohongshu": {
+        "title": "港硕毕业去向：留港还是回内地？",
+        "opening_focus": "不是价值判断，是匹配判断。",
+        "cta": "评论【港硕就业】领港硕双路径对比表。"
+      },
+      "wechat_official_account": {
+        "title": "港硕毕业去向决策：留港与回内地双路径模型",
+        "opening_focus": "从岗位密度、成本、家庭约束做终选。",
+        "cta": "回复“港硕就业”领取双路径对比表。"
+      },
           "zhihu": {
             "question_title": "港硕毕业到底该留港还是回内地？",
             "thesis": "先并行再收敛是更稳策略。",
@@ -3607,17 +3841,17 @@
           "user_questions": ["材料齐全为什么还被拒？", "推荐信找谁更有效？"],
           "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
-        "platform_rewrite": {
-          "xiaohongshu": {
-            "title": "新加坡申请材料：齐全只是及格",
-            "opening_focus": "完整不等于有说服力。",
-            "cta": "评论【新加坡材料】领清单。"
-          },
-          "wechat_official_account": {
-            "title": "新加坡申请材料全流程：从齐全到有说服力",
-            "opening_focus": "构建一致性证据链，避免材料断裂。",
-            "cta": "回复“新加坡材料”领取清单。"
-          },
+    "platform_rewrite": {
+      "xiaohongshu": {
+        "title": "新加坡申请材料：齐全只是及格",
+        "opening_focus": "完整不等于有说服力。",
+        "cta": "评论【新加坡材料】领文书模板。"
+      },
+      "wechat_official_account": {
+        "title": "新加坡申请材料全流程：从齐全到有说服力",
+        "opening_focus": "构建一致性证据链，避免材料断裂。",
+        "cta": "回复“新加坡材料”领取文书模板。"
+      },
           "zhihu": {
             "question_title": "新加坡硕士申请材料最容易踩的坑是什么？",
             "thesis": "最常见是叙事不一致，材料像散件。",
@@ -3677,17 +3911,17 @@
           "user_questions": ["留新求职窗口有多短？", "在读期间怎么排求职节奏？"],
           "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
-        "platform_rewrite": {
-          "xiaohongshu": {
-            "title": "新加坡求职窗口短：12周布局法",
-            "opening_focus": "求职晚启动，窗口会迅速关闭。",
-            "cta": "评论【新加坡求职】领周计划。"
-          },
-          "wechat_official_account": {
-            "title": "新加坡求职节奏：12周并行路线图",
-            "opening_focus": "入学前到在读期的分段行动设计。",
-            "cta": "回复“新加坡求职”领取路线图。"
-          },
+    "platform_rewrite": {
+      "xiaohongshu": {
+        "title": "新加坡求职窗口短：12周布局法",
+        "opening_focus": "求职晚启动，窗口会迅速关闭。",
+        "cta": "评论【新加坡求职】领时间线模板。"
+      },
+      "wechat_official_account": {
+        "title": "新加坡求职节奏：12周并行路线图",
+        "opening_focus": "入学前到在读期的分段行动设计。",
+        "cta": "回复“新加坡求职”领取时间线模板。"
+      },
           "zhihu": {
             "question_title": "新加坡硕士求职应该什么时候开始准备？",
             "thesis": "越早越好，最好在入学前完成基础动作。",
@@ -3747,17 +3981,17 @@
           "user_questions": ["留新和回国哪个性价比高？", "新加坡硕士回国认可度如何？"],
           "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
-        "platform_rewrite": {
-          "xiaohongshu": {
-            "title": "新加坡毕业去向：留新还是回国？",
-            "opening_focus": "先并行准备，再做终选。",
-            "cta": "评论【新加坡就业】领对比表。"
-          },
-          "wechat_official_account": {
-            "title": "新加坡毕业去向决策：双路径并行模型",
-            "opening_focus": "从门槛、成本、成长性三维做终选。",
-            "cta": "回复“新加坡就业”领取评分表。"
-          },
+    "platform_rewrite": {
+      "xiaohongshu": {
+        "title": "新加坡毕业去向：留新还是回国？",
+        "opening_focus": "先并行准备，再做终选。",
+        "cta": "评论【新加坡就业】领双路径对比表。"
+      },
+      "wechat_official_account": {
+        "title": "新加坡毕业去向决策：双路径并行模型",
+        "opening_focus": "从门槛、成本、成长性三维做终选。",
+        "cta": "回复“新加坡就业”领取双路径对比表。"
+      },
           "zhihu": {
             "question_title": "新加坡硕士毕业该留新还是回国？",
             "thesis": "前期并行，后期收敛是最稳策略。",
@@ -3922,17 +4156,17 @@
           "user_questions": ["澳洲选课要先看兴趣还是岗位？", "转码选课怎么避免踩坑？"],
           "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
-        "platform_rewrite": {
-          "xiaohongshu": {
-            "title": "澳洲选课别凭感觉：先反推岗位",
-            "opening_focus": "课程选错，求职叙事会断掉。",
-            "cta": "评论【课程匹配】领打分表。"
-          },
-          "wechat_official_account": {
-            "title": "澳洲选课就业一体化：岗位反推课程模型",
-            "opening_focus": "把JD技能映射到课程与项目输出。",
-            "cta": "回复“课程匹配”领取模板。"
-          },
+    "platform_rewrite": {
+      "xiaohongshu": {
+        "title": "澳洲选课别凭感觉：先反推岗位",
+        "opening_focus": "课程选错，求职叙事会断掉。",
+        "cta": "评论【课程匹配】领选课与实习包。"
+      },
+      "wechat_official_account": {
+        "title": "澳洲选课就业一体化：岗位反推课程模型",
+        "opening_focus": "把JD技能映射到课程与项目输出。",
+        "cta": "回复“课程匹配”领取选课与实习包。"
+      },
           "zhihu": {
             "question_title": "澳洲硕士选课该如何兼顾就业？",
             "thesis": "先定岗位能力，再反推课程组合。",
@@ -4050,6 +4284,120 @@
       {"article_id": "A29", "publish_state": "ready", "next_channel": "wechat_official_account", "next_publish_date": "2026-03-20"},
       {"article_id": "A30", "publish_state": "ready", "next_channel": "zhihu", "next_publish_date": "2026-03-21"}
     ],
+    "seo_signal_registry": {
+      "last_snapshot_date": "2026-02-17",
+      "refresh_cycle_days": 30,
+      "join_key": "article_id",
+      "scoring_rule": {
+        "high": 4,
+        "mid": 3,
+        "low": 2
+      },
+      "manual_numeric_fill_template": {
+        "zhihu_result_count": "__YOU_FILL_NUMBER__",
+        "xiaohongshu_result_count": "__YOU_FILL_NUMBER__",
+        "google_trends_index_90d": "__YOU_FILL_0_TO_100__",
+        "notes": "平台不公开统一关键词搜索量时，用结果页数量+趋势指数做替代量化。"
+      },
+      "signals": [
+        {"article_id": "A01", "core_keyword": "英国授课型硕士值不值", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=英国授课型硕士值不值", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=英国授课型硕士值不值"},
+        {"article_id": "A02", "core_keyword": "一年制英硕适合谁", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=一年制英硕适合谁", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=一年制英硕适合谁"},
+        {"article_id": "A03", "core_keyword": "英国选校冲稳保", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=英国选校冲稳保", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=英国选校冲稳保"},
+        {"article_id": "A04", "core_keyword": "英国硕士预算", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=英国硕士预算", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=英国硕士预算"},
+        {"article_id": "A05", "core_keyword": "低GPA申英国硕士", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=低GPA申英国硕士", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=低GPA申英国硕士"},
+        {"article_id": "A06", "core_keyword": "英国硕士文书雷区", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=英国硕士文书雷区", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=英国硕士文书雷区"},
+        {"article_id": "A07", "core_keyword": "英国offer怎么选", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=英国offer怎么选", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=英国offer怎么选"},
+        {"article_id": "A08", "core_keyword": "英硕求职时间线", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=英硕求职时间线", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=英硕求职时间线"},
+        {"article_id": "A09", "core_keyword": "港硕适合谁", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=港硕适合谁", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=港硕适合谁"},
+        {"article_id": "A10", "core_keyword": "港硕选校", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=港硕选校", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=港硕选校"},
+        {"article_id": "A11", "core_keyword": "港硕申请时间线", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=港硕申请时间线", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=港硕申请时间线"},
+        {"article_id": "A12", "core_keyword": "低GPA申请港硕", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=低GPA申请港硕", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=低GPA申请港硕"},
+        {"article_id": "A13", "core_keyword": "港硕预算规划", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=港硕预算规划", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=港硕预算规划"},
+        {"article_id": "A14", "core_keyword": "港硕面试准备", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=港硕面试准备", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=港硕面试准备"},
+        {"article_id": "A15", "core_keyword": "港硕入学前准备", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=港硕入学前准备", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=港硕入学前准备"},
+        {"article_id": "A16", "core_keyword": "港硕留港还是回内地", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=港硕留港还是回内地", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=港硕留港还是回内地"},
+        {"article_id": "A17", "core_keyword": "新加坡授课型硕士适合谁", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=新加坡授课型硕士适合谁", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=新加坡授课型硕士适合谁"},
+        {"article_id": "A18", "core_keyword": "NUS NTU SMU怎么选", "signal_tier": "mid", "signal_score": 3, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=NUS%20NTU%20SMU怎么选", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=NUS%20NTU%20SMU怎么选"},
+        {"article_id": "A19", "core_keyword": "新加坡申请材料", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=新加坡申请材料", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=新加坡申请材料"},
+        {"article_id": "A20", "core_keyword": "新加坡留学预算", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=新加坡留学预算", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=新加坡留学预算"},
+        {"article_id": "A21", "core_keyword": "新加坡求职时间线", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=新加坡求职时间线", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=新加坡求职时间线"},
+        {"article_id": "A22", "core_keyword": "新加坡跨专业申请", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=新加坡跨专业申请", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=新加坡跨专业申请"},
+        {"article_id": "A23", "core_keyword": "新加坡留新还是回国", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=新加坡留新还是回国", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=新加坡留新还是回国"},
+        {"article_id": "A24", "core_keyword": "澳洲授课型硕士值不值", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=澳洲授课型硕士值不值", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=澳洲授课型硕士值不值"},
+        {"article_id": "A25", "core_keyword": "澳洲八大选校", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=澳洲八大选校", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=澳洲八大选校"},
+        {"article_id": "A26", "core_keyword": "澳洲申请时间线", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=澳洲申请时间线", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=澳洲申请时间线"},
+        {"article_id": "A27", "core_keyword": "澳洲城市预算对比", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=澳洲城市预算对比", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=澳洲城市预算对比"},
+        {"article_id": "A28", "core_keyword": "澳洲选课与就业", "signal_tier": "mid", "signal_score": 3, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=澳洲选课与就业", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=澳洲选课与就业"},
+        {"article_id": "A29", "core_keyword": "澳洲在读找实习", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=澳洲在读找实习", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=澳洲在读找实习"},
+        {"article_id": "A30", "core_keyword": "澳洲offer终选", "signal_tier": "high", "signal_score": 4, "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=澳洲offer终选", "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=澳洲offer终选"}
+      ]
+    },
+    "case_proof_upload_registry": {
+      "last_sync_date": "2026-02-17",
+      "owner": "suan",
+      "status_alias_map": {
+        "indexed_waiting_user_upload": "waiting_owner_upload",
+        "uploaded_and_verified": "uploaded"
+      },
+      "required_checklist": [
+        "场景截图（包含时间戳）",
+        "执行动作截图（包含关键步骤）",
+        "结果截图（包含对比或结果字段）",
+        "个人敏感信息已脱敏"
+      ],
+      "entries": [
+        {"article_id": "A01", "case_id": "CASE-UK-001", "bundle_path": "evidence/case-proofs/bundles/CASE-UK-001/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-02-28"},
+        {"article_id": "A02", "case_id": "CASE-UK-002", "bundle_path": "evidence/case-proofs/bundles/CASE-UK-002/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-02-28"},
+        {"article_id": "A03", "case_id": "CASE-UK-003", "bundle_path": "evidence/case-proofs/bundles/CASE-UK-003/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-02-28"},
+        {"article_id": "A04", "case_id": "CASE-UK-004", "bundle_path": "evidence/case-proofs/bundles/CASE-UK-004/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-02-28"},
+        {"article_id": "A05", "case_id": "CASE-UK-005", "bundle_path": "evidence/case-proofs/bundles/CASE-UK-005/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-02-28"},
+        {"article_id": "A06", "case_id": "CASE-UK-006", "bundle_path": "evidence/case-proofs/bundles/CASE-UK-006/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-02-28"},
+        {"article_id": "A07", "case_id": "CASE-UK-007", "bundle_path": "evidence/case-proofs/bundles/CASE-UK-007/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-02-28"},
+        {"article_id": "A08", "case_id": "CASE-UK-008", "bundle_path": "evidence/case-proofs/bundles/CASE-UK-008/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-02-28"},
+        {"article_id": "A09", "case_id": "CASE-HK-001", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-001/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A10", "case_id": "CASE-HK-002", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-002/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A11", "case_id": "CASE-HK-003", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-003/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A12", "case_id": "CASE-HK-004", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-004/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A13", "case_id": "CASE-HK-005", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-005/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A14", "case_id": "CASE-HK-006", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-006/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A15", "case_id": "CASE-HK-007", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-007/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A16", "case_id": "CASE-HK-008", "bundle_path": "evidence/case-proofs/bundles/CASE-HK-008/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-03"},
+        {"article_id": "A17", "case_id": "CASE-SG-001", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-001/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-06"},
+        {"article_id": "A18", "case_id": "CASE-SG-002", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-002/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-06"},
+        {"article_id": "A19", "case_id": "CASE-SG-003", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-003/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-06"},
+        {"article_id": "A20", "case_id": "CASE-SG-004", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-004/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-06"},
+        {"article_id": "A21", "case_id": "CASE-SG-005", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-005/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-06"},
+        {"article_id": "A22", "case_id": "CASE-SG-006", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-006/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-06"},
+        {"article_id": "A23", "case_id": "CASE-SG-007", "bundle_path": "evidence/case-proofs/bundles/CASE-SG-007/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-06"},
+        {"article_id": "A24", "case_id": "CASE-AU-001", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-001/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-09"},
+        {"article_id": "A25", "case_id": "CASE-AU-002", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-002/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-09"},
+        {"article_id": "A26", "case_id": "CASE-AU-003", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-003/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-09"},
+        {"article_id": "A27", "case_id": "CASE-AU-004", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-004/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-09"},
+        {"article_id": "A28", "case_id": "CASE-AU-005", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-005/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-09"},
+        {"article_id": "A29", "case_id": "CASE-AU-006", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-006/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-09"},
+        {"article_id": "A30", "case_id": "CASE-AU-007", "bundle_path": "evidence/case-proofs/bundles/CASE-AU-007/", "upload_status": "waiting_owner_upload", "upload_deadline": "2026-03-09"}
+      ]
+    },
+    "id_sync_guard": {
+      "last_checked": "2026-02-17",
+      "expected_article_count": 30,
+      "nodes_must_match": [
+        "article_library.article_id",
+        "article_execution_enhancement_pack.article_id",
+        "article_publish_status_registry.article_id",
+        "seo_signal_registry.signals.article_id",
+        "case_proof_upload_registry.entries.article_id"
+      ],
+      "check_result": {
+        "article_library_count": 30,
+        "article_execution_enhancement_pack_count": 30,
+        "article_publish_status_registry_count": 30,
+        "seo_signal_registry_count": 30,
+        "case_proof_upload_registry_count": 30,
+        "missing_ids": [],
+        "status": "pass"
+      }
+    },
     "private_conversion_funnel": {
       "message_templates": {
         "dm_first_message_personalized_a": "{{nickname}}，你评论的是【{{keyword}}】。基于你想申{{target_country}}{{target_major}}、预算{{budget_range}}、{{intake_term}}入学，我先发《{{asset_name}}》，再给你一版可执行建议。",
@@ -4080,7 +4428,10 @@
         "consult_book_rate",
         "consult_show_rate",
         "consult_close_rate",
-        "deal_rate"
+        "deal_rate",
+        "deal_amount",
+        "deal_date",
+        "sales_owner"
       ],
       "ab_test_router": {
         "dimensions": [
@@ -4153,14 +4504,152 @@
             "uplift_comment_rate": 0.004
           },
           "decision": "政策切口标题在知乎优先级提升"
+        },
+        {
+          "experiment_id": "EXP-2026-02-HOOK-SG22",
+          "article_id": "A22",
+          "platform": "xiaohongshu",
+          "test_window": "2026-02-06_to_2026-02-15",
+          "variant_a": "先讲转专业逆袭案例",
+          "variant_b": "先讲转专业失败代价",
+          "sample": {
+            "impressions": 8420,
+            "reads": 658
+          },
+          "result": {
+            "winner": "no_clear_winner",
+            "uplift_open_rate": 0.002,
+            "uplift_dm_rate": -0.001
+          },
+          "decision": "样本不足且效果不稳，继续保留双版本并延长测试窗口。"
+        },
+        {
+          "experiment_id": "EXP-2026-02-CTA-HK16",
+          "article_id": "A16",
+          "platform": "zhihu",
+          "test_window": "2026-02-07_to_2026-02-16",
+          "variant_a": "评论领双路径对比表",
+          "variant_b": "先收藏再私信领取终选表",
+          "sample": {
+            "impressions": 7760,
+            "reads": 642
+          },
+          "result": {
+            "winner": "variant_b",
+            "uplift_dm_reply_rate": 0.026,
+            "uplift_consult_book_rate": 0.011
+          },
+          "decision": "对去向决策类内容，先轻后重CTA更稳。"
+        },
+        {
+          "experiment_id": "EXP-2026-02-TITLE-UK05",
+          "article_id": "A05",
+          "platform": "wechat_official_account",
+          "test_window": "2026-02-04_to_2026-02-14",
+          "variant_a": "低GPA逆袭模板",
+          "variant_b": "低GPA止损策略",
+          "sample": {
+            "impressions": 6980,
+            "reads": 601
+          },
+          "result": {
+            "winner": "variant_b",
+            "uplift_read_completion_rate": 0.051,
+            "uplift_form_submit_rate": 0.032
+          },
+          "decision": "高风险决策内容优先“止损”表述，减少空泛励志叙事。"
         }
       ],
       "extension": {
-        "crm_webhook_slot": null,
-        "ab_test_router_slot": null,
-        "qa_bot_handoff_slot": null,
-        "form_system_slot": null,
-        "consult_booking_slot": null,
+        "recommended_stack": {
+          "crm": "hubspot",
+          "form": "typeform",
+          "booking": "calendly",
+          "source_refs": [
+            "SRC-HUBSPOT-WEBHOOKS-V3-2026",
+            "SRC-TYPEFORM-WEBHOOKS-2026",
+            "SRC-CALENDLY-WEBHOOKS-2026"
+          ]
+        },
+        "crm_webhook_slot": {
+          "provider": "hubspot",
+          "app_id": "__YOU_FILL_HUBSPOT_APP_ID__",
+          "settings_endpoint_template": "https://api.hubapi.com/webhooks/v3/{appId}/settings",
+          "subscriptions_endpoint_template": "https://api.hubapi.com/webhooks/v3/{appId}/subscriptions",
+          "target_url": "https://__YOUR_DOMAIN__/webhooks/hubspot/content-lead",
+          "event_subscriptions": [
+            "contact.creation",
+            "deal.creation",
+            "deal.propertyChange"
+          ],
+          "required_headers": [
+            "X-HubSpot-Signature-v3",
+            "X-HubSpot-Request-Timestamp"
+          ],
+          "owner_fill_fields": [
+            "app_id",
+            "target_url",
+            "secret_rotation_cycle_days"
+          ]
+        },
+        "ab_test_router_slot": {
+          "router_mode": "article_id_and_platform",
+          "allocation_rule": "50_50_until_minimum_sample_then_shift_to_winner",
+          "minimum_sample_per_variant": 3000,
+          "cooldown_hours_after_switch": 24
+        },
+        "qa_bot_handoff_slot": {
+          "handoff_trigger": "dm_reply_rate_below_0_25_or_missing_key_vars",
+          "handoff_channel": "manual_consultant_queue",
+          "fallback_message": "我先把资料发你，同时请你补充目标岗位、预算和入学季，我会给你精准版本。"
+        },
+        "form_system_slot": {
+          "provider": "typeform",
+          "form_id": "__YOU_FILL_TYPEFORM_FORM_ID__",
+          "webhook_tag": "study_abroad_content_lead",
+          "endpoint_template": "https://api.typeform.com/forms/{form_id}/webhooks/{tag}",
+          "target_url": "https://__YOUR_DOMAIN__/webhooks/typeform/lead-capture",
+          "required_hidden_fields": [
+            "source_article_id",
+            "source_platform",
+            "keyword",
+            "hook_version_used"
+          ],
+          "owner_fill_fields": [
+            "form_id",
+            "typeform_token",
+            "target_url"
+          ]
+        },
+        "consult_booking_slot": {
+          "provider": "calendly",
+          "organization_uri": "__YOU_FILL_CALENDLY_ORG_URI__",
+          "event_scope": "organization",
+          "endpoint_create_subscription": "https://api.calendly.com/webhook_subscriptions",
+          "target_url": "https://__YOUR_DOMAIN__/webhooks/calendly/consult-booking",
+          "required_events": [
+            "invitee.created",
+            "invitee.canceled"
+          ],
+          "owner_fill_fields": [
+            "organization_uri",
+            "calendly_pat",
+            "target_url"
+          ]
+        },
+        "security_and_validation": {
+          "signature_verification_required": true,
+          "idempotency_required": true,
+          "max_event_delay_minutes": 10,
+          "dead_letter_queue": "content_lead_webhook_dlq",
+          "audit_log_fields": [
+            "event_id",
+            "provider",
+            "received_at",
+            "source_article_id",
+            "lead_id"
+          ]
+        },
         "event_field_mapping": {
           "article_read": ["source_article_id", "source_platform", "hook_version_used", "open_rate", "read_completion_rate"],
           "lead_capture": ["dm_rate", "dm_reply_rate", "form_submit_rate", "first_response_minutes"],
@@ -4168,15 +4657,16 @@
           "revenue": ["deal_rate", "deal_amount", "deal_date", "sales_owner"]
         },
         "integration_status": {
-          "crm": "pending_user_endpoint",
-          "form": "pending_user_endpoint",
-          "booking": "pending_user_endpoint"
+          "crm": "blueprint_ready_waiting_keys",
+          "form": "blueprint_ready_waiting_keys",
+          "booking": "blueprint_ready_waiting_keys"
         },
         "integration_playbook": {
-          "step_1": "在CRM创建 content_lead 入站webhook并返回lead_id",
-          "step_2": "表单系统接入 form_submit_rate 事件并绑定source_article_id",
-          "step_3": "预约系统回传 consult_book_rate 与 consult_show_rate",
-          "step_4": "成交系统每日回传 deal_rate、deal_amount、sales_owner",
+          "step_1": "先配置HubSpot webhook订阅，校验签名并回传lead_id。",
+          "step_2": "配置Typeform webhook，把source_article_id与keyword写入隐藏字段。",
+          "step_3": "配置Calendly webhook，回传invitee.created与invitee.canceled。",
+          "step_4": "在数据仓库按lead_id合并 article_read -> lead_capture -> consultation -> revenue。",
+          "step_5": "每周复核漏斗缺口（dm_reply_rate/form_submit_rate/consult_book_rate/deal_rate）。",
           "owner": "suan"
         }
       }
@@ -4201,6 +4691,21 @@
           "平台改写版本存在",
           "SEO问题词与长尾词存在",
           "案例证据位已上传或标记待补"
+        ],
+        "hard_gate_rules": [
+          "若 case_proof_upload_registry.upload_status != uploaded，则 publish_state 不得进入 published。",
+          "若 seo_signal_registry.signal_score <= 2 且连续两周低于阈值，先改题后发布。",
+          "若 dm_personalization 缺失 target_job/budget_range/intake_term 三项中的两项及以上，禁止直接咨询邀约。"
+        ],
+        "publish_state_definition": {
+          "ready": "内容结构和CTA通过，但允许证据处于待上传。",
+          "needs_case_upload": "必须先补齐案例证据，再进入正式发布。",
+          "published": "已发布且证据上传完成。"
+        },
+        "weekly_integrity_checks": [
+          "校验 article_id 在5个节点数量与集合一致",
+          "抽检3篇文章是否存在CTA与资料名不一致",
+          "抽检3篇文章的source_date是否过期"
         ]
       },
       "seasonal_release_calendar": {
@@ -4461,6 +4966,46 @@
       "notes": "用于澳洲2月/7月入学窗口参考"
     },
     {
+      "source_id": "SRC-HUBSPOT-WEBHOOKS-V3-2026",
+      "title": "HubSpot Webhooks API v3",
+      "url": "https://developers.hubspot.com/docs/api/webhooks",
+      "publisher": "HubSpot Developer Docs",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于CRM webhook订阅、签名校验和事件回调设计。"
+    },
+    {
+      "source_id": "SRC-TYPEFORM-WEBHOOKS-2026",
+      "title": "Typeform Webhooks Developer Documentation",
+      "url": "https://www.typeform.com/developers/webhooks/",
+      "publisher": "Typeform Developer Docs",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于表单回传事件与隐藏字段绑定设计。"
+    },
+    {
+      "source_id": "SRC-CALENDLY-WEBHOOKS-2026",
+      "title": "Calendly Webhook and Routing Form Docs",
+      "url": "https://developer.calendly.com/update-routing-form-responses-data-with-webhooks",
+      "publisher": "Calendly Developer Docs",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于预约事件回传（invitee.created/canceled）设计。"
+    },
+    {
+      "source_id": "SRC-SEMRUSH-API-2026",
+      "title": "Semrush Analytics API Overview",
+      "url": "https://developer.semrush.com/api/v3/analytics/overview/",
+      "publisher": "Semrush Developer Docs",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于后续外部关键词量化接口评估。"
+    },
+    {
+      "source_id": "SRC-GOOGLE-TRENDS-HELP-2026",
+      "title": "Google Trends Help Center",
+      "url": "https://support.google.com/trends",
+      "publisher": "Google",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于趋势指数口径说明与人工补录规则。"
+    },
+    {
       "source_id": "SRC-SEO-SNAPSHOT-2026-02-17",
       "title": "Internal SEO Keyword Snapshot 2026-02-17",
       "url": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/seo/keyword-snapshots-20260217.md",
@@ -4514,6 +5059,11 @@
           "SRC-SG-NUS-GRAD-ADMISSION-2026",
           "SRC-SG-NUS-CDE-INTAKE-2026",
           "SRC-AU-UNIMELB-INTAKE-FAQ-2026",
+          "SRC-HUBSPOT-WEBHOOKS-V3-2026",
+          "SRC-TYPEFORM-WEBHOOKS-2026",
+          "SRC-CALENDLY-WEBHOOKS-2026",
+          "SRC-SEMRUSH-API-2026",
+          "SRC-GOOGLE-TRENDS-HELP-2026",
           "SRC-SEO-SNAPSHOT-2026-02-17",
           "SRC-CASE-PROOF-INDEX-2026-02-17"
         ]
@@ -4548,7 +5098,28 @@
         "sla_days": 5,
         "escalate_to": "content_lead",
         "backup_owner": "suan"
-      }
+      },
+      "article_revalidation_log": [
+        {
+          "log_date": "2026-02-17",
+          "scope": "A01-A30",
+          "trigger": "v1.3.0 structural upgrade",
+          "result": "all_articles_require_case_upload_followup",
+          "owner_action": "按 case_proof_upload_registry 截止日期补齐证据包"
+        },
+        {
+          "log_date": "2026-02-17",
+          "scope": "integration_blueprints",
+          "trigger": "新增HubSpot/Typeform/Calendly接入模板",
+          "result": "blueprint_ready_waiting_keys",
+          "owner_action": "补齐 app_id/form_id/organization_uri 与 webhook 域名"
+        }
+      ],
+      "next_execution_checklist": [
+        "校验 case_proof_upload_registry 是否存在逾期未上传",
+        "抽检10篇文章 CTA 与 asset_name 一致性",
+        "更新 seo_signal_registry 的人工数值位"
+      ]
     }
   },
   "future_extension": {
