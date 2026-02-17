@@ -1,0 +1,3213 @@
+{
+  "meta": {
+    "project_name": "授课型硕士留学内容增长系统",
+    "version": "1.2.0",
+    "based_on": "1.1.0",
+    "update_date": "2026-02-17",
+    "data_cutoff_date": "2026-02-17",
+    "update_scope": [
+      "article_body_layer_full_fill",
+      "platform_specific_templates",
+      "cta_ladder_refactor",
+      "lead_magnet_segmentation",
+      "conversion_kpi_and_revenue_tracking",
+      "evidence_module_with_source_registry",
+      "v1_2_reserved_modules_filled"
+    ]
+  },
+  "merge_instruction": {
+    "mode": "deep_merge",
+    "target_nodes": [
+      "v1_2_content_system.article_library[*]",
+      "v1_2_content_system.private_conversion_funnel.message_templates",
+      "future_extension"
+    ],
+    "compatibility_notes": [
+      "修复原配置 article_library 与 article_interaction_pack 命名不一致问题",
+      "v1.2 主路径统一为 v1_2_content_system.article_library"
+    ]
+  },
+  "v1_2_content_system": {
+    "global_interaction_config": {
+      "dm_personalization_vars": [
+        "nickname",
+        "keyword",
+        "topic",
+        "target_country",
+        "target_major",
+        "target_job",
+        "budget_range",
+        "intake_term",
+        "current_stage",
+        "gpa_band",
+        "language_score_band",
+        "preferred_city",
+        "risk_preference"
+      ],
+      "dm_template_ab": {
+        "A": "{{nickname}}，我看到了你评论的【{{keyword}}】。按你想申{{target_country}}{{target_major}}、预算{{budget_range}}、计划{{intake_term}}入学，我先发你《{{asset_name}}》，再给你一版可执行建议。",
+        "B": "收到，{{nickname}}。你现在在{{current_stage}}阶段，我先给你【{{topic}}】的简版路径。你补充目标岗位和预算后，我再发完整方案。"
+      },
+      "dm_fallback_templates": {
+        "missing_target_job": "先不急，我先把《{{asset_name}}》发你。你补一句“毕业后最想做什么类型岗位”（比如咨询/产品/数据），我就能把路径精确到课程和实习。",
+        "missing_budget_range": "我先按“保守预算”给你初版。你再补一个总预算区间（例如25-30w/30-40w），我会马上重排学校和城市组合。",
+        "missing_intake_term": "你先告诉我计划哪一季入学（2026秋/2027春），我才能把时间线从“可做”变成“可执行”。",
+        "minimal_info": "你先回我3项：目标专业、预算区间、计划入学季。我会按你的情况给你一版可执行建议。"
+      },
+      "comment_followup_framework": {
+        "step_1": "先问当前最大卡点（预算/选校/申请/就业）",
+        "step_2": "再问关键决策变量（目标岗位/预算/入学季）",
+        "step_3": "给轻量动作（收藏清单或自测）",
+        "step_4": "再给关键词CTA引导私信领取细分资料并进入诊断"
+      },
+      "platform_specific_templates": {
+        "xiaohongshu": {
+          "positioning": "结果导向+可收藏清单",
+          "recommended_structure": [
+            "开头结论（1句反常识）",
+            "适用人群（3类人）",
+            "步骤框架（3-5步）",
+            "失败案例（1个）",
+            "行动清单（可打钩）",
+            "轻CTA（先收藏）+重CTA（评论关键词）"
+          ],
+          "length_guideline": "900-1400字",
+          "format_guideline": "每段不超过5行，至少2处加粗关键词，结尾保留评论关键词",
+          "verification_note": "小红书官方规则中心部分页面需要登录态访问，发布前请在账号后台二次核验敏感词与导流规则。"
+        },
+        "wechat_official_account": {
+          "positioning": "深度解释+决策工具",
+          "recommended_structure": [
+            "开头结论",
+            "问题定义与边界",
+            "完整方法论（含公式或评分表）",
+            "案例复盘（成功+失败）",
+            "FAQ与误区",
+            "资料领取与咨询入口"
+          ],
+          "length_guideline": "1800-3200字",
+          "format_guideline": "每300-500字一个小标题，保留图表位与注释位",
+          "verification_note": "公众号平台规则更新频繁，涉及外链、联系方式与导流动作时需按后台最新规范复核。"
+        },
+        "zhihu": {
+          "positioning": "问答型论证+反例",
+          "recommended_structure": [
+            "先回答问题（立场先行）",
+            "给判断条件",
+            "给数据或政策依据",
+            "给反例与不适用人群",
+            "给可执行动作"
+          ],
+          "length_guideline": "1200-2400字",
+          "format_guideline": "每段围绕一个论点，避免情绪化绝对化表达，结尾给行动路径",
+          "verification_note": "知乎已公开发布AI使用声明相关治理提示，使用AI辅助时请按平台最新规则标注。"
+        }
+      },
+      "article_body_template_required_fields": [
+        "opening_conclusion",
+        "applicable_audience",
+        "step_framework",
+        "real_case",
+        "counter_example",
+        "action_checklist",
+        "faq",
+        "closing_summary"
+      ],
+      "evidence_minimum_requirements": [
+        "source_date",
+        "source_refs",
+        "data_points",
+        "not_applicable_group"
+      ]
+    },
+    "content_kpi_schema": {
+      "core_metrics": [
+        "impressions",
+        "open_rate",
+        "read_completion_rate",
+        "save_rate",
+        "share_rate",
+        "comment_rate",
+        "dm_rate",
+        "consult_book_rate",
+        "deal_rate"
+      ],
+      "funnel_metrics": [
+        "dm_reply_rate",
+        "form_submit_rate",
+        "diagnosis_show_rate",
+        "consult_show_rate",
+        "consult_close_rate"
+      ],
+      "metric_formula_notes": {
+        "open_rate": "阅读人数 / 曝光人数",
+        "read_completion_rate": "完读人数 / 阅读人数",
+        "dm_rate": "私信人数 / 阅读人数",
+        "consult_book_rate": "预约咨询人数 / 私信有效线索人数",
+        "deal_rate": "成交人数 / 预约咨询人数"
+      },
+      "target_threshold_placeholders": {
+        "open_rate": "__TO_FILL__",
+        "read_completion_rate": "__TO_FILL__",
+        "save_rate": "__TO_FILL__",
+        "dm_rate": "__TO_FILL__",
+        "consult_book_rate": "__TO_FILL__",
+        "deal_rate": "__TO_FILL__"
+      }
+    },
+    "lead_magnet_library": [
+      {
+        "asset_id": "LM001",
+        "asset_name": "三笔账评估表",
+        "segment_tags": ["all", "decision"],
+        "delivery_format": "excel",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM002",
+        "asset_name": "一年制适配度自测表",
+        "segment_tags": ["all", "decision"],
+        "delivery_format": "notion",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM003",
+        "asset_name": "选校四维矩阵",
+        "segment_tags": ["all", "school_selection"],
+        "delivery_format": "excel",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM004",
+        "asset_name": "留学预算规划器",
+        "segment_tags": ["all", "budget"],
+        "delivery_format": "excel",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM005",
+        "asset_name": "文书结构模板",
+        "segment_tags": ["all", "application_materials"],
+        "delivery_format": "doc",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM006",
+        "asset_name": "低GPA补强清单",
+        "segment_tags": ["all", "profile_boost"],
+        "delivery_format": "pdf",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM007",
+        "asset_name": "求职时间线模板",
+        "segment_tags": ["all", "career"],
+        "delivery_format": "notion",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM008",
+        "asset_name": "Offer对比决策表",
+        "segment_tags": ["all", "offer_decision"],
+        "delivery_format": "excel",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM009",
+        "asset_name": "咨询前诊断问卷",
+        "segment_tags": ["all", "consulting"],
+        "delivery_format": "form",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM014",
+        "asset_name": "港硕面试题库",
+        "segment_tags": ["hk", "interview"],
+        "delivery_format": "pdf",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM015",
+        "asset_name": "港硕入学前7件事清单",
+        "segment_tags": ["hk", "pre_arrival"],
+        "delivery_format": "notion",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM101",
+        "asset_name": "英硕商科-选校与岗位映射包",
+        "segment_tags": ["uk", "business", "school_selection"],
+        "delivery_format": "excel+pdf",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM102",
+        "asset_name": "英硕转码补强包",
+        "segment_tags": ["uk", "career_switch", "profile_boost"],
+        "delivery_format": "pdf",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM103",
+        "asset_name": "英硕就业冲刺周计划",
+        "segment_tags": ["uk", "career", "stem"],
+        "delivery_format": "notion",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM111",
+        "asset_name": "港硕商科面试题库",
+        "segment_tags": ["hk", "business", "interview"],
+        "delivery_format": "pdf",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM112",
+        "asset_name": "港硕转专业文书补强包",
+        "segment_tags": ["hk", "career_switch", "application_materials"],
+        "delivery_format": "doc+pdf",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM113",
+        "asset_name": "港硕入学与求职并行表",
+        "segment_tags": ["hk", "pre_arrival", "career"],
+        "delivery_format": "notion",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM121",
+        "asset_name": "新加坡商科签证与求职衔接包",
+        "segment_tags": ["sg", "business", "career"],
+        "delivery_format": "pdf",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM122",
+        "asset_name": "新加坡转专业叙事包",
+        "segment_tags": ["sg", "career_switch", "application_materials"],
+        "delivery_format": "doc",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM123",
+        "asset_name": "新加坡数据岗求职节点表",
+        "segment_tags": ["sg", "stem", "career"],
+        "delivery_format": "notion",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM131",
+        "asset_name": "澳洲商科城市成本与岗位对照表",
+        "segment_tags": ["au", "business", "budget"],
+        "delivery_format": "excel",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM132",
+        "asset_name": "澳洲转码选课与实习包",
+        "segment_tags": ["au", "career_switch", "course_planning"],
+        "delivery_format": "pdf+notion",
+        "status": "active"
+      },
+      {
+        "asset_id": "LM133",
+        "asset_name": "澳洲入学前12周实习SOP",
+        "segment_tags": ["au", "pre_arrival", "career"],
+        "delivery_format": "notion",
+        "status": "active"
+      }
+    ],
+    "country_funnel_coverage": {
+      "uk": {
+        "decision": ["A01", "A02"],
+        "school_selection": ["A03"],
+        "budget": ["A04"],
+        "application": ["A05", "A06"],
+        "offer_decision": ["A07"],
+        "career": ["A08"]
+      },
+      "hk": {
+        "decision": ["A09"],
+        "school_selection": ["A10"],
+        "application_timeline": ["A11"],
+        "application_boost": ["A12"],
+        "budget": ["A13"],
+        "interview": ["A14"],
+        "pre_arrival": ["A15"],
+        "career": ["A16"]
+      },
+      "sg": {
+        "decision": ["A17"],
+        "school_selection": ["A18"],
+        "materials": ["A19"],
+        "budget": ["A20"],
+        "career": ["A21"],
+        "career_switch": ["A22"],
+        "destination_choice": ["A23"]
+      },
+      "au": {
+        "decision": ["A24"],
+        "school_selection": ["A25"],
+        "timeline": ["A26"],
+        "budget": ["A27"],
+        "course_matching": ["A28"],
+        "internship": ["A29"],
+        "offer_decision": ["A30"]
+      }
+    },
+    "article_library": [
+      {
+        "article_id": "A01",
+        "title": "英国授课型硕士值不值：先算三笔账",
+        "keyword": "英国决策",
+        "country": "UK",
+        "funnel_stage": "decision",
+        "asset_binding": {
+          "asset_id": "LM001",
+          "asset_name": "三笔账评估表",
+          "persona_asset_map": {
+            "fresh_grad": "LM101",
+            "work_1_3_years": "LM103",
+            "career_switch": "LM102"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "同样读一年英硕，有人毕业加速，有人毕业迷茫，差别往往不在学校，而在决策顺序。",
+          "B": "如果你还在问英硕值不值，先别看QS，把这三笔账算完再做决定。"
+        },
+        "article_body": {
+          "opening_conclusion": "英硕值不值，不是学历问题，而是目标岗位与投入产出匹配问题。",
+          "applicable_audience": "准备在2026-2027入学、目标岗位明确但预算敏感的同学。",
+          "step_framework": [
+            "算学费与生活费总账，拆出固定支出和弹性支出",
+            "算机会成本账，用“在职收入损失+转型增益”做对比",
+            "算岗位回报账，按目标岗位3年现金流估算回本周期",
+            "给出保守版与进取版两套决策阈值"
+          ],
+          "real_case": {
+            "case_id": "CASE-UK-001",
+            "profile": "双非财经本科，应届，目标英国咨询类岗位",
+            "problem": "只关注学校排名，忽略就业路径与时间线",
+            "action": "用三笔账模型重排选校，削减2个高成本低回报项目",
+            "result": "总预算减少约18%，并把求职准备提前到入学前3个月"
+          },
+          "counter_example": "若目标岗位在国内本就可直接进入且晋升路径稳定，盲目读英硕可能拉长机会成本回收期。",
+          "action_checklist": [
+            "写下目标岗位与3年岗位级别",
+            "完成理想版/保守版预算表",
+            "列出至少3所项目的就业去向",
+            "计算回本周期（12个月、24个月、36个月）",
+            "设置“止损阈值”"
+          ],
+          "faq": [
+            {
+              "q": "一年制会不会太赶？",
+              "a": "赶不赶取决于是否把求职前置。没有前置准备，一年制风险显著上升。"
+            },
+            {
+              "q": "预算不够还能申请吗？",
+              "a": "可以，但必须先做项目分层与城市分层，不要只看热门项目。"
+            }
+          ],
+          "closing_summary": "先算账再择校，能把“情绪决策”变成“可执行决策”。"
+        },
+        "persona_variants": {
+          "fresh_grad": "重点看起薪跃迁与转正路径，减少名校执念。",
+          "work_1_3_years": "重点看行业切换效率与薪资天花板。",
+          "career_switch": "重点看课程与目标岗位技能差距能否在12个月补齐。"
+        },
+        "evidence_module": {
+          "source_date": "2025-09-30",
+          "source_refs": ["SRC-UK-STUDY-VISA-2025", "SRC-UK-STUDENT-MONEY", "SRC-UK-IHS-2026"],
+          "data_points": [
+            "截至2025年9月止，英国获批受担保学习签证约43.99万（主申请约41.96万，家属约2.04万）。",
+            "财力证明标准为伦敦每月£1,529、非伦敦每月£1,171（最多9个月）。",
+            "学生签医疗附加费标准为每年£776。"
+          ],
+          "not_applicable_group": "已在英国连续合法居留12个月以上并在境内续签者，财力证明准备策略不同。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在最纠结的是预算、就业回报，还是申请难度？",
+          "q2": "目标岗位是什么？我可以先帮你判断这个岗位是否需要英硕。",
+          "cta": "评论【英国决策】我发你《三笔账评估表》，你可以直接套用。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【英国决策】领取评估表",
+          "save_trigger": "先收藏并在收藏夹回复“已收藏”，我回你预算核算顺序",
+          "survey_trigger": "填写《咨询前诊断问卷》后领取项目匹配建议",
+          "dm_trigger": "私信发送“英硕值不值+预算”，进入一对一诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_job", "budget_range", "intake_term"],
+          "first_message_template": "{{nickname}}，你评论的是【{{keyword}}】。按你目标{{target_job}}、预算{{budget_range}}、{{intake_term}}入学，我先发《{{asset_name}}》，再给你是否建议读英硕的结论。"
+        }
+      },
+      {
+        "article_id": "A02",
+        "title": "一年制英硕适合谁：3类适配与3类劝退",
+        "keyword": "一年制",
+        "country": "UK",
+        "funnel_stage": "decision",
+        "asset_binding": {
+          "asset_id": "LM002",
+          "asset_name": "一年制适配度自测表",
+          "persona_asset_map": {
+            "fresh_grad": "LM101",
+            "work_1_3_years": "LM103",
+            "career_switch": "LM102"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "一年制英硕不是捷径，而是把课程、求职、实习压在同一时间线。",
+          "B": "你以为一年制是省时间，现实是对执行力的高压测试。"
+        },
+        "article_body": {
+          "opening_conclusion": "一年制英硕适合“目标清晰+执行稳定”的人，不适合“先读再想”的人。",
+          "applicable_audience": "正在纠结一年制英硕、希望快速完成学历升级并转岗的人。",
+          "step_framework": [
+            "先判断目标岗位是否需要硕士门槛",
+            "再判断你是否具备并行学习与求职的执行能力",
+            "用每周可投入时长倒推项目密度",
+            "最后给出适配/观望/劝退结论"
+          ],
+          "real_case": {
+            "case_id": "CASE-UK-002",
+            "profile": "工作2年运营，想转数据分析",
+            "problem": "以为一年制只要上课就够",
+            "action": "补基础SQL和作品集，入学前完成2个项目",
+            "result": "第一学期即可参与校招与实习投递"
+          },
+          "counter_example": "若你仍在探索方向且无稳定执行节奏，一年制会把试错成本放大。",
+          "action_checklist": [
+            "写下目标岗位JD的硬技能",
+            "评估每周可投入求职时长",
+            "列出入学前必做3项补强",
+            "设定第一学期求职里程碑",
+            "完成适配度自测并打分"
+          ],
+          "faq": [
+            {
+              "q": "一年制会不会被雇主歧视？",
+              "a": "雇主更关注项目实操与岗位匹配度，单纯学制通常不是第一筛选因素。"
+            },
+            {
+              "q": "语言还没到线能先规划吗？",
+              "a": "可以，先规划岗位路径与补强动作，语言成绩是并行任务。"
+            }
+          ],
+          "closing_summary": "一年制不是通行证，而是高压加速器。"
+        },
+        "persona_variants": {
+          "fresh_grad": "优先判断是否具备求职基础动作能力。",
+          "work_1_3_years": "重点看转岗收益与机会成本。",
+          "career_switch": "重点看转岗技能缺口是否能在入学前补齐。"
+        },
+        "evidence_module": {
+          "source_date": "2025-09-30",
+          "source_refs": ["SRC-UK-STUDY-VISA-2025", "SRC-UK-GRADUATE-VISA-2026"],
+          "data_points": [
+            "英国Graduate Route在2026年12月31日前申请通常可获2年停留，2027年1月1日起新申请将调整为18个月。",
+            "学习签证审批量仍处高位，竞争重点从“能否入学”转向“毕业后就业与落地能力”。"
+          ],
+          "not_applicable_group": "明确回国读博或仅以学术研究为主的人群，评价维度应不同。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在是方向清晰，还是还在探索专业和岗位？",
+          "q2": "你能保证每周稳定投入求职动作吗？这是一年制关键门槛。",
+          "cta": "评论【一年制】领自测表，我帮你判断适配度。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【一年制】领取自测表",
+          "save_trigger": "收藏后私信“自测分数”，我给你三档判断",
+          "survey_trigger": "填写目标岗位问卷，领取入学前补强清单",
+          "dm_trigger": "私信“一年制+目标岗位”，进入路径诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["current_stage", "target_job", "budget_range"],
+          "first_message_template": "{{nickname}}，你这个阶段是{{current_stage}}，我先发《{{asset_name}}》。你做完后把分数发我，我会告诉你一年制是加速器还是风险项。"
+        }
+      },
+      {
+        "article_id": "A03",
+        "title": "英国选校别只看QS：用四维矩阵做冲稳保",
+        "keyword": "英国选校",
+        "country": "UK",
+        "funnel_stage": "school_selection",
+        "asset_binding": {
+          "asset_id": "LM003",
+          "asset_name": "选校四维矩阵",
+          "persona_asset_map": {
+            "fresh_grad": "LM101",
+            "work_1_3_years": "LM103",
+            "career_switch": "LM102"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "QS只是一个维度，真正决定你结果的是项目与岗位的耦合度。",
+          "B": "选校不是“最高分”游戏，而是“最优解”游戏。"
+        },
+        "article_body": {
+          "opening_conclusion": "选校建议用“项目课程、就业去向、城市成本、录取可行性”四维打分。",
+          "applicable_audience": "已有初步名单但不知道如何做冲稳保组合的人。",
+          "step_framework": [
+            "列出10个目标项目的课程模块",
+            "比对目标岗位JD，给课程相关性评分",
+            "加入城市成本与签证落地难度权重",
+            "按冲稳保比例3:4:3做组合"
+          ],
+          "real_case": {
+            "case_id": "CASE-UK-003",
+            "profile": "一本工科，目标产品经理",
+            "problem": "只按综排选校，忽略课程匹配",
+            "action": "剔除2个“高排名低匹配”项目，新增2个课程更贴岗项目",
+            "result": "录取组合更均衡，后续求职叙事更顺"
+          },
+          "counter_example": "若只追排名，可能读到课程与岗位脱节的项目，毕业时简历故事线断裂。",
+          "action_checklist": [
+            "完成四维打分表",
+            "每个项目写出3门关键课程",
+            "标注毕业生去向与地理分布",
+            "形成冲稳保名单",
+            "设置最终投递顺序"
+          ],
+          "faq": [
+            {
+              "q": "冲校要不要全冲前20？",
+              "a": "不建议。全冲会牺牲确定性，建议保留稳与保底项目。"
+            },
+            {
+              "q": "城市因素要占多大比重？",
+              "a": "预算敏感用户可提升至30%-40%，高预算用户可适度降低。"
+            }
+          ],
+          "closing_summary": "排名是筛选器，不是决策器。"
+        },
+        "persona_variants": {
+          "fresh_grad": "优先看课程与实习资源。",
+          "work_1_3_years": "优先看职业跳板与行业网络。",
+          "career_switch": "优先看可迁移技能训练强度。"
+        },
+        "evidence_module": {
+          "source_date": "2026-01-16",
+          "source_refs": ["SRC-UCAS-LIVING-COST-2026", "SRC-UK-STUDENT-MONEY"],
+          "data_points": [
+            "UCAS给出的学生生活成本区间约为每月£1,100-£1,400（地区差异显著）。",
+            "学生签财力证明对伦敦与非伦敦标准差异明显，直接影响预算模型。"
+          ],
+          "not_applicable_group": "已有全奖或企业赞助的申请人，城市成本权重可下调。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你最看重排名、就业，还是性价比？",
+          "q2": "你希望我先帮你做冲稳保，还是先做岗位匹配？",
+          "cta": "评论【英国选校】领四维矩阵，我给你做一版冲稳保样例。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【英国选校】领取四维矩阵",
+          "save_trigger": "收藏后发我“名单”，我给你标注高风险项目",
+          "survey_trigger": "提交岗位问卷，领取“项目-岗位匹配分”",
+          "dm_trigger": "私信“英国选校+目标岗位”，我发你首轮筛选建议"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_major", "target_job", "budget_range"],
+          "first_message_template": "{{nickname}}，我看了你的方向。先发《{{asset_name}}》，你把目标岗位和预算发我，我给你先做一版冲稳保组合。"
+        }
+      },
+      {
+        "article_id": "A04",
+        "title": "伦敦与非伦敦预算差异：英硕花费拆解",
+        "keyword": "英国预算",
+        "country": "UK",
+        "funnel_stage": "budget",
+        "asset_binding": {
+          "asset_id": "LM004",
+          "asset_name": "留学预算规划器",
+          "persona_asset_map": {
+            "fresh_grad": "LM101",
+            "work_1_3_years": "LM103",
+            "career_switch": "LM102"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "预算超支通常不是因为学费，而是因为生活成本和汇率波动没做缓冲。",
+          "B": "伦敦和非伦敦差的不只是房租，而是整套现金流压力。"
+        },
+        "article_body": {
+          "opening_conclusion": "预算应该按“固定支出+弹性支出+风险缓冲”三层拆解。",
+          "applicable_audience": "预算有限或需要家庭共同承担留学资金的人。",
+          "step_framework": [
+            "先算固定项：学费、签证、医疗附加费",
+            "再算弹性项：住宿、交通、社交与求职成本",
+            "设置至少8%-12%的风险缓冲位",
+            "做理想版和保守版两套方案"
+          ],
+          "real_case": {
+            "case_id": "CASE-UK-004",
+            "profile": "港本应届，计划伦敦读商科",
+            "problem": "只看学费，忽略伦敦房租与求职社交成本",
+            "action": "转为“伦敦+非伦敦”双方案并行申请",
+            "result": "最终在预算不变下保留了职业资源密集城市选项"
+          },
+          "counter_example": "只按“最低生活费”做预算会在旺季租房与求职阶段出现现金流断层。",
+          "action_checklist": [
+            "确认家庭可承受总预算上限",
+            "拆分固定与弹性支出",
+            "补齐签证与医疗附加费预算",
+            "预留汇率与突发支出缓冲",
+            "每月复盘预算偏差"
+          ],
+          "faq": [
+            {
+              "q": "伦敦一定更贵但更值吗？",
+              "a": "未必，取决于你目标行业是否显著集中在伦敦。"
+            },
+            {
+              "q": "预算不足还能读吗？",
+              "a": "可以，通过城市替代、项目替代和时间线前置降低压力。"
+            }
+          ],
+          "closing_summary": "预算不是限制，而是筛选最优路径的工具。"
+        },
+        "persona_variants": {
+          "fresh_grad": "强调现金流安全，避免开学后被动兼职。",
+          "work_1_3_years": "强调回本周期与薪资跃迁。",
+          "career_switch": "强调补课成本和转型试错成本。"
+        },
+        "evidence_module": {
+          "source_date": "2026-01-16",
+          "source_refs": ["SRC-UCAS-LIVING-COST-2026", "SRC-UK-STUDENT-MONEY", "SRC-UK-IHS-2026"],
+          "data_points": [
+            "UCAS给出的生活成本通常区间约为每月£1,100-£1,400。",
+            "学生签财力证明伦敦每月£1,529，非伦敦每月£1,171。",
+            "学生签医疗附加费当前常见标准为£776/年。"
+          ],
+          "not_applicable_group": "有稳定境外收入或企业外派资助人群，预算模型可采用不同现金流假设。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在预算是总额思维，还是按月现金流思维？",
+          "q2": "你愿意先做理想版和保守版两套预算吗？",
+          "cta": "评论【英国预算】领预算表，我帮你做理想版和保守版两套方案。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【英国预算】领取预算器",
+          "save_trigger": "收藏后私信“预算”，我发你风险缓冲位算法",
+          "survey_trigger": "填写预算问卷，领取城市替代方案",
+          "dm_trigger": "私信“英国预算+总额”，进入预算诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["budget_range", "target_country", "intake_term"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你预算{{budget_range}}和{{intake_term}}入学计划，我给你一版英国预算模型。"
+        }
+      },
+      {
+        "article_id": "A05",
+        "title": "GPA一般如何冲英国项目：90天补强法",
+        "keyword": "英国补强",
+        "country": "UK",
+        "funnel_stage": "application",
+        "asset_binding": {
+          "asset_id": "LM006",
+          "asset_name": "低GPA补强清单",
+          "persona_asset_map": {
+            "fresh_grad": "LM101",
+            "work_1_3_years": "LM103",
+            "career_switch": "LM102"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "GPA一般不代表没机会，关键在于你能否把“弱项”转成“可解释差异”。",
+          "B": "补强不是堆证书，而是补齐招生官最关心的证据链。"
+        },
+        "article_body": {
+          "opening_conclusion": "低GPA申请要靠“解释+替代证据+项目匹配”三件套。",
+          "applicable_audience": "GPA不占优但目标仍是英硕的人群。",
+          "step_framework": [
+            "明确短板：GPA、课程先修、语言或实习",
+            "构建替代证据：项目、竞赛、实习结果",
+            "重写叙事：把短板变成成长曲线",
+            "按90天分周执行补强动作"
+          ],
+          "real_case": {
+            "case_id": "CASE-UK-005",
+            "profile": "双非管理学，GPA 80出头",
+            "problem": "仅强调努力，缺少结果证据",
+            "action": "补2段可量化实习成果并重写文书逻辑",
+            "result": "稳校命中率提升，拿到目标层级录取"
+          },
+          "counter_example": "只刷语言不补专业证据，招生官会认为候选人与项目目标不匹配。",
+          "action_checklist": [
+            "写出3个可量化成果",
+            "完成先修课或公开课补足",
+            "准备推荐信中的能力证据",
+            "重写个人陈述的结构",
+            "按周追踪补强进度"
+          ],
+          "faq": [
+            {
+              "q": "低GPA还能冲名校吗？",
+              "a": "可以冲，但需要以证据换取可信度，避免“只冲不稳”。"
+            },
+            {
+              "q": "补强先做文书还是先做经历？",
+              "a": "先做经历，再写文书；文书是呈现，不是创造。"
+            }
+          ],
+          "closing_summary": "补强的核心是“让招生官看到你现在能做成什么”。"
+        },
+        "persona_variants": {
+          "fresh_grad": "强调课程和项目证据。",
+          "work_1_3_years": "强调工作成果与职责跃迁。",
+          "career_switch": "强调转型动机与基础能力补齐。"
+        },
+        "evidence_module": {
+          "source_date": "2026-02-17",
+          "source_refs": ["SRC-UK-STUDY-VISA-2025"],
+          "data_points": [
+            "英国学习签证体量高位意味着申请策略分化更明显，单一分数优势不足以形成稳定竞争力。"
+          ],
+          "not_applicable_group": "科研型申请或博士方向申请者，其证据重点应转向研究能力而非通用项目经历。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你目前最大的短板是GPA、语言，还是实习经历？",
+          "q2": "你愿意按90天计划每周执行补强任务吗？",
+          "cta": "评论【英国补强】领清单，我按你背景给优先级。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【英国补强】领取补强清单",
+          "save_trigger": "收藏后私信“补强”，我给你90天节奏表",
+          "survey_trigger": "填写背景问卷，领取个人补强优先级",
+          "dm_trigger": "私信“英国补强+GPA”，进入定位诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["gpa_band", "target_major", "target_job"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你现在GPA区间{{gpa_band}}和目标{{target_major}}，我给你排一版90天补强优先级。"
+        }
+      },
+      {
+        "article_id": "A06",
+        "title": "英国文书4大雷区：写得努力但说服力不足",
+        "keyword": "英国文书",
+        "country": "UK",
+        "funnel_stage": "application",
+        "asset_binding": {
+          "asset_id": "LM005",
+          "asset_name": "文书结构模板",
+          "persona_asset_map": {
+            "fresh_grad": "LM101",
+            "work_1_3_years": "LM103",
+            "career_switch": "LM102"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "很多文书被拒，不是语言问题，而是“你想读”和“你能读”没连上。",
+          "B": "好文书不是自我感动，而是让招生官快速看到匹配度。"
+        },
+        "article_body": {
+          "opening_conclusion": "文书的核心是论证你与项目之间的双向匹配。",
+          "applicable_audience": "已进入文书阶段但逻辑混乱、表达空泛的申请者。",
+          "step_framework": [
+            "先写结论：你为什么是这个项目的合适人选",
+            "再写证据：课程、经历、结果三段链条",
+            "补未来：项目如何连接你的职业目标",
+            "删冗余：去掉无关经历和空泛形容词"
+          ],
+          "real_case": {
+            "case_id": "CASE-UK-006",
+            "profile": "商科应届，文书初稿偏流水账",
+            "problem": "经历多但无核心论点",
+            "action": "改为“定位-证据-落地”三段式",
+            "result": "文书可读性和项目匹配感显著提升"
+          },
+          "counter_example": "把文书写成成长故事却无岗位落点，容易被判断为目标不清。",
+          "action_checklist": [
+            "每段只保留一个核心观点",
+            "每个观点给一个结果证据",
+            "删除与目标项目无关内容",
+            "补充课程和职业连接句",
+            "做一次“招生官视角”复读"
+          ],
+          "faq": [
+            {
+              "q": "文书要不要写得很“感人”？",
+              "a": "可以有人味，但核心仍是可验证的学术和职业匹配。"
+            },
+            {
+              "q": "模板会不会同质化？",
+              "a": "模板是结构，不是内容；证据和目标路径决定差异化。"
+            }
+          ],
+          "closing_summary": "文书是“证据组织能力”的体现，不是写作比赛。"
+        },
+        "persona_variants": {
+          "fresh_grad": "强调课程与实习证据。",
+          "work_1_3_years": "强调岗位成果和转型动机。",
+          "career_switch": "强调可迁移能力与学习计划。"
+        },
+        "evidence_module": {
+          "source_date": "2026-02-17",
+          "source_refs": ["SRC-UK-STUDY-VISA-2025"],
+          "data_points": [
+            "在同质化申请环境下，文书的结构化表达直接影响“可读性与可信度”判断。"
+          ],
+          "not_applicable_group": "研究型申请者需同步补充研究计划与学术写作证据。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你文书现在最卡的是结构、证据还是职业目标？",
+          "q2": "你愿意先按三段式重写一版吗？",
+          "cta": "评论【英国文书】领模板，我帮你先搭三段式框架。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【英国文书】领取模板",
+          "save_trigger": "收藏后私信“文书”，我回你结构评分标准",
+          "survey_trigger": "提交文书自检表，领取改稿优先级",
+          "dm_trigger": "私信“英国文书+目标项目”，进入一对一改稿诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_major", "current_stage", "target_job"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你目标{{target_major}}和当前{{current_stage}}阶段，我给你一版三段式重写框架。"
+        }
+      },
+      {
+        "article_id": "A07",
+        "title": "多个英国Offer怎么选：4维加权决策法",
+        "keyword": "offer对比",
+        "country": "UK",
+        "funnel_stage": "offer_decision",
+        "asset_binding": {
+          "asset_id": "LM008",
+          "asset_name": "Offer对比决策表",
+          "persona_asset_map": {
+            "fresh_grad": "LM101",
+            "work_1_3_years": "LM103",
+            "career_switch": "LM102"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "拿到多个offer后最怕“凭感觉”选，最后后悔的是执行难度。",
+          "B": "你要选的不是最好听的offer，而是最能跑出结果的offer。"
+        },
+        "article_body": {
+          "opening_conclusion": "Offer终选要用加权法：岗位匹配、成本、风险、可执行性。",
+          "applicable_audience": "已拿到2个及以上offer、无法定夺的申请者。",
+          "step_framework": [
+            "明确三年职业目标作为决策锚点",
+            "给4个维度设权重并打分",
+            "做敏感性测试（预算波动/签证变化）",
+            "输出终选与备选方案"
+          ],
+          "real_case": {
+            "case_id": "CASE-UK-007",
+            "profile": "双offer：伦敦商科 vs 非伦敦数据项目",
+            "problem": "排名与成本冲突，无法决策",
+            "action": "按岗位匹配提高权重，成本做底线约束",
+            "result": "确定主选项目并保留备选执行路径"
+          },
+          "counter_example": "只看综排选offer，后续可能出现课程不匹配和求职路径错位。",
+          "action_checklist": [
+            "写清3年目标岗位",
+            "填完4维评分表",
+            "验证预算底线是否可承受",
+            "确认签证与毕业后路径",
+            "做终选后14天行动计划"
+          ],
+          "faq": [
+            {
+              "q": "名校和专业匹配冲突怎么选？",
+              "a": "以目标岗位为锚点；若岗位强依赖技能匹配，优先专业匹配。"
+            },
+            {
+              "q": "可以先交留位再慢慢想吗？",
+              "a": "可以，但要提前设置放弃成本与截止时间。"
+            }
+          ],
+          "closing_summary": "终选不是“选最好”，而是“选最优可执行”。"
+        },
+        "persona_variants": {
+          "fresh_grad": "优先看项目对第一份工作的帮助。",
+          "work_1_3_years": "优先看岗位跃迁效率。",
+          "career_switch": "优先看转型成功概率。"
+        },
+        "evidence_module": {
+          "source_date": "2026-01-16",
+          "source_refs": ["SRC-UCAS-LIVING-COST-2026", "SRC-UK-GRADUATE-VISA-2026"],
+          "data_points": [
+            "生活成本区间差异会显著改变项目总成本，建议纳入Offer加权模型。",
+            "毕业后签证窗口政策时间点（2026-12-31/2027-01-01）会影响长期路径预期。"
+          ],
+          "not_applicable_group": "已确定回国且不考虑海外就业签证的人群，可降低签证维度权重。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在纠结的是排名、城市还是就业去向？",
+          "q2": "你愿意先按岗位目标来设权重吗？",
+          "cta": "评论【offer对比】领决策表，我帮你做加权打分。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【offer对比】领取决策表",
+          "save_trigger": "收藏后私信“offer”，我发你权重设定建议",
+          "survey_trigger": "填写终选问卷，领取终选评分样表",
+          "dm_trigger": "私信“offer对比+目标岗位”，进入终选诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_job", "budget_range", "intake_term"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你目标{{target_job}}和预算{{budget_range}}，我给你做一版4维加权终选建议。"
+        }
+      },
+      {
+        "article_id": "A08",
+        "title": "英硕求职时间线：入学前就要启动",
+        "keyword": "英国求职",
+        "country": "UK",
+        "funnel_stage": "career",
+        "asset_binding": {
+          "asset_id": "LM007",
+          "asset_name": "求职时间线模板",
+          "persona_asset_map": {
+            "fresh_grad": "LM103",
+            "work_1_3_years": "LM103",
+            "career_switch": "LM102"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "英硕求职不是开学后才开始，而是拿到offer后就要排节奏。",
+          "B": "你在入学前浪费的每个月，都会在毕业季放大成焦虑。"
+        },
+        "article_body": {
+          "opening_conclusion": "把求职拆成“入学前-第一学期-第二学期”三段并行，成功率明显更高。",
+          "applicable_audience": "目标留英或提升回国就业竞争力的学生。",
+          "step_framework": [
+            "入学前完成岗位地图和简历初版",
+            "第一学期完成项目作品与Networking",
+            "第二学期冲刺投递与面试",
+            "设置每周动作和复盘机制"
+          ],
+          "real_case": {
+            "case_id": "CASE-UK-008",
+            "profile": "英硕商科，目标咨询",
+            "problem": "开学后才准备求职材料",
+            "action": "前置简历、案例面与行业研究",
+            "result": "校招窗口期进入有效面试轮"
+          },
+          "counter_example": "把求职全部压到毕业前，会错过校招与内推节奏。",
+          "action_checklist": [
+            "入学前完成岗位清单",
+            "准备1版行业定向简历",
+            "每周固定2-3次投递动作",
+            "每月复盘面试反馈",
+            "保留回国与留英双路径"
+          ],
+          "faq": [
+            {
+              "q": "课程忙还能求职吗？",
+              "a": "可以，关键是把求职动作节奏化，每周固定时段执行。"
+            },
+            {
+              "q": "先实习还是先全职？",
+              "a": "一年制场景通常要并行推进，优先保证可转正或可量化成果岗位。"
+            }
+          ],
+          "closing_summary": "求职最怕拖延，时间线就是你的安全垫。"
+        },
+        "persona_variants": {
+          "fresh_grad": "重点补简历与面试基本功。",
+          "work_1_3_years": "重点做行业切换叙事。",
+          "career_switch": "重点补作品集与证据链。"
+        },
+        "evidence_module": {
+          "source_date": "2026-02-17",
+          "source_refs": ["SRC-UK-GRADUATE-VISA-2026"],
+          "data_points": [
+            "毕业后路径窗口存在明确政策时间点，越早做求职动作，越能释放签证窗口价值。"
+          ],
+          "not_applicable_group": "仅计划回国且已有确定工作机会的人群，可弱化留英路径动作。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在是担心没机会，还是不知道怎么排节奏？",
+          "q2": "你愿意按每周动作拆解求职吗？",
+          "cta": "评论【英国求职】领时间线，我给你拆成每周动作。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【英国求职】领取时间线",
+          "save_trigger": "收藏后私信“求职”，我发你12周起步动作",
+          "survey_trigger": "填写岗位问卷，领取双路径节奏表",
+          "dm_trigger": "私信“英国求职+目标岗位”，进入求职诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_job", "current_stage", "intake_term"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你目标{{target_job}}和当前阶段{{current_stage}}，我给你入学前到毕业季的执行时间线。"
+        }
+      },
+      {
+        "article_id": "A09",
+        "title": "港硕适合谁：先做适配判断再申请",
+        "keyword": "港硕自测",
+        "country": "HK",
+        "funnel_stage": "decision",
+        "asset_binding": {
+          "asset_id": "LM002",
+          "asset_name": "一年制适配度自测表",
+          "persona_asset_map": {
+            "fresh_grad": "LM111",
+            "work_1_3_years": "LM113",
+            "career_switch": "LM112"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "港硕申请热不代表适合所有人，先做适配再做投入。",
+          "B": "你最该先问的不是“能不能上”，而是“上了是否有回报”。"
+        },
+        "article_body": {
+          "opening_conclusion": "港硕更适合目标明确、节奏快、能并行求职的人。",
+          "applicable_audience": "考虑香港授课型硕士但不确定投入产出的人。",
+          "step_framework": [
+            "判断目标岗位是否依赖香港学习经历",
+            "评估你是否能承受高强度节奏",
+            "对比留港与回内地双路径回报",
+            "做适配度打分并给结论"
+          ],
+          "real_case": {
+            "case_id": "CASE-HK-001",
+            "profile": "应届商科，目标投行后中台",
+            "problem": "只看学校品牌，没评估路径",
+            "action": "先做适配打分并准备双路径求职",
+            "result": "入学后求职动作更有序"
+          },
+          "counter_example": "若目标岗位与香港资源关联弱，港硕优势会被大幅削弱。",
+          "action_checklist": [
+            "写下目标岗位与地区偏好",
+            "完成适配度自测",
+            "评估预算和时间投入",
+            "制定留港/回内地双路径",
+            "设定止损点"
+          ],
+          "faq": [
+            {
+              "q": "港硕一年会不会太紧？",
+              "a": "紧，但可控；关键是入学前先把求职基础动作做完。"
+            },
+            {
+              "q": "非名校背景能冲吗？",
+              "a": "可以，策略上要强化项目匹配与证据表达。"
+            }
+          ],
+          "closing_summary": "适配优先于热度，热度不能替代结果。"
+        },
+        "persona_variants": {
+          "fresh_grad": "重点看第一份工作落地效率。",
+          "work_1_3_years": "重点看岗位跃迁可行性。",
+          "career_switch": "重点看跨赛道证据是否充足。"
+        },
+        "evidence_module": {
+          "source_date": "2024-12-31",
+          "source_refs": ["SRC-HK-IANG-ANNUAL-2024", "SRC-HK-IANG-GUIDEBOOK-2025"],
+          "data_points": [
+            "截至2024年12月31日，IANG累计获批超过16万人次。",
+            "IANG签证安排常见为2-3-3续期路径，且毕业生可先留港再求职。"
+          ],
+          "not_applicable_group": "仅计划回内地体制内或本地强绑定岗位的人群，港硕路径优势较弱。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你更看重港硕的品牌、地理位置，还是就业机会？",
+          "q2": "你愿意先做适配自测，再决定是否投入申请吗？",
+          "cta": "评论【港硕自测】领自测表，我帮你解读分数。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【港硕自测】领取自测表",
+          "save_trigger": "收藏后私信“港硕”，我发你适配阈值",
+          "survey_trigger": "填写去向问卷，领取双路径判断表",
+          "dm_trigger": "私信“港硕适配+目标岗位”，进入决策诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_job", "budget_range", "intake_term"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你目标{{target_job}}和预算{{budget_range}}，我帮你判断港硕是加速器还是风险项。"
+        }
+      },
+      {
+        "article_id": "A10",
+        "title": "港硕选校核心：项目优先，不是学校优先",
+        "keyword": "港硕筛选",
+        "country": "HK",
+        "funnel_stage": "school_selection",
+        "asset_binding": {
+          "asset_id": "LM003",
+          "asset_name": "选校四维矩阵",
+          "persona_asset_map": {
+            "fresh_grad": "LM111",
+            "work_1_3_years": "LM113",
+            "career_switch": "LM112"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "港硕选校最容易踩的坑，是把“学校名气”当成唯一变量。",
+          "B": "真正影响结果的是项目课程和就业接口，而不是logo本身。"
+        },
+        "article_body": {
+          "opening_conclusion": "港硕选校建议“项目匹配度”权重高于“学校名气”。",
+          "applicable_audience": "已确定申请香港但名单尚不稳定的人。",
+          "step_framework": [
+            "先列岗位能力要求",
+            "映射项目课程与实习资源",
+            "比对城市成本和时间线压力",
+            "做冲稳保组合"
+          ],
+          "real_case": {
+            "case_id": "CASE-HK-002",
+            "profile": "工作1年，目标金融风控",
+            "problem": "只关注学校排名忽略课程模块",
+            "action": "按岗位能力重排项目优先级",
+            "result": "申请组合更贴近目标岗位"
+          },
+          "counter_example": "同校不同项目就业去向差异显著，只看学校会误判。",
+          "action_checklist": [
+            "确定岗位能力关键词",
+            "查看项目课程大纲",
+            "筛选有行业合作的项目",
+            "保留1-2个高确定性项目",
+            "完成四维评分"
+          ],
+          "faq": [
+            {
+              "q": "港三就是最优解吗？",
+              "a": "不绝对，要看你目标岗位与项目匹配度。"
+            },
+            {
+              "q": "要不要跨国家混申？",
+              "a": "建议，能提高结果稳定性与议价空间。"
+            }
+          ],
+          "closing_summary": "先项目后学校，决策更稳。"
+        },
+        "persona_variants": {
+          "fresh_grad": "看课程与实习接口。",
+          "work_1_3_years": "看转岗可行性。",
+          "career_switch": "看先修要求与补课成本。"
+        },
+        "evidence_module": {
+          "source_date": "2024-12-31",
+          "source_refs": ["SRC-HK-IANG-ANNUAL-2024", "SRC-HK-HKU-GES-2024"],
+          "data_points": [
+            "香港毕业生留港与回内地路径并行可行，项目类型将直接影响可执行度。",
+            "部分院校就业调查显示总体就业率高位，但行业和项目间差异仍大。"
+          ],
+          "not_applicable_group": "已经拿到企业定向录用的人群，可降低项目就业去向权重。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在更看重学校品牌，还是项目课程和就业接口？",
+          "q2": "你愿意按岗位能力来重排项目吗？",
+          "cta": "评论【港硕筛选】领模板，我帮你做首轮筛选。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【港硕筛选】领取筛选模板",
+          "save_trigger": "收藏后私信“筛选”，我回你冲稳保比例",
+          "survey_trigger": "填写岗位问卷，领取项目匹配分表",
+          "dm_trigger": "私信“港硕筛选+岗位”，进入名单诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_major", "target_job", "budget_range"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你目标{{target_job}}和{{target_major}}方向，我给你先做一版港硕首轮筛选。"
+        }
+      },
+      {
+        "article_id": "A11",
+        "title": "港硕申请倒排：越晚准备越被动",
+        "keyword": "港硕时间线",
+        "country": "HK",
+        "funnel_stage": "application_timeline",
+        "asset_binding": {
+          "asset_id": "LM007",
+          "asset_name": "求职时间线模板",
+          "persona_asset_map": {
+            "fresh_grad": "LM113",
+            "work_1_3_years": "LM113",
+            "career_switch": "LM112"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "港硕申请看似窗口长，真正竞争在于谁先完成关键材料。",
+          "B": "“还能申”不等于“申得好”，节奏错位会直接影响录取质量。"
+        },
+        "article_body": {
+          "opening_conclusion": "港硕申请应按“材料完成度”而非“截止日期”倒排。",
+          "applicable_audience": "计划申请香港项目但尚未形成执行节奏的人。",
+          "step_framework": [
+            "定义目标院校与项目层级",
+            "按语言、文书、推荐信倒排里程碑",
+            "设置周目标并追踪完成率",
+            "预留改稿和补申窗口"
+          ],
+          "real_case": {
+            "case_id": "CASE-HK-003",
+            "profile": "应届金融，目标港硕商科",
+            "problem": "拖到临近DDL才准备文书",
+            "action": "重排倒排表并提前锁定推荐人",
+            "result": "提交质量和节奏明显改善"
+          },
+          "counter_example": "只按DDL推进会把所有高质量动作挤到后期，导致文书和材料粗糙。",
+          "action_checklist": [
+            "确定申请批次",
+            "每周固定材料推进任务",
+            "提前联系推荐人",
+            "设置文书至少两轮修改",
+            "预留补申窗口"
+          ],
+          "faq": [
+            {
+              "q": "晚一点申会吃亏吗？",
+              "a": "滚动录取项目通常早申更有优势，尤其在热门项目。"
+            },
+            {
+              "q": "先语言还是先文书？",
+              "a": "并行推进，文书先做框架，语言按考试节奏推进。"
+            }
+          ],
+          "closing_summary": "时间线不是日历，而是你的录取杠杆。"
+        },
+        "persona_variants": {
+          "fresh_grad": "优先建立材料完成节奏。",
+          "work_1_3_years": "优先处理推荐人与工作证明。",
+          "career_switch": "优先补先修与叙事逻辑。"
+        },
+        "evidence_module": {
+          "source_date": "2025-09-01",
+          "source_refs": ["SRC-HK-IANG-GUIDEBOOK-2025"],
+          "data_points": [
+            "香港项目申请与后续留港安排需衔接，越早规划越能提高路径稳定性。"
+          ],
+          "not_applicable_group": "已完成核心材料并有稳定推荐关系者，倒排压力较小。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在卡在材料准备，还是时间安排？",
+          "q2": "要不要我按你目标入学季给你做倒排？",
+          "cta": "评论【港硕时间线】领倒排模板，我帮你标注关键节点。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【港硕时间线】领取倒排模板",
+          "save_trigger": "收藏后私信“倒排”，我发你周计划版",
+          "survey_trigger": "提交进度问卷，领取风险节点提示",
+          "dm_trigger": "私信“港硕时间线+入学季”，进入进度诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["intake_term", "current_stage", "language_score_band"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你{{intake_term}}入学和当前阶段{{current_stage}}，我给你排一版申请倒排节奏。"
+        }
+      },
+      {
+        "article_id": "A12",
+        "title": "双非或低GPA如何冲港硕：策略比焦虑有效",
+        "keyword": "港硕补强",
+        "country": "HK",
+        "funnel_stage": "application_boost",
+        "asset_binding": {
+          "asset_id": "LM006",
+          "asset_name": "低GPA补强清单",
+          "persona_asset_map": {
+            "fresh_grad": "LM112",
+            "work_1_3_years": "LM113",
+            "career_switch": "LM112"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "背景普通不等于没机会，关键是把短板改写成可验证能力。",
+          "B": "真正拉开差距的不是焦虑，而是你能否拿出“证据型补强”。"
+        },
+        "article_body": {
+          "opening_conclusion": "港硕低背景逆袭靠“选项管理+证据补强+叙事重构”。",
+          "applicable_audience": "双非、低GPA或跨专业申请香港项目的学生。",
+          "step_framework": [
+            "做项目分层，避免全冲导致全失",
+            "补可量化经历，优先补与目标岗位相关证据",
+            "重构文书主线，明确“为何现在适合这个项目”",
+            "用时间线控制执行强度"
+          ],
+          "real_case": {
+            "case_id": "CASE-HK-004",
+            "profile": "双非财经，GPA 3.0左右",
+            "problem": "文书泛泛而谈，缺证据",
+            "action": "补一段行业项目并重写成果表达",
+            "result": "拿到稳校和冲校录取"
+          },
+          "counter_example": "只做“背景焦虑叙事”不补证据，会让申请材料缺乏可信度。",
+          "action_checklist": [
+            "分层目标项目",
+            "列出3条可验证成果",
+            "补至少1段实操经历",
+            "重写文书核心论点",
+            "每周复盘一次执行进度"
+          ],
+          "faq": [
+            {
+              "q": "低GPA是不是基本没戏？",
+              "a": "不是，关键在于你能否用证据弥补与解释。"
+            },
+            {
+              "q": "跨专业会更难吗？",
+              "a": "会，但可通过先修与项目经历显著降低难度。"
+            }
+          ],
+          "closing_summary": "你不能改过去的分数，但能改现在的证据质量。"
+        },
+        "persona_variants": {
+          "fresh_grad": "补项目与课程证据。",
+          "work_1_3_years": "补岗位成果与影响力证据。",
+          "career_switch": "补先修课与迁移能力证据。"
+        },
+        "evidence_module": {
+          "source_date": "2024-12-31",
+          "source_refs": ["SRC-HK-IANG-ANNUAL-2024"],
+          "data_points": [
+            "香港研究生路径的吸引力持续存在，申请竞争下“证据质量”比“情绪描述”更关键。"
+          ],
+          "not_applicable_group": "目标为研究型硕博申请者，证据体系应以科研能力为主。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你最担心的是院校背景、GPA还是转专业？",
+          "q2": "你愿意先做一版证据补强优先级吗？",
+          "cta": "评论【港硕补强】领清单，我按你背景给补强顺序。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【港硕补强】领取补强清单",
+          "save_trigger": "收藏后私信“港硕补强”，我发你90天节奏",
+          "survey_trigger": "填写背景问卷，领取个性化补强序列",
+          "dm_trigger": "私信“港硕补强+GPA”，进入路径诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["gpa_band", "target_major", "current_stage"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你GPA区间{{gpa_band}}和目标{{target_major}}，我给你补强顺序和风险点。"
+        }
+      },
+      {
+        "article_id": "A13",
+        "title": "港硕预算规划：先定总盘子再选项目",
+        "keyword": "港硕预算",
+        "country": "HK",
+        "funnel_stage": "budget",
+        "asset_binding": {
+          "asset_id": "LM004",
+          "asset_name": "留学预算规划器",
+          "persona_asset_map": {
+            "fresh_grad": "LM113",
+            "work_1_3_years": "LM113",
+            "career_switch": "LM112"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "港硕预算焦虑多数不是钱不够，而是预算结构没做清楚。",
+          "B": "先定总盘子，再选项目，才能避免读到一半被现金流打断。"
+        },
+        "article_body": {
+          "opening_conclusion": "港硕预算要先做上限管理，再做项目和城市选择。",
+          "applicable_audience": "预算敏感、家庭共同承担成本的申请人。",
+          "step_framework": [
+            "确认总预算上限和不可动用资金",
+            "拆出学费、住宿、签证、求职四大块",
+            "预留应急缓冲与汇率缓冲",
+            "输出主方案和备份方案"
+          ],
+          "real_case": {
+            "case_id": "CASE-HK-005",
+            "profile": "应届工科，目标港硕转商科",
+            "problem": "预算只做总额，无月度现金流",
+            "action": "补月度现金流表并重排项目梯度",
+            "result": "把高风险项目替换为同方向稳健项目"
+          },
+          "counter_example": "不设缓冲会在住宿、面试、求职阶段连续超支。",
+          "action_checklist": [
+            "确定预算硬上限",
+            "拆出四类核心开销",
+            "设置10%缓冲",
+            "按城市做成本对照",
+            "每月复盘预算偏差"
+          ],
+          "faq": [
+            {
+              "q": "预算不高还能申港硕吗？",
+              "a": "可以，通过项目分层和消费结构优化实现。"
+            },
+            {
+              "q": "是否必须准备求职预算？",
+              "a": "建议必须准备，否则后期行动会受限。"
+            }
+          ],
+          "closing_summary": "预算不是压制选择，而是保护执行。"
+        },
+        "persona_variants": {
+          "fresh_grad": "强调现金流连续性。",
+          "work_1_3_years": "强调回本周期。",
+          "career_switch": "强调补课成本。"
+        },
+        "evidence_module": {
+          "source_date": "2025-09-01",
+          "source_refs": ["SRC-HK-IANG-GUIDEBOOK-2025"],
+          "data_points": [
+            "香港学习与后续留港路径需要前置预算规划，预算断裂会直接影响求职节奏。"
+          ],
+          "not_applicable_group": "有稳定企业赞助或家庭完全覆盖成本人群，可简化预算风险模型。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你当前预算是总额上限还是按月估算？",
+          "q2": "你愿意用理想版+保守版两套预算做决策吗？",
+          "cta": "评论【港硕预算】领预算器，我给你做风险缓冲位。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【港硕预算】领取预算器",
+          "save_trigger": "收藏后私信“港硕预算”，我发你缓冲位计算法",
+          "survey_trigger": "提交预算问卷，领取项目梯度建议",
+          "dm_trigger": "私信“港硕预算+总额”，进入预算诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["budget_range", "intake_term", "target_country"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你预算{{budget_range}}和{{intake_term}}入学计划，我会给你一版港硕可执行预算模型。"
+        }
+      },
+      {
+        "article_id": "A14",
+        "title": "港硕面试准备：3分钟闭环表达法",
+        "keyword": "港硕面试",
+        "country": "HK",
+        "funnel_stage": "interview",
+        "asset_binding": {
+          "asset_id": "LM014",
+          "asset_name": "港硕面试题库",
+          "persona_asset_map": {
+            "fresh_grad": "LM111",
+            "work_1_3_years": "LM111",
+            "career_switch": "LM112"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "港硕面试不是背答案比赛，而是3分钟让考官相信你匹配项目。",
+          "B": "你只要把定位、证据、落地三段讲清，面试通过率就会提高。"
+        },
+        "article_body": {
+          "opening_conclusion": "高通过面试回答通常遵循“定位-证据-落地”三段闭环。",
+          "applicable_audience": "收到港硕面试邀请、但表达结构不稳定的申请人。",
+          "step_framework": [
+            "先做1分钟自我定位",
+            "再给1分钟项目与经历证据",
+            "最后1分钟落地计划与职业目标",
+            "准备追问分支与反问问题"
+          ],
+          "real_case": {
+            "case_id": "CASE-HK-006",
+            "profile": "双非应届，目标港硕商科",
+            "problem": "回答发散、无重点",
+            "action": "改用三段闭环并按题库练习",
+            "result": "面试反馈从“泛泛”转为“目标明确”"
+          },
+          "counter_example": "只背模板答案，遇到追问会失去逻辑一致性。",
+          "action_checklist": [
+            "写出1分钟定位陈述",
+            "准备3个证据故事",
+            "完成高频题模拟",
+            "准备2个高质量反问",
+            "做录音复盘"
+          ],
+          "faq": [
+            {
+              "q": "口语一般会不会吃亏？",
+              "a": "表达清晰和结构稳定通常比“花哨表达”更关键。"
+            },
+            {
+              "q": "要不要背标准答案？",
+              "a": "可记框架，不建议死背原句。"
+            }
+          ],
+          "closing_summary": "面试本质是“可信匹配”验证。"
+        },
+        "persona_variants": {
+          "fresh_grad": "重点准备项目动机与成长证据。",
+          "work_1_3_years": "重点准备岗位成果与转型逻辑。",
+          "career_switch": "重点准备能力迁移与补课计划。"
+        },
+        "evidence_module": {
+          "source_date": "2025-09-01",
+          "source_refs": ["SRC-HK-IANG-GUIDEBOOK-2025"],
+          "data_points": [
+            "港硕毕业后可衔接留港路径，面试阶段的目标清晰度会影响项目对候选人的匹配判断。"
+          ],
+          "not_applicable_group": "无面试环节项目可弱化该模块，转为文书与背景强化。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你面试最怕哪类问题：自我介绍、职业规划还是追问？",
+          "q2": "你目前有没有准备一段1分钟项目证据表达？",
+          "cta": "评论【港硕面试】领题库，我帮你搭3分钟闭环。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【港硕面试】领取题库",
+          "save_trigger": "收藏后私信“面试”，我发你1分钟表达模板",
+          "survey_trigger": "提交面试问卷，领取追问分支清单",
+          "dm_trigger": "私信“港硕面试+专业”，进入面试诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_major", "target_job", "current_stage"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。你告诉我目标{{target_major}}和岗位{{target_job}}，我给你一版可直接练的3分钟话术。"
+        }
+      },
+      {
+        "article_id": "A15",
+        "title": "拿到港硕Offer后：入学前7件事",
+        "keyword": "港硕入学",
+        "country": "HK",
+        "funnel_stage": "pre_arrival",
+        "asset_binding": {
+          "asset_id": "LM015",
+          "asset_name": "港硕入学前7件事清单",
+          "persona_asset_map": {
+            "fresh_grad": "LM113",
+            "work_1_3_years": "LM113",
+            "career_switch": "LM112"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "拿到offer只是起点，真正拉开差距的是入学前准备质量。",
+          "B": "开学前没做这7件事，港硕第一学期通常会很被动。"
+        },
+        "article_body": {
+          "opening_conclusion": "港硕入学前的准备质量，直接决定你第一学期是否能兼顾学业和求职。",
+          "applicable_audience": "已拿到港硕offer、准备入学的人。",
+          "step_framework": [
+            "完成签证与证件流程",
+            "确定住宿和生活基础配置",
+            "提前做课程预习与选课策略",
+            "启动求职基础动作（简历、岗位清单）"
+          ],
+          "real_case": {
+            "case_id": "CASE-HK-007",
+            "profile": "商科应届，拿到港硕offer",
+            "problem": "以为开学后再准备求职",
+            "action": "按入学前7件事清单执行",
+            "result": "第一学期同时推进课程与求职"
+          },
+          "counter_example": "只完成行政手续不做求职准备，开学后会被课程挤压。",
+          "action_checklist": [
+            "办理签证和证件",
+            "确定住宿和通勤",
+            "完成课程预习清单",
+            "准备简历与LinkedIn",
+            "建立求职周计划"
+          ],
+          "faq": [
+            {
+              "q": "先搞定生活还是先搞定求职？",
+              "a": "并行推进，生活稳定是执行求职动作的前提。"
+            },
+            {
+              "q": "没确定留港要不要提前求职？",
+              "a": "建议要，提前动作可同时服务留港与回内地路径。"
+            }
+          ],
+          "closing_summary": "把准备前置，第一学期会轻松很多。"
+        },
+        "persona_variants": {
+          "fresh_grad": "重点搭建基础求职系统。",
+          "work_1_3_years": "重点搭建转岗叙事与人脉触达。",
+          "career_switch": "重点补齐课程与岗位技能断层。"
+        },
+        "evidence_module": {
+          "source_date": "2025-09-01",
+          "source_refs": ["SRC-HK-IANG-GUIDEBOOK-2025"],
+          "data_points": [
+            "香港毕业后留港安排与求职节奏衔接紧密，入学前准备越充分，后续路径越稳。"
+          ],
+          "not_applicable_group": "已有明确回国岗位并签约人群，可简化留港求职动作。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在最担心的是签证住宿，还是开学后的求职节奏？",
+          "q2": "你是否已经有入学前倒排计划？",
+          "cta": "评论【港硕入学】领清单，我帮你排优先级。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【港硕入学】领取清单",
+          "save_trigger": "收藏后私信“入学”，我发你7件事优先级",
+          "survey_trigger": "提交入学准备问卷，领取个性化倒排表",
+          "dm_trigger": "私信“港硕入学+入学季”，进入入学前诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["intake_term", "current_stage", "target_job"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你{{intake_term}}入学、目标{{target_job}}，我给你前8周执行版安排。"
+        }
+      },
+      {
+        "article_id": "A16",
+        "title": "港硕毕业去向：留港还是回内地",
+        "keyword": "港硕就业",
+        "country": "HK",
+        "funnel_stage": "career",
+        "asset_binding": {
+          "asset_id": "LM009",
+          "asset_name": "咨询前诊断问卷",
+          "persona_asset_map": {
+            "fresh_grad": "LM113",
+            "work_1_3_years": "LM113",
+            "career_switch": "LM112"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "留港还是回内地不是价值判断，而是目标匹配判断。",
+          "B": "去向焦虑的根源通常是没有提前准备双路径。"
+        },
+        "article_body": {
+          "opening_conclusion": "建议至少并行准备“留港方案+回内地方案”到毕业前。",
+          "applicable_audience": "港硕在读或即将毕业、尚未确定地区去向的人。",
+          "step_framework": [
+            "先定义岗位与行业优先级",
+            "对比留港和回内地的成本收益",
+            "按季度设置双路径动作",
+            "在毕业前做终选"
+          ],
+          "real_case": {
+            "case_id": "CASE-HK-008",
+            "profile": "港硕在读，目标咨询",
+            "problem": "仅押注留港岗位",
+            "action": "补充内地投递并并行准备",
+            "result": "获得双区域机会，提高谈判空间"
+          },
+          "counter_example": "只押单一路径，任何政策或市场波动都会放大风险。",
+          "action_checklist": [
+            "列出双地区岗位清单",
+            "分别设计简历版本",
+            "每月复盘投递反馈",
+            "对比薪资与生活成本",
+            "毕业前做终选"
+          ],
+          "faq": [
+            {
+              "q": "留港是不是一定更好？",
+              "a": "不一定，要结合行业机会密度、生活成本和长期目标。"
+            },
+            {
+              "q": "双路径会不会分散精力？",
+              "a": "前期并行、后期收敛是更稳妥的策略。"
+            }
+          ],
+          "closing_summary": "先并行后收敛，去向选择会更从容。"
+        },
+        "persona_variants": {
+          "fresh_grad": "强调岗位起点与成长曲线。",
+          "work_1_3_years": "强调岗位级别与薪资跃迁。",
+          "career_switch": "强调行业切换可行性。"
+        },
+        "evidence_module": {
+          "source_date": "2024-12-31",
+          "source_refs": ["SRC-HK-IANG-ANNUAL-2024", "SRC-HK-HKU-GES-2024"],
+          "data_points": [
+            "IANG累计获批体量显示留港路径具备实际可行性。",
+            "院校就业调查显示总体就业率高位，但地区与行业选择仍需个体化判断。"
+          ],
+          "not_applicable_group": "已签约明确地区岗位者，可跳过双路径并行阶段。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你更看重岗位机会密度，还是生活成本与家庭因素？",
+          "q2": "你目前是准备单一路径，还是并行两套方案？",
+          "cta": "评论【港硕就业】领双路径对比表，我帮你做终选。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【港硕就业】领取对比表",
+          "save_trigger": "收藏后私信“去向”，我发你终选框架",
+          "survey_trigger": "填写去向问卷，领取双路径评分表",
+          "dm_trigger": "私信“港硕就业+目标岗位”，进入终选诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_job", "budget_range", "current_stage"],
+          "first_message_template": "{{nickname}}，先发你去向诊断表。按你目标{{target_job}}和预算{{budget_range}}，我会给你留港/回内地的双路径建议。"
+        }
+      },
+      {
+        "article_id": "A17",
+        "title": "新加坡授课型硕士适不适合你",
+        "keyword": "新加坡决策",
+        "country": "SG",
+        "funnel_stage": "decision",
+        "asset_binding": {
+          "asset_id": "LM001",
+          "asset_name": "三笔账评估表",
+          "persona_asset_map": {
+            "fresh_grad": "LM121",
+            "work_1_3_years": "LM123",
+            "career_switch": "LM122"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "新加坡硕士优势在“效率”和“区域机会”，但并不适合所有人。",
+          "B": "别先问学校名气，先问你的目标岗位是否吃这条路径。"
+        },
+        "article_body": {
+          "opening_conclusion": "新加坡硕士适配度取决于岗位目标、预算和执行节奏。",
+          "applicable_audience": "考虑新加坡授课型硕士、希望兼顾亚洲就业机会的人。",
+          "step_framework": [
+            "定义目标岗位与地区偏好",
+            "评估学费与生活成本可承受区间",
+            "判断毕业后留新与回国双路径",
+            "完成适配度打分"
+          ],
+          "real_case": {
+            "case_id": "CASE-SG-001",
+            "profile": "应届经管，目标新加坡咨询",
+            "problem": "只看学校，不看留新可行性",
+            "action": "补留新求职条件评估与回国备选方案",
+            "result": "路径更清晰，申请更聚焦"
+          },
+          "counter_example": "如果不考虑留新就业条件，只看项目名气，后期路径易断层。",
+          "action_checklist": [
+            "列出目标岗位",
+            "完成预算上下限",
+            "对照签证与就业条件",
+            "做双路径方案",
+            "设定决策截止点"
+          ],
+          "faq": [
+            {
+              "q": "新加坡毕业好留下吗？",
+              "a": "取决于岗位、薪资门槛与时点，建议提前做条件评估。"
+            },
+            {
+              "q": "一定要去NUS/NTU吗？",
+              "a": "不一定，关键是项目与岗位匹配和执行路径。"
+            }
+          ],
+          "closing_summary": "适配先于冲动，路径先于名气。"
+        },
+        "persona_variants": {
+          "fresh_grad": "重点看首份工作落地概率。",
+          "work_1_3_years": "重点看区域职业跃迁。",
+          "career_switch": "重点看技能迁移与签证可行性。"
+        },
+        "evidence_module": {
+          "source_date": "2025-01-20",
+          "source_refs": ["SRC-SG-MOE-GES-2025", "SRC-SG-MOM-EP-2025", "SRC-SG-ICA-STP-2025"],
+          "data_points": [
+            "新加坡本地大学毕业生2024年全职就业起薪中位数较上一年增长约4.2%。",
+            "EP薪资门槛政策按行业与年龄梯度执行，需提前评估可达性。",
+            "学生准证办理费用和签发流程有明确官方标准。"
+          ],
+          "not_applicable_group": "明确不考虑海外就业且仅为短期学历提升的人群，可降低留新维度权重。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你更看重新加坡的就业机会，还是学习效率？",
+          "q2": "你希望毕业后留新，还是回国发展？",
+          "cta": "评论【新加坡决策】领评估表，我帮你先做适配判断。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【新加坡决策】领取评估表",
+          "save_trigger": "收藏后私信“新加坡”，我发你双路径判断框架",
+          "survey_trigger": "提交去向问卷，领取留新可行性评估",
+          "dm_trigger": "私信“新加坡决策+岗位”，进入决策诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_job", "budget_range", "intake_term"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你目标{{target_job}}、预算{{budget_range}}和{{intake_term}}入学，我先给你做新加坡路径适配判断。"
+        }
+      },
+      {
+        "article_id": "A18",
+        "title": "NUS/NTU/SMU怎么选：先看目标再看名气",
+        "keyword": "新加坡选校",
+        "country": "SG",
+        "funnel_stage": "school_selection",
+        "asset_binding": {
+          "asset_id": "LM003",
+          "asset_name": "选校四维矩阵",
+          "persona_asset_map": {
+            "fresh_grad": "LM121",
+            "work_1_3_years": "LM123",
+            "career_switch": "LM122"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "同样是新加坡名校，不同项目的就业路径差异可能很大。",
+          "B": "学校是入口，项目才是你未来岗位的接口。"
+        },
+        "article_body": {
+          "opening_conclusion": "选校建议优先匹配目标岗位，再比较平台资源。",
+          "applicable_audience": "准备申请新加坡主流院校、需要定名单的人。",
+          "step_framework": [
+            "按岗位拆分技能要求",
+            "对照项目课程与就业资源",
+            "加入预算与申请难度权重",
+            "输出冲稳保列表"
+          ],
+          "real_case": {
+            "case_id": "CASE-SG-002",
+            "profile": "工作1年，目标数据分析",
+            "problem": "只按学校综排决策",
+            "action": "改为岗位导向筛项目",
+            "result": "名单更贴合后续就业动作"
+          },
+          "counter_example": "只看学校名气，可能选到课程与岗位不匹配的项目。",
+          "action_checklist": [
+            "写出目标岗位核心技能",
+            "筛课程匹配项目",
+            "确认预算可承受性",
+            "核对申请难度",
+            "确定冲稳保分层"
+          ],
+          "faq": [
+            {
+              "q": "排名高就一定更适合？",
+              "a": "不一定，岗位匹配和执行成本更关键。"
+            },
+            {
+              "q": "要不要跨学院申请？",
+              "a": "可行，但要保证叙事和技能衔接。"
+            }
+          ],
+          "closing_summary": "先岗位后学校，路径更稳。"
+        },
+        "persona_variants": {
+          "fresh_grad": "关注课程与校友资源。",
+          "work_1_3_years": "关注行业网络与转岗机会。",
+          "career_switch": "关注先修要求和补课成本。"
+        },
+        "evidence_module": {
+          "source_date": "2025-01-20",
+          "source_refs": ["SRC-SG-MOE-GES-2025"],
+          "data_points": [
+            "毕业生就业数据存在学科差异，选校时需避免“平均值误导”。"
+          ],
+          "not_applicable_group": "目标纯学术研究路径人群，应转向研究资源评估模型。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在最纠结的是学校品牌，还是项目匹配？",
+          "q2": "你希望我先按目标岗位帮你筛项目吗？",
+          "cta": "评论【新加坡选校】领比较表，我给你做首轮筛选。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【新加坡选校】领取比较表",
+          "save_trigger": "收藏后私信“新加坡选校”，我回你权重建议",
+          "survey_trigger": "填写岗位问卷，领取项目匹配分",
+          "dm_trigger": "私信“新加坡选校+岗位”，进入名单诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_major", "target_job", "budget_range"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。你补充目标{{target_job}}和预算{{budget_range}}，我给你做一版新加坡首轮筛选。"
+        }
+      },
+      {
+        "article_id": "A19",
+        "title": "新加坡申请材料一次讲清：齐全只是及格",
+        "keyword": "新加坡材料",
+        "country": "SG",
+        "funnel_stage": "materials",
+        "asset_binding": {
+          "asset_id": "LM005",
+          "asset_name": "文书结构模板",
+          "persona_asset_map": {
+            "fresh_grad": "LM121",
+            "work_1_3_years": "LM123",
+            "career_switch": "LM122"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "材料“齐全”只能过门槛，真正差距在“说服力”。",
+          "B": "你不是在交作业，而是在构建一套可信候选人画像。"
+        },
+        "article_body": {
+          "opening_conclusion": "新加坡申请材料要从“完整”升级为“可验证且匹配”。",
+          "applicable_audience": "准备提交新加坡项目材料的申请者。",
+          "step_framework": [
+            "先做材料总清单",
+            "再补关键证据（项目、实习、成果）",
+            "统一叙事逻辑（简历、文书、推荐信）",
+            "做一次一致性审查"
+          ],
+          "real_case": {
+            "case_id": "CASE-SG-003",
+            "profile": "应届理工，转申商科",
+            "problem": "材料齐全但叙事断裂",
+            "action": "统一简历与文书主线",
+            "result": "材料可读性和说服力提升"
+          },
+          "counter_example": "简历写A方向、文书写B方向，会让招生官质疑目标稳定性。",
+          "action_checklist": [
+            "检查材料清单完整度",
+            "补三条可量化证据",
+            "统一主线表达",
+            "检查推荐信一致性",
+            "做终审复核"
+          ],
+          "faq": [
+            {
+              "q": "材料越多越好吗？",
+              "a": "不一定，关键是相关性与证据质量。"
+            },
+            {
+              "q": "推荐信要找头衔高的人吗？",
+              "a": "优先找了解你工作或学习表现的人。"
+            }
+          ],
+          "closing_summary": "材料是一套系统，不是散件集合。"
+        },
+        "persona_variants": {
+          "fresh_grad": "强调课程与项目证据。",
+          "work_1_3_years": "强调岗位成果与转型动机。",
+          "career_switch": "强调迁移能力与先修证明。"
+        },
+        "evidence_module": {
+          "source_date": "2025-01-20",
+          "source_refs": ["SRC-SG-MOE-GES-2025"],
+          "data_points": [
+            "就业导向项目对材料中的岗位匹配证据更敏感，单纯“齐全”难构成优势。"
+          ],
+          "not_applicable_group": "纯研究导向项目应增加研究计划与学术能力证据。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在材料卡在文书、推荐信，还是经历证据？",
+          "q2": "你愿意先做一次材料一致性体检吗？",
+          "cta": "评论【新加坡材料】领清单，我帮你查漏补缺。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【新加坡材料】领取清单",
+          "save_trigger": "收藏后私信“材料”，我发你一致性核对表",
+          "survey_trigger": "提交材料问卷，领取改进优先级",
+          "dm_trigger": "私信“新加坡材料+专业”，进入材料诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_major", "current_stage", "language_score_band"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你目标{{target_major}}和当前阶段{{current_stage}}，我给你一版材料查漏补缺顺序。"
+        }
+      },
+      {
+        "article_id": "A20",
+        "title": "新加坡预算与奖学金：现实版双方案",
+        "keyword": "新加坡预算",
+        "country": "SG",
+        "funnel_stage": "budget",
+        "asset_binding": {
+          "asset_id": "LM004",
+          "asset_name": "留学预算规划器",
+          "persona_asset_map": {
+            "fresh_grad": "LM121",
+            "work_1_3_years": "LM123",
+            "career_switch": "LM122"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "预算做得越早，后期越不会被汇率和生活成本打穿。",
+          "B": "奖学金是加分项，不是预算底盘。"
+        },
+        "article_body": {
+          "opening_conclusion": "新加坡预算建议做“无奖学金保守版+有奖学金进取版”双方案。",
+          "applicable_audience": "预算敏感且希望兼顾新加坡留学与就业机会的人群。",
+          "step_framework": [
+            "确认总预算上限",
+            "分解固定与弹性支出",
+            "奖学金作为上浮项而非底盘",
+            "预留签证、求职与突发支出"
+          ],
+          "real_case": {
+            "case_id": "CASE-SG-004",
+            "profile": "工科应届，目标新加坡数据岗",
+            "problem": "把奖学金当必得导致预算失真",
+            "action": "改为双方案预算并保留弹性",
+            "result": "申请与入学阶段现金流更稳"
+          },
+          "counter_example": "只做理想预算，一旦奖学金未中或生活成本上涨会被动。",
+          "action_checklist": [
+            "完成双方案预算",
+            "设置汇率缓冲",
+            "拆出求职预算",
+            "按月复盘",
+            "设置超支止损线"
+          ],
+          "faq": [
+            {
+              "q": "奖学金能覆盖大头成本吗？",
+              "a": "因项目而异，不建议作为唯一资金方案。"
+            },
+            {
+              "q": "预算有限还适合新加坡吗？",
+              "a": "可以，但需要更精细的项目和生活成本管理。"
+            }
+          ],
+          "closing_summary": "预算越现实，执行越稳定。"
+        },
+        "persona_variants": {
+          "fresh_grad": "强调家庭现金流压力管理。",
+          "work_1_3_years": "强调回本周期。",
+          "career_switch": "强调补课和试错成本。"
+        },
+        "evidence_module": {
+          "source_date": "2025-03-31",
+          "source_refs": ["SRC-SG-ICA-STP-2025"],
+          "data_points": [
+            "学生准证办理费用与签发流程有明确规定，预算应将签证行政成本纳入固定项。"
+          ],
+          "not_applicable_group": "全奖或企业资助人群可简化预算模型。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你预算更担心学费，还是生活费波动？",
+          "q2": "你愿意先做无奖学金版预算吗？",
+          "cta": "评论【新加坡预算】领双方案模板，我帮你做风险位。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【新加坡预算】领取模板",
+          "save_trigger": "收藏后私信“新加坡预算”，我发你风险位比例",
+          "survey_trigger": "填写预算问卷，领取项目成本分层建议",
+          "dm_trigger": "私信“新加坡预算+总额”，进入预算诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["budget_range", "intake_term", "target_major"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你预算{{budget_range}}和目标{{target_major}}，我给你做一版新加坡现实预算模型。"
+        }
+      },
+      {
+        "article_id": "A21",
+        "title": "新加坡求职窗口短：如何提前布局",
+        "keyword": "新加坡求职",
+        "country": "SG",
+        "funnel_stage": "career",
+        "asset_binding": {
+          "asset_id": "LM007",
+          "asset_name": "求职时间线模板",
+          "persona_asset_map": {
+            "fresh_grad": "LM123",
+            "work_1_3_years": "LM123",
+            "career_switch": "LM122"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "新加坡求职窗口短，错过节奏通常不是能力问题，而是动作启动太晚。",
+          "B": "入学后再开始准备，很多岗位窗口已经过半。"
+        },
+        "article_body": {
+          "opening_conclusion": "新加坡求职要把关键动作前置到入学前。",
+          "applicable_audience": "目标留新或提升区域就业竞争力的在读和准入读学生。",
+          "step_framework": [
+            "入学前完成简历与岗位地图",
+            "入学后第1-6周完成行业触达",
+            "第7-12周强化投递与面试",
+            "并行准备回国备选路径"
+          ],
+          "real_case": {
+            "case_id": "CASE-SG-005",
+            "profile": "应届经管，目标新加坡运营岗",
+            "problem": "前期无准备导致错过校招节奏",
+            "action": "按12周计划重建求职节奏",
+            "result": "获得可转正实习机会"
+          },
+          "counter_example": "只在考试结束后集中投递，往往错过最优窗口。",
+          "action_checklist": [
+            "写目标岗位清单",
+            "完成定向简历",
+            "每周固定投递次数",
+            "每周复盘反馈",
+            "并行回国备选"
+          ],
+          "faq": [
+            {
+              "q": "留新就业门槛高吗？",
+              "a": "与岗位和薪资有关，建议提前对照官方门槛做评估。"
+            },
+            {
+              "q": "课程和求职会冲突吗？",
+              "a": "会冲突，所以更需要周节奏管理。"
+            }
+          ],
+          "closing_summary": "先抢节奏，再拼能力。"
+        },
+        "persona_variants": {
+          "fresh_grad": "重点补求职基本功。",
+          "work_1_3_years": "重点做岗位转化叙事。",
+          "career_switch": "重点做技能证据补齐。"
+        },
+        "evidence_module": {
+          "source_date": "2025-01-20",
+          "source_refs": ["SRC-SG-MOE-GES-2025", "SRC-SG-MOM-EP-2025"],
+          "data_points": [
+            "就业市场存在岗位与薪资门槛，提前做岗位匹配与门槛评估更稳。",
+            "毕业生薪资中位数变化提示“岗位能力证据”仍是关键。"
+          ],
+          "not_applicable_group": "已有确定回国工作机会且不考虑留新的人群。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你是担心留新门槛，还是不知道如何排节奏？",
+          "q2": "你愿意按12周路线跑一版吗？",
+          "cta": "评论【新加坡求职】领周计划表，我给你12周路线。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【新加坡求职】领取周计划",
+          "save_trigger": "收藏后私信“求职计划”，我发你第一周动作",
+          "survey_trigger": "填写岗位问卷，领取岗位门槛对照表",
+          "dm_trigger": "私信“新加坡求职+岗位”，进入求职诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_job", "current_stage", "intake_term"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你目标{{target_job}}和当前阶段{{current_stage}}，我给你一版新加坡12周求职路径。"
+        }
+      },
+      {
+        "article_id": "A22",
+        "title": "跨专业申请新加坡：三段式叙事框架",
+        "keyword": "转专业",
+        "country": "SG",
+        "funnel_stage": "career_switch",
+        "asset_binding": {
+          "asset_id": "LM122",
+          "asset_name": "新加坡转专业叙事包",
+          "persona_asset_map": {
+            "fresh_grad": "LM122",
+            "work_1_3_years": "LM122",
+            "career_switch": "LM122"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "跨专业不是讲热爱，而是讲“为什么你现在能转且值得录取”。",
+          "B": "转专业文书写不好，最常见问题是动机有了、证据没跟上。"
+        },
+        "article_body": {
+          "opening_conclusion": "跨专业申请要用“过去基础-现在补齐-未来落地”三段式叙事。",
+          "applicable_audience": "跨专业申请新加坡授课型硕士的人群。",
+          "step_framework": [
+            "梳理可迁移能力",
+            "补齐先修课程与项目证据",
+            "构建职业落地路径",
+            "统一文书和简历叙事"
+          ],
+          "real_case": {
+            "case_id": "CASE-SG-006",
+            "profile": "文科背景转数据分析",
+            "problem": "动机强但技能证据弱",
+            "action": "补SQL项目和数据作品集",
+            "result": "叙事可信度明显提升"
+          },
+          "counter_example": "只写“我喜欢这个专业”而无能力证据，会被视为高风险申请。",
+          "action_checklist": [
+            "列出迁移能力",
+            "完成先修补课清单",
+            "补1-2个项目证据",
+            "重写转专业叙事",
+            "做一致性检查"
+          ],
+          "faq": [
+            {
+              "q": "没有相关实习还能转吗？",
+              "a": "可以，但要用课程和项目成果补证据。"
+            },
+            {
+              "q": "转专业会不会影响就业？",
+              "a": "会增加前期难度，但可通过证据和节奏管理降低风险。"
+            }
+          ],
+          "closing_summary": "转专业的核心不是“敢转”，而是“能转成”。"
+        },
+        "persona_variants": {
+          "fresh_grad": "重点补课程证据。",
+          "work_1_3_years": "重点补岗位可迁移成果。",
+          "career_switch": "重点做技能闭环和作品集。"
+        },
+        "evidence_module": {
+          "source_date": "2025-01-20",
+          "source_refs": ["SRC-SG-MOE-GES-2025"],
+          "data_points": [
+            "就业导向环境下，跨专业申请更依赖证据链完整性而非动机描述。"
+          ],
+          "not_applicable_group": "同专业直申且背景强匹配者，可简化叙事补强模块。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在转专业最大的难点是先修课，还是文书叙事？",
+          "q2": "你愿意先做一版三段式叙事吗？",
+          "cta": "评论【转专业】领叙事模板，我给你搭三段主线。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【转专业】领取模板",
+          "save_trigger": "收藏后私信“转专业”，我发你叙事评分表",
+          "survey_trigger": "提交背景问卷，领取补课优先级",
+          "dm_trigger": "私信“新加坡转专业+目标岗位”，进入路径诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_major", "target_job", "current_stage"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你当前{{current_stage}}和目标{{target_major}}，我给你搭一版三段式叙事主线。"
+        }
+      },
+      {
+        "article_id": "A23",
+        "title": "新加坡毕业去向：留新还是回国双路径",
+        "keyword": "新加坡就业",
+        "country": "SG",
+        "funnel_stage": "destination_choice",
+        "asset_binding": {
+          "asset_id": "LM009",
+          "asset_name": "咨询前诊断问卷",
+          "persona_asset_map": {
+            "fresh_grad": "LM123",
+            "work_1_3_years": "LM123",
+            "career_switch": "LM122"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "留新和回国不是二选一冲突，而是先并行后终选的策略问题。",
+          "B": "真正降低焦虑的方法，是给自己同时准备两条可执行路径。"
+        },
+        "article_body": {
+          "opening_conclusion": "建议在毕业前至少保留两条可执行去向方案。",
+          "applicable_audience": "新加坡在读或即将毕业、去向未定的人。",
+          "step_framework": [
+            "定义目标岗位与最低可接受条件",
+            "拆分留新与回国的门槛与收益",
+            "并行投递并跟踪反馈",
+            "按窗口期做终选"
+          ],
+          "real_case": {
+            "case_id": "CASE-SG-007",
+            "profile": "数据方向在读，去向不确定",
+            "problem": "只押留新，进展不稳",
+            "action": "并行回国投递并做节奏拆分",
+            "result": "拿到双地区面试机会"
+          },
+          "counter_example": "只准备单一路径会把外部波动风险全部放大。",
+          "action_checklist": [
+            "写双路径岗位清单",
+            "准备两版简历",
+            "每周跟踪反馈",
+            "按门槛动态调整",
+            "毕业前做终选"
+          ],
+          "faq": [
+            {
+              "q": "留新工资一定更高吗？",
+              "a": "不一定，需结合税后收入、生活成本与成长路径。"
+            },
+            {
+              "q": "回国会不会错失海外优势？",
+              "a": "不会，关键是把海外经历转化为岗位相关能力。"
+            }
+          ],
+          "closing_summary": "先并行再聚焦，去向决策更稳。"
+        },
+        "persona_variants": {
+          "fresh_grad": "关注第一份工作成长速度。",
+          "work_1_3_years": "关注岗位级别跃迁。",
+          "career_switch": "关注转型岗位可达性。"
+        },
+        "evidence_module": {
+          "source_date": "2025-01-20",
+          "source_refs": ["SRC-SG-MOM-EP-2025", "SRC-SG-MOE-GES-2025"],
+          "data_points": [
+            "留新路径与岗位薪资门槛相关，决策应建立在岗位可达性而非单点情绪上。",
+            "就业数据提示岗位与专业匹配对结果影响显著。"
+          ],
+          "not_applicable_group": "已拿到明确地区offer人群，可直接进入签约与落地规划。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你更倾向留新，还是回国？",
+          "q2": "你愿意先并行准备两条路径吗？",
+          "cta": "评论【新加坡就业】领对比表，我帮你做去向终选。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【新加坡就业】领取对比表",
+          "save_trigger": "收藏后私信“去向”，我发你终选逻辑",
+          "survey_trigger": "填写去向问卷，领取双路径评分表",
+          "dm_trigger": "私信“新加坡就业+岗位”，进入终选诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_job", "budget_range", "current_stage"],
+          "first_message_template": "{{nickname}}，我先发去向对比表。按你目标{{target_job}}和预算{{budget_range}}，我给你一版留新/回国终选建议。"
+        }
+      },
+      {
+        "article_id": "A24",
+        "title": "澳洲授课型硕士值不值：先看目标再看热度",
+        "keyword": "澳洲决策",
+        "country": "AU",
+        "funnel_stage": "decision",
+        "asset_binding": {
+          "asset_id": "LM001",
+          "asset_name": "三笔账评估表",
+          "persona_asset_map": {
+            "fresh_grad": "LM131",
+            "work_1_3_years": "LM133",
+            "career_switch": "LM132"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "澳洲热度高不代表都适合，先算目标岗位与预算匹配。",
+          "B": "读澳洲硕士最怕“跟风申请”，最后发现路径不闭环。"
+        },
+        "article_body": {
+          "opening_conclusion": "澳洲硕士是否值得，核心在“岗位目标+政策窗口+预算承受”。",
+          "applicable_audience": "考虑澳洲授课型硕士、但不确定投入产出的申请人。",
+          "step_framework": [
+            "明确岗位目标和地区偏好",
+            "评估签证与毕业后路径窗口",
+            "测算学费、生活费与政策成本",
+            "输出去留双方案"
+          ],
+          "real_case": {
+            "case_id": "CASE-AU-001",
+            "profile": "应届商科，目标澳洲咨询",
+            "problem": "只看学校排名忽略政策与成本",
+            "action": "改用三笔账模型并做双路径规划",
+            "result": "申请组合更稳健"
+          },
+          "counter_example": "忽略政策时间点和签证成本，容易导致预算与预期偏差。",
+          "action_checklist": [
+            "完成三笔账评估",
+            "核对签证政策时间点",
+            "拆分固定与弹性成本",
+            "设置止损条件",
+            "准备备选国家或项目"
+          ],
+          "faq": [
+            {
+              "q": "澳洲是不是更好留？",
+              "a": "要看专业、地区和政策时点，不建议一刀切判断。"
+            },
+            {
+              "q": "预算会不会很高？",
+              "a": "可控，但需提前纳入签证费和财力要求变化。"
+            }
+          ],
+          "closing_summary": "先看路径可执行，再看热度。"
+        },
+        "persona_variants": {
+          "fresh_grad": "重点看起步岗位与预算平衡。",
+          "work_1_3_years": "重点看职业跃迁价值。",
+          "career_switch": "重点看转型与政策窗口。"
+        },
+        "evidence_module": {
+          "source_date": "2024-07-01",
+          "source_refs": ["SRC-AU-STUDENT-VISA-FEE-2024", "SRC-AU-STUDENT-CAPACITY-2024", "SRC-AU-GENUINE-STUDENT-2024"],
+          "data_points": [
+            "澳洲学生签主申请费在2024年7月1日起提高至AUD 1,600。",
+            "财力要求在2024年5月上调至AUD 29,710。",
+            "2024年3月起学生签引入Genuine Student要求，申请评估更注重真实学习意图。"
+          ],
+          "not_applicable_group": "持有长期本地工作机会且不依赖学生签路径者，可采用不同评估模型。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你更看重澳洲的就业机会，还是学习体验？",
+          "q2": "你是否已经算过政策成本和预算上限？",
+          "cta": "评论【澳洲决策】领评估表，我帮你先判定值不值。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【澳洲决策】领取评估表",
+          "save_trigger": "收藏后私信“澳洲”，我发你政策窗口表",
+          "survey_trigger": "填写去向问卷，领取路径可行性结论",
+          "dm_trigger": "私信“澳洲决策+预算”，进入决策诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_job", "budget_range", "intake_term"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你目标{{target_job}}和预算{{budget_range}}，我给你一版澳洲路径可执行性结论。"
+        }
+      },
+      {
+        "article_id": "A25",
+        "title": "澳洲八大怎么选：冲稳保组合更理性",
+        "keyword": "澳洲选校",
+        "country": "AU",
+        "funnel_stage": "school_selection",
+        "asset_binding": {
+          "asset_id": "LM003",
+          "asset_name": "选校四维矩阵",
+          "persona_asset_map": {
+            "fresh_grad": "LM131",
+            "work_1_3_years": "LM133",
+            "career_switch": "LM132"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "澳洲选校别只盯八大名头，项目和城市组合更影响结果。",
+          "B": "合理的冲稳保组合，比单点冲刺更能提高录取质量。"
+        },
+        "article_body": {
+          "opening_conclusion": "澳洲选校建议“项目匹配+城市成本+录取概率”三维联动。",
+          "applicable_audience": "计划申请澳洲硕士、名单尚未成型的申请者。",
+          "step_framework": [
+            "按岗位要求筛课程",
+            "按城市成本做预算分层",
+            "按录取风险做冲稳保组合",
+            "输出首轮与备选名单"
+          ],
+          "real_case": {
+            "case_id": "CASE-AU-002",
+            "profile": "工科应届，目标产品经理",
+            "problem": "名单过于集中高风险项目",
+            "action": "补充稳校与城市替代方案",
+            "result": "录取确定性提升"
+          },
+          "counter_example": "全冲热门项目会导致录取波动过大，错过稳健路径。",
+          "action_checklist": [
+            "完成项目匹配评分",
+            "完成城市成本评分",
+            "设置冲稳保比例",
+            "保留2个稳健备选",
+            "设定投递顺序"
+          ],
+          "faq": [
+            {
+              "q": "八大一定优于非八大吗？",
+              "a": "不绝对，需看项目质量和岗位连接度。"
+            },
+            {
+              "q": "如何平衡城市和学校？",
+              "a": "预算敏感时优先城市可执行性，再看学校层级。"
+            }
+          ],
+          "closing_summary": "组合思维，比名校执念更有效。"
+        },
+        "persona_variants": {
+          "fresh_grad": "关注就业入口和实习资源。",
+          "work_1_3_years": "关注职业跃迁效率。",
+          "career_switch": "关注课程与岗位衔接。"
+        },
+        "evidence_module": {
+          "source_date": "2024-07-01",
+          "source_refs": ["SRC-AU-STUDENT-VISA-FEE-2024", "SRC-AU-LIVING-COST-2025"],
+          "data_points": [
+            "申请与就读成本上行背景下，城市与项目组合对总成本影响更大。",
+            "Study Australia官方信息强调地区间生活成本差异，应纳入选校模型。"
+          ],
+          "not_applicable_group": "预算充足且目标明确单一项目者，可降低成本维度权重。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在是卡在学校层级，还是城市选择？",
+          "q2": "你愿意先做冲稳保组合吗？",
+          "cta": "评论【澳洲选校】领模板，我帮你做组合分层。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【澳洲选校】领取模板",
+          "save_trigger": "收藏后私信“选校”，我发你组合比例建议",
+          "survey_trigger": "填写岗位问卷，领取匹配分表",
+          "dm_trigger": "私信“澳洲选校+岗位”，进入名单诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_major", "target_job", "budget_range"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你目标{{target_job}}和预算{{budget_range}}，我给你做一版澳洲冲稳保组合。"
+        }
+      },
+      {
+        "article_id": "A26",
+        "title": "澳洲申请时间线：别被还能申误导",
+        "keyword": "澳洲时间线",
+        "country": "AU",
+        "funnel_stage": "timeline",
+        "asset_binding": {
+          "asset_id": "LM007",
+          "asset_name": "求职时间线模板",
+          "persona_asset_map": {
+            "fresh_grad": "LM133",
+            "work_1_3_years": "LM133",
+            "career_switch": "LM132"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "“还能申”不等于“申得好”，澳洲申请越晚越容易压缩质量。",
+          "B": "时间线管理的本质，是把关键动作前置而不是赶DDL。"
+        },
+        "article_body": {
+          "opening_conclusion": "澳洲申请要按材料与签证节奏倒排，不要只盯截止日。",
+          "applicable_audience": "计划澳洲申请、时间管理薄弱的申请者。",
+          "step_framework": [
+            "按入学季倒排12-16周计划",
+            "并行推进语言、文书、推荐信",
+            "预留签证准备与补件时间",
+            "设置每周复盘"
+          ],
+          "real_case": {
+            "case_id": "CASE-AU-003",
+            "profile": "应届商科，目标澳洲八大",
+            "problem": "临近DDL才开始准备",
+            "action": "重排时间线并提前提交优先项目",
+            "result": "材料质量和录取概率双提升"
+          },
+          "counter_example": "仅按DDL推进会导致文书粗糙和签证准备不足。",
+          "action_checklist": [
+            "确定入学季与批次",
+            "拆解关键里程碑",
+            "安排语言与文书并行",
+            "预留签证材料时间",
+            "每周复盘"
+          ],
+          "faq": [
+            {
+              "q": "晚申一定没机会吗？",
+              "a": "不一定，但可选空间和质量容错会明显下降。"
+            },
+            {
+              "q": "先递交再完善可行吗？",
+              "a": "可行，但要确保核心材料质量不掉线。"
+            }
+          ],
+          "closing_summary": "时间线是申请质量放大器。"
+        },
+        "persona_variants": {
+          "fresh_grad": "重点补执行节奏和自律机制。",
+          "work_1_3_years": "重点平衡工作与申请并行。",
+          "career_switch": "重点安排补课与材料重写窗口。"
+        },
+        "evidence_module": {
+          "source_date": "2024-03-23",
+          "source_refs": ["SRC-AU-GENUINE-STUDENT-2024"],
+          "data_points": [
+            "Genuine Student评估强化后，申请材料一致性与真实性比“赶时间”更关键。"
+          ],
+          "not_applicable_group": "已完成高质量材料并有专业顾问持续跟进者，时间风险相对可控。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在卡在时间安排，还是材料准备？",
+          "q2": "你愿意按入学季倒排一版计划吗？",
+          "cta": "评论【澳洲时间线】领甘特图，我帮你排关键节点。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【澳洲时间线】领取甘特图",
+          "save_trigger": "收藏后私信“时间线”，我发你周节奏模板",
+          "survey_trigger": "填写进度问卷，领取风险节点",
+          "dm_trigger": "私信“澳洲时间线+入学季”，进入进度诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["intake_term", "current_stage", "language_score_band"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你{{intake_term}}入学和当前阶段{{current_stage}}，我给你做一版澳洲申请倒排表。"
+        }
+      },
+      {
+        "article_id": "A27",
+        "title": "澳洲城市预算对比：花费差异在哪里",
+        "keyword": "澳洲预算",
+        "country": "AU",
+        "funnel_stage": "budget",
+        "asset_binding": {
+          "asset_id": "LM131",
+          "asset_name": "澳洲商科城市成本与岗位对照表",
+          "persona_asset_map": {
+            "fresh_grad": "LM131",
+            "work_1_3_years": "LM133",
+            "career_switch": "LM132"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "澳洲预算差异不只在房租，交通、通勤和求职成本都会拉开差距。",
+          "B": "同样读硕士，城市选错可能让总成本多出一大截。"
+        },
+        "article_body": {
+          "opening_conclusion": "城市选择是预算管理中的第一决策变量。",
+          "applicable_audience": "预算敏感、需要城市与项目联动决策的申请者。",
+          "step_framework": [
+            "列出目标城市与项目",
+            "拆分城市固定与弹性成本",
+            "加入求职机会密度权重",
+            "做城市主备方案"
+          ],
+          "real_case": {
+            "case_id": "CASE-AU-004",
+            "profile": "应届会计，预算有限",
+            "problem": "默认选择热门城市导致预算压力过大",
+            "action": "改为双城市申请方案",
+            "result": "预算压力下降且保留就业机会"
+          },
+          "counter_example": "只盯“热门城市”忽略预算，会在后期求职阶段被现金流限制。",
+          "action_checklist": [
+            "列城市成本清单",
+            "加入求职与通勤成本",
+            "设置预算上限",
+            "确定主备城市",
+            "每月复盘支出"
+          ],
+          "faq": [
+            {
+              "q": "二线城市会影响就业吗？",
+              "a": "要看行业分布，部分岗位可以通过实习和远程面试弥补。"
+            },
+            {
+              "q": "预算表要做多细？",
+              "a": "至少做到月度层级，包含应急缓冲。"
+            }
+          ],
+          "closing_summary": "城市决策越理性，后续执行越轻松。"
+        },
+        "persona_variants": {
+          "fresh_grad": "重点看预算稳定性。",
+          "work_1_3_years": "重点看回本效率。",
+          "career_switch": "重点看转型成本可控性。"
+        },
+        "evidence_module": {
+          "source_date": "2025-04-17",
+          "source_refs": ["SRC-AU-LIVING-COST-2025", "SRC-AU-STUDENT-CAPACITY-2024"],
+          "data_points": [
+            "Study Australia官方信息强调地区生活成本差异，需纳入城市决策。",
+            "财力要求上调后，预算冗余不足会放大执行风险。"
+          ],
+          "not_applicable_group": "获得稳定生活补贴或家庭长期支持者，可适度降低预算敏感性。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你更担心学费，还是不同城市生活成本差异？",
+          "q2": "你愿意先做主备城市预算吗？",
+          "cta": "评论【澳洲预算】领预算器，我给你做城市对比版。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【澳洲预算】领取对照表",
+          "save_trigger": "收藏后私信“城市预算”，我发你对比维度",
+          "survey_trigger": "提交预算问卷，领取城市建议",
+          "dm_trigger": "私信“澳洲预算+城市”，进入预算诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["budget_range", "target_job", "preferred_city"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你预算{{budget_range}}和意向城市{{preferred_city}}，我给你做一版澳洲城市预算对比。"
+        }
+      },
+      {
+        "article_id": "A28",
+        "title": "澳洲选课与就业：先反推岗位再选课程",
+        "keyword": "课程匹配",
+        "country": "AU",
+        "funnel_stage": "course_matching",
+        "asset_binding": {
+          "asset_id": "LM132",
+          "asset_name": "澳洲转码选课与实习包",
+          "persona_asset_map": {
+            "fresh_grad": "LM132",
+            "work_1_3_years": "LM133",
+            "career_switch": "LM132"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "选课不是“兴趣列表”，而是“岗位能力清单”的反向映射。",
+          "B": "课程选错，毕业后简历故事线会断掉。"
+        },
+        "article_body": {
+          "opening_conclusion": "先反推岗位能力，再设计课程组合，能显著提升就业连贯性。",
+          "applicable_audience": "准备入学或在读初期、想把课程和就业打通的人。",
+          "step_framework": [
+            "拆解目标岗位JD",
+            "把技能映射到课程与项目",
+            "安排实习与作品集节奏",
+            "按学期做能力闭环"
+          ],
+          "real_case": {
+            "case_id": "CASE-AU-005",
+            "profile": "转码申请者",
+            "problem": "选课分散、与目标岗位脱节",
+            "action": "重排课程并绑定项目输出",
+            "result": "简历叙事更完整"
+          },
+          "counter_example": "只选“好过”课程会削弱毕业求职竞争力。",
+          "action_checklist": [
+            "列岗位技能表",
+            "完成选课匹配表",
+            "每门课绑定产出",
+            "安排实习窗口",
+            "每学期复盘"
+          ],
+          "faq": [
+            {
+              "q": "先修基础差还能反推选课吗？",
+              "a": "可以，先补基础课再上核心课。"
+            },
+            {
+              "q": "选课要不要兼顾高分？",
+              "a": "要，但不能以牺牲岗位相关度为代价。"
+            }
+          ],
+          "closing_summary": "课程服务岗位，岗位定义课程。"
+        },
+        "persona_variants": {
+          "fresh_grad": "重点构建第一份简历证据。",
+          "work_1_3_years": "重点构建转岗能力证据。",
+          "career_switch": "重点构建可迁移技能闭环。"
+        },
+        "evidence_module": {
+          "source_date": "2025-11-25",
+          "source_refs": ["SRC-AU-QILT-GOS-2024"],
+          "data_points": [
+            "QILT毕业生成果调查覆盖样本超过11.7万人，显示就业结果与学习体验、实践能力培养密切相关。"
+          ],
+          "not_applicable_group": "纯学术导向或继续读博路径者，可下调岗位映射权重。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在选课更偏“好过”，还是偏“岗位匹配”？",
+          "q2": "你愿意先用岗位JD反推一版选课吗？",
+          "cta": "评论【课程匹配】领打分表，我帮你做选课路径。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【课程匹配】领取打分表",
+          "save_trigger": "收藏后私信“选课”，我发你岗位映射模板",
+          "survey_trigger": "填写岗位问卷，领取课程建议",
+          "dm_trigger": "私信“课程匹配+目标岗位”，进入课程诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_job", "target_major", "current_stage"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你目标{{target_job}}和专业{{target_major}}，我给你做一版反推选课路径。"
+        }
+      },
+      {
+        "article_id": "A29",
+        "title": "澳洲在读找实习：12周SOP",
+        "keyword": "澳洲求职",
+        "country": "AU",
+        "funnel_stage": "internship",
+        "asset_binding": {
+          "asset_id": "LM133",
+          "asset_name": "澳洲入学前12周实习SOP",
+          "persona_asset_map": {
+            "fresh_grad": "LM133",
+            "work_1_3_years": "LM133",
+            "career_switch": "LM132"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "实习难不是因为岗位少，而是很多人没有持续动作系统。",
+          "B": "12周SOP的价值是把“想找实习”变成“每周可执行动作”。"
+        },
+        "article_body": {
+          "opening_conclusion": "在读找实习建议用12周SOP推进，周周有动作、月月有复盘。",
+          "applicable_audience": "澳洲在读硕士、希望尽早拿到实习机会的人。",
+          "step_framework": [
+            "第1-2周完成岗位地图与简历",
+            "第3-6周集中投递与Networking",
+            "第7-10周强化面试与案例",
+            "第11-12周复盘并冲刺转正机会"
+          ],
+          "real_case": {
+            "case_id": "CASE-AU-006",
+            "profile": "商科在读，求职动作零散",
+            "problem": "无固定节奏导致反馈慢",
+            "action": "按12周SOP执行并周复盘",
+            "result": "面试机会稳定增长"
+          },
+          "counter_example": "随机投递无复盘，常见结果是低反馈+高焦虑。",
+          "action_checklist": [
+            "完成岗位清单",
+            "固定每周投递量",
+            "每周做反馈复盘",
+            "补面试题库训练",
+            "保持双路径投递"
+          ],
+          "faq": [
+            {
+              "q": "没有本地经验能拿到实习吗？",
+              "a": "可以，通过项目证据和精准投递提高概率。"
+            },
+            {
+              "q": "投递多少算合理？",
+              "a": "建议结合岗位数量和质量，保持持续而非一次性冲量。"
+            }
+          ],
+          "closing_summary": "求职不是爆发赛，是节奏赛。"
+        },
+        "persona_variants": {
+          "fresh_grad": "重点补求职方法论。",
+          "work_1_3_years": "重点补岗位转化叙事。",
+          "career_switch": "重点补作品与案例。"
+        },
+        "evidence_module": {
+          "source_date": "2025-11-25",
+          "source_refs": ["SRC-AU-QILT-GOS-2024"],
+          "data_points": [
+            "QILT毕业生调查显示就业结果受实践准备度影响明显，提前实习布局有现实价值。"
+          ],
+          "not_applicable_group": "已获得明确全职offer者，可缩减实习冲刺动作。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在找实习最大的卡点是简历、投递，还是面试？",
+          "q2": "你愿意按12周SOP跑一版吗？",
+          "cta": "评论【澳洲求职】领12周SOP，我帮你定第一周任务。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【澳洲求职】领取12周SOP",
+          "save_trigger": "收藏后私信“第一周”，我发你起步动作",
+          "survey_trigger": "填写求职问卷，领取优先任务清单",
+          "dm_trigger": "私信“澳洲求职+岗位”，进入求职诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_job", "current_stage", "budget_range"],
+          "first_message_template": "{{nickname}}，我先发12周SOP。按你目标{{target_job}}和当前阶段{{current_stage}}，我给你第一周执行清单。"
+        }
+      },
+      {
+        "article_id": "A30",
+        "title": "澳洲Offer终选：入学前四步法",
+        "keyword": "入学倒排",
+        "country": "AU",
+        "funnel_stage": "offer_decision",
+        "asset_binding": {
+          "asset_id": "LM008",
+          "asset_name": "Offer对比决策表",
+          "persona_asset_map": {
+            "fresh_grad": "LM131",
+            "work_1_3_years": "LM133",
+            "career_switch": "LM132"
+          }
+        },
+        "opening_hook_ab": {
+          "A": "offer终选最怕反复比较，真正该比的是可执行性和3年回报。",
+          "B": "选最热门不一定最优，选能执行到结果的才是最优。"
+        },
+        "article_body": {
+          "opening_conclusion": "澳洲offer终选建议按“匹配-成本-风险-节奏”四步完成。",
+          "applicable_audience": "手里有多个澳洲offer，需要快速理性决策的人。",
+          "step_framework": [
+            "确认岗位匹配度",
+            "核算总成本与政策成本",
+            "评估签证与就业风险",
+            "制定入学前12周执行计划"
+          ],
+          "real_case": {
+            "case_id": "CASE-AU-007",
+            "profile": "双offer：热门城市高成本 vs 次热门城市高匹配",
+            "problem": "陷入排名与预算冲突",
+            "action": "按四步法重排权重",
+            "result": "确定主选并保留备选"
+          },
+          "counter_example": "只看排名终选，入学后可能出现预算紧张和课程错配。",
+          "action_checklist": [
+            "完成四步评分",
+            "核对签证与财力要求",
+            "确认预算上限",
+            "产出主备方案",
+            "开启入学前倒排"
+          ],
+          "faq": [
+            {
+              "q": "先选城市还是先选项目？",
+              "a": "建议先选岗位匹配项目，再看城市可执行性。"
+            },
+            {
+              "q": "offer都差不多怎么选？",
+              "a": "用执行难度和风险暴露做最后区分。"
+            }
+          ],
+          "closing_summary": "终选的目标不是“最亮眼”，而是“最能跑出结果”。"
+        },
+        "persona_variants": {
+          "fresh_grad": "关注第一份工作可达性。",
+          "work_1_3_years": "关注职业跃迁速度。",
+          "career_switch": "关注转型成功概率。"
+        },
+        "evidence_module": {
+          "source_date": "2024-07-01",
+          "source_refs": ["SRC-AU-STUDENT-VISA-FEE-2024", "SRC-AU-STUDENT-CAPACITY-2024", "SRC-AU-QILT-GOS-2024"],
+          "data_points": [
+            "签证和财力要求调整会改变项目总成本，终选必须纳入政策成本变量。",
+            "毕业生就业结果数据提示课程与实践匹配度对结果影响显著。"
+          ],
+          "not_applicable_group": "已明确单一去向并预算充足者，可简化四步法为两步法。"
+        },
+        "comment_followup_scripts": {
+          "q1": "你现在纠结的是课程匹配、预算压力还是城市选择？",
+          "q2": "你是否已经有明确的3年职业目标作为终选标准？",
+          "cta": "评论【入学倒排】领终选表，我帮你做四步筛选。"
+        },
+        "cta_ladder": {
+          "comment_keyword": "评论【入学倒排】领取终选表",
+          "save_trigger": "收藏后私信“终选”，我发你权重示例",
+          "survey_trigger": "填写终选问卷，领取主备方案建议",
+          "dm_trigger": "私信“澳洲终选+岗位”，进入终选诊断"
+        },
+        "dm_personalization": {
+          "priority_vars": ["target_job", "budget_range", "intake_term"],
+          "first_message_template": "{{nickname}}，我先发《{{asset_name}}》。按你目标{{target_job}}、预算{{budget_range}}和{{intake_term}}入学，我给你终选优先级建议。"
+        }
+      }
+    ],
+    "private_conversion_funnel": {
+      "message_templates": {
+        "dm_first_message_personalized_a": "{{nickname}}，你评论的是【{{keyword}}】。基于你想申{{target_country}}{{target_major}}、预算{{budget_range}}、{{intake_term}}入学，我先发《{{asset_name}}》，再给你一版可执行建议。",
+        "dm_first_message_personalized_b": "{{nickname}}，收到你对【{{topic}}】的留言。我先发资料，随后按你当前阶段{{current_stage}}给你分步骤路径。",
+        "dm_missing_target_job": "先把《{{asset_name}}》发你。你补一句“毕业后最想做的岗位”，我就能把方案从泛建议改成岗位级建议。",
+        "dm_missing_budget": "我先按保守预算给你初版。你补个预算区间（如25-30w/30-40w），我再做更精确版本。",
+        "dm_missing_intake": "你补下计划入学季（2026秋/2027春），我把时间线重排成你能直接执行的版本。",
+        "dm_second_message_data_collect": "为了给你更精准建议，你再补充3项：目标岗位、当前阶段、语言/GPA区间。",
+        "dm_third_message_consult_invite": "我已经能给你A/B两条路径了。要不要约15分钟，我把风险点和优先动作一次讲清？"
+      },
+      "tracking_fields": [
+        "source_article_id",
+        "source_platform",
+        "hook_version_used",
+        "comment_script_version",
+        "dm_template_version",
+        "first_response_minutes",
+        "impressions",
+        "open_rate",
+        "read_completion_rate",
+        "save_rate",
+        "share_rate",
+        "comment_rate",
+        "dm_rate",
+        "dm_reply_rate",
+        "form_submit_rate",
+        "diagnosis_show_rate",
+        "consult_book_rate",
+        "consult_show_rate",
+        "consult_close_rate",
+        "deal_rate"
+      ],
+      "ab_test_router": {
+        "dimensions": [
+          "title_style",
+          "opening_hook_version",
+          "cta_ladder_version",
+          "dm_template_version",
+          "platform_version"
+        ],
+        "minimum_sample_size": "__TO_FILL__",
+        "decision_rule": "保留连续两周在“完读率+私信率+预约率”同时领先的版本"
+      },
+      "extension": {
+        "crm_webhook_slot": "",
+        "ab_test_router_slot": "",
+        "qa_bot_handoff_slot": ""
+      }
+    },
+    "operations_playbook": {
+      "weekly_rhythm": [
+        "周一：发布决策型内容（A01/A09/A17/A24轮播）",
+        "周三：发布执行型内容（时间线/补强/文书）",
+        "周五：发布证据型内容（案例复盘+数据口径）",
+        "周日：发布终选型内容（Offer/去向决策）"
+      ],
+      "content_mix_target": {
+        "framework_articles_ratio": 0.4,
+        "evidence_articles_ratio": 0.4,
+        "qa_articles_ratio": 0.2
+      },
+      "quality_gate": {
+        "must_have_before_publish": [
+          "正文模板8字段完整",
+          "至少1个案例和1组数据口径",
+          "CTA承诺与资料名称一致",
+          "平台改写版本存在"
+        ]
+      }
+    }
+  },
+  "source_registry": [
+    {
+      "source_id": "SRC-UK-STUDY-VISA-2025",
+      "title": "UK Immigration System Statistics, year ending Sep 2025",
+      "url": "https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-september-2025/summary-of-latest-statistics",
+      "publisher": "UK Government",
+      "last_verified_date": "2026-02-17",
+      "notes": "含受担保学习签证总量与主申请/家属拆分"
+    },
+    {
+      "source_id": "SRC-UK-STUDENT-MONEY",
+      "title": "Student visa: Money you need",
+      "url": "https://www.gov.uk/student-visa/money",
+      "publisher": "UK Government",
+      "last_verified_date": "2026-02-17",
+      "notes": "财力证明伦敦/非伦敦标准"
+    },
+    {
+      "source_id": "SRC-UK-IHS-2026",
+      "title": "Immigration Health Surcharge",
+      "url": "https://www.gov.uk/healthcare-immigration-application/how-much-pay",
+      "publisher": "UK Government",
+      "last_verified_date": "2026-02-17",
+      "notes": "学生签常见IHS标准"
+    },
+    {
+      "source_id": "SRC-UK-GRADUATE-VISA-2026",
+      "title": "Graduate visa overview",
+      "url": "https://www.gov.uk/graduate-visa",
+      "publisher": "UK Government",
+      "last_verified_date": "2026-02-17",
+      "notes": "含2027-01-01起18个月调整说明"
+    },
+    {
+      "source_id": "SRC-UCAS-LIVING-COST-2026",
+      "title": "UCAS: Student living costs in the UK",
+      "url": "https://www.ucas.com/money-and-student-life/money/student-budgeting/student-living-costs-uk",
+      "publisher": "UCAS",
+      "last_verified_date": "2026-02-17",
+      "notes": "学生生活成本区间参考"
+    },
+    {
+      "source_id": "SRC-HK-IANG-GUIDEBOOK-2025",
+      "title": "HKSAR Talent List and IANG Guidebook",
+      "url": "https://www.talentlist.gov.hk/en/immigration-guidance",
+      "publisher": "HKSAR Government",
+      "last_verified_date": "2026-02-17",
+      "notes": "IANG安排与留港路径说明"
+    },
+    {
+      "source_id": "SRC-HK-IANG-ANNUAL-2024",
+      "title": "Hong Kong Immigration Department Annual Report 2024",
+      "url": "https://www.immd.gov.hk/eng/publications/a_report_2024.html",
+      "publisher": "Hong Kong Immigration Department",
+      "last_verified_date": "2026-02-17",
+      "notes": "累计IANG获批超过16万"
+    },
+    {
+      "source_id": "SRC-HK-HKU-GES-2024",
+      "title": "HKU Graduate Employment Survey 2024 Highlights",
+      "url": "https://www.cedars.hku.hk/careers/files/hku_ges_highlights_2024.pdf",
+      "publisher": "HKU CEDARS",
+      "last_verified_date": "2026-02-17",
+      "notes": "就业率与薪资数据用于口径参考"
+    },
+    {
+      "source_id": "SRC-SG-MOE-GES-2025",
+      "title": "MOE Parliamentary Reply on Graduate Employment Outcomes",
+      "url": "https://www.moe.gov.sg/news/parliamentary-replies/20250120-latest-graduate-employment-survey-outcomes",
+      "publisher": "Ministry of Education Singapore",
+      "last_verified_date": "2026-02-17",
+      "notes": "含2024年全职就业起薪中位数同比变化"
+    },
+    {
+      "source_id": "SRC-SG-MOM-EP-2025",
+      "title": "Employment Pass eligibility",
+      "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+      "publisher": "Ministry of Manpower Singapore",
+      "last_verified_date": "2026-02-17",
+      "notes": "EP薪资门槛与评估逻辑"
+    },
+    {
+      "source_id": "SRC-SG-ICA-STP-2025",
+      "title": "ICA Student's Pass in Singapore",
+      "url": "https://www.ica.gov.sg/reside/STP/apply",
+      "publisher": "ICA Singapore",
+      "last_verified_date": "2026-02-17",
+      "notes": "学生准证申请流程与费用"
+    },
+    {
+      "source_id": "SRC-AU-GENUINE-STUDENT-2024",
+      "title": "Changes to Student visa Genuine Student requirement",
+      "url": "https://minister.homeaffairs.gov.au/ClareONeil/Pages/changes-to-the-temporary-graduate-visa-program-and-student-visa-program-to-strengthen-integrity-in-inte.aspx",
+      "publisher": "Australian Home Affairs Minister",
+      "last_verified_date": "2026-02-17",
+      "notes": "2024年3月相关政策更新"
+    },
+    {
+      "source_id": "SRC-AU-STUDENT-VISA-FEE-2024",
+      "title": "Migration strategy reforms including student visa fee change",
+      "url": "https://minister.homeaffairs.gov.au/AndrewGiles/Pages/migration-strategy-reforms-to-deliver-record-migration-program-integrity-levels.aspx",
+      "publisher": "Australian Home Affairs Minister",
+      "last_verified_date": "2026-02-17",
+      "notes": "学生签申请费调整为AUD 1,600"
+    },
+    {
+      "source_id": "SRC-AU-STUDENT-CAPACITY-2024",
+      "title": "Additional migration reforms and financial capacity update",
+      "url": "https://minister.homeaffairs.gov.au/ClareONeil/Pages/additional-migration-reforms-to-strengthen-integrity.aspx",
+      "publisher": "Australian Home Affairs Minister",
+      "last_verified_date": "2026-02-17",
+      "notes": "财力要求更新为AUD 29,710"
+    },
+    {
+      "source_id": "SRC-AU-QILT-GOS-2024",
+      "title": "QILT Graduate Outcomes Survey 2024",
+      "url": "https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)",
+      "publisher": "QILT",
+      "last_verified_date": "2026-02-17",
+      "notes": "毕业生就业与薪资官方调查口径"
+    },
+    {
+      "source_id": "SRC-AU-LIVING-COST-2025",
+      "title": "Study Australia: Cost of living",
+      "url": "https://www.studyaustralia.gov.au/en/life-in-australia/living-and-education-costs",
+      "publisher": "Australian Government",
+      "last_verified_date": "2026-02-17",
+      "notes": "澳洲生活成本官方指引"
+    },
+    {
+      "source_id": "SRC-ZHIHU-AI-GOVERNANCE-2025",
+      "title": "知乎关于AI工具使用治理说明",
+      "url": "https://zhuanlan.zhihu.com/p/1945125274678665604",
+      "publisher": "Zhihu",
+      "last_verified_date": "2026-02-17",
+      "notes": "用于知乎平台内容发布合规提醒"
+    }
+  ],
+  "future_extension": {
+    "v1_2_reserved": {
+      "short_video_opening_lines": [
+        "你以为留学最难是申请，其实最难是决策顺序。",
+        "同样一年制硕士，结果差距为什么这么大？",
+        "预算不高也能申到好项目，但你要先做这一步。",
+        "如果你还在只看QS，今天这条可能帮你省下几十万。",
+        "拿到offer才开始准备的人，第一学期会非常被动。",
+        "转专业不是不行，问题是你有没有证据链。",
+        "评论区最常见的问题：到底要不要读港硕？",
+        "求职失败很多时候不是能力问题，是节奏问题。",
+        "你可能不缺努力，你缺的是一套可执行模型。",
+        "想留新/留港/留澳，先别急着投简历。"
+      ],
+      "live_stream_qna_bank": [
+        {
+          "question": "预算只有30万，优先选国家还是选专业？",
+          "answer_framework": "先岗位后国家，再按预算分层做项目组合。"
+        },
+        {
+          "question": "低GPA还有必要冲吗？",
+          "answer_framework": "先做补强可行性评估，再做冲稳保，不要全冲。"
+        },
+        {
+          "question": "一年制是不是一定很卷？",
+          "answer_framework": "卷不卷看是否前置求职，节奏比时长更关键。"
+        },
+        {
+          "question": "拿到多个offer怎么选？",
+          "answer_framework": "用匹配、成本、风险、执行四维加权。"
+        },
+        {
+          "question": "跨专业最容易翻车在哪？",
+          "answer_framework": "动机有了但证据不足，先补证据再写叙事。"
+        },
+        {
+          "question": "什么时候开始准备求职最合适？",
+          "answer_framework": "拿到offer后立刻开始，不要等开学。"
+        }
+      ],
+      "multi_consultant_assignment_rules": [
+        {
+          "rule_id": "R1",
+          "condition": "目标国家=英国且目标岗位=咨询/金融",
+          "assignment": "分配至英硕商科顾问组"
+        },
+        {
+          "rule_id": "R2",
+          "condition": "目标国家=新加坡且转专业=是",
+          "assignment": "分配至转专业叙事顾问组"
+        },
+        {
+          "rule_id": "R3",
+          "condition": "预算<30w且目标国家=澳洲/英国",
+          "assignment": "分配至预算优化顾问组"
+        },
+        {
+          "rule_id": "R4",
+          "condition": "毕业季<=12个月且目标=海外就业",
+          "assignment": "分配至求职冲刺顾问组"
+        }
+      ],
+      "community_operation_workflows": [
+        {
+          "workflow_id": "CW1",
+          "name": "评论关键词到私信转化",
+          "steps": [
+            "评论触发自动回复关键词",
+            "2小时内发送资料+首问",
+            "24小时内跟进缺失变量",
+            "48小时内给A/B路径建议",
+            "判断是否引导咨询"
+          ]
+        },
+        {
+          "workflow_id": "CW2",
+          "name": "收藏用户二次激活",
+          "steps": [
+            "发布后24小时筛选高收藏文章",
+            "发送收藏用户补充清单",
+            "引导填写简版问卷",
+            "基于问卷触发分层私信"
+          ]
+        },
+        {
+          "workflow_id": "CW3",
+          "name": "直播答疑线索沉淀",
+          "steps": [
+            "直播前发布问题征集",
+            "直播中按国家和阶段分类回答",
+            "直播后48小时发送回放摘要与资料",
+            "高意向用户进入诊断环节"
+          ]
+        }
+      ]
+    }
+  },
+  "legacy_compatibility": {
+    "deprecated_paths": {
+      "v1_1_additions.article_interaction_pack": "v1_2_content_system.article_library",
+      "v1_1_additions.private_conversion_funnel_patch": "v1_2_content_system.private_conversion_funnel"
+    },
+    "deprecation_notice": "请在下游系统中逐步迁移到 v1_2_content_system 路径。"
+  }
+}
