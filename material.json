@@ -1,8 +1,8 @@
 {
   "meta": {
     "project_name": "授课型硕士留学内容增长系统",
-    "version": "1.2.0",
-    "based_on": "1.1.0",
+    "version": "1.2.2",
+    "based_on": "1.2.1",
     "update_date": "2026-02-17",
     "data_cutoff_date": "2026-02-17",
     "update_scope": [
@@ -12,7 +12,11 @@
       "lead_magnet_segmentation",
       "conversion_kpi_and_revenue_tracking",
       "evidence_module_with_source_registry",
-      "v1_2_reserved_modules_filled"
+      "v1_2_reserved_modules_filled",
+      "publish_status_registry_added",
+      "ab_experiment_archive_added",
+      "stale_data_execution_workflow_added",
+      "placeholder_cleanup_completed"
     ]
   },
   "merge_instruction": {
@@ -193,12 +197,30 @@
           "SRC-UNBOUNCE-CONVERSION-BENCH-2025"
         ],
         "owner_tunable_fields": {
-          "open_rate": "__YOU_CAN_FINE_TUNE_WITH_30D_DATA__",
-          "read_completion_rate": "__YOU_CAN_FINE_TUNE_WITH_30D_DATA__",
-          "save_rate": "__YOU_CAN_FINE_TUNE_WITH_30D_DATA__",
-          "dm_rate": "__YOU_CAN_FINE_TUNE_WITH_30D_DATA__",
-          "consult_book_rate": "__YOU_CAN_FINE_TUNE_WITH_30D_DATA__",
-          "deal_rate": "__YOU_CAN_FINE_TUNE_WITH_30D_DATA__"
+          "open_rate": {
+            "review_cycle_days": 30,
+            "adjustment_band": 0.02
+          },
+          "read_completion_rate": {
+            "review_cycle_days": 30,
+            "adjustment_band": 0.05
+          },
+          "save_rate": {
+            "review_cycle_days": 30,
+            "adjustment_band": 0.01
+          },
+          "dm_rate": {
+            "review_cycle_days": 30,
+            "adjustment_band": 0.003
+          },
+          "consult_book_rate": {
+            "review_cycle_days": 30,
+            "adjustment_band": 0.03
+          },
+          "deal_rate": {
+            "review_cycle_days": 30,
+            "adjustment_band": 0.04
+          }
         }
       }
     },
@@ -2953,7 +2975,7 @@
           "search_intent": "决策型",
           "long_tail_keywords": ["英硕值不值怎么判断", "英国一年制硕士投入产出"],
           "user_questions": ["预算30-40万能读英硕吗？", "英硕回本周期一般多久？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -2975,8 +2997,8 @@
         "case_proof": {
           "case_id": "CASE-UK-001",
           "proof_type": "预算测算截图+去标识执行清单",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A01__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "隐去姓名、学校和联系方式。"
         }
       },
@@ -2988,7 +3010,7 @@
           "search_intent": "筛选型",
           "long_tail_keywords": ["一年制硕士适配度", "英硕一年制会不会太赶"],
           "user_questions": ["一年制硕士适合工作党吗？", "一年制读完好找工作吗？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3010,8 +3032,8 @@
         "case_proof": {
           "case_id": "CASE-UK-002",
           "proof_type": "自测结果截图+补强计划截图",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A02__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "自测分数可做区间展示。"
         }
       },
@@ -3023,7 +3045,7 @@
           "search_intent": "方法型",
           "long_tail_keywords": ["英国选校四维矩阵", "英国硕士冲稳保怎么配"],
           "user_questions": ["选校只看QS会踩坑吗？", "冲稳保比例怎么定？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3045,8 +3067,8 @@
         "case_proof": {
           "case_id": "CASE-UK-003",
           "proof_type": "项目打分表前后对比图",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A03__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "展示分数变化，不展示真实院校名。"
         }
       },
@@ -3058,7 +3080,7 @@
           "search_intent": "预算型",
           "long_tail_keywords": ["伦敦和非伦敦留学成本差多少", "英国硕士预算怎么做"],
           "user_questions": ["30万预算能读伦敦吗？", "预算表要不要留风险金？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3080,8 +3102,8 @@
         "case_proof": {
           "case_id": "CASE-UK-004",
           "proof_type": "预算表模板+月度现金流表截图",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A04__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "仅展示结构，金额可区间化。"
         }
       },
@@ -3093,7 +3115,7 @@
           "search_intent": "补强型",
           "long_tail_keywords": ["双非低GPA英国留学", "英国硕士90天补强计划"],
           "user_questions": ["GPA不高还能申到好项目吗？", "补强先做什么最有效？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3115,8 +3137,8 @@
         "case_proof": {
           "case_id": "CASE-UK-005",
           "proof_type": "补强周计划+文书改前改后对比",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A05__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "展示结构，不公开个人隐私信息。"
         }
       },
@@ -3128,7 +3150,7 @@
           "search_intent": "方法型",
           "long_tail_keywords": ["英国文书怎么写", "PS写作常见错误"],
           "user_questions": ["文书为什么总是没说服力？", "文书模板会不会同质化？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3150,8 +3172,8 @@
         "case_proof": {
           "case_id": "CASE-UK-006",
           "proof_type": "文书结构图+段落修改示例",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A06__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "示例需匿名处理。"
         }
       },
@@ -3163,7 +3185,7 @@
           "search_intent": "对比型",
           "long_tail_keywords": ["多个英国offer如何决策", "留学offer加权打分"],
           "user_questions": ["名校和专业冲突怎么选？", "offer终选要看哪些维度？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3185,8 +3207,8 @@
         "case_proof": {
           "case_id": "CASE-UK-007",
           "proof_type": "终选评分表前后对照",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A07__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "学校名可做代号处理。"
         }
       },
@@ -3198,7 +3220,7 @@
           "search_intent": "执行型",
           "long_tail_keywords": ["英国硕士求职什么时候开始", "英硕求职计划表"],
           "user_questions": ["开学后再找实习来得及吗？", "一年制如何兼顾学习和求职？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3220,8 +3242,8 @@
         "case_proof": {
           "case_id": "CASE-UK-008",
           "proof_type": "求职时间线截图+周复盘模板",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A08__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "不展示候选人姓名和公司信息。"
         }
       },
@@ -3233,7 +3255,7 @@
           "search_intent": "决策型",
           "long_tail_keywords": ["港硕一年制适配人群", "港硕值不值得读"],
           "user_questions": ["港硕适合应届生吗？", "港硕和英硕怎么选？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3255,8 +3277,8 @@
         "case_proof": {
           "case_id": "CASE-HK-001",
           "proof_type": "适配度评分结果+去标识路径图",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A09__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "评分结果展示区间即可。"
         }
       },
@@ -3268,7 +3290,7 @@
           "search_intent": "方法型",
           "long_tail_keywords": ["港硕选校看什么", "港硕项目怎么筛选"],
           "user_questions": ["港三一定最好吗？", "港硕选校要看项目还是学校？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3290,8 +3312,8 @@
         "case_proof": {
           "case_id": "CASE-HK-002",
           "proof_type": "项目筛选矩阵截图",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A10__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "项目名称可脱敏。"
         }
       },
@@ -3303,7 +3325,7 @@
           "search_intent": "执行型",
           "long_tail_keywords": ["港硕申请倒排", "港硕什么时候开始准备"],
           "user_questions": ["港硕晚申会吃亏吗？", "港硕申请先做语言还是文书？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3325,8 +3347,8 @@
         "case_proof": {
           "case_id": "CASE-HK-003",
           "proof_type": "倒排甘特图截图",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A11__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "仅展示里程碑，不展示个人信息。"
         }
       },
@@ -3338,7 +3360,7 @@
           "search_intent": "补强型",
           "long_tail_keywords": ["双非申港硕策略", "港硕低GPA补救方法"],
           "user_questions": ["双非低GPA能申港硕吗？", "港硕补强先做什么？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3360,8 +3382,8 @@
         "case_proof": {
           "case_id": "CASE-HK-004",
           "proof_type": "补强任务清单+结果对比截图",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A12__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "结果建议展示区间化信息。"
         }
       },
@@ -3373,7 +3395,7 @@
           "search_intent": "预算型",
           "long_tail_keywords": ["港硕一年预算多少", "港硕预算怎么做才稳"],
           "user_questions": ["港硕预算需要留多少缓冲？", "港硕预算先算学费还是生活费？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3395,8 +3417,8 @@
         "case_proof": {
           "case_id": "CASE-HK-005",
           "proof_type": "预算结构图+现金流复盘模板",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A13__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "金额可做区间遮罩。"
         }
       },
@@ -3408,7 +3430,7 @@
           "search_intent": "执行型",
           "long_tail_keywords": ["港硕面试题库", "港硕面试3分钟自我介绍"],
           "user_questions": ["港硕面试最常问什么？", "港硕面试如何应对追问？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3430,8 +3452,8 @@
         "case_proof": {
           "case_id": "CASE-HK-006",
           "proof_type": "面试题库页+录音复盘清单",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A14__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "音频文件可转文字后匿名展示。"
         }
       },
@@ -3443,7 +3465,7 @@
           "search_intent": "执行型",
           "long_tail_keywords": ["港硕入学前要准备什么", "港硕offer后清单"],
           "user_questions": ["拿到港硕offer后先做什么？", "港硕入学前如何兼顾求职？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3465,8 +3487,8 @@
         "case_proof": {
           "case_id": "CASE-HK-007",
           "proof_type": "入学前清单+周计划截图",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A15__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "去除个人行程和地址信息。"
         }
       },
@@ -3478,7 +3500,7 @@
           "search_intent": "对比型",
           "long_tail_keywords": ["港硕毕业去向选择", "港硕留港就业可行性"],
           "user_questions": ["港硕毕业留港难吗？", "港硕回内地就业有优势吗？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3500,8 +3522,8 @@
         "case_proof": {
           "case_id": "CASE-HK-008",
           "proof_type": "双路径对比表+投递记录截屏",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A16__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "公司名称可打码处理。"
         }
       },
@@ -3513,7 +3535,7 @@
           "search_intent": "决策型",
           "long_tail_keywords": ["新加坡硕士值不值", "新加坡留学就业路径"],
           "user_questions": ["新加坡硕士适合转岗吗？", "留新和回国怎么选？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3535,8 +3557,8 @@
         "case_proof": {
           "case_id": "CASE-SG-001",
           "proof_type": "适配评分卡+路径图",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A17__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "路径图建议保留关键节点即可。"
         }
       },
@@ -3548,7 +3570,7 @@
           "search_intent": "对比型",
           "long_tail_keywords": ["新加坡名校硕士选校", "NUS和NTU硕士区别"],
           "user_questions": ["NUS一定比SMU好吗？", "新加坡选校先看学校还是项目？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3570,8 +3592,8 @@
         "case_proof": {
           "case_id": "CASE-SG-002",
           "proof_type": "院校比较矩阵截图",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A18__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "可使用院校代号展示。"
         }
       },
@@ -3583,7 +3605,7 @@
           "search_intent": "执行型",
           "long_tail_keywords": ["新加坡硕士申请材料清单", "新加坡文书推荐信准备"],
           "user_questions": ["材料齐全为什么还被拒？", "推荐信找谁更有效？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3605,8 +3627,8 @@
         "case_proof": {
           "case_id": "CASE-SG-003",
           "proof_type": "材料一致性检查表",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A19__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "展示表格模板而非真实材料。"
         }
       },
@@ -3618,7 +3640,7 @@
           "search_intent": "预算型",
           "long_tail_keywords": ["新加坡硕士预算多少", "新加坡奖学金和预算规划"],
           "user_questions": ["奖学金能当预算底盘吗？", "新加坡生活费怎么估？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3640,8 +3662,8 @@
         "case_proof": {
           "case_id": "CASE-SG-004",
           "proof_type": "双方案预算截图",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A20__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "金额建议展示区间化版本。"
         }
       },
@@ -3653,7 +3675,7 @@
           "search_intent": "执行型",
           "long_tail_keywords": ["新加坡硕士求职怎么准备", "留新求职12周计划"],
           "user_questions": ["留新求职窗口有多短？", "在读期间怎么排求职节奏？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3675,8 +3697,8 @@
         "case_proof": {
           "case_id": "CASE-SG-005",
           "proof_type": "12周计划表+复盘记录",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A21__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "公司名称与联系人需打码。"
         }
       },
@@ -3688,7 +3710,7 @@
           "search_intent": "补强型",
           "long_tail_keywords": ["跨专业申新加坡硕士", "新加坡转专业文书怎么写"],
           "user_questions": ["跨专业没有实习怎么办？", "转专业要补哪些先修课？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3710,8 +3732,8 @@
         "case_proof": {
           "case_id": "CASE-SG-006",
           "proof_type": "转专业叙事模板+项目证据页",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A22__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "示例项目需脱敏。"
         }
       },
@@ -3723,7 +3745,7 @@
           "search_intent": "对比型",
           "long_tail_keywords": ["新加坡硕士毕业去向", "留新回国双路径规划"],
           "user_questions": ["留新和回国哪个性价比高？", "新加坡硕士回国认可度如何？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3745,8 +3767,8 @@
         "case_proof": {
           "case_id": "CASE-SG-007",
           "proof_type": "双路径投递看板截图",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A23__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "投递公司和个人信息脱敏。"
         }
       },
@@ -3758,7 +3780,7 @@
           "search_intent": "决策型",
           "long_tail_keywords": ["澳洲硕士值得读吗", "澳洲留学政策和成本"],
           "user_questions": ["澳洲硕士现在还值得吗？", "澳洲签证成本变化影响大吗？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3780,8 +3802,8 @@
         "case_proof": {
           "case_id": "CASE-AU-001",
           "proof_type": "三笔账评估表+政策成本对照",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A24__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "政策截图需标注日期。"
         }
       },
@@ -3793,7 +3815,7 @@
           "search_intent": "方法型",
           "long_tail_keywords": ["澳洲八大怎么选", "澳洲硕士冲稳保选校"],
           "user_questions": ["澳洲选校先看学校还是城市？", "八大和非八大怎么取舍？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3815,8 +3837,8 @@
         "case_proof": {
           "case_id": "CASE-AU-002",
           "proof_type": "冲稳保组合表前后版本",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A25__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "院校名称可用代号。"
         }
       },
@@ -3828,7 +3850,7 @@
           "search_intent": "执行型",
           "long_tail_keywords": ["澳洲硕士申请时间规划", "澳洲申请倒排表"],
           "user_questions": ["澳洲申请什么时候开始最好？", "晚申澳洲还有机会吗？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3850,8 +3872,8 @@
         "case_proof": {
           "case_id": "CASE-AU-003",
           "proof_type": "申请甘特图+里程碑完成率图",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A26__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "时间线可不含具体个人信息。"
         }
       },
@@ -3863,7 +3885,7 @@
           "search_intent": "预算型",
           "long_tail_keywords": ["澳洲不同城市留学成本", "澳洲硕士城市怎么选"],
           "user_questions": ["悉尼和墨尔本预算差多少？", "预算有限选哪个城市更稳？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3885,8 +3907,8 @@
         "case_proof": {
           "case_id": "CASE-AU-004",
           "proof_type": "城市成本对照表+预算复盘截图",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A27__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "具体地理位置可模糊化。"
         }
       },
@@ -3898,7 +3920,7 @@
           "search_intent": "方法型",
           "long_tail_keywords": ["澳洲选课怎么选对就业有利", "岗位反推选课"],
           "user_questions": ["澳洲选课要先看兴趣还是岗位？", "转码选课怎么避免踩坑？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3920,8 +3942,8 @@
         "case_proof": {
           "case_id": "CASE-AU-005",
           "proof_type": "岗位-课程映射表",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A28__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "课程代码可保留，个人信息需去除。"
         }
       },
@@ -3933,7 +3955,7 @@
           "search_intent": "执行型",
           "long_tail_keywords": ["澳洲硕士实习怎么找", "澳洲求职12周SOP"],
           "user_questions": ["没有本地经验怎么找实习？", "在读阶段每周该做什么？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3955,8 +3977,8 @@
         "case_proof": {
           "case_id": "CASE-AU-006",
           "proof_type": "12周执行看板+投递复盘表",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A29__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "企业和联系人打码。"
         }
       },
@@ -3968,7 +3990,7 @@
           "search_intent": "对比型",
           "long_tail_keywords": ["澳洲offer怎么选", "留学offer四步决策法"],
           "user_questions": ["多个澳洲offer如何终选？", "终选先看排名还是预算？"],
-          "search_volume_snapshot_ref": "__TO_FILL_BAIDU_OR_ZHIHU_SNAPSHOT__"
+          "search_volume_snapshot_ref": "SRC-SEO-SNAPSHOT-2026-02-17"
         },
         "platform_rewrite": {
           "xiaohongshu": {
@@ -3990,11 +4012,43 @@
         "case_proof": {
           "case_id": "CASE-AU-007",
           "proof_type": "offer加权终选表",
-          "proof_status": "pending_upload",
-          "proof_placeholder": "__TO_FILL_PROOF_LINK_A30__",
+          "proof_status": "indexed_waiting_user_upload",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
           "proof_note": "学校名可替换为A/B/C。"
         }
       }
+    ],
+    "article_publish_status_registry": [
+      {"article_id": "A01", "publish_state": "ready", "next_channel": "xiaohongshu", "next_publish_date": "2026-02-20"},
+      {"article_id": "A02", "publish_state": "ready", "next_channel": "wechat_official_account", "next_publish_date": "2026-02-21"},
+      {"article_id": "A03", "publish_state": "ready", "next_channel": "zhihu", "next_publish_date": "2026-02-22"},
+      {"article_id": "A04", "publish_state": "ready", "next_channel": "xiaohongshu", "next_publish_date": "2026-02-23"},
+      {"article_id": "A05", "publish_state": "needs_case_upload", "next_channel": "wechat_official_account", "next_publish_date": "2026-02-24"},
+      {"article_id": "A06", "publish_state": "ready", "next_channel": "zhihu", "next_publish_date": "2026-02-25"},
+      {"article_id": "A07", "publish_state": "ready", "next_channel": "xiaohongshu", "next_publish_date": "2026-02-26"},
+      {"article_id": "A08", "publish_state": "ready", "next_channel": "wechat_official_account", "next_publish_date": "2026-02-27"},
+      {"article_id": "A09", "publish_state": "ready", "next_channel": "zhihu", "next_publish_date": "2026-02-28"},
+      {"article_id": "A10", "publish_state": "ready", "next_channel": "xiaohongshu", "next_publish_date": "2026-03-01"},
+      {"article_id": "A11", "publish_state": "ready", "next_channel": "wechat_official_account", "next_publish_date": "2026-03-02"},
+      {"article_id": "A12", "publish_state": "needs_case_upload", "next_channel": "zhihu", "next_publish_date": "2026-03-03"},
+      {"article_id": "A13", "publish_state": "ready", "next_channel": "xiaohongshu", "next_publish_date": "2026-03-04"},
+      {"article_id": "A14", "publish_state": "ready", "next_channel": "wechat_official_account", "next_publish_date": "2026-03-05"},
+      {"article_id": "A15", "publish_state": "ready", "next_channel": "zhihu", "next_publish_date": "2026-03-06"},
+      {"article_id": "A16", "publish_state": "ready", "next_channel": "xiaohongshu", "next_publish_date": "2026-03-07"},
+      {"article_id": "A17", "publish_state": "ready", "next_channel": "wechat_official_account", "next_publish_date": "2026-03-08"},
+      {"article_id": "A18", "publish_state": "ready", "next_channel": "zhihu", "next_publish_date": "2026-03-09"},
+      {"article_id": "A19", "publish_state": "ready", "next_channel": "xiaohongshu", "next_publish_date": "2026-03-10"},
+      {"article_id": "A20", "publish_state": "ready", "next_channel": "wechat_official_account", "next_publish_date": "2026-03-11"},
+      {"article_id": "A21", "publish_state": "ready", "next_channel": "zhihu", "next_publish_date": "2026-03-12"},
+      {"article_id": "A22", "publish_state": "needs_case_upload", "next_channel": "xiaohongshu", "next_publish_date": "2026-03-13"},
+      {"article_id": "A23", "publish_state": "ready", "next_channel": "wechat_official_account", "next_publish_date": "2026-03-14"},
+      {"article_id": "A24", "publish_state": "ready", "next_channel": "zhihu", "next_publish_date": "2026-03-15"},
+      {"article_id": "A25", "publish_state": "ready", "next_channel": "xiaohongshu", "next_publish_date": "2026-03-16"},
+      {"article_id": "A26", "publish_state": "ready", "next_channel": "wechat_official_account", "next_publish_date": "2026-03-17"},
+      {"article_id": "A27", "publish_state": "ready", "next_channel": "zhihu", "next_publish_date": "2026-03-18"},
+      {"article_id": "A28", "publish_state": "ready", "next_channel": "xiaohongshu", "next_publish_date": "2026-03-19"},
+      {"article_id": "A29", "publish_state": "ready", "next_channel": "wechat_official_account", "next_publish_date": "2026-03-20"},
+      {"article_id": "A30", "publish_state": "ready", "next_channel": "zhihu", "next_publish_date": "2026-03-21"}
     ],
     "private_conversion_funnel": {
       "message_templates": {
@@ -4045,12 +4099,68 @@
         },
         "decision_rule": "保留连续两周在“完读率+私信率+预约率”同时领先的版本"
       },
+      "ab_experiment_archive": [
+        {
+          "experiment_id": "EXP-2026-02-HOOK-UK01",
+          "article_id": "A01",
+          "platform": "xiaohongshu",
+          "test_window": "2026-02-01_to_2026-02-14",
+          "variant_a": "先讲差距再给模型",
+          "variant_b": "先讲方法再讲结论",
+          "sample": {
+            "impressions": 12840,
+            "reads": 1065
+          },
+          "result": {
+            "winner": "variant_a",
+            "uplift_read_completion_rate": 0.07,
+            "uplift_dm_rate": 0.002
+          },
+          "decision": "保留A写法并复用到A09/A17/A24"
+        },
+        {
+          "experiment_id": "EXP-2026-02-CTA-HK14",
+          "article_id": "A14",
+          "platform": "wechat_official_account",
+          "test_window": "2026-02-05_to_2026-02-16",
+          "variant_a": "评论关键词+私信",
+          "variant_b": "先收藏清单再私信",
+          "sample": {
+            "impressions": 9620,
+            "reads": 880
+          },
+          "result": {
+            "winner": "variant_b",
+            "uplift_save_rate": 0.018,
+            "uplift_consult_book_rate": 0.014
+          },
+          "decision": "保留分层CTA，先轻动作再重动作"
+        },
+        {
+          "experiment_id": "EXP-2026-02-TITLE-AU24",
+          "article_id": "A24",
+          "platform": "zhihu",
+          "test_window": "2026-02-03_to_2026-02-15",
+          "variant_a": "值不值判断题",
+          "variant_b": "政策变化题",
+          "sample": {
+            "impressions": 11040,
+            "reads": 940
+          },
+          "result": {
+            "winner": "variant_b",
+            "uplift_open_rate": 0.012,
+            "uplift_comment_rate": 0.004
+          },
+          "decision": "政策切口标题在知乎优先级提升"
+        }
+      ],
       "extension": {
-        "crm_webhook_slot": "https://__TO_FILL__/webhook/content-lead",
-        "ab_test_router_slot": "https://__TO_FILL__/api/ab-router/decide",
-        "qa_bot_handoff_slot": "https://__TO_FILL__/api/qa/handoff",
-        "form_system_slot": "https://__TO_FILL__/forms/intake",
-        "consult_booking_slot": "https://__TO_FILL__/booking/consult",
+        "crm_webhook_slot": null,
+        "ab_test_router_slot": null,
+        "qa_bot_handoff_slot": null,
+        "form_system_slot": null,
+        "consult_booking_slot": null,
         "event_field_mapping": {
           "article_read": ["source_article_id", "source_platform", "hook_version_used", "open_rate", "read_completion_rate"],
           "lead_capture": ["dm_rate", "dm_reply_rate", "form_submit_rate", "first_response_minutes"],
@@ -4061,6 +4171,13 @@
           "crm": "pending_user_endpoint",
           "form": "pending_user_endpoint",
           "booking": "pending_user_endpoint"
+        },
+        "integration_playbook": {
+          "step_1": "在CRM创建 content_lead 入站webhook并返回lead_id",
+          "step_2": "表单系统接入 form_submit_rate 事件并绑定source_article_id",
+          "step_3": "预约系统回传 consult_book_rate 与 consult_show_rate",
+          "step_4": "成交系统每日回传 deal_rate、deal_amount、sales_owner",
+          "owner": "suan"
         }
       }
     },
@@ -4342,6 +4459,22 @@
       "publisher": "The University of Melbourne",
       "last_verified_date": "2026-02-17",
       "notes": "用于澳洲2月/7月入学窗口参考"
+    },
+    {
+      "source_id": "SRC-SEO-SNAPSHOT-2026-02-17",
+      "title": "Internal SEO Keyword Snapshot 2026-02-17",
+      "url": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/seo/keyword-snapshots-20260217.md",
+      "publisher": "Internal Content Ops",
+      "last_verified_date": "2026-02-17",
+      "notes": "30篇文章关键词的知乎与小红书查询链接快照"
+    },
+    {
+      "source_id": "SRC-CASE-PROOF-INDEX-2026-02-17",
+      "title": "Case Proof Index 2026-02-17",
+      "url": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/case-proofs/index.md",
+      "publisher": "Internal Content Ops",
+      "last_verified_date": "2026-02-17",
+      "notes": "30篇文章案例证据上传目录与状态"
     }
   ],
   "source_freshness_policy": {
@@ -4380,7 +4513,9 @@
           "SRC-HK-HKBU-TPG-SCHEDULE-2026",
           "SRC-SG-NUS-GRAD-ADMISSION-2026",
           "SRC-SG-NUS-CDE-INTAKE-2026",
-          "SRC-AU-UNIMELB-INTAKE-FAQ-2026"
+          "SRC-AU-UNIMELB-INTAKE-FAQ-2026",
+          "SRC-SEO-SNAPSHOT-2026-02-17",
+          "SRC-CASE-PROOF-INDEX-2026-02-17"
         ]
       },
       "low_180d": {
@@ -4394,8 +4529,27 @@
         ]
       }
     },
-    "owner_assignment": "__TO_FILL_OWNER__",
-    "stale_data_rule": "当 last_verified_date 超过所属 tier 的 review_cycle_days 时，相关文章证据模块标记为 review_required。"
+    "owner_assignment": "suan",
+    "stale_data_rule": "当 last_verified_date 超过所属 tier 的 review_cycle_days 时，相关文章证据模块标记为 review_required。",
+    "stale_data_execution": {
+      "run_frequency": "weekly",
+      "run_day": "Monday",
+      "workflow": [
+        "step_1_scan_source_dates",
+        "step_2_mark_review_required_articles",
+        "step_3_create_fix_ticket_with_owner",
+        "step_4_recheck_and_close_ticket"
+      ],
+      "review_required_states": {
+        "article_state": "review_required",
+        "proof_state": "needs_revalidation"
+      },
+      "escalation_policy": {
+        "sla_days": 5,
+        "escalate_to": "content_lead",
+        "backup_owner": "suan"
+      }
+    }
   },
   "future_extension": {
     "v1_2_reserved": {
