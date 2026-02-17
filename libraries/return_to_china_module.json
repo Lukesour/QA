@@ -74,7 +74,8 @@
           "major_tags": [],
           "persona_tags": [
             "在职申请者",
-            "转专业申请者"
+            "转专业申请者",
+            "海本低实习申请者"
           ],
           "prerequisites": [
             "岗位清单冻结",
@@ -123,6 +124,22 @@
               "type": "official",
               "retrieved_at": "2026-02-16",
               "note": "项目级目录样本，可用于核验项目设置与申请条件。"
+            },
+            {
+              "title": "OECD Employment and Labour Market Statistics",
+              "url": "https://stats.oecd.org/Index.aspx?DataSetCode=STLABOUR",
+              "publisher": "OECD",
+              "type": "labour",
+              "retrieved_at": "2026-02-17",
+              "note": "用于比较目标国家劳动市场景气、就业率与行业波动。"
+            },
+            {
+              "title": "ENIC-NARIC Recognition of Foreign Qualifications",
+              "url": "https://www.enic-naric.net/",
+              "publisher": "ENIC-NARIC",
+              "type": "credential",
+              "retrieved_at": "2026-02-17",
+              "note": "用于核验学位与职业资格在目标国家的认可与衔接路径。"
             }
           ],
           "official_links": [
@@ -130,13 +147,15 @@
             "https://www.mohrss.gov.cn/",
             "https://www.ox.ac.uk/admissions/graduate/courses/courses-a-z-listing?authuser=0",
             "https://www.gsas.harvard.edu/programs-study/degree-programs",
-            "https://www.sgs.utoronto.ca/programs/"
+            "https://www.sgs.utoronto.ca/programs/",
+            "https://stats.oecd.org/Index.aspx?DataSetCode=STLABOUR",
+            "https://www.enic-naric.net/"
           ],
           "jurisdiction": [
             "CN"
           ],
-          "last_verified_at": "2026-02-15",
-          "next_review_at": "2026-04-01",
+          "last_verified_at": "2026-02-17",
+          "next_review_at": "2026-04-03",
           "valid_for": "45天",
           "review_notes": "叙事v4.1升级：增强剧情差异度、分支条件维度与量化结果表达。已按 CSCSE 办事指南发布时间（2025-04-08）回填认证相关生效日期，城市级细则仍需按地方政策复核。；已补充项目级官方来源并降低人工占位依赖。；2026-02-17 已补充准备阶段执行清单、证据清单与出章条件。；2026-02-17 已完成留服认证条款、材料与时间线核验并发布；2026-02-17 已去模板化重写短答并强化出章触发语句。",
           "manual_fill_fields": [],
@@ -175,7 +194,7 @@
             "next_watch_at": "2026-03-02"
           },
           "publish_blockers": [],
-          "evidence_count": 5,
+          "evidence_count": 7,
           "confidence_score": 0.51,
           "review_log": [
             {
@@ -638,7 +657,9 @@
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://ilostat.ilo.org/"
+            "https://ilostat.ilo.org/",
+            "https://zwfw.cscse.edu.cn/",
+            "https://www.mohrss.gov.cn/"
           ],
           "jurisdiction": [
             "CN"
@@ -876,7 +897,9 @@
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://ilostat.ilo.org/"
+            "https://ilostat.ilo.org/",
+            "https://zwfw.cscse.edu.cn/",
+            "https://www.mohrss.gov.cn/"
           ],
           "jurisdiction": [
             "CN"
@@ -1351,7 +1374,9 @@
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://ilostat.ilo.org/"
+            "https://ilostat.ilo.org/",
+            "https://zwfw.cscse.edu.cn/",
+            "https://www.mohrss.gov.cn/"
           ],
           "jurisdiction": [
             "CN"
@@ -1592,7 +1617,9 @@
           "official_links": [
             "https://www.oecd.org/education/education-at-a-glance/",
             "https://uis.unesco.org/en/topic/international-standard-classification-education-isced",
-            "https://ilostat.ilo.org/"
+            "https://ilostat.ilo.org/",
+            "https://zwfw.cscse.edu.cn/",
+            "https://www.mohrss.gov.cn/"
           ],
           "jurisdiction": [
             "CN"
