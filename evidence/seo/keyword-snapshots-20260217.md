@@ -40,3 +40,4 @@ Signal tiers are directional and converted to signal scores for cross-article co
 - Result counts on platform pages can vary by login status and region.
 - Recheck the same query URLs monthly and update tier if trend shifts.
 - Fill manual numeric slots during weekly ops review and sync to `seo_signal_registry`.
+- Cookie validation status (2026-02-18): Zhihu/Xiaohongshu cookies were uploaded but still returned logged-out states; see `evidence/sources/cookie-validation-log-20260218.md`.

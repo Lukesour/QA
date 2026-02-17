@@ -8,8 +8,9 @@ This board tracks fields that cannot be auto-collected in terminal mode and must
 |---|---|---|---|
 | https://www.nus.edu.sg/oam/apply-to-nus/graduate | Incapsula challenge | Upload `nus.cookies.txt` to `evidence/sources/cookies/` and capture dated screenshot | [ ] |
 | https://study.unimelb.edu.au/how-to-apply/graduate-coursework-study/international-applications/faqs | Cloudflare challenge | Upload `unimelb.cookies.txt` to `evidence/sources/cookies/` and capture dated screenshot | [ ] |
-| https://www.zhihu.com/search | login wall / anti-bot | Upload `zhihu.cookies.txt`, then fill numeric slot in SEO snapshot | [ ] |
-| https://www.xiaohongshu.com/search_result | login wall / anti-bot | Upload `xiaohongshu.cookies.txt`, then fill numeric slot in SEO snapshot | [ ] |
+| https://www.zhihu.com/search | login wall / anti-bot | `zhihu.cookies.txt` already uploaded, but validation shows `logged:false`; refresh cookie and re-test | [ ] |
+| https://www.xiaohongshu.com/search_result | login wall / anti-bot | `xiaohongshu.cookies.txt` already uploaded, but validation shows `loggedIn:false`; refresh cookie and re-test | [ ] |
+| validation log | status tracker | See `evidence/sources/cookie-validation-log-20260218.md` | [x] |
 
 ## B. SEO Numeric Slots
 

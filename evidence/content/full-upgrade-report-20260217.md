@@ -24,6 +24,9 @@
   - `evidence/sources/cookies/`
 - Guide:
   - `evidence/sources/cookie-upload-guide-20260217.md`
+- Validation log:
+  - `evidence/sources/cookie-validation-log-20260218.md`
+  - Current status: Zhihu/Xiaohongshu cookie files uploaded but still not in logged-in state.
 
 ## Owner Fill Required (Business Keys)
 - HubSpot App ID

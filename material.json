@@ -5330,6 +5330,14 @@
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-17",
       "notes": "A01-A30逐篇长文可发版本，含as_of、官方来源、失败复盘四格和CTA梯度。"
+    },
+    {
+      "source_id": "SRC-COOKIE-VALIDATION-LOG-2026-02-18",
+      "title": "Cookie Validation Log 2026-02-18",
+      "url": "https://github.com/Lukesour/QA/blob/codex/narrative-v4-full-upgrade/evidence/sources/cookie-validation-log-20260218.md",
+      "publisher": "Internal Content Ops",
+      "last_verified_date": "2026-02-18",
+      "notes": "登录墙来源cookie有效性核验：Zhihu/XHS已上传但仍未登录态，NUS/Unimelb待上传cookie。"
     }
   ],
   "source_freshness_policy": {
@@ -5407,7 +5415,8 @@
           "SRC-ARTICLE-EVIDENCE-MODULE-2026-02-17",
           "SRC-COOKIE-UPLOAD-GUIDE-2026-02-17",
           "SRC-OWNER-FILL-TASKBOARD-2026-02-17",
-          "SRC-PUBLISH-READY-LONGFORM-2026-02-17"
+          "SRC-PUBLISH-READY-LONGFORM-2026-02-17",
+          "SRC-COOKIE-VALIDATION-LOG-2026-02-18"
         ]
       },
       "low_180d": {
@@ -5469,13 +5478,21 @@
           "trigger": "按版本1/2/3建议执行正文干货层全量升级",
           "result": "longform_publish_pack_completed_owner_fill_pending",
           "owner_action": "优先使用 publish-ready-longform-20260217.md 发布；补齐案例截图、平台SEO数值位与登录墙来源截图后回填状态"
+        },
+        {
+          "log_date": "2026-02-18",
+          "scope": "cookie_access_validation",
+          "trigger": "owner uploaded partial cookies and requested recheck",
+          "result": "zhihu_xhs_cookie_uploaded_but_logged_out_nus_unimelb_cookie_missing",
+          "owner_action": "刷新 zhihu/xiaohongshu 登录态cookie，并新增 nus/unimelb cookie 后重跑 SEO 与院校来源回填"
         }
       ],
       "next_execution_checklist": [
         "校验 case_proof_upload_registry 是否存在逾期未上传",
         "抽检10篇文章 CTA 与 asset_name 一致性",
         "更新 seo_signal_registry 的人工数值位",
-        "若 Zhihu/XHS 受登录或反爬限制，保留 owner_fill 标记并上传操作截图"
+        "若 Zhihu/XHS 受登录或反爬限制，保留 owner_fill 标记并上传操作截图",
+        "按 cookie-validation-log-20260218.md 刷新并补齐四站点 cookie 后重跑验证"
       ]
     }
   },
