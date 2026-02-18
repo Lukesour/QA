@@ -5819,10 +5819,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=英国授课型硕士值不值",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=英国授课型硕士值不值",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
+          "zhihu_result_count": ">=20 (HAR page1, is_end=false)",
+          "xiaohongshu_result_count": ">=22 (HAR page1, has_more=true)",
           "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "collection_status": "partial_har_lower_bound_waiting_total_capture"
         },
         {
           "article_id": "A02",

@@ -12,6 +12,9 @@ This file records high-volatility policy checkpoints that can directly change ar
   - Apply on or before 2026-12-31: usually 2 years (PhD/doctoral: 3 years)
   - Apply on or after 2027-01-01: usually 18 months (PhD/doctoral: 3 years)
   - Application fee GBP 880; IHS usually GBP 1,035 per year.
+- IHS fee page (official page verified on 2026-02-18):
+  - Students and their dependants: GBP 776 per year
+  - Most other visa categories: GBP 1,035 per year
 
 ## Hong Kong
 

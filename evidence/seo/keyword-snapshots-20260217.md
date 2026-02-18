@@ -6,10 +6,11 @@ This snapshot records article-level search signal references.
 - Zhihu and Xiaohongshu search pages are currently blocked by anti-bot/login verification in this environment.
 - Existing cookie files and user-provided header cookies are still not sufficient to capture stable result counts.
 - Numeric fields are left as explicit placeholders for manual login capture.
+- A01 has partial HAR-derived lower-bound counts (not full result totals): Zhihu page_size=20 and `is_end=false`; Xiaohongshu first page returned 22 items and `has_more=true`.
 
 | Article | Core Keyword | Zhihu Query URL | Xiaohongshu Query URL | Signal Tier | Signal Score | Zhihu Count | Xiaohongshu Count | Google Trends 90d | Status |
 |---|---|---|---|---|---|---|---|---|---|
-| A01 | 英国授课型硕士值不值 | https://www.zhihu.com/search?type=content&q=英国授课型硕士值不值 | https://www.xiaohongshu.com/search_result?keyword=英国授课型硕士值不值 | high | 4 | OWNER_FILL_LOGIN_CAPTURE_REQUIRED | OWNER_FILL_LOGIN_CAPTURE_REQUIRED | OWNER_FILL_GOOGLE_TRENDS_0_TO_100 | login_cookie_required_manual_capture |
+| A01 | 英国授课型硕士值不值 | https://www.zhihu.com/search?type=content&q=英国授课型硕士值不值 | https://www.xiaohongshu.com/search_result?keyword=英国授课型硕士值不值 | high | 4 | >=20 (HAR page1, is_end=false) | >=22 (HAR page1, has_more=true) | OWNER_FILL_GOOGLE_TRENDS_0_TO_100 | partial_har_lower_bound_waiting_total_capture |
 | A02 | 一年制英硕适合谁 | https://www.zhihu.com/search?type=content&q=一年制英硕适合谁 | https://www.xiaohongshu.com/search_result?keyword=一年制英硕适合谁 | high | 4 | OWNER_FILL_LOGIN_CAPTURE_REQUIRED | OWNER_FILL_LOGIN_CAPTURE_REQUIRED | OWNER_FILL_GOOGLE_TRENDS_0_TO_100 | login_cookie_required_manual_capture |
 | A03 | 英国选校冲稳保 | https://www.zhihu.com/search?type=content&q=英国选校冲稳保 | https://www.xiaohongshu.com/search_result?keyword=英国选校冲稳保 | high | 4 | OWNER_FILL_LOGIN_CAPTURE_REQUIRED | OWNER_FILL_LOGIN_CAPTURE_REQUIRED | OWNER_FILL_GOOGLE_TRENDS_0_TO_100 | login_cookie_required_manual_capture |
 | A04 | 英国硕士预算 | https://www.zhihu.com/search?type=content&q=英国硕士预算 | https://www.xiaohongshu.com/search_result?keyword=英国硕士预算 | high | 4 | OWNER_FILL_LOGIN_CAPTURE_REQUIRED | OWNER_FILL_LOGIN_CAPTURE_REQUIRED | OWNER_FILL_GOOGLE_TRENDS_0_TO_100 | login_cookie_required_manual_capture |

@@ -7,6 +7,9 @@
   - `zhihu_result_count`
   - `xiaohongshu_result_count`
   - `google_trends_index_90d`
+- Partial progress from existing HAR:
+  - A01 Zhihu: first page has 20 items and `is_end=false` (lower bound only, not total).
+  - A01 Xiaohongshu: first page has 22 items and `has_more=true` (lower bound only, not total).
 
 ## 2) Real Case Evidence Upload
 - Folder root: `evidence/case-proofs/bundles/`
@@ -39,6 +42,7 @@
   - `zhihu_search.har` (a successful search request in logged-in browser)
   - `xhs_search.har` (a successful search request in logged-in browser)
 - With HAR, we can replay request headers exactly and fill numeric slots faster.
+- Current folder already contains HAR files under `evidence/sources/cookies/normalized/`, but only A01 was extracted with usable page-1 response; other keywords still require new captures.
 
 ## 6) Current Blocked Sources (Need Browser/Open Manually)
 - `SRC-AU-UNIMELB-INTAKE-FAQ-2026`: `https://study.unimelb.edu.au/how-to-apply/entry-requirements/important-dates` (Cloudflare/403 in terminal)
