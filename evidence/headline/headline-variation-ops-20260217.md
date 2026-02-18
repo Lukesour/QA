@@ -19,6 +19,7 @@ This file is the operating guideline for anti-homogeneous titles.
 
 - Primary file: `evidence/headline/headline-4d-variants-20260218.md`
 - Rule: for each article, publish 2 of the 4 variants and keep 2 as A/B reserve.
+- Sync status (2026-02-18): `material.json` headline registry has been aligned with the 4D bank and duplicate variant pairs were removed.
 
 ## Anti-Template Rules
 

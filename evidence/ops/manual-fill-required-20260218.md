@@ -23,6 +23,9 @@
   - `04-desensitization-note.md`
 - Public benchmark reference (already prepared):
   - `evidence/case-proofs/public-benchmark-reference-20260218.md`
+- Publish-state gating update (already applied in `material.json`):
+  - All 30 articles are currently `needs_case_upload`.
+  - Switch to `ready` only after case bundle upload + evidence verification pass.
 
 ## 3) Conversion Integration Credentials
 
@@ -55,3 +58,4 @@
 2. Upload case evidence for next 7 publish-day articles.
 3. Fill private funnel IDs and run one end-to-end webhook test.
 4. Complete monthly platform-rule screenshot archive before mass publishing.
+5. After steps 1-4, batch re-check publish_state and only then enter actual channel scheduling.

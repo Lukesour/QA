@@ -1,6 +1,7 @@
 # Weekly Content Funnel Dashboard (2026-02-18)
 
 Track by `article_id` every week. Do not optimize by likes only.
+Gate note: when case proof is not uploaded, keep article state as `needs_case_upload` even if exposure/read metrics look good.
 
 | Week | Article ID | Platform | Impressions | Reads | Open Rate (reads/impressions) | Read Completion Rate | Saves | Shares | DMs | Form Submits | Consult Bookings | Deals | Deal Amount | Notes |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|

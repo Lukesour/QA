@@ -1,4 +1,4 @@
-# Recommended Source Stack (2026-02-17)
+# Recommended Source Stack (2026-02-18)
 
 Use this list when updating policy-heavy content. Priority order is mandatory.
 
@@ -9,7 +9,8 @@ Use this list when updating policy-heavy content. Priority order is mandatory.
 - UK Immigration Health Surcharge: https://www.gov.uk/healthcare-immigration-application/how-much-pay
 - SG MOM EP eligibility: https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility
 - SG ICA Student's Pass: https://www.ica.gov.sg/reside/STP/collect
-- AU Student visa cost and financial capacity: https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas
+- AU Student visa base application charge: https://www.studyaustralia.gov.au/en/plan-your-move/visa-requirements/cost-of-student-visa
+- AU Student visa guide (living costs and work rights): https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas
 - AU Student visa (subclass 500): https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
 - HK Immigration annual report: https://www.immd.gov.hk/eng/publications/a_report_2024.html
 - HK Study visa arrangement: https://www.immd.gov.hk/eng/services/visas/study.html
