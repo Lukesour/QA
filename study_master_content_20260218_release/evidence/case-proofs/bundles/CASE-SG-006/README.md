@@ -1,0 +1,22 @@
+# CASE-SG-006 Evidence Bundle
+
+- Article ID: A22
+- Status: template_with_quant_slots_owner_upload_required
+- Last updated: 2026-02-18
+
+## Required Files (owner upload)
+- 01-context-with-timestamp.png (场景截图，含时间戳)
+- 02-action-steps.png (执行动作截图，含关键步骤)
+- 03-result-comparison.png (结果截图，含对比字段)
+- 04-desensitization-note.md (脱敏说明：隐藏姓名/学校/联系方式)
+
+## Verification Checklist
+- [ ] 时间戳清晰可见
+- [ ] 关键动作可复现
+- [ ] 结果字段可核验
+- [ ] 个人敏感信息已遮挡
+
+## Owner Notes
+- 背景：文科背景转数据分析；动机充分但技能与项目证据不足。
+- 动作：按“3段叙事+4项证据”补SQL项目与数据作品集；上传叙事模板与证据页。
+- 结果：可验证技能证据从 `__MANUAL_PRIVATE_项数__` 提升到 `__MANUAL_PRIVATE_项数__`；文书评估中的“转专业可信度”从 `__MANUAL_PRIVATE_分__` 提升到 `__MANUAL_PRIVATE_分__`。
