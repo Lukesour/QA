@@ -15,6 +15,11 @@ This file is the operating guideline for anti-homogeneous titles.
 - numeric_title: 数字型（金额/周数/步骤数）
 - counterintuitive_title: 反常识型（先给逆预期结论，再给证据）
 
+## Current Production Bank
+
+- Primary file: `evidence/headline/headline-4d-variants-20260218.md`
+- Rule: for each article, publish 2 of the 4 variants and keep 2 as A/B reserve.
+
 ## Anti-Template Rules
 
 - Do not use identical opening patterns in consecutive posts.
@@ -35,3 +40,4 @@ This file is the operating guideline for anti-homogeneous titles.
 - Is the value explicit (gain or loss avoided)?
 - Is this title visibly different from this week's previous title?
 - Does this title map to at least one concrete CTA asset?
+- Does this title avoid direct duplication with other 3 variants of the same article?

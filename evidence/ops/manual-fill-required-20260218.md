@@ -3,6 +3,7 @@
 ## 1) SEO Numeric Slots (Login/Browser Required)
 
 - File: `evidence/seo/keyword-snapshots-20260217.md`
+- Validation log: `evidence/seo/seo-capture-validation-20260218.md`
 - JSON path: `v1_2_content_system.seo_signal_registry.signals[*]`
 - Remaining fields requiring manual browser capture:
   - `zhihu_result_count` (public terminal blocked by anti-bot 403)
@@ -39,8 +40,18 @@
 - WeChat official account backend conversion metrics
 - Any source blocked by anti-bot or challenge pages in terminal mode
 
-## 5) Recommended Fill Order
+## 5) Platform Rule Review Proof (Browser Required)
+
+- Rule source file: `evidence/sources/platform-rule-sources-20260218.md`
+- Manual proof needed each month:
+  - Zhihu terms page screenshot (with date)
+  - Xiaohongshu creator rules page screenshot (logged-in view)
+  - WeChat official account operation rules screenshot (logged-in view)
+- Storage suggestion: `evidence/sources/platform-rule-review/YYYY-MM-DD/`
+
+## 6) Recommended Fill Order
 
 1. Fill SEO totals for top-priority 8 articles first (A01/A02/A03/A09/A17/A24/A25/A29).
 2. Upload case evidence for next 7 publish-day articles.
 3. Fill private funnel IDs and run one end-to-end webhook test.
+4. Complete monthly platform-rule screenshot archive before mass publishing.

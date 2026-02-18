@@ -5,8 +5,8 @@ This file tracks high-volatility policy checkpoints used by A01-A30.
 ## UK
 
 - Student visa financial evidence (official, GOV.UK):
-  - London: GBP 1,483/month (up to 9 months)
-  - Outside London: GBP 1,136/month (up to 9 months)
+  - London: GBP 1,529/month (up to 9 months)
+  - Outside London: GBP 1,171/month (up to 9 months)
   - Funds must be held for 28 consecutive days, ending within 31 days before applying.
   - Source: https://www.gov.uk/student-visa/money
 - Student visa application fee (official, GOV.UK):

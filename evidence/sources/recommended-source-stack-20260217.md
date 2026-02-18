@@ -9,11 +9,19 @@ Use this list when updating policy-heavy content. Priority order is mandatory.
 - UK Immigration Health Surcharge: https://www.gov.uk/healthcare-immigration-application/how-much-pay
 - SG MOM EP eligibility: https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility
 - SG ICA Student's Pass: https://www.ica.gov.sg/reside/STP/collect
-- AU Student visa cost: https://www.studyaustralia.gov.au/en/plan-your-move/visa-requirements/cost-of-student-visa
+- AU Student visa cost and financial capacity: https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas
 - AU Student visa (subclass 500): https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
 - HK Immigration annual report: https://www.immd.gov.hk/eng/publications/a_report_2024.html
 - HK Study visa arrangement: https://www.immd.gov.hk/eng/services/visas/study.html
 - HK IANG arrangement: https://www.immd.gov.hk/eng/services/visas/IANG.html
+
+## P0 Platform Compliance (Publishing Rules)
+
+- Zhihu terms: https://www.zhihu.com/term/zhihu-terms
+- Xiaohongshu creator rules route (login required): https://creator.xiaohongshu.com/rules
+- WeChat OA operation rules template (login required): https://mp.weixin.qq.com/cgi-bin/readtemplate?t=home/operation_tmpl&lang=zh_CN
+- WeChat OA agreement template (login required): https://mp.weixin.qq.com/cgi-bin/readtemplate?t=home/agreement_tmpl&lang=zh_CN
+- Rule-source summary file: `evidence/sources/platform-rule-sources-20260218.md`
 
 ## P1 Employment Outcome / ROI
 

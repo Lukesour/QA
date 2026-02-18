@@ -1,6 +1,7 @@
 # SEO Keyword Snapshot (2026-02-18)
 
 This snapshot records article-level search signal references.
+Validation details: `evidence/seo/seo-capture-validation-20260218.md`.
 
 ## Data Collection Status
 - Zhihu and Xiaohongshu search pages are currently blocked by anti-bot/login verification in this environment.

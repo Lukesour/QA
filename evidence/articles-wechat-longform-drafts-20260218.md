@@ -1,5 +1,8 @@
 # WeChat Long-form Draft Kit (A01-A30)
 
+> Update on 2026-02-18: this file is now a quick-outline companion only.
+> Primary publish-ready full text file: `evidence/content/publish-ready-longform-20260217.md`.
+
 Use this file to rewrite each topic into 1800-3200 Chinese characters.
 Rule: keep `结论先行 + 数据证据 + 失败复盘 + CTA`.
 
