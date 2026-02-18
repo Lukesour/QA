@@ -22,12 +22,12 @@ This board tracks fields that cannot be auto-collected in terminal mode and must
 
 - file: `evidence/conversion/conversion-closed-loop-20260217.md`
 - required:
-  - `__YOU_FILL_HUBSPOT_APP_ID__`
-  - `__YOU_FILL_TYPEFORM_FORM_ID__`
-  - `__YOU_FILL_CALENDLY_ORG_URI__`
-  - `__YOU_FILL_DOMAIN__`
-  - `__YOU_FILL_TABLE__`
-  - `__YOU_FILL_OWNER_MAP__`
+  - `OWNER_FILL_HUBSPOT_APP_ID`
+  - `OWNER_FILL_TYPEFORM_FORM_ID`
+  - `OWNER_FILL_CALENDLY_ORGANIZATION_URI`
+  - `OWNER_FILL_DOMAIN`
+  - `OWNER_FILL_TABLE`
+  - `OWNER_FILL_OWNER_MAP`
 
 ## D. Case Evidence Upload
 

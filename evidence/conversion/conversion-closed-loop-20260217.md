@@ -22,9 +22,9 @@ Track conversion by article ID through 4 nodes:
 | consultation | consult_book_rate / consult_show_rate | ready_in_blueprint | no |
 | revenue | deal_rate / deal_amount | ready_in_blueprint | no |
 | all nodes | workspace domain | waiting_key | yes |
-| hubspot | app_id | waiting_key | yes (`__YOU_FILL_HUBSPOT_APP_ID__`) |
-| typeform | form_id | waiting_key | yes (`__YOU_FILL_TYPEFORM_FORM_ID__`) |
-| calendly | organization_uri | waiting_key | yes (`__YOU_FILL_CALENDLY_ORG_URI__`) |
+| hubspot | app_id | waiting_key | yes (`OWNER_FILL_HUBSPOT_APP_ID`) |
+| typeform | form_id | waiting_key | yes (`OWNER_FILL_TYPEFORM_FORM_ID`) |
+| calendly | organization_uri | waiting_key | yes (`OWNER_FILL_CALENDLY_ORGANIZATION_URI`) |
 
 ## UTM and Hidden Field Rule
 
@@ -43,6 +43,6 @@ Track conversion by article ID through 4 nodes:
 
 ## Owner Fill Block
 
-- webhook_domain: `__YOU_FILL_DOMAIN__`
-- data_warehouse_table: `__YOU_FILL_TABLE__`
-- sales_owner_mapping: `__YOU_FILL_OWNER_MAP__`
+- webhook_domain: `OWNER_FILL_DOMAIN`
+- data_warehouse_table: `OWNER_FILL_TABLE`
+- sales_owner_mapping: `OWNER_FILL_OWNER_MAP`
