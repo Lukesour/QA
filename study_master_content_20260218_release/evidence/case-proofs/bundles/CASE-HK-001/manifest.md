@@ -1,6 +1,7 @@
 # CASE-HK-001 Manifest
 
 - article_id: `A09`
+- offer_record_id: `OFR-L0003` (`offers.jsonl:3`)
 - proof_type: 适配度评分 + 路径图
 - status: `bundle_template_prepared_waiting_upload`
 - as_of: `2026-02-17`

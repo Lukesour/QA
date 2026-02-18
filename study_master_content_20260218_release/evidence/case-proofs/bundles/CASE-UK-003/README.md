@@ -17,6 +17,7 @@
 - [ ] 个人敏感信息已遮挡
 
 ## Owner Notes
+- offer_record_id: `OFR-L0021` (`offers.jsonl:21`)
 - 背景：一本工科申产品方向；原名单按综排堆叠，课程与岗位匹配度偏低。
 - 动作：用四维矩阵打分，剔除2个高排低配项目，新增2个课程贴岗项目；上传矩阵前后版本。
 - 结果：高匹配项目占比从 `__MANUAL_PRIVATE_%__` 提升到 `__MANUAL_PRIVATE_%__`；申请组合调整为冲 `__MANUAL_PRIVATE_数量__` / 稳 `__MANUAL_PRIVATE_数量__` / 保 `__MANUAL_PRIVATE_数量__`。

@@ -1,6 +1,7 @@
 # CASE-AU-006 Manifest
 
 - article_id: `A29`
+- offer_record_id: `OFR-L0247` (`offers.jsonl:247`)
 - proof_type: 12周执行看板 + 复盘
 - status: `bundle_template_prepared_waiting_upload`
 - as_of: `2026-02-17`

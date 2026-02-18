@@ -39,3 +39,11 @@ Goal: move from title-level rewrite to structure-level rewrite for Xiaohongshu /
 
 - Each published piece must choose one platform-specific layout from this table before drafting.
 - Do not reuse the same opening pattern across three consecutive posts on the same platform.
+- Editing title only is not accepted as a platform rewrite completion signal.
+- For seed sprint (`A01/A02/A03/A09/A17/A24/A25/A29`), operator must attach one platform layout checklist screenshot per article.
+
+## Platform Rewrite Checklist (Must Tick Before Publish)
+
+- Xiaohongshu: opening hook replaced, card sequence adjusted, comment CTA set.
+- Zhihu: direct answer first, counter-example included, structured conclusion included.
+- WeChat: longform narrative rebuilt, evidence section inserted, CTA aligned with downloadable asset.

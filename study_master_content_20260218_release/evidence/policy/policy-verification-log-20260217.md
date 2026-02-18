@@ -2,35 +2,41 @@
 
 Canonical policy table: `evidence/policy/policy-single-source-of-truth-20260218.md`
 
-| region | page | key checkpoint | verified_on |
-|---|---|---|---|
-| UK | https://www.gov.uk/student-visa/money | London GBP 1,529/month, outside London GBP 1,171/month, 28-day funds rule | 2026-02-18 |
-| UK | https://www.gov.uk/student-visa | Student visa application fee GBP 524 | 2026-02-18 |
-| UK | https://www.gov.uk/graduate-visa | Before 2027-01-01 usually 2 years; on/after 2027-01-01 usually 18 months | 2026-02-18 |
-| UK | https://www.gov.uk/healthcare-immigration-application/how-much-pay | Student/dependant IHS GBP 776/year | 2026-02-18 |
-| HK | https://www.immd.gov.hk/eng/services/visas/study.html | Study visa normal processing time about 6 weeks | 2026-02-18 |
-| HK | https://www.immd.gov.hk/eng/services/visas/IANG.html | IANG first stay 24 months | 2026-02-18 |
-| HK | https://www.immd.gov.hk/eng/services/fees/visas/fees-for-application-for-visas-and-entry-permits.html | Effective 2025-02-26: HKD 600 application fee; HKD 1,300 visa/entry permit fee (>180 days) | 2026-02-18 |
-| HK | https://www.immd.gov.hk/eng/publications/a_report_2024/appendix5.html | 2024 student visas/entry permits 74,466; IANG entrants 10,796 | 2026-02-18 |
-| SG | https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility | From 2025-01-01 (new applications) S$5,600/S$6,200 with age progression; same criteria for renewals from 2026-01-01 | 2026-02-18 |
-| SG | https://www.ica.gov.sg/reside/STP/collect | Student's Pass issuance S$60; multiple journey visa S$30 (if applicable) | 2026-02-18 |
-| SG | https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students | Approved full-time students can work up to 16h/week during term | 2026-02-18 |
-| AU | https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500 | Student visa fee AUD 2,000 (from 2025-07-01), work limit 48h/fortnight during study periods | 2026-02-18 |
-| AU | https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1216 | Financial capacity update: annual living cost requirement AUD 29,710 (from 2024-05-10) | 2026-02-18 |
-| AU | https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1210 | Genuine Student requirement replaced GTE from 2024-03-23 | 2026-02-18 |
-| AU | https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos) | QILT GOS is the official graduate outcomes benchmark source | 2026-02-18 |
-| SG | https://data.gov.sg/datasets/d_3f00cf99ddce14f81e0dc04c140e5961/view | Graduate Employment Survey dataset endpoint available on data.gov.sg | 2026-02-18 |
+| region | page | key checkpoint | access_status | verified_on |
+|---|---|---|---|---|
+| UK | https://www.gov.uk/student-visa/money | London GBP 1,529/month, outside London GBP 1,171/month, 28-day funds rule | accessible | 2026-02-18 |
+| UK | https://www.gov.uk/student-visa | Student visa application fee GBP 524 | accessible | 2026-02-18 |
+| UK | https://www.gov.uk/graduate-visa | Before 2027-01-01 usually 2 years; on/after 2027-01-01 usually 18 months; fee GBP 880 | accessible | 2026-02-18 |
+| UK | https://www.gov.uk/healthcare-immigration-application/how-much-pay | Student/dependant IHS GBP 776/year | accessible | 2026-02-18 |
+| HK | https://www.immd.gov.hk/eng/services/visas/study.html | Study visa normal processing time about 6 weeks | accessible | 2026-02-18 |
+| HK | https://www.immd.gov.hk/eng/services/visas/IANG.html | IANG first stay 24 months | accessible | 2026-02-18 |
+| HK | https://www.immd.gov.hk/eng/services/fees/visas/fees-for-application-for-visas-and-entry-permits.html | Effective 2025-02-26: HKD 600 application fee; HKD 1,300 visa/entry permit fee (>180 days) | accessible | 2026-02-18 |
+| HK | https://www.immd.gov.hk/eng/publications/a_report_2024/en/appendix5.html | 2024 student visas/entry permits 74,466; IANG entrants 10,796 | accessible | 2026-02-18 |
+| SG | https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility | 2025/2026 salary criteria plus 2027 COMPASS adjustment notice | accessible | 2026-02-18 |
+| SG | https://www.ica.gov.sg/reside/STP/collect | Student's Pass issuance SGD 60; multiple journey visa SGD 30 (if applicable) | accessible | 2026-02-18 |
+| SG | https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students | Approved full-time students can work up to 16h/week during term without work pass | accessible | 2026-02-18 |
+| AU | https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500 | Student visa fee AUD 2,000 (from 2025-07-01), work limit 48h/fortnight during study periods | accessible | 2026-02-18 |
+| AU | https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1216 | Financial capacity update: annual living cost requirement AUD 29,710 (from 2024-05-10) | parser_unstable_owner_fill_backup | 2026-02-18 |
+| AU | https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1210 | Genuine Student requirement replaced GTE from 2024-03-23 | parser_unstable_owner_fill_backup | 2026-02-18 |
+| AU | https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos) | QILT GOS remains official graduate outcomes benchmark source | accessible | 2026-02-18 |
+| SG | https://data.gov.sg/datasets/d_3f00cf99ddce14f81e0dc04c140e5961/view | GES dataset endpoint may change by platform revision, keep owner screenshot when needed | endpoint_may_change_owner_fill | 2026-02-18 |
 
 ## Admission Window Verification Addendum
 
 | region | page | key checkpoint | access_status | verified_on |
 |---|---|---|---|---|
 | UK | https://www.exeter.ac.uk/study/postgraduate/applying/applicationdeadlines/ | 2026/27 international deadline 2026-09-11 23:59; UK deadline 2026-09-16 23:59; Jan 2027 intake opens 2026-03-02 | accessible | 2026-02-18 |
-| UK | https://www.gla.ac.uk/postgraduate/taught/ | Programme cards include entry-month metadata (for example January/September, some April) | accessible | 2026-02-18 |
+| UK | https://www.gla.ac.uk/postgraduate/taught/ | Programme cards include entry-month metadata | accessible | 2026-02-18 |
 | HK | https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline | AY 2026/27 deadlines: round 1 on 2025-12-01 and round 2 on 2026-04-15 | accessible | 2026-02-18 |
-| SG | https://www.comp.nus.edu.sg/programmes/pg/misc/application/ | SoC page shows annual intake cycle and programme-level windows | accessible | 2026-02-18 |
-| SG | https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide | Guide contains programme-level opening/closing windows by intake | accessible | 2026-02-18 |
-| AU | https://study.unimelb.edu.au/how-to-apply/graduate-coursework-study/international-applications/faqs | Terminal retrieval may be challenged by Cloudflare, keep browser evidence if blocked | blocked_owner_fill | 2026-02-18 |
+| SG | https://www.comp.nus.edu.sg/programmes/pg/misc/application/ | SoC page shows programme-level windows (e.g., Aug intake 2025-10-01 to 2026-01-31) | accessible | 2026-02-18 |
+| SG | https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide | Guide page reachable; detailed windows remain programme-level on official page | accessible | 2026-02-18 |
+
+## ROI Addendum
+
+| region | page | key checkpoint | access_status | verified_on |
+|---|---|---|---|---|
+| SG | https://news.nus.edu.sg/jauges2024/ | NUS release cites JAUGES 2024 employment and salary indicators | accessible | 2026-02-18 |
+| SG | https://www.ntu.edu.sg/news/detail/ntu-graduates-maintain-strong-employment-rates-and-better-starting-pay-amid-global-economic-volatility | NTU release confirms strong graduate outcomes and salary trends | accessible | 2026-02-18 |
 
 ## Retrieval Notes
 

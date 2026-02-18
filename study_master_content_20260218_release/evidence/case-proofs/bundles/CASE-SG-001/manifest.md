@@ -1,6 +1,7 @@
 # CASE-SG-001 Manifest
 
 - article_id: `A17`
+- offer_record_id: `OFR-L0033` (`offers.jsonl:33`)
 - proof_type: 适配评分卡 + 路径图
 - status: `bundle_template_prepared_waiting_upload`
 - as_of: `2026-02-17`

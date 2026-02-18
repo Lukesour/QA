@@ -1,6 +1,7 @@
 # CASE-UK-002 Manifest
 
 - article_id: `A02`
+- offer_record_id: `OFR-L0215` (`offers.jsonl:215`)
 - proof_type: 自测结果 + 补强计划
 - status: `bundle_template_prepared_waiting_upload`
 - as_of: `2026-02-17`
@@ -18,4 +19,3 @@
 - 文件命名统一使用 `YYYYMMDD_caseid_desc.ext`。
 - 敏感信息必须打码：姓名、学校、邮箱、手机号、公司名。
 - 上传后在 `evidence/case-proofs/index.md` 把状态改为 `uploaded`。
-

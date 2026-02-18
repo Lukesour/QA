@@ -17,6 +17,7 @@
 - [ ] 个人敏感信息已遮挡
 
 ## Owner Notes
+- offer_record_id: `OFR-L0033` (`offers.jsonl:33`)
 - 背景：应届经管目标新加坡咨询；早期仅看学校标签，未评估留新可行性。
 - 动作：完成“三关自测”并建立留新与回国备选方案；上传评分卡和路径图。
 - 结果：关键风险项从 `__MANUAL_PRIVATE_项数__` 降至 `__MANUAL_PRIVATE_项数__`；申请聚焦后目标项目数量从 `__MANUAL_PRIVATE_数量__` 收敛到 `__MANUAL_PRIVATE_数量__`。

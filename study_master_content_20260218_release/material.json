@@ -40,7 +40,11 @@
       "platform_layout_rewrite_pack_20260218",
       "headline_registry_material_alignment_20260218",
       "sg_ep_policy_revalidation_20260218",
-      "failure_retro_deep_pack_20260218"
+      "failure_retro_deep_pack_20260218",
+      "seed_8_ops_cards_pack_20260218",
+      "offer_record_id_primary_key_policy_20260218",
+      "source_volatility_tier_gap_fix_20260218",
+      "policy_source_online_recheck_20260218"
     ]
   },
   "merge_instruction": {
@@ -7327,6 +7331,21 @@
           "execution_note": "该阶段主打“先决策后申请”内容，提升提前期线索质量。"
         }
       },
+      "seed_8_publish_sprint": {
+        "article_ids": [
+          "A01",
+          "A02",
+          "A03",
+          "A09",
+          "A17",
+          "A24",
+          "A25",
+          "A29"
+        ],
+        "sprint_window": "2026-02-18_to_2026-03-03",
+        "hard_gate": "SEO三项+案例证据+offer_record_id 锁定后，方可升级到 publish_ready_with_proof。"
+      },
+      "weekly_source_update_sop_ref": "evidence/ops/source-update-sop-30min-20260218.md",
       "professional_series_ref": "evidence/series/professional-series-map-20260218.md",
       "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
     }
@@ -7542,11 +7561,11 @@
     },
     {
       "source_id": "SRC-SG-MOE-GES-2025",
-      "title": "data.gov.sg collection: Graduate Employment Survey datasets",
-      "url": "https://data.gov.sg/collections/415/view",
+      "title": "data.gov.sg dataset: Graduate Employment Survey",
+      "url": "https://data.gov.sg/datasets/d_3f00cf99ddce14f81e0dc04c140e5961/view",
       "publisher": "data.gov.sg (Singapore Government)",
       "last_verified_date": "2026-02-18",
-      "notes": "用于新加坡官方GES口径与历年数据下载。"
+      "notes": "用于新加坡官方GES口径；若dataset endpoint改版导致抓取失败，需运营补截图并记录抓取时间。"
     },
     {
       "source_id": "SRC-SG-MOM-EP-2025",
@@ -7562,7 +7581,7 @@
       "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
       "publisher": "Ministry of Manpower Singapore",
       "last_verified_date": "2026-02-18",
-      "notes": "页面注明：2025-01-01起新申请最低月薪门槛为S$5,600（金融业S$6,200），并随年龄递增；同口径从2026-01-01起用于续签。"
+      "notes": "页面注明：2025-01-01起新申请最低月薪门槛为S$5,600（金融业S$6,200），并随年龄递增；同口径从2026-01-01起用于续签；页面同时公告2027年COMPASS门槛调整。"
     },
     {
       "source_id": "SRC-SG-NUS-CDE-INTAKE-2026",
@@ -7574,11 +7593,11 @@
     },
     {
       "source_id": "SRC-SG-NUS-GRAD-ADMISSION-2026",
-      "title": "NUS Graduate Admission Information",
-      "url": "https://www.nus.edu.sg/oam/admissions/admissions/graduate",
-      "publisher": "National University of Singapore",
+      "title": "NUS School of Computing Graduate Application Information",
+      "url": "https://www.comp.nus.edu.sg/programmes/pg/misc/application/",
+      "publisher": "NUS School of Computing",
       "last_verified_date": "2026-02-18",
-      "notes": "NUS Graduate Admissions入口，具体DDL以项目页为准。"
+      "notes": "用于新加坡授课硕士（SoC方向）官方申请窗口核验，页面给出按项目的开放/截止时间。"
     },
     {
       "source_id": "SRC-SOCIALINSIDER-ENGAGEMENT-BENCH-2026",
@@ -7622,11 +7641,11 @@
     },
     {
       "source_id": "SRC-UK-GLASGOW-JAN-INTAKE-2026",
-      "title": "University of Glasgow Postgraduate Key Dates",
-      "url": "https://www.gla.ac.uk/postgraduate/dates/",
+      "title": "University of Glasgow Postgraduate Taught Programmes",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/",
       "publisher": "University of Glasgow",
       "last_verified_date": "2026-02-18",
-      "notes": "用于英国授课型硕士申请窗口与开学节点参考。"
+      "notes": "用于英国授课型硕士项目入学月份与申请节奏核验。"
     },
     {
       "source_id": "SRC-UK-GRADUATE-VISA-2026",
@@ -7794,6 +7813,7 @@
           "SRC-UK-VISA-FEES-2026",
           "SRC-HK-IMMD-FEES-2025",
           "SRC-HK-IANG-2026",
+          "SRC-HK-IANG-GUIDEBOOK-2025",
           "SRC-SG-ICA-STP-COLLECT-2026",
           "SRC-SG-MOM-STUDENT-WORK-2026"
         ]
@@ -7818,6 +7838,7 @@
           "SRC-SEO-SNAPSHOT-2026-02-17",
           "SRC-SERIES-MAP-2026-02-17",
           "SRC-SG-JAUGES-2025",
+          "SRC-SG-MOE-GES-2025",
           "SRC-SG-NUS-CDE-INTAKE-2026",
           "SRC-SG-NUS-GRAD-ADMISSION-2026",
           "SRC-SOCIALINSIDER-ENGAGEMENT-BENCH-2026",

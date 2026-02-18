@@ -176,24 +176,24 @@ longform_publish_file: `evidence/content/publish-ready-longform-20260217.md`
 
 ### A24
 - not_applicable_group: 只做长期科研路线且不关注就业回报的人群。
-- official_sources: [Student visa (subclass 500)](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500), [QILT GOS](https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)).
+- official_sources: [Study Australia student visa (subclass 500)](https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500), [QILT GOS](https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)).
 - key_checkpoint: 学签可在课程期间每两周工作48小时；2024 GOS显示就业指标较2023回落。
 - case_bundle: `CASE-AU-001`.
 - owner_fill_slots: `三笔账模型 + 政策成本对照`.
 
 ### A25
 - not_applicable_group: 已确定项目并支付学费不可逆转的人群。
-- official_sources: [UNSW admissions timeline](https://www.unsw.edu.au/study/international-students/2025-admissions), [QILT GOS](https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)).
+- official_sources: [QILT GOS](https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)), [Study Australia student visa (subclass 500)](https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500).
 - key_checkpoint: 不同学校/term窗口差异大，需用“窗口+岗位+成本”做组合决策。
 - case_bundle: `CASE-AU-002`.
-- owner_fill_slots: `冲稳保组合矩阵 + 城市权重`.
+- owner_fill_slots: `冲稳保组合矩阵 + 城市权重 + 目标学校当期DDL截图`.
 
 ### A26
 - not_applicable_group: 已完成提交并进入审理的人群。
-- official_sources: [UNSW admissions timeline](https://www.unsw.edu.au/study/international-students/2025-admissions), [Student visa (subclass 500)](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500).
+- official_sources: [Study Australia student visa (subclass 500)](https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500).
 - key_checkpoint: 申请节奏需按院校term节点倒排，签证材料准备需并行。
 - case_bundle: `CASE-AU-003`.
-- owner_fill_slots: `12-16周甘特图 + 完成率`.
+- owner_fill_slots: `12-16周甘特图 + 完成率 + 目标学校当期DDL截图`.
 
 ### A27
 - not_applicable_group: 已锁定城市且具备稳定本地住宿资源的人群。
@@ -204,30 +204,30 @@ longform_publish_file: `evidence/content/publish-ready-longform-20260217.md`
 
 ### A28
 - not_applicable_group: 仅以学术兴趣选课且不做就业导向的人群。
-- official_sources: [QILT GOS](https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)), [Student visa (subclass 500)](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500).
+- official_sources: [QILT GOS](https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)), [Study Australia student visa (subclass 500)](https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500).
 - key_checkpoint: 课程与岗位证据链应闭环，避免“课程好过但求职断层”。
 - case_bundle: `CASE-AU-005`.
 - owner_fill_slots: `JD-课程映射表V1/V2`.
 
 ### A29
 - not_applicable_group: 不计划在读期间实习的人群。
-- official_sources: [Student visa (subclass 500)](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500), [QILT GOS](https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)).
+- official_sources: [Study Australia student visa (subclass 500)](https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500), [QILT GOS](https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)).
 - key_checkpoint: 在读求职需遵守签证工时条件并以周复盘驱动迭代。
 - case_bundle: `CASE-AU-006`.
 - owner_fill_slots: `12周SOP + 投递反馈日志`.
 
 ### A30
 - not_applicable_group: 无备选offer或决策约束极低的人群。
-- official_sources: [QILT GOS](https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)), [Student visa (subclass 500)](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500), [UNSW admissions timeline](https://www.unsw.edu.au/study/international-students/2025-admissions).
+- official_sources: [QILT GOS](https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)), [Study Australia student visa (subclass 500)](https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500).
 - key_checkpoint: 终选应用“岗位匹配+总成本+风险+时间窗”统一加权，避免单看名气。
 - case_bundle: `CASE-AU-007`.
-- owner_fill_slots: `加权终选表 + 敏感性测试`.
+- owner_fill_slots: `加权终选表 + 敏感性测试 + 目标学校当期DDL截图`.
 
 ## Owner-Fill Access Tasks
 
-- source: [NUS OAM Graduate](https://www.nus.edu.sg/oam/apply-to-nus/graduate)  
-  status: `owner_fill_required`（Incapsula challenge）
-- source: [Unimelb FAQ](https://study.unimelb.edu.au/how-to-apply/graduate-coursework-study/international-applications/faqs)  
-  status: `owner_fill_required`（Cloudflare challenge）
+- source: target university current admissions portal page (for AU deadlines)  
+  status: `owner_fill_required`（学校官网页面口径每季变化，需运营截图留证）
+- source: Zhihu and Xiaohongshu search pages  
+  status: `owner_fill_required`（登录态与反爬限制）
 - cookie upload path: `evidence/sources/cookies/`  
   guide: `evidence/sources/cookie-upload-guide-20260217.md`

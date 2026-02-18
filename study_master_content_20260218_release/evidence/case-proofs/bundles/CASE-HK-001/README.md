@@ -17,6 +17,7 @@
 - [ ] 个人敏感信息已遮挡
 
 ## Owner Notes
+- offer_record_id: `OFR-L0003` (`offers.jsonl:3`)
 - 背景：应届商科，目标投行后中台；原先只看学校品牌，未评估路径适配。
 - 动作：先做港硕适配度打分并建立双路径求职方案；上传评分结果与路径图。
 - 结果：适配度总分从 `__MANUAL_PRIVATE_初始分__` 调整到 `__MANUAL_PRIVATE_复测分__`；入学后前 `__MANUAL_PRIVATE_周数__` 周完成 `__MANUAL_PRIVATE_关键动作数__` 项核心求职动作。

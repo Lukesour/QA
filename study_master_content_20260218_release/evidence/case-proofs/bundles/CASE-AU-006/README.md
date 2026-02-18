@@ -17,6 +17,7 @@
 - [ ] 个人敏感信息已遮挡
 
 ## Owner Notes
+- offer_record_id: `OFR-L0247` (`offers.jsonl:247`)
 - 背景：商科在读，求职动作零散，无固定周节奏和复盘机制。
 - 动作：按12周SOP执行“岗位搜索-定制投递-复盘优化”闭环；上传执行看板和复盘表。
 - 结果：周均有效投递从 `__MANUAL_PRIVATE_数量__` 提升到 `__MANUAL_PRIVATE_数量__`；面试邀约从 `__MANUAL_PRIVATE_数量__` 提升到 `__MANUAL_PRIVATE_数量__`。

@@ -17,6 +17,8 @@
 - [ ] 个人敏感信息已遮挡
 
 ## Owner Notes
+- offer_record_id_primary: `OFR-L0075` (`offers.jsonl:75`)
+- offer_record_id_secondary: `OFR-L0046` (`offers.jsonl:46`)
 - 背景：工科应届目标产品经理；初始名单过度集中高风险项目。
 - 动作：按四维模型重排冲稳保并增加城市替代方案；上传组合表前后版本。
 - 结果：稳保项目覆盖从 `__MANUAL_PRIVATE_数量__` 提升到 `__MANUAL_PRIVATE_数量__`；预计录取确定性提升 `__MANUAL_PRIVATE_%__`。

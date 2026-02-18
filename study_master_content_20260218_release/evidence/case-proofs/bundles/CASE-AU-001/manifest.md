@@ -1,6 +1,7 @@
 # CASE-AU-001 Manifest
 
 - article_id: `A24`
+- offer_record_id: `OFR-L0005` (`offers.jsonl:5`)
 - proof_type: 三笔账 + 政策成本对照
 - status: `bundle_template_prepared_waiting_upload`
 - as_of: `2026-02-17`

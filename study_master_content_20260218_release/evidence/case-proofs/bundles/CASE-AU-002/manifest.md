@@ -1,6 +1,8 @@
 # CASE-AU-002 Manifest
 
 - article_id: `A25`
+- offer_record_id_primary: `OFR-L0075` (`offers.jsonl:75`)
+- offer_record_id_secondary: `OFR-L0046` (`offers.jsonl:46`)
 - proof_type: 冲稳保组合表
 - status: `bundle_template_prepared_waiting_upload`
 - as_of: `2026-02-17`

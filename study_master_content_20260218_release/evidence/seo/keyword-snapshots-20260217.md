@@ -8,6 +8,15 @@ This snapshot records article-level search signal references.
 - Numeric fields now use explicit capture-status strings; totals still require logged-in browser capture.
 - A01 has partial HAR-derived lower-bound counts (not full result totals): Zhihu page_size=20 and `is_end=false`; Xiaohongshu first page returned 22 items and `has_more=true`.
 
+## Seed Sprint Priority (First Fill)
+
+- Priority articles: `A01/A02/A03/A09/A17/A24/A25/A29`
+- Required completion for each priority article:
+  - `zhihu_result_count`
+  - `xiaohongshu_result_count`
+  - `google_trends_index_90d`
+- If any priority article still has `blocked_403_or_login_required_*`, keep publish state at `draft_ready`.
+
 | Article | Core Keyword | Zhihu Query URL | Xiaohongshu Query URL | Signal Tier | Signal Score | Zhihu Count | Xiaohongshu Count | Google Trends 90d | Status |
 |---|---|---|---|---|---|---|---|---|---|
 | A01 | 英国授课型硕士值不值 | https://www.zhihu.com/search?type=content&q=英国授课型硕士值不值 | https://www.xiaohongshu.com/search_result?keyword=英国授课型硕士值不值 | high | 4 | >=20 (HAR page1, is_end=false) | >=22 (HAR page1, has_more=true) | MANUAL_BROWSER_CAPTURE_REQUIRED | partial_har_lower_bound_waiting_total_capture |
@@ -48,3 +57,4 @@ This snapshot records article-level search signal references.
 ## Notes
 - After cookie refresh, fill numeric fields weekly and sync back to `v1_2_content_system.seo_signal_registry.signals`.
 - Keep the same query URLs to preserve comparability across weeks.
+- Capture timestamp format must be `YYYY-MM-DD_HH:MM` and appended in every numeric field.

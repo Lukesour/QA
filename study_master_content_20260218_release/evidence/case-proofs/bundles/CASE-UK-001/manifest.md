@@ -1,6 +1,7 @@
 # CASE-UK-001 Manifest
 
 - article_id: `A01`
+- offer_record_id: `OFR-L0202` (`offers.jsonl:202`)
 - proof_type: 预算测算截图 + 执行清单
 - status: `bundle_template_prepared_waiting_upload`
 - as_of: `2026-02-17`
