@@ -42,3 +42,10 @@ This file is the canonical evidence index for all article cases.
 - `publish_state` remains `needs_case_upload` until evidence is actually uploaded and verified.
 - Owner Notes in all 30 bundle `README.md` files have been upgraded to quantifiable templates and no longer contain generic placeholders.
 - Current global status (2026-02-18): 30/30 still waiting owner upload; no article should be marked externally publish-ready before case proof completion.
+
+## Offers Binding Update (2026-02-18)
+
+- New binding file: `evidence/case-proofs/offers-case-binding-20260218.md`
+- Coverage: A01-A30 all mapped to `offers.jsonl` admission records by country/topic.
+- Current stage: `offers_case_bound_waiting_owner_screenshot_upload`.
+- Publish gate unchanged: article state stays `needs_case_upload` until screenshots and desensitization notes are uploaded and verified.

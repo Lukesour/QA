@@ -4,6 +4,7 @@
 
 1. Upload real case proof bundles for the next publishing batch first.
 - Why: credibility and conversion drop fastest when article claims are not backed by visible case evidence.
+  - Progress: A01-A30 have been bound to real admissions from `offers.jsonl` in `evidence/case-proofs/offers-case-binding-20260218.md`; remaining blocker is screenshot/desensitization upload.
 
 2. Fill logged-in SEO totals for all 30 keywords.
 - Why: without stable demand and competition signals, scheduling priority is still partially blind.

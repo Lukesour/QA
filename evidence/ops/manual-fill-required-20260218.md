@@ -24,6 +24,9 @@
   - `04-desensitization-note.md`
 - Public benchmark reference (already prepared):
   - `evidence/case-proofs/public-benchmark-reference-20260218.md`
+- Offers binding reference (completed for A01-A30):
+  - `evidence/case-proofs/offers-case-binding-20260218.md`
+  - Source file used: `/Users/suan/Desktop/留学/资料/自媒体素材/offers.jsonl`
 - Structured draft placeholders have been rebound to exact bundle paths:
   - `evidence/content/publish-ready-drafts-20260217.md`
 - Publish-state gating update (already applied in `material.json`):
