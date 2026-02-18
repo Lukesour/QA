@@ -16,7 +16,7 @@ Rule: Any policy conclusion must quote this file first. Other files reference th
 | HK | IANG stay length | First stay is 24 months without other stay conditions | https://www.immd.gov.hk/eng/services/visas/IANG.html |
 | HK | Specified schemes fee | Effective 2025-02-26, application fee HKD 600 and visa/entry permit fee (stay over 180 days) HKD 1,300 | https://www.immd.gov.hk/eng/services/fees/visas/fees-for-application-for-visas-and-entry-permits.html |
 | HK | Annual migration stats | 2024 student visas/entry permits: 74,466; entrants admitted under IANG in 2024: 10,796 | https://www.immd.gov.hk/eng/publications/a_report_2024/appendix5.html |
-| SG | Employment Pass salary floor | From 2025-09-01: SGD 5,600 (financial services SGD 6,200); from 2027-01-01: SGD 6,000 (financial services SGD 6,500) | https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility |
+| SG | Employment Pass salary floor | From 2025-01-01 for new applications: SGD 5,600 (financial services SGD 6,200), increasing with age; same criteria apply to renewals from 2026-01-01 | https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility |
 | SG | Student's Pass issuance | Issuance fee SGD 60; multiple-journey visa fee SGD 30 (if applicable) | https://www.ica.gov.sg/reside/STP/collect |
 | SG | Student work rights | Full-time students at approved institutions can work up to 16 hours/week during term; no hour limit in vacation | https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students |
 | AU | Student visa fee | Student visa (subclass 500) application fee AUD 2,000 (from 2025-07-01) | https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500 |

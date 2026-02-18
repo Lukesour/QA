@@ -126,7 +126,7 @@ longform_publish_file: `evidence/content/publish-ready-longform-20260217.md`
 ### A17
 - not_applicable_group: 仅为学历镀金且不考虑就业落地的人群。
 - official_sources: [MOM EP eligibility](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility), [ICA Student's Pass](https://www.ica.gov.sg/reside/STP/collect).
-- key_checkpoint: EP当前门槛包含 S$5,600/金融S$6,200；页面注明2027年起提高至 S$6,000/6,600。
+- key_checkpoint: EP当前门槛（新申请）为 S$5,600/金融S$6,200，并随年龄上浮；同口径已用于2026年续签审核。
 - case_bundle: `CASE-SG-001`.
 - owner_fill_slots: `适配评分卡 + 留新/回国双路径图`.
 

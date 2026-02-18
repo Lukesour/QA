@@ -13,6 +13,7 @@ Use this stack for all A01-A30 updates. Priority order is mandatory.
 - HK Specified schemes fees: https://www.immd.gov.hk/eng/services/fees/visas/fees-for-application-for-visas-and-entry-permits.html
 - HK Annual report appendix 5: https://www.immd.gov.hk/eng/publications/a_report_2024/appendix5.html
 - SG MOM EP eligibility: https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility
+  - as_of_2026_02_18_checkpoint: from 2025-01-01 new applications min S$5,600 (financial services S$6,200), with age progression; same criteria for renewals from 2026-01-01
 - SG ICA Student's Pass collect: https://www.ica.gov.sg/reside/STP/collect
 - SG Student work exemption: https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students
 - AU Student visa page: https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500

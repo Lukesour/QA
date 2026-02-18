@@ -1,7 +1,7 @@
 {
   "meta": {
     "project_name": "授课型硕士留学内容增长系统",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "based_on": "1.3.2",
     "update_date": "2026-02-18",
     "data_cutoff_date": "2026-02-18",
@@ -37,7 +37,10 @@
       "publish_gate_tier_split_draft_ready_vs_publish_ready_with_proof",
       "offers_case_mapping_pack_20260218",
       "headline_5_angle_unique_pack_20260218",
-      "platform_layout_rewrite_pack_20260218"
+      "platform_layout_rewrite_pack_20260218",
+      "headline_registry_material_alignment_20260218",
+      "sg_ep_policy_revalidation_20260218",
+      "failure_retro_deep_pack_20260218"
     ]
   },
   "merge_instruction": {
@@ -2593,9 +2596,9 @@
           ],
           "data_points": [
             "新加坡本地大学毕业生2024年全职就业起薪中位数较上一年增长约4.2%。",
-            "EP薪资门槛按行业与年龄梯度执行；官方注明2027-01-01新申请、2028-01-01续签起最低门槛调整为S\\$6,000（金融业S\\$6,500）。",
+            "EP薪资门槛按行业与年龄梯度执行；2025-01-01起新申请最低为S\\$5,600（金融业S\\$6,200），同口径2026-01-01起用于续签。",
             "学生准证办理费用和签发流程有明确官方标准。",
-            "截至2026-02-18核验，EP月薪门槛为S$5,600（金融行业S$6,200），2027年新申请提升至S$6,000/S$6,500。"
+            "截至2026-02-18核验，EP新申请最低月薪门槛为S$5,600（金融行业S$6,200），并随年龄上浮；同口径已用于2026年续签。"
           ],
           "not_applicable_group": "明确不考虑海外就业且仅为短期学历提升的人群，可降低留新维度权重。",
           "verification_method": "official_source_recheck_30d_or_60d"
@@ -2691,7 +2694,7 @@
           ],
           "data_points": [
             "毕业生就业数据存在学科差异，选校时需避免“平均值误导”。",
-            "截至2026-02-18核验，EP月薪门槛为S$5,600（金融行业S$6,200），2027年新申请提升至S$6,000/S$6,500。",
+            "截至2026-02-18核验，EP新申请最低月薪门槛为S$5,600（金融行业S$6,200），并随年龄上浮；同口径已用于2026年续签。",
             "截至2026-02-18核验，Student's Pass签发费S$60；如适用多次入境签证费S$30。"
           ],
           "not_applicable_group": "目标纯学术研究路径人群，应转向研究资源评估模型。",
@@ -2788,7 +2791,7 @@
           ],
           "data_points": [
             "就业导向项目对材料中的岗位匹配证据更敏感，单纯“齐全”难构成优势。",
-            "截至2026-02-18核验，EP月薪门槛为S$5,600（金融行业S$6,200），2027年新申请提升至S$6,000/S$6,500。",
+            "截至2026-02-18核验，EP新申请最低月薪门槛为S$5,600（金融行业S$6,200），并随年龄上浮；同口径已用于2026年续签。",
             "截至2026-02-18核验，Student's Pass签发费S$60；如适用多次入境签证费S$30。"
           ],
           "not_applicable_group": "纯研究导向项目应增加研究计划与学术能力证据。",
@@ -2885,7 +2888,7 @@
           ],
           "data_points": [
             "学生准证办理费用与签发流程有明确规定，预算应将签证行政成本纳入固定项。",
-            "截至2026-02-18核验，EP月薪门槛为S$5,600（金融行业S$6,200），2027年新申请提升至S$6,000/S$6,500。",
+            "截至2026-02-18核验，EP新申请最低月薪门槛为S$5,600（金融行业S$6,200），并随年龄上浮；同口径已用于2026年续签。",
             "截至2026-02-18核验，Student's Pass签发费S$60；如适用多次入境签证费S$30。"
           ],
           "not_applicable_group": "全奖或企业资助人群可简化预算模型。",
@@ -2981,9 +2984,9 @@
             "SRC-SG-MOM-EP-ELIGIBILITY-2026"
           ],
           "data_points": [
-            "就业市场存在岗位与薪资门槛，且2027-01-01新申请、2028-01-01续签起EP最低薪资门槛上调至S\\$6,000（金融业S\\$6,500）。",
+            "就业市场存在岗位与薪资门槛，且EP最低薪资门槛按行业与年龄递增（2025-01-01新申请执行，2026-01-01续签执行）。",
             "毕业生薪资中位数变化提示“岗位能力证据”仍是关键。",
-            "截至2026-02-18核验，EP月薪门槛为S$5,600（金融行业S$6,200），2027年新申请提升至S$6,000/S$6,500。"
+            "截至2026-02-18核验，EP新申请最低月薪门槛为S$5,600（金融行业S$6,200），并随年龄上浮；同口径已用于2026年续签。"
           ],
           "not_applicable_group": "已有确定回国工作机会且不考虑留新的人群。",
           "verification_method": "official_source_recheck_30d_or_60d"
@@ -3079,7 +3082,7 @@
           ],
           "data_points": [
             "就业导向环境下，跨专业申请更依赖证据链完整性而非动机描述。",
-            "截至2026-02-18核验，EP月薪门槛为S$5,600（金融行业S$6,200），2027年新申请提升至S$6,000/S$6,500。",
+            "截至2026-02-18核验，EP新申请最低月薪门槛为S$5,600（金融行业S$6,200），并随年龄上浮；同口径已用于2026年续签。",
             "截至2026-02-18核验，Student's Pass签发费S$60；如适用多次入境签证费S$30。"
           ],
           "not_applicable_group": "同专业直申且背景强匹配者，可简化叙事补强模块。",
@@ -3175,9 +3178,9 @@
             "SRC-SG-JAUGES-2025"
           ],
           "data_points": [
-            "留新路径与岗位薪资门槛强相关，且2027年EP门槛上调会抬高低起薪岗位难度。",
+            "留新路径与岗位薪资门槛强相关，低起薪岗位在EP口径下难度更高。",
             "就业数据提示岗位与专业匹配对结果影响显著。",
-            "截至2026-02-18核验，EP月薪门槛为S$5,600（金融行业S$6,200），2027年新申请提升至S$6,000/S$6,500。"
+            "截至2026-02-18核验，EP新申请最低月薪门槛为S$5,600（金融行业S$6,200），并随年龄上浮；同口径已用于2026年续签。"
           ],
           "not_applicable_group": "已拿到明确地区offer人群，可直接进入签约与落地规划。",
           "verification_method": "official_source_recheck_30d_or_60d"
@@ -5693,243 +5696,243 @@
     "headline_variation_registry": [
       {
         "article_id": "A01",
-        "scenario_result_timeline_title": "预算30-40万读英硕，7天算清值不值",
-        "risk_stoploss_title": "英硕别只看QS：先做三笔账止损",
-        "conflict_title": "英硕别只看QS：先做三笔账止损",
-        "numeric_title": "预算30-40万读英硕，7天算清值不值",
-        "counterintuitive_title": "反常识：预算30-40万读英硕，7天算清值不值"
+        "scenario_result_timeline_title": "预算30-40万、2026入学，1周做完英硕去留决策",
+        "risk_stoploss_title": "不先算现金流就下申请，最容易在入学前断预算",
+        "conflict_title": "英硕值不值？多数人把“名校感受”当“回本模型”",
+        "numeric_title": "7天做完英硕三笔账：12/24/36个月回本线一次定清",
+        "counterintuitive_title": "反常识：英硕不是越贵越值，越匹配岗位越值"
       },
       {
         "article_id": "A02",
-        "scenario_result_timeline_title": "一年制英硕适合谁？3分钟做完适配自测",
-        "risk_stoploss_title": "一年制最怕先读再想：这3类人慎入",
-        "conflict_title": "一年制最怕先读再想：这3类人慎入",
-        "numeric_title": "一年制英硕适合谁？3分钟做完适配自测",
-        "counterintuitive_title": "反常识：一年制英硕适合谁？3分钟做完适配自测"
+        "scenario_result_timeline_title": "工作1-2年想转型，如何在2周内判断要不要读一年制",
+        "risk_stoploss_title": "先读再想岗位，最常见结果是课程和求职双线失速",
+        "conflict_title": "一年制不是快车道，对探索型同学反而是放大器",
+        "numeric_title": "3类适配+3类劝退：10分钟测完你是否适合一年制",
+        "counterintuitive_title": "反常识：执行力比学校排名更决定一年制收益"
       },
       {
         "article_id": "A03",
-        "scenario_result_timeline_title": "英国选校冲稳保怎么排？15分钟出首版名单",
-        "risk_stoploss_title": "全冲名校最容易翻车：选校先定止损线",
-        "conflict_title": "全冲名校最容易翻车：选校先定止损线",
-        "numeric_title": "英国选校冲稳保怎么排？15分钟出首版名单",
-        "counterintuitive_title": "反常识：英国选校冲稳保怎么排？15分钟出首版名单"
+        "scenario_result_timeline_title": "已有10所意向校，48小时做成可执行冲稳保名单",
+        "risk_stoploss_title": "全冲名校不设保底，最容易把申请窗口直接打穿",
+        "conflict_title": "QS高不等于你能上岸，岗位匹配才决定申请质量",
+        "numeric_title": "4维矩阵+3档名单：15分钟排出英国冲稳保",
+        "counterintuitive_title": "反常识：排位更低但课程更对口，往往更好就业"
       },
       {
         "article_id": "A04",
-        "scenario_result_timeline_title": "英国硕士预算怎么做？1张表拆出固定与弹性成本",
-        "risk_stoploss_title": "预算表没做这一步，后期现金流最容易断",
-        "conflict_title": "预算表没做这一步，后期现金流最容易断",
-        "numeric_title": "英国硕士预算怎么做？1张表拆出固定与弹性成本",
-        "counterintuitive_title": "反常识：英国硕士预算怎么做？1张表拆出固定与弹性成本"
+        "scenario_result_timeline_title": "预算上限35万，怎么在3天内定伦敦/非伦敦双方案",
+        "risk_stoploss_title": "按最低生活费规划，旺季租房阶段最容易崩盘",
+        "conflict_title": "英硕预算翻车，问题常常不在学费而在现金流节奏",
+        "numeric_title": "伦敦vs非伦敦：9个月资金证明+12个月现金流一表对照",
+        "counterintuitive_title": "反常识：选非伦敦不一定降配，可能是更稳就业路径"
       },
       {
         "article_id": "A05",
-        "scenario_result_timeline_title": "低GPA申英硕：4周补强优先级怎么排",
-        "risk_stoploss_title": "低GPA别盲冲：先补证据再投递",
-        "conflict_title": "低GPA别盲冲：先补证据再投递",
-        "numeric_title": "低GPA申英硕：4周补强优先级怎么排",
-        "counterintuitive_title": "反常识：低GPA申英硕：4周补强优先级怎么排"
+        "scenario_result_timeline_title": "GPA 3.0-3.3，如何在一个申请季提升录取把握",
+        "risk_stoploss_title": "只补语言不补证据，文书再好也难过筛",
+        "conflict_title": "低GPA不是终局，盲目海投才是终局",
+        "numeric_title": "90天补强路线：4步把“背景弱”改成“证据强”",
+        "counterintuitive_title": "反常识：少申几所、每所做深，成功率反而更高"
       },
       {
         "article_id": "A06",
-        "scenario_result_timeline_title": "英国文书怎么写？3段结构当天就能搭好",
-        "risk_stoploss_title": "文书最常见翻车点：经历多但主线断",
-        "conflict_title": "文书最常见翻车点：经历多但主线断",
-        "numeric_title": "英国文书怎么写？3段结构当天就能搭好",
-        "counterintuitive_title": "反常识：英国文书怎么写？3段结构当天就能搭好"
+        "scenario_result_timeline_title": "距DDL还有14天，如何把文书从散乱改成岗位闭环",
+        "risk_stoploss_title": "每段都在讲故事不讲结果，最容易被判目标不清",
+        "conflict_title": "文书写得很努力，却依然像“经历流水账”",
+        "numeric_title": "英国文书4大雷区+4个改写模板，今晚就能改第一版",
+        "counterintuitive_title": "反常识：删掉50%无关经历，文书说服力更高"
       },
       {
         "article_id": "A07",
-        "scenario_result_timeline_title": "两个英国Offer怎么选？四维加权30分钟出结论",
-        "risk_stoploss_title": "Offer终选别只看排名：成本和风险才是分水岭",
-        "conflict_title": "Offer终选别只看排名：成本和风险才是分水岭",
-        "numeric_title": "两个英国Offer怎么选？四维加权30分钟出结论",
-        "counterintuitive_title": "反常识：两个英国Offer怎么选？四维加权30分钟出结论"
+        "scenario_result_timeline_title": "手里3个Offer，如何在两天内做出低后悔率决定",
+        "risk_stoploss_title": "只看学校牌子不看城市成本，入学后最容易后悔",
+        "conflict_title": "Offer终选不是比名气，是比未来路径可执行性",
+        "numeric_title": "4维加权+敏感性测试：48小时锁定英国最终Offer",
+        "counterintuitive_title": "反常识：放弃最高排名，可能换来更短上岸路径"
       },
       {
         "article_id": "A08",
-        "scenario_result_timeline_title": "英硕求职时间线：开学前12周该做什么",
-        "risk_stoploss_title": "等开学再求职太晚：签证窗口会被浪费",
-        "conflict_title": "等开学再求职太晚：签证窗口会被浪费",
-        "numeric_title": "英硕求职时间线：开学前12周该做什么",
-        "counterintuitive_title": "反常识：英硕求职时间线：开学前12周该做什么"
+        "scenario_result_timeline_title": "已拿Offer，如何用24周把留学和求职同时跑通",
+        "risk_stoploss_title": "开学后才做简历，会错过第一波岗位窗口",
+        "conflict_title": "英硕求职输在“启动晚”，不是输在“能力差”",
+        "numeric_title": "入学前12周+入学后12周：英硕求职SOP完整表",
+        "counterintuitive_title": "反常识：每周少投但稳定复盘，比海投更快出结果"
       },
       {
         "article_id": "A09",
-        "scenario_result_timeline_title": "港硕适配度判断：5分钟看你该不该读",
-        "risk_stoploss_title": "港硕不适合所有人：先看岗位再看热度",
-        "conflict_title": "港硕不适合所有人：先看岗位再看热度",
-        "numeric_title": "港硕适配度判断：5分钟看你该不该读",
-        "counterintuitive_title": "反常识：港硕适配度判断：5分钟看你该不该读"
+        "scenario_result_timeline_title": "英港二选一，如何在7天内做出港硕决策",
+        "risk_stoploss_title": "只看“留港机会”不看岗位门槛，毕业后最容易卡住",
+        "conflict_title": "港硕热度高，不代表每个人都该上车",
+        "numeric_title": "岗位/预算/节奏3道门槛：20分钟测港硕适配度",
+        "counterintuitive_title": "反常识：暂缓一年申请，有时比硬申更快上岸"
       },
       {
         "article_id": "A10",
-        "scenario_result_timeline_title": "港硕选校怎么做？冲稳保名单一晚排完",
-        "risk_stoploss_title": "只看学校名气，港硕申请最容易走偏",
-        "conflict_title": "只看学校名气，港硕申请最容易走偏",
-        "numeric_title": "港硕选校怎么做？冲稳保名单一晚排完",
-        "counterintuitive_title": "反常识：港硕选校怎么做？冲稳保名单一晚排完"
+        "scenario_result_timeline_title": "手里有8个港硕项目，如何2天压缩成可投清单",
+        "risk_stoploss_title": "只盯港前三，容易把适配项目自己筛掉",
+        "conflict_title": "先选学校再看项目，港硕选校最常见反向操作",
+        "numeric_title": "4步做港硕冲稳保：课程/去向/成本/录取可行性",
+        "counterintuitive_title": "反常识：项目匹配度比学校层级更影响毕业走向"
       },
       {
         "article_id": "A11",
-        "scenario_result_timeline_title": "港硕申请时间线：从现在到递交的倒排模板",
-        "risk_stoploss_title": "DDL还早≠来得及：晚启动会压缩材料质量",
-        "conflict_title": "DDL还早≠来得及：晚启动会压缩材料质量",
-        "numeric_title": "港硕申请时间线：从现在到递交的倒排模板",
-        "counterintuitive_title": "反常识：港硕申请时间线：从现在到递交的倒排模板"
+        "scenario_result_timeline_title": "目标2026秋入学，今天开始怎么排港硕申请节奏",
+        "risk_stoploss_title": "DDL前突击交材料，最常见结果是“看起来完整、实则不强”",
+        "conflict_title": "港硕申请不是拼手速，是拼倒排质量",
+        "numeric_title": "倒排12周：港硕文书/推荐信/网申节点清单",
+        "counterintuitive_title": "反常识：早一轮提交，常常比“修到完美”更有价值"
       },
       {
         "article_id": "A12",
-        "scenario_result_timeline_title": "低GPA冲港硕：先补哪3项成功率更高",
-        "risk_stoploss_title": "低GPA最怕错配项目：先做风险分层",
-        "conflict_title": "低GPA最怕错配项目：先做风险分层",
-        "numeric_title": "低GPA冲港硕：先补哪3项成功率更高",
-        "counterintuitive_title": "反常识：低GPA冲港硕：先补哪3项成功率更高"
+        "scenario_result_timeline_title": "双非背景想冲港硕，如何3个月做出竞争力材料",
+        "risk_stoploss_title": "情绪化海投会把拒信率和焦虑成本一起抬高",
+        "conflict_title": "低GPA不是港硕拒信主因，证据链断裂才是",
+        "numeric_title": "3项补强优先级：90天把低GPA申请转成可解释路径",
+        "counterintuitive_title": "反常识：先补一段可验证经历，比多考0.5分更有用"
       },
       {
         "article_id": "A13",
-        "scenario_result_timeline_title": "港硕预算怎么控？双方案避免开学后超支",
-        "risk_stoploss_title": "预算只做理想版，港硕后期最容易被动",
-        "conflict_title": "预算只做理想版，港硕后期最容易被动",
-        "numeric_title": "港硕预算怎么控？双方案避免开学后超支",
-        "counterintuitive_title": "反常识：港硕预算怎么控？双方案避免开学后超支"
+        "scenario_result_timeline_title": "预算上限28万，如何用1张表控制港硕超支风险",
+        "risk_stoploss_title": "把奖学金当确定收入，会直接放大现金流风险",
+        "conflict_title": "港硕预算超支，常见不是“花太多”而是“算太少”",
+        "numeric_title": "港硕12个月现金流模板：理想版+保守版双方案",
+        "counterintuitive_title": "反常识：先按无奖学金预算，才是最稳的决策方式"
       },
       {
         "article_id": "A14",
-        "scenario_result_timeline_title": "港硕面试3分钟闭环：当天就能练起来",
-        "risk_stoploss_title": "面试翻车多因话术散：先搭证据闭环",
-        "conflict_title": "面试翻车多因话术散：先搭证据闭环",
-        "numeric_title": "港硕面试3分钟闭环：当天就能练起来",
-        "counterintuitive_title": "反常识：港硕面试3分钟闭环：当天就能练起来"
+        "scenario_result_timeline_title": "面试倒计时7天，如何把回答从“会说”练到“能过”",
+        "risk_stoploss_title": "只背答案不做追问演练，临场最容易崩",
+        "conflict_title": "面试挂掉不是经历不够，而是表达没有闭环",
+        "numeric_title": "3分钟闭环+15道高频题：港硕面试一周冲刺法",
+        "counterintuitive_title": "反常识：回答更短更具体，反而更容易拿高分"
       },
       {
         "article_id": "A15",
-        "scenario_result_timeline_title": "拿到港硕Offer后，入学前7件事怎么排",
-        "risk_stoploss_title": "只办手续不做求职，第一学期最容易失速",
-        "conflict_title": "只办手续不做求职，第一学期最容易失速",
-        "numeric_title": "拿到港硕Offer后，入学前7件事怎么排",
-        "counterintuitive_title": "反常识：拿到港硕Offer后，入学前7件事怎么排"
+        "scenario_result_timeline_title": "Offer已到手，如何在30天搭好港硕第一学期节奏",
+        "risk_stoploss_title": "只办行政手续不做求职前置，第一学期最容易失速",
+        "conflict_title": "拿到Offer只是开始，入学前准备决定开学后被动程度",
+        "numeric_title": "港硕入学前7件事：4周并行清单直接照做",
+        "counterintuitive_title": "反常识：越早做求职准备，课业压力反而越低"
       },
       {
         "article_id": "A16",
-        "scenario_result_timeline_title": "港硕留港还是回内地？双路径4周并行法",
-        "risk_stoploss_title": "只押单一路径，去向决策风险会被放大",
-        "conflict_title": "只押单一路径，去向决策风险会被放大",
-        "numeric_title": "港硕留港还是回内地？双路径4周并行法",
-        "counterintuitive_title": "反常识：港硕留港还是回内地？双路径4周并行法"
+        "scenario_result_timeline_title": "毕业前3个月，如何完成港硕去向终选并落地投递",
+        "risk_stoploss_title": "单押一条路径，窗口错过后代价会成倍放大",
+        "conflict_title": "去向不是二选一，先并行再收敛才是稳策略",
+        "numeric_title": "双路径4周终选法：留港/回内地决策看板",
+        "counterintuitive_title": "反常识：短期薪资高，不一定是更优长期解"
       },
       {
         "article_id": "A17",
-        "scenario_result_timeline_title": "新加坡授课硕士值不值？先做岗位适配打分",
-        "risk_stoploss_title": "留新可行性不评估，决策最容易后悔",
-        "conflict_title": "留新可行性不评估，决策最容易后悔",
-        "numeric_title": "新加坡授课硕士值不值？先做岗位适配打分",
-        "counterintuitive_title": "反常识：新加坡授课硕士值不值？先做岗位适配打分"
+        "scenario_result_timeline_title": "想走新加坡路径，如何在两周内验证可行性",
+        "risk_stoploss_title": "忽略签证和就业门槛，最容易在毕业节点卡壳",
+        "conflict_title": "新加坡路径看起来顺，不等于每个人都适配",
+        "numeric_title": "新加坡硕士适配度评分：岗位/预算/执行3维自测",
+        "counterintuitive_title": "反常识：先确定就业路径，再决定学校才更稳"
       },
       {
         "article_id": "A18",
-        "scenario_result_timeline_title": "NUS/NTU/SMU怎么选？岗位导向一表筛完",
-        "risk_stoploss_title": "学校好≠项目合适：别被综排误导",
-        "conflict_title": "学校好≠项目合适：别被综排误导",
-        "numeric_title": "NUS/NTU/SMU怎么选？岗位导向一表筛完",
-        "counterintuitive_title": "反常识：NUS/NTU/SMU怎么选？岗位导向一表筛完"
+        "scenario_result_timeline_title": "面对NUS/NTU/SMU，如何72小时锁定申请优先级",
+        "risk_stoploss_title": "不看项目开放窗口，最后常常被DDL反杀",
+        "conflict_title": "选校只看综排，通常会错过最匹配项目",
+        "numeric_title": "3校对比模板：岗位权重打分30分钟出结果",
+        "counterintuitive_title": "反常识：同层学校里，项目差异比名气差异更大"
       },
       {
         "article_id": "A19",
-        "scenario_result_timeline_title": "新加坡申请材料清单：1次做完一致性体检",
-        "risk_stoploss_title": "材料齐全但叙事断裂，最容易被拒",
-        "conflict_title": "材料齐全但叙事断裂，最容易被拒",
-        "numeric_title": "新加坡申请材料清单：1次做完一致性体检",
-        "counterintuitive_title": "反常识：新加坡申请材料清单：1次做完一致性体检"
+        "scenario_result_timeline_title": "距提交还有10天，如何做最后一轮材料一致性体检",
+        "risk_stoploss_title": "简历和文书讲两条线，招生官会直接质疑稳定性",
+        "conflict_title": "材料“都齐了”，但逻辑不一致照样会被拒",
+        "numeric_title": "1张一致性检查表：简历/文书/推荐信三方对齐",
+        "counterintuitive_title": "反常识：删掉一半无关经历，材料反而更强"
       },
       {
         "article_id": "A20",
-        "scenario_result_timeline_title": "新加坡预算双方案：无奖学金也能稳住现金流",
-        "risk_stoploss_title": "把奖学金当底盘，预算风险会被低估",
-        "conflict_title": "把奖学金当底盘，预算风险会被低估",
-        "numeric_title": "新加坡预算双方案：无奖学金也能稳住现金流",
-        "counterintuitive_title": "反常识：新加坡预算双方案：无奖学金也能稳住现金流"
+        "scenario_result_timeline_title": "准备2026入学，如何一周做完新加坡留学预算计划",
+        "risk_stoploss_title": "把奖学金当默认值，现金流一旦波动就会连锁失衡",
+        "conflict_title": "新加坡预算问题不在“贵不贵”，在“有没有缓冲位”",
+        "numeric_title": "新加坡预算双方案：学费/住宿/应急金12个月分层",
+        "counterintuitive_title": "反常识：先做最悲观预算，决策质量会更高"
       },
       {
         "article_id": "A21",
-        "scenario_result_timeline_title": "新加坡求职窗口短：12周节奏怎么跑",
-        "risk_stoploss_title": "求职晚启动，岗位窗口会快速关闭",
-        "conflict_title": "求职晚启动，岗位窗口会快速关闭",
-        "numeric_title": "新加坡求职窗口短：12周节奏怎么跑",
-        "counterintuitive_title": "反常识：新加坡求职窗口短：12周节奏怎么跑"
+        "scenario_result_timeline_title": "入学后想留新，如何用一个学期跑通求职闭环",
+        "risk_stoploss_title": "在读求职晚启动，第一轮机会基本拿不到",
+        "conflict_title": "留新求职拼的是持续执行，不是临时冲刺",
+        "numeric_title": "新加坡在读找工12周SOP：每周动作与复盘模板",
+        "counterintuitive_title": "反常识：少量高质量投递比大规模海投更有效"
       },
       {
         "article_id": "A22",
-        "scenario_result_timeline_title": "跨专业申新加坡：三段叙事框架当天可套用",
-        "risk_stoploss_title": "只讲动机不讲证据，转专业最容易翻车",
-        "conflict_title": "只讲动机不讲证据，转专业最容易翻车",
-        "numeric_title": "跨专业申新加坡：三段叙事框架当天可套用",
-        "counterintuitive_title": "反常识：跨专业申新加坡：三段叙事框架当天可套用"
+        "scenario_result_timeline_title": "非对口专业申请新加坡，如何8周补齐最小证据链",
+        "risk_stoploss_title": "只讲兴趣不讲能力迁移，最容易在文书环节出局",
+        "conflict_title": "跨专业失败不是背景问题，而是迁移叙事没有证据",
+        "numeric_title": "跨专业3段叙事法：背景迁移/能力证据/岗位落点",
+        "counterintuitive_title": "反常识：先做小项目证明，比空讲热情更有说服力"
       },
       {
         "article_id": "A23",
-        "scenario_result_timeline_title": "新加坡留新还是回国？双路径终选表这样用",
-        "risk_stoploss_title": "去向只看情绪不看门槛，决策代价会变高",
-        "conflict_title": "去向只看情绪不看门槛，决策代价会变高",
-        "numeric_title": "新加坡留新还是回国？双路径终选表这样用",
-        "counterintuitive_title": "反常识：新加坡留新还是回国？双路径终选表这样用"
+        "scenario_result_timeline_title": "毕业前100天，如何完成新加坡去向终选并执行",
+        "risk_stoploss_title": "押错路径不设备份，毕业季会被动到几乎无解",
+        "conflict_title": "留新与回国不是立场题，是门槛与机会题",
+        "numeric_title": "双路径终选表：签证门槛/岗位密度/成本三轴对比",
+        "counterintuitive_title": "反常识：先按“最难路径”准备，最后更有选择权"
       },
       {
         "article_id": "A24",
-        "scenario_result_timeline_title": "澳洲授课硕士值不值？一张表算清政策和成本",
-        "risk_stoploss_title": "跟风申请澳洲，最容易忽略签证成本变化",
-        "conflict_title": "跟风申请澳洲，最容易忽略签证成本变化",
-        "numeric_title": "澳洲授课硕士值不值？一张表算清政策和成本",
-        "counterintuitive_title": "反常识：澳洲授课硕士值不值？一张表算清政策和成本"
+        "scenario_result_timeline_title": "预算有限又想读澳洲，如何7天做完决策验证",
+        "risk_stoploss_title": "忽略签证费和资金门槛更新，预算会在后期失真",
+        "conflict_title": "澳洲值不值，不是“人人都说好”就算答案",
+        "numeric_title": "澳洲三笔账：AUD 2,000签证费+AUD 29,710资金要求怎么算",
+        "counterintuitive_title": "反常识：先算回本和岗位，再看学校排名才稳"
       },
       {
         "article_id": "A25",
-        "scenario_result_timeline_title": "澳洲八大选校：冲稳保组合48小时定稿",
-        "risk_stoploss_title": "全冲热门项目，录取波动会过大",
-        "conflict_title": "全冲热门项目，录取波动会过大",
-        "numeric_title": "澳洲八大选校：冲稳保组合48小时定稿",
-        "counterintuitive_title": "反常识：澳洲八大选校：冲稳保组合48小时定稿"
+        "scenario_result_timeline_title": "已有6个澳洲目标项目，如何两天做出首轮投递表",
+        "risk_stoploss_title": "全冲热门城市，最容易把成本和风险推到上限",
+        "conflict_title": "八大不是同质产品，课程和去向差异很大",
+        "numeric_title": "澳洲选校4维模型：48小时排出冲稳保组合",
+        "counterintuitive_title": "反常识：不在“最热城市”也能拿到更优就业路径"
       },
       {
         "article_id": "A26",
-        "scenario_result_timeline_title": "澳洲申请倒排：12-16周关键节点全拆开",
-        "risk_stoploss_title": "只盯截止日，材料和签证会同时吃紧",
-        "conflict_title": "只盯截止日，材料和签证会同时吃紧",
-        "numeric_title": "澳洲申请倒排：12-16周关键节点全拆开",
-        "counterintuitive_title": "反常识：澳洲申请倒排：12-16周关键节点全拆开"
+        "scenario_result_timeline_title": "目标2026秋季入学，今天开始怎么排澳洲申请节奏",
+        "risk_stoploss_title": "材料和签证放到后段，最容易双重赶工翻车",
+        "conflict_title": "澳洲申请真正难点不是DDL，是并行管理能力",
+        "numeric_title": "12-16周倒排：澳洲申请里程碑与止损节点",
+        "counterintuitive_title": "反常识：先交可提交版，再迭代优化比拖延更安全"
       },
       {
         "article_id": "A27",
-        "scenario_result_timeline_title": "澳洲城市预算对比：主备城市一表看差异",
-        "risk_stoploss_title": "城市选错，整体成本会被长期拉高",
-        "conflict_title": "城市选错，整体成本会被长期拉高",
-        "numeric_title": "澳洲城市预算对比：主备城市一表看差异",
-        "counterintuitive_title": "反常识：澳洲城市预算对比：主备城市一表看差异"
+        "scenario_result_timeline_title": "预算35万内，如何3天完成澳洲城市与学校双选",
+        "risk_stoploss_title": "只盯学费忽视居住成本，现金流压力会持续放大",
+        "conflict_title": "澳洲预算差距常常来自城市结构，不是消费习惯",
+        "numeric_title": "5城预算对照表：学费/租房/通勤/求职成本一眼看清",
+        "counterintuitive_title": "反常识：先定可承受城市，再选学校能显著降风险"
       },
       {
         "article_id": "A28",
-        "scenario_result_timeline_title": "澳洲选课怎么连到就业？岗位反推模型实操",
-        "risk_stoploss_title": "只选好过课程，求职叙事最容易断档",
-        "conflict_title": "只选好过课程，求职叙事最容易断档",
-        "numeric_title": "澳洲选课怎么连到就业？岗位反推模型实操",
-        "counterintuitive_title": "反常识：澳洲选课怎么连到就业？岗位反推模型实操"
+        "scenario_result_timeline_title": "已拿澳洲Offer，如何在选课季前完成就业导向排课",
+        "risk_stoploss_title": "课程与岗位不匹配，简历叙事很难补救",
+        "conflict_title": "选课只求“好过”，毕业求职会直接断链",
+        "numeric_title": "岗位反推选课法：1张映射表把课程变成就业证据",
+        "counterintuitive_title": "反常识：选更难但更对口的课，求职回报通常更高"
       },
       {
         "article_id": "A29",
-        "scenario_result_timeline_title": "澳洲在读找实习：12周SOP每周做什么",
-        "risk_stoploss_title": "随机投递不复盘，反馈率会持续偏低",
-        "conflict_title": "随机投递不复盘，反馈率会持续偏低",
-        "numeric_title": "澳洲在读找实习：12周SOP每周做什么",
-        "counterintuitive_title": "反常识：澳洲在读找实习：12周SOP每周做什么"
+        "scenario_result_timeline_title": "开学后12周，如何把澳洲实习从0推进到面试阶段",
+        "risk_stoploss_title": "只海投不复盘，会把错误重复一个学期",
+        "conflict_title": "实习反馈低，往往不是机会少而是投递系统差",
+        "numeric_title": "澳洲在读实习12周SOP：岗位池/投递/面试三张表",
+        "counterintuitive_title": "反常识：固定节奏小步迭代，比冲刺式投递更稳"
       },
       {
         "article_id": "A30",
-        "scenario_result_timeline_title": "澳洲Offer终选：四步加权法当天给出答案",
-        "risk_stoploss_title": "终选只看名气，不看执行成本会后悔",
-        "conflict_title": "终选只看名气，不看执行成本会后悔",
-        "numeric_title": "澳洲Offer终选：四步加权法当天给出答案",
-        "counterintuitive_title": "反常识：澳洲Offer终选：四步加权法当天给出答案"
+        "scenario_result_timeline_title": "手里2-3个澳洲Offer，如何24小时做出可执行终选",
+        "risk_stoploss_title": "只看学校名气忽略执行成本，后悔率最高",
+        "conflict_title": "终选焦虑来自标准混乱，不是选项太多",
+        "numeric_title": "4步加权终选法：当天完成澳洲Offer决策",
+        "counterintuitive_title": "反常识：放弃“最体面”选项，可能得到更强确定性"
       }
     ],
     "series_link_registry": [
@@ -7246,6 +7249,8 @@
           ],
           "min_word_count": 120
         },
+        "deep_pack_ref": "evidence/content/failure-retro-deep-pack-20260218.md",
+        "execution_rule": "知乎/公众号长文发布前，失败复盘段优先采用 deep_pack_ref；短版字段仅作为导语。",
         "weekly_target": {
           "retro_articles_min": 2,
           "retro_short_notes_min": 4
@@ -7553,11 +7558,11 @@
     },
     {
       "source_id": "SRC-SG-MOM-EP-ELIGIBILITY-2026",
-      "title": "MOM Employment Pass eligibility (with 2027 threshold note)",
+      "title": "MOM Employment Pass eligibility",
       "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
       "publisher": "Ministry of Manpower Singapore",
       "last_verified_date": "2026-02-18",
-      "notes": "页面注明：当前最低月薪门槛为S$5,600（金融业S$6,200）；2027-01-01新申请、2028-01-01续签起上调为S$6,000（金融业S$6,500）。"
+      "notes": "页面注明：2025-01-01起新申请最低月薪门槛为S$5,600（金融业S$6,200），并随年龄递增；同口径从2026-01-01起用于续签。"
     },
     {
       "source_id": "SRC-SG-NUS-CDE-INTAKE-2026",

@@ -36,8 +36,8 @@ Canonical source: `evidence/policy/policy-single-source-of-truth-20260218.md`
 ## Singapore
 
 - Employment Pass eligibility floor
-  - From 2025-09-01: SGD 5,600 (financial services SGD 6,200)
-  - From 2027-01-01: SGD 6,000 (financial services SGD 6,500)
+  - From 2025-01-01 (new applications): SGD 5,600 (financial services SGD 6,200), with higher bands by age
+  - Same criteria apply to renewals from 2026-01-01
   - Source: https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility
 - Student's Pass issuance fee SGD 60; multiple-journey visa fee SGD 30 (if applicable)
   - Source: https://www.ica.gov.sg/reside/STP/collect
