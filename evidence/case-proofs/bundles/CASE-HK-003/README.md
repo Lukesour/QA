@@ -1,7 +1,7 @@
 # CASE-HK-003 Evidence Bundle
 
 - Article ID: A11
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：应届金融，目标港硕商科；文书与推荐人沟通临近DDL才启动。
 - 动作：使用12个月倒排甘特图重排节点，并提前锁定推荐人与语言出分节奏；上传甘特图截图。
-- 结果：关键节点延误项从 `__OWNER_FILL_项数__` 降至 `__OWNER_FILL_项数__`；主项目提交提前 `__OWNER_FILL_天数__` 天完成。
+- 结果：关键节点延误项从 `__MANUAL_PRIVATE_项数__` 降至 `__MANUAL_PRIVATE_项数__`；主项目提交提前 `__MANUAL_PRIVATE_天数__` 天完成。

@@ -1,7 +1,7 @@
 # CASE-UK-005 Evidence Bundle
 
 - Article ID: A05
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：双非管理学，GPA 80出头；文书强调努力但缺少可量化成果。
 - 动作：执行90天补强，新增2段可量化实习成果并重写文书逻辑；上传补强周计划与改稿对比。
-- 结果：可量化证据条目从 `__OWNER_FILL_条数__` 增至 `__OWNER_FILL_条数__`；收到 `__OWNER_FILL_offer数__` 个录取（其中目标层级 `__OWNER_FILL_数__` 个）。
+- 结果：可量化证据条目从 `__MANUAL_PRIVATE_条数__` 增至 `__MANUAL_PRIVATE_条数__`；收到 `__MANUAL_PRIVATE_offer数__` 个录取（其中目标层级 `__MANUAL_PRIVATE_数__` 个）。

@@ -1,7 +1,7 @@
 # CASE-UK-003 Evidence Bundle
 
 - Article ID: A03
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：一本工科申产品方向；原名单按综排堆叠，课程与岗位匹配度偏低。
 - 动作：用四维矩阵打分，剔除2个高排低配项目，新增2个课程贴岗项目；上传矩阵前后版本。
-- 结果：高匹配项目占比从 `__OWNER_FILL_%__` 提升到 `__OWNER_FILL_%__`；申请组合调整为冲 `__OWNER_FILL_数量__` / 稳 `__OWNER_FILL_数量__` / 保 `__OWNER_FILL_数量__`。
+- 结果：高匹配项目占比从 `__MANUAL_PRIVATE_%__` 提升到 `__MANUAL_PRIVATE_%__`；申请组合调整为冲 `__MANUAL_PRIVATE_数量__` / 稳 `__MANUAL_PRIVATE_数量__` / 保 `__MANUAL_PRIVATE_数量__`。

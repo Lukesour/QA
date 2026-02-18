@@ -1,7 +1,7 @@
 # CASE-SG-005 Evidence Bundle
 
 - Article ID: A21
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：应届经管目标新加坡运营岗；开局无计划，错过关键校招节奏。
 - 动作：执行12周计划并每周复盘投递与面试数据；上传周计划表和复盘记录。
-- 结果：周均有效投递从 `__OWNER_FILL_数量__` 提升到 `__OWNER_FILL_数量__`；获得 `__OWNER_FILL_实习面试数__` 次实习面试并拿到 `__OWNER_FILL_结果数__` 个可转正机会。
+- 结果：周均有效投递从 `__MANUAL_PRIVATE_数量__` 提升到 `__MANUAL_PRIVATE_数量__`；获得 `__MANUAL_PRIVATE_实习面试数__` 次实习面试并拿到 `__MANUAL_PRIVATE_结果数__` 个可转正机会。

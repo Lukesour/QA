@@ -1,7 +1,7 @@
 # CASE-UK-004 Evidence Bundle
 
 - Article ID: A04
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：港本应届申伦敦商科；仅核算学费，忽略租房与求职社交成本。
 - 动作：建立“伦敦/非伦敦”双方案12个月现金流；上传预算结构图和月度现金流截图。
-- 结果：资金缺口从 `__OWNER_FILL_金额__` 缩减至 `__OWNER_FILL_金额__`；在总预算 `__OWNER_FILL_金额__` 内保留 `__OWNER_FILL_城市数__` 个城市方案。
+- 结果：资金缺口从 `__MANUAL_PRIVATE_金额__` 缩减至 `__MANUAL_PRIVATE_金额__`；在总预算 `__MANUAL_PRIVATE_金额__` 内保留 `__MANUAL_PRIVATE_城市数__` 个城市方案。

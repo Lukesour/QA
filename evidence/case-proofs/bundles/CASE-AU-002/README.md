@@ -1,7 +1,7 @@
 # CASE-AU-002 Evidence Bundle
 
 - Article ID: A25
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：工科应届目标产品经理；初始名单过度集中高风险项目。
 - 动作：按四维模型重排冲稳保并增加城市替代方案；上传组合表前后版本。
-- 结果：稳保项目覆盖从 `__OWNER_FILL_数量__` 提升到 `__OWNER_FILL_数量__`；预计录取确定性提升 `__OWNER_FILL_%__`。
+- 结果：稳保项目覆盖从 `__MANUAL_PRIVATE_数量__` 提升到 `__MANUAL_PRIVATE_数量__`；预计录取确定性提升 `__MANUAL_PRIVATE_%__`。

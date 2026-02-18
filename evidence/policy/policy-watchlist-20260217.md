@@ -1,50 +1,73 @@
-# Policy Watchlist (2026-02-18)
+# Policy Watchlist (Verified on 2026-02-18)
 
-This file records high-volatility policy checkpoints that can directly change article accuracy.
+This file tracks high-volatility policy checkpoints used by A01-A30.
 
 ## UK
 
-- Student financial requirement (official page verified on 2026-02-18):
-  - London: GBP 1,529 / month (up to 9 months)
-  - Outside London: GBP 1,171 / month (up to 9 months)
-  - Funds must be held for 28 consecutive days, ending within 31 days before application.
-- Graduate visa (official page verified on 2026-02-18):
-  - Apply on or before 2026-12-31: usually 2 years (PhD/doctoral: 3 years)
-  - Apply on or after 2027-01-01: usually 18 months (PhD/doctoral: 3 years)
-  - Application fee GBP 880; IHS usually GBP 1,035 per year.
-- IHS fee page (official page verified on 2026-02-18):
-  - Students and their dependants: GBP 776 per year
-  - Most other visa categories: GBP 1,035 per year
+- Student visa financial evidence (official, GOV.UK):
+  - London: GBP 1,483/month (up to 9 months)
+  - Outside London: GBP 1,136/month (up to 9 months)
+  - Funds must be held for 28 consecutive days, ending within 31 days before applying.
+  - Source: https://www.gov.uk/student-visa/money
+- Student visa application fee (official, GOV.UK):
+  - Apply from outside UK: GBP 524
+  - Extend/switch inside UK: GBP 524
+  - Source: https://www.gov.uk/student-visa
+- Immigration Health Surcharge (official, GOV.UK):
+  - Students and their dependants: GBP 776/year
+  - Most other visa categories: GBP 1,035/year
+  - Source: https://www.gov.uk/healthcare-immigration-application/how-much-pay
+- Graduate visa (official, GOV.UK):
+  - Apply before 2027-01-01: usually 2 years (PhD/doctorate: 3 years)
+  - Apply on/after 2027-01-01: usually 18 months (PhD/doctorate: 3 years)
+  - Application fee: GBP 880
+  - Source: https://www.gov.uk/graduate-visa
 
 ## Hong Kong
 
-- IANG arrangement (official page verified on 2026-02-18):
-  - First stay period is usually 24 months.
-  - If employed in Hong Kong, extension is commonly 3 years + 3 years.
-  - After continuous ordinary residence for 7 years, applicants may be eligible to apply for right of abode.
-- Annual report reference (latest cited):
-  - IANG approved applications cumulatively exceed 160,000.
-  - Student visas/entry permits issued in 2024: 74,466.
+- Immigration fee schedule update (official, Immigration Department):
+  - Effective date: 2025-02-26
+  - Visa/entry permit fee for stay over 180 days under specified schemes: HKD 1,300
+  - Application fee under specified schemes: HKD 600
+  - Source: https://www.immd.gov.hk/eng/services/fees/visas/fees-for-application-for-visas-and-entry-permits.html
+- IANG (official, Immigration Department):
+  - First stay: 24 months
+  - Employment-based extensions: normally 3+3 years
+  - Source: https://www.immd.gov.hk/eng/services/visas/IANG.html
+- HK annual report checkpoint (official, Immigration Department):
+  - IANG approved applications (cumulative): 164,420
+  - Student visas/entry permits issued in 2024: 74,466
+  - Source: https://www.immd.gov.hk/eng/publications/a_report_2024.html
 
 ## Singapore
 
-- MOM Employment Pass eligibility page (verified on 2026-02-18):
-  - Current minimum monthly salary: SGD 5,600 (financial services: SGD 6,200)
-  - From 2027-01-01 (new applications): SGD 6,000 (financial services: SGD 6,600)
-  - From 2028-01-01 (renewals): SGD 6,000 (financial services: SGD 6,600)
-- ICA Student's Pass cost checkpoint:
-  - Processing fee SGD 45
-  - Issuance fee SGD 60
-  - Multiple-journey visa fee SGD 30 (if applicable)
+- Employment Pass eligibility (official, MOM):
+  - Current minimum salary: SGD 5,600 (financial sector SGD 6,200)
+  - From 2027-01-01 (new applications): SGD 6,000 (financial sector SGD 6,600)
+  - Source: https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility
+- Student's Pass issuance (official, ICA):
+  - Issuance fee: SGD 60
+  - Multiple-journey visa fee (if applicable): SGD 30
+  - Source: https://www.ica.gov.sg/reside/STP/collect
+- Work while studying in Singapore (official, MOM):
+  - Full-time students at approved institutions may work up to 16 hours/week during term; no hour limit during vacation.
+  - Source: https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students
 
 ## Australia
 
-- Study Australia visa requirements page (verified on 2026-02-18):
+- Student visa policy update (official, Home Affairs archive):
+  - Genuine Student requirement replaced GTE from 2024-03-23.
+  - Source: https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1210
+- Student visa fee and living cost reference (official, Study Australia):
   - Student visa (subclass 500) application fee: AUD 2,000
-  - Financial capacity (12 months living cost): AUD 29,710
-  - During study period, work rights are generally up to 48 hours per fortnight.
+  - 12-month living cost reference: AUD 29,710
+  - During study period: generally up to 48 hours per fortnight
+  - Source: https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas
+- Graduate outcomes benchmark (official, QILT):
+  - GOS 2024 release contains >117,000 graduate responses
+  - Source: https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)
 
-## Action Rule
+## Execution Rule
 
-- Any policy above outdated for >30 days marks linked decision/career articles as `review_required`.
-- Any visa cost/threshold change triggers same-day refresh for related budget and decision articles.
+- If any high-volatility policy item is older than 30 days without re-check, linked decision/budget/career articles become `review_required`.
+- Any visa fee, work-rights or financial-threshold change triggers same-day patch of related articles and lead magnets.

@@ -1,7 +1,7 @@
 # CASE-SG-006 Evidence Bundle
 
 - Article ID: A22
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：文科背景转数据分析；动机充分但技能与项目证据不足。
 - 动作：按“3段叙事+4项证据”补SQL项目与数据作品集；上传叙事模板与证据页。
-- 结果：可验证技能证据从 `__OWNER_FILL_项数__` 提升到 `__OWNER_FILL_项数__`；文书评估中的“转专业可信度”从 `__OWNER_FILL_分__` 提升到 `__OWNER_FILL_分__`。
+- 结果：可验证技能证据从 `__MANUAL_PRIVATE_项数__` 提升到 `__MANUAL_PRIVATE_项数__`；文书评估中的“转专业可信度”从 `__MANUAL_PRIVATE_分__` 提升到 `__MANUAL_PRIVATE_分__`。

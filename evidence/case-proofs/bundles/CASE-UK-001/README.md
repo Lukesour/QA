@@ -1,7 +1,7 @@
 # CASE-UK-001 Evidence Bundle
 
 - Article ID: A01
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：双非财经应届，目标英国咨询岗位；原始决策只看学校排名，未评估回本周期。
 - 动作：用“三笔账评估表”重排选校，删除2个高成本低回报项目；上传预算表截图与删改记录。
-- 结果：预算从 `__OWNER_FILL_原总预算__` 调整到 `__OWNER_FILL_新总预算__`，降幅 `__OWNER_FILL_%__`（参考样例18%）；求职启动提前 `__OWNER_FILL_周数__` 周。
+- 结果：预算从 `__MANUAL_PRIVATE_原总预算__` 调整到 `__MANUAL_PRIVATE_新总预算__`，降幅 `__MANUAL_PRIVATE_%__`（参考样例18%）；求职启动提前 `__MANUAL_PRIVATE_周数__` 周。

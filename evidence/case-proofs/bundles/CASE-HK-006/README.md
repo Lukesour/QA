@@ -1,7 +1,7 @@
 # CASE-HK-006 Evidence Bundle
 
 - Article ID: A14
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：双非应届申港硕商科；面试回答发散、证据不足、闭环不完整。
 - 动作：用三段闭环表达法+题库训练并录音复盘；上传题库页与复盘清单。
-- 结果：单题回答时长从 `__OWNER_FILL_秒__` 收敛到 `__OWNER_FILL_秒__`；模拟面评分从 `__OWNER_FILL_分__` 提升至 `__OWNER_FILL_分__`。
+- 结果：单题回答时长从 `__MANUAL_PRIVATE_秒__` 收敛到 `__MANUAL_PRIVATE_秒__`；模拟面评分从 `__MANUAL_PRIVATE_分__` 提升至 `__MANUAL_PRIVATE_分__`。

@@ -1,7 +1,7 @@
 # CASE-SG-003 Evidence Bundle
 
 - Article ID: A19
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：应届理工转申商科；材料齐全但简历、文书、推荐叙事不一致。
 - 动作：按“一致性检查表”统一核心主线和证据表达；上传检查表与修订前后版本。
-- 结果：材料冲突项从 `__OWNER_FILL_项数__` 降至 `__OWNER_FILL_项数__`；关键证据覆盖率从 `__OWNER_FILL_%__` 提升到 `__OWNER_FILL_%__`。
+- 结果：材料冲突项从 `__MANUAL_PRIVATE_项数__` 降至 `__MANUAL_PRIVATE_项数__`；关键证据覆盖率从 `__MANUAL_PRIVATE_%__` 提升到 `__MANUAL_PRIVATE_%__`。

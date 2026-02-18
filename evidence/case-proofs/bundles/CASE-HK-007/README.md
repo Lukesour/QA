@@ -1,7 +1,7 @@
 # CASE-HK-007 Evidence Bundle
 
 - Article ID: A15
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：商科应届已拿港硕offer，原计划开学后再启动求职准备。
 - 动作：按“入学前7件事”并行执行签证、住宿、课程与求职材料准备；上传清单与周计划截图。
-- 结果：入学前完成项从 `__OWNER_FILL_项数__`/7 提升到 `__OWNER_FILL_项数__`/7；第一学期前 `__OWNER_FILL_周数__` 周完成 `__OWNER_FILL_投递数__` 次投递。
+- 结果：入学前完成项从 `__MANUAL_PRIVATE_项数__`/7 提升到 `__MANUAL_PRIVATE_项数__`/7；第一学期前 `__MANUAL_PRIVATE_周数__` 周完成 `__MANUAL_PRIVATE_投递数__` 次投递。

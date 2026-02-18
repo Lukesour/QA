@@ -1,7 +1,7 @@
 # CASE-AU-007 Evidence Bundle
 
 - Article ID: A30
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：双offer（热门城市高成本 vs 次热门城市高匹配）；长期陷入排名与预算冲突。
 - 动作：使用四步终选法重排权重并设置切换条件；上传终选加权表。
-- 结果：主选项目加权总分 `__OWNER_FILL_分__`，备选 `__OWNER_FILL_分__`；预计年度成本差额 `__OWNER_FILL_金额__`，并保留1条可切换备选路径。
+- 结果：主选项目加权总分 `__MANUAL_PRIVATE_分__`，备选 `__MANUAL_PRIVATE_分__`；预计年度成本差额 `__MANUAL_PRIVATE_金额__`，并保留1条可切换备选路径。

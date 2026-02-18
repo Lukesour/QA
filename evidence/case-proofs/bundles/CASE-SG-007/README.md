@@ -1,7 +1,7 @@
 # CASE-SG-007 Evidence Bundle
 
 - Article ID: A23
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：数据方向在读，毕业去向不确定；仅押留新导致节奏不稳。
 - 动作：建立留新/回国双路径投递看板并按周并行执行；上传看板截图。
-- 结果：双路径有效投递占比从 `__OWNER_FILL_%__` 提升至 `__OWNER_FILL_%__`；面试机会总数从 `__OWNER_FILL_数量__` 增至 `__OWNER_FILL_数量__`。
+- 结果：双路径有效投递占比从 `__MANUAL_PRIVATE_%__` 提升至 `__MANUAL_PRIVATE_%__`；面试机会总数从 `__MANUAL_PRIVATE_数量__` 增至 `__MANUAL_PRIVATE_数量__`。

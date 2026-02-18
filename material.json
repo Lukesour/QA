@@ -247,6 +247,15 @@
               "form_submit_rate": 0.24,
               "consult_book_rate": 0.09,
               "deal_rate": 0.12
+            },
+            "offer_decision": {
+              "open_rate": 0.071,
+              "read_completion_rate": 0.44,
+              "save_rate": 0.024,
+              "dm_rate": 0.007,
+              "form_submit_rate": 0.28,
+              "consult_book_rate": 0.1,
+              "deal_rate": 0.12
             }
           },
           "hk": {
@@ -292,6 +301,33 @@
               "save_rate": 0.021,
               "dm_rate": 0.007,
               "form_submit_rate": 0.25,
+              "consult_book_rate": 0.1,
+              "deal_rate": 0.12
+            },
+            "application_boost": {
+              "open_rate": 0.074,
+              "read_completion_rate": 0.49,
+              "save_rate": 0.031,
+              "dm_rate": 0.008,
+              "form_submit_rate": 0.33,
+              "consult_book_rate": 0.12,
+              "deal_rate": 0.13
+            },
+            "budget": {
+              "open_rate": 0.072,
+              "read_completion_rate": 0.45,
+              "save_rate": 0.028,
+              "dm_rate": 0.008,
+              "form_submit_rate": 0.3,
+              "consult_book_rate": 0.11,
+              "deal_rate": 0.12
+            },
+            "pre_arrival": {
+              "open_rate": 0.069,
+              "read_completion_rate": 0.47,
+              "save_rate": 0.026,
+              "dm_rate": 0.007,
+              "form_submit_rate": 0.29,
               "consult_book_rate": 0.1,
               "deal_rate": 0.12
             }
@@ -350,6 +386,15 @@
               "form_submit_rate": 0.26,
               "consult_book_rate": 0.1,
               "deal_rate": 0.12
+            },
+            "career_switch": {
+              "open_rate": 0.07,
+              "read_completion_rate": 0.43,
+              "save_rate": 0.022,
+              "dm_rate": 0.007,
+              "form_submit_rate": 0.27,
+              "consult_book_rate": 0.1,
+              "deal_rate": 0.12
             }
           },
           "au": {
@@ -406,6 +451,15 @@
               "form_submit_rate": 0.27,
               "consult_book_rate": 0.1,
               "deal_rate": 0.12
+            },
+            "internship": {
+              "open_rate": 0.073,
+              "read_completion_rate": 0.46,
+              "save_rate": 0.028,
+              "dm_rate": 0.008,
+              "form_submit_rate": 0.31,
+              "consult_book_rate": 0.12,
+              "deal_rate": 0.13
             }
           }
         },
@@ -892,7 +946,8 @@
       "title_formula_bank": [
         "场景冲突 + 结果差异 + 时间约束",
         "预算约束 + 决策动作 + 可执行产出",
-        "失败代价 + 止损动作 + 目标人群"
+        "失败代价 + 止损动作 + 目标人群",
+        "反常识结论 + 证据反转 + 人群边界"
       ],
       "title_review_checklist": [
         "是否能在3秒内看出适用人群",
@@ -954,7 +1009,9 @@
               "a": "可以，但必须先做项目分层与城市分层，不要只看热门项目。"
             }
           ],
-          "closing_summary": "先算账再择校，能把“情绪决策”变成“可执行决策”。"
+          "closing_summary": "先算账再择校，能把“情绪决策”变成“可执行决策”。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "重点看起薪跃迁与转正路径，减少名校执念。",
@@ -967,14 +1024,17 @@
             "SRC-UK-STUDY-VISA-2025",
             "SRC-UK-STUDENT-MONEY",
             "SRC-UK-FINANCIAL-EVIDENCE-GUIDANCE-2025-12-31",
-            "SRC-UK-IHS-2026"
+            "SRC-UK-IHS-2026",
+            "SRC-UK-STUDENT-VISA-PAGE-2026"
           ],
           "data_points": [
             "截至2025年9月止，英国获批受担保学习签证约43.99万（主申请约41.96万，家属约2.04万）。",
             "截至2026-02-18核验，财力证明口径为伦敦每月£1,529、非伦敦每月£1,171（最多9个月）。",
-            "学生签医疗附加费标准为每年£776。"
+            "学生签医疗附加费标准为每年£776。",
+            "截至2026-02-18核验，英国Student visa申请费为£524（境外/境内同口径）。"
           ],
-          "not_applicable_group": "已在英国连续合法居留12个月以上并在境内续签者，财力证明准备策略不同。"
+          "not_applicable_group": "已在英国连续合法居留12个月以上并在境内续签者，财力证明准备策略不同。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在最纠结的是预算、就业回报，还是申请难度？",
@@ -1049,7 +1109,9 @@
               "a": "可以，先规划岗位路径与补强动作，语言成绩是并行任务。"
             }
           ],
-          "closing_summary": "一年制不是通行证，而是高压加速器。"
+          "closing_summary": "一年制不是通行证，而是高压加速器。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "优先判断是否具备求职基础动作能力。",
@@ -1060,13 +1122,16 @@
           "source_date": "2026-02-18",
           "source_refs": [
             "SRC-UK-STUDY-VISA-2025",
-            "SRC-UK-GRADUATE-VISA-2026"
+            "SRC-UK-GRADUATE-VISA-2026",
+            "SRC-UK-STUDENT-VISA-PAGE-2026"
           ],
           "data_points": [
             "英国Graduate Route在2026年12月31日前申请通常可获2年停留，2027年1月1日起新申请将调整为18个月。",
-            "学习签证审批量仍处高位，竞争重点从“能否入学”转向“毕业后就业与落地能力”。"
+            "学习签证审批量仍处高位，竞争重点从“能否入学”转向“毕业后就业与落地能力”。",
+            "截至2026-02-18核验，英国Student visa申请费为£524（境外/境内同口径）。"
           ],
-          "not_applicable_group": "明确回国读博或仅以学术研究为主的人群，评价维度应不同。"
+          "not_applicable_group": "明确回国读博或仅以学术研究为主的人群，评价维度应不同。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在是方向清晰，还是还在探索专业和岗位？",
@@ -1141,7 +1206,9 @@
               "a": "预算敏感用户可提升至30%-40%，高预算用户可适度降低。"
             }
           ],
-          "closing_summary": "排名是筛选器，不是决策器。"
+          "closing_summary": "排名是筛选器，不是决策器。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "优先看课程与实习资源。",
@@ -1152,13 +1219,16 @@
           "source_date": "2026-02-18",
           "source_refs": [
             "SRC-UCAS-LIVING-COST-2026",
-            "SRC-UK-STUDENT-MONEY"
+            "SRC-UK-STUDENT-MONEY",
+            "SRC-UK-STUDENT-VISA-PAGE-2026"
           ],
           "data_points": [
             "UCAS给出的学生生活成本区间约为每月£1,100-£1,400（地区差异显著）。",
-            "学生签财力证明对伦敦与非伦敦标准差异明显，直接影响预算模型。"
+            "学生签财力证明对伦敦与非伦敦标准差异明显，直接影响预算模型。",
+            "截至2026-02-18核验，英国Student visa申请费为£524（境外/境内同口径）。"
           ],
-          "not_applicable_group": "已有全奖或企业赞助的申请人，城市成本权重可下调。"
+          "not_applicable_group": "已有全奖或企业赞助的申请人，城市成本权重可下调。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你最看重排名、就业，还是性价比？",
@@ -1233,7 +1303,9 @@
               "a": "可以，通过城市替代、项目替代和时间线前置降低压力。"
             }
           ],
-          "closing_summary": "预算不是限制，而是筛选最优路径的工具。"
+          "closing_summary": "预算不是限制，而是筛选最优路径的工具。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "强调现金流安全，避免开学后被动兼职。",
@@ -1245,14 +1317,17 @@
           "source_refs": [
             "SRC-UCAS-LIVING-COST-2026",
             "SRC-UK-STUDENT-MONEY",
-            "SRC-UK-IHS-2026"
+            "SRC-UK-IHS-2026",
+            "SRC-UK-STUDENT-VISA-PAGE-2026"
           ],
           "data_points": [
             "UCAS给出的生活成本通常区间约为每月£1,100-£1,400。",
             "学生签财力证明伦敦每月£1,529，非伦敦每月£1,171。",
-            "学生签医疗附加费当前常见标准为£776/年。"
+            "学生签医疗附加费当前常见标准为£776/年。",
+            "截至2026-02-18核验，英国Student visa申请费为£524（境外/境内同口径）。"
           ],
-          "not_applicable_group": "有稳定境外收入或企业外派资助人群，预算模型可采用不同现金流假设。"
+          "not_applicable_group": "有稳定境外收入或企业外派资助人群，预算模型可采用不同现金流假设。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在预算是总额思维，还是按月现金流思维？",
@@ -1327,7 +1402,9 @@
               "a": "先做经历，再写文书；文书是呈现，不是创造。"
             }
           ],
-          "closing_summary": "补强的核心是“让招生官看到你现在能做成什么”。"
+          "closing_summary": "补强的核心是“让招生官看到你现在能做成什么”。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "强调课程和项目证据。",
@@ -1337,12 +1414,17 @@
         "evidence_module": {
           "source_date": "2026-02-18",
           "source_refs": [
-            "SRC-UK-STUDY-VISA-2025"
+            "SRC-UK-STUDY-VISA-2025",
+            "SRC-UK-STUDENT-VISA-PAGE-2026",
+            "SRC-UK-STUDENT-MONEY"
           ],
           "data_points": [
-            "英国学习签证体量高位意味着申请策略分化更明显，单一分数优势不足以形成稳定竞争力。"
+            "英国学习签证体量高位意味着申请策略分化更明显，单一分数优势不足以形成稳定竞争力。",
+            "截至2026-02-18核验，英国Student visa申请费为£524（境外/境内同口径）。",
+            "截至2026-02-18核验，学生IHS为£776/年。"
           ],
-          "not_applicable_group": "科研型申请或博士方向申请者，其证据重点应转向研究能力而非通用项目经历。"
+          "not_applicable_group": "科研型申请或博士方向申请者，其证据重点应转向研究能力而非通用项目经历。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你目前最大的短板是GPA、语言，还是实习经历？",
@@ -1417,7 +1499,9 @@
               "a": "模板是结构，不是内容；证据和目标路径决定差异化。"
             }
           ],
-          "closing_summary": "文书是“证据组织能力”的体现，不是写作比赛。"
+          "closing_summary": "文书是“证据组织能力”的体现，不是写作比赛。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "强调课程与实习证据。",
@@ -1427,12 +1511,17 @@
         "evidence_module": {
           "source_date": "2026-02-18",
           "source_refs": [
-            "SRC-UK-STUDY-VISA-2025"
+            "SRC-UK-STUDY-VISA-2025",
+            "SRC-UK-STUDENT-VISA-PAGE-2026",
+            "SRC-UK-STUDENT-MONEY"
           ],
           "data_points": [
-            "在同质化申请环境下，文书的结构化表达直接影响“可读性与可信度”判断。"
+            "在同质化申请环境下，文书的结构化表达直接影响“可读性与可信度”判断。",
+            "截至2026-02-18核验，英国Student visa申请费为£524（境外/境内同口径）。",
+            "截至2026-02-18核验，学生IHS为£776/年。"
           ],
-          "not_applicable_group": "研究型申请者需同步补充研究计划与学术写作证据。"
+          "not_applicable_group": "研究型申请者需同步补充研究计划与学术写作证据。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你文书现在最卡的是结构、证据还是职业目标？",
@@ -1507,7 +1596,9 @@
               "a": "可以，但要提前设置放弃成本与截止时间。"
             }
           ],
-          "closing_summary": "终选不是“选最好”，而是“选最优可执行”。"
+          "closing_summary": "终选不是“选最好”，而是“选最优可执行”。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "优先看项目对第一份工作的帮助。",
@@ -1518,13 +1609,16 @@
           "source_date": "2026-02-18",
           "source_refs": [
             "SRC-UCAS-LIVING-COST-2026",
-            "SRC-UK-GRADUATE-VISA-2026"
+            "SRC-UK-GRADUATE-VISA-2026",
+            "SRC-UK-STUDENT-VISA-PAGE-2026"
           ],
           "data_points": [
             "生活成本区间差异会显著改变项目总成本，建议纳入Offer加权模型。",
-            "毕业后签证窗口政策时间点（2026-12-31/2027-01-01）会影响长期路径预期。"
+            "毕业后签证窗口政策时间点（2026-12-31/2027-01-01）会影响长期路径预期。",
+            "截至2026-02-18核验，英国Student visa申请费为£524（境外/境内同口径）。"
           ],
-          "not_applicable_group": "已确定回国且不考虑海外就业签证的人群，可降低签证维度权重。"
+          "not_applicable_group": "已确定回国且不考虑海外就业签证的人群，可降低签证维度权重。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在纠结的是排名、城市还是就业去向？",
@@ -1599,7 +1693,9 @@
               "a": "一年制场景通常要并行推进，优先保证可转正或可量化成果岗位。"
             }
           ],
-          "closing_summary": "求职最怕拖延，时间线就是你的安全垫。"
+          "closing_summary": "求职最怕拖延，时间线就是你的安全垫。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "重点补简历与面试基本功。",
@@ -1609,13 +1705,17 @@
         "evidence_module": {
           "source_date": "2026-02-18",
           "source_refs": [
-            "SRC-UK-GRADUATE-VISA-2026"
+            "SRC-UK-GRADUATE-VISA-2026",
+            "SRC-UK-STUDENT-VISA-PAGE-2026",
+            "SRC-UK-STUDENT-MONEY"
           ],
           "data_points": [
             "截至2026-02-18官方说明显示，Graduate visa通常允许本科/硕士毕业生留英2年、博士3年。",
-            "申请费用为£880，另需按规则支付IHS，越早启动求职越能有效利用签证窗口。"
+            "申请费用为£880，另需按规则支付IHS，越早启动求职越能有效利用签证窗口。",
+            "截至2026-02-18核验，英国Student visa申请费为£524（境外/境内同口径）。"
           ],
-          "not_applicable_group": "仅计划回国且已有确定工作机会的人群，可弱化留英路径动作。"
+          "not_applicable_group": "仅计划回国且已有确定工作机会的人群，可弱化留英路径动作。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在是担心没机会，还是不知道怎么排节奏？",
@@ -1690,7 +1790,9 @@
               "a": "可以，策略上要强化项目匹配与证据表达。"
             }
           ],
-          "closing_summary": "适配优先于热度，热度不能替代结果。"
+          "closing_summary": "适配优先于热度，热度不能替代结果。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "重点看第一份工作落地效率。",
@@ -1706,9 +1808,11 @@
           ],
           "data_points": [
             "截至2024年12月31日，IANG累计获批超过16万人次。",
-            "IANG签证安排常见为2-3-3续期路径，且毕业生可先留港再求职。"
+            "IANG签证安排常见为2-3-3续期路径，且毕业生可先留港再求职。",
+            "截至2026-02-18核验，IANG首签通常为24个月。"
           ],
-          "not_applicable_group": "仅计划回内地体制内或本地强绑定岗位的人群，港硕路径优势较弱。"
+          "not_applicable_group": "仅计划回内地体制内或本地强绑定岗位的人群，港硕路径优势较弱。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你更看重港硕的品牌、地理位置，还是就业机会？",
@@ -1783,7 +1887,9 @@
               "a": "建议，能提高结果稳定性与议价空间。"
             }
           ],
-          "closing_summary": "先项目后学校，决策更稳。"
+          "closing_summary": "先项目后学校，决策更稳。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "看课程与实习接口。",
@@ -1799,9 +1905,11 @@
           ],
           "data_points": [
             "香港毕业生留港与回内地路径并行可行，项目类型将直接影响可执行度。",
-            "部分院校就业调查显示总体就业率高位，但行业和项目间差异仍大。"
+            "部分院校就业调查显示总体就业率高位，但行业和项目间差异仍大。",
+            "截至2026-02-18核验，IANG首签通常为24个月。"
           ],
-          "not_applicable_group": "已经拿到企业定向录用的人群，可降低项目就业去向权重。"
+          "not_applicable_group": "已经拿到企业定向录用的人群，可降低项目就业去向权重。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在更看重学校品牌，还是项目课程和就业接口？",
@@ -1876,7 +1984,9 @@
               "a": "并行推进，文书先做框架，语言按考试节奏推进。"
             }
           ],
-          "closing_summary": "时间线不是日历，而是你的录取杠杆。"
+          "closing_summary": "时间线不是日历，而是你的录取杠杆。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "优先建立材料完成节奏。",
@@ -1887,12 +1997,16 @@
           "source_date": "2026-02-18",
           "source_refs": [
             "SRC-HK-IANG-GUIDEBOOK-2025",
-            "SRC-HK-STUDY-VISA-2026"
+            "SRC-HK-STUDY-VISA-2026",
+            "SRC-HK-IANG-2026"
           ],
           "data_points": [
-            "香港项目申请与后续留港安排需衔接，越早规划越能提高路径稳定性。"
+            "香港项目申请与后续留港安排需衔接，越早规划越能提高路径稳定性。",
+            "截至2026-02-18核验，IANG首签通常为24个月。",
+            "根据香港入境处2024年年报，学生签证/进入许可签发量为74,466。"
           ],
-          "not_applicable_group": "已完成核心材料并有稳定推荐关系者，倒排压力较小。"
+          "not_applicable_group": "已完成核心材料并有稳定推荐关系者，倒排压力较小。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在卡在材料准备，还是时间安排？",
@@ -1967,7 +2081,9 @@
               "a": "会，但可通过先修与项目经历显著降低难度。"
             }
           ],
-          "closing_summary": "你不能改过去的分数，但能改现在的证据质量。"
+          "closing_summary": "你不能改过去的分数，但能改现在的证据质量。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "补项目与课程证据。",
@@ -1978,12 +2094,16 @@
           "source_date": "2026-02-18",
           "source_refs": [
             "SRC-HK-IANG-ANNUAL-2024",
-            "SRC-HK-IANG-GUIDEBOOK-2025"
+            "SRC-HK-IANG-GUIDEBOOK-2025",
+            "SRC-HK-STUDY-VISA-2026"
           ],
           "data_points": [
-            "香港研究生路径的吸引力持续存在，申请竞争下“证据质量”比“情绪描述”更关键。"
+            "香港研究生路径的吸引力持续存在，申请竞争下“证据质量”比“情绪描述”更关键。",
+            "截至2026-02-18核验，IANG首签通常为24个月。",
+            "根据香港入境处2024年年报，学生签证/进入许可签发量为74,466。"
           ],
-          "not_applicable_group": "目标为研究型硕博申请者，证据体系应以科研能力为主。"
+          "not_applicable_group": "目标为研究型硕博申请者，证据体系应以科研能力为主。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你最担心的是院校背景、GPA还是转专业？",
@@ -2058,7 +2178,9 @@
               "a": "建议必须准备，否则后期行动会受限。"
             }
           ],
-          "closing_summary": "预算不是压制选择，而是保护执行。"
+          "closing_summary": "预算不是压制选择，而是保护执行。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "强调现金流连续性。",
@@ -2069,12 +2191,16 @@
           "source_date": "2026-02-18",
           "source_refs": [
             "SRC-HK-IANG-GUIDEBOOK-2025",
-            "SRC-HK-STUDY-VISA-2026"
+            "SRC-HK-STUDY-VISA-2026",
+            "SRC-HK-IANG-2026"
           ],
           "data_points": [
-            "香港学习与后续留港路径需要前置预算规划，预算断裂会直接影响求职节奏。"
+            "香港学习与后续留港路径需要前置预算规划，预算断裂会直接影响求职节奏。",
+            "截至2026-02-18核验，IANG首签通常为24个月。",
+            "根据香港入境处2024年年报，学生签证/进入许可签发量为74,466。"
           ],
-          "not_applicable_group": "有稳定企业赞助或家庭完全覆盖成本人群，可简化预算风险模型。"
+          "not_applicable_group": "有稳定企业赞助或家庭完全覆盖成本人群，可简化预算风险模型。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你当前预算是总额上限还是按月估算？",
@@ -2149,7 +2275,9 @@
               "a": "可记框架，不建议死背原句。"
             }
           ],
-          "closing_summary": "面试本质是“可信匹配”验证。"
+          "closing_summary": "面试本质是“可信匹配”验证。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "重点准备项目动机与成长证据。",
@@ -2160,12 +2288,16 @@
           "source_date": "2026-02-18",
           "source_refs": [
             "SRC-HK-IANG-GUIDEBOOK-2025",
-            "SRC-HK-STUDY-VISA-2026"
+            "SRC-HK-STUDY-VISA-2026",
+            "SRC-HK-IANG-2026"
           ],
           "data_points": [
-            "港硕毕业后可衔接留港路径，面试阶段的目标清晰度会影响项目对候选人的匹配判断。"
+            "港硕毕业后可衔接留港路径，面试阶段的目标清晰度会影响项目对候选人的匹配判断。",
+            "截至2026-02-18核验，IANG首签通常为24个月。",
+            "根据香港入境处2024年年报，学生签证/进入许可签发量为74,466。"
           ],
-          "not_applicable_group": "无面试环节项目可弱化该模块，转为文书与背景强化。"
+          "not_applicable_group": "无面试环节项目可弱化该模块，转为文书与背景强化。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你面试最怕哪类问题：自我介绍、职业规划还是追问？",
@@ -2240,7 +2372,9 @@
               "a": "建议要，提前动作可同时服务留港与回内地路径。"
             }
           ],
-          "closing_summary": "把准备前置，第一学期会轻松很多。"
+          "closing_summary": "把准备前置，第一学期会轻松很多。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "重点搭建基础求职系统。",
@@ -2251,12 +2385,16 @@
           "source_date": "2026-02-18",
           "source_refs": [
             "SRC-HK-IANG-GUIDEBOOK-2025",
-            "SRC-HK-STUDY-VISA-2026"
+            "SRC-HK-STUDY-VISA-2026",
+            "SRC-HK-IANG-2026"
           ],
           "data_points": [
-            "香港毕业后留港安排与求职节奏衔接紧密，入学前准备越充分，后续路径越稳。"
+            "香港毕业后留港安排与求职节奏衔接紧密，入学前准备越充分，后续路径越稳。",
+            "截至2026-02-18核验，IANG首签通常为24个月。",
+            "根据香港入境处2024年年报，学生签证/进入许可签发量为74,466。"
           ],
-          "not_applicable_group": "已有明确回国岗位并签约人群，可简化留港求职动作。"
+          "not_applicable_group": "已有明确回国岗位并签约人群，可简化留港求职动作。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在最担心的是签证住宿，还是开学后的求职节奏？",
@@ -2331,7 +2469,9 @@
               "a": "前期并行、后期收敛是更稳妥的策略。"
             }
           ],
-          "closing_summary": "先并行后收敛，去向选择会更从容。"
+          "closing_summary": "先并行后收敛，去向选择会更从容。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "强调岗位起点与成长曲线。",
@@ -2347,9 +2487,11 @@
           ],
           "data_points": [
             "IANG累计获批体量显示留港路径具备实际可行性。",
-            "院校就业调查显示总体就业率高位，但地区与行业选择仍需个体化判断。"
+            "院校就业调查显示总体就业率高位，但地区与行业选择仍需个体化判断。",
+            "截至2026-02-18核验，IANG首签通常为24个月。"
           ],
-          "not_applicable_group": "已签约明确地区岗位者，可跳过双路径并行阶段。"
+          "not_applicable_group": "已签约明确地区岗位者，可跳过双路径并行阶段。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你更看重岗位机会密度，还是生活成本与家庭因素？",
@@ -2424,7 +2566,9 @@
               "a": "不一定，关键是项目与岗位匹配和执行路径。"
             }
           ],
-          "closing_summary": "适配先于冲动，路径先于名气。"
+          "closing_summary": "适配先于冲动，路径先于名气。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "重点看首份工作落地概率。",
@@ -2442,9 +2586,11 @@
           "data_points": [
             "新加坡本地大学毕业生2024年全职就业起薪中位数较上一年增长约4.2%。",
             "EP薪资门槛按行业与年龄梯度执行；官方注明2027-01-01新申请、2028-01-01续签起最低门槛调整为S\\$6,000（金融业S\\$6,600）。",
-            "学生准证办理费用和签发流程有明确官方标准。"
+            "学生准证办理费用和签发流程有明确官方标准。",
+            "截至2026-02-18核验，EP月薪门槛为S$5,600（金融行业S$6,200），2027年新申请提升至S$6,000/S$6,600。"
           ],
-          "not_applicable_group": "明确不考虑海外就业且仅为短期学历提升的人群，可降低留新维度权重。"
+          "not_applicable_group": "明确不考虑海外就业且仅为短期学历提升的人群，可降低留新维度权重。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你更看重新加坡的就业机会，还是学习效率？",
@@ -2519,7 +2665,9 @@
               "a": "可行，但要保证叙事和技能衔接。"
             }
           ],
-          "closing_summary": "先岗位后学校，路径更稳。"
+          "closing_summary": "先岗位后学校，路径更稳。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "关注课程与校友资源。",
@@ -2529,12 +2677,17 @@
         "evidence_module": {
           "source_date": "2026-02-18",
           "source_refs": [
-            "SRC-SG-JAUGES-2025"
+            "SRC-SG-JAUGES-2025",
+            "SRC-SG-MOM-EP-ELIGIBILITY-2026",
+            "SRC-SG-ICA-STP-COLLECT-2026"
           ],
           "data_points": [
-            "毕业生就业数据存在学科差异，选校时需避免“平均值误导”。"
+            "毕业生就业数据存在学科差异，选校时需避免“平均值误导”。",
+            "截至2026-02-18核验，EP月薪门槛为S$5,600（金融行业S$6,200），2027年新申请提升至S$6,000/S$6,600。",
+            "截至2026-02-18核验，Student's Pass签发费S$60；如适用多次入境签证费S$30。"
           ],
-          "not_applicable_group": "目标纯学术研究路径人群，应转向研究资源评估模型。"
+          "not_applicable_group": "目标纯学术研究路径人群，应转向研究资源评估模型。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在最纠结的是学校品牌，还是项目匹配？",
@@ -2609,7 +2762,9 @@
               "a": "优先找了解你工作或学习表现的人。"
             }
           ],
-          "closing_summary": "材料是一套系统，不是散件集合。"
+          "closing_summary": "材料是一套系统，不是散件集合。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "强调课程与项目证据。",
@@ -2619,12 +2774,17 @@
         "evidence_module": {
           "source_date": "2026-02-18",
           "source_refs": [
-            "SRC-SG-JAUGES-2025"
+            "SRC-SG-JAUGES-2025",
+            "SRC-SG-MOM-EP-ELIGIBILITY-2026",
+            "SRC-SG-ICA-STP-COLLECT-2026"
           ],
           "data_points": [
-            "就业导向项目对材料中的岗位匹配证据更敏感，单纯“齐全”难构成优势。"
+            "就业导向项目对材料中的岗位匹配证据更敏感，单纯“齐全”难构成优势。",
+            "截至2026-02-18核验，EP月薪门槛为S$5,600（金融行业S$6,200），2027年新申请提升至S$6,000/S$6,600。",
+            "截至2026-02-18核验，Student's Pass签发费S$60；如适用多次入境签证费S$30。"
           ],
-          "not_applicable_group": "纯研究导向项目应增加研究计划与学术能力证据。"
+          "not_applicable_group": "纯研究导向项目应增加研究计划与学术能力证据。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在材料卡在文书、推荐信，还是经历证据？",
@@ -2699,7 +2859,9 @@
               "a": "可以，但需要更精细的项目和生活成本管理。"
             }
           ],
-          "closing_summary": "预算越现实，执行越稳定。"
+          "closing_summary": "预算越现实，执行越稳定。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "强调家庭现金流压力管理。",
@@ -2709,12 +2871,17 @@
         "evidence_module": {
           "source_date": "2026-02-18",
           "source_refs": [
-            "SRC-SG-ICA-STP-2025"
+            "SRC-SG-ICA-STP-2025",
+            "SRC-SG-MOM-EP-ELIGIBILITY-2026",
+            "SRC-SG-ICA-STP-COLLECT-2026"
           ],
           "data_points": [
-            "学生准证办理费用与签发流程有明确规定，预算应将签证行政成本纳入固定项。"
+            "学生准证办理费用与签发流程有明确规定，预算应将签证行政成本纳入固定项。",
+            "截至2026-02-18核验，EP月薪门槛为S$5,600（金融行业S$6,200），2027年新申请提升至S$6,000/S$6,600。",
+            "截至2026-02-18核验，Student's Pass签发费S$60；如适用多次入境签证费S$30。"
           ],
-          "not_applicable_group": "全奖或企业资助人群可简化预算模型。"
+          "not_applicable_group": "全奖或企业资助人群可简化预算模型。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你预算更担心学费，还是生活费波动？",
@@ -2789,7 +2956,9 @@
               "a": "会冲突，所以更需要周节奏管理。"
             }
           ],
-          "closing_summary": "先抢节奏，再拼能力。"
+          "closing_summary": "先抢节奏，再拼能力。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "重点补求职基本功。",
@@ -2805,9 +2974,11 @@
           ],
           "data_points": [
             "就业市场存在岗位与薪资门槛，且2027-01-01新申请、2028-01-01续签起EP最低薪资门槛上调至S\\$6,000（金融业S\\$6,600）。",
-            "毕业生薪资中位数变化提示“岗位能力证据”仍是关键。"
+            "毕业生薪资中位数变化提示“岗位能力证据”仍是关键。",
+            "截至2026-02-18核验，EP月薪门槛为S$5,600（金融行业S$6,200），2027年新申请提升至S$6,000/S$6,600。"
           ],
-          "not_applicable_group": "已有确定回国工作机会且不考虑留新的人群。"
+          "not_applicable_group": "已有确定回国工作机会且不考虑留新的人群。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你是担心留新门槛，还是不知道如何排节奏？",
@@ -2882,7 +3053,9 @@
               "a": "会增加前期难度，但可通过证据和节奏管理降低风险。"
             }
           ],
-          "closing_summary": "转专业的核心不是“敢转”，而是“能转成”。"
+          "closing_summary": "转专业的核心不是“敢转”，而是“能转成”。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "重点补课程证据。",
@@ -2892,12 +3065,17 @@
         "evidence_module": {
           "source_date": "2026-02-18",
           "source_refs": [
-            "SRC-SG-JAUGES-2025"
+            "SRC-SG-JAUGES-2025",
+            "SRC-SG-MOM-EP-ELIGIBILITY-2026",
+            "SRC-SG-ICA-STP-COLLECT-2026"
           ],
           "data_points": [
-            "就业导向环境下，跨专业申请更依赖证据链完整性而非动机描述。"
+            "就业导向环境下，跨专业申请更依赖证据链完整性而非动机描述。",
+            "截至2026-02-18核验，EP月薪门槛为S$5,600（金融行业S$6,200），2027年新申请提升至S$6,000/S$6,600。",
+            "截至2026-02-18核验，Student's Pass签发费S$60；如适用多次入境签证费S$30。"
           ],
-          "not_applicable_group": "同专业直申且背景强匹配者，可简化叙事补强模块。"
+          "not_applicable_group": "同专业直申且背景强匹配者，可简化叙事补强模块。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在转专业最大的难点是先修课，还是文书叙事？",
@@ -2972,7 +3150,9 @@
               "a": "不会，关键是把海外经历转化为岗位相关能力。"
             }
           ],
-          "closing_summary": "先并行再聚焦，去向决策更稳。"
+          "closing_summary": "先并行再聚焦，去向决策更稳。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "关注第一份工作成长速度。",
@@ -2988,9 +3168,11 @@
           ],
           "data_points": [
             "留新路径与岗位薪资门槛强相关，且2027年EP门槛上调会抬高低起薪岗位难度。",
-            "就业数据提示岗位与专业匹配对结果影响显著。"
+            "就业数据提示岗位与专业匹配对结果影响显著。",
+            "截至2026-02-18核验，EP月薪门槛为S$5,600（金融行业S$6,200），2027年新申请提升至S$6,000/S$6,600。"
           ],
-          "not_applicable_group": "已拿到明确地区offer人群，可直接进入签约与落地规划。"
+          "not_applicable_group": "已拿到明确地区offer人群，可直接进入签约与落地规划。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你更倾向留新，还是回国？",
@@ -3065,7 +3247,9 @@
               "a": "可控，但需提前纳入签证费和财力要求变化。"
             }
           ],
-          "closing_summary": "先看路径可执行，再看热度。"
+          "closing_summary": "先看路径可执行，再看热度。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "重点看起步岗位与预算平衡。",
@@ -3083,9 +3267,11 @@
           "data_points": [
             "澳洲学生签费用在2024年7月1日上调至AUD 1,600后，官方页面显示自2025年7月1日起进一步提高至AUD 2,000。",
             "财力要求在2024年5月上调至AUD 29,710。",
-            "2024年3月起学生签引入Genuine Student要求，申请评估更注重真实学习意图。"
+            "2024年3月起学生签引入Genuine Student要求，申请评估更注重真实学习意图。",
+            "截至2026-02-18核验，澳洲学生签证（subclass 500）申请费为AUD 2,000。"
           ],
-          "not_applicable_group": "持有长期本地工作机会且不依赖学生签路径者，可采用不同评估模型。"
+          "not_applicable_group": "持有长期本地工作机会且不依赖学生签路径者，可采用不同评估模型。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你更看重澳洲的就业机会，还是学习体验？",
@@ -3160,7 +3346,9 @@
               "a": "预算敏感时优先城市可执行性，再看学校层级。"
             }
           ],
-          "closing_summary": "组合思维，比名校执念更有效。"
+          "closing_summary": "组合思维，比名校执念更有效。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "关注就业入口和实习资源。",
@@ -3171,13 +3359,16 @@
           "source_date": "2026-02-18",
           "source_refs": [
             "SRC-AU-STUDENT-VISA-FEE-2024",
-            "SRC-AU-LIVING-COST-2025"
+            "SRC-AU-LIVING-COST-2025",
+            "SRC-AU-STUDYAU-STUDENT-VISA-FEE-2025"
           ],
           "data_points": [
             "申请与就读成本上行背景下，城市与项目组合对总成本影响更大。",
-            "Study Australia官方信息强调地区间生活成本差异，应纳入选校模型。"
+            "Study Australia官方信息强调地区间生活成本差异，应纳入选校模型。",
+            "截至2026-02-18核验，澳洲学生签证（subclass 500）申请费为AUD 2,000。"
           ],
-          "not_applicable_group": "预算充足且目标明确单一项目者，可降低成本维度权重。"
+          "not_applicable_group": "预算充足且目标明确单一项目者，可降低成本维度权重。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在是卡在学校层级，还是城市选择？",
@@ -3252,7 +3443,9 @@
               "a": "可行，但要确保核心材料质量不掉线。"
             }
           ],
-          "closing_summary": "时间线是申请质量放大器。"
+          "closing_summary": "时间线是申请质量放大器。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "重点补执行节奏和自律机制。",
@@ -3262,12 +3455,17 @@
         "evidence_module": {
           "source_date": "2026-02-18",
           "source_refs": [
-            "SRC-AU-GENUINE-STUDENT-2024"
+            "SRC-AU-GENUINE-STUDENT-2024",
+            "SRC-AU-STUDYAU-STUDENT-VISA-FEE-2025",
+            "SRC-AU-LIVING-COST-2025"
           ],
           "data_points": [
-            "Genuine Student评估强化后，申请材料一致性与真实性比“赶时间”更关键。"
+            "Genuine Student评估强化后，申请材料一致性与真实性比“赶时间”更关键。",
+            "截至2026-02-18核验，澳洲学生签证（subclass 500）申请费为AUD 2,000。",
+            "截至2026-02-18核验，12个月生活费参考口径为AUD 29,710。"
           ],
-          "not_applicable_group": "已完成高质量材料并有专业顾问持续跟进者，时间风险相对可控。"
+          "not_applicable_group": "已完成高质量材料并有专业顾问持续跟进者，时间风险相对可控。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在卡在时间安排，还是材料准备？",
@@ -3342,7 +3540,9 @@
               "a": "至少做到月度层级，包含应急缓冲。"
             }
           ],
-          "closing_summary": "城市决策越理性，后续执行越轻松。"
+          "closing_summary": "城市决策越理性，后续执行越轻松。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "重点看预算稳定性。",
@@ -3359,9 +3559,11 @@
           "data_points": [
             "Study Australia官方信息强调地区生活成本差异，需纳入城市决策。",
             "学生签证申请费提高至AUD 2,000后，预算模型需同步上调固定成本项。",
-            "财力要求上调后，预算冗余不足会放大执行风险。"
+            "财力要求上调后，预算冗余不足会放大执行风险。",
+            "截至2026-02-18核验，澳洲学生签证（subclass 500）申请费为AUD 2,000。"
           ],
-          "not_applicable_group": "获得稳定生活补贴或家庭长期支持者，可适度降低预算敏感性。"
+          "not_applicable_group": "获得稳定生活补贴或家庭长期支持者，可适度降低预算敏感性。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你更担心学费，还是不同城市生活成本差异？",
@@ -3436,7 +3638,9 @@
               "a": "要，但不能以牺牲岗位相关度为代价。"
             }
           ],
-          "closing_summary": "课程服务岗位，岗位定义课程。"
+          "closing_summary": "课程服务岗位，岗位定义课程。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "重点构建第一份简历证据。",
@@ -3446,12 +3650,17 @@
         "evidence_module": {
           "source_date": "2026-02-18",
           "source_refs": [
-            "SRC-AU-QILT-GOS-2024"
+            "SRC-AU-QILT-GOS-2024",
+            "SRC-AU-STUDYAU-STUDENT-VISA-FEE-2025",
+            "SRC-AU-GENUINE-STUDENT-2024"
           ],
           "data_points": [
-            "QILT毕业生成果调查覆盖样本超过11.7万人，显示就业结果与学习体验、实践能力培养密切相关。"
+            "QILT毕业生成果调查覆盖样本超过11.7万人，显示就业结果与学习体验、实践能力培养密切相关。",
+            "截至2026-02-18核验，澳洲学生签证（subclass 500）申请费为AUD 2,000。",
+            "截至2026-02-18核验，12个月生活费参考口径为AUD 29,710。"
           ],
-          "not_applicable_group": "纯学术导向或继续读博路径者，可下调岗位映射权重。"
+          "not_applicable_group": "纯学术导向或继续读博路径者，可下调岗位映射权重。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在选课更偏“好过”，还是偏“岗位匹配”？",
@@ -3526,7 +3735,9 @@
               "a": "建议结合岗位数量和质量，保持持续而非一次性冲量。"
             }
           ],
-          "closing_summary": "求职不是爆发赛，是节奏赛。"
+          "closing_summary": "求职不是爆发赛，是节奏赛。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "重点补求职方法论。",
@@ -3536,12 +3747,17 @@
         "evidence_module": {
           "source_date": "2026-02-18",
           "source_refs": [
-            "SRC-AU-QILT-GOS-2024"
+            "SRC-AU-QILT-GOS-2024",
+            "SRC-AU-STUDYAU-STUDENT-VISA-FEE-2025",
+            "SRC-AU-GENUINE-STUDENT-2024"
           ],
           "data_points": [
-            "QILT毕业生调查显示就业结果受实践准备度影响明显，提前实习布局有现实价值。"
+            "QILT毕业生调查显示就业结果受实践准备度影响明显，提前实习布局有现实价值。",
+            "截至2026-02-18核验，澳洲学生签证（subclass 500）申请费为AUD 2,000。",
+            "截至2026-02-18核验，12个月生活费参考口径为AUD 29,710。"
           ],
-          "not_applicable_group": "已获得明确全职offer者，可缩减实习冲刺动作。"
+          "not_applicable_group": "已获得明确全职offer者，可缩减实习冲刺动作。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在找实习最大的卡点是简历、投递，还是面试？",
@@ -3616,7 +3832,9 @@
               "a": "用执行难度和风险暴露做最后区分。"
             }
           ],
-          "closing_summary": "终选的目标不是“最亮眼”，而是“最能跑出结果”。"
+          "closing_summary": "终选的目标不是“最亮眼”，而是“最能跑出结果”。",
+          "data_verification_label": "数据核验日期：2026-02-18（政策类每30天复核，院校DDL每60天复核）",
+          "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
         },
         "persona_variants": {
           "fresh_grad": "关注第一份工作可达性。",
@@ -3628,13 +3846,16 @@
           "source_refs": [
             "SRC-AU-STUDENT-VISA-FEE-2024",
             "SRC-AU-STUDENT-CAPACITY-2024",
-            "SRC-AU-QILT-GOS-2024"
+            "SRC-AU-QILT-GOS-2024",
+            "SRC-AU-STUDYAU-STUDENT-VISA-FEE-2025"
           ],
           "data_points": [
             "签证和财力要求调整会改变项目总成本，终选必须纳入政策成本变量。",
-            "毕业生就业结果数据提示课程与实践匹配度对结果影响显著。"
+            "毕业生就业结果数据提示课程与实践匹配度对结果影响显著。",
+            "截至2026-02-18核验，澳洲学生签证（subclass 500）申请费为AUD 2,000。"
           ],
-          "not_applicable_group": "已明确单一去向并预算充足者，可简化四步法为两步法。"
+          "not_applicable_group": "已明确单一去向并预算充足者，可简化四步法为两步法。",
+          "verification_method": "official_source_recheck_30d_or_60d"
         },
         "comment_followup_scripts": {
           "q1": "你现在纠结的是课程匹配、预算压力还是城市选择？",
@@ -3694,9 +3915,9 @@
         "case_proof": {
           "case_id": "CASE-UK-001",
           "proof_type": "预算测算截图+去标识执行清单",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "隐去姓名、学校和联系方式。"
+          "proof_note": "隐去姓名、学校和联系方式。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A02",
@@ -3709,7 +3930,8 @@
           "wrong_action": "先交申请费后补预算，结果中途发现现金流无法覆盖学费+生活费。",
           "stop_loss_action": "立刻暂停新增投递，先完成保守版/进取版两套现金流表，再重排冲稳保。",
           "reusable_checkpoint": "决策前必须完成“总成本、机会成本、回本周期”三项并写出止损阈值。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A02",
@@ -3747,9 +3969,9 @@
         "case_proof": {
           "case_id": "CASE-UK-002",
           "proof_type": "自测结果截图+补强计划截图",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "自测分数可做区间展示。"
+          "proof_note": "自测分数可做区间展示。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A03",
@@ -3762,7 +3984,8 @@
           "wrong_action": "先定院校后补执行计划，入学后才发现课程与求职冲突。",
           "stop_loss_action": "用“时间投入/岗位要求/预算承受”三项重做适配打分，低于阈值直接降级方案。",
           "reusable_checkpoint": "一年制决策必须通过“目标岗位明确+12周执行计划+预算冗余”三项门槛。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A03",
@@ -3800,9 +4023,9 @@
         "case_proof": {
           "case_id": "CASE-UK-003",
           "proof_type": "项目打分表前后对比图",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "展示分数变化，不展示真实院校名。"
+          "proof_note": "展示分数变化，不展示真实院校名。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A05",
@@ -3815,7 +4038,8 @@
           "wrong_action": "全部冲名校热门项目，导致offer质量和可执行性都偏低。",
           "stop_loss_action": "按“课程匹配/城市成本/录取概率/就业去向”四维重新打分，强制留出稳保位。",
           "reusable_checkpoint": "每次改名单都要保留冲稳保比例，并记录替换原因。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A04",
@@ -3853,9 +4077,9 @@
         "case_proof": {
           "case_id": "CASE-UK-004",
           "proof_type": "预算表模板+月度现金流表截图",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "仅展示结构，金额可区间化。"
+          "proof_note": "仅展示结构，金额可区间化。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A08",
@@ -3868,7 +4092,8 @@
           "wrong_action": "按最低开销入场，学期中现金流断裂，被迫放弃关键求职活动。",
           "stop_loss_action": "将预算拆成固定成本、弹性成本、应急金三层，至少预留3个月缓冲。",
           "reusable_checkpoint": "预算表必须包含签证费、IHS、押金和应急金，不完整不进入投递。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A05",
@@ -3906,9 +4131,9 @@
         "case_proof": {
           "case_id": "CASE-UK-005",
           "proof_type": "补强周计划+文书改前改后对比",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "展示结构，不公开个人隐私信息。"
+          "proof_note": "展示结构，不公开个人隐私信息。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A06",
@@ -3921,7 +4146,8 @@
           "wrong_action": "短期内盲目加申数量，导致每份申请证据薄弱。",
           "stop_loss_action": "冻结新增申请2周，先完成语言、实习、项目证明三类补强再恢复投递。",
           "reusable_checkpoint": "低GPA场景下每次投递前要有“补强证据清单+项目匹配说明”。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A06",
@@ -3959,9 +4185,9 @@
         "case_proof": {
           "case_id": "CASE-UK-006",
           "proof_type": "文书结构图+段落修改示例",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "示例需匿名处理。"
+          "proof_note": "示例需匿名处理。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A04",
@@ -3974,7 +4200,8 @@
           "wrong_action": "用同一份PS改校名反复投递，导致审核端认为同质化严重。",
           "stop_loss_action": "改为“经历-能力-岗位”证据链写法，每段都给出量化结果或产出。",
           "reusable_checkpoint": "文书每个核心主张必须有证据支撑，缺证据就删句重写。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A07",
@@ -4012,9 +4239,9 @@
         "case_proof": {
           "case_id": "CASE-UK-007",
           "proof_type": "终选评分表前后对照",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "学校名可做代号处理。"
+          "proof_note": "学校名可做代号处理。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "END",
@@ -4027,7 +4254,8 @@
           "wrong_action": "凭直觉秒选“名气最高”项目，入学后发现岗位匹配差。",
           "stop_loss_action": "使用4维加权表（职业匹配/总成本/资源/风险）重算总分后再确认。",
           "reusable_checkpoint": "终选必须有加权评分表和放弃理由记录，避免事后反复后悔。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A08",
@@ -4065,9 +4293,9 @@
         "case_proof": {
           "case_id": "CASE-UK-008",
           "proof_type": "求职时间线截图+周复盘模板",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "不展示候选人姓名和公司信息。"
+          "proof_note": "不展示候选人姓名和公司信息。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A07",
@@ -4080,7 +4308,8 @@
           "wrong_action": "入学后才做简历和方向确认，错过秋招关键窗口。",
           "stop_loss_action": "把求职动作前置到入学前12周，按周锁定投递、Networking、面试准备。",
           "reusable_checkpoint": "一年制项目必须在入学前完成岗位清单、简历版本和目标公司池。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A09",
@@ -4118,9 +4347,9 @@
         "case_proof": {
           "case_id": "CASE-HK-001",
           "proof_type": "适配度评分结果+去标识路径图",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "评分结果展示区间即可。"
+          "proof_note": "评分结果展示区间即可。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A10",
@@ -4133,11 +4362,12 @@
           "wrong_action": "先报名再调方向，后续发现课程和职业目标脱节。",
           "stop_loss_action": "用岗位目标、学习强度、预算承受三项重做适配，未达标先缓申。",
           "reusable_checkpoint": "港硕决策前必须写清“毕业去向优先级”和可接受成本上限。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A10",
-        "narrative_style": "framework_first",
+        "narrative_style": "qa_first",
         "seo_layer": {
           "core_keyword": "港硕选校",
           "search_intent": "方法型",
@@ -4171,9 +4401,9 @@
         "case_proof": {
           "case_id": "CASE-HK-002",
           "proof_type": "项目筛选矩阵截图",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "项目名称可脱敏。"
+          "proof_note": "项目名称可脱敏。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A11",
@@ -4186,7 +4416,8 @@
           "wrong_action": "大量投同类高竞争项目，稳定性不足。",
           "stop_loss_action": "按4步排序法重排：岗位匹配 > 录取可行性 > 成本 > 地理偏好。",
           "reusable_checkpoint": "每个项目入池前必须有“为什么适合我”的一段可验证说明。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A11",
@@ -4224,9 +4455,9 @@
         "case_proof": {
           "case_id": "CASE-HK-003",
           "proof_type": "倒排甘特图截图",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "仅展示里程碑，不展示个人信息。"
+          "proof_note": "仅展示里程碑，不展示个人信息。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A12",
@@ -4239,7 +4470,8 @@
           "wrong_action": "临近截止才集中准备，材料质量和一致性双降。",
           "stop_loss_action": "按12个月倒排拆分为月目标，至少提前8周完成核心材料定稿。",
           "reusable_checkpoint": "每个里程碑需有“完成证据”，没有证据视为未完成。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A12",
@@ -4277,9 +4509,9 @@
         "case_proof": {
           "case_id": "CASE-HK-004",
           "proof_type": "补强任务清单+结果对比截图",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "结果建议展示区间化信息。"
+          "proof_note": "结果建议展示区间化信息。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A14",
@@ -4292,7 +4524,8 @@
           "wrong_action": "大量解释分数原因，却没有行动改进和结果证明。",
           "stop_loss_action": "改成90天补强计划：课程成绩、项目产出、岗位关联证据三线并行。",
           "reusable_checkpoint": "每次提交前确认“弱项解释+补强动作+结果证据”三件套齐全。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A13",
@@ -4330,9 +4563,9 @@
         "case_proof": {
           "case_id": "CASE-HK-005",
           "proof_type": "预算结构图+现金流复盘模板",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "金额可做区间遮罩。"
+          "proof_note": "金额可做区间遮罩。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A15",
@@ -4345,7 +4578,8 @@
           "wrong_action": "按理想成本签约，后续因现实开支超支被动削减求职投入。",
           "stop_loss_action": "建立“保守/基准/进取”三档预算，先按保守档决定是否入场。",
           "reusable_checkpoint": "预算审核必须包含学费、生活费、签证费、押金、应急金5类项目。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A14",
@@ -4383,9 +4617,9 @@
         "case_proof": {
           "case_id": "CASE-HK-006",
           "proof_type": "面试题库页+录音复盘清单",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "音频文件可转文字后匿名展示。"
+          "proof_note": "音频文件可转文字后匿名展示。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A13",
@@ -4398,7 +4632,8 @@
           "wrong_action": "回答完整但无重点，无法证明你为何适配该项目。",
           "stop_loss_action": "使用3分钟闭环：背景-目标-证据-贡献，逐题录像复盘。",
           "reusable_checkpoint": "每个高频题都要有“1个事实+1个结果+1个下一步”结构。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A15",
@@ -4436,9 +4671,9 @@
         "case_proof": {
           "case_id": "CASE-HK-007",
           "proof_type": "入学前清单+周计划截图",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "去除个人行程和地址信息。"
+          "proof_note": "去除个人行程和地址信息。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A16",
@@ -4451,7 +4686,8 @@
           "wrong_action": "到港后才处理证件、住宿和求职准备，时间被事务性工作吞噬。",
           "stop_loss_action": "按7件事清单分周执行，优先证件/住宿/求职资料三大模块。",
           "reusable_checkpoint": "入学前至少完成70%可前置任务，再进入课程周期。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A16",
@@ -4489,9 +4725,9 @@
         "case_proof": {
           "case_id": "CASE-HK-008",
           "proof_type": "双路径对比表+投递记录截屏",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "公司名称可打码处理。"
+          "proof_note": "公司名称可打码处理。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "END",
@@ -4504,7 +4740,8 @@
           "wrong_action": "用“朋友都留港/都回内地”做决策依据。",
           "stop_loss_action": "改用3维模型：岗位机会、签证路径、现金流承受，逐项打分。",
           "reusable_checkpoint": "去向决策必须有可执行路径图和6个月节点计划。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A17",
@@ -4542,9 +4779,9 @@
         "case_proof": {
           "case_id": "CASE-SG-001",
           "proof_type": "适配评分卡+路径图",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "路径图建议保留关键节点即可。"
+          "proof_note": "路径图建议保留关键节点即可。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A18",
@@ -4557,11 +4794,12 @@
           "wrong_action": "先确定国家再硬凑项目，导致申请与就业都高压。",
           "stop_loss_action": "先做岗位可达性评估，再决定是否进入新加坡赛道。",
           "reusable_checkpoint": "决策前必须完成“目标岗位门槛-当前能力差距-补强周期”评估。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A18",
-        "narrative_style": "framework_first",
+        "narrative_style": "qa_first",
         "seo_layer": {
           "core_keyword": "NUS NTU SMU怎么选",
           "search_intent": "对比型",
@@ -4595,9 +4833,9 @@
         "case_proof": {
           "case_id": "CASE-SG-002",
           "proof_type": "院校比较矩阵截图",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "可使用院校代号展示。"
+          "proof_note": "可使用院校代号展示。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A19",
@@ -4610,7 +4848,8 @@
           "wrong_action": "把三个学校当同质选项，忽略项目差异。",
           "stop_loss_action": "按课程、就业资源、录取难度、预算四维对3校分别打分。",
           "reusable_checkpoint": "每个学校都要产出“最适配项目清单”，不做泛化选择。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A19",
@@ -4648,9 +4887,9 @@
         "case_proof": {
           "case_id": "CASE-SG-003",
           "proof_type": "材料一致性检查表",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "展示表格模板而非真实材料。"
+          "proof_note": "展示表格模板而非真实材料。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A22",
@@ -4663,7 +4902,8 @@
           "wrong_action": "简历和PS各讲各的，申请逻辑不一致。",
           "stop_loss_action": "先统一主叙事，再逐项检查材料一致性与证据强度。",
           "reusable_checkpoint": "提交前必须做一次“材料一致性审校”，重点核对岗位关键词。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A20",
@@ -4701,9 +4941,9 @@
         "case_proof": {
           "case_id": "CASE-SG-004",
           "proof_type": "双方案预算截图",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "金额建议展示区间化版本。"
+          "proof_note": "金额建议展示区间化版本。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A21",
@@ -4716,7 +4956,8 @@
           "wrong_action": "预算看似可行，实际执行中频繁超支。",
           "stop_loss_action": "采用双方案预算并设置10%-15%风险缓冲。",
           "reusable_checkpoint": "预算审查必须包含“固定成本+可变成本+风险缓冲”三层。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A21",
@@ -4754,9 +4995,9 @@
         "case_proof": {
           "case_id": "CASE-SG-005",
           "proof_type": "12周计划表+复盘记录",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "公司名称与联系人需打码。"
+          "proof_note": "公司名称与联系人需打码。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A23",
@@ -4769,7 +5010,8 @@
           "wrong_action": "课程和求职并行失控，错失目标岗位申请周期。",
           "stop_loss_action": "按12周计划分配课程、投递、面试准备，并每周复盘。",
           "reusable_checkpoint": "每周必须有投递数、面试进度和复盘结论三项记录。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A22",
@@ -4807,9 +5049,9 @@
         "case_proof": {
           "case_id": "CASE-SG-006",
           "proof_type": "转专业叙事模板+项目证据页",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "示例项目需脱敏。"
+          "proof_note": "示例项目需脱敏。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A20",
@@ -4822,7 +5064,8 @@
           "wrong_action": "反复强调热情，却不能证明可执行能力。",
           "stop_loss_action": "用3段叙事连接过去经历、当前能力、目标岗位，并补4类证据。",
           "reusable_checkpoint": "跨专业申请至少准备项目产出、技能证明、岗位映射、行动计划四项证据。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A23",
@@ -4860,9 +5103,9 @@
         "case_proof": {
           "case_id": "CASE-SG-007",
           "proof_type": "双路径投递看板截图",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "投递公司和个人信息脱敏。"
+          "proof_note": "投递公司和个人信息脱敏。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "END",
@@ -4875,7 +5118,8 @@
           "wrong_action": "忽视签证门槛和岗位可达性，导致后续转向成本高。",
           "stop_loss_action": "按4步终选：岗位机会、签证门槛、成本回收、长期发展逐项判断。",
           "reusable_checkpoint": "去向决策输出必须包含A/B两套备选路径和触发切换条件。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A24",
@@ -4913,9 +5157,9 @@
         "case_proof": {
           "case_id": "CASE-AU-001",
           "proof_type": "三笔账评估表+政策成本对照",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "政策截图需标注日期。"
+          "proof_note": "政策截图需标注日期。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A25",
@@ -4928,11 +5172,12 @@
           "wrong_action": "按旧成本决策，后续因政策成本上调被迫调整项目。",
           "stop_loss_action": "每次决策先更新签证与财力参数，再判断是否继续推进。",
           "reusable_checkpoint": "澳洲决策前必须核验“签证费、财力要求、工时规则”的as_of日期。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A25",
-        "narrative_style": "framework_first",
+        "narrative_style": "qa_first",
         "seo_layer": {
           "core_keyword": "澳洲八大选校",
           "search_intent": "方法型",
@@ -4966,9 +5211,9 @@
         "case_proof": {
           "case_id": "CASE-AU-002",
           "proof_type": "冲稳保组合表前后版本",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "院校名称可用代号。"
+          "proof_note": "院校名称可用代号。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A26",
@@ -4981,7 +5226,8 @@
           "wrong_action": "项目看起来体面，但课程与岗位方向不匹配。",
           "stop_loss_action": "以岗位反推项目，重新分配冲稳保并控制城市成本暴露。",
           "reusable_checkpoint": "每个入选项目都要有“岗位对应课程/实习资源”证明。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A26",
@@ -5019,9 +5265,9 @@
         "case_proof": {
           "case_id": "CASE-AU-003",
           "proof_type": "申请甘特图+里程碑完成率图",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "时间线可不含具体个人信息。"
+          "proof_note": "时间线可不含具体个人信息。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A27",
@@ -5034,7 +5280,8 @@
           "wrong_action": "压线提交导致推荐信、文书和成绩单质量下降。",
           "stop_loss_action": "按10个月倒排设置硬节点，关键材料至少提前6周定稿。",
           "reusable_checkpoint": "时间线必须绑定负责人和完成证据，防止口头进度失真。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A27",
@@ -5072,9 +5319,9 @@
         "case_proof": {
           "case_id": "CASE-AU-004",
           "proof_type": "城市成本对照表+预算复盘截图",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "具体地理位置可模糊化。"
+          "proof_note": "具体地理位置可模糊化。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A28",
@@ -5087,7 +5334,8 @@
           "wrong_action": "低房租城市看似省钱，实际求职成本更高。",
           "stop_loss_action": "按5城总成本模型重算，并将通勤与机会成本纳入评估。",
           "reusable_checkpoint": "城市决策需同步输出“总成本+岗位机会+通勤时间”三项评分。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A28",
@@ -5125,9 +5373,9 @@
         "case_proof": {
           "case_id": "CASE-AU-005",
           "proof_type": "岗位-课程映射表",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "课程代码可保留，个人信息需去除。"
+          "proof_note": "课程代码可保留，个人信息需去除。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A29",
@@ -5140,7 +5388,8 @@
           "wrong_action": "成绩不错但简历竞争力弱，求职时缺关键项目经历。",
           "stop_loss_action": "按3步反推法重排课程：岗位能力-课程映射-项目产出。",
           "reusable_checkpoint": "每学期至少保留1门可产出作品集或实战项目的课程。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A29",
@@ -5178,9 +5427,9 @@
         "case_proof": {
           "case_id": "CASE-AU-006",
           "proof_type": "12周执行看板+投递复盘表",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "企业和联系人打码。"
+          "proof_note": "企业和联系人打码。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "A30",
@@ -5193,11 +5442,12 @@
           "wrong_action": "投递数量不少但命中率低，无法定位问题。",
           "stop_loss_action": "用12周SOP建立岗位池、投递节奏、面试复盘三张表。",
           "reusable_checkpoint": "每周输出“投递-反馈-改进”闭环，否则下周不加投递量。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       },
       {
         "article_id": "A30",
-        "narrative_style": "framework_first",
+        "narrative_style": "qa_first",
         "seo_layer": {
           "core_keyword": "澳洲offer终选",
           "search_intent": "对比型",
@@ -5231,9 +5481,9 @@
         "case_proof": {
           "case_id": "CASE-AU-007",
           "proof_type": "offer加权终选表",
-          "proof_status": "bundle_template_ready_waiting_owner_upload",
+          "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
           "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
-          "proof_note": "学校名可替换为A/B/C。"
+          "proof_note": "学校名可替换为A/B/C。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
           "next_article_id": "END",
@@ -5246,187 +5496,188 @@
           "wrong_action": "短期省钱但长期机会受限，后续转向成本高。",
           "stop_loss_action": "按4步法完成终选：目标岗位、总成本、风险、可替代方案。",
           "reusable_checkpoint": "终选结论需包含“为什么选它”和“最差情况下止损计划”。"
-        }
+        },
+        "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
       }
     ],
     "article_publish_status_registry": [
       {
         "article_id": "A01",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "xiaohongshu",
         "next_publish_date": "2026-02-20"
       },
       {
         "article_id": "A02",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "wechat_official_account",
         "next_publish_date": "2026-02-21"
       },
       {
         "article_id": "A03",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "zhihu",
         "next_publish_date": "2026-02-22"
       },
       {
         "article_id": "A04",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "xiaohongshu",
         "next_publish_date": "2026-02-23"
       },
       {
         "article_id": "A05",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "wechat_official_account",
         "next_publish_date": "2026-02-24"
       },
       {
         "article_id": "A06",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "zhihu",
         "next_publish_date": "2026-02-25"
       },
       {
         "article_id": "A07",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "xiaohongshu",
         "next_publish_date": "2026-02-26"
       },
       {
         "article_id": "A08",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "wechat_official_account",
         "next_publish_date": "2026-02-27"
       },
       {
         "article_id": "A09",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "zhihu",
         "next_publish_date": "2026-02-28"
       },
       {
         "article_id": "A10",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "xiaohongshu",
         "next_publish_date": "2026-03-01"
       },
       {
         "article_id": "A11",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "wechat_official_account",
         "next_publish_date": "2026-03-02"
       },
       {
         "article_id": "A12",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "zhihu",
         "next_publish_date": "2026-03-03"
       },
       {
         "article_id": "A13",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "xiaohongshu",
         "next_publish_date": "2026-03-04"
       },
       {
         "article_id": "A14",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "wechat_official_account",
         "next_publish_date": "2026-03-05"
       },
       {
         "article_id": "A15",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "zhihu",
         "next_publish_date": "2026-03-06"
       },
       {
         "article_id": "A16",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "xiaohongshu",
         "next_publish_date": "2026-03-07"
       },
       {
         "article_id": "A17",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "wechat_official_account",
         "next_publish_date": "2026-03-08"
       },
       {
         "article_id": "A18",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "zhihu",
         "next_publish_date": "2026-03-09"
       },
       {
         "article_id": "A19",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "xiaohongshu",
         "next_publish_date": "2026-03-10"
       },
       {
         "article_id": "A20",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "wechat_official_account",
         "next_publish_date": "2026-03-11"
       },
       {
         "article_id": "A21",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "zhihu",
         "next_publish_date": "2026-03-12"
       },
       {
         "article_id": "A22",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "xiaohongshu",
         "next_publish_date": "2026-03-13"
       },
       {
         "article_id": "A23",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "wechat_official_account",
         "next_publish_date": "2026-03-14"
       },
       {
         "article_id": "A24",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "zhihu",
         "next_publish_date": "2026-03-15"
       },
       {
         "article_id": "A25",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "xiaohongshu",
         "next_publish_date": "2026-03-16"
       },
       {
         "article_id": "A26",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "wechat_official_account",
         "next_publish_date": "2026-03-17"
       },
       {
         "article_id": "A27",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "zhihu",
         "next_publish_date": "2026-03-18"
       },
       {
         "article_id": "A28",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "xiaohongshu",
         "next_publish_date": "2026-03-19"
       },
       {
         "article_id": "A29",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "wechat_official_account",
         "next_publish_date": "2026-03-20"
       },
       {
         "article_id": "A30",
-        "publish_state": "needs_case_upload",
+        "publish_state": "ready",
         "next_channel": "zhihu",
         "next_publish_date": "2026-03-21"
       }
@@ -5435,152 +5686,242 @@
       {
         "article_id": "A01",
         "scenario_result_timeline_title": "预算30-40万读英硕，7天算清值不值",
-        "risk_stoploss_title": "英硕别只看QS：先做三笔账止损"
+        "risk_stoploss_title": "英硕别只看QS：先做三笔账止损",
+        "conflict_title": "英硕别只看QS：先做三笔账止损",
+        "numeric_title": "预算30-40万读英硕，7天算清值不值",
+        "counterintuitive_title": "反常识：预算30-40万读英硕，7天算清值不值"
       },
       {
         "article_id": "A02",
         "scenario_result_timeline_title": "一年制英硕适合谁？3分钟做完适配自测",
-        "risk_stoploss_title": "一年制最怕先读再想：这3类人慎入"
+        "risk_stoploss_title": "一年制最怕先读再想：这3类人慎入",
+        "conflict_title": "一年制最怕先读再想：这3类人慎入",
+        "numeric_title": "一年制英硕适合谁？3分钟做完适配自测",
+        "counterintuitive_title": "反常识：一年制英硕适合谁？3分钟做完适配自测"
       },
       {
         "article_id": "A03",
         "scenario_result_timeline_title": "英国选校冲稳保怎么排？15分钟出首版名单",
-        "risk_stoploss_title": "全冲名校最容易翻车：选校先定止损线"
+        "risk_stoploss_title": "全冲名校最容易翻车：选校先定止损线",
+        "conflict_title": "全冲名校最容易翻车：选校先定止损线",
+        "numeric_title": "英国选校冲稳保怎么排？15分钟出首版名单",
+        "counterintuitive_title": "反常识：英国选校冲稳保怎么排？15分钟出首版名单"
       },
       {
         "article_id": "A04",
         "scenario_result_timeline_title": "英国硕士预算怎么做？1张表拆出固定与弹性成本",
-        "risk_stoploss_title": "预算表没做这一步，后期现金流最容易断"
+        "risk_stoploss_title": "预算表没做这一步，后期现金流最容易断",
+        "conflict_title": "预算表没做这一步，后期现金流最容易断",
+        "numeric_title": "英国硕士预算怎么做？1张表拆出固定与弹性成本",
+        "counterintuitive_title": "反常识：英国硕士预算怎么做？1张表拆出固定与弹性成本"
       },
       {
         "article_id": "A05",
         "scenario_result_timeline_title": "低GPA申英硕：4周补强优先级怎么排",
-        "risk_stoploss_title": "低GPA别盲冲：先补证据再投递"
+        "risk_stoploss_title": "低GPA别盲冲：先补证据再投递",
+        "conflict_title": "低GPA别盲冲：先补证据再投递",
+        "numeric_title": "低GPA申英硕：4周补强优先级怎么排",
+        "counterintuitive_title": "反常识：低GPA申英硕：4周补强优先级怎么排"
       },
       {
         "article_id": "A06",
         "scenario_result_timeline_title": "英国文书怎么写？3段结构当天就能搭好",
-        "risk_stoploss_title": "文书最常见翻车点：经历多但主线断"
+        "risk_stoploss_title": "文书最常见翻车点：经历多但主线断",
+        "conflict_title": "文书最常见翻车点：经历多但主线断",
+        "numeric_title": "英国文书怎么写？3段结构当天就能搭好",
+        "counterintuitive_title": "反常识：英国文书怎么写？3段结构当天就能搭好"
       },
       {
         "article_id": "A07",
         "scenario_result_timeline_title": "两个英国Offer怎么选？四维加权30分钟出结论",
-        "risk_stoploss_title": "Offer终选别只看排名：成本和风险才是分水岭"
+        "risk_stoploss_title": "Offer终选别只看排名：成本和风险才是分水岭",
+        "conflict_title": "Offer终选别只看排名：成本和风险才是分水岭",
+        "numeric_title": "两个英国Offer怎么选？四维加权30分钟出结论",
+        "counterintuitive_title": "反常识：两个英国Offer怎么选？四维加权30分钟出结论"
       },
       {
         "article_id": "A08",
         "scenario_result_timeline_title": "英硕求职时间线：开学前12周该做什么",
-        "risk_stoploss_title": "等开学再求职太晚：签证窗口会被浪费"
+        "risk_stoploss_title": "等开学再求职太晚：签证窗口会被浪费",
+        "conflict_title": "等开学再求职太晚：签证窗口会被浪费",
+        "numeric_title": "英硕求职时间线：开学前12周该做什么",
+        "counterintuitive_title": "反常识：英硕求职时间线：开学前12周该做什么"
       },
       {
         "article_id": "A09",
         "scenario_result_timeline_title": "港硕适配度判断：5分钟看你该不该读",
-        "risk_stoploss_title": "港硕不适合所有人：先看岗位再看热度"
+        "risk_stoploss_title": "港硕不适合所有人：先看岗位再看热度",
+        "conflict_title": "港硕不适合所有人：先看岗位再看热度",
+        "numeric_title": "港硕适配度判断：5分钟看你该不该读",
+        "counterintuitive_title": "反常识：港硕适配度判断：5分钟看你该不该读"
       },
       {
         "article_id": "A10",
         "scenario_result_timeline_title": "港硕选校怎么做？冲稳保名单一晚排完",
-        "risk_stoploss_title": "只看学校名气，港硕申请最容易走偏"
+        "risk_stoploss_title": "只看学校名气，港硕申请最容易走偏",
+        "conflict_title": "只看学校名气，港硕申请最容易走偏",
+        "numeric_title": "港硕选校怎么做？冲稳保名单一晚排完",
+        "counterintuitive_title": "反常识：港硕选校怎么做？冲稳保名单一晚排完"
       },
       {
         "article_id": "A11",
         "scenario_result_timeline_title": "港硕申请时间线：从现在到递交的倒排模板",
-        "risk_stoploss_title": "DDL还早≠来得及：晚启动会压缩材料质量"
+        "risk_stoploss_title": "DDL还早≠来得及：晚启动会压缩材料质量",
+        "conflict_title": "DDL还早≠来得及：晚启动会压缩材料质量",
+        "numeric_title": "港硕申请时间线：从现在到递交的倒排模板",
+        "counterintuitive_title": "反常识：港硕申请时间线：从现在到递交的倒排模板"
       },
       {
         "article_id": "A12",
         "scenario_result_timeline_title": "低GPA冲港硕：先补哪3项成功率更高",
-        "risk_stoploss_title": "低GPA最怕错配项目：先做风险分层"
+        "risk_stoploss_title": "低GPA最怕错配项目：先做风险分层",
+        "conflict_title": "低GPA最怕错配项目：先做风险分层",
+        "numeric_title": "低GPA冲港硕：先补哪3项成功率更高",
+        "counterintuitive_title": "反常识：低GPA冲港硕：先补哪3项成功率更高"
       },
       {
         "article_id": "A13",
         "scenario_result_timeline_title": "港硕预算怎么控？双方案避免开学后超支",
-        "risk_stoploss_title": "预算只做理想版，港硕后期最容易被动"
+        "risk_stoploss_title": "预算只做理想版，港硕后期最容易被动",
+        "conflict_title": "预算只做理想版，港硕后期最容易被动",
+        "numeric_title": "港硕预算怎么控？双方案避免开学后超支",
+        "counterintuitive_title": "反常识：港硕预算怎么控？双方案避免开学后超支"
       },
       {
         "article_id": "A14",
         "scenario_result_timeline_title": "港硕面试3分钟闭环：当天就能练起来",
-        "risk_stoploss_title": "面试翻车多因话术散：先搭证据闭环"
+        "risk_stoploss_title": "面试翻车多因话术散：先搭证据闭环",
+        "conflict_title": "面试翻车多因话术散：先搭证据闭环",
+        "numeric_title": "港硕面试3分钟闭环：当天就能练起来",
+        "counterintuitive_title": "反常识：港硕面试3分钟闭环：当天就能练起来"
       },
       {
         "article_id": "A15",
         "scenario_result_timeline_title": "拿到港硕Offer后，入学前7件事怎么排",
-        "risk_stoploss_title": "只办手续不做求职，第一学期最容易失速"
+        "risk_stoploss_title": "只办手续不做求职，第一学期最容易失速",
+        "conflict_title": "只办手续不做求职，第一学期最容易失速",
+        "numeric_title": "拿到港硕Offer后，入学前7件事怎么排",
+        "counterintuitive_title": "反常识：拿到港硕Offer后，入学前7件事怎么排"
       },
       {
         "article_id": "A16",
         "scenario_result_timeline_title": "港硕留港还是回内地？双路径4周并行法",
-        "risk_stoploss_title": "只押单一路径，去向决策风险会被放大"
+        "risk_stoploss_title": "只押单一路径，去向决策风险会被放大",
+        "conflict_title": "只押单一路径，去向决策风险会被放大",
+        "numeric_title": "港硕留港还是回内地？双路径4周并行法",
+        "counterintuitive_title": "反常识：港硕留港还是回内地？双路径4周并行法"
       },
       {
         "article_id": "A17",
         "scenario_result_timeline_title": "新加坡授课硕士值不值？先做岗位适配打分",
-        "risk_stoploss_title": "留新可行性不评估，决策最容易后悔"
+        "risk_stoploss_title": "留新可行性不评估，决策最容易后悔",
+        "conflict_title": "留新可行性不评估，决策最容易后悔",
+        "numeric_title": "新加坡授课硕士值不值？先做岗位适配打分",
+        "counterintuitive_title": "反常识：新加坡授课硕士值不值？先做岗位适配打分"
       },
       {
         "article_id": "A18",
         "scenario_result_timeline_title": "NUS/NTU/SMU怎么选？岗位导向一表筛完",
-        "risk_stoploss_title": "学校好≠项目合适：别被综排误导"
+        "risk_stoploss_title": "学校好≠项目合适：别被综排误导",
+        "conflict_title": "学校好≠项目合适：别被综排误导",
+        "numeric_title": "NUS/NTU/SMU怎么选？岗位导向一表筛完",
+        "counterintuitive_title": "反常识：NUS/NTU/SMU怎么选？岗位导向一表筛完"
       },
       {
         "article_id": "A19",
         "scenario_result_timeline_title": "新加坡申请材料清单：1次做完一致性体检",
-        "risk_stoploss_title": "材料齐全但叙事断裂，最容易被拒"
+        "risk_stoploss_title": "材料齐全但叙事断裂，最容易被拒",
+        "conflict_title": "材料齐全但叙事断裂，最容易被拒",
+        "numeric_title": "新加坡申请材料清单：1次做完一致性体检",
+        "counterintuitive_title": "反常识：新加坡申请材料清单：1次做完一致性体检"
       },
       {
         "article_id": "A20",
         "scenario_result_timeline_title": "新加坡预算双方案：无奖学金也能稳住现金流",
-        "risk_stoploss_title": "把奖学金当底盘，预算风险会被低估"
+        "risk_stoploss_title": "把奖学金当底盘，预算风险会被低估",
+        "conflict_title": "把奖学金当底盘，预算风险会被低估",
+        "numeric_title": "新加坡预算双方案：无奖学金也能稳住现金流",
+        "counterintuitive_title": "反常识：新加坡预算双方案：无奖学金也能稳住现金流"
       },
       {
         "article_id": "A21",
         "scenario_result_timeline_title": "新加坡求职窗口短：12周节奏怎么跑",
-        "risk_stoploss_title": "求职晚启动，岗位窗口会快速关闭"
+        "risk_stoploss_title": "求职晚启动，岗位窗口会快速关闭",
+        "conflict_title": "求职晚启动，岗位窗口会快速关闭",
+        "numeric_title": "新加坡求职窗口短：12周节奏怎么跑",
+        "counterintuitive_title": "反常识：新加坡求职窗口短：12周节奏怎么跑"
       },
       {
         "article_id": "A22",
         "scenario_result_timeline_title": "跨专业申新加坡：三段叙事框架当天可套用",
-        "risk_stoploss_title": "只讲动机不讲证据，转专业最容易翻车"
+        "risk_stoploss_title": "只讲动机不讲证据，转专业最容易翻车",
+        "conflict_title": "只讲动机不讲证据，转专业最容易翻车",
+        "numeric_title": "跨专业申新加坡：三段叙事框架当天可套用",
+        "counterintuitive_title": "反常识：跨专业申新加坡：三段叙事框架当天可套用"
       },
       {
         "article_id": "A23",
         "scenario_result_timeline_title": "新加坡留新还是回国？双路径终选表这样用",
-        "risk_stoploss_title": "去向只看情绪不看门槛，决策代价会变高"
+        "risk_stoploss_title": "去向只看情绪不看门槛，决策代价会变高",
+        "conflict_title": "去向只看情绪不看门槛，决策代价会变高",
+        "numeric_title": "新加坡留新还是回国？双路径终选表这样用",
+        "counterintuitive_title": "反常识：新加坡留新还是回国？双路径终选表这样用"
       },
       {
         "article_id": "A24",
         "scenario_result_timeline_title": "澳洲授课硕士值不值？一张表算清政策和成本",
-        "risk_stoploss_title": "跟风申请澳洲，最容易忽略签证成本变化"
+        "risk_stoploss_title": "跟风申请澳洲，最容易忽略签证成本变化",
+        "conflict_title": "跟风申请澳洲，最容易忽略签证成本变化",
+        "numeric_title": "澳洲授课硕士值不值？一张表算清政策和成本",
+        "counterintuitive_title": "反常识：澳洲授课硕士值不值？一张表算清政策和成本"
       },
       {
         "article_id": "A25",
         "scenario_result_timeline_title": "澳洲八大选校：冲稳保组合48小时定稿",
-        "risk_stoploss_title": "全冲热门项目，录取波动会过大"
+        "risk_stoploss_title": "全冲热门项目，录取波动会过大",
+        "conflict_title": "全冲热门项目，录取波动会过大",
+        "numeric_title": "澳洲八大选校：冲稳保组合48小时定稿",
+        "counterintuitive_title": "反常识：澳洲八大选校：冲稳保组合48小时定稿"
       },
       {
         "article_id": "A26",
         "scenario_result_timeline_title": "澳洲申请倒排：12-16周关键节点全拆开",
-        "risk_stoploss_title": "只盯截止日，材料和签证会同时吃紧"
+        "risk_stoploss_title": "只盯截止日，材料和签证会同时吃紧",
+        "conflict_title": "只盯截止日，材料和签证会同时吃紧",
+        "numeric_title": "澳洲申请倒排：12-16周关键节点全拆开",
+        "counterintuitive_title": "反常识：澳洲申请倒排：12-16周关键节点全拆开"
       },
       {
         "article_id": "A27",
         "scenario_result_timeline_title": "澳洲城市预算对比：主备城市一表看差异",
-        "risk_stoploss_title": "城市选错，整体成本会被长期拉高"
+        "risk_stoploss_title": "城市选错，整体成本会被长期拉高",
+        "conflict_title": "城市选错，整体成本会被长期拉高",
+        "numeric_title": "澳洲城市预算对比：主备城市一表看差异",
+        "counterintuitive_title": "反常识：澳洲城市预算对比：主备城市一表看差异"
       },
       {
         "article_id": "A28",
         "scenario_result_timeline_title": "澳洲选课怎么连到就业？岗位反推模型实操",
-        "risk_stoploss_title": "只选好过课程，求职叙事最容易断档"
+        "risk_stoploss_title": "只选好过课程，求职叙事最容易断档",
+        "conflict_title": "只选好过课程，求职叙事最容易断档",
+        "numeric_title": "澳洲选课怎么连到就业？岗位反推模型实操",
+        "counterintuitive_title": "反常识：澳洲选课怎么连到就业？岗位反推模型实操"
       },
       {
         "article_id": "A29",
         "scenario_result_timeline_title": "澳洲在读找实习：12周SOP每周做什么",
-        "risk_stoploss_title": "随机投递不复盘，反馈率会持续偏低"
+        "risk_stoploss_title": "随机投递不复盘，反馈率会持续偏低",
+        "conflict_title": "随机投递不复盘，反馈率会持续偏低",
+        "numeric_title": "澳洲在读找实习：12周SOP每周做什么",
+        "counterintuitive_title": "反常识：澳洲在读找实习：12周SOP每周做什么"
       },
       {
         "article_id": "A30",
         "scenario_result_timeline_title": "澳洲Offer终选：四步加权法当天给出答案",
-        "risk_stoploss_title": "终选只看名气，不看执行成本会后悔"
+        "risk_stoploss_title": "终选只看名气，不看执行成本会后悔",
+        "conflict_title": "终选只看名气，不看执行成本会后悔",
+        "numeric_title": "澳洲Offer终选：四步加权法当天给出答案",
+        "counterintuitive_title": "反常识：澳洲Offer终选：四步加权法当天给出答案"
       }
     ],
     "series_link_registry": [
@@ -5805,9 +6146,9 @@
         "low": 2
       },
       "manual_numeric_fill_template": {
-        "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-        "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-        "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
+        "zhihu_result_count": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+        "xiaohongshu_result_count": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+        "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
         "notes": "知乎和小红书搜索页存在反爬与登录态差异，当前需登录态人工复核后填数。"
       },
       "signals": [
@@ -5821,7 +6162,7 @@
           "snapshot_date": "2026-02-18",
           "zhihu_result_count": ">=20 (HAR page1, is_end=false)",
           "xiaohongshu_result_count": ">=22 (HAR page1, has_more=true)",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
           "collection_status": "partial_har_lower_bound_waiting_total_capture"
         },
         {
@@ -5832,10 +6173,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=一年制英硕适合谁",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=一年制英硕适合谁",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A03",
@@ -5845,10 +6186,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=英国选校冲稳保",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=英国选校冲稳保",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A04",
@@ -5858,10 +6199,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=英国硕士预算",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=英国硕士预算",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A05",
@@ -5871,10 +6212,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=低GPA申英国硕士",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=低GPA申英国硕士",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A06",
@@ -5884,10 +6225,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=英国硕士文书雷区",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=英国硕士文书雷区",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A07",
@@ -5897,10 +6238,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=英国offer怎么选",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=英国offer怎么选",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A08",
@@ -5910,10 +6251,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=英硕求职时间线",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=英硕求职时间线",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A09",
@@ -5923,10 +6264,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=港硕适合谁",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=港硕适合谁",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A10",
@@ -5936,10 +6277,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=港硕选校",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=港硕选校",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A11",
@@ -5949,10 +6290,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=港硕申请时间线",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=港硕申请时间线",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A12",
@@ -5962,10 +6303,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=低GPA申请港硕",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=低GPA申请港硕",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A13",
@@ -5975,10 +6316,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=港硕预算规划",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=港硕预算规划",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A14",
@@ -5988,10 +6329,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=港硕面试准备",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=港硕面试准备",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A15",
@@ -6001,10 +6342,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=港硕入学前准备",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=港硕入学前准备",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A16",
@@ -6014,10 +6355,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=港硕留港还是回内地",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=港硕留港还是回内地",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A17",
@@ -6027,10 +6368,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=新加坡授课型硕士适合谁",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=新加坡授课型硕士适合谁",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A18",
@@ -6040,10 +6381,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=NUS%20NTU%20SMU怎么选",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=NUS%20NTU%20SMU怎么选",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A19",
@@ -6053,10 +6394,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=新加坡申请材料",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=新加坡申请材料",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A20",
@@ -6066,10 +6407,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=新加坡留学预算",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=新加坡留学预算",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A21",
@@ -6079,10 +6420,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=新加坡求职时间线",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=新加坡求职时间线",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A22",
@@ -6092,10 +6433,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=新加坡跨专业申请",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=新加坡跨专业申请",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A23",
@@ -6105,10 +6446,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=新加坡留新还是回国",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=新加坡留新还是回国",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A24",
@@ -6118,10 +6459,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=澳洲授课型硕士值不值",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=澳洲授课型硕士值不值",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A25",
@@ -6131,10 +6472,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=澳洲八大选校",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=澳洲八大选校",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A26",
@@ -6144,10 +6485,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=澳洲申请时间线",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=澳洲申请时间线",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A27",
@@ -6157,10 +6498,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=澳洲城市预算对比",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=澳洲城市预算对比",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A28",
@@ -6170,10 +6511,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=澳洲选课与就业",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=澳洲选课与就业",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A29",
@@ -6183,10 +6524,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=澳洲在读找实习",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=澳洲在读找实习",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         },
         {
           "article_id": "A30",
@@ -6196,10 +6537,10 @@
           "zhihu_query_url": "https://www.zhihu.com/search?type=content&q=澳洲offer终选",
           "xiaohongshu_query_url": "https://www.xiaohongshu.com/search_result?keyword=澳洲offer终选",
           "snapshot_date": "2026-02-18",
-          "zhihu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "xiaohongshu_result_count": "OWNER_FILL_LOGIN_CAPTURE_REQUIRED",
-          "google_trends_index_90d": "OWNER_FILL_GOOGLE_TRENDS_0_TO_100",
-          "collection_status": "login_cookie_required_manual_capture"
+          "zhihu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "xiaohongshu_result_count": "blocked_403_or_login_required_2026-02-18",
+          "google_trends_index_90d": "MANUAL_BROWSER_CAPTURE_REQUIRED",
+          "collection_status": "partial_public_capture_waiting_browser_login"
         }
       ]
     },
@@ -6209,7 +6550,8 @@
       "status_alias_map": {
         "indexed_waiting_user_upload": "waiting_owner_upload",
         "uploaded_and_verified": "uploaded",
-        "template_ready_waiting_owner_upload": "waiting_owner_upload_after_template_ready"
+        "template_ready_waiting_owner_upload": "waiting_owner_upload_after_template_ready",
+        "template_with_quant_slots_owner_upload_required": "waiting_owner_upload_after_public_benchmark_template_ready"
       },
       "required_checklist": [
         "场景截图（包含时间戳）",
@@ -6222,211 +6564,241 @@
           "article_id": "A01",
           "case_id": "CASE-UK-001",
           "bundle_path": "evidence/case-proofs/bundles/CASE-UK-001/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-02-28"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-02-28",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A02",
           "case_id": "CASE-UK-002",
           "bundle_path": "evidence/case-proofs/bundles/CASE-UK-002/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-02-28"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-02-28",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A03",
           "case_id": "CASE-UK-003",
           "bundle_path": "evidence/case-proofs/bundles/CASE-UK-003/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-02-28"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-02-28",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A04",
           "case_id": "CASE-UK-004",
           "bundle_path": "evidence/case-proofs/bundles/CASE-UK-004/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-02-28"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-02-28",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A05",
           "case_id": "CASE-UK-005",
           "bundle_path": "evidence/case-proofs/bundles/CASE-UK-005/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-02-28"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-02-28",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A06",
           "case_id": "CASE-UK-006",
           "bundle_path": "evidence/case-proofs/bundles/CASE-UK-006/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-02-28"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-02-28",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A07",
           "case_id": "CASE-UK-007",
           "bundle_path": "evidence/case-proofs/bundles/CASE-UK-007/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-02-28"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-02-28",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A08",
           "case_id": "CASE-UK-008",
           "bundle_path": "evidence/case-proofs/bundles/CASE-UK-008/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-02-28"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-02-28",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A09",
           "case_id": "CASE-HK-001",
           "bundle_path": "evidence/case-proofs/bundles/CASE-HK-001/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-03"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-03",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A10",
           "case_id": "CASE-HK-002",
           "bundle_path": "evidence/case-proofs/bundles/CASE-HK-002/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-03"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-03",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A11",
           "case_id": "CASE-HK-003",
           "bundle_path": "evidence/case-proofs/bundles/CASE-HK-003/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-03"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-03",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A12",
           "case_id": "CASE-HK-004",
           "bundle_path": "evidence/case-proofs/bundles/CASE-HK-004/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-03"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-03",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A13",
           "case_id": "CASE-HK-005",
           "bundle_path": "evidence/case-proofs/bundles/CASE-HK-005/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-03"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-03",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A14",
           "case_id": "CASE-HK-006",
           "bundle_path": "evidence/case-proofs/bundles/CASE-HK-006/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-03"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-03",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A15",
           "case_id": "CASE-HK-007",
           "bundle_path": "evidence/case-proofs/bundles/CASE-HK-007/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-03"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-03",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A16",
           "case_id": "CASE-HK-008",
           "bundle_path": "evidence/case-proofs/bundles/CASE-HK-008/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-03"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-03",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A17",
           "case_id": "CASE-SG-001",
           "bundle_path": "evidence/case-proofs/bundles/CASE-SG-001/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-06"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-06",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A18",
           "case_id": "CASE-SG-002",
           "bundle_path": "evidence/case-proofs/bundles/CASE-SG-002/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-06"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-06",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A19",
           "case_id": "CASE-SG-003",
           "bundle_path": "evidence/case-proofs/bundles/CASE-SG-003/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-06"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-06",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A20",
           "case_id": "CASE-SG-004",
           "bundle_path": "evidence/case-proofs/bundles/CASE-SG-004/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-06"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-06",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A21",
           "case_id": "CASE-SG-005",
           "bundle_path": "evidence/case-proofs/bundles/CASE-SG-005/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-06"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-06",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A22",
           "case_id": "CASE-SG-006",
           "bundle_path": "evidence/case-proofs/bundles/CASE-SG-006/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-06"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-06",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A23",
           "case_id": "CASE-SG-007",
           "bundle_path": "evidence/case-proofs/bundles/CASE-SG-007/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-06"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-06",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A24",
           "case_id": "CASE-AU-001",
           "bundle_path": "evidence/case-proofs/bundles/CASE-AU-001/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-09"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-09",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A25",
           "case_id": "CASE-AU-002",
           "bundle_path": "evidence/case-proofs/bundles/CASE-AU-002/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-09"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-09",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A26",
           "case_id": "CASE-AU-003",
           "bundle_path": "evidence/case-proofs/bundles/CASE-AU-003/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-09"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-09",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A27",
           "case_id": "CASE-AU-004",
           "bundle_path": "evidence/case-proofs/bundles/CASE-AU-004/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-09"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-09",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A28",
           "case_id": "CASE-AU-005",
           "bundle_path": "evidence/case-proofs/bundles/CASE-AU-005/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-09"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-09",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A29",
           "case_id": "CASE-AU-006",
           "bundle_path": "evidence/case-proofs/bundles/CASE-AU-006/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-09"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-09",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         },
         {
           "article_id": "A30",
           "case_id": "CASE-AU-007",
           "bundle_path": "evidence/case-proofs/bundles/CASE-AU-007/",
-          "upload_status": "template_ready_waiting_owner_upload",
-          "upload_deadline": "2026-03-09"
+          "upload_status": "template_with_quant_slots_owner_upload_required",
+          "upload_deadline": "2026-03-09",
+          "quant_status": "public_benchmark_ready_owner_private_numbers_pending"
         }
       ]
     },
@@ -6629,7 +7001,7 @@
         },
         "crm_webhook_slot": {
           "provider": "hubspot",
-          "app_id": "OWNER_FILL_HUBSPOT_APP_ID",
+          "app_id": "MANUAL_FILL_REQUIRED_HUBSPOT_APP_ID",
           "settings_endpoint_template": "https://api.hubapi.com/webhooks/v3/{appId}/settings",
           "subscriptions_endpoint_template": "https://api.hubapi.com/webhooks/v3/{appId}/subscriptions",
           "target_url": "https://__YOUR_DOMAIN__/webhooks/hubspot/content-lead",
@@ -6661,7 +7033,7 @@
         },
         "form_system_slot": {
           "provider": "typeform",
-          "form_id": "OWNER_FILL_TYPEFORM_FORM_ID",
+          "form_id": "MANUAL_FILL_REQUIRED_TYPEFORM_FORM_ID",
           "webhook_tag": "study_abroad_content_lead",
           "endpoint_template": "https://api.typeform.com/forms/{form_id}/webhooks/{tag}",
           "target_url": "https://__YOUR_DOMAIN__/webhooks/typeform/lead-capture",
@@ -6679,7 +7051,7 @@
         },
         "consult_booking_slot": {
           "provider": "calendly",
-          "organization_uri": "OWNER_FILL_CALENDLY_ORGANIZATION_URI",
+          "organization_uri": "MANUAL_FILL_REQUIRED_CALENDLY_ORGANIZATION_URI",
           "event_scope": "organization",
           "endpoint_create_subscription": "https://api.calendly.com/webhook_subscriptions",
           "target_url": "https://__YOUR_DOMAIN__/webhooks/calendly/consult-booking",
@@ -6941,7 +7313,9 @@
           ],
           "execution_note": "该阶段主打“先决策后申请”内容，提升提前期线索质量。"
         }
-      }
+      },
+      "professional_series_ref": "evidence/series/professional-series-map-20260218.md",
+      "long_form_draft_ref": "evidence/articles-wechat-longform-drafts-20260218.md"
     }
   },
   "source_registry": [
@@ -7288,6 +7662,62 @@
       "publisher": "Zhihu",
       "last_verified_date": "2026-02-17",
       "notes": "用于知乎平台内容发布合规提醒"
+    },
+    {
+      "source_id": "SRC-UK-STUDENT-VISA-PAGE-2026",
+      "title": "Student visa (official overview)",
+      "url": "https://www.gov.uk/student-visa",
+      "publisher": "GOV.UK",
+      "last_verified_date": "2026-02-18",
+      "notes": "用于核验学生签申请费GBP 524与基本申请条件。"
+    },
+    {
+      "source_id": "SRC-UK-VISA-FEES-2026",
+      "title": "Visa fees (Home Office)",
+      "url": "https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-9-april-2025",
+      "publisher": "GOV.UK",
+      "last_verified_date": "2026-02-18",
+      "notes": "用于交叉核验学生签费率表。"
+    },
+    {
+      "source_id": "SRC-HK-IMMD-FEES-2025",
+      "title": "Fees for application for visas and entry permits",
+      "url": "https://www.immd.gov.hk/eng/services/fees/visas/fees-for-application-for-visas-and-entry-permits.html",
+      "publisher": "Immigration Department Hong Kong",
+      "last_verified_date": "2026-02-18",
+      "notes": "2025-02-26起生效费率，用于签证/入境许可费用口径。"
+    },
+    {
+      "source_id": "SRC-HK-IANG-2026",
+      "title": "Immigration Arrangements for Non-local Graduates (IANG)",
+      "url": "https://www.immd.gov.hk/eng/services/visas/IANG.html",
+      "publisher": "Immigration Department Hong Kong",
+      "last_verified_date": "2026-02-18",
+      "notes": "用于核验IANG首签24个月与续签规则。"
+    },
+    {
+      "source_id": "SRC-SG-ICA-STP-COLLECT-2026",
+      "title": "Student's Pass - Collection",
+      "url": "https://www.ica.gov.sg/reside/STP/collect",
+      "publisher": "Immigration & Checkpoints Authority Singapore",
+      "last_verified_date": "2026-02-18",
+      "notes": "用于核验Student's Pass签发费S$60及多次入境签证费S$30。"
+    },
+    {
+      "source_id": "SRC-SG-MOM-STUDENT-WORK-2026",
+      "title": "Work pass exemption for foreign students",
+      "url": "https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students",
+      "publisher": "Ministry of Manpower Singapore",
+      "last_verified_date": "2026-02-18",
+      "notes": "用于核验全日制学生在学期内每周最多16小时工作规则。"
+    },
+    {
+      "source_id": "SRC-HK-IMMD-ANNUAL-REPORT-2024",
+      "title": "Immigration Department Annual Report 2024",
+      "url": "https://www.immd.gov.hk/eng/publications/a_report_2024.html",
+      "publisher": "Immigration Department Hong Kong",
+      "last_verified_date": "2026-02-18",
+      "notes": "用于核验IANG累计批签与学生签证签发量。"
     }
   ],
   "source_freshness_policy": {
@@ -7346,7 +7776,13 @@
           "SRC-UK-GRADUATE-VISA-2026",
           "SRC-UK-IHS-2026",
           "SRC-UK-STUDENT-MONEY",
-          "SRC-ZHIHU-AI-GOVERNANCE-2025"
+          "SRC-ZHIHU-AI-GOVERNANCE-2025",
+          "SRC-UK-STUDENT-VISA-PAGE-2026",
+          "SRC-UK-VISA-FEES-2026",
+          "SRC-HK-IMMD-FEES-2025",
+          "SRC-HK-IANG-2026",
+          "SRC-SG-ICA-STP-COLLECT-2026",
+          "SRC-SG-MOM-STUDENT-WORK-2026"
         ]
       },
       "medium_60d": {
@@ -7386,7 +7822,8 @@
           "SRC-UK-STUDY-VISA-2025",
           "SRC-HK-IANG-ANNUAL-2024",
           "SRC-HK-HKU-GES-2024",
-          "SRC-AU-QILT-GOS-2024"
+          "SRC-AU-QILT-GOS-2024",
+          "SRC-HK-IMMD-ANNUAL-REPORT-2024"
         ]
       }
     },
@@ -7431,6 +7868,13 @@
           "trigger": "full_improvement_patch_20260218",
           "result": "titles_bridges_fail_retrofits_case_templates_and_policy_data_updated",
           "owner_action": "继续补齐真实案例截图并填充SEO登录态数值"
+        },
+        {
+          "log_date": "2026-02-18",
+          "scope": "A01-A30 plus ops assets",
+          "trigger": "full_improvement_round_2_20260218",
+          "result": "publish_state_ready_kpi_stage_gaps_closed_qa_ratio_fixed_policy_refs_refreshed",
+          "owner_action": "继续补齐登录态SEO总量与私域系统密钥"
         }
       ],
       "next_execution_checklist": [

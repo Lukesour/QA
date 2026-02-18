@@ -1,7 +1,7 @@
 # CASE-UK-007 Evidence Bundle
 
 - Article ID: A07
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：双Offer（伦敦商科 vs 非伦敦数据项目）；在排名和成本之间长期摇摆。
 - 动作：使用Offer加权决策表，提升岗位匹配权重并设置成本底线；上传权重表前后版本。
-- 结果：主选项目总分 `__OWNER_FILL_分数__`，备选 `__OWNER_FILL_分数__`；预计总成本降低 `__OWNER_FILL_%__` 或 `__OWNER_FILL_金额__`。
+- 结果：主选项目总分 `__MANUAL_PRIVATE_分数__`，备选 `__MANUAL_PRIVATE_分数__`；预计总成本降低 `__MANUAL_PRIVATE_%__` 或 `__MANUAL_PRIVATE_金额__`。

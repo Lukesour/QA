@@ -1,7 +1,7 @@
 # CASE-AU-003 Evidence Bundle
 
 - Article ID: A26
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：应届商科目标澳洲八大；原计划临近DDL才启动，准备质量不稳定。
 - 动作：重排10个月甘特图并提前推进高优先项目；上传时间线与里程碑完成率图。
-- 结果：按时完成率从 `__OWNER_FILL_%__` 提升到 `__OWNER_FILL_%__`；首批项目提交提前 `__OWNER_FILL_天数__` 天。
+- 结果：按时完成率从 `__MANUAL_PRIVATE_%__` 提升到 `__MANUAL_PRIVATE_%__`；首批项目提交提前 `__MANUAL_PRIVATE_天数__` 天。

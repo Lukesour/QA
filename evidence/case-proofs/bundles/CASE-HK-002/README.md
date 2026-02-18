@@ -1,7 +1,7 @@
 # CASE-HK-002 Evidence Bundle
 
 - Article ID: A10
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：工作1年，目标金融风控；仅按排名筛项目，课程模块与岗位不对齐。
 - 动作：按岗位能力重排项目优先级并构建项目筛选矩阵；上传矩阵截图。
-- 结果：高匹配项目占比从 `__OWNER_FILL_%__` 提升至 `__OWNER_FILL_%__`；申请组合由 `__OWNER_FILL_原组合__` 调整为 `__OWNER_FILL_新组合__`。
+- 结果：高匹配项目占比从 `__MANUAL_PRIVATE_%__` 提升至 `__MANUAL_PRIVATE_%__`；申请组合由 `__MANUAL_PRIVATE_原组合__` 调整为 `__MANUAL_PRIVATE_新组合__`。

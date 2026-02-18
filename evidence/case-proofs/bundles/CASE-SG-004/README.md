@@ -1,7 +1,7 @@
 # CASE-SG-004 Evidence Bundle
 
 - Article ID: A20
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：工科应届目标新加坡数据岗；把奖学金视作必得导致预算失真。
 - 动作：建立“无奖学金保守版+奖学金进取版”双预算方案；上传双方案预算截图。
-- 结果：预算偏差从 `__OWNER_FILL_%__` 收敛至 `__OWNER_FILL_%__`；现金流安全垫提高到 `__OWNER_FILL_月数__` 个月。
+- 结果：预算偏差从 `__MANUAL_PRIVATE_%__` 收敛至 `__MANUAL_PRIVATE_%__`；现金流安全垫提高到 `__MANUAL_PRIVATE_月数__` 个月。

@@ -1,7 +1,7 @@
 # CASE-UK-002 Evidence Bundle
 
 - Article ID: A02
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：工作2年运营转数据分析；对一年制误判为“上课即可”，无求职前置。
 - 动作：完成适配度自测并执行8周补强（SQL+作品集2个项目）；上传自测前后评分与项目清单。
-- 结果：自测总分从 `__OWNER_FILL_初始分__` 提升到 `__OWNER_FILL_复测分__`；入学前完成 `__OWNER_FILL_项目数__` 个项目并在第 `__OWNER_FILL_学期周数__` 周启动投递。
+- 结果：自测总分从 `__MANUAL_PRIVATE_初始分__` 提升到 `__MANUAL_PRIVATE_复测分__`；入学前完成 `__MANUAL_PRIVATE_项目数__` 个项目并在第 `__MANUAL_PRIVATE_学期周数__` 周启动投递。

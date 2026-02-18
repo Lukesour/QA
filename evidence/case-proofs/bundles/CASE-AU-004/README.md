@@ -1,7 +1,7 @@
 # CASE-AU-004 Evidence Bundle
 
 - Article ID: A27
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：应届会计预算有限；默认热门城市导致预算承压过大。
 - 动作：改为双城市并行方案并对比5城成本；上传城市成本表和预算复盘截图。
-- 结果：年度总预算从 `__OWNER_FILL_金额__` 优化到 `__OWNER_FILL_金额__`；同时保留 `__OWNER_FILL_岗位方向数__` 条岗位方向。
+- 结果：年度总预算从 `__MANUAL_PRIVATE_金额__` 优化到 `__MANUAL_PRIVATE_金额__`；同时保留 `__MANUAL_PRIVATE_岗位方向数__` 条岗位方向。

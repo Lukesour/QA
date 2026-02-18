@@ -1,7 +1,7 @@
 # CASE-UK-008 Evidence Bundle
 
 - Article ID: A08
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：英硕商科目标咨询；原计划开学后再准备求职，时间明显滞后。
 - 动作：执行入学前12周求职计划，前置简历、案例面和行业研究；上传时间线截图与周复盘。
-- 结果：入学前完成 `__OWNER_FILL_投递数__` 次有效投递与 `__OWNER_FILL_模拟面次数__` 次模拟面；开学后 `__OWNER_FILL_周数__` 周内进入 `__OWNER_FILL_面试轮次__` 轮面试。
+- 结果：入学前完成 `__MANUAL_PRIVATE_投递数__` 次有效投递与 `__MANUAL_PRIVATE_模拟面次数__` 次模拟面；开学后 `__MANUAL_PRIVATE_周数__` 周内进入 `__MANUAL_PRIVATE_面试轮次__` 轮面试。

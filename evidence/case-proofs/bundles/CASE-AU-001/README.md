@@ -1,7 +1,7 @@
 # CASE-AU-001 Evidence Bundle
 
 - Article ID: A24
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：应届商科目标澳洲咨询；前期只看学校排名，忽略政策成本与回本周期。
 - 动作：执行“三笔账+双路径”决策，加入签证与生活成本变量；上传评估表和政策成本对照。
-- 结果：高风险项目占比从 `__OWNER_FILL_%__` 降至 `__OWNER_FILL_%__`；预算与回本区间明确为 `__OWNER_FILL_区间__`。
+- 结果：高风险项目占比从 `__MANUAL_PRIVATE_%__` 降至 `__MANUAL_PRIVATE_%__`；预算与回本区间明确为 `__MANUAL_PRIVATE_区间__`。

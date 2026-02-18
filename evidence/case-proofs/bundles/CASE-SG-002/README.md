@@ -1,7 +1,7 @@
 # CASE-SG-002 Evidence Bundle
 
 - Article ID: A18
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：工作1年，目标数据分析；原决策单看学校综合排名。
 - 动作：使用3校4维打分矩阵，以岗位导向重排院校优先级；上传比较矩阵截图。
-- 结果：岗位匹配加权分从 `__OWNER_FILL_分__` 提升到 `__OWNER_FILL_分__`；最终主申名单由 `__OWNER_FILL_原名单__` 调整为 `__OWNER_FILL_新名单__`。
+- 结果：岗位匹配加权分从 `__MANUAL_PRIVATE_分__` 提升到 `__MANUAL_PRIVATE_分__`；最终主申名单由 `__MANUAL_PRIVATE_原名单__` 调整为 `__MANUAL_PRIVATE_新名单__`。

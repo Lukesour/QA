@@ -1,7 +1,7 @@
 # CASE-AU-006 Evidence Bundle
 
 - Article ID: A29
-- Status: template_ready_waiting_owner_upload
+- Status: template_with_quant_slots_owner_upload_required
 - Last updated: 2026-02-18
 
 ## Required Files (owner upload)
@@ -19,4 +19,4 @@
 ## Owner Notes
 - 背景：商科在读，求职动作零散，无固定周节奏和复盘机制。
 - 动作：按12周SOP执行“岗位搜索-定制投递-复盘优化”闭环；上传执行看板和复盘表。
-- 结果：周均有效投递从 `__OWNER_FILL_数量__` 提升到 `__OWNER_FILL_数量__`；面试邀约从 `__OWNER_FILL_数量__` 提升到 `__OWNER_FILL_数量__`。
+- 结果：周均有效投递从 `__MANUAL_PRIVATE_数量__` 提升到 `__MANUAL_PRIVATE_数量__`；面试邀约从 `__MANUAL_PRIVATE_数量__` 提升到 `__MANUAL_PRIVATE_数量__`。
