@@ -63,7 +63,7 @@
 ## 3) Policy Source Browser Backup (When Terminal Parse Fails)
 
 - HK fee page field: `hk_fee_policy_capture`
-  - Target URL: `https://www.immd.gov.hk/eng/services/fees/visas/fees-for-visas-and-entry-permits.html`
+  - Target URL: `https://www.immd.gov.hk/eng/specifiedschemes.html`
   - Required capture elements: fee row text (HKD 600 / HKD 1,300), URL bar, system time.
 - AU financial capacity field: `au_financial_capacity_capture`
   - Target URL: `https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1216`

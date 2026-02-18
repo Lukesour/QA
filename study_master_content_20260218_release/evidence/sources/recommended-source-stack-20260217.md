@@ -10,7 +10,7 @@ Use this stack for all A01-A30 updates. Priority order is mandatory.
 - UK Immigration Health Surcharge: https://www.gov.uk/healthcare-immigration-application/how-much-pay
 - HK Study visa: https://www.immd.gov.hk/eng/services/visas/study.html
 - HK IANG: https://www.immd.gov.hk/eng/services/visas/IANG.html
-- HK fees page (terminal parser may be unstable, use owner browser capture if blocked): https://www.immd.gov.hk/eng/services/fees/visas/fees-for-visas-and-entry-permits.html
+- HK specified schemes fee page (includes IANG fee table): https://www.immd.gov.hk/eng/specifiedschemes.html
 - HK annual report appendix 5: https://www.immd.gov.hk/publications/a_report_2024/en/appendix5.html
 - SG MOM EP eligibility: https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility
   - as_of_2026_02_18_checkpoint: new applications salary floor from 2025-01-01 is SGD 5,600 (financial services SGD 6,200); same criteria apply for renewals from 2026-01-01.
@@ -32,7 +32,7 @@ Use this stack for all A01-A30 updates. Priority order is mandatory.
 
 ## P1 Employment Outcome / ROI
 
-- UK HESA graduate outcomes: https://www.hesa.ac.uk/data-and-analysis/graduates/outcomes
+- UK Graduate Outcomes official site: https://www.graduateoutcomes.ac.uk/
 - SG NUS JAUGES official release: https://news.nus.edu.sg/jauges2024/
 - SG NTU employment release: https://www.ntu.edu.sg/news/detail/ntu-graduates-maintain-strong-employment-rates-and-better-starting-pay-amid-global-economic-volatility
 - AU QILT GOS: https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)

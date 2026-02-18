@@ -17,7 +17,7 @@ Purpose: create the first batch of publishable closed-loop articles across Xiaoh
 - case_snapshot: 辽宁师范大学国际商务背景，录取布里斯托商业分析，先做三笔账后调整项目池。
 - P0 quote: UK Student visa money（London GBP 1,529 / outside GBP 1,171）
 - P1 quote: Exeter deadline page（2026/27国际DDL 2026-09-11）
-- P1 ROI quote: QILT GOS official source
+- P1 ROI quote: UK Graduate Outcomes official statistics（2022/23在就业或继续深造占比88%）
 - Xiaohongshu素材骨架: 结论封面 -> 三笔账模板 -> 删项目示例 -> 评论区关键词CTA
 - Zhihu素材骨架: 先给值不值判断公式 -> 给不适用人群 -> 给止损线 -> 邀请私信领取预算模板
 - 公众号素材骨架: 成本模型全文 -> 案例复盘 -> 错误决策清单 -> CTA（预算模板+自测表）
@@ -32,7 +32,7 @@ Purpose: create the first batch of publishable closed-loop articles across Xiaoh
 - case_snapshot: 上海大学智能科学背景，录取华威计算机，入学前先补12周技术与求职动作。
 - P0 quote: UK Graduate visa（2026-12-31前通常2年，2027-01-01起通常18个月）
 - P1 quote: Glasgow taught programmes（项目存在不同入学月）
-- P1 ROI quote: UK岗位回报对照采用QILT/官方毕业去向口径
+- P1 ROI quote: UK岗位回报对照采用Graduate Outcomes官方毕业去向口径
 - Xiaohongshu素材骨架: 3类适合+3类劝退 -> 12周补强卡 -> 一年制执行节奏图
 - Zhihu素材骨架: 直接回答“谁不适合” -> 给补强阈值 -> 给反例止损
 - 公众号素材骨架: 适配模型 + 周计划 + 失败复盘 + FAQ
@@ -47,7 +47,7 @@ Purpose: create the first batch of publishable closed-loop articles across Xiaoh
 - case_snapshot: 复旦微电子背景，录取UCL机器人与AI，用四维矩阵从全冲改成冲稳保组合。
 - P0 quote: UK Student visa + IHS（费用口径）
 - P1 quote: Exeter + Glasgow窗口差异
-- P1 ROI quote: 以QILT GOS作为澳洲官方就业回报基准方法，英硕本卡仅作方法迁移不作政策结论
+- P1 ROI quote: 采用Graduate Outcomes作为英国官方毕业去向回报基准
 - Xiaohongshu素材骨架: 冲稳保矩阵图 -> 打分权重 -> 名单前后对比
 - Zhihu素材骨架: 先反驳“只看QS” -> 给四维权重示例 -> 给一页可复制表格
 - 公众号素材骨架: 选校方法论 + 案例改版 + 权重敏感性测试

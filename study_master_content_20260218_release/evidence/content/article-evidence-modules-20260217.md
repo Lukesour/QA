@@ -116,7 +116,7 @@ longform_publish_file: `evidence/content/publish-ready-longform-20260217.md`
 
 ### A16
 - not_applicable_group: 已拿长期雇主担保并完成去向锁定的人群。
-- official_sources: [HK IANG](https://www.immd.gov.hk/eng/services/visas/IANG.html), [HK ImmD annual report](https://www.immd.gov.hk/eng/publications/a_report_2024.html).
+- official_sources: [HK IANG](https://www.immd.gov.hk/eng/services/visas/IANG.html), [HK ImmD annual report appendix 5](https://www.immd.gov.hk/publications/a_report_2024/en/appendix5.html).
 - key_checkpoint: IANG 初始逗留通常24个月，后续可按3-3模式续签（符合条件可top-tier延长）。
 - case_bundle: `CASE-HK-008`.
 - owner_fill_slots: `双路径投递日志 + 终选节点`.

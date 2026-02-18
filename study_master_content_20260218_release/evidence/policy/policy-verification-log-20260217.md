@@ -10,8 +10,8 @@ Canonical policy table: `evidence/policy/policy-single-source-of-truth-20260218.
 | UK | https://www.gov.uk/healthcare-immigration-application/how-much-pay | Student/dependant IHS GBP 776/year | accessible | 2026-02-18 |
 | HK | https://www.immd.gov.hk/eng/services/visas/study.html | Study visa normal processing time about 6 weeks | accessible | 2026-02-18 |
 | HK | https://www.immd.gov.hk/eng/services/visas/IANG.html | IANG first stay 24 months | accessible | 2026-02-18 |
-| HK | https://www.immd.gov.hk/eng/services/fees/visas/fees-for-visas-and-entry-permits.html | Effective 2025-02-26: HKD 600 application fee; HKD 1,300 visa/entry permit fee (>180 days) | parse_inconsistent_owner_fill_backup | 2026-02-18 |
-| HK | https://www.immd.gov.hk/publications/a_report_2024/en/appendix5.html | 2024 student visas/entry permits 74,466; IANG entrants 10,796 | accessible | 2026-02-18 |
+| HK | https://www.immd.gov.hk/eng/specifiedschemes.html | Effective 2025-02-26: HKD 600 application fee; HKD 1,300 visa/entry permit fee (>180 days) | accessible | 2026-02-18 |
+| HK | https://www.immd.gov.hk/publications/a_report_2024/en/appendix5.html | 2024 student visas/entry permits 74,466; IANG visas/entry permits 25,475 | accessible | 2026-02-18 |
 | SG | https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility | 2025/2026 salary criteria and upcoming threshold updates on same page | accessible | 2026-02-18 |
 | SG | https://www.ica.gov.sg/reside/STP/collect | Student's Pass issuance SGD 60; multiple journey visa SGD 30 (if applicable) | accessible | 2026-02-18 |
 | SG | https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students | Approved full-time students can work up to 16h/week during term without work pass | accessible | 2026-02-18 |
@@ -35,7 +35,7 @@ Canonical policy table: `evidence/policy/policy-single-source-of-truth-20260218.
 
 | region | page | key checkpoint | access_status | verified_on |
 |---|---|---|---|---|
-| UK | https://www.hesa.ac.uk/data-and-analysis/graduates/outcomes | Graduate outcomes page lists 2022/23 employment or further study at 88.2% | accessible | 2026-02-18 |
+| UK | https://www.graduateoutcomes.ac.uk/ | Graduate Outcomes homepage states that 88% of class 2022/23 graduates were in work or further study | accessible | 2026-02-18 |
 | SG | https://news.nus.edu.sg/jauges2024/ | NUS release cites JAUGES 2024 employment and salary indicators | accessible | 2026-02-18 |
 | SG | https://www.ntu.edu.sg/news/detail/ntu-graduates-maintain-strong-employment-rates-and-better-starting-pay-amid-global-economic-volatility | NTU release confirms strong graduate outcomes and salary trends | accessible | 2026-02-18 |
 

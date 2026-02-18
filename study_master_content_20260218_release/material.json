@@ -7469,7 +7469,7 @@
       "url": "https://www.immd.gov.hk/publications/a_report_2024/en/appendix5.html",
       "publisher": "Hong Kong Immigration Department",
       "last_verified_date": "2026-02-18",
-      "notes": "截至2026-02-18核验：2024年签发学生签证/进入许可74,466宗，IANG项下入境人数为10,796。"
+      "notes": "截至2026-02-18核验：2024年签发学生签证/进入许可74,466宗，IANG项下签证/进入许可签发量为25,475。"
     },
     {
       "source_id": "SRC-HK-IANG-GUIDEBOOK-2025",
@@ -7648,6 +7648,14 @@
       "notes": "用于英国授课型硕士项目入学月份与申请节奏核验。"
     },
     {
+      "source_id": "SRC-UK-GRADUATE-OUTCOMES-2026",
+      "title": "Graduate Outcomes Official Site",
+      "url": "https://www.graduateoutcomes.ac.uk/",
+      "publisher": "Jisc / Graduate Outcomes",
+      "last_verified_date": "2026-02-18",
+      "notes": "用于英国毕业去向口径核验；2022/23届毕业生中88%处于就业或继续深造。"
+    },
+    {
       "source_id": "SRC-UK-GRADUATE-VISA-2026",
       "title": "Graduate visa overview",
       "url": "https://www.gov.uk/graduate-visa",
@@ -7713,8 +7721,8 @@
     },
     {
       "source_id": "SRC-HK-IMMD-FEES-2025",
-      "title": "Fees for application for visas and entry permits",
-      "url": "https://www.immd.gov.hk/eng/services/fees/visas/fees-for-visas-and-entry-permits.html",
+      "title": "Specified Schemes (including applicable fee table)",
+      "url": "https://www.immd.gov.hk/eng/specifiedschemes.html",
       "publisher": "Immigration Department Hong Kong",
       "last_verified_date": "2026-02-18",
       "notes": "2025-02-26起生效费率，用于签证/入境许可费用口径。"
@@ -7746,7 +7754,7 @@
     {
       "source_id": "SRC-HK-IMMD-ANNUAL-REPORT-2024",
       "title": "Immigration Department Annual Report 2024",
-      "url": "https://www.immd.gov.hk/eng/publications/a_report_2024.html",
+      "url": "https://www.immd.gov.hk/publications/a_report_2024/en/appendix5.html",
       "publisher": "Immigration Department Hong Kong",
       "last_verified_date": "2026-02-18",
       "notes": "用于核验IANG累计批签与学生签证签发量。"

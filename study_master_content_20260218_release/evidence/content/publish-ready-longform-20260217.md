@@ -261,7 +261,7 @@ DDL 只是底线，不是质量线。你要从目标 DDL 反推 12 周：前 4 �
 
 ## A16 港硕毕业留港还是回内地，双路径并行4周终选
 - as_of: 2026-02-17
-- official_sources: https://www.immd.gov.hk/eng/services/visas/IANG.html ; https://www.immd.gov.hk/eng/publications/a_report_2024.html
+- official_sources: https://www.immd.gov.hk/eng/services/visas/IANG.html ; https://www.immd.gov.hk/publications/a_report_2024/en/appendix5.html
 - 适用人群: 去向未定、担心押错路径
 - 不适用人群: 已签约且方向不可变
 - 正文:

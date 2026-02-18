@@ -27,10 +27,10 @@ Canonical source: `evidence/policy/policy-single-source-of-truth-20260218.md`
 - Fee update effective 2025-02-26
   - Application fee HKD 600
   - Visa/entry permit fee (stay over 180 days) HKD 1,300
-  - Source: https://www.immd.gov.hk/eng/services/fees/visas/fees-for-visas-and-entry-permits.html
+  - Source: https://www.immd.gov.hk/eng/specifiedschemes.html
 - Annual report appendix checkpoint
   - Student visas/entry permits issued in 2024: 74,466
-  - Entrants admitted under IANG in 2024: 10,796
+  - IANG visas/entry permits issued in 2024: 25,475
   - Source: https://www.immd.gov.hk/publications/a_report_2024/en/appendix5.html
 
 ## Singapore

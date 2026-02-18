@@ -14,7 +14,7 @@
 - 结论边界：值不值取决于“岗位回报能否覆盖总投入和机会成本”，不看学校名气单变量。
 - P0政策证据：UK 资金证明伦敦 `GBP 1,529/月`、非伦敦 `GBP 1,171/月`、最多9个月、28天持有规则（https://www.gov.uk/student-visa/money）。
 - P1申请证据：Exeter 2026/27 国际生申请截止 `2026-09-11 23:59`（https://www.exeter.ac.uk/study/postgraduate/applying/applicationdeadlines/）。
-- P1回报证据：HESA Graduate Outcomes 显示 2022/23 毕业生中 `88.2%` 处于就业或继续深造（https://www.hesa.ac.uk/data-and-analysis/graduates/outcomes）。
+- P1回报证据：UK Graduate Outcomes 官方统计显示 2022/23 毕业生中 `88%` 处于就业或继续深造（https://www.graduateoutcomes.ac.uk/）。
 - 成功案例锚点：`OFR-L0202`（`offers.jsonl:202`），辽宁师范国际商务背景录取布里斯托商业分析。
 - 小红书写法：封面直接给“先算三笔账再决定”；第2-6页拆预算、机会成本、回本周期；末页评论区留“预算模板”。
 - 知乎写法：第一段直接回答“是否值得”；第二段给不适用人群；第三段给止损线（12/24/36月）。
@@ -26,7 +26,7 @@
 - 结论边界：一年制是高压执行路径，适合目标岗位清晰且能并行求职的人。
 - P0政策证据：Graduate visa 规则含时间分界（`2027-01-01` 前后时长口径不同）及申请费 `GBP 880`（https://www.gov.uk/graduate-visa）。
 - P1申请证据：格拉斯哥官方 key dates 提供 `September 2026` 与 `January 2027` 关键节点（https://www.gla.ac.uk/postgraduate/dates/）。
-- P1回报证据：HESA Graduate Outcomes 作为英国结果口径基线（https://www.hesa.ac.uk/data-and-analysis/graduates/outcomes）。
+- P1回报证据：Graduate Outcomes 作为英国结果口径基线（https://www.graduateoutcomes.ac.uk/）。
 - 成功案例锚点：`OFR-L0215`（`offers.jsonl:215`），上海大学智能科学背景录取华威计算机。
 - 小红书写法：`3类适合 + 3类劝退 + 12周入学前补强卡`。
 - 知乎写法：先答“谁不适合”，再给补强阈值和降级方案。
@@ -38,7 +38,7 @@
 - 结论边界：排名只能筛选，冲稳保必须用岗位匹配、成本、风险、执行节奏四维打分。
 - P0政策证据：Student visa 申请费 `GBP 524`、IHS 学生标准 `GBP 776/年`（https://www.gov.uk/student-visa, https://www.gov.uk/healthcare-immigration-application/how-much-pay）。
 - P1申请证据：Exeter DDL + Glasgow key dates 作为“窗口差异”示例（https://www.exeter.ac.uk/study/postgraduate/applying/applicationdeadlines/, https://www.gla.ac.uk/postgraduate/dates/）。
-- P1回报证据：HESA Graduate Outcomes 作为回报判断上限参考（https://www.hesa.ac.uk/data-and-analysis/graduates/outcomes）。
+- P1回报证据：Graduate Outcomes 作为回报判断上限参考（https://www.graduateoutcomes.ac.uk/）。
 - 成功案例锚点：`OFR-L0021`（`offers.jsonl:21`），复旦微电子录取 UCL 机器人与AI。
 - 小红书写法：展示“全冲名单 -> 冲稳保名单”前后对比图。
 - 知乎写法：先反驳“只看QS”；给四维权重示例与可复制评分表。
@@ -50,7 +50,7 @@
 - 结论边界：预算风险核心在生活成本和现金流节点，不止学费。
 - P0政策证据：资金证明伦敦/非伦敦双口径（https://www.gov.uk/student-visa/money）。
 - P1申请证据：Exeter 国际生截止日期用于倒排资金准备节点（https://www.exeter.ac.uk/study/postgraduate/applying/applicationdeadlines/）。
-- P1回报证据：HESA outcomes 用于“回本周期”参数校准（https://www.hesa.ac.uk/data-and-analysis/graduates/outcomes）。
+- P1回报证据：Graduate Outcomes 用于“回本周期”参数校准（https://www.graduateoutcomes.ac.uk/）。
 - 成功案例锚点：`OFR-L0246`（`offers.jsonl:246`），深圳技术大学数据科学录取利兹高级计算机科学（数据分析）。
 - 小红书写法：双预算表（理想版/保守版）+ 3个月风险金提示页。
 - 知乎写法：回答“伦敦一定更值吗”，给行业分叉答案。
@@ -62,7 +62,7 @@
 - 结论边界：低GPA可申，但必须补“可验证能力证据链”，不能靠情绪海投。
 - P0政策证据：英国签证成本与资金证明为最低预算约束（https://www.gov.uk/student-visa/money, https://www.gov.uk/student-visa）。
 - P1申请证据：格拉斯哥 key dates 用作倒排模板（https://www.gla.ac.uk/postgraduate/dates/）。
-- P1回报证据：HESA outcomes 作为收益上限假设（https://www.hesa.ac.uk/data-and-analysis/graduates/outcomes）。
+- P1回报证据：Graduate Outcomes 作为收益上限假设（https://www.graduateoutcomes.ac.uk/）。
 - 成功案例锚点：`OFR-L0051`（`offers.jsonl:51`），重庆邮电计算机 GPA2.51 录取格拉斯哥计算科学。
 - 小红书写法：90天补强日历（第1-4周补基础，第5-8周补项目，第9-12周改文书）。
 - 知乎写法：回答“低GPA为何仍能录取”，给证据优先级。
@@ -74,7 +74,7 @@
 - 结论边界：文书不是经历罗列，必须做到“能力-证据-目标”闭环。
 - P0政策证据：签证/费用信息用于约束目标合理性（https://www.gov.uk/student-visa）。
 - P1申请证据：Exeter/Glasgow 时间窗要求文书提前完成（https://www.exeter.ac.uk/study/postgraduate/applying/applicationdeadlines/, https://www.gla.ac.uk/postgraduate/dates/）。
-- P1回报证据：HESA outcomes 提供职业目标现实边界（https://www.hesa.ac.uk/data-and-analysis/graduates/outcomes）。
+- P1回报证据：Graduate Outcomes 提供职业目标现实边界（https://www.graduateoutcomes.ac.uk/）。
 - 成功案例锚点：`OFR-L0126`（`offers.jsonl:126`），浙工大软件工程录取伯明翰高级计算机科学。
 - 小红书写法：四个高频错误句与对应修订句并排展示。
 - 知乎写法：先给“为什么会被拒”，再给“如何改到可投版本”。
@@ -86,7 +86,7 @@
 - 结论边界：终选是风险管理，不是名校崇拜。
 - P0政策证据：学签费用、IHS、毕业签成本共同进入终选总成本（https://www.gov.uk/student-visa, https://www.gov.uk/healthcare-immigration-application/how-much-pay, https://www.gov.uk/graduate-visa）。
 - P1申请证据：使用项目窗口差异作为“节奏风险”指标（https://www.exeter.ac.uk/study/postgraduate/applying/applicationdeadlines/, https://www.gla.ac.uk/postgraduate/dates/）。
-- P1回报证据：HESA outcomes 作为结果校准（https://www.hesa.ac.uk/data-and-analysis/graduates/outcomes）。
+- P1回报证据：Graduate Outcomes 作为结果校准（https://www.graduateoutcomes.ac.uk/）。
 - 成功案例锚点：`OFR-L0215` + `OFR-L0126`（`offers.jsonl:215/126`）。
 - 小红书写法：Offer雷达图 + 权重滑杆示例。
 - 知乎写法：给出“当天可做完”的4步加权流程。
@@ -98,7 +98,7 @@
 - 结论边界：求职启动越晚，窗口损失越大，一年制更明显。
 - P0政策证据：Graduate visa申请规则与期限（https://www.gov.uk/graduate-visa）。
 - P1申请证据：项目起始月（September/January）影响倒排节奏（https://www.gla.ac.uk/postgraduate/dates/）。
-- P1回报证据：HESA outcomes 作为目标岗位落地概率背景值（https://www.hesa.ac.uk/data-and-analysis/graduates/outcomes）。
+- P1回报证据：Graduate Outcomes 作为目标岗位落地概率背景值（https://www.graduateoutcomes.ac.uk/）。
 - 成功案例锚点：`OFR-L0215`（`offers.jsonl:215`）。
 - 小红书写法：12周周历图，每周一个可验证动作。
 - 知乎写法：先答“为什么没反馈”，再给三段纠偏法。
@@ -110,7 +110,7 @@
 - 结论边界：港硕适配看岗位、预算、执行节奏三门槛，不看热度。
 - P0政策证据：香港学习签证处理约6周、IANG首次逗留24个月（https://www.immd.gov.hk/eng/services/visas/study.html, https://www.immd.gov.hk/eng/services/visas/IANG.html）。
 - P1申请证据：HKBU AY2026/27 两轮截止 `2025-12-01`、`2026-04-15`（https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline）。
-- P1回报证据：ImmD 附录5（2024年学生签证/进入许可 `74,466`；IANG入境 `10,796`）（https://www.immd.gov.hk/publications/a_report_2024/en/appendix5.html）。
+- P1回报证据：ImmD 附录5（2024年学生签证/进入许可 `74,466`；IANG签证/进入许可 `25,475`）（https://www.immd.gov.hk/publications/a_report_2024/en/appendix5.html）。
 - 成功案例锚点：`OFR-L0003`（`offers.jsonl:3`），东南大学统计录取港科大数据驱动建模。
 - 小红书写法：三门槛打分卡 + 48小时决策动作。
 - 知乎写法：先给“谁不适合港硕”，再给可执行替代路径。
@@ -156,7 +156,7 @@
 ## A13 港硕预算规划
 
 - 结论边界：预算必须先做无奖学金底盘，再做有奖学金上行版。
-- P0政策证据：香港指定计划签证费用（申请费 `HKD 600`、逗留超180天签证费 `HKD 1,300`）在相关费用页面可核验；终端抓取不稳定时需运营浏览器截图（https://www.immd.gov.hk/eng/services/fees/visas/fees-for-visas-and-entry-permits.html）。
+- P0政策证据：香港指定计划签证费用（申请费 `HKD 600`、逗留超180天签证费 `HKD 1,300`）在相关费用页面可核验；终端抓取不稳定时需运营浏览器截图（https://www.immd.gov.hk/eng/specifiedschemes.html）。
 - P1申请证据：HKBU timeline 用于对齐缴费与申请节点（https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline）。
 - P1回报证据：ImmD 附录5用于判断留港路径市场容量（https://www.immd.gov.hk/publications/a_report_2024/en/appendix5.html）。
 - 成功案例锚点：`OFR-L0010`（`offers.jsonl:10`），华南理工信息安全录取港理工网路空间安全。
@@ -374,4 +374,3 @@
 - `zhihu_result_count: <数字> (capture_at=YYYY-MM-DD HH:MM, operator=<name>, screenshot_id=<id>)`
 - `xiaohongshu_result_count: <数字> (capture_at=YYYY-MM-DD HH:MM, operator=<name>, screenshot_id=<id>)`
 - `google_trends_index_90d: <0-100或insufficient_data> (region=China, range=Past 90 days, capture_at=YYYY-MM-DD HH:MM, screenshot_id=<id>)`
-
