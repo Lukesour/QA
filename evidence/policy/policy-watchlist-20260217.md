@@ -1,47 +1,46 @@
-# Policy Watchlist (as_of=2026-02-17)
+# Policy Watchlist (2026-02-18)
 
 This file records high-volatility policy checkpoints that can directly change article accuracy.
 
 ## UK
 
-- Student visa money requirement ([gov.uk/student-visa/money](https://www.gov.uk/student-visa/money)):
-  - London: GBP 1,529/month (up to 9 months)
-  - Outside London: GBP 1,171/month (up to 9 months)
-- Graduate visa duration ([gov.uk/graduate-visa](https://www.gov.uk/graduate-visa)):
-  - Applications on or before 2026-12-31: usually 2 years (Bachelor/Master), 3 years (PhD)
-  - Applications from 2027-01-01: 18 months (Bachelor/Master), 3 years (PhD)
-- Immigration Health Surcharge ([gov.uk/healthcare-immigration-application/how-much-pay](https://www.gov.uk/healthcare-immigration-application/how-much-pay)):
-  - Student/dependant: GBP 776/year
-
-## Singapore
-
-- Employment Pass eligibility ([mom.gov.sg/.../employment-pass/eligibility](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility)):
-  - Current minimum qualifying salary: SGD 5,600
-  - Financial services minimum: SGD 6,200
-  - From 2027-01-01: SGD 6,000 (general), SGD 6,600 (financial services)
-- Student's Pass issuance ([ica.gov.sg/reside/STP/collect](https://www.ica.gov.sg/reside/STP/collect)):
-  - Issuance fee: SGD 60
-  - Multiple Journey Visa fee (if applicable): SGD 30
-
-## Australia
-
-- Student visa application charge ([studyaustralia.gov.au/.../cost-of-student-visa](https://www.studyaustralia.gov.au/en/plan-your-move/visa-requirements/cost-of-student-visa)):
-  - From 2025-07-01: AUD 2,000 (primary applicant)
-- Student visa work/stay conditions ([immi.homeaffairs.gov.au student-500](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500)):
-  - Course session work limit: up to 48 hours per fortnight
-  - Stay duration: up to 6 years aligned with enrolment
+- Student financial requirement (official page verified on 2026-02-18):
+  - London: GBP 1,529 / month (up to 9 months)
+  - Outside London: GBP 1,171 / month (up to 9 months)
+  - Funds must be held for 28 consecutive days, ending within 31 days before application.
+- Graduate visa (official page verified on 2026-02-18):
+  - Apply on or before 2026-12-31: usually 2 years (PhD/doctoral: 3 years)
+  - Apply on or after 2027-01-01: usually 18 months (PhD/doctoral: 3 years)
+  - Application fee GBP 880; IHS usually GBP 1,035 per year.
 
 ## Hong Kong
 
-- Immigration annual report ([immd.gov.hk ... annual report 2024](https://www.immd.gov.hk/eng/publications/a_report_2024.html)):
-  - IANG approvals exceeded 160,000 as at 2024-12-31
-- Student visa arrangement ([immd.gov.hk study](https://www.immd.gov.hk/eng/services/visas/study.html)):
-  - Standard processing timeline: about 6 weeks after receiving all required documents
-- IANG policy ([immd.gov.hk IANG](https://www.immd.gov.hk/eng/services/visas/IANG.html)):
-  - Recent graduates can generally receive 24 months initial stay without prior job offer
+- IANG arrangement (official page verified on 2026-02-18):
+  - First stay period is usually 24 months.
+  - If employed in Hong Kong, extension is commonly 3 years + 3 years.
+  - After continuous ordinary residence for 7 years, applicants may be eligible to apply for right of abode.
+- Annual report reference (latest cited):
+  - IANG approved applications cumulatively exceed 160,000.
+  - Student visas/entry permits issued in 2024: 74,466.
 
-## Action Rules
+## Singapore
 
-- If policy checkpoint is older than 30 days, linked decision/career articles must be downgraded to `review_required`.
-- If source cannot be re-verified (login wall / anti-bot), keep existing conclusion but mark evidence as `review_required_with_owner_fill`.
-- Every decision article must include: `as_of` date + official source link + `not_applicable_group`.
+- MOM Employment Pass eligibility page (verified on 2026-02-18):
+  - Current minimum monthly salary: SGD 5,600 (financial services: SGD 6,200)
+  - From 2027-01-01: SGD 6,200 (financial services: SGD 6,700)
+- ICA Student's Pass cost checkpoint:
+  - Application fee SGD 30
+  - Issuance fee SGD 60
+  - Multiple-journey visa fee SGD 30 (if applicable)
+
+## Australia
+
+- Study Australia visa requirements page (verified on 2026-02-18):
+  - Student visa (subclass 500) application fee: AUD 2,000
+  - Financial capacity (12 months living cost): AUD 29,710
+  - During study period, work rights are generally up to 48 hours per fortnight.
+
+## Action Rule
+
+- Any policy above outdated for >30 days marks linked decision/career articles as `review_required`.
+- Any visa cost/threshold change triggers same-day refresh for related budget and decision articles.
