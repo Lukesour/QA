@@ -3695,7 +3695,7 @@
           "case_id": "CASE-UK-001",
           "proof_type": "预算测算截图+去标识执行清单",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "隐去姓名、学校和联系方式。"
         },
         "next_article_bridge_cta": {
@@ -3748,7 +3748,7 @@
           "case_id": "CASE-UK-002",
           "proof_type": "自测结果截图+补强计划截图",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "自测分数可做区间展示。"
         },
         "next_article_bridge_cta": {
@@ -3801,7 +3801,7 @@
           "case_id": "CASE-UK-003",
           "proof_type": "项目打分表前后对比图",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "展示分数变化，不展示真实院校名。"
         },
         "next_article_bridge_cta": {
@@ -3854,7 +3854,7 @@
           "case_id": "CASE-UK-004",
           "proof_type": "预算表模板+月度现金流表截图",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "仅展示结构，金额可区间化。"
         },
         "next_article_bridge_cta": {
@@ -3907,7 +3907,7 @@
           "case_id": "CASE-UK-005",
           "proof_type": "补强周计划+文书改前改后对比",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "展示结构，不公开个人隐私信息。"
         },
         "next_article_bridge_cta": {
@@ -3960,7 +3960,7 @@
           "case_id": "CASE-UK-006",
           "proof_type": "文书结构图+段落修改示例",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "示例需匿名处理。"
         },
         "next_article_bridge_cta": {
@@ -4013,7 +4013,7 @@
           "case_id": "CASE-UK-007",
           "proof_type": "终选评分表前后对照",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "学校名可做代号处理。"
         },
         "next_article_bridge_cta": {
@@ -4066,7 +4066,7 @@
           "case_id": "CASE-UK-008",
           "proof_type": "求职时间线截图+周复盘模板",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "不展示候选人姓名和公司信息。"
         },
         "next_article_bridge_cta": {
@@ -4119,7 +4119,7 @@
           "case_id": "CASE-HK-001",
           "proof_type": "适配度评分结果+去标识路径图",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "评分结果展示区间即可。"
         },
         "next_article_bridge_cta": {
@@ -4172,7 +4172,7 @@
           "case_id": "CASE-HK-002",
           "proof_type": "项目筛选矩阵截图",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "项目名称可脱敏。"
         },
         "next_article_bridge_cta": {
@@ -4225,7 +4225,7 @@
           "case_id": "CASE-HK-003",
           "proof_type": "倒排甘特图截图",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "仅展示里程碑，不展示个人信息。"
         },
         "next_article_bridge_cta": {
@@ -4278,7 +4278,7 @@
           "case_id": "CASE-HK-004",
           "proof_type": "补强任务清单+结果对比截图",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "结果建议展示区间化信息。"
         },
         "next_article_bridge_cta": {
@@ -4331,7 +4331,7 @@
           "case_id": "CASE-HK-005",
           "proof_type": "预算结构图+现金流复盘模板",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "金额可做区间遮罩。"
         },
         "next_article_bridge_cta": {
@@ -4384,7 +4384,7 @@
           "case_id": "CASE-HK-006",
           "proof_type": "面试题库页+录音复盘清单",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "音频文件可转文字后匿名展示。"
         },
         "next_article_bridge_cta": {
@@ -4437,7 +4437,7 @@
           "case_id": "CASE-HK-007",
           "proof_type": "入学前清单+周计划截图",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "去除个人行程和地址信息。"
         },
         "next_article_bridge_cta": {
@@ -4490,7 +4490,7 @@
           "case_id": "CASE-HK-008",
           "proof_type": "双路径对比表+投递记录截屏",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "公司名称可打码处理。"
         },
         "next_article_bridge_cta": {
@@ -4543,7 +4543,7 @@
           "case_id": "CASE-SG-001",
           "proof_type": "适配评分卡+路径图",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "路径图建议保留关键节点即可。"
         },
         "next_article_bridge_cta": {
@@ -4596,7 +4596,7 @@
           "case_id": "CASE-SG-002",
           "proof_type": "院校比较矩阵截图",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "可使用院校代号展示。"
         },
         "next_article_bridge_cta": {
@@ -4649,7 +4649,7 @@
           "case_id": "CASE-SG-003",
           "proof_type": "材料一致性检查表",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "展示表格模板而非真实材料。"
         },
         "next_article_bridge_cta": {
@@ -4702,7 +4702,7 @@
           "case_id": "CASE-SG-004",
           "proof_type": "双方案预算截图",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "金额建议展示区间化版本。"
         },
         "next_article_bridge_cta": {
@@ -4755,7 +4755,7 @@
           "case_id": "CASE-SG-005",
           "proof_type": "12周计划表+复盘记录",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "公司名称与联系人需打码。"
         },
         "next_article_bridge_cta": {
@@ -4808,7 +4808,7 @@
           "case_id": "CASE-SG-006",
           "proof_type": "转专业叙事模板+项目证据页",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "示例项目需脱敏。"
         },
         "next_article_bridge_cta": {
@@ -4861,7 +4861,7 @@
           "case_id": "CASE-SG-007",
           "proof_type": "双路径投递看板截图",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "投递公司和个人信息脱敏。"
         },
         "next_article_bridge_cta": {
@@ -4914,7 +4914,7 @@
           "case_id": "CASE-AU-001",
           "proof_type": "三笔账评估表+政策成本对照",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "政策截图需标注日期。"
         },
         "next_article_bridge_cta": {
@@ -4967,7 +4967,7 @@
           "case_id": "CASE-AU-002",
           "proof_type": "冲稳保组合表前后版本",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "院校名称可用代号。"
         },
         "next_article_bridge_cta": {
@@ -5020,7 +5020,7 @@
           "case_id": "CASE-AU-003",
           "proof_type": "申请甘特图+里程碑完成率图",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "时间线可不含具体个人信息。"
         },
         "next_article_bridge_cta": {
@@ -5073,7 +5073,7 @@
           "case_id": "CASE-AU-004",
           "proof_type": "城市成本对照表+预算复盘截图",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "具体地理位置可模糊化。"
         },
         "next_article_bridge_cta": {
@@ -5126,7 +5126,7 @@
           "case_id": "CASE-AU-005",
           "proof_type": "岗位-课程映射表",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "课程代码可保留，个人信息需去除。"
         },
         "next_article_bridge_cta": {
@@ -5179,7 +5179,7 @@
           "case_id": "CASE-AU-006",
           "proof_type": "12周执行看板+投递复盘表",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "企业和联系人打码。"
         },
         "next_article_bridge_cta": {
@@ -5232,7 +5232,7 @@
           "case_id": "CASE-AU-007",
           "proof_type": "offer加权终选表",
           "proof_status": "bundle_template_ready_waiting_owner_upload",
-          "proof_link": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
           "proof_note": "学校名可替换为A/B/C。"
         },
         "next_article_bridge_cta": {
@@ -6948,10 +6948,10 @@
     {
       "source_id": "SRC-AU-GENUINE-STUDENT-2024",
       "title": "Changes to Student visa Genuine Student requirement",
-      "url": "https://minister.homeaffairs.gov.au/ClareONeil/Pages/changes-to-the-temporary-graduate-visa-program-and-student-visa-program-to-strengthen-integrity-in-inte.aspx",
-      "publisher": "Australian Home Affairs Minister",
+      "url": "https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1210",
+      "publisher": "Department of Home Affairs Australia",
       "last_verified_date": "2026-02-18",
-      "notes": "2024年3月相关政策更新"
+      "notes": "用于核验Genuine Student requirement取代GTE的2024年政策更新。"
     },
     {
       "source_id": "SRC-AU-LIVING-COST-2025",
@@ -6971,24 +6971,24 @@
     },
     {
       "source_id": "SRC-AU-STUDENT-CAPACITY-2024",
-      "title": "Additional migration reforms and financial capacity update",
-      "url": "https://minister.homeaffairs.gov.au/ClareONeil/Pages/additional-migration-reforms-to-strengthen-integrity.aspx",
-      "publisher": "Australian Home Affairs Minister",
+      "title": "Study Australia visa guide (financial capacity reference)",
+      "url": "https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas",
+      "publisher": "Australian Government",
       "last_verified_date": "2026-02-18",
       "notes": "财力要求更新为AUD 29,710"
     },
     {
       "source_id": "SRC-AU-STUDENT-VISA-FEE-2024",
-      "title": "Migration strategy reforms including student visa fee change",
-      "url": "https://minister.homeaffairs.gov.au/AndrewGiles/Pages/migration-strategy-reforms-to-deliver-record-migration-program-integrity-levels.aspx",
-      "publisher": "Australian Home Affairs Minister",
+      "title": "Home Affairs archive: Student visa application charge update (2024)",
+      "url": "https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1264",
+      "publisher": "Department of Home Affairs Australia",
       "last_verified_date": "2026-02-18",
       "notes": "学生签申请费调整为AUD 1,600"
     },
     {
       "source_id": "SRC-AU-STUDYAU-STUDENT-VISA-FEE-2025",
-      "title": "Study Australia: Student visa requirements",
-      "url": "https://www.studyaustralia.gov.au/en/plan-your-move/visa-requirements",
+      "title": "Study Australia: Your guide to visas",
+      "url": "https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas",
       "publisher": "Australian Government",
       "last_verified_date": "2026-02-18",
       "notes": "截至2026-02-18核验：Student visa (subclass 500)申请费为AUD 2,000；需提供12个月生活费能力（AUD 29,710）；在读期间通常每两周可工作48小时。"
@@ -7012,7 +7012,7 @@
     {
       "source_id": "SRC-CASE-PROOF-INDEX-2026-02-17",
       "title": "Case Proof Index 2026-02-18",
-      "url": "https://github.com/Lukesour/QA/blob/main/evidence/case-proofs/index.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/case-proofs/index.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "30篇文章案例证据上传目录与状态"
@@ -7028,7 +7028,7 @@
     {
       "source_id": "SRC-HEADLINE-OPS-2026-02-17",
       "title": "Headline Variation Ops 2026-02-18",
-      "url": "https://github.com/Lukesour/QA/blob/main/evidence/headline/headline-variation-ops-20260217.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/headline/headline-variation-ops-20260217.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "标题去模板化规则与审稿清单。"
@@ -7036,7 +7036,7 @@
     {
       "source_id": "SRC-HK-EDUHK-TAUGHT-PG-INTAKE-2026",
       "title": "EdUHK Taught Postgraduate Programmes Intake Information",
-      "url": "https://www.apply.eduhk.hk/tpg/full-time",
+      "url": "https://www.eduhk.hk/acadprog/en/postgrad/index.html",
       "publisher": "The Education University of Hong Kong",
       "last_verified_date": "2026-02-18",
       "notes": "用于香港授课型硕士主要入学季参考"
@@ -7044,23 +7044,23 @@
     {
       "source_id": "SRC-HK-HKBU-TPG-SCHEDULE-2026",
       "title": "HKBU Graduate School Online Application Timeline",
-      "url": "https://gs.hkbu.edu.hk/admissions/online-application",
+      "url": "https://iss.hkbu.edu.hk/amsappl_pg/geninfo.jsf",
       "publisher": "Hong Kong Baptist University",
       "last_verified_date": "2026-02-18",
       "notes": "用于香港秋季申请起始窗口参考"
     },
     {
       "source_id": "SRC-HK-HKU-GES-2024",
-      "title": "HKU Graduate Employment Survey 2024 Highlights",
-      "url": "https://www.cedars.hku.hk/careers/files/hku_ges_highlights_2024.pdf",
-      "publisher": "HKU CEDARS",
+      "title": "HKU press release: JAHM graduate employment survey highlights (2024)",
+      "url": "https://hku.hk/press/press-releases/detail/28067.html",
+      "publisher": "The University of Hong Kong",
       "last_verified_date": "2026-02-18",
-      "notes": "就业率与薪资数据用于口径参考"
+      "notes": "用于香港毕业生就业率与月薪口径的官方新闻稿参考。"
     },
     {
       "source_id": "SRC-HK-IANG-ANNUAL-2024",
       "title": "Hong Kong Immigration Department Annual Report 2024",
-      "url": "https://www.immd.gov.hk/eng/publications/a_report_2024.html",
+      "url": "https://www.immd.gov.hk/publications/a_report_2024/en/chapter2.html",
       "publisher": "Hong Kong Immigration Department",
       "last_verified_date": "2026-02-18",
       "notes": "截至2026-02-18核验：官方披露IANG累计批准超过16万人，2024年签发学生签证/进入许可74,466宗。"
@@ -7083,11 +7083,11 @@
     },
     {
       "source_id": "SRC-HOOTSUITE-EDU-BENCH-2025",
-      "title": "Hootsuite Social Media Benchmarks",
-      "url": "https://www.hootsuite.com/resources/social-media-benchmarks",
+      "title": "Hootsuite blog: average engagement rate benchmarks",
+      "url": "https://blog.hootsuite.com/average-engagement-rate/",
       "publisher": "Hootsuite",
-      "last_verified_date": "2026-02-17",
-      "notes": "用于教育行业内容互动中位水平参考"
+      "last_verified_date": "2026-02-18",
+      "notes": "用于跨平台互动率区间参考（非教育细分专报）。"
     },
     {
       "source_id": "SRC-HUBSPOT-WEBHOOKS-V3-2026",
@@ -7100,7 +7100,7 @@
     {
       "source_id": "SRC-POLICY-WATCHLIST-2026-02-17",
       "title": "Policy Watchlist 2026-02-18",
-      "url": "https://github.com/Lukesour/QA/blob/main/evidence/policy/policy-watchlist-20260217.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/policy/policy-watchlist-20260217.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "英新澳高波动政策监控清单与复核动作。"
@@ -7116,15 +7116,15 @@
     {
       "source_id": "SRC-SEMRUSH-API-2026",
       "title": "Semrush Analytics API Overview",
-      "url": "https://developer.semrush.com/api/v3/analytics/overview/",
+      "url": "https://developer.semrush.com/api/v3/analytics/overview-reports/",
       "publisher": "Semrush Developer Docs",
-      "last_verified_date": "2026-02-17",
+      "last_verified_date": "2026-02-18",
       "notes": "用于后续外部关键词量化接口评估。"
     },
     {
       "source_id": "SRC-SEO-SNAPSHOT-2026-02-17",
       "title": "Internal SEO Keyword Snapshot 2026-02-18",
-      "url": "https://github.com/Lukesour/QA/blob/main/evidence/seo/keyword-snapshots-20260217.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/seo/keyword-snapshots-20260217.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "30篇文章关键词的知乎与小红书查询链接快照"
@@ -7132,7 +7132,7 @@
     {
       "source_id": "SRC-SERIES-MAP-2026-02-17",
       "title": "Country Series Map 2026-02-18",
-      "url": "https://github.com/Lukesour/QA/blob/main/evidence/series/country-series-map-20260217.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218/evidence/series/country-series-map-20260217.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "四国连载链路与跨篇承接话术。"
@@ -7148,18 +7148,18 @@
     {
       "source_id": "SRC-SG-JAUGES-2025",
       "title": "Joint Autonomous Universities Graduate Employment Survey 2024 (NUS release)",
-      "url": "https://news.nus.edu.sg/nus-graduates-achieve-strong-employment-outcomes-amid-shifting-global-economic-landscape/",
+      "url": "https://news.nus.edu.sg/jauges2024/",
       "publisher": "National University of Singapore",
       "last_verified_date": "2026-02-18",
       "notes": "2024届毕业生就业率与薪资关键指标：89.6%就业率、79.5%全职长期就业率、S$4,500月薪中位数。"
     },
     {
       "source_id": "SRC-SG-MOE-GES-2025",
-      "title": "Joint Autonomous Universities Graduate Employment Survey 2024 (NUS release)",
-      "url": "https://news.nus.edu.sg/nus-graduates-achieve-strong-employment-outcomes-amid-shifting-global-economic-landscape/",
-      "publisher": "National University of Singapore",
+      "title": "data.gov.sg collection: Graduate Employment Survey datasets",
+      "url": "https://data.gov.sg/collections/415/view",
+      "publisher": "data.gov.sg (Singapore Government)",
       "last_verified_date": "2026-02-18",
-      "notes": "2024届数据显示：劳动人口就业率89.6%，全职长期就业率79.5%，全职长期岗位月薪中位数S$4,500（2023年为S$4,313）。"
+      "notes": "用于新加坡官方GES口径与历年数据下载。"
     },
     {
       "source_id": "SRC-SG-MOM-EP-2025",
@@ -7211,10 +7211,10 @@
     },
     {
       "source_id": "SRC-UCAS-LIVING-COST-2026",
-      "title": "UCAS: Student living costs in the UK",
-      "url": "https://www.ucas.com/money-and-student-life/money/student-budgeting/student-living-costs-uk",
+      "title": "UCAS: How much does uni or college cost?",
+      "url": "https://www.ucas.com/money-and-student-life/money/managing-money/how-much-does-uni-or-college-cost",
       "publisher": "UCAS",
-      "last_verified_date": "2026-02-17",
+      "last_verified_date": "2026-02-18",
       "notes": "学生生活成本区间参考"
     },
     {

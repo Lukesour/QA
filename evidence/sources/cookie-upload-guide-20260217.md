@@ -37,6 +37,21 @@ curl -L --max-time 20 -A 'Mozilla/5.0' -b evidence/sources/cookies/xiaohongshu.c
 - NUS page should not contain `/_Incapsula_Resource` challenge marker.
 - Unimelb page should not contain `Just a moment...` / `Enable JavaScript and cookies to continue`.
 
+## If Cookies Still Fail (Recommended HAR Upload)
+
+For Zhihu and Xiaohongshu, anti-bot signatures are dynamic and cookie-only replay may fail.
+
+Upload:
+
+- `evidence/sources/cookies/zhihu_search.har`
+- `evidence/sources/cookies/xhs_search.har`
+
+Requirements:
+
+- HAR must include one successful logged-in search request.
+- Keep request headers (`x-zse-*` or `x-s*`) and cookies intact.
+- Remove unrelated personal requests from HAR before upload.
+
 ## Security Notes
 
 - This folder is git-ignored except `.gitkeep` and `.gitignore`; real cookie files will not be committed.

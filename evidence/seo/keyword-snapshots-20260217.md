@@ -4,7 +4,7 @@ This snapshot records article-level search signal references.
 
 ## Data Collection Status
 - Zhihu and Xiaohongshu search pages are currently blocked by anti-bot/login verification in this environment.
-- Existing cookie files are not sufficient to capture stable result counts.
+- Existing cookie files and user-provided header cookies are still not sufficient to capture stable result counts.
 - Numeric fields are left as explicit placeholders for manual login capture.
 
 | Article | Core Keyword | Zhihu Query URL | Xiaohongshu Query URL | Signal Tier | Signal Score | Zhihu Count | Xiaohongshu Count | Google Trends 90d | Status |

@@ -25,5 +25,22 @@
   - All webhook target URLs and tokens
 
 ## 4) Cookies Needed For Automated SEO Capture
-- Zhihu logged-in cookie (`www.zhihu.com`), able to open content search pages.
-- Xiaohongshu logged-in cookie (`www.xiaohongshu.com`), able to open search result pages without challenge page.
+- Zhihu:
+  - Required cookie domain: `www.zhihu.com`
+  - Required proof: open `https://www.zhihu.com/search?type=content&q=英国授课型硕士值不值` and page data shows `"logged":true`
+  - If using API endpoint, also need valid anti-bot signature headers from same browser request: `x-zse-93` and dynamic `x-zse-96`.
+- Xiaohongshu:
+  - Required cookie domain: `www.xiaohongshu.com` and `edith.xiaohongshu.com`
+  - Required proof: open `https://www.xiaohongshu.com/search_result?keyword=英国授课型硕士值不值` and page data shows `"loggedIn":true`
+  - If calling search API, also need dynamic headers from same request: `x-s`, `x-s-common`, `x-t` (these are time-sensitive).
+
+## 5) One-Time Upload Shortcut (Recommended)
+- Upload one authenticated HAR file each:
+  - `zhihu_search.har` (a successful search request in logged-in browser)
+  - `xhs_search.har` (a successful search request in logged-in browser)
+- With HAR, we can replay request headers exactly and fill numeric slots faster.
+
+## 6) Current Blocked Sources (Need Browser/Open Manually)
+- `SRC-AU-UNIMELB-INTAKE-FAQ-2026`: `https://study.unimelb.edu.au/how-to-apply/entry-requirements/important-dates` (Cloudflare/403 in terminal)
+- `SRC-HK-EDUHK-TAUGHT-PG-INTAKE-2026`: `https://www.eduhk.hk/acadprog/en/postgrad/index.html` (TLS handshake issue in terminal environment)
+- `SRC-ZHIHU-AI-GOVERNANCE-2025`: `https://zhuanlan.zhihu.com/p/1945125274678665604` (Zhihu anti-bot/403 in terminal)
