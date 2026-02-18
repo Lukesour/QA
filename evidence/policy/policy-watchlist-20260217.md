@@ -58,13 +58,13 @@ This file tracks high-volatility policy checkpoints used by A01-A30.
 - Student visa policy update (official, Home Affairs archive):
   - Genuine Student requirement replaced GTE from 2024-03-23.
   - Source: https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1210
-- Student visa fee reference (official, Study Australia):
-  - Student visa (subclass 500) base application charge: AUD 2,000 (from 1 July 2025)
-  - Source: https://www.studyaustralia.gov.au/en/plan-your-move/visa-requirements/cost-of-student-visa
-- Living cost and work rights reference (official, Study Australia):
-  - 12-month living cost reference: AUD 29,710
+- Student visa fee and work-rights reference (official, Study Australia):
+  - Student visa (subclass 500) application fee: AUD 2,000
   - During study period: generally up to 48 hours per fortnight
-  - Source: https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas
+  - Source: https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500
+- Living cost reference (official, Study Australia):
+  - 12-month living cost reference: AUD 29,710
+  - Source: https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas.html
 - Graduate outcomes benchmark (official, QILT):
   - GOS 2024 release contains >117,000 graduate responses
   - Source: https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)

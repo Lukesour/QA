@@ -9,7 +9,7 @@ This log keeps the exact checkpoints verified before content updates.
 | UK | https://www.gov.uk/healthcare-immigration-application/how-much-pay | Student/dependant IHS GBP 776/year | 2026-02-18 |
 | SG | https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility | Current S$5,600/S$6,200; from 2027-01-01 S$6,000/S$6,600 | 2026-02-18 |
 | SG | https://www.ica.gov.sg/reside/STP/collect | Student's Pass issuance S$60; Multiple Journey Visa S$30 (if applicable) | 2026-02-18 |
-| AU | https://www.studyaustralia.gov.au/en/plan-your-move/visa-requirements/cost-of-student-visa | From 2025-07-01 Student visa VAC AUD 2,000 | 2026-02-18 |
+| AU | https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500 | Student visa application fee AUD 2,000; generally up to 48 hours per fortnight during study period | 2026-02-18 |
 | AU | https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500 | Course session work limit 48 hours per fortnight; stay up to 6 years in line with enrolment | 2026-02-18 |
 | HK | https://www.immd.gov.hk/eng/publications/a_report_2024.html | IANG approvals exceeded 160,000 as at 2024-12-31 | 2026-02-18 |
 | HK | https://www.immd.gov.hk/eng/services/visas/study.html | Study visa normal processing time: about 6 weeks after all required documents received | 2026-02-18 |
@@ -44,5 +44,5 @@ This log keeps the exact checkpoints verified before content updates.
   - IHS page still shows GBP 776/year for students and dependants.
 - SG MOM EP eligibility page still shows current S$5,600/S$6,200 and 2027-01-01 thresholds S$6,000/S$6,600.
 - AU Study Australia page with direct fee anchor was rechecked:
-  - https://www.studyaustralia.gov.au/en/plan-your-move/visa-requirements/cost-of-student-visa
-  - checkpoint: Student visa base application charge A$2,000 (from 1 July 2025).
+  - https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500
+  - checkpoint: Student visa application fee A$2,000 and study-period work restriction generally up to 48 hours per fortnight.

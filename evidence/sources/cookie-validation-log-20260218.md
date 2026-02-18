@@ -1,16 +1,16 @@
 # Cookie Validation Log (2026-02-18)
 
 as_of: 2026-02-18
-workspace: /Users/suan/Desktop/留学/资料/自媒体素材
+workspace: /tmp/QA_codex_20260218
 
 ## Validation Result Summary
 
 | site | cookie file status | terminal access result | auth result | next action |
 |---|---|---|---|---|
-| https://www.zhihu.com/search | `zhihu.cookies.txt` uploaded | page fetched | `"logged":false` in page initial data | refresh cookie with active login session and re-test |
-| https://www.xiaohongshu.com/search_result | `xiaohongshu.cookies.txt` uploaded | page fetched | `"loggedIn":false` in page initial state | refresh cookie with active login session and re-test |
-| https://www.nus.edu.sg/oam/apply-to-nus/graduate | missing `nus.cookies.txt` | blocked by Incapsula challenge | not authenticated | upload `nus.cookies.txt` and re-test |
-| https://study.unimelb.edu.au/how-to-apply/graduate-coursework-study/international-applications/faqs | missing `unimelb.cookies.txt` | blocked by Cloudflare challenge | not authenticated | upload `unimelb.cookies.txt` and re-test |
+| https://www.zhihu.com/search | `zhihu.cookies.txt` not present in repo | page fetched | `"logged":false` in page initial data | provide active login cookie/HAR and re-test |
+| https://www.xiaohongshu.com/search_result | `xiaohongshu.cookies.txt` not present in repo | page fetched | `"loggedIn":false` in page initial state | provide active login cookie/HAR and re-test |
+| https://www.nus.edu.sg/oam/apply-to-nus/graduate | `nus.cookies.txt` not present in repo | blocked by Incapsula challenge | not authenticated | provide cookie/HAR and re-test |
+| https://study.unimelb.edu.au/how-to-apply/graduate-coursework-study/international-applications/faqs | `unimelb.cookies.txt` not present in repo | blocked by Cloudflare challenge | not authenticated | provide cookie/HAR and re-test |
 
 ## Additional Check With User-Provided Header Cookies (2026-02-18)
 
@@ -47,6 +47,11 @@ Place files under:
 - `evidence/sources/cookies/xiaohongshu.cookies.txt` (refresh required)
 - `evidence/sources/cookies/nus.cookies.txt` (new upload required)
 - `evidence/sources/cookies/unimelb.cookies.txt` (new upload required)
+
+## Security Note
+
+- Cookie files are intentionally not tracked in git for security.
+- Store raw cookie/HAR locally and only commit desensitized extraction outputs when needed.
 
 ## Best Next Upload For Fast Completion
 

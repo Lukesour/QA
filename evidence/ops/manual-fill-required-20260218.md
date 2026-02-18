@@ -4,6 +4,7 @@
 
 - File: `evidence/seo/keyword-snapshots-20260217.md`
 - Validation log: `evidence/seo/seo-capture-validation-20260218.md`
+- Fill sheet: `evidence/ops/seo-manual-fill-sheet-20260218.md`
 - JSON path: `v1_2_content_system.seo_signal_registry.signals[*]`
 - Remaining fields requiring manual browser capture:
   - `zhihu_result_count` (public terminal blocked by anti-bot 403)
