@@ -1,34 +1,40 @@
-# Full Upgrade Report (2026-02-17)
+# Full Upgrade Report (2026-02-18)
 
-## Completed
-- Completed longform article pack for A01-A30:
-  - `evidence/content/publish-ready-longform-20260217.md`
-- Completed article-level evidence module and source binding:
-  - `evidence/content/article-evidence-modules-20260217.md`
-- Completed case proof bundle templates for A01-A30:
-  - `evidence/case-proofs/bundles/CASE-*/manifest.md`
-- Completed policy checkpoint watchlist and verification log:
-  - `evidence/policy/policy-watchlist-20260217.md`
+## Completed in This Round
+
+- Completed deep ops cards for all A01-A30 (platform-ready + evidence-bound):
+  - `evidence/content/full-30-deep-ops-cards-20260218.md`
+- Completed full mapping of article cases to line-level `offer_record_id` keys:
+  - `evidence/case-proofs/offers-case-mapping-20260218.md`
+- Updated policy SSOT and verification log with refreshed official links and checkpoints:
+  - `evidence/policy/policy-single-source-of-truth-20260218.md`
   - `evidence/policy/policy-verification-log-20260217.md`
-- Completed title anti-template rules, series map, conversion blueprint:
-  - `evidence/headline/headline-variation-ops-20260217.md`
-  - `evidence/series/country-series-map-20260217.md`
-  - `evidence/conversion/conversion-closed-loop-20260217.md`
+- Updated recommended source stack (P0/P1/P2/P3) and parser-fallback notes:
+  - `evidence/sources/recommended-source-stack-20260217.md`
+- Updated manual-fill SOP for blocked SEO/platform sources and browser capture format:
+  - `evidence/ops/manual-fill-required-20260218.md`
+
+## Existing Deliverables Kept as Primary Publishing Assets
+
+- Longform article pack for A01-A30:
+  - `evidence/content/publish-ready-longform-20260217.md`
+- Structured draft pack for A01-A30:
+  - `evidence/content/publish-ready-drafts-20260217.md`
+- Article-level evidence modules:
+  - `evidence/content/article-evidence-modules-20260217.md`
+- Platform rewrite pack:
+  - `evidence/content/platform-layout-rewrite-pack-20260218.md`
 
 ## Owner Fill Required (Blocked by Login/Anti-Bot)
-- Zhihu search page -> upload `zhihu.cookies.txt`
-- Xiaohongshu search page -> upload `xiaohongshu.cookies.txt`
-- NUS OAM graduate page -> upload `nus.cookies.txt`
-- Unimelb graduate FAQ page -> upload `unimelb.cookies.txt`
-- Upload directory:
-  - `evidence/sources/cookies/`
-- Guide:
-  - `evidence/sources/cookie-upload-guide-20260217.md`
-- Validation log:
-  - `evidence/sources/cookie-validation-log-20260218.md`
-  - Current status: Zhihu/Xiaohongshu cookie files uploaded but still not in logged-in state.
 
-## Owner Fill Required (Business Keys)
+- Zhihu search totals (logged-in browser required)
+- Xiaohongshu search totals (logged-in browser required)
+- Google Trends index capture per keyword (region/time fixed format)
+- Reference SOP:
+  - `evidence/ops/manual-fill-required-20260218.md`
+
+## Owner Fill Required (Private Business Keys)
+
 - HubSpot App ID
 - Typeform Form ID
 - Calendly Organization URI
@@ -37,6 +43,7 @@
   - `evidence/conversion/conversion-closed-loop-20260217.md`
 
 ## Publish Rule
-- Prefer longform file for publishing.
-- Keep each post with `as_of + official source + not_applicable_group`.
-- If source is blocked, mark owner_fill and attach screenshot with timestamp.
+
+- Publish state cannot move to `publish_ready_with_proof` without case screenshot bundle upload.
+- Every external post must include `as_of + official source + not_applicable_group`.
+- If source is parse-blocked, keep `owner_fill` and attach screenshot with timestamp.

@@ -7466,7 +7466,7 @@
     {
       "source_id": "SRC-HK-IANG-ANNUAL-2024",
       "title": "Hong Kong Immigration Department Annual Report 2024",
-      "url": "https://www.immd.gov.hk/eng/publications/a_report_2024/appendix5.html",
+      "url": "https://www.immd.gov.hk/publications/a_report_2024/en/appendix5.html",
       "publisher": "Hong Kong Immigration Department",
       "last_verified_date": "2026-02-18",
       "notes": "截至2026-02-18核验：2024年签发学生签证/进入许可74,466宗，IANG项下入境人数为10,796。"
@@ -7562,7 +7562,7 @@
     {
       "source_id": "SRC-SG-MOE-GES-2025",
       "title": "data.gov.sg dataset: Graduate Employment Survey",
-      "url": "https://data.gov.sg/datasets/d_3f00cf99ddce14f81e0dc04c140e5961/view",
+      "url": "https://data.gov.sg/datasets/d_493892c2528711f5aadbb64f90bb0f8d/view",
       "publisher": "data.gov.sg (Singapore Government)",
       "last_verified_date": "2026-02-18",
       "notes": "用于新加坡官方GES口径；若dataset endpoint改版导致抓取失败，需运营补截图并记录抓取时间。"
@@ -7714,7 +7714,7 @@
     {
       "source_id": "SRC-HK-IMMD-FEES-2025",
       "title": "Fees for application for visas and entry permits",
-      "url": "https://www.immd.gov.hk/eng/services/fees/visas/fees-for-application-for-visas-and-entry-permits.html",
+      "url": "https://www.immd.gov.hk/eng/services/fees/visas/fees-for-visas-and-entry-permits.html",
       "publisher": "Immigration Department Hong Kong",
       "last_verified_date": "2026-02-18",
       "notes": "2025-02-26起生效费率，用于签证/入境许可费用口径。"

@@ -10,30 +10,34 @@ Use this stack for all A01-A30 updates. Priority order is mandatory.
 - UK Immigration Health Surcharge: https://www.gov.uk/healthcare-immigration-application/how-much-pay
 - HK Study visa: https://www.immd.gov.hk/eng/services/visas/study.html
 - HK IANG: https://www.immd.gov.hk/eng/services/visas/IANG.html
-- HK Specified schemes fees: https://www.immd.gov.hk/eng/services/fees/visas/fees-for-application-for-visas-and-entry-permits.html
-- HK Annual report appendix 5: https://www.immd.gov.hk/eng/publications/a_report_2024/en/appendix5.html
+- HK fees page (terminal parser may be unstable, use owner browser capture if blocked): https://www.immd.gov.hk/eng/services/fees/visas/fees-for-visas-and-entry-permits.html
+- HK annual report appendix 5: https://www.immd.gov.hk/publications/a_report_2024/en/appendix5.html
 - SG MOM EP eligibility: https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility
-  - as_of_2026_02_18_checkpoint: from 2025-01-01 new applications min SGD 5,600 (financial services SGD 6,200); renewals use same criteria from 2026-01-01; 2027 COMPASS threshold changes already announced on same page
+  - as_of_2026_02_18_checkpoint: new applications salary floor from 2025-01-01 is SGD 5,600 (financial services SGD 6,200); same criteria apply for renewals from 2026-01-01.
 - SG ICA Student's Pass collect: https://www.ica.gov.sg/reside/STP/collect
 - SG Student work exemption: https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students
 - AU Student visa page: https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500
 - AU financial capacity update (AUD 29,710): https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1216
 - AU Genuine Student update (GTE replacement): https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1210
+  - parser note: Home Affairs archive pages can fail in terminal mode; keep `owner_fill_if_blocked` and attach browser screenshot.
 
 ## P1 Admission Window / Programme Evidence
 
 - Exeter deadline page: https://www.exeter.ac.uk/study/postgraduate/applying/applicationdeadlines/
-- Glasgow taught programmes: https://www.gla.ac.uk/postgraduate/taught/
+- Glasgow postgraduate key dates: https://www.gla.ac.uk/postgraduate/dates/
+- Glasgow taught programme finder: https://www.gla.ac.uk/postgraduate/taught/
 - HKBU timeline: https://gs.hkbu.edu.hk/admission/research-postgraduate-programmes/application/admission-timeline
 - NUS SoC graduate application: https://www.comp.nus.edu.sg/programmes/pg/misc/application/
 - NTU coursework admission guide: https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide
 
 ## P1 Employment Outcome / ROI
 
-- SG JAUGES official release (NUS): https://news.nus.edu.sg/jauges2024/
-- SG autonomous university outcome release (NTU): https://www.ntu.edu.sg/news/detail/ntu-graduates-maintain-strong-employment-rates-and-better-starting-pay-amid-global-economic-volatility
+- UK HESA graduate outcomes: https://www.hesa.ac.uk/data-and-analysis/graduates/outcomes
+- SG NUS JAUGES official release: https://news.nus.edu.sg/jauges2024/
+- SG NTU employment release: https://www.ntu.edu.sg/news/detail/ntu-graduates-maintain-strong-employment-rates-and-better-starting-pay-amid-global-economic-volatility
 - AU QILT GOS: https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)
-- SG data.gov GES dataset (if endpoint valid): https://data.gov.sg/datasets/d_3f00cf99ddce14f81e0dc04c140e5961/view
+- SG data.gov GES dataset (new endpoint): https://data.gov.sg/datasets/d_493892c2528711f5aadbb64f90bb0f8d/view
+  - endpoint note: dataset URIs can change after platform revisions; keep screenshot evidence in weekly archive.
 
 ## P2 Demand Signal (Topic Priority Only)
 
