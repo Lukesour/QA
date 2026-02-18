@@ -24,6 +24,8 @@
   - `04-desensitization-note.md`
 - Public benchmark reference (already prepared):
   - `evidence/case-proofs/public-benchmark-reference-20260218.md`
+- Structured draft placeholders have been rebound to exact bundle paths:
+  - `evidence/content/publish-ready-drafts-20260217.md`
 - Publish-state gating update (already applied in `material.json`):
   - All 30 articles are currently `needs_case_upload`.
   - Switch to `ready` only after case bundle upload + evidence verification pass.
@@ -32,6 +34,8 @@
 
 - JSON path: `v1_2_content_system.private_conversion_funnel.extension`
 - Survey binding: `v1_2_content_system.global_interaction_config.survey_entry_asset` (LM009)
+- Completed in this round:
+  - A01-A30 `cta_ladder.survey_trigger` 已统一绑定 LM009 文案。
 - Manual secrets/IDs still required:
   - `MANUAL_FILL_REQUIRED_HUBSPOT_APP_ID`
   - `MANUAL_FILL_REQUIRED_TYPEFORM_FORM_ID`

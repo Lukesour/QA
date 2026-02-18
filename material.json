@@ -1,7 +1,7 @@
 {
   "meta": {
     "project_name": "授课型硕士留学内容增长系统",
-    "version": "1.3.3",
+    "version": "1.3.4",
     "based_on": "1.3.1",
     "update_date": "2026-02-18",
     "data_cutoff_date": "2026-02-18",
@@ -34,6 +34,11 @@
       "round6_policy_revalidation_20260218",
       "seo_manual_fill_sheet_full_batch_30",
       "lm009_survey_entry_global_binding",
+      "lm009_survey_trigger_a01_a30_unified",
+      "hk_fee_and_annual_report_source_url_revalidated",
+      "case_screenshot_slots_rebound_to_bundle_paths",
+      "longform_expansion_pack_a01_a30_added",
+      "round7_web_policy_revalidation_log_added",
       "stale_data_execution_workflow_added",
       "v1_2_reserved_modules_filled"
     ]
@@ -1057,7 +1062,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【英国决策】领取评估表",
           "save_trigger": "先收藏并在收藏夹回复“已收藏”，我回你预算核算顺序",
-          "survey_trigger": "填写《咨询前诊断问卷》后领取项目匹配建议",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》后领取项目匹配建议",
           "dm_trigger": "私信发送“英硕值不值+预算”，进入一对一诊断"
         },
         "dm_personalization": {
@@ -1154,7 +1159,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【一年制】领取自测表",
           "save_trigger": "收藏后私信“自测分数”，我给你三档判断",
-          "survey_trigger": "填写目标岗位问卷，领取入学前补强清单",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取入学前补强清单",
           "dm_trigger": "私信“一年制+目标岗位”，进入路径诊断"
         },
         "dm_personalization": {
@@ -1251,7 +1256,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【英国选校】领取四维矩阵",
           "save_trigger": "收藏后发我“名单”，我给你标注高风险项目",
-          "survey_trigger": "提交岗位问卷，领取“项目-岗位匹配分”",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取“项目-岗位匹配分”",
           "dm_trigger": "私信“英国选校+目标岗位”，我发你首轮筛选建议"
         },
         "dm_personalization": {
@@ -1350,7 +1355,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【英国预算】领取预算器",
           "save_trigger": "收藏后私信“预算”，我发你风险缓冲位算法",
-          "survey_trigger": "填写预算问卷，领取城市替代方案",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取城市替代方案",
           "dm_trigger": "私信“英国预算+总额”，进入预算诊断"
         },
         "dm_personalization": {
@@ -1447,7 +1452,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【英国补强】领取补强清单",
           "save_trigger": "收藏后私信“补强”，我给你90天节奏表",
-          "survey_trigger": "填写背景问卷，领取个人补强优先级",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取个人补强优先级",
           "dm_trigger": "私信“英国补强+GPA”，进入定位诊断"
         },
         "dm_personalization": {
@@ -1544,7 +1549,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【英国文书】领取模板",
           "save_trigger": "收藏后私信“文书”，我回你结构评分标准",
-          "survey_trigger": "提交文书自检表，领取改稿优先级",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取改稿优先级",
           "dm_trigger": "私信“英国文书+目标项目”，进入一对一改稿诊断"
         },
         "dm_personalization": {
@@ -1641,7 +1646,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【offer对比】领取决策表",
           "save_trigger": "收藏后私信“offer”，我发你权重设定建议",
-          "survey_trigger": "填写终选问卷，领取终选评分样表",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取终选评分样表",
           "dm_trigger": "私信“offer对比+目标岗位”，进入终选诊断"
         },
         "dm_personalization": {
@@ -1738,7 +1743,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【英国求职】领取时间线",
           "save_trigger": "收藏后私信“求职”，我发你12周起步动作",
-          "survey_trigger": "填写岗位问卷，领取双路径节奏表",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取双路径节奏表",
           "dm_trigger": "私信“英国求职+目标岗位”，进入求职诊断"
         },
         "dm_personalization": {
@@ -1835,7 +1840,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【港硕自测】领取自测表",
           "save_trigger": "收藏后私信“港硕”，我发你适配阈值",
-          "survey_trigger": "填写去向问卷，领取双路径判断表",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取双路径判断表",
           "dm_trigger": "私信“港硕适配+目标岗位”，进入决策诊断"
         },
         "dm_personalization": {
@@ -1932,7 +1937,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【港硕筛选】领取筛选模板",
           "save_trigger": "收藏后私信“筛选”，我回你冲稳保比例",
-          "survey_trigger": "填写岗位问卷，领取项目匹配分表",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取项目匹配分表",
           "dm_trigger": "私信“港硕筛选+岗位”，进入名单诊断"
         },
         "dm_personalization": {
@@ -2029,7 +2034,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【港硕时间线】领取倒排模板",
           "save_trigger": "收藏后私信“倒排”，我发你周计划版",
-          "survey_trigger": "提交进度问卷，领取风险节点提示",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取风险节点提示",
           "dm_trigger": "私信“港硕时间线+入学季”，进入进度诊断"
         },
         "dm_personalization": {
@@ -2126,7 +2131,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【港硕补强】领取补强清单",
           "save_trigger": "收藏后私信“港硕补强”，我发你90天节奏",
-          "survey_trigger": "填写背景问卷，领取个性化补强序列",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取个性化补强序列",
           "dm_trigger": "私信“港硕补强+GPA”，进入路径诊断"
         },
         "dm_personalization": {
@@ -2223,7 +2228,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【港硕预算】领取预算器",
           "save_trigger": "收藏后私信“港硕预算”，我发你缓冲位计算法",
-          "survey_trigger": "提交预算问卷，领取项目梯度建议",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取项目梯度建议",
           "dm_trigger": "私信“港硕预算+总额”，进入预算诊断"
         },
         "dm_personalization": {
@@ -2320,7 +2325,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【港硕面试】领取题库",
           "save_trigger": "收藏后私信“面试”，我发你1分钟表达模板",
-          "survey_trigger": "提交面试问卷，领取追问分支清单",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取追问分支清单",
           "dm_trigger": "私信“港硕面试+专业”，进入面试诊断"
         },
         "dm_personalization": {
@@ -2417,7 +2422,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【港硕入学】领取清单",
           "save_trigger": "收藏后私信“入学”，我发你7件事优先级",
-          "survey_trigger": "提交入学准备问卷，领取个性化倒排表",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取个性化倒排表",
           "dm_trigger": "私信“港硕入学+入学季”，进入入学前诊断"
         },
         "dm_personalization": {
@@ -2514,7 +2519,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【港硕就业】领取双路径对比表",
           "save_trigger": "收藏后私信“去向”，我发你终选框架",
-          "survey_trigger": "填写去向问卷，领取双路径评分表",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取双路径评分表",
           "dm_trigger": "私信“港硕就业+目标岗位”，进入终选诊断"
         },
         "dm_personalization": {
@@ -2613,7 +2618,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【新加坡决策】领取评估表",
           "save_trigger": "收藏后私信“新加坡”，我发你双路径判断框架",
-          "survey_trigger": "提交去向问卷，领取留新可行性评估",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取留新可行性评估",
           "dm_trigger": "私信“新加坡决策+岗位”，进入决策诊断"
         },
         "dm_personalization": {
@@ -2710,7 +2715,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【新加坡选校】领取比较表",
           "save_trigger": "收藏后私信“新加坡选校”，我回你权重建议",
-          "survey_trigger": "填写岗位问卷，领取项目匹配分",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取项目匹配分",
           "dm_trigger": "私信“新加坡选校+岗位”，进入名单诊断"
         },
         "dm_personalization": {
@@ -2807,7 +2812,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【新加坡材料】领取文书模板",
           "save_trigger": "收藏后私信“材料”，我发你一致性核对表",
-          "survey_trigger": "提交材料问卷，领取改进优先级",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取改进优先级",
           "dm_trigger": "私信“新加坡材料+专业”，进入材料诊断"
         },
         "dm_personalization": {
@@ -2904,7 +2909,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【新加坡预算】领取模板",
           "save_trigger": "收藏后私信“新加坡预算”，我发你风险位比例",
-          "survey_trigger": "填写预算问卷，领取项目成本分层建议",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取项目成本分层建议",
           "dm_trigger": "私信“新加坡预算+总额”，进入预算诊断"
         },
         "dm_personalization": {
@@ -3001,7 +3006,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【新加坡求职】领取时间线模板",
           "save_trigger": "收藏后私信“求职计划”，我发你第一周动作",
-          "survey_trigger": "填写岗位问卷，领取岗位门槛对照表",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取岗位门槛对照表",
           "dm_trigger": "私信“新加坡求职+岗位”，进入求职诊断"
         },
         "dm_personalization": {
@@ -3098,7 +3103,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【转专业】领取模板",
           "save_trigger": "收藏后私信“转专业”，我发你叙事评分表",
-          "survey_trigger": "提交背景问卷，领取补课优先级",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取补课优先级",
           "dm_trigger": "私信“新加坡转专业+目标岗位”，进入路径诊断"
         },
         "dm_personalization": {
@@ -3195,7 +3200,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【新加坡就业】领取双路径对比表",
           "save_trigger": "收藏后私信“去向”，我发你终选逻辑",
-          "survey_trigger": "填写去向问卷，领取双路径评分表",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取双路径评分表",
           "dm_trigger": "私信“新加坡就业+岗位”，进入终选诊断"
         },
         "dm_personalization": {
@@ -3294,7 +3299,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【澳洲决策】领取评估表",
           "save_trigger": "收藏后私信“澳洲”，我发你政策窗口表",
-          "survey_trigger": "填写去向问卷，领取路径可行性结论",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取路径可行性结论",
           "dm_trigger": "私信“澳洲决策+预算”，进入决策诊断"
         },
         "dm_personalization": {
@@ -3391,7 +3396,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【澳洲选校】领取模板",
           "save_trigger": "收藏后私信“选校”，我发你组合比例建议",
-          "survey_trigger": "填写岗位问卷，领取匹配分表",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取匹配分表",
           "dm_trigger": "私信“澳洲选校+岗位”，进入名单诊断"
         },
         "dm_personalization": {
@@ -3488,7 +3493,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【澳洲时间线】领取甘特图",
           "save_trigger": "收藏后私信“时间线”，我发你周节奏模板",
-          "survey_trigger": "填写进度问卷，领取风险节点",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取风险节点",
           "dm_trigger": "私信“澳洲时间线+入学季”，进入进度诊断"
         },
         "dm_personalization": {
@@ -3586,7 +3591,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【澳洲预算】领取对照表",
           "save_trigger": "收藏后私信“城市预算”，我发你对比维度",
-          "survey_trigger": "提交预算问卷，领取城市建议",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取城市建议",
           "dm_trigger": "私信“澳洲预算+城市”，进入预算诊断"
         },
         "dm_personalization": {
@@ -3683,7 +3688,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【课程匹配】领取选课与实习包",
           "save_trigger": "收藏后私信“选课”，我发你岗位映射模板",
-          "survey_trigger": "填写岗位问卷，领取课程建议",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取课程建议",
           "dm_trigger": "私信“课程匹配+目标岗位”，进入课程诊断"
         },
         "dm_personalization": {
@@ -3780,7 +3785,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【澳洲求职】领取12周SOP",
           "save_trigger": "收藏后私信“第一周”，我发你起步动作",
-          "survey_trigger": "填写求职问卷，领取优先任务清单",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取优先任务清单",
           "dm_trigger": "私信“澳洲求职+岗位”，进入求职诊断"
         },
         "dm_personalization": {
@@ -3878,7 +3883,7 @@
         "cta_ladder": {
           "comment_keyword": "评论【入学倒排】领取终选表",
           "save_trigger": "收藏后私信“终选”，我发你权重示例",
-          "survey_trigger": "填写终选问卷，领取主备方案建议",
+          "survey_trigger": "填写《咨询前诊断问卷（LM009）》，领取主备方案建议",
           "dm_trigger": "私信“澳洲终选+岗位”，进入终选诊断"
         },
         "dm_personalization": {
@@ -3929,7 +3934,7 @@
           "case_id": "CASE-UK-001",
           "proof_type": "预算测算截图+去标识执行清单",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "隐去姓名、学校和联系方式。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -3983,7 +3988,7 @@
           "case_id": "CASE-UK-002",
           "proof_type": "自测结果截图+补强计划截图",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "自测分数可做区间展示。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4037,7 +4042,7 @@
           "case_id": "CASE-UK-003",
           "proof_type": "项目打分表前后对比图",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "展示分数变化，不展示真实院校名。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4091,7 +4096,7 @@
           "case_id": "CASE-UK-004",
           "proof_type": "预算表模板+月度现金流表截图",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "仅展示结构，金额可区间化。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4145,7 +4150,7 @@
           "case_id": "CASE-UK-005",
           "proof_type": "补强周计划+文书改前改后对比",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "展示结构，不公开个人隐私信息。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4199,7 +4204,7 @@
           "case_id": "CASE-UK-006",
           "proof_type": "文书结构图+段落修改示例",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "示例需匿名处理。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4253,7 +4258,7 @@
           "case_id": "CASE-UK-007",
           "proof_type": "终选评分表前后对照",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "学校名可做代号处理。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4307,7 +4312,7 @@
           "case_id": "CASE-UK-008",
           "proof_type": "求职时间线截图+周复盘模板",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "不展示候选人姓名和公司信息。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4361,7 +4366,7 @@
           "case_id": "CASE-HK-001",
           "proof_type": "适配度评分结果+去标识路径图",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "评分结果展示区间即可。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4415,7 +4420,7 @@
           "case_id": "CASE-HK-002",
           "proof_type": "项目筛选矩阵截图",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "项目名称可脱敏。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4469,7 +4474,7 @@
           "case_id": "CASE-HK-003",
           "proof_type": "倒排甘特图截图",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "仅展示里程碑，不展示个人信息。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4523,7 +4528,7 @@
           "case_id": "CASE-HK-004",
           "proof_type": "补强任务清单+结果对比截图",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "结果建议展示区间化信息。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4577,7 +4582,7 @@
           "case_id": "CASE-HK-005",
           "proof_type": "预算结构图+现金流复盘模板",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "金额可做区间遮罩。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4631,7 +4636,7 @@
           "case_id": "CASE-HK-006",
           "proof_type": "面试题库页+录音复盘清单",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "音频文件可转文字后匿名展示。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4685,7 +4690,7 @@
           "case_id": "CASE-HK-007",
           "proof_type": "入学前清单+周计划截图",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "去除个人行程和地址信息。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4739,7 +4744,7 @@
           "case_id": "CASE-HK-008",
           "proof_type": "双路径对比表+投递记录截屏",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "公司名称可打码处理。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4793,7 +4798,7 @@
           "case_id": "CASE-SG-001",
           "proof_type": "适配评分卡+路径图",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "路径图建议保留关键节点即可。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4847,7 +4852,7 @@
           "case_id": "CASE-SG-002",
           "proof_type": "院校比较矩阵截图",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "可使用院校代号展示。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4901,7 +4906,7 @@
           "case_id": "CASE-SG-003",
           "proof_type": "材料一致性检查表",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "展示表格模板而非真实材料。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -4955,7 +4960,7 @@
           "case_id": "CASE-SG-004",
           "proof_type": "双方案预算截图",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "金额建议展示区间化版本。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -5009,7 +5014,7 @@
           "case_id": "CASE-SG-005",
           "proof_type": "12周计划表+复盘记录",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "公司名称与联系人需打码。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -5063,7 +5068,7 @@
           "case_id": "CASE-SG-006",
           "proof_type": "转专业叙事模板+项目证据页",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "示例项目需脱敏。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -5117,7 +5122,7 @@
           "case_id": "CASE-SG-007",
           "proof_type": "双路径投递看板截图",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "投递公司和个人信息脱敏。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -5171,7 +5176,7 @@
           "case_id": "CASE-AU-001",
           "proof_type": "三笔账评估表+政策成本对照",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "政策截图需标注日期。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -5225,7 +5230,7 @@
           "case_id": "CASE-AU-002",
           "proof_type": "冲稳保组合表前后版本",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "院校名称可用代号。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -5279,7 +5284,7 @@
           "case_id": "CASE-AU-003",
           "proof_type": "申请甘特图+里程碑完成率图",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "时间线可不含具体个人信息。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -5333,7 +5338,7 @@
           "case_id": "CASE-AU-004",
           "proof_type": "城市成本对照表+预算复盘截图",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "具体地理位置可模糊化。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -5387,7 +5392,7 @@
           "case_id": "CASE-AU-005",
           "proof_type": "岗位-课程映射表",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "课程代码可保留，个人信息需去除。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -5441,7 +5446,7 @@
           "case_id": "CASE-AU-006",
           "proof_type": "12周执行看板+投递复盘表",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "企业和联系人打码。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -5495,7 +5500,7 @@
           "case_id": "CASE-AU-007",
           "proof_type": "offer加权终选表",
           "proof_status": "bundle_template_with_quant_slots_owner_upload_required",
-          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+          "proof_link": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
           "proof_note": "学校名可替换为A/B/C。（含公开基准，私有转化数字待你补齐）"
         },
         "next_article_bridge_cta": {
@@ -7335,11 +7340,14 @@
       },
       "professional_series_ref": "evidence/series/professional-series-map-20260218.md",
       "long_form_draft_ref": "evidence/content/publish-ready-longform-20260217.md",
+      "longform_expansion_ref": "evidence/content/longform-expansion-pack-20260218.md",
       "headline_4d_variant_ref": "evidence/headline/headline-4d-variants-20260218.md",
       "platform_rule_source_ref": "evidence/sources/platform-rule-sources-20260218.md",
       "seo_manual_fill_sheet_ref": "evidence/ops/seo-manual-fill-sheet-20260218.md",
       "policy_revalidation_round6_ref": "evidence/policy/policy-revalidation-round6-20260218.md",
-      "full_improvement_round6_ref": "evidence/ops/full-improvement-round6-20260218.md"
+      "policy_revalidation_round7_web_ref": "evidence/policy/policy-revalidation-round7-web-20260218.md",
+      "full_improvement_round6_ref": "evidence/ops/full-improvement-round6-20260218.md",
+      "full_improvement_round7_ref": "evidence/ops/full-improvement-round7-20260218.md"
     }
   },
   "source_registry": [
@@ -7410,7 +7418,7 @@
     {
       "source_id": "SRC-CASE-PROOF-INDEX-2026-02-17",
       "title": "Case Proof Index 2026-02-18",
-      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/case-proofs/index.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/case-proofs/index.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "30篇文章案例证据上传目录与状态"
@@ -7426,7 +7434,7 @@
     {
       "source_id": "SRC-HEADLINE-OPS-2026-02-17",
       "title": "Headline Variation Ops 2026-02-18",
-      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/headline/headline-variation-ops-20260217.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/headline/headline-variation-ops-20260217.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "标题去模板化规则与审稿清单。"
@@ -7434,7 +7442,7 @@
     {
       "source_id": "SRC-HEADLINE-4D-BANK-2026-02-18",
       "title": "Headline 4D Variant Bank 2026-02-18",
-      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/headline/headline-4d-variants-20260218.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/headline/headline-4d-variants-20260218.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "A01-A30 每篇4类不重复标题变体，用于跨平台AB测试。"
@@ -7506,7 +7514,7 @@
     {
       "source_id": "SRC-POLICY-WATCHLIST-2026-02-17",
       "title": "Policy Watchlist 2026-02-18",
-      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/policy/policy-watchlist-20260217.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/policy/policy-watchlist-20260217.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "英新澳高波动政策监控清单与复核动作。"
@@ -7530,7 +7538,7 @@
     {
       "source_id": "SRC-SEO-SNAPSHOT-2026-02-17",
       "title": "Internal SEO Keyword Snapshot 2026-02-18",
-      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/seo/keyword-snapshots-20260217.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/seo/keyword-snapshots-20260217.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "30篇文章关键词的知乎与小红书查询链接快照"
@@ -7538,15 +7546,15 @@
     {
       "source_id": "SRC-SEO-MANUAL-FILL-SHEET-2026-02-18",
       "title": "SEO Manual Fill Sheet 2026-02-18",
-      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/ops/seo-manual-fill-sheet-20260218.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/ops/seo-manual-fill-sheet-20260218.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
-      "notes": "高优先8篇SEO手工补录模板，含字段与截图留痕位。"
+      "notes": "A01-A30全量SEO手工补录模板，含字段与截图留痕位。"
     },
     {
       "source_id": "SRC-SERIES-MAP-2026-02-17",
       "title": "Country Series Map 2026-02-18",
-      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/series/country-series-map-20260217.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/series/country-series-map-20260217.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "四国连载链路与跨篇承接话术。"
@@ -7722,10 +7730,10 @@
     {
       "source_id": "SRC-HK-IMMD-FEES-2025",
       "title": "Fees for application for visas and entry permits",
-      "url": "https://www.immd.gov.hk/eng/services/fees/visas/fees-for-application-for-visas-and-entry-permits.html",
+      "url": "https://www.immd.gov.hk/eng/services/fees/visas/fees-for-application-for-visas-under-specifiedschemes.html",
       "publisher": "Immigration Department Hong Kong",
       "last_verified_date": "2026-02-18",
-      "notes": "2025-02-26起生效费率，用于签证/入境许可费用口径。"
+      "notes": "2025-02-26起生效费率；用于核验留学相关指定计划签证/入境许可费用口径。"
     },
     {
       "source_id": "SRC-HK-IANG-2026",
@@ -7754,7 +7762,7 @@
     {
       "source_id": "SRC-HK-IMMD-ANNUAL-REPORT-2024",
       "title": "Immigration Department Annual Report 2024",
-      "url": "https://www.immd.gov.hk/eng/publications/a_report_2024.html",
+      "url": "https://www.immd.gov.hk/publications/a_report_2024/en/chapter2.html",
       "publisher": "Immigration Department Hong Kong",
       "last_verified_date": "2026-02-18",
       "notes": "用于核验IANG累计批签与学生签证签发量。"
@@ -7794,7 +7802,7 @@
     {
       "source_id": "SRC-PLATFORM-RULE-SOURCES-2026-02-18",
       "title": "Platform Rule Sources 2026-02-18",
-      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/sources/platform-rule-sources-20260218.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/sources/platform-rule-sources-20260218.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "知乎/小红书/公众号官方规则入口与登录态说明。"
@@ -7802,7 +7810,7 @@
     {
       "source_id": "SRC-SEO-CAPTURE-VALIDATION-2026-02-18",
       "title": "SEO Capture Validation 2026-02-18",
-      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/seo/seo-capture-validation-20260218.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/seo/seo-capture-validation-20260218.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "记录SEO信号在终端环境的可得性边界与手工补录建议。"
@@ -7810,7 +7818,7 @@
     {
       "source_id": "SRC-POLICY-REVALIDATION-ROUND6-2026-02-18",
       "title": "Policy Revalidation Round 6",
-      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/policy/policy-revalidation-round6-20260218.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/policy/policy-revalidation-round6-20260218.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "记录第6轮联网复核结果与仍需owner补证项。"
@@ -7818,10 +7826,34 @@
     {
       "source_id": "SRC-FULL-IMPROVEMENT-ROUND6-2026-02-18",
       "title": "Full Improvement Round 6 Ops Note",
-      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v6/evidence/ops/full-improvement-round6-20260218.md",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/ops/full-improvement-round6-20260218.md",
       "publisher": "Internal Content Ops",
       "last_verified_date": "2026-02-18",
       "notes": "记录第6轮全量改进范围、未完成人工位与发布门槛。"
+    },
+    {
+      "source_id": "SRC-FULL-IMPROVEMENT-ROUND7-2026-02-18",
+      "title": "Full Improvement Round 7 Ops Note",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/ops/full-improvement-round7-20260218.md",
+      "publisher": "Internal Content Ops",
+      "last_verified_date": "2026-02-18",
+      "notes": "记录第7轮全量改进：LM009统一绑定与HK来源链接重校验。"
+    },
+    {
+      "source_id": "SRC-LONGFORM-EXPANSION-PACK-2026-02-18",
+      "title": "Longform Expansion Pack A01-A30",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/content/longform-expansion-pack-20260218.md",
+      "publisher": "Internal Content Ops",
+      "last_verified_date": "2026-02-18",
+      "notes": "30篇文章的公众号扩写段落块，可直接并入长文正文。"
+    },
+    {
+      "source_id": "SRC-POLICY-REVALIDATION-ROUND7-WEB-2026-02-18",
+      "title": "Policy Revalidation Round 7 Web Log",
+      "url": "https://github.com/Lukesour/QA/blob/codex/full-improvement-20260218-v7/evidence/policy/policy-revalidation-round7-web-20260218.md",
+      "publisher": "Internal Content Ops",
+      "last_verified_date": "2026-02-18",
+      "notes": "记录本轮联网核验的官方政策检查点与仍需owner补证项。"
     }
   ],
   "source_freshness_policy": {
@@ -7926,7 +7958,10 @@
           "SRC-UNBOUNCE-CONVERSION-BENCH-2025",
           "SRC-PLATFORM-RULE-SOURCES-2026-02-18",
           "SRC-POLICY-REVALIDATION-ROUND6-2026-02-18",
-          "SRC-FULL-IMPROVEMENT-ROUND6-2026-02-18"
+          "SRC-FULL-IMPROVEMENT-ROUND6-2026-02-18",
+          "SRC-FULL-IMPROVEMENT-ROUND7-2026-02-18",
+          "SRC-LONGFORM-EXPANSION-PACK-2026-02-18",
+          "SRC-POLICY-REVALIDATION-ROUND7-WEB-2026-02-18"
         ]
       },
       "low_180d": {
@@ -8012,6 +8047,13 @@
           "trigger": "full_improvement_round_6_20260218",
           "result": "policy_revalidation_round6_added_seo_manual_fill_sheet_expanded_to_30_global_survey_entry_bound_to_lm009",
           "owner_action": "按全量SEO手工表逐条回填A01-A30，并上传案例证据后再切换publish_state"
+        },
+        {
+          "log_date": "2026-02-18",
+          "scope": "lm009_trigger_unification_and_hk_source_relink",
+          "trigger": "full_improvement_round_7_20260218",
+          "result": "all_30_survey_triggers_bound_to_lm009_hk_fee_and_annual_report_urls_revalidated_round7_web_policy_log_added_case_screenshot_slots_rebound",
+          "owner_action": "继续补齐案例包与SEO登录态数值，完成后再推进规模化发布"
         }
       ],
       "next_execution_checklist": [

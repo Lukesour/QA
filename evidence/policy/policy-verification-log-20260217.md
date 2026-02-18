@@ -11,7 +11,7 @@ This log keeps the exact checkpoints verified before content updates.
 | SG | https://www.ica.gov.sg/reside/STP/collect | Student's Pass issuance S$60; Multiple Journey Visa S$30 (if applicable) | 2026-02-18 |
 | AU | https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500 | Student visa application fee AUD 2,000; generally up to 48 hours per fortnight during study period | 2026-02-18 |
 | AU | https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500 | Course session work limit 48 hours per fortnight; stay up to 6 years in line with enrolment | 2026-02-18 |
-| HK | https://www.immd.gov.hk/eng/publications/a_report_2024.html | IANG approvals exceeded 160,000 as at 2024-12-31 | 2026-02-18 |
+| HK | https://www.immd.gov.hk/publications/a_report_2024/en/chapter2.html | IANG approvals exceeded 160,000 as at 2024-12-31 | 2026-02-18 |
 | HK | https://www.immd.gov.hk/eng/services/visas/study.html | Study visa normal processing time: about 6 weeks after all required documents received | 2026-02-18 |
 | HK | https://www.immd.gov.hk/eng/services/visas/IANG.html | IANG recent graduates can be granted 24 months stay without prior job offer | 2026-02-18 |
 | AU | https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos) | 2024 domestic undergrad full-time employment 74.0% (79.0% in 2023) | 2026-02-18 |

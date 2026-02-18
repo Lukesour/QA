@@ -13,7 +13,8 @@ Use this list when updating policy-heavy content. Priority order is mandatory.
 - AU Student visa charge update news: https://www.studyaustralia.gov.au/en/tools-and-resources/news/student-visa-application-charge-increase
 - AU Student visa guide (visa options and process): https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas.html
 - AU Student visa (subclass 500): https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
-- HK Immigration annual report: https://www.immd.gov.hk/eng/publications/a_report_2024.html
+- HK Immigration annual report: https://www.immd.gov.hk/publications/a_report_2024/en/chapter2.html
+- HK visa fees under specified schemes: https://www.immd.gov.hk/eng/services/fees/visas/fees-for-application-for-visas-under-specifiedschemes.html
 - HK Study visa arrangement: https://www.immd.gov.hk/eng/services/visas/study.html
 - HK IANG arrangement: https://www.immd.gov.hk/eng/services/visas/IANG.html
 - Round revalidation note: `evidence/policy/policy-revalidation-round6-20260218.md`
@@ -64,3 +65,4 @@ Use this list when updating policy-heavy content. Priority order is mandatory.
 - For anti-bot pages, save browser screenshot + timestamp and mark `owner_fill` with blocking reason.
 - If cookie is needed, upload to `evidence/sources/cookies/` and follow `evidence/sources/cookie-upload-guide-20260217.md`.
 - Keep each policy recheck round in `evidence/policy/policy-revalidation-round6-20260218.md` style log for audit trace.
+- Latest web-based round log: `evidence/policy/policy-revalidation-round7-web-20260218.md`.

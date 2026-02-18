@@ -17,14 +17,15 @@ Use together with:
 | SG | https://www.ica.gov.sg/reside/STP/collect | Student's Pass issuance cost | Issuance SGD 60; multiple-journey visa SGD 30 (if applicable) | 2026-02-18 |
 | HK | https://www.immd.gov.hk/eng/services/visas/study.html | Study visa processing time | Normal processing about 6 weeks after all required docs received | 2026-02-18 |
 | HK | https://www.immd.gov.hk/eng/services/visas/IANG.html | IANG first stay | Normally 24 months without prior job offer (recent non-local graduates) | 2026-02-18 |
-| HK | https://www.immd.gov.hk/eng/services/fees/visas/index.html | Visa/entry permit fee policy | Entry page reachable; detailed fee lines still need browser screenshot proof for archive | 2026-02-18 |
+| HK | https://www.immd.gov.hk/eng/services/fees/visas/fees-for-application-for-visas-under-specifiedschemes.html | Visa/entry permit fee policy | Page includes HKD 600 application fee and HKD 1,300 visa/entry permit fee for stay over 180 days under specified schemes | 2026-02-18 |
+| HK | https://www.immd.gov.hk/publications/a_report_2024/en/chapter2.html | Annual report key checkpoint | IANG cumulative approvals and annual student-visa issuance data visible in chapter table | 2026-02-18 |
 | AU | https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500 | Student visa fee and work-right summary | Student visa fee A$2,000; generally up to 48 hours/fortnight during study | 2026-02-18 |
 | AU | https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500 | Subclass 500 baseline rule page | Page reachable; used as primary Home Affairs cross-check | 2026-02-18 |
 
 ## Owner-Fill Items Still Needed
 
 1. AU living-cost numeric reference screenshot from official page (if terminal render hides numeric block).
-2. HK fee detailed line screenshot archive for internal compliance evidence bundle.
+2. HK fee and annual-report screenshot archive for internal compliance evidence bundle.
 3. Platform backend screenshots (Zhihu/Xiaohongshu/WeChat) for monthly compliance proof.
 
 ## Update Decision

@@ -29,7 +29,7 @@ This file tracks high-volatility policy checkpoints used by A01-A30.
   - Effective date: 2025-02-26
   - Visa/entry permit fee for stay over 180 days under specified schemes: HKD 1,300
   - Application fee under specified schemes: HKD 600
-  - Source: https://www.immd.gov.hk/eng/services/fees/visas/fees-for-application-for-visas-and-entry-permits.html
+  - Source: https://www.immd.gov.hk/eng/services/fees/visas/fees-for-application-for-visas-under-specifiedschemes.html
 - IANG (official, Immigration Department):
   - First stay: 24 months
   - Employment-based extensions: normally 3+3 years
@@ -37,7 +37,7 @@ This file tracks high-volatility policy checkpoints used by A01-A30.
 - HK annual report checkpoint (official, Immigration Department):
   - IANG approved applications (cumulative): 164,420
   - Student visas/entry permits issued in 2024: 74,466
-  - Source: https://www.immd.gov.hk/eng/publications/a_report_2024.html
+  - Source: https://www.immd.gov.hk/publications/a_report_2024/en/chapter2.html
 
 ## Singapore
 
