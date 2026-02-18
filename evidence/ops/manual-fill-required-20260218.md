@@ -31,6 +31,7 @@
 ## 3) Conversion Integration Credentials
 
 - JSON path: `v1_2_content_system.private_conversion_funnel.extension`
+- Survey binding: `v1_2_content_system.global_interaction_config.survey_entry_asset` (LM009)
 - Manual secrets/IDs still required:
   - `MANUAL_FILL_REQUIRED_HUBSPOT_APP_ID`
   - `MANUAL_FILL_REQUIRED_TYPEFORM_FORM_ID`
@@ -55,7 +56,7 @@
 
 ## 6) Recommended Fill Order
 
-1. Fill SEO totals for top-priority 8 articles first (A01/A02/A03/A09/A17/A24/A25/A29).
+1. Fill SEO totals for all 30 articles using `evidence/ops/seo-manual-fill-sheet-20260218.md` (can still prioritize A01/A02/A03/A09/A17/A24/A25/A29 first in day-1 session).
 2. Upload case evidence for next 7 publish-day articles.
 3. Fill private funnel IDs and run one end-to-end webhook test.
 4. Complete monthly platform-rule screenshot archive before mass publishing.

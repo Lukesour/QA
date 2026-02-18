@@ -65,6 +65,7 @@ This file tracks high-volatility policy checkpoints used by A01-A30.
 - Living cost reference (official, Study Australia):
   - 12-month living cost reference: AUD 29,710
   - Source: https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas.html
+  - Validation note: if terminal rendering does not expose numeric block, keep monthly browser screenshot as audit proof.
 - Graduate outcomes benchmark (official, QILT):
   - GOS 2024 release contains >117,000 graduate responses
   - Source: https://www.qilt.edu.au/surveys/graduate-outcomes-survey-(gos)

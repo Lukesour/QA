@@ -46,3 +46,15 @@ This log keeps the exact checkpoints verified before content updates.
 - AU Study Australia page with direct fee anchor was rechecked:
   - https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500
   - checkpoint: Student visa application fee A$2,000 and study-period work restriction generally up to 48 hours per fortnight.
+
+## Round-6 Web Revalidation (2026-02-18)
+
+- Added dedicated round note: `evidence/policy/policy-revalidation-round6-20260218.md`.
+- Reconfirmed no same-day threshold change for:
+  - UK Student visa money / Graduate visa / IHS / Student visa fee.
+  - SG EP eligibility / ICA Student's Pass collection fee.
+  - HK Study visa processing and IANG first-stay window.
+  - AU student visa fee and work-right summary.
+- Unresolved browser-proof items remain in owner-fill queue:
+  - HK detailed fee screenshot archive.
+  - AU living-cost numeric screenshot when terminal page does not expose static value.

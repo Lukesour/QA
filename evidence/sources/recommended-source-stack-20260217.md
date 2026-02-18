@@ -16,6 +16,7 @@ Use this list when updating policy-heavy content. Priority order is mandatory.
 - HK Immigration annual report: https://www.immd.gov.hk/eng/publications/a_report_2024.html
 - HK Study visa arrangement: https://www.immd.gov.hk/eng/services/visas/study.html
 - HK IANG arrangement: https://www.immd.gov.hk/eng/services/visas/IANG.html
+- Round revalidation note: `evidence/policy/policy-revalidation-round6-20260218.md`
 
 ## P0 Platform Compliance (Publishing Rules)
 
@@ -62,3 +63,4 @@ Use this list when updating policy-heavy content. Priority order is mandatory.
 - Every evidence module must include `as_of` date and `not_applicable_group`.
 - For anti-bot pages, save browser screenshot + timestamp and mark `owner_fill` with blocking reason.
 - If cookie is needed, upload to `evidence/sources/cookies/` and follow `evidence/sources/cookie-upload-guide-20260217.md`.
+- Keep each policy recheck round in `evidence/policy/policy-revalidation-round6-20260218.md` style log for audit trace.
