@@ -37,9 +37,9 @@
 - Completed in this round:
   - A01-A30 `cta_ladder.survey_trigger` 已统一绑定 LM009 文案。
 - Manual secrets/IDs still required:
-  - `MANUAL_FILL_REQUIRED_HUBSPOT_APP_ID`
-  - `MANUAL_FILL_REQUIRED_TYPEFORM_FORM_ID`
-  - `MANUAL_FILL_REQUIRED_CALENDLY_ORGANIZATION_URI`
+  - `[待你填写_HUBSPOT_APP_ID]`
+  - `[待你填写_TYPEFORM_FORM_ID]`
+  - `[待你填写_CALENDLY_ORGANIZATION_URI]`
   - Webhook target URLs and PAT/tokens
 
 ## 4) Source Access Gaps Requiring Browser/Open Manual Validation

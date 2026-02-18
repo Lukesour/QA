@@ -22,9 +22,9 @@ Track conversion by article ID through 4 nodes:
 | consultation | consult_book_rate / consult_show_rate | ready_in_blueprint | no |
 | revenue | deal_rate / deal_amount | ready_in_blueprint | no |
 | all nodes | workspace domain | waiting_key | yes |
-| hubspot | app_id | waiting_key | yes (`MANUAL_FILL_REQUIRED_HUBSPOT_APP_ID`) |
-| typeform | form_id | waiting_key | yes (`MANUAL_FILL_REQUIRED_TYPEFORM_FORM_ID`) |
-| calendly | organization_uri | waiting_key | yes (`MANUAL_FILL_REQUIRED_CALENDLY_ORGANIZATION_URI`) |
+| hubspot | app_id | waiting_key | yes (`[待你填写_HUBSPOT_APP_ID]`) |
+| typeform | form_id | waiting_key | yes (`[待你填写_TYPEFORM_FORM_ID]`) |
+| calendly | organization_uri | waiting_key | yes (`[待你填写_CALENDLY_ORGANIZATION_URI]`) |
 
 ## UTM and Hidden Field Rule
 
@@ -43,6 +43,6 @@ Track conversion by article ID through 4 nodes:
 
 ## Owner Fill Block
 
-- webhook_domain: `MANUAL_FILL_REQUIRED_DOMAIN`
-- data_warehouse_table: `MANUAL_FILL_REQUIRED_TABLE`
-- sales_owner_mapping: `MANUAL_FILL_REQUIRED_OWNER_MAP`
+- webhook_domain: `[待你填写_WEBHOOK_DOMAIN]`
+- data_warehouse_table: `[待你填写_DATA_WAREHOUSE_TABLE]`
+- sales_owner_mapping: `[待你填写_SALES_OWNER_MAPPING]`
